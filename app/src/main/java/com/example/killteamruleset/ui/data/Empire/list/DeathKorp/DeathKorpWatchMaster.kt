@@ -113,12 +113,6 @@ val DeathKorpWatchMaster = Operative(
             description = "If this Operative is in the killzone. Select one enemy operative. Whenever a friendly" +
                           " DEATH KORP Operative is shooting, fighting or retaliating against that enemy Operative" +
                           ", that friendly Operative´s weapons have the Punishing weapon rule."
-        ),
-        Ability(
-            title = "Control Protocol",
-            usage = "FireFight Phase, Every Turn",
-            description = "You can use the ploy Command Override Firefight ploy for free, if the " +
-                    "specified friendly HUNTER CLADE operative is visible to this operative."
         )
     ),
 
