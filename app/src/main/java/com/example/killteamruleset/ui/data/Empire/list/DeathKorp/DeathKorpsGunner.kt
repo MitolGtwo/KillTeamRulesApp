@@ -1,4 +1,4 @@
-
+package com.example.killteamruleset.ui.data.Empire.list.DeathKorps
 
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
