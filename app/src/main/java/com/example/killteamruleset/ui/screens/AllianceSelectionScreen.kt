@@ -1,29 +1,27 @@
 package com.example.killteamruleset.ui.screens
 
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.AllianceHeader
-import com.example.killteamruleset.ui.components.TeamRow
-import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Alliance
-import com.example.killteamruleset.ui.model.Team
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.text.font.FontWeight
+import com.example.killteamruleset.ui.components.AllianceSection
+import com.example.killteamruleset.ui.model.Team
 
 
 @Composable
 fun AllianceSelectionScreen(
-    onAllianceSelected: (Alliance) -> Unit
+    onTeamSelected: (Team) -> Unit
 ) {
+    var expandedAlliance by remember { mutableStateOf<Alliance?>(null) }
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -31,32 +29,43 @@ fun AllianceSelectionScreen(
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
 
-        // Title
         Text(
             text = "Select Alliance",
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold
         )
 
-        // Imperium
-        AllianceHeader(
+        AllianceSection(
             alliance = Alliance.IMPERIUM,
-            expanded = false,
-            onClick = { onAllianceSelected(Alliance.IMPERIUM) }
+            expanded = expandedAlliance == Alliance.IMPERIUM,
+            onHeaderClick = {
+                expandedAlliance =
+                    if (expandedAlliance == Alliance.IMPERIUM) null
+                    else Alliance.IMPERIUM
+            },
+            onTeamClick = onTeamSelected
         )
 
-        // Chaos
-        AllianceHeader(
+        AllianceSection(
             alliance = Alliance.CHAOS,
-            expanded = false,
-            onClick = { onAllianceSelected(Alliance.CHAOS) }
+            expanded = expandedAlliance == Alliance.CHAOS,
+            onHeaderClick = {
+                expandedAlliance =
+                    if (expandedAlliance == Alliance.CHAOS) null
+                    else Alliance.CHAOS
+            },
+            onTeamClick = onTeamSelected
         )
 
-        // Xenos
-        AllianceHeader(
+        AllianceSection(
             alliance = Alliance.XENOS,
-            expanded = false,
-            onClick = { onAllianceSelected(Alliance.XENOS) }
+            expanded = expandedAlliance == Alliance.XENOS,
+            onHeaderClick = {
+                expandedAlliance =
+                    if (expandedAlliance == Alliance.XENOS) null
+                    else Alliance.XENOS
+            },
+            onTeamClick = onTeamSelected
         )
     }
 }

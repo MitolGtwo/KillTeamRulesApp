@@ -48,14 +48,14 @@ val DeathKorpMedic = Operative(
                 ", if this rule is used during that other Operative activation, it´s activation ends.\n" +
                 "You cannot use this rule if this operative is incapacitated, or if it´s a Shoot action and this" +
                 " Operative would be a primary or secondary target."
-        )
+        ),
         Ability(
             title = "MEDKIT",
             usage = "1 APL",
             description = "Select one friendly DEATHKORPS Operative within this Operative´s control range" +
                 " to regain up to 2D3 lost wounds. It cannot be used on an Operative which benefit from the" +
                 " rule Medic! this turning point.\n\nThis Operative Cannot perform this action while within" +
-                "control range of an enemy Operative." +
+                "control range of an enemy Operative."
         )
     ),
     keywords = listOf(

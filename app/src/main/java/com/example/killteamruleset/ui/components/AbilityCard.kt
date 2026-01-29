@@ -1,8 +1,6 @@
 package com.example.killteamruleset.ui.components
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -25,21 +23,26 @@ fun AbilityCard(
 ) {
     Card(
         modifier = Modifier.fillMaxWidth(),
-        shape = RoundedCornerShape(8.dp)
+        shape = RoundedCornerShape(8.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
 
             Text(
                 text = ability.title,
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
             )
 
-            Text(
-                text = ability.usage,
-                style = MaterialTheme.typography.labelSmall
-            )
+            Spacer(Modifier.height(4.dp))
 
-            Spacer(Modifier.height(6.dp))
+            AbilityUsageChip(ability.usage)
+
+            Spacer(Modifier.height(8.dp))
+
+            AbilityIconRow(ability.icons) // 👈 OPTIONAL ICONS HERE
 
             AbilityDescriptionText(
                 text = ability.description,

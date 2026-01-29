@@ -54,7 +54,7 @@ val SkitariiRangerDiktat = Operative(
             usage = "1 APL Action",
             description = "SUPPORT. Select one other friendly HUNTER CLADE Operative visible to and" +
                     " within 6\" of this Operative. Until the end of that Operative´s next activation" +
-                    ", add 1 to its APL stat.\n \n *This operative CANNOT perform this action while within" +
+                    ", add 1 to its APL stat.\n\nThis operative CANNOT perform this action while within" +
                     " control range of an enemy Operative."
         )
     ),

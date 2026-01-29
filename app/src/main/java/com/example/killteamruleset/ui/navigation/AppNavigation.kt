@@ -27,8 +27,8 @@ fun AppNavigation() {
         // ─────────────────────────
         composable("alliances") {
             AllianceSelectionScreen(
-                onAllianceSelected = { alliance ->
-                    navController.navigate("teams/${alliance.name}")
+                onTeamSelected = { team ->
+                    navController.navigate("team/${team.id}")
                 }
             )
         }

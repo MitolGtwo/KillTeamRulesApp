@@ -57,7 +57,7 @@ val TankbustaGunner= Operative(
             title = "Kompetitive Streak",
             usage = "Passive",
             description = "Once per Shoot action, if this operative shoots an enemy Operative that" +
-                    " another friendly operative has already shot during this turning point, you" +
+                    " another friendly operative has already Shot during this turning point, you" +
                     " gain 1 Wrecka point. Determine this when you select a valid target, but you can" +
                     "include any secondary targets when doing so (Ex from the Blast weapon rule)."
         )

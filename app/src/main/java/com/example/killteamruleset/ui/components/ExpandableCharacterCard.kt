@@ -32,7 +32,6 @@ fun ExpandableCharacterCard(
                 modifier = Modifier
                     .fillMaxWidth()
                     .clickable { expanded = !expanded }
-                    .padding(16.dp)
             ) {
                 CharacterHeader(
                     name = operative.name,

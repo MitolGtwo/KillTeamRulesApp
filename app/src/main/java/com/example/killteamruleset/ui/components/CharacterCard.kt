@@ -15,19 +15,14 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.KeywordInfo
-import com.example.killteamruleset.ui.model.KeywordRepository
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.WeaponProfile
-import com.example.killteamruleset.ui.model.WeaponType
 
 
 // ---------- MAIN CARD ----------
@@ -104,12 +99,19 @@ fun CharacterHeader(
     name: String,
     imageRes: Int
 ) {
-    Box(modifier = Modifier.fillMaxWidth()) {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(MaterialTheme.colorScheme.surfaceVariant)
+            .padding(16.dp)
+
+    ) {
 
         Text(
             text = name,
             style = MaterialTheme.typography.titleLarge,
             fontWeight = FontWeight.Bold,
+            color = MaterialTheme.colorScheme.onSurface,
             modifier = Modifier
                 .align(Alignment.CenterStart)
                 .padding(end = 110.dp)
@@ -182,7 +184,7 @@ fun WeaponTableHeader() {
     }
 }
 
-@Composable
+/*@Composable
 fun WeaponRow(
     weapon: WeaponProfile,
     onKeywordClick: (KeywordInfo) -> Unit
@@ -233,6 +235,8 @@ fun WeaponRow(
         Spacer(Modifier.height(10.dp))
     }
 }
+*/
+
 // ---------- ABILITIES ----------
 
 

@@ -75,7 +75,7 @@ val MalignantPlaguecaster= Operative(
     abilities = listOf(
         Ability(
             title = "POISONOUS MIASMA",
-            usage = "1 AP/Select enemy",
+            usage = "1 APL/Select enemy",
             description = "Psychic Select one enemy operative visible and within 7\" of this operative" +
                     " or one enemy Operative that´s a valid target for this Operative. That enemy" +
                     " Operative gains one of your Poison tokens. If it has one already, inflict 3" +
@@ -84,7 +84,7 @@ val MalignantPlaguecaster= Operative(
         ),
         Ability(
             title = "PUTRESCENT VITALITY",
-            usage = "1 AP/Select ally",
+            usage = "1 APL/Select ally",
             description = "Psychic select one friendly operative visible and within 3\" of this " +
                     " Operative, then roll 2D6: if the result is 7, the selected Operative regains" +
                     " 7 lost wounds; otherwise, the selected Operative regains wounds equal to the" +
