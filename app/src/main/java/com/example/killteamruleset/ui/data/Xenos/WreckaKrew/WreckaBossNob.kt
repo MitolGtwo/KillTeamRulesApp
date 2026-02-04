@@ -10,13 +10,12 @@ import com.example.killteamruleset.ui.model.Ceaseless
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Range
-import com.example.killteamruleset.ui.model.Salvo
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
 val WreckaBossNob = Operative(
     name = "Wrecka Boss Nob ",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.bossnob,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
@@ -56,8 +55,8 @@ val WreckaBossNob = Operative(
             keywords = listOf(
                 Range(8),
                 Blast(1),
-                Salvo
-            )
+            ),
+            extraRules = listOf("*Salvo")
         ),
         WeaponProfile(
             name = "The good ´ol Choppa",
@@ -86,12 +85,25 @@ val WreckaBossNob = Operative(
         Ability(
             title = "Wrecka Boss",
             usage = "Passive",
-            description = "Whenever this operative performs the Shoot or Fight action (Excluding " +
-                    "Guard), you gain 1 Wrecka point"
+            description = "Whenever this operative performs the **Shoot** or **Fight** action (Excluding " +
+                    "**Guard**), you gain 1 Wrecka point"
+        ),
+        Ability(
+            title = "Salvo",
+            usage = "Special Weapon Rule",
+            description = "Select up to Two different valid targets that aren´t within control range of friendly" +
+                " Operatives. Shoot with this weapon against both primary targets in an order of your" +
+                " choice, then against all remaining secondary targets if any. Each target (primary" +
+                " and secondary) cannot be shot more than once during the action"
         )
+
+
     ),
 
-
+/*"Select up to Two different valid targets that aren´t within control range of friendly" +
+                " Operatives. Shoot with this weapon against both primary targets in an order of your" +
+                " choice, then against all remaining secondary targets if any. Each target (primary " +
+                "and secondary) cannot be shot more than once during the action."*/
     keywords = listOf(
         "WRECKA KREW",
         "ORK",

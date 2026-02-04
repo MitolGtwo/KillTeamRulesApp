@@ -30,24 +30,34 @@ fun AbilityCard(
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
 
-            Text(
-                text = ability.title,
-                fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onSurfaceVariant
-            )
+            ability.title?.let { title ->
+                Text(
+                    text = title,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
 
             Spacer(Modifier.height(4.dp))
 
-            AbilityUsageChip(ability.usage)
+            ability.usage?.let{
+                Text(
+                    text = it,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.primary
+                )
+            }
 
             Spacer(Modifier.height(8.dp))
 
-            AbilityIconRow(ability.icons) // 👈 OPTIONAL ICONS HERE
+            /*AbilityIconRow(ability.icons) // 👈 OPTIONAL ICONS HERE*/
 
-            AbilityDescriptionText(
-                text = ability.description,
-                onKeywordClick = onKeywordClick
-            )
+            ability.description?.let { description ->
+                AbilityDescriptionText(
+                    text = description,
+                    onKeywordClick = onKeywordClick
+                )
+            }
         }
     }
 }

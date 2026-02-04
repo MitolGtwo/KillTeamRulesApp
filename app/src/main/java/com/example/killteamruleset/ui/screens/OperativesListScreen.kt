@@ -23,8 +23,11 @@ fun OperativesListScreen(
 ) {
     var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
 
-    Column(modifier = Modifier.fillMaxSize()) {
-
+    Column(modifier = Modifier
+        .fillMaxSize()
+        .navigationBarsPadding()
+    )
+    {
         TextButton(
             onClick = onBack,
             modifier = Modifier.padding(16.dp)

@@ -4,8 +4,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val DeathKorpMedic = Operative(
-    name = "Death Korp Medic",
+val DeathKorpsMedic = Operative(
+    name = "Death Korps Medic",
     imageRes = R.drawable.alpharanger,
     stats = OperativeStats(
         apl = 2,

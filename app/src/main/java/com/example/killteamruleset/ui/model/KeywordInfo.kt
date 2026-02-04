@@ -75,17 +75,10 @@ object Concealed_Position : KeywordInfo() {
     override val name = "Concealed Position"
 }
 
-object Detonate : KeywordInfo() {
-    override val name = "Detonate"
-}
-
-object Explosive : KeywordInfo() {
-    override val name = "Explosive"
-}
-
 object Hot : KeywordInfo() {
     override val name = "Hot"
 }
+
 
 object Obscure : KeywordInfo() {
     override val name = "Obscure"
@@ -103,9 +96,6 @@ object Poison : KeywordInfo() {
     override val name = "Poison"
 }
 
-object Pulsa : KeywordInfo() {
-    override val name = "Pulsa"
-}
 
 object Relentless : KeywordInfo() {
     override val name = "Relentless"
@@ -113,10 +103,6 @@ object Relentless : KeywordInfo() {
 
 object Rending : KeywordInfo() {
     override val name = "Rending"
-}
-
-object Salvo : KeywordInfo() {
-    override val name = "Salvo"
 }
 
 object Saturate : KeywordInfo() {
@@ -141,10 +127,6 @@ object Shock : KeywordInfo() {
 
 object Silent : KeywordInfo() {
     override val name = "Silent"
-}
-
-object Smash : KeywordInfo() {
-    override val name = "Smash"
 }
 
 object Stun : KeywordInfo() {

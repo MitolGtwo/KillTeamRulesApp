@@ -4,8 +4,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val DeathKorpSapper = Operative(
-    name = "Death Korp Sapper",
+val DeathKorpsSapper = Operative(
+    name = "Death Korps Sapper",
     imageRes = R.drawable.alpharanger,
     stats = OperativeStats(
         apl = 2,
@@ -34,8 +34,8 @@ val DeathKorpSapper = Operative(
               Limited(1),
               Piercing(1),
               Silent,
-              Detonate
-            )
+            ),
+           extraRules = listOf("*Detonate")
         ),
         WeaponProfile(
             name = "Bayonet",
@@ -48,6 +48,7 @@ val DeathKorpSapper = Operative(
         )
     ),
 
+
     abilities = listOf(
         Ability(
             title = "Mine Layer",
@@ -55,18 +56,18 @@ val DeathKorpSapper = Operative(
             description = "This Operative is carrying your Mine marker. It can perform the" +
                 " Pick Up Marker action on that marker, and whenever it performs the Place" +
                 " Marker action on that marker, it can perform a free Dash action."
-        )
+        ),
 
         Ability(
             title = "Detonate",
-            usage = "Shooting Remote Detonator",
+            usage = "Special Weapon Rule",
             description = "Don´t select a valid target, shoot against each operative within 2\"" +
                 " of your Mine marker, unless heavy terrain is wholly intervening between that" +
                 " Operative and that marker. Each valid target cannot be in cover or obscured" +
                 ". Roll for each Operative.\nThis weapon cannot be selected if your Mine marker" +
                 " is not in the killzone, after shooting this weapon the Mine marker is removed" +
                 " from the killzone. In a killzone that use close quarter rule, this weapon has" +
-                "Lethal 5+ weapon rule."
+                " Lethal 5+ weapon rule."
         )
         
     ),

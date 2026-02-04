@@ -4,8 +4,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val DeathKorpTrooper = Operative(
-    name = "Death Korp Trooper",
+val DeathKorpsTrooper = Operative(
+    name = "Death Korps Trooper",
     imageRes = R.drawable.alpharanger,
     stats = OperativeStats(
         apl = 2,
@@ -43,7 +43,8 @@ val DeathKorpTrooper = Operative(
                           " opponent activates. When that operative is expended, your opponent then" +
                           " activates as normal(you cannot activate more than two Operatives before" +
                           " your opponent with this rule)."
-        
+
+        )
     ),
     keywords = listOf(
         "DEATH KORP",
@@ -54,3 +55,4 @@ val DeathKorpTrooper = Operative(
 
     )
 )
+

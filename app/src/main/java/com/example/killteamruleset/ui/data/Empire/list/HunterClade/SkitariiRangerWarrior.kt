@@ -43,7 +43,7 @@ val SkitariiRangerWarrior = Operative(
                 title = "Targeting Protocol",
                 usage = "Passive",
                 description = "Whenever this operative is shooting, if it hasn't move before during its " +
-                        "activation, or if is a counteraction, all its range weapons have the Lethal 5+ " +
+                        "activation, or if is a counteraction, all its range weapons have the Lethal 5+" +
                         "weapon rule. Note this operative can perform a normal move action after the shoot action."
             )
         ),

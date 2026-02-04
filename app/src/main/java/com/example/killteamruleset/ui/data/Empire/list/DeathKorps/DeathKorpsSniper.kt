@@ -4,8 +4,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val DeathKorpSniper = Operative(
-    name = "Death Korp Sniper",
+val DeathKorpsSniper = Operative(
+    name = "Death Korps Sniper",
     imageRes = R.drawable.alpharanger,
     stats = OperativeStats(
         apl = 2,
@@ -24,7 +24,7 @@ val DeathKorpSniper = Operative(
               Devastating(3),
               Heavy(""),
               Silent,
-              Concealed Position
+                Concealed_Position
             )
         ),
        WeaponProfile(

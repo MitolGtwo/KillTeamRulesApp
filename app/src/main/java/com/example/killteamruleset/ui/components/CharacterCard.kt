@@ -5,8 +5,6 @@ import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -15,15 +13,17 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.zIndex
 import com.example.killteamruleset.ui.model.KeywordInfo
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
-import com.example.killteamruleset.ui.model.WeaponProfile
-
 
 // ---------- MAIN CARD ----------
 
@@ -45,6 +45,7 @@ fun CharacterCard(
             modifier = Modifier
                 .padding(16.dp)
                 .verticalScroll(rememberScrollState())
+                .navigationBarsPadding()
         ) {
 
             CharacterHeader(
@@ -102,37 +103,40 @@ fun CharacterHeader(
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .background(MaterialTheme.colorScheme.surfaceVariant)
-            .padding(16.dp)
-
+            .height(160.dp)
+            .padding(horizontal = 16.dp)
     ) {
 
-        Text(
-            text = name,
-            style = MaterialTheme.typography.titleLarge,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.onSurface,
+        // 🧍 CHARACTER IMAGE (background layer)
+        Image(
+            painter = painterResource(imageRes),
+            contentDescription = null,
+            contentScale = ContentScale.Fit,
             modifier = Modifier
-                .align(Alignment.CenterStart)
-                .padding(end = 110.dp)
+                .align(Alignment.BottomEnd)
+                .fillMaxHeight()
+                .offset(x = 20.dp) // 👈 move character to the right
         )
 
-        AnimatedVisibility(
-            visible = true,
-            enter = slideInVertically(
-                initialOffsetY = { it / 2 }
-            ) + fadeIn(),
-            modifier = Modifier.align(Alignment.TopEnd)
-        ) {
-            Image(
-                painter = painterResource(imageRes),
-                contentDescription = null,
-                modifier = Modifier.size(100.dp)
-            )
-        }
+        // 🏷 NAME (foreground layer)
+        Text(
+            text = name,
+            style = MaterialTheme.typography.titleLarge.copy(
+                shadow = Shadow(
+                    color = Color.Black,
+                    offset = Offset(2f, 2f),
+                    blurRadius = 6f
+                )
+            ),
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier
+                .align(Alignment.CenterStart)
+                .zIndex(1f) // 👈 ensure it renders on top
+                .padding(end = 120.dp) // 👈 breathing room from image
+        )
     }
 }
-
 
 // ---------- STATS ----------
 
@@ -184,65 +188,6 @@ fun WeaponTableHeader() {
     }
 }
 
-/*@Composable
-fun WeaponRow(
-    weapon: WeaponProfile,
-    onKeywordClick: (KeywordInfo) -> Unit
-) {
-    Column {
-
-        // 🔹 TOP LINE (NAME + STATS)
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-
-            Text(
-                text = weapon.name,
-                fontWeight = FontWeight.Bold,
-                modifier = Modifier.weight(1f)
-            )
-
-            Row(horizontalArrangement = Arrangement.spacedBy(20.dp)) {
-                Text(
-                    text = weapon.attacks.toString(),
-                    fontWeight = FontWeight.Bold
-                )
-                Text(weapon.hit)
-                Text(weapon.damage)
-            }
-        }
-
-        // 🔹 KEYWORDS LINE
-        FlowRow(
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(4.dp),
-            modifier = Modifier.padding(top = 4.dp)
-        ) {
-            weapon.keywords.forEach { keyword ->
-                Text(
-                    text = keyword.displayName,
-                    style = MaterialTheme.typography.bodySmall.copy(
-                        textDecoration = TextDecoration.Underline
-                    ),
-                    modifier = Modifier.clickable {
-                        onKeywordClick(keyword)
-                    }
-                )
-            }
-        }
-
-        Spacer(Modifier.height(10.dp))
-    }
-}
-*/
-
-// ---------- ABILITIES ----------
-
-
-
-// ---------- FOOTER ----------
-
 @Composable
 fun FooterKeywords(
     keywords: List<String>
@@ -262,11 +207,3 @@ fun FooterKeywords(
         }
     }
 }
-/*@Preview(showBackground = true)
-@Composable
-fun CharacterCardPreview() {
-    MaterialTheme {
-        CharacterCard()
-    }
-}
-*/

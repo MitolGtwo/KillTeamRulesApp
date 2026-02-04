@@ -5,9 +5,12 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -26,79 +29,92 @@ import com.example.killteamruleset.R
 @Composable
 fun AbilityDescriptionText(
     text: String,
-    onKeywordClick: (KeywordInfo) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    enableKeywords: Boolean = true,
+    arrowColor: Color = Color(0xFF4CAF50),
+    crossColor: Color = Color.Red,
+    backgroundColor: Color? = null,
+    textColor: Color = MaterialTheme.colorScheme.onSurfaceVariant,
+    onKeywordClick: (KeywordInfo) -> Unit = {}
 ) {
     val paragraphs = text.split("\n\n")
 
-    Column(
-        modifier = modifier,
-        verticalArrangement = Arrangement.spacedBy(8.dp)
-    ) {
-        paragraphs.forEachIndexed { index, paragraph ->
+    val content: @Composable () -> Unit = {
+        Column(
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            paragraphs.forEachIndexed { index, paragraph ->
 
-            val isRestriction = index == 1 // second paragraph = restriction ❌
+                val isRestriction = index == 1
 
-            Row(
-                verticalAlignment = Alignment.Top,
-                horizontalArrangement = Arrangement.spacedBy(6.dp)
-            ) {
+                Row(
+                    verticalAlignment = Alignment.Top,
+                    horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    Icon(
+                        painter = painterResource(
+                            if (isRestriction) R.drawable.cross else R.drawable.arrow
+                        ),
+                        contentDescription = null,
+                        tint = if (isRestriction) crossColor else arrowColor,
+                        modifier = Modifier
+                            .size(16.dp)
+                            .padding(top = 2.dp)
+                    )
 
-                // ICON
-                Icon(
-                    painter = painterResource(
-                        id = if (isRestriction)
-                            R.drawable.cross
-                        else
-                            R.drawable.arrow
-                    ),
-                    contentDescription = null,
-                    tint = if (isRestriction)
-                        Color.Red
-                    else
-                        Color(0xFF4CAF50), // green
-                    modifier = Modifier
-                        .size(16.dp)
-                        .padding(top = 2.dp)
-                )
-
-                // TEXT (clickable + keywords)
-                KeywordClickableText(
-                    text = paragraph,
-                    onKeywordClick = onKeywordClick
-                )
+                    RichText(
+                        text = paragraph,
+                        /*style = MaterialTheme.typography.bodySmall,*/
+                        color = textColor
+                    )
+                }
             }
         }
     }
-}
 
+    if (backgroundColor != null) {
+        Surface(
+            color = MaterialTheme.colorScheme.surface,
+            shape = RoundedCornerShape(8.dp),
+            modifier = modifier
+        ) {
+            Column(Modifier.padding(12.dp)) {
+                content()
+            }
+        }
+    } else {
+        content()
+    }
+}
 @Composable
 fun KeywordClickableText(
     text: String,
     onKeywordClick: (KeywordInfo) -> Unit
 ) {
     val annotatedString = buildAnnotatedString {
-        var index = 0
-        val keywords = KeywordRepository.allKeywords
 
-        while (index < text.length) {
+        var currentIndex = 0
+        val matches = mutableListOf<Pair<Int, KeywordInfo>>()
 
-            val match = keywords
-                .mapNotNull { keyword ->
-                    val start = text.indexOf(keyword.displayName, index, ignoreCase = true)
-                    if (start >= 0) keyword to start else null
-                }
-                .minByOrNull { it.second }
+        KeywordRepository.allKeywords.forEach { keyword ->
+            val regex = Regex(
+                "\\b${Regex.escape(keyword.displayName)}\\b",
+                RegexOption.IGNORE_CASE
+            )
 
-            if (match == null) {
-                append(text.substring(index))
-                break
+            regex.findAll(text).forEach { match ->
+                matches.add(match.range.first to keyword)
             }
+        }
 
-            val (keyword, start) = match
-            append(text.substring(index, start))
+        matches.sortBy { it.first }
 
-            pushStringAnnotation("KEYWORD", keyword.name)
+        for ((start, keyword) in matches) {
+            if (start < currentIndex) continue
+
+            append(text.substring(currentIndex, start))
+
+            pushStringAnnotation("KEYWORD", keyword.displayName)
             withStyle(
                 SpanStyle(
                     color = MaterialTheme.colorScheme.primary,
@@ -110,7 +126,11 @@ fun KeywordClickableText(
             }
             pop()
 
-            index = start + keyword.displayName.length
+            currentIndex = start + keyword.displayName.length
+        }
+
+        if (currentIndex < text.length) {
+            append(text.substring(currentIndex))
         }
     }
 

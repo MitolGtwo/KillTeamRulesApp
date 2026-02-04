@@ -12,5 +12,8 @@ data class Team(
     val name: String,
     val alliance: Alliance,
     val difficulty: String,
-    val archetype: String
+    val archetypes: List<Archetypes>,
+    val backgroundRes: Int,
+    val factionRulesBackgroundRes: Int,
+    val assemblyPdfAsset: String
 )

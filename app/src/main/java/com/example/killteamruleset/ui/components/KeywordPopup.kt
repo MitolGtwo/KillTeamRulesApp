@@ -25,7 +25,7 @@ fun KeywordPopup(
                 .fillMaxWidth()
                 .padding(16.dp)
                 .background(
-                    color = MaterialTheme.colorScheme.surface,
+                    color = MaterialTheme.colorScheme.surfaceVariant,
                     shape = RoundedCornerShape(12.dp)
                 )
         ) {

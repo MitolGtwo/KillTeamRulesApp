@@ -28,15 +28,20 @@ fun ExpandableCharacterCard(
         Column {
 
             // HEADER
+
+
             Box(
                 modifier = Modifier
                     .fillMaxWidth()
+                    .height(120.dp) // 👈 REQUIRED
                     .clickable { expanded = !expanded }
             ) {
-                CharacterHeader(
-                    name = operative.name,
-                    imageRes = operative.imageRes
-                )
+                KillTeamBackground {
+                    CharacterHeader(
+                        name = operative.name,
+                        imageRes = operative.imageRes
+                    )
+                }
             }
 
             // BODY
@@ -45,7 +50,10 @@ fun ExpandableCharacterCard(
                 enter = expandVertically() + fadeIn(),
                 exit = shrinkVertically() + fadeOut()
             ) {
-                Column(modifier = Modifier.padding(16.dp)) {
+                Column(modifier = Modifier.
+                padding(16.dp)
+                .navigationBarsPadding())
+                {
 
                     StatsRow(operative.stats)
 

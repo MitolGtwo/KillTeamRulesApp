@@ -7,7 +7,6 @@ import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Limited
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
-import com.example.killteamruleset.ui.model.Pulsa
 import com.example.killteamruleset.ui.model.Relentless
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
@@ -15,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val TankbustaRokkiteer= Operative(
     name = "Tankbusta Rokkiteer",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.wrecka_rokkiter,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
@@ -32,8 +31,8 @@ val TankbustaRokkiteer= Operative(
             keywords = listOf(
                 Heavy("Reposition Only"),
                 Limited(1),
-                Pulsa
-            )
+            ),
+            extraRules = listOf("*Pulsa")
         ),
         WeaponProfile(
             name = "Rokkit Rack",
@@ -79,6 +78,16 @@ val TankbustaRokkiteer= Operative(
                     "Cumulative with being injured.\nIn the Ready step of each Strategy phase, " +
                     "subtract 1 from your Pulsa marker´s points, If it reaches 0 points, remove it.\n" +
                     "(In practice, your Pulsa area of effect is smaller every turning pont.) "
+        ),
+        Ability(
+            title = "Pulsa",
+            usage = "Special Weapon Rule",
+            description = "Don´t select a valid target, place your Pulsa marker visible to this operative, or" +
+                " on Vantage terrain of a terrain feature that is visible to this operative. That marker" +
+                " gains 1 Pulsa point, then roll attack dice as normal.\n It gains 1 additional Pulsa" +
+                " point for each success(up to 3 additional points). \n This token has an area of effect" +
+                " equal to its pulsa points, every point is 1\" of additional distance (To a max of 4\")." +
+                "\n Deal D3 damage on each operative wholly within your Pulsa marker range(Roll for each)."
         )
     ),
     keywords = listOf(

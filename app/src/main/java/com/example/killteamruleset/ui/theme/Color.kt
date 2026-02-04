@@ -6,7 +6,9 @@ import androidx.compose.ui.graphics.Color
 val DarkBlueBackground = Color(0xFF2B2C2C)
 val DarkBlueSurface = Color(0xFF1B263B)
 val Orange = Color(0xFFC53939)
-val Black = Color(0xFF000000)
+val Black = Color(0xFF020202)
+
+val Cream = Color(0xFFECE2E2)
 
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -21,8 +23,9 @@ val KillTeamDarkColorScheme = darkColorScheme(
     surfaceVariant = Black,
     outline=Orange,
     background = DarkBlueBackground,
-    surface = Black,
+    surface = Cream,
     onSurface = Color.White,
     onBackground = Color.White,
-    primary = Orange
+    primary = Orange,
+    onPrimary = Color.White,
 )

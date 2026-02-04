@@ -1,7 +1,9 @@
 package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.ui.model.Alliance
+import com.example.killteamruleset.ui.model.Archetypes
 import com.example.killteamruleset.ui.model.Team
+import com.example.killteamruleset.R
 
 
 object TeamRepository {
@@ -12,21 +14,40 @@ object TeamRepository {
             name = "Hunter Clade",
             alliance = Alliance.IMPERIUM,
             difficulty = "Hard",
-            archetype ="Recon/Seek and Destroy"
+            archetypes = listOf(Archetypes.RECON,Archetypes.SEEK_AND_DESTROY),
+            factionRulesBackgroundRes = R.drawable.wrecka_krew_bg,
+            backgroundRes = R.drawable.wrecka_bg,
+            assemblyPdfAsset = "pdf/wrecka_assembly.pdf"
+        ),
+        Team(
+            id = "death_Korps",
+            name = "Death Korps",
+            alliance = Alliance.IMPERIUM,
+            difficulty = "Hard",
+            archetypes =listOf(Archetypes.RECON,Archetypes.SEEK_AND_DESTROY),
+            factionRulesBackgroundRes = R.drawable.wrecka_krew_bg,
+            backgroundRes = R.drawable.wrecka_bg,
+            assemblyPdfAsset = "pdf/wrecka_assembly.pdf"
         ),
         Team(
             id = "plague_marines",
             name = "Plague Marines",
             alliance = Alliance.CHAOS,
             difficulty = "Easy",
-            archetype ="Security/Seek and Destroy"
+            archetypes =listOf(Archetypes.RECON,Archetypes.SEEK_AND_DESTROY),
+            factionRulesBackgroundRes = R.drawable.wrecka_krew_bg,
+            backgroundRes = R.drawable.wrecka_bg,
+            assemblyPdfAsset = "pdf/wrecka_assembly.pdf"
         ),
         Team(
             id = "wrecka_krew",
             name = "Wrecka Krew",
             alliance = Alliance.XENOS,
             difficulty = "Easy",
-            archetype ="Recon/Seek and Destroy"
+            archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
+            factionRulesBackgroundRes = R.drawable.wrecka_krew_bg,
+            backgroundRes = R.drawable.wrecka_bg,
+            assemblyPdfAsset = "pdfs/wrecka_assembly.pdf"
         )
     )
 

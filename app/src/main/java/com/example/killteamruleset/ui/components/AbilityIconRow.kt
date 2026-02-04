@@ -1,4 +1,4 @@
-package com.example.killteamruleset.ui.components
+/*package com.example.killteamruleset.ui.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
@@ -28,4 +28,4 @@ fun AbilityIconRow(icons: List<Int>) {
             )
         }
     }
-}
+}*/

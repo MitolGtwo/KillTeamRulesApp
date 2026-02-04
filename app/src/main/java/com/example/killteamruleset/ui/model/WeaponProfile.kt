@@ -6,5 +6,6 @@ data class WeaponProfile(
     val attacks: Int,
     val hit: String,
     val damage: String,
-    val keywords: List<KeywordInfo>
+    val keywords: List<KeywordInfo> = emptyList(),
+    val extraRules: List<String> = emptyList()
 )

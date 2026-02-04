@@ -15,24 +15,19 @@ object KeywordRepository {
         Brutal,
         Ceaseless,
         Concealed_Position,
-        Detonate,
-        Explosive,
         Hot,
         Obscure,
         Psychic,
         Punishing,
         Poison,
-        Pulsa,
         Relentless,
         Rending,
-        Salvo,
         Saturate,
         Seek,
         Seek_light,
         Severe,
         Shock,
         Silent,
-        Smash,
         Stun,
         Toxic
     )
@@ -62,23 +57,10 @@ object KeywordRepository {
         Concealed_Position::class to
                 "This weapon can be used once while Concealed without changing order.",
 
-        Detonate::class to
-                "The first time you would inflict damage on an enemy operative with this weapon profile" +
-                " during the battle, on a normal success, inflict D6+6 damage on that enemy operative " +
-                " and each other operative,on a critical do the same but for 2D6+6(Roll separately for each)" +
-                " Then the action ends and you gain 1 Wrecka point + 1 for each operative that was " +
-                " incapacitated during this action. Damage from this weapon cannot be reduced or ignored.",
-
         Devastating::class to
                 "Critical hits inflict immediate damage equal to the Devastating value, the dice are " +
                 " not discarded. If there´s Range associate with the keyword, inflict that damage each other operative in that" +
                 " distance.",
-
-        Explosive::class to
-                "This operative can perform the Shoot action with this weapon while being in control" +
-                " range of an enemy operative, Don´t select a valid target. Instead, this operative is always" +
-                " the primary target and cannot be in cover or Obscured.",
-
         Heavy::class to
                 "An operative cannot use this weapon if it moved during its activation, " +
                 "and it cannot move after performing a Shoot action with this weapon.\n\n" +
@@ -97,8 +79,8 @@ object KeywordRepository {
                 "Your successes equal or greater to Lethal x value are Critical successes.",
 
         Limited::class to
-                "After an operative uses this weapon x value number of times, it no longer" +
-                " has this weapon, if it hits multiple targets, Ex: Blast/Torrent. still treat it " +
+                "After an operative uses this weapon x number of times, it cannot use this weapon" +
+                " again, if it hits multiple targets, Ex: Blast/Torrent. still treat it " +
                 "as only one use.",
 
         Obscure::class to
@@ -123,14 +105,6 @@ object KeywordRepository {
                 "Whenever an operative that has one of your Poison tokens is activated, inflict 1 " +
                 "damage on it.",
 
-        Pulsa::class to
-                "Don´t select a valid target, place your Pulsa marker visible to this operative, or" +
-                " on Vantage terrain of a terrain feature that is visible to this operative. That marker" +
-                " gains 1 Pulsa point, then roll attack dice as normal.\n It gains 1 additional Pulsa" +
-                " point for each success(up to 3 additional points). \n This token has an area of effect" +
-                " equal to its pulsa points, every point is 1\" of additional distance (To a max of 4\")." +
-                "\n Deal D3 damage on each operative wholly within your Pulsa marker range(Roll for each).",
-
         Punishing::class to
                 "If you retain any critical successes, you can change one failed dice into one" +
                 " success normal attack.",
@@ -143,12 +117,6 @@ object KeywordRepository {
 
         Rending::class to
                 "Convert one normal hit into a critical when retaining a critical.",
-
-        Salvo::class to
-                "Select up to Two different valid targets that aren´t within control range of friendly" +
-                " Operatives. Shoot with this weapon against both primary targets in an order of your" +
-                " choice, then against all remaining secondary targets if any. Each target (primary " +
-                "and secondary) cannot be shot more than once during the action.",
 
         Saturate::class to
                 "The defender cannot retain cover saves.",
@@ -175,13 +143,6 @@ object KeywordRepository {
 
         Silent::class to
                 "This weapon can be used while having a Conceal order.",
-
-        Smash::class to
-                "Whenever you strike, you can move the enemy operative in a straight line increment" +
-                " of up to 1\". If you do, it must end the move further away from this Operative and" +
-                " in a location it can be placed. Then move this operative in a straight line the same" +
-                " distance, but it must end that move within that enemy Operative´s control range" +
-                "(If neither is possible, you cannot move them).",
 
         Stun::class to
                 "If you retain any Critical success with this weapon, the enemy operative" +

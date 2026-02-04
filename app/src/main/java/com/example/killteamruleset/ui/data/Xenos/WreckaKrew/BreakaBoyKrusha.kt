@@ -8,14 +8,13 @@ import com.example.killteamruleset.ui.model.Brutal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Shock
-import com.example.killteamruleset.ui.model.Smash
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
 
 val BreakaBoyKrusha = Operative(
     name = "Breaka Boy Krusha ",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.wrecka_krusha,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
@@ -32,8 +31,8 @@ val BreakaBoyKrusha = Operative(
             keywords = listOf(
                 Brutal,
                 Shock,
-                Smash
-            )
+            ),
+            extraRules = listOf("*Smash")
         )
 
     ),
@@ -44,7 +43,16 @@ val BreakaBoyKrusha = Operative(
             usage = "Pasive",
             description = "Whenever an enemy Operative is Shooting, or this operative is Fighting or" +
                     " Retaliating, your opponent cannot retain a dice result less than 6 as a Critical" +
-                    "success (Ex Severe,Lethal,Rending weapon rules)"
+                    " success (Ex Severe,Lethal,Rending weapon rules)"
+        ),
+        Ability(
+            title = "Smash",
+            usage = "Special Weapon Rule",
+            description = "Whenever you strike, you can move the enemy Operative in a straight line increment" +
+                " of up to 1\". If you do, it must end the move further away from this Operative and" +
+                " in a location it can be placed. Then move this Operative in a straight line the same" +
+                " distance, but it must end that move within that enemy Operative´s control range" +
+                "(If neither is possible, you cannot move them)."
         )
     ),
     keywords = listOf(

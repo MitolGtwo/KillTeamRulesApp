@@ -12,7 +12,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val TankbustaGunner= Operative(
     name = "Tank busta Gunner",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.wrecka_gunner,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
@@ -56,10 +56,10 @@ val TankbustaGunner= Operative(
         Ability(
             title = "Kompetitive Streak",
             usage = "Passive",
-            description = "Once per Shoot action, if this operative shoots an enemy Operative that" +
-                    " another friendly operative has already Shot during this turning point, you" +
+            description = "Once per **Shoot** action, if this operative shoots an enemy Operative that" +
+                    " another friendly Operative has already Shot during this turning point, you" +
                     " gain 1 Wrecka point. Determine this when you select a valid target, but you can" +
-                    "include any secondary targets when doing so (Ex from the Blast weapon rule)."
+                    " include any secondary targets when doing so (Ex from the Blast weapon rule)."
         )
     ),
     keywords = listOf(

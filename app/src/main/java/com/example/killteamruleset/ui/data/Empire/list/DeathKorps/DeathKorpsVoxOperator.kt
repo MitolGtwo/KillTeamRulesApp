@@ -4,8 +4,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val DeathKorpVoxOperator = Operative(
-    name = "Death Korp Vox-Operator ",
+val DeathKorpsVoxOperator = Operative(
+    name = "Death Korps Vox-Operator ",
     imageRes = R.drawable.alpharanger,
     stats = OperativeStats(
         apl = 2,
@@ -41,7 +41,7 @@ val DeathKorpVoxOperator = Operative(
             description = "Once per turning point, when this operative receives a GUARDSMAN ORDER" +
                           ", if it´s not within control range of an enemy Operative, it can relay that" +
                           " order. All friendly DEATH KORPS Operatives in the killzone receive that order," +
-                          " this Operative then loses 1 APL until the end of its next activation." +
+                          " this Operative then loses 1 APL until the end of its next activation."
 
         ),
         Ability(

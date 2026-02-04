@@ -1,4 +1,4 @@
-package com.example.killteamruleset.ui.components
+/*package com.example.killteamruleset.ui.components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -27,4 +27,4 @@ fun AbilityUsageChip(text: String) {
             fontWeight = FontWeight.SemiBold
         )
     }
-}
+}*/
