@@ -5,34 +5,33 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.viewinterop.AndroidView
 import com.example.killteamruleset.ui.components.KillTeamBackground
-import com.example.killteamruleset.ui.pdf.PdfViewer
-import com.example.killteamruleset.ui.model.Team
-import com.example.killteamruleset.ui.pdf.createPdfRecyclerView
+import com.example.killteamruleset.ui.data.TeamRepository
+import com.example.killteamruleset.ui.components.PdfPagerViewer
+
 
 @Composable
 fun AssemblyGuideScreen(
-    team: Team,
+    teamId: String,
     onBack: () -> Unit
 ) {
-    val context = LocalContext.current
+    val team = TeamRepository.getTeamById(teamId)
 
-    Column(modifier = Modifier.fillMaxSize()) {
+    KillTeamBackground {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .statusBarsPadding()
+        ) {
 
-        TextButton(onClick = onBack) {
-            Text("← Back")
-        }
-
-        AndroidView(
-            modifier = Modifier.fillMaxSize(),
-            factory = {
-                createPdfRecyclerView(
-                    context = context,
-                    assetPath = team.assemblyPdfAsset
-                )
+            TextButton(onClick = onBack) {
+                Text("← Back")
             }
-        )
+
+            PdfPagerViewer(
+                assetPath = team.assemblyPdfAsset,
+                modifier = Modifier.fillMaxSize()
+            )
+        }
     }
 }

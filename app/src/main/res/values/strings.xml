@@ -1,3 +1,16 @@
 <resources>
+    /Keywords
+
+    <string name="keyword_acurrate">
+        You can retain You can retain X Accurate results as normal successful before rolling dice.
+    </string>
+
+    <string name="keyword_Ceaseless">
+        You can re-roll all attack dice showing the same result(Ex: all dice with a result of 2)
+    </string>
+
+
+    <string name="Select_Alliance"> Seleccionar Faccion</string>
+
     <string name="app_name">KillTeamRuleSet</string>
 </resources>

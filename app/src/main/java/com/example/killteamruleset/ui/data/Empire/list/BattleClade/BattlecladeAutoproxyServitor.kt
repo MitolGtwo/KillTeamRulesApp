@@ -1,5 +1,14 @@
 package com.example.killteamruleset.ui.data.Empire.list.BattleClade
 
+import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.Lethal
+import com.example.killteamruleset.ui.model.Operative
+import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.WeaponProfile
+import com.example.killteamruleset.ui.model.WeaponType
+
 val BattleCladeAutoProxyServitor = Operative(
     name = "Battleclade Auto-Proxy Servitor",
     imageRes = R.drawable.alpharanger,
@@ -38,7 +47,7 @@ val BattleCladeAutoProxyServitor = Operative(
             description = "Select one enemy Operative visible to this Operative. Until the end of the turning point, whenever" +
                     " a friendly **BATTLECLADE** Operative is shooting that enemy Operative, you can use this rule. If you do:\n" +
                     "*That friendly Operative's ranger weapons have the Seek Light weapon rule.\n*That enemy Operative cannot be obscured." +
-                    " \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative." 
+                    " \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative."
         )
     ),
 

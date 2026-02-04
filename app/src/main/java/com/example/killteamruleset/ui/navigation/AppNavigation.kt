@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.killteamruleset.ui.components.AssemblyGuideScreen
+
 import com.example.killteamruleset.ui.data.OperativeRepository
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Alliance
@@ -170,6 +170,7 @@ fun AppNavigation() {
 
         composable("assemblyGuide/{teamId}") { backStack ->
             val teamId = backStack.arguments?.getString("teamId")!!
+
             AssemblyGuideScreen(
                 teamId = teamId,
                 onBack = { navController.popBackStack() }

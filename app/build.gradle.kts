@@ -42,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation("androidx.datastore:datastore-preferences:1.1.1")
     implementation("androidx.recyclerview:recyclerview:1.3.2")
     implementation("androidx.compose.material:material-icons-extended")
     implementation(libs.androidx.core.ktx)

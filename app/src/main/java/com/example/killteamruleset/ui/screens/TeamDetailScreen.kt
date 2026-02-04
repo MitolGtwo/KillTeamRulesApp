@@ -4,25 +4,39 @@ package com.example.killteamruleset.ui.screens
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.data.FavoritesRepository
 import com.example.killteamruleset.ui.model.Archetypes
 import com.example.killteamruleset.ui.model.Team
+import kotlinx.coroutines.launch
 
 @Composable
 fun TeamDetailScreen(
@@ -35,6 +49,15 @@ fun TeamDetailScreen(
     onBack: () -> Unit,
     onHobbyHelperClick: () -> Unit
 ) {
+
+    val context = LocalContext.current
+    val favorites by FavoritesRepository
+        .favoritesFlow(context)
+        .collectAsState(initial = emptySet())
+
+    val isFavorite = team.id in favorites
+    val scope = rememberCoroutineScope()
+
     Box(modifier = Modifier.fillMaxSize()) {
 
         // ─────────────────────────
@@ -72,8 +95,52 @@ fun TeamDetailScreen(
                 Text("← Back", color = Color.White)
             }
 
+// ─────────────────────────
+// 🏷 TITLE + FAVORITE STAR
+// ─────────────────────────
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 16.dp, end = 16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+
+                // TEAM NAME
+                Text(
+                    text = team.name.uppercase(),
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.ExtraBold,
+                    letterSpacing = 1.5.sp,
+                    color = Color.White,
+                    modifier = Modifier.weight(1f)
+                )
+
+                // ⭐ FAVORITE STAR
+                Image(
+                    painter = painterResource(
+                        if (isFavorite)
+                            R.drawable.full_star
+                        else
+                            R.drawable.empty_star
+                    ),
+                    contentDescription = "Favorite team",
+                    modifier = Modifier
+                        .size(30.dp)
+                        .clickable {
+                            scope.launch {
+                                FavoritesRepository.toggleFavorite(context, team.id)
+                            }
+                        },
+                    colorFilter = ColorFilter.tint(
+                        if (isFavorite) Color(0xFFFF6A00) else Color.White
+                    )
+                )
+            }
+
+
+
             // 🏷 TEAM NAME
-            Text(
+            /*Text(
                 text = team.name.uppercase(),
                 fontSize = 32.sp,
                 fontWeight = FontWeight.ExtraBold,
@@ -88,6 +155,22 @@ fun TeamDetailScreen(
                     .height(3.dp)
                     .width(80.dp)
                     .background(Color(0xFFFF6A00))
+            )*/
+            Text(
+                text = "“${team.quote}”",
+                fontSize = 15.sp,
+                fontStyle = FontStyle.Italic,
+                letterSpacing = 0.6.sp,
+                color = Color.White,
+                style = MaterialTheme.typography.bodyMedium.copy(
+                    shadow = Shadow(
+                        color = Color.Black.copy(alpha = 0.85f),
+                        offset = Offset(2f, 2f),
+                        blurRadius = 6f
+                    )
+                ),
+                modifier = Modifier
+                    .padding(start = 16.dp, top = 10.dp)
             )
 
             Spacer(Modifier.height(250.dp)) // 👈 lets background breathe
@@ -133,15 +216,27 @@ fun TeamDetailScreen(
                     )
 
                     // 🎯 DIFFICULTY BADGE
-                    Text(
-                        text = "Difficulty: ${team.difficulty}",
-                        style = MaterialTheme.typography.labelSmall,
-                        color = Color.White,
+
+                    Column(
                         modifier = Modifier
                             .align(Alignment.TopEnd)
-                            .offset(y = (-18).dp)
+                            .offset(y = (-42).dp),
+                        horizontalAlignment = Alignment.End
+                    ) {
+                        Text(
+                            text = team.type.name.lowercase()
+                                .replaceFirstChar { it.uppercase() },
+                            color = Color(0xFFFF6A00),
+                            fontWeight = FontWeight.Bold,
+                            style = MaterialTheme.typography.labelSmall
+                        )
 
-                    )
+                        Text(
+                            text = "Difficulty: ${team.difficulty}",
+                            color = Color.White,
+                            style = MaterialTheme.typography.labelSmall
+                        )
+                    }
                 }
 
                 TeamActionButton(

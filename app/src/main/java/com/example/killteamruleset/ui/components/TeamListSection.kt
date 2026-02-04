@@ -1,26 +1,23 @@
-package com.example.killteamruleset.ui.components
+/*package com.example.killteamruleset.ui.components
 
 import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.killteamruleset.ui.data.TeamRepository
-import com.example.killteamruleset.ui.model.Alliance
 import com.example.killteamruleset.ui.model.Team
 
 @Composable
-fun AllianceSection(
-    alliance: Alliance,
+fun TeamListSection(
+    title: String,
     teams: List<Team>,
     expanded: Boolean,
     onHeaderClick: () -> Unit,
     onTeamClick: (Team) -> Unit
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+    Column {
 
         AllianceHeader(
             alliance = alliance,
@@ -30,8 +27,9 @@ fun AllianceSection(
 
         AnimatedVisibility(visible = expanded) {
             Column(
-                modifier = Modifier.padding(start = 8.dp, top = 8.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(start = 8.dp, top = 8.dp)
             ) {
                 teams.forEach { team ->
                     TeamRow(
@@ -42,4 +40,4 @@ fun AllianceSection(
             }
         }
     }
-}
+}*/

@@ -9,6 +9,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.example.killteamruleset.ui.model.KeywordInfo
@@ -18,7 +19,10 @@ import com.example.killteamruleset.ui.model.KeywordRepository
 fun KeywordPopup(
     keyword: KeywordInfo,
     onDismiss: () -> Unit
+
 ) {
+    val context = LocalContext.current
+
     Dialog(onDismissRequest = onDismiss) {
         Box(
             modifier = Modifier
@@ -45,7 +49,7 @@ fun KeywordPopup(
 
                 // DESCRIPTION (from repository)
                 Text(
-                    text = KeywordRepository.getDescription(keyword),
+                    text = KeywordRepository.getDescription(context, keyword),
                     style = MaterialTheme.typography.bodyMedium
                 )
 

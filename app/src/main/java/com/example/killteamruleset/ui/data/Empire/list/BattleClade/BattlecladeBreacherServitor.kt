@@ -1,5 +1,16 @@
 package com.example.killteamruleset.ui.data.Empire.list.BattleClade
 
+import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.Lethal
+import com.example.killteamruleset.ui.model.Operative
+import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing
+import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.WeaponProfile
+import com.example.killteamruleset.ui.model.WeaponType
+
 val BattlecladeBreacherServitor = Operative(
     name = "Battleclade Breacher Servitor",
     imageRes = R.drawable.alpharanger,
@@ -12,7 +23,7 @@ val BattlecladeBreacherServitor = Operative(
     weapons = listOf(
         WeaponProfile(
             name = "Lascutter(close range)",
-            type = WeaponType.RANGE,
+            type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
             damage = "4/5",
@@ -24,7 +35,7 @@ val BattlecladeBreacherServitor = Operative(
         ),
       WeaponProfile(
             name = "Lascutter(short range)",
-            type = WeaponType.RANGE,
+            type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
             damage = "4/5",

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="keyword_acurrate">
+        Puedes retener el valor de acurrate como exitos normales antes de lanzar los dados.
+    </string>
+
+    <string name="keyword_Ceaseless">
+        Puedes volver a lanzar los dados del mismo valor (Ej todos los dados con valor de 2)
+    </string>
+
+</resources>

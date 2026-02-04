@@ -1,6 +1,8 @@
 package com.example.killteamruleset.ui.model
 
+import android.content.Context
 import androidx.compose.ui.input.key.Key
+import com.example.killteamruleset.R
 import kotlin.collections.mapOf
 import kotlin.jvm.java
 import kotlin.reflect.KClass
@@ -33,11 +35,13 @@ object KeywordRepository {
     )
 
     // DESCRIPTIONS (BY CLASS)
-    private val descriptions: Map<KClass<out KeywordInfo>, String> = mapOf(
+    private val descriptions: Map<KClass<out KeywordInfo>, Int> = mapOf(
 
-        Accurate::class to
-                "You can retain X Accurate results as normal successful before rolling dice.",
+        Accurate::class to R.string.keyword_acurrate,
 
+        Ceaseless::class to R.string.keyword_Ceaseless,
+
+        /*
         Balanced::class to
                 "You can re-roll one attack die.",
 
@@ -158,15 +162,21 @@ object KeywordRepository {
         Toxic::class to
                 "Whenever this Operative is using this weapon against an enemy operative that has one of" +
                 " your Poison tokens, add 1 to both Dmg stats of this weapon."
+
+         */
     )
 
     // LOOKUP FUNCTIONS
     fun findByName(name: String): KeywordInfo? =
         allKeywords.firstOrNull { it.name.equals(name, ignoreCase = true) }
 
-    fun getDescription(keyword: KeywordInfo): String =
-        descriptions[keyword::class]
-            ?: "No rules text available for this keyword."
+    fun getDescription(
+        context: Context,
+        keyword: KeywordInfo
+    ): String {
+        val resId = descriptions[keyword::class] ?: return ""
+        return context.getString(resId)
+    }
 }
 
 
