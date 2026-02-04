@@ -5,10 +5,138 @@
         You can retain You can retain X Accurate results as normal successful before rolling dice.
     </string>
 
+     <string name="keyword_Balanced"> 
+         You can re-roll one attack die.
+     </string>
+
+    <string name="keyword_Blast> 
+    The target you select for a shoot action becomes the Primary target, and every other operative
+                within X Blast distance and visible to the Primary Target becomes the Secondary targets(Regardless of their order). Resolve 
+                 the shoot action for the Primary target, then roll another shoot action for every Secondary Target
+                 (You have to roll dice for every valid target) if the Primary target was Obscure and/or in cover,
+                 the Secondary targets will have those modifiers as well. 
+    </string>
+
+    <string name="keyword_Brutal"> 
+         Your opponent can only parry with critical successes.
+     </string>
+
     <string name="keyword_Ceaseless">
         You can re-roll all attack dice showing the same result(Ex: all dice with a result of 2)
     </string>
 
+    <string name="keyword_Concealed_Position"> 
+        This weapon can be used once while Concealed without changing order.
+     </string>
+
+    <string name="keyword_Devastating"> 
+        Critical hits inflict immediate damage equal to the Devastating value, the dice are 
+                not discarded. If there´s Range associate with the keyword, inflict that damage each other operative in that
+                distance.
+    </string>
+
+    <string name="keyword_Heavy"> 
+        An operative cannot use this weapon if it moved during its activation,
+                        and it cannot move after performing a Shoot action with this weapon.\n\n
+                        If marked Heavy (Reposition), Reposition is the only movement action
+                        allowed that still permits shooting in the same activation.\n\n
+                        An operative cannot use Guard with a Heavy weapon if these conditions are not met.
+    </string>
+
+     <string name="keyword_Hot"> 
+        After an operative shoots with this weapon, roll one D6, if the result
+                 is equal or greater than the Hit stat nothing happens, if the roll is less than
+                 the Hit stat, duplicate the value and deal that amount of damage to the friendly 
+                operative who made the shoot action.
+                 If you hit multiple targets, Ex: Blast. Still roll only one D6.
+    </string>
+
+    <string name="keyword_Lethal"> 
+        Your successes equal or greater to Lethal x value are Critical successes.
+    </string>
+
+    <string name="keyword_Limited"> 
+        After an operative uses this weapon x number of times, it cannot use this weapon
+                again, if it hits multiple targets, Ex: Blast/Torrent. still treat it 
+                as only one use.
+    </string>
+
+    <string name="keyword_Obscure"> 
+        Whenever an Operative Shoot another Opeative while this is Obscure, all Critical 
+                successes will become Normal successes, any rule around Critical success is ignored
+                (Ex: Devastating, Piercing Crits, Punishing).
+    </string>
+
+    <string name="keyword_Psychic"> 
+        This action or weapon is a psychic attack.
+    </string>
+
+    <string name="keyword_Piercing"> 
+        The defender picks one less dice based on the Piercing X value.
+    </string>
+
+    <string name="keyword_Piercing_Crits"> 
+        The defender picks one less dice based on the Piercing Crits X value, if you score a Critical success.
+    </string>
+
+    <string name="keyword_Punishing"> 
+        If you retain any critical successes, you can change one failed dice into one success normal attack.
+    </string>
+
+    <string name="keyword_Range"> 
+        Only operatives within X inches can be targeted.
+    </string>
+
+    <string name="keyword_Relentless"> 
+        You can re-roll all attack dice.
+    </string>
+
+    <string name="keyword_Rending"> 
+        Convert one normal hit into a critical when retaining a critical.
+    </string>
+
+    <string name="keyword_Saturate"> 
+        The defender cannot retain cover saves.
+    </string>
+
+    <string name="keyword_Seek_light">
+        For the purpose of selecting a valid target for a shoot action, you can
+                 select operatives in Conceal if they are being cover by light terrain. This
+                 doesn´t prevent Cover Saves if any.
+    </string>
+
+    <string name="keyword_Seek">
+        For the purpose of selecting a valid target for a shoot action, you can select operatives in Conceal. This doesn´t prevent any Cover Saves if any.
+    </string>
+
+    <string name="Severe">
+        If you don´t make any Critical success, you can change one Normal success
+                 into a Critical success, any rule such as Devastating or Piercing Crits X is 
+                applied accordingly, but it cannot be combine in any way with the rules Punishing
+                 or Rending, Ex: You cant just have 2 free Crits lmao.
+    </string>
+
+    <string name="Shock">
+        The first time you strike with a Critical success, discard one of your
+                 opponent´s unresolved Normal success, if the opponent has no more Normal
+                 Successes, discard one of it´s Critical successes if any.
+    </string>
+
+    <string name="Silent">
+        This weapon can be used while having a Conceal order.
+    </string>
+
+    <string name="Stun">
+        If you retain any Critical success with this weapon, the enemy operative loses 1 Apl until the start of it´s next activation.
+    </string>
+
+    <string name="Torrent>   
+        Select one valid target, this will be the Primary target, then select any
+                 number of secondary targets if they are valid as well and, if they are within
+                 Torrent X value range of the Primary objective. You cant select enemy targets 
+                 in Control range of a friendly operative." +
+                "Shoot this weapon against all of them, roll separately for each.
+    </string>
 
     <string name="Select_Alliance"> Seleccionar Faccion</string>
 
