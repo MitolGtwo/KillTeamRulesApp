@@ -4,8 +4,131 @@
         Puedes retener el valor de acurrate como exitos normales antes de lanzar los dados.
     </string>
 
+    <string name="keyword_Balanced"> 
+         Puedes re-lanzar un dado de ataque.
+     </string>
+
+    <string name="keyword_Blast> 
+        El objetivo que selecciones para disparar esta arma se vuelve el objetivo Primario, todo Operativo que este dentro del rango de Blast y visible del objetivo primario
+        se vuelve un objetivo Secundario (independientemente de su orden). Resuelve tu disparo contra el objetivo primario, luego resuelve tu accion de disparo contra 
+        todos los objetivos Secundarios (Lanza dados por cada objetivo por separado). Si el objetivo Primario estaba Obscure y/o en covertura, los objetivos Secundarios
+        tambien lo estaran al momento de dispararles.
+    </string>
+
+    <string name="keyword_Brutal"> 
+         Tu oponente solo puede parar tus dados de ataque con resultados criticos.
+     </string>
+
     <string name="keyword_Ceaseless">
         Puedes volver a lanzar los dados del mismo valor (Ej todos los dados con valor de 2)
     </string>
+
+    <string name="keyword_Concealed_Position"> 
+        La primera vez que se dispara esta arma durante la partida, se puede hacer con una orden de Conceal.
+     </string>
+
+    <string name="keyword_Devastating"> 
+        Cada resultado critico genera inmediatamente daño equivalente al valor de Devastating, los resultados criticos no son descartados y tienen que defenderse normalmente.
+        Si hay rango asociado con el Devastating, ese daño es inflijido a cada Operativo en esa distancia.
+    </string>
+
+    <string name="keyword_Heavy"> 
+        Un Operativo no puede usar esta arma si realiza una acción de movimiento durante su activación, y de misma forma no puede moverse si dispara usando esta arma.\n\n
+        Si esta arma especifica una accion de movimiento(Ej Heavy(Reposition)) solo ese movimiento se puede usar junto con una accion de disparo con esta arma.
+        Un Operativo no puede usar la accion de Guard si estas condiciones no se cumplen.
+    </string>
+
+     <string name="keyword_Hot"> 
+        Despues de disparar con esta arma, lanza un D6, si el resultado es igual o mayor a la estadistica Hit de esta arma, no pasa nada, si el resultado es menor,
+         duplica el valor del resultado e inflinje ese daño al Operativo que disparo esta arma.
+         Si le disparas a objetivos multiples (Ej Blast) Lanza solo un D6 de igual forma.
+    </string>
+
+    <string name="keyword_Lethal"> 
+        Los resultados iguales o mayores al valor de Lethal son considerados exitos criticos.
+    </string>
+
+    <string name="keyword_Limited"> 
+        Despues de que un Operativo use esta arma X numero de veces, no puede usar esta arma por el resto de la partida. Si le disparas a objetivos multiples (Ej Blast) 
+         aun se trata como un unico uso.
+    </string>
+
+    <string name="keyword_Obscure"> 
+        Cuando un Operativo le dispara a otro Operativo mientras esta Obsucure, todos los exitos criticos pasan a ser exitos normales, cualquier regla que se aplique con
+        exitos criticos es ignorada (Piercing Crits, Severe, Punishing). Adicional a esto, uno de los exitos normales es descartado.
+    </string>
+
+    <string name="keyword_Psychic"> 
+        Esta accion o arma es Psychic
+    </string>
+
+    <string name="keyword_Piercing"> 
+        El defensor pierde un dado antes de hacer una tirada de defensa contra un disparo basado en el valor de Piercing.
+    </string>
+
+    <string name="keyword_Piercing_Crits"> 
+          El defensor pierde un dado antes de hacer una tirada de defensa contra un disparo basado en el valor de Piercing Crits, siempre y cuando un resultado exitoso del
+        atacante sea crítico (Ej si el arma tiene Piercing Crits 2, si el resultado del disparo solo tiene 1 exito critico, solo aplicaria Piercing Crit 1).
+    </string>
+
+    <string name="keyword_Punishing"> 
+        Si tienes un resultado critico, puedes cambiar un resultado fallido a un resultado normal.
+    </string>
+
+    <string name="keyword_Range"> 
+        Solo Operativos dentro del rango de esta arma pueden ser objetivos.
+    </string>
+
+    <string name="keyword_Relentless"> 
+        Puedes re-lanzar todos tus dados (No tienes que re-lanzar obligatoriamente todos tus dados a la vez).
+    </string>
+
+    <string name="keyword_Rending"> 
+        Si tienes un resultado critico, cambia un exito normal a critico.
+    </string>
+
+    <string name="keyword_Saturate"> 
+        El defensor no puede retener dados exitosos de defensa por cobertura.
+    </string>
+
+    <string name="keyword_Seek_light">
+        Al momento de determinar un objetivo valido para una accion de disparo, puedes seleccionar a un Operativo enemigo que tenga una orden de Conceal y que este en covertura
+        ligera. Esto no previene al Operativo enemigo de tener dados asegurados por covertura.
+    </string>
+
+    <string name="keyword_Seek">
+         Al momento de determinar un objetivo valido para una accion de disparo, puedes seleccionar a un Operativo enemigo que tenga una orden de Conceal. Esto no previene al Operativo enemigo de tener dados asegurados por covertura.
+    </string>
+
+    <string name="Severe">
+        Si no logras ningun exito critico, cambia uno de tus resultados normales a un resultado critico. Cualquier regla que reaccione con criticos es aplicada normalmente
+        (Ej Devastating, Piercing Crits), pero no puede combinarse con reglas como Rending, Punishing, etc (un dado solo puede modificarse por efectos 1 sola vez).
+    </string>
+
+    <string name="Shock">
+        La primera vez que decidas golpear a un operativo con un exito critico con esta arma, tu enemigo tiene que descartar un exito normal que no haya resuelto aun.
+        En caso de que tu oponente no tenga resultado normales sin resolver, tiene que descartar un resultado critico en caso de tener alguno.
+    </string>
+
+    <string name="Silent">
+        Esta arma se puede usar mientras el Operativo tiene una orden de Conceal.
+    </string>
+
+    <string name="Stun">
+        Si logras hacer daño con un dado critico al Operativo enemigo, este Operativo enemigo pierde 1APL hasta el final de su proxima activacion.
+    </string>
+
+    <string name="Torrent>   
+        Selecciona un objetivo valido, este objetivo se vuelve el objetivo primario, todo Operativo enemigo dentro de la distancia de Torrent, que no esten dentro del
+        rango de control de un Operativo aliado, y que sean objetivos validos para un disparo, pueden ser seleccionados como objetivos secundarios.
+        Realiza una accion de disparo para cada uno.
+    </string>
+
+
+
+
+
+
+    
 
 </resources>
