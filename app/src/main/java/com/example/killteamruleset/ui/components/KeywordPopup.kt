@@ -13,7 +13,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.example.killteamruleset.ui.model.KeywordInfo
-import com.example.killteamruleset.ui.model.KeywordRepository
+import com.example.killteamruleset.ui.data.KeywordRepository
 
 @Composable
 fun KeywordPopup(

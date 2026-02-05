@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.Equipment
@@ -16,8 +17,9 @@ import com.example.killteamruleset.ui.model.Equipment
 fun EquipmentExpandedContent(equipment: Equipment) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
 
+        // 📜 EQUIPMENT DESCRIPTION
         Text(
-            text = equipment.description,
+            text = stringResource(equipment.description),
             style = MaterialTheme.typography.bodySmall
         )
 
@@ -32,24 +34,24 @@ fun EquipmentExpandedContent(equipment: Equipment) {
 
             Spacer(Modifier.height(4.dp))
 
-            ability.title?.let {
+            ability.title?.let { titleRes ->
                 Text(
-                    text = it,
+                    text = stringResource(titleRes),
                     fontWeight = FontWeight.Bold
                 )
             }
 
-            ability.usage?.let {
+            ability.usage?.let { usageRes ->
                 Text(
-                    text = it,
+                    text = stringResource(usageRes),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.primary
                 )
             }
 
-            ability.description?.let {
+            ability.description?.let { descriptionRes ->
                 AbilityDescriptionText(
-                    text = it,
+                    text = stringResource(descriptionRes),
                     enableKeywords = true
                 )
             }

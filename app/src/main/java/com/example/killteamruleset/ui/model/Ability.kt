@@ -1,9 +1,11 @@
 package com.example.killteamruleset.ui.model
 
+import androidx.annotation.StringRes
+
 data class Ability(
-    val title: String? = null,
-    val usage: String? = null,
-    val description: String? = null,
+    @StringRes val title: Int? = null,
+    @StringRes val usage: Int? = null,
+    @StringRes val description: Int? = null,
     val icons: List<Int> = emptyList()
 )
 

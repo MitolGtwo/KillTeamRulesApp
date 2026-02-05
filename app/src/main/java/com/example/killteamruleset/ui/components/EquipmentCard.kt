@@ -24,6 +24,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.Equipment
@@ -62,7 +63,7 @@ fun EquipmentCard(
 
             // 📜 DESCRIPTION
             RichText(
-                text = equipment.description,
+                text = stringResource(equipment.description),
                 color = Color.Black
             )
 
@@ -80,7 +81,7 @@ fun EquipmentCard(
 
                 ability.description?.let { description ->
                     AbilityDescriptionText(
-                        text = description,
+                        text = stringResource(description),
                         enableKeywords = true,
                         backgroundColor = Color.White,
                         textColor = Color.Black

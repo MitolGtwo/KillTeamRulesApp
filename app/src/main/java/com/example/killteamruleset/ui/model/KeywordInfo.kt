@@ -1,6 +1,6 @@
 package com.example.killteamruleset.ui.model
 
-import android.R
+import com.example.killteamruleset.R
 import kotlinx.coroutines.Job
 
 sealed class KeywordInfo {

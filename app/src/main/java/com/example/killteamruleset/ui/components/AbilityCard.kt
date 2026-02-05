@@ -12,6 +12,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.*
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.*
@@ -30,19 +31,18 @@ fun AbilityCard(
     ) {
         Column(modifier = Modifier.padding(12.dp)) {
 
-            ability.title?.let { title ->
+            ability.title?.let {
                 Text(
-                    text = title,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                    text = stringResource(it),
+                    fontWeight = FontWeight.Bold
                 )
             }
 
             Spacer(Modifier.height(4.dp))
 
-            ability.usage?.let{
+            ability.usage?.let {
                 Text(
-                    text = it,
+                    text = stringResource(it),
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.primary
                 )
@@ -50,11 +50,9 @@ fun AbilityCard(
 
             Spacer(Modifier.height(8.dp))
 
-            /*AbilityIconRow(ability.icons) // 👈 OPTIONAL ICONS HERE*/
-
-            ability.description?.let { description ->
+            ability.description?.let {
                 AbilityDescriptionText(
-                    text = description,
+                    text = stringResource(it),
                     onKeywordClick = onKeywordClick
                 )
             }

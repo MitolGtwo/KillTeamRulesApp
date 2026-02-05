@@ -1,134 +1,518 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="keyword_acurrate">
+
+    //Keywords
+
+    <string name="keyword_accurrate">
         Puedes retener el valor de acurrate como exitos normales antes de lanzar los dados.
     </string>
 
-    <string name="keyword_Balanced"> 
+    <string name="keyword_balanced">
          Puedes re-lanzar un dado de ataque.
      </string>
-
-    <string name="keyword_Blast> 
+    <string name="keyword_blast">
         El objetivo que selecciones para disparar esta arma se vuelve el objetivo Primario, todo Operativo que este dentro del rango de Blast y visible del objetivo primario
         se vuelve un objetivo Secundario (independientemente de su orden). Resuelve tu disparo contra el objetivo primario, luego resuelve tu accion de disparo contra 
         todos los objetivos Secundarios (Lanza dados por cada objetivo por separado). Si el objetivo Primario estaba Obscure y/o en covertura, los objetivos Secundarios
         tambien lo estaran al momento de dispararles.
     </string>
 
-    <string name="keyword_Brutal"> 
+    <string name="keyword_brutal">
          Tu oponente solo puede parar tus dados de ataque con resultados criticos.
      </string>
 
-    <string name="keyword_Ceaseless">
+    <string name="keyword_ceaseless">
         Puedes volver a lanzar los dados del mismo valor (Ej todos los dados con valor de 2)
     </string>
 
-    <string name="keyword_Concealed_Position"> 
+    <string name="keyword_concealed_position">
         La primera vez que se dispara esta arma durante la partida, se puede hacer con una orden de Conceal.
      </string>
 
-    <string name="keyword_Devastating"> 
+    <string name="keyword_devastating">
         Cada resultado critico genera inmediatamente daño equivalente al valor de Devastating, los resultados criticos no son descartados y tienen que defenderse normalmente.
         Si hay rango asociado con el Devastating, ese daño es inflijido a cada Operativo en esa distancia.
     </string>
 
-    <string name="keyword_Heavy"> 
+    <string name="keyword_heavy">
         Un Operativo no puede usar esta arma si realiza una acción de movimiento durante su activación, y de misma forma no puede moverse si dispara usando esta arma.\n\n
         Si esta arma especifica una accion de movimiento(Ej Heavy(Reposition)) solo ese movimiento se puede usar junto con una accion de disparo con esta arma.
         Un Operativo no puede usar la accion de Guard si estas condiciones no se cumplen.
     </string>
 
-     <string name="keyword_Hot"> 
+     <string name="keyword_hot">
         Despues de disparar con esta arma, lanza un D6, si el resultado es igual o mayor a la estadistica Hit de esta arma, no pasa nada, si el resultado es menor,
          duplica el valor del resultado e inflinje ese daño al Operativo que disparo esta arma.
          Si le disparas a objetivos multiples (Ej Blast) Lanza solo un D6 de igual forma.
     </string>
 
-    <string name="keyword_Lethal"> 
+    <string name="keyword_lethal">
         Los resultados iguales o mayores al valor de Lethal son considerados exitos criticos.
     </string>
 
-    <string name="keyword_Limited"> 
+    <string name="keyword_limited">
         Despues de que un Operativo use esta arma X numero de veces, no puede usar esta arma por el resto de la partida. Si le disparas a objetivos multiples (Ej Blast) 
          aun se trata como un unico uso.
     </string>
 
-    <string name="keyword_Obscure"> 
+    <string name="keyword_obscure">
         Cuando un Operativo le dispara a otro Operativo mientras esta Obsucure, todos los exitos criticos pasan a ser exitos normales, cualquier regla que se aplique con
         exitos criticos es ignorada (Piercing Crits, Severe, Punishing). Adicional a esto, uno de los exitos normales es descartado.
     </string>
 
-    <string name="keyword_Psychic"> 
+    <string name="keyword_psychic">
         Esta accion o arma es Psychic
     </string>
 
-    <string name="keyword_Piercing"> 
+    <string name="keyword_piercing">
         El defensor pierde un dado antes de hacer una tirada de defensa contra un disparo basado en el valor de Piercing.
     </string>
 
-    <string name="keyword_Piercing_Crits"> 
+    <string name="keyword_piercing_Crits">
           El defensor pierde un dado antes de hacer una tirada de defensa contra un disparo basado en el valor de Piercing Crits, siempre y cuando un resultado exitoso del
         atacante sea crítico (Ej si el arma tiene Piercing Crits 2, si el resultado del disparo solo tiene 1 exito critico, solo aplicaria Piercing Crit 1).
     </string>
 
-    <string name="keyword_Punishing"> 
+    <string name="keyword_punishing">
         Si tienes un resultado critico, puedes cambiar un resultado fallido a un resultado normal.
     </string>
 
-    <string name="keyword_Range"> 
+    <string name="keyword_range">
         Solo Operativos dentro del rango de esta arma pueden ser objetivos.
     </string>
 
-    <string name="keyword_Relentless"> 
+    <string name="keyword_relentless">
         Puedes re-lanzar todos tus dados (No tienes que re-lanzar obligatoriamente todos tus dados a la vez).
     </string>
 
-    <string name="keyword_Rending"> 
+    <string name="keyword_rending">
         Si tienes un resultado critico, cambia un exito normal a critico.
     </string>
 
-    <string name="keyword_Saturate"> 
+    <string name="keyword_saturate">
         El defensor no puede retener dados exitosos de defensa por cobertura.
     </string>
 
-    <string name="keyword_Seek_light">
+    <string name="keyword_seek_light">
         Al momento de determinar un objetivo valido para una accion de disparo, puedes seleccionar a un Operativo enemigo que tenga una orden de Conceal y que este en covertura
         ligera. Esto no previene al Operativo enemigo de tener dados asegurados por covertura.
     </string>
 
-    <string name="keyword_Seek">
+    <string name="keyword_seek">
          Al momento de determinar un objetivo valido para una accion de disparo, puedes seleccionar a un Operativo enemigo que tenga una orden de Conceal. Esto no previene al Operativo enemigo de tener dados asegurados por covertura.
     </string>
 
-    <string name="Severe">
+    <string name="keyword_severe">
         Si no logras ningun exito critico, cambia uno de tus resultados normales a un resultado critico. Cualquier regla que reaccione con criticos es aplicada normalmente
         (Ej Devastating, Piercing Crits), pero no puede combinarse con reglas como Rending, Punishing, etc (un dado solo puede modificarse por efectos 1 sola vez).
     </string>
 
-    <string name="Shock">
+    <string name="keyword_shock">
         La primera vez que decidas golpear a un operativo con un exito critico con esta arma, tu enemigo tiene que descartar un exito normal que no haya resuelto aun.
         En caso de que tu oponente no tenga resultado normales sin resolver, tiene que descartar un resultado critico en caso de tener alguno.
     </string>
 
-    <string name="Silent">
+    <string name="keyword_silent">
         Esta arma se puede usar mientras el Operativo tiene una orden de Conceal.
     </string>
 
-    <string name="Stun">
+    <string name="keyword_stun">
         Si logras hacer daño con un dado critico al Operativo enemigo, este Operativo enemigo pierde 1APL hasta el final de su proxima activacion.
     </string>
 
-    <string name="Torrent>   
+    <string name="keyword_torrent">
         Selecciona un objetivo valido, este objetivo se vuelve el objetivo primario, todo Operativo enemigo dentro de la distancia de Torrent, que no esten dentro del
         rango de control de un Operativo aliado, y que sean objetivos validos para un disparo, pueden ser seleccionados como objetivos secundarios.
         Realiza una accion de disparo para cada uno.
     </string>
 
 
+    //Tacops
+    <string name="recon_01_title">
+        PERSEGUIR MOVIMIENTO ENEMIGO
+    </string>
+
+    <string name="recon_01_reveal">
+        La primera vez que un Operativo aliado realiza la acción de Scout.
+    </string>
+
+    <string name="recon_01_atitle">
+        PERSEGUIR
+    </string>
+
+    <string name="recon_01_usage">
+        1 AP / Firefight Phase
+    </string>
+
+    <string name="recon_01_description">
+        Selecciona un Operativo enemigo visible, que no haya activado(Ready) y que este a mas de 6"
+        de el Operativo activo. Ese Operativo enemigo esta ahora siendo monitoreado hasta la Ready step
+        del la siguiente Strategy phase.
+
+        Un Operativo no puede realizar esta acción mientras tenga una orden de Engage, durante el primer turno,
+         o  si esta en la zona de control de un enemigo.
+    </string>
+
+    <string name="recon_01_victory">
+        Al final de cada turno después del primero. for cada Operativo enemigo monitorado, que sea
+        visible a cualquier Operativo aliado (No tiene que ser el que hizo la accion de Scout), tu
+        ganas 1VP.
+        No puedes ganar mas de 2VP por esta TacOp por turno.
+    </string>
+
+    <string name="recon_02_title">
+        RECUPERAR
+    </string>
+
+    <string name="recon_02_reveal">
+        La primera vez que ganas VP por uso de esta TacOp.
+    </string>
+
+    <string name="recon_02_atitle">
+        RECUPERAR
+    </string>
+
+    <string name="recon_02_usage">
+        1 APL / Firefight Phase
+    </string>
+
+    <string name="recon_02_description">
+        Si el Operativo activo controla un objetivo de mision, donde no se haya hecho la accion RECUPERAR
+         por Operativos aliados, al momento de usar esa accion, este Operativo esta cargando con uno de
+        tus  tokens de Recuperacion (Token de mision) y ese objetivo de vision ya no puede generar otro
+        token de Recuperacion.
+        Operativos aliados puede hacer la Pick Up Marker accion en tu token de Recuperacion.
+
+        Un Operativo no puede realizar esta accion durante el primer turno, o mientras esta en rango
+         de control de un Operativo enemigo, o si ya esta cargando un token de recuperacion.
+    </string>
+
+    <string name="recon_02_victory">
+        La primera vez que un Operativo aliado hace la accion RETRIEVAL en un objetivo de mision, ganas
+         1VP.
+        Por cada token de recuperacion que Operativos aliados esten cargando al final de la batalla,
+        ganas 1VP
+    </string>
+
+    <string name="recon_03_title">
+        Flancos
+    </string>
+
+    <string name="recon_03_reveal">
+        Como GAMBITO ESTRATEGICO.
+    </string>
+
+    <string name="recon_03_additional">
+        Divide el mapa con una linea vertical que pase por el centro del mapa, y que toque los bordes
+        de ambos territorios de los jugadores, cada lado (izquierdo y derecho) se vuelve un Flanco.
+
+        Un Operativo tanto Aliado como Enemigo, discute el flanco si cumple estos requisitos:
+        *Esta completamente dentro del territorio enemigo.
+        *Esta completamente en el Flanco (lado izquierdo o derecho).
+        *No esta en la zona de control de un Operativo enemigo.
+
+        Un Operativo gana control del Flanco si tiene operativos en el Flanco enemigo con un valor
+        total de APLs mayor al valol total de APLs del oponente en el mismo flanco y en tu territorio.
+    </string>
+
+    <string name="recon_03_victory">
+        Despues de revelar esta TacOp, al final de cada turno despues del primero, por cada Flanco
+        que controlen Operativos aliados, ganas 1VP.
+        si es el 4to turno, si Operativos aliados controlan un Flanco que hayan controlado desde
+        el final del 3er turno, ganas 2VP.
+
+        No puedes gamar mas de 2VP por turno con esta TacOp.
+
+    </string>
+
+    <string name="security_01_title">
+        PLANTAR BANDERA
+    </string>
+
+    <string name="security_01_reveal">
+        Cuando realizes la accion PLANTAR BANDERA.
+    </string>
+
+    <string name="security_01_atitle">
+        PLANTAR BANDERA
+    </string>
+
+    <string name="security_01_usage">
+        1 APL / Firefight Phase
+    </string>
+
+    <string name="security_01_description">
+        Pon tu marcador de bandera dentro del rango de control del Operativo que realice esta accion,
+        el marcador tiene que estar completamente dentro del territorio enemigo y a mas de 5" de bordes
+        neutrales del mapa. Todos los Operativos en el juego puede hacer la accion Pick Up en ese marcador.
+
+        Un Operativo no puede realizar esta accion durante el primer turno, si el Operativo esta en
+        rango de control de un Operativo enemigo, o si un Operativo aliado ya realizo la accion de PLANTAR BANDERA.
+    </string>
+
+    <string name="security_01_victory">
+        Al final de cada turno despues del primero, si tu marcador de bandera esta completamente dentro
+        del territorio enemigo, y un Operativo aliado lo controla, ganas 1VP; si esto es verdad y no hay
+        Operativos enemigos disputando el marcador, ganas 2VP en su lugar.
+        Tu marcador de bandera tiene que estar en el mapa para ganar puntos (no cuenta si esta siendo cargado por Operativos)
+    </string>
+
+    <string name="security_02_title">
+        MARTIR
+    </string>
+
+    <string name="security_02_reveal">
+        La primera vez que un Operativo aliado es incapacitado mientras disputa un objetivo de mision.
+    </string>
+
+    <string name="security_02_additional">
+        Cuando un Operativo aliado es incapacitado mientras disputa un objetivo de mision, ese objetivo
+        gana uno de tus marcadores de Martir. Note que esto solo pasa la primera vez que un Operativo
+        es incapacitado (Ej Hierotek Circle).
+    </string>
+
+    <string name="security_02_victory">
+        Al final de cada turno despues del primero, si un Operativo aliado dispute un objetivo de mision,
+        que tenga uno o mas marcadores de Martir, puedes remover cualquiera de esos marcadores. Por cada marcador
+        que remuevas de esta forma, ganas 1VP; si el Operativo aliado tambien controla ese marcador, ganas
+        2VP en su lugar.
+        No puede ganar mas de 2VP por uso de esta TacOp por turno.
+    </string>
+
+    <string name="security_03_title">
+        MENSAJERO
+    </string>
+
+    <string name="security_03_reveal">
+        La primera vez que seleccionas a un Mensajero.
+    </string>
+
+    <string name="security_03_additional">
+        Como GAMBITO ESTRATEGICO en cada turno despues del primero, selecciona un Operativo aliado
+        para ser tu Mensajero hasta la Ready step del siguiente turno. No puedes seleccionar un Operativo
+        que ya hayas seleccionado previamente en la batalla.
+    </string>
+
+    <string name="security_03_victory">
+        Al final de cada turno despues del primero, si tu mensajero esta Completamente dentro del territorio
+        enemigo, y no esta en rango de control de un Operativo enemigo, ganas 1VP; si esto es verdad y tu
+        mensajero no ha perdido vida durante este turno, ganas 2VP en su lugar.
+    </string>
 
 
+    <string name="seek_and_destroy_01_title">
+        ARRAZAR Y LIMPIAR
+    </string>
+
+    <string name="seek_and_destroy_01_reveal">
+        La primera vez que un Operativo enemigo es incapacitado mientras dispute un objetivo de mision,
+         o la primera vez que un Operativo aliado realiza la accion de LIMPIAR (lo que suceda primero).
+    </string>
+
+    <string name="seek_and_destroy_01_atitle">
+        LIMPIAR
+    </string>
+
+    <string name="seek_and_destroy_01_usage">
+        1 APL / Firefight Phase
+    </string>
+
+    <string name="seek_and_destroy_01_description">
+        Un objetivo de mision que el Operativo activo controle, es Limpiado por el resto del turno.
+        Un Operativo no puede realizar esta accion mientras esta en rango de control de un Operativo
+        enemigo.
+    </string>
+
+    <string name="seek_and_destroy_01_additional">
+        Cuando un Operativo enemigo esta disputando un objetivo mision es incapacitado, ese objetivo
+        de mision gana uno de tus marcadores de Arrazar (si no tiene uno) hasta la Ready step del proximo
+        turno.
+    </string>
+
+    <string name="seek_and_destroy_01_victory">
+        Al final de cada turno despues del primero, si un Operativo aliado controla cualquier objetivo de
+        mision, que tenga uno de tus marcadores de Arrazar, ganas un 1VP. Si esto es verdad, y ese objetivo
+        de mision fue Limpiado (Accion de TacOp), ganas 2VP en su lugar.
+        No puedes ganar mas de 2VP por esta TacOp por turno.
+    </string>
+
+    <string name="seek_and_destroy_02_title">
+        RUTA
+    </string>
+
+    <string name="seek_and_destroy_02_reveal">
+        La primera vez que ganas VP por esta TacOp
+    </string>
+
+    <string name="seek_and_destroy_02_victory">
+        Cuando un Operativo aliado incapacita a un Operativo enemigo, si ese Operativo aliado esta a
+        6" de la zona de despliegue de tu enemigo, ganas 1VP; si esto es verdad, y el Operativo enemigo
+        tiene una cantidad total de 12 Heridas o mas, ganas 2VP en su lugar.
+        No puedes ganar mas de 2VP por esta TacOp por turno.
+    </string>
+
+    <string name="seek_and_destroy_03_title">
+        DOMINACION
+    </string>
+
+    <string name="seek_and_destroy_03_reveal">
+        La primera vez que un Operativo enemigo es incapacitado por un Operativo aliado.
+    </string>
+
+    <string name="seek_and_destroy_03_additional">
+        Cada vez que un Operativo aliado incapacita un Operativo enemigo, ese Operativo aliado gana
+        un token de Dominacion.
+    </string>
+
+    <string name="seek_and_destroy_03_victory">
+        Al final del 3er y 4to turno, puedes remover tokens de Dominacion de Operativos aliados que
+        no esten incapacitados. Por cada uno que remuevas, ganas 1VP.
+        No puedes ganar mas de 3VP por esta TacOp por turno.
+    </string>
+
+    <string name="infiltration_01_title">
+        LOCALIZAR ENEMIGO
+    </string>
+
+    <string name="infiltration_01_reveal">
+        La primera vez que ganas VP con esta TacOp.
+    </string>
+
+    <string name="infiltration_01_additional">
+        Un Operativo enemigo es Localizado si es un objetivo valido para un Operativo aliado a 6" de distancia.
+        Ese Operativo aliado tiene que tener una orden de Conceal, no puede ser un objetivo valido para
+        el Operativo enemigo que esta intentando Localizar, no puede realizar esto mientras este en rango
+        de control de un Operativo enemigo.
+    </string>
+
+    <string name="infiltration_01_victory">
+        Al final de cada turno despues del primero.
+        *Si un Operativo enemigo esta siendo Localizado, ganas 1VP, o 2VP si este es el 4to turno.
+        *Si dos o mas Operativos enemigos estan siendo Localizados, ganas 2VP.
+        No puedes ganar mas de 2VP usando esta TacOp por turno.
+    </string>
+
+    <string name="infiltration_02_title">
+        ROBAR INTELIGENCIA
+    </string>
+
+    <string name="infiltration_02_reveal">
+        La primera vez que un Operativo enemigo es incapacitado.
+    </string>
+
+    <string name="infiltration_02_additional">
+        Cuando un Operativo enemigo es incapacitado, antes de que sea removido del campo de batalla,
+        pon uno de tus marcadores de Inteligencia dentro del rango de control de ese Operativo enemigo.
+        Operativos aliados pueden realizar la accion de Pick up marker en ese marcador de Inteligencia,
+        por el proposito de esta mision, un Operativo puede cargar 2 marcadores de inteligencia, o 1 marcador
+        de inteligencia y cualquier otro marcador al mismo tiempo.
+    </string>
+
+    <string name="infiltration_02_victory">
+        Al final de cada turno despues del primero, si cualquier Operativo esta cargando un cualquier cantidad
+        de marcadores de inteligencia, ganas 1VP. Al final de la batalla, por cada marcador de
+        Inteligencia que un Operativo aliado este cargando, ganas 1VP.
+    </string>
+
+    <string name="infiltration_03_title">
+        PLANTAR DISPOSITIVOS
+    </string>
+
+    <string name="infiltration_03_reveal">
+        La primera vez que un Operativo aliado realiza la accion PLANTAR DISPOSITIVO.
+    </string>
+
+    <string name="infiltration_03_atitle">
+        PLANTAR DISPOSITIVO
+    </string>
+
+    <string name="infiltration_03_usage">
+        1 AP / Firefight Phase
+    </string>
+
+    <string name="infiltration_03_description">
+        Un objetivo de mision controlado por el Operativo activo gana uno de tus marcadores de Dispositivo.
+
+        Un Operativo no puede realizar esta accion durante el primer turno, mientras este en rango de control
+        de un Operativo enemigo, o si ese objetivo de mision ya tiene un marcador de Dispositivo.
+    </string>
+
+    <string name="infiltration_03_victory">
+        Al final de cada turno despues del primero:
+        *Si tu el objetivo de mision en la zona de tu oponente tiene un marcador de Dispositivo, ganas 1VP.
+        *Por cada otro objetivo de mision que Operativos enemigos disputen y tengan un marcador de Dispositivo,
+        ganas 1VP.
+        No puedes ganar mas de 2VP usando esta TacOp por turno.
+    </string>
 
 
-    
+    //Operatives
+
+    //Plague Marines
+    <string name="malignantplaguecaster_poisonus_miasma">
+        MIASMA VENENOSO
+    </string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_usage">
+        1 AP /Selecciona un enemigo
+    </string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_description">
+        **Psychic**. Seleciona un Operativo visible y a 7" de este Operativo, o un Operativo
+        que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno de tus
+        Poison token. En caso de ya tener uno, recibe 3 heridas en su lugar.
+
+        Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
+        enemigo.
+    </string>
+
+    <string name="malignantplaguecaster_putrescent_vitality">
+        VITALIDAD PUTRIDA
+    </string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_usage">
+        1 AP /Selecciona un aliado
+    </string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_description">
+        **Psychic**. Selecciona un Operativo aliado visible y a 3" de este Operative, lanza
+        2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas
+        ; de otra forma, el Operativo recupera heridad totales al resultado mas grande de los
+        dos dados.
+
+        Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
+        enemigo, o mas de una vez por turno.
+    </string>
+
+    <string name="plaguemarinebombardier_grenadier">
+        GRANADERO
+    </string>
+
+    <string name="plaguemarinebombardier_grenadier_usage">
+        Pasiva
+    </string>
+
+    <string name="plaguemarinebombardier_grenadier_description">
+        Este Operativo puede usar granadas krak y de plaga gratis, ignorando el uso limitado por
+        equipamiento universal, cuando este Operativo usa una granada, mejora el Hit a 1. Granadas
+        de plaga tienen la clave Toxic.
+    </string>
+
+    <string name="plaguemarinechambion_gfblessing">
+        Bendicion del Gran Padre
+    </string>
+
+    <string name="plaguemarinechambion_gfblessing_usage">
+        Pasiva
+    </string>
+
+    <string name="plaguemarinechambion_gfblessing_description">
+        Cuando un Operativo enemigo que tenga un marcador de veneno pierde una o mas heridas
+        a 7" de este Operativo, este Operativo recupera heridas igual al numero de heridas que
+        perdio ese Operativo (hasta un maximo de 3 heridas recuperadas por turno, y solo si este
+        Operativo no esta incapacitado).
+
+    </string>
+
 
 </resources>

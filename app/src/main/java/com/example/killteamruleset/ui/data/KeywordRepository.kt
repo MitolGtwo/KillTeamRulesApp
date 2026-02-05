@@ -1,45 +1,67 @@
-package com.example.killteamruleset.ui.model
+package com.example.killteamruleset.ui.data
 
-import android.content.Context
-import androidx.compose.ui.input.key.Key
 import com.example.killteamruleset.R
-import kotlin.collections.mapOf
-import kotlin.jvm.java
+import com.example.killteamruleset.ui.model.*
 import kotlin.reflect.KClass
-
 object KeywordRepository {
 
     // STATIC KEYWORDS ONLY
 
     val allKeywords: List<KeywordInfo> = listOf(
-        Accurate,
-        Balanced,
-        Brutal,
-        Ceaseless,
-        Concealed_Position,
-        Hot,
-        Obscure,
-        Psychic,
-        Punishing,
-        Poison,
-        Relentless,
-        Rending,
-        Saturate,
-        Seek,
-        Seek_light,
-        Severe,
-        Shock,
-        Silent,
-        Stun,
-        Toxic
+            Accurate,
+            Balanced,
+            Brutal,
+            Ceaseless,
+            Concealed_Position,
+            Hot,
+            Obscure,
+            Psychic,
+            Punishing,
+            Poison,
+            Relentless,
+            Rending,
+            Saturate,
+            Seek,
+            Seek_light,
+            Severe,
+            Shock,
+            Silent,
+            Stun,
+            Toxic
     )
 
     // DESCRIPTIONS (BY CLASS)
     private val descriptions: Map<KClass<out KeywordInfo>, Int> = mapOf(
 
-        Accurate::class to R.string.keyword_acurrate,
+        Accurate::class to R.string.keyword_accurrate,
+        Balanced::class to R.string.keyword_balanced,
+        Blast::class to R.string.keyword_blast,
+        Brutal::class to R.string.keyword_brutal,
+        Ceaseless::class to R.string.keyword_ceaseless,
+        Concealed_Position::class to R.string.keyword_concealed_position,
+        Devastating::class to R.string.keyword_devastating,
+        Heavy::class to R.string.keyword_heavy,
+        Hot::class to R.string.keyword_hot,
+        Lethal::class to R.string.keyword_lethal,
+        Limited::class to R.string.keyword_limited,
+        Obscure::class to R.string.keyword_obscure,
+        Psychic::class to R.string.keyword_psychic,
+        Piercing::class to R.string.keyword_piercing,
+        Piercing_Crits::class to R.string.keyword_piercing_Crits,
+        Punishing::class to R.string.keyword_punishing,
+        Range::class to R.string.keyword_range,
+        Relentless::class to R.string.keyword_relentless,
+        Rending::class to R.string.keyword_rending,
+        Saturate::class to R.string.keyword_saturate,
+        Seek_light::class to R.string.keyword_seek_light,
+        Seek::class to R.string.keyword_seek,
+        Severe::class to R.string.keyword_severe,
+        Shock::class to R.string.keyword_shock,
+        Silent::class to R.string.keyword_silent,
+        Stun::class to R.string.keyword_stun,
+        Torrent::class to R.string.keyword_torrent
 
-        Ceaseless::class to R.string.keyword_Ceaseless,
+
 
         /*
         Balanced::class to
@@ -167,19 +189,14 @@ object KeywordRepository {
     )
 
     // LOOKUP FUNCTIONS
-    fun findByName(name: String): KeywordInfo? =
+    fun findByName(name: String): com.example.killteamruleset.ui.model.KeywordInfo? =
         allKeywords.firstOrNull { it.name.equals(name, ignoreCase = true) }
 
     fun getDescription(
-        context: Context,
-        keyword: KeywordInfo
+        context: android.content.Context,
+        keyword: com.example.killteamruleset.ui.model.KeywordInfo
     ): String {
         val resId = descriptions[keyword::class] ?: return ""
         return context.getString(resId)
     }
 }
-
-
-
-
-

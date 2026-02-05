@@ -16,6 +16,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -23,7 +24,7 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.KeywordInfo
-import com.example.killteamruleset.ui.model.KeywordRepository
+import com.example.killteamruleset.ui.data.KeywordRepository
 import com.example.killteamruleset.R
 
 @Composable
@@ -37,6 +38,7 @@ fun AbilityDescriptionText(
     textColor: Color = MaterialTheme.colorScheme.onSurfaceVariant,
     onKeywordClick: (KeywordInfo) -> Unit = {}
 ) {
+    // ✅ text is ALREADY resolved
     val paragraphs = text.split("\n\n")
 
     val content: @Composable () -> Unit = {
@@ -53,7 +55,8 @@ fun AbilityDescriptionText(
                 ) {
                     Icon(
                         painter = painterResource(
-                            if (isRestriction) R.drawable.cross else R.drawable.arrow
+                            if (isRestriction) R.drawable.cross
+                            else R.drawable.arrow
                         ),
                         contentDescription = null,
                         tint = if (isRestriction) crossColor else arrowColor,
@@ -64,7 +67,6 @@ fun AbilityDescriptionText(
 
                     RichText(
                         text = paragraph,
-                        /*style = MaterialTheme.typography.bodySmall,*/
                         color = textColor
                     )
                 }
@@ -74,7 +76,7 @@ fun AbilityDescriptionText(
 
     if (backgroundColor != null) {
         Surface(
-            color = MaterialTheme.colorScheme.surface,
+            color = backgroundColor,
             shape = RoundedCornerShape(8.dp),
             modifier = modifier
         ) {

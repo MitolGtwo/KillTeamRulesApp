@@ -44,10 +44,7 @@ val PlagueMarineBombardier = Operative(
         Ability(
             title = "Grenadier",
             usage = "Passive",
-            description = "This operative can use blight and krak grenades ignoring the limit of uses" +
-                    "you have per universal equipment(It doesn´t count toward the number of grenades" +
-                    "the rest of the team can use), whenever this operative uses a grenade, improve the" +
-                    " Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule."
+            description = "."
         )
     ),
     keywords = listOf(

@@ -12,7 +12,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.withStyle
 import com.example.killteamruleset.ui.model.KeywordInfo
-import com.example.killteamruleset.ui.model.KeywordRepository
+import com.example.killteamruleset.ui.data.KeywordRepository
 
 @Composable
 fun KeywordStyledText(

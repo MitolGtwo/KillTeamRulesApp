@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -41,7 +42,7 @@ fun TacOpCard(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = tacOp.title.uppercase(),
+                    text = stringResource(tacOp.title).uppercase(),
                     modifier = Modifier.padding(vertical = 10.dp),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,
@@ -62,7 +63,7 @@ fun TacOpCard(
                 Spacer(Modifier.height(4.dp))
 
                 AbilityDescriptionText(
-                    text = tacOp.reveal,
+                    text = stringResource(tacOp.reveal),
                     enableKeywords = false
                 )
 
@@ -81,7 +82,7 @@ fun TacOpCard(
 
                     ability.title?.let {
                         Text(
-                            text = it.uppercase(),
+                            text = stringResource(it).uppercase(),
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onSurface
                         )
@@ -89,17 +90,15 @@ fun TacOpCard(
 
                     ability.usage?.let {
                         Text(
-                            text = it,
+                            text = stringResource(it),
                             color = tacOp.archetype.bannerColor(),
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
 
-                    Spacer(Modifier.height(6.dp))
-
-                    ability.description?.let { missionText ->
+                    ability.description?.let {
                         AbilityDescriptionText(
-                            text = missionText,
+                            text = stringResource(it),
                             enableKeywords = false,
                             backgroundColor = Color.White,
                             textColor = Color.Black
@@ -120,27 +119,29 @@ fun TacOpCard(
 
                     Spacer(Modifier.height(4.dp))
 
+                    tacOp.additionalRules?.let {
+                        AbilityDescriptionText(
+                            text = stringResource(it),
+                            enableKeywords = false
+                        )
+                    }
+
+                    // ── VICTORY POINTS (ALWAYS) ───────────
+                    Spacer(Modifier.height(16.dp))
+
+                    Text(
+                        text = "VICTORY POINTS",
+                        fontWeight = FontWeight.Bold,
+                        color = tacOp.archetype.bannerColor()
+                    )
+
+                    Spacer(Modifier.height(4.dp))
+
                     AbilityDescriptionText(
-                        text = it,
+                        text = stringResource(tacOp.victoryPoints),
                         enableKeywords = false
                     )
                 }
-
-                // ── VICTORY POINTS (ALWAYS) ───────────
-                Spacer(Modifier.height(16.dp))
-
-                Text(
-                    text = "VICTORY POINTS",
-                    fontWeight = FontWeight.Bold,
-                    color = tacOp.archetype.bannerColor()
-                )
-
-                Spacer(Modifier.height(4.dp))
-
-                AbilityDescriptionText(
-                    text = tacOp.victoryPoints,
-                    enableKeywords = false
-                )
             }
         }
     }

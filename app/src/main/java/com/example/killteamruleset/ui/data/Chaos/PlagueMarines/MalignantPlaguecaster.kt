@@ -74,24 +74,15 @@ val MalignantPlaguecaster= Operative(
 
     abilities = listOf(
         Ability(
-            title = "POISONOUS MIASMA",
-            usage = "1 APL/Select enemy",
-            description = "Psychic Select one enemy operative visible and within 7\" of this operative" +
-                    " or one enemy Operative that´s a valid target for this Operative. That enemy" +
-                    " Operative gains one of your Poison tokens. If it has one already, inflict 3" +
-                    " damage on that enemy instead.\n\nThis operative CANNOT perform this action while" +
-                    " within control range of an enemy Operative."
+            title = R.string.malignantplaguecaster_poisonus_miasma,
+            usage = R.string.malignantplaguecaster_poisonus_miasma_usage,
+            description = R.string.malignantplaguecaster_poisonus_miasma_description
         ),
         Ability(
-            title = "PUTRESCENT VITALITY",
-            usage = "1 APL/Select ally",
-            description = "Psychic select one friendly operative visible and within 3\" of this " +
-                    " Operative, then roll 2D6: if the result is 7, the selected Operative regains" +
-                    " 7 lost wounds; otherwise, the selected Operative regains wounds equal to the" +
-                    " highest result of the 2D6.\n\nThis operative CANNOT perform this action while" +
-                    " within control range of an enemy Operative, or more than once per turning point."
+            title = R.string.malignantplaguecaster_putrescent_vitality,
+            usage = R.string.malignantplaguecaster_putrescent_vitality_usage,
+            description = R.string.malignantplaguecaster_putrescent_vitality_description
         )
-
     ),
     keywords = listOf(
         "PLAGUE MARINE",

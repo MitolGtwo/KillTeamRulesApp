@@ -67,12 +67,9 @@ val PlagueMarineChampion = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Grandfather’s Blessing",
-            usage = "Passive",
-            description = "Whenever an enemy Operative that has one of your Poison tokens loses one" +
-                    " or more wounds within 7\" of this operative, this operative regains up to an " +
-                    "equal number of lost wounds(to a maximum of 3 per turning point and only if" +
-                    "this operative isn´t incapacitated)."
+            title = R.string.plaguemarinechambion_gfblessing,
+            usage = R.string.plaguemarinechambion_gfblessing_usage,
+            description = R.string.plaguemarinechambion_gfblessing_description
         )
     ),
     keywords = listOf(
