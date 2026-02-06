@@ -532,6 +532,48 @@
     </string>
 
 
+     <string name="plaguemarinefighter_flail">
+        FLAIL
+    </string>
+
+    <string name="plaguemarinefighter_flail_usage">
+        1 AP/ Fight Action
+    </string>
+
+    <string name="plaguemarinechambion_gfblessing_description">
+       Inflict D3+2 damage on each other operative that´s visible and within 2"
+                     of this operative. Roll separately foe each: if it´s an enemy operative, if the D3
+                     result is a 3, that enemy operative also gains one of your Poison tokens(if it
+                     doesn´t have already one).\nThis action is treated as a Fight action, and this
+                     operative cannot perform it while having a Conceal order
+    </string>
+
+    <string name="plaguemarine_iconbearer">
+        ICON BEARER
+    </string>
+
+    <string name="plaguemarine_iconbearer_usage">
+        Passive
+    </string>
+
+    <string name="plaguemarine_iconbearer_description">
+      Whenever determining control of a marker, treat this operative’s APL stat
+                     as 1 higher. Note this isn’t a change to its APL stat, so any changes are 
+                    cumulative with this
+    </string>
+
+    <string name="plaguemarine_icon_of_contagion">
+        ICON OF CONTAGION
+    </string>
+
+    <string name="plaguemarine_icon_of_contagionr_usage">
+        Strategy Phase
+    </string>
+
+    <string name="plaguemarine_icon_of_contagionr_description">
+      Whenever this operative is within your opponent´s territory, the Contagion
+                     strategy ploy costs you 0CP.
+    </string>
 
 
 
