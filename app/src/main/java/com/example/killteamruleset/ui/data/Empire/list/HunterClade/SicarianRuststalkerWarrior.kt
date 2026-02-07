@@ -45,12 +45,9 @@ val SicarianRuststalkerWarrior = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Wasteland Stalker",
-            usage = "Passive",
-            description = "Whenever an Operative is Shooting this operative, if you can retain any" +
-                    " cover saves, you can retain one additional cover save, or you can retain one " +
-                    "cover save as Critical sucess instead. This isn´t cumulative with improved cover" +
-                    " saves from Vantage terrain"
+            title = R.string.wasteland_stalker,
+            usage = R.string.wasteland_stalker_usage,
+            description = R.string.wasteland_stalker_description
         )
     ),
 

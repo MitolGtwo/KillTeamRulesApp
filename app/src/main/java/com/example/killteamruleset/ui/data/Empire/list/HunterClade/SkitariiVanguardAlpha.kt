@@ -120,24 +120,19 @@ val SkitariiVanguardAlpha = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Canticle of the Glow",
-            usage = "Passive",
-            description = "Whenever an enemy Operative is within 3\" of this Operative, if it´s under" +
-                    " the effects of Rad-Saturation(see below), also subtract 1 from the Atk stat" +
-                    " of that enemy operative´s weapons"
+            title = R.string.canticle_glow,
+            usage = R.string.canticle_glow_usage,
+            description = R.string.canticle_glow_description
         ),
         Ability(
-            title = "Rad-Saturation",
-            usage = "Passive",
-            description = "Whenever an enemy Operative is within 2\" of friendly HUNTER CLADE VANGUARD" +
-                    " operatives, worsen the Hit stat of that enemy operative´s weapons by 1." +
-                    "This isn´t cumulative with being injured"
+            title = R.string.rad_saturation,
+            usage = R.string.rad_saturation_usage,
+            description = R.string.rad_saturation_description
         ),
         Ability(
-            title = "Control Protocol",
-            usage = "FireFight Phase, Every Turn",
-            description = "You can use the ploy Command Override Firefight ploy for free, if the " +
-                    "specified friendly HUNTER CLADE operative is visible to this operative."
+            title = R.string.control_protocol,
+            usage = R.string.control_protocol_usage,
+            description = R.string.control_protocol_description
         )
     ),
 

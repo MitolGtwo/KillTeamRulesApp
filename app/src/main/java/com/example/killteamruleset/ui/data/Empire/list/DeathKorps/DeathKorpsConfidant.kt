@@ -75,20 +75,14 @@ val DeathKorpsConfidant = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Second in Command",
-            usage = "Passive/Firefight phase",
-            description = "If a friendly WATCHMASTER Operative is incapacitated, you can use this rule. If you" +
-                          " do, until the end of the battle, this Operative can issue a GUARDSMAN ORDER as a " +
-                          "STRATEGIC GAMBIT(even though it´s not a WATCHMASTER operative)."
+            title = R.string.deathkorps_confidant_secondincommand,
+            usage = R.string.deathkorps_confidant_secondincommand_usage,
+            description = R.string.deathkorps_confidant_secondincommand_description
         ),
         Ability(
-            title = "Directive",
-            usage = "Strategic Gambit",
-            description = "Whenever this Operative is activated, if you haven´t used the Second in Command rule" +
-                          " during the battle, you can select one other ready friendly DEATH KORP Operative visible" +
-                          " and within 6\" of it. When this operative is expended, activate that other friendly" +
-                          " Operative before your opponent activates(if that Operative is a TROOPER, ignore it´s" +
-                          " Group Activation rule)."
+            title = R.string.deathkorps_confidant_directive,
+            usage = R.string.deathkorps_confidant_directive_usage,
+            description = R.string.deathkorps_confidant_directive_description
         )
     ),
 

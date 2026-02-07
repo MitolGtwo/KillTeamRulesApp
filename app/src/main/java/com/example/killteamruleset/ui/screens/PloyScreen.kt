@@ -27,6 +27,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.data.PloyRepository
@@ -131,7 +132,7 @@ fun PloyCard(ploy: Ploy) {
 
             // 🔶 TITLE
             Text(
-                text = ploy.name,
+                text = stringResource(ploy.name),
                 color = Color(0xFFFF6A00),
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.titleMedium
@@ -144,9 +145,9 @@ fun PloyCard(ploy: Ploy) {
             )
 
             // 📜 LORE (OPTIONAL, GREY)
-            ploy.lore?.let { lore ->
+            ploy.lore?.let { loreRes ->
                 Text(
-                    text = lore,
+                    text = stringResource(loreRes),
                     color = Color.DarkGray,
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(bottom = 12.dp)
@@ -155,7 +156,7 @@ fun PloyCard(ploy: Ploy) {
 
             // ⚔️ RULE TEXT
             RichText(
-                text = ploy.description,
+                text = stringResource(ploy.description),
                 color = Color.Black
             )
         }

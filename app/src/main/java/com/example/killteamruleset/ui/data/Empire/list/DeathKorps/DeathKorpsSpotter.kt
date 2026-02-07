@@ -48,14 +48,9 @@ val DeathKorpsSpotter = Operative(
 
     abilities = listOf(
         Ability(
-            title = "SPOT",
-            usage = "1 APL/ Firefight Phase",
-            description = "SUPPPORT. Select one  enemy Operative visible to this Operative. Once" +
-                          " during this turning point, when a friendly DEATH KORPS Operative within" +
-                          " 3\" of this operative is shooting that enemy Operative, you can use this effect" +
-                          ". If you do:\nThat friendly operative´s range weapons have the Seek Light weapon rule." +
-                          "\nThat enemy operative cannot be obscured.\n\nThis Operative CANNOT perform" +
-                          " this action while within control range of an enemy Operative."
+            title = R.string.deathkorps_spotter,
+            usage = R.string.deathkorps_spotter_usage,
+            description = R.string.deathkorps_spotter_description
         )
         
     ),

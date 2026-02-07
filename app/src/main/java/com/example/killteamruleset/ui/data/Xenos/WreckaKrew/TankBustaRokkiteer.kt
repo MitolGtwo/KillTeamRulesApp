@@ -71,23 +71,14 @@ val TankbustaRokkiteer= Operative(
 
     abilities = listOf(
         Ability(
-            title = "Shokkwave",
-            usage = "Passive",
-            description = "Whenever an operative is within your Pulsa area of effect, subtract 2\"" +
-                    "from its Move stat and worsen the hit stat of its weapons by 1. This is " +
-                    "Cumulative with being injured.\nIn the Ready step of each Strategy phase, " +
-                    "subtract 1 from your Pulsa marker´s points, If it reaches 0 points, remove it.\n" +
-                    "(In practice, your Pulsa area of effect is smaller every turning pont.) "
+            title = R.string.wrecka_rokkiteer_shock,
+            usage = R.string.wrecka_rokkiteer_shock_usage,
+            description = R.string.wrecka_rokkiteer_shock_description
         ),
         Ability(
-            title = "Pulsa",
-            usage = "Special Weapon Rule",
-            description = "Don´t select a valid target, place your Pulsa marker visible to this operative, or" +
-                " on Vantage terrain of a terrain feature that is visible to this operative. That marker" +
-                " gains 1 Pulsa point, then roll attack dice as normal.\n It gains 1 additional Pulsa" +
-                " point for each success(up to 3 additional points). \n This token has an area of effect" +
-                " equal to its pulsa points, every point is 1\" of additional distance (To a max of 4\")." +
-                "\n Deal D3 damage on each operative wholly within your Pulsa marker range(Roll for each)."
+            title = R.string.wrecka_pulsa,
+            usage = R.string.wrecka_pulsa_usage,
+            description = R.string.wrecka_pulsa_description
         )
     ),
     keywords = listOf(

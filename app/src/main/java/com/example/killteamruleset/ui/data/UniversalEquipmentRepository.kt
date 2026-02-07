@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.data
 
+import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.Equipment
@@ -14,39 +15,18 @@ object UniversalEquipmentRepository {
     private val universalEquipment = listOf(
         Equipment(
             id = "portable_barricade",
-            name = "PORTABLE BARRICADE",
-            description = "A portable barricade is light cover, Protective and Portable terrain," +
-                    " except the feet which are Insignificant and Exposed. Before the battle," +
-                    " you can set it up wholly within your territory, on the killzone floor and more" +
-                    " than 2\" from other equipment terrain features, access points and Accessible terrain.\n" +
-                    "**Protective:**While an Operative is in cover from this terrain feature, improve" +
-                    " its Save stat by 1 (to a Maximum of 2+).\n**Portable:**This terrain feature only" +
-                    " provides cover while an Operative is connected to it and if the shield is" +
-                    " intervening (ignore its feet). Operatives connected to the inside of it can perform" +
-                    " the following unique action during the battle.",
+            name =R.string.portable_barricade,
+            description = R.string.portable_barricade_description,
             ability = Ability(
-                title = "MOVE WITH BARRICADE",
-                usage = "1 APL",
-                description = "The same as **Reposition** action, except the active Operative can move" +
-                        " no more than its Move stat minus 2\" and cannot climb, drop, jump, or use any" +
-                        " kill team´s rules that remove it and set it back up again (Ex Fly, Teleportation)" +
-                        "\nBefore this operative moves, remove the portable barricade it´s connected to." +
-                        " After it moves, set up the portable barricade so it´s connected again, but" +
-                        " the portable barricade cannot be set up within 2\" of other equipment terrain" +
-                        " feature, access points or Accessible terrain. If this is not possible, the" +
-                        " portable barricade is not set up again.\n  \nThis action is treated as a **Reposition**" +
-                        " action. An Operative cannot perform this action while within control range" +
-                        " of an enemy Operative or during the same activation in which it performed" +
-                        " the **Fall Back** or **Charge** action."
+                title = R.string.portable_barricade_title,
+                usage =R.string.portable_barricade_usage ,
+                description =R.string.portable_barricade_ability_description
             )
         ),
         Equipment(
             id = "explosive_grenades",
-            name = "EXPLOSIVE GRENADES",
-            description ="When you select this equipment, select two explosive grenades\n-2 frag.\n" +
-                    "-2 krak.\n-1 frag and 1 krak.\nEach selection is a unique action your Operatives" +
-                    " can perform, but your kill team can only perform that action a total number of times" +
-                    " during the battle equal to your election.",
+            name = R.string.explosive_grenades,
+            description =R.string.explosive_grenades_description,
             weapons = listOf(
                 WeaponProfile(
                     name = "Frag grenade",
@@ -75,128 +55,69 @@ object UniversalEquipmentRepository {
         ),
         Equipment(
             id = "utility_grenades_smoke",
-            name = "SMOKE GRENADE",
-            description = "When you select this equipment, select two utility grenades\n-2 Smokes.\n" +
-                    "-2 Stun.\n-1 Smoke and 1 Stun.\nEach selection is a unique action your Operatives" +
-                    " can perform, but your kill team can only perform that action a total number of times" +
-                    " during the battle equal to your election.",
+            name =R.string.smoke_grenade,
+            description = R.string.smoke_grenade_description,
             ability = Ability(
-                title = "SMOKE GRENADE",
-                usage = "1 APL",
-                description = "Place one of your Smoke Grenade markers within 6\" of this Operative." +
-                        " It must be visible to this Operative, or on Vantage terrain of a terrain feature" +
-                        " that´s visible to this Operative. The marker creates an area of smoke 1\"" +
-                        " horizontally and unlimited height vertically from (but not below) it.\n  \nWhile" +
-                        " an Operative is wholly within an area of smoke, it´s **Obscured** to Operatives" +
-                        " more than 2\" from it, and vice versa. In addition, whenever an Operative is" +
-                        " shooting an enemy Operative wholly within an area of smoke, weapons with the" +
-                        " **Piercing 2** or **Piercing Crits 2** weapon rule will have **Piercing 1**" +
-                        " or **Piercing Crits 1** instead, unless they´re within 2\" of each other\n  \n" +
-                        "In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke" +
-                        " Grenade marker after a number of activations equal to the result have been" +
-                        " completed or at the end of the turning point (whichever comes first).\n\n" +
-                        "An operative CANNOT perform this action while within control range of an" +
-                        " enemy Operative, or if you have reached the total number of times you kill team" +
-                        "can perform it."
+                title = R.string.smoke_grenade_title,
+                usage = R.string.smoke_grenade_usage,
+                description = R.string.smoke_grenade_ability_description
             )
 
         ),
         Equipment(
             id = "utility_grenades_stun",
-            name = "SMOKE GRENADE",
-            description = "When you select this equipment, select two utility grenades\n-2 Smokes.\n" +
-                    "-2 Stun.\n-1 Smoke and 1 Stun.\nEach selection is a unique action your Operatives" +
-                    " can perform, but your kill team can only perform that action a total number of times" +
-                    " during the battle equal to your election.",
+            name =R.string.stun_grenade,
+            description = R.string.stun_grenade_description ,
             ability = Ability(
-                title = "STUN GRENADE",
-                usage = "1 APL",
-                description = "Select one enemy Operative visible and within 6\" of this Operative" +
-                        ". That operative and each other Operative within 1\" of it takes a stun test." +
-                        " For an Operative to take a stun test, roll one D6: on a 3+, subtract 1 from" +
-                        " its APL stat until the end of its next activation.\n\n" +
-                        "An operative CANNOT perform this action while within control range of an" +
-                        " enemy Operative, or if you have reached the total number of times you kill team" +
-                        "can perform it."
+                title = R.string.stun_grenade_title ,
+                usage = R.string.stun_grenade_usage ,
+                description = R.string.stun_grenade_ability_description
             )
         ),
         Equipment(
             id = "ammo_cache",
-            name = "1X AMMO CACHE",
-            description = "Before the battle, you can set up one of your Ammo Cache markers wholly within" +
-                    " your territory. Friendly Operatives can perform the following mission action" +
-                    " during the battle.",
+            name =R.string.ammo_cache ,
+            description = R.string.ammo_cache_description,
             ability = Ability(
-                title = "AMMO RESUPPLY",
-                usage = "0 APL",
-                description = "One of your Ammo Cache markers the active Operative controls is used" +
-                        " during this turning point.\nUntil the start of the next turning point," +
-                        " whenever this Operative is shooting with a weapon from its datacard, you" +
-                        " can re-roll one of your attack dice.\n\n" +
-                        "An operative CANNOT perform this action while within control range of an" +
-                        " enemy Operative, if that marker isn´t yours, or if that marker has been used" +
-                        " during this turning point."
+                title = R.string.ammo_cache_title,
+                usage = R.string.ammo_cache_usage,
+                description = R.string.ammo_cache_ability_description
             )
         ),
         Equipment(
             id = "razor_wire",
-            name = "1X RAZOR WIRE",
-            description = "Razor wire is Exposed and Obstructing terrain. Before the battle, you can" +
-                    " set it up wholly within your territory, on the killzone floor and more than 2\"" +
-                    " from other equipment terrain features, access points and Accessible terrain.\n" +
-                    "**Obstructing:** Whenever an Operative would cross over this terrain feature" +
-                    " within 1\" of it, treat the distance as an additional 1\""
+            name = R.string.razor_wire,
+            description = R.string.razor_wire_description
             ),
         Equipment(
             id = "comms_device",
-            name = "1X COMMS DEVICE",
-            description = "Before the battle, you can set up one of your Comms Device markers wholly" +
-                    " within your territory. While a friendly operative controls this marker, add 3\"" +
-                    " to the distance requirements of its **SUPPORT** rules that refer to friendly" +
-                    " Operatives, improving the distance. Note that you cannot benefit from your" +
-                    " opponent´s Comms Device markers."
+            name = R.string.comms_device,
+            description = R.string.comms_device_description
         ),
         Equipment(
             id = "mines",
-            name = "1X MINES",
-            description = "Before the battle, you can set up one of your Mines Marker wholly within" +
-                    " your territory and more than 2\" from other markers, access points and" +
-                    " Accessible terrain. The first time that marker is within an Operative´s control" +
-                    " range, remove that marker and inflict D3+3 damage on that Operative."
+            name = R.string.mines,
+            description = R.string.mines_description
         ),
         Equipment(
             id = "light_barricades",
-            name = "2X LIGHT BARRICADES",
-            description = "Light barricades are Light terrain, except the feet, which are Insignificant" +
-                    " and Exposed. Before the battle, you can set up one of your Mines Marker wholly" +
-                    " within your territory and more than 2\" from other markers, access points and" +
-                    " Accessible terrain. ."
+            name = R.string.light_barricades,
+            description = R.string.light_barricades_description
         ),
         Equipment(
             id = "heavy_barricade",
-            name = "1X HEAVY BARRICADE",
-            description = "A heavy barricade is Heavy terrain. Before the battle, you can set it up" +
-                    " wholly within 4\" of your drop zone, on the kill zone floor and more than 2\" " +
-                    "from other markers, access points and Accessible terrain."
+            name = R.string.heavy_barricade,
+            description = R.string.heavy_barricade_description
         ),
         Equipment(
             id = "ladder",
-            name = "2X LADDERS",
-            description = "Ladders are Insignificant and Exposed terrain. Before the battle, you can" +
-                    " set up any of them as follows:\n*Wholly within your territory.\nUpright against" +
-                    "a terrain that´s at least 2\" tall.\"More than 2\" from other equipment terrain" +
-                    "features.\nMore than 1\" from doors and access points.\n \nOnce per action" +
-                    ", whenever an Operative is climbing the terrain feature a ladder is placed against" +
-                    ", treat the vertical distance as 1\" if the ladder is within that Operative´s" +
-                    " control range during that entire climb."
+            name = R.string.ladder,
+            description = R.string.ladder_description
         ),
         Equipment(
             id = "breaching_charge",
-            name = "BREACHING CHARGE",
-            description = "Once per battle, when a friendly Operative performs the **BREACH** action," +
-                    " you can use this rule. If you do, that Operative can perform that action for 1" +
-                    " less AP (to a minimum of 1AP) as though it had the word \"breach marker\" on its" +
-                    "datacard."
+            name = R.string.breaching_charge,
+            description = R.string.breaching_charge_description
         )
     )
 

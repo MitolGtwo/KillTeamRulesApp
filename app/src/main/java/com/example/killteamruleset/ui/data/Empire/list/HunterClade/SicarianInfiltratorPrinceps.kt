@@ -70,19 +70,15 @@ val SicarianInfiltratorPrinceps = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Canticle of Shroudpsalm",
-            usage = "Passive",
-            description = "Whenever an friendly HUNTER CLADE INFILTRATOR Operative is within 3\" " +
-                    "of this operative, has a conceal order and is in cover, that friendly Operative" +
-                    " cannot be selected as a valid target, taking precedence over all other rules" +
-                    "(Ex Seek, Seek light or Vantage terrain) except being withing 2\""
+            title = R.string.canticle_shroudpsalm,
+            usage = R.string.canticle_shroudpsalm_usage,
+            description = R.string.canticle_shroudpsalm_description
         ),
 
         Ability(
-            title = "Control Protocol",
-            usage = "FireFight Phase, Every Turn",
-            description = "You can use the ploy Command Override Firefight ploy for free, if the " +
-                    "specified friendly HUNTER CLADE operative is visible to this operative."
+            title = R.string.control_protocol,
+            usage = R.string.control_protocol_usage,
+            description = R.string.control_protocol_description
         )
     ),
 

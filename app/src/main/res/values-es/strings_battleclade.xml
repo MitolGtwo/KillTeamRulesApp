@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Battleclade-->
+
+    <string name="battleclade_autoproxy_eye"><![CDATA[
+
+        Achillan Eye
+
+    ]]></string>
+
+    <string name="battleclade_autoproxy_eye_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="battleclade_autoproxy_eye_description"><![CDATA[
+
+        Whenever a friendly **BATTLECLADE** Operative is shooting an enemy Operative visible
+                     to this Operative, that friendly Operatives ranged weapons have the **Saturate** weapon rule.
+                     This rule has no effect if this Operative is within control range of an enemy Operative.
+
+    ]]></string>
+
+    <string name="battleclade_autoproxy_gaze"><![CDATA[
+
+        GAZE OF THE OMNISSIAH
+
+    ]]></string>
+
+    <string name="battleclade_autoproxy_gaze_usage"><![CDATA[
+
+        1AP/Firefight Phase
+
+    ]]></string>
+
+    <string name="battleclade_autoproxy_gaze_description"><![CDATA[
+
+        Select one enemy Operative visible to this Operative. Until the end of the turning point, whenever
+                     a friendly **BATTLECLADE** Operative is shooting that enemy Operative, you can use this rule. If you do:\n
+                    \n*That enemy Operative cannot be obscured.
+                     \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative.
+
+    ]]></string>
+
+    <string name="battleclade_breach"><![CDATA[
+
+        Breach
+
+    ]]></string>
+
+    <string name="battleclade_breach_usage"><![CDATA[
+
+        1 AP/Firefight phase
+
+    ]]></string>
+
+    <string name="battleclade_breach_description"><![CDATA[
+
+        Place one of your Breach markers within this Operatives control range as close as possible to a
+                     terrain feature within control range of it. Whenever an Operative is within 1\" of that marker,
+                     it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.\n\n
+                    This Operative **cannot** perform this action while within control range of an enemy Operative, or if
+                     a terrain feature isnt within its control range.
+
+    ]]></string>
+
+    <string name="battleclade_divinearcana"><![CDATA[
+
+        Seeker of Divine Arcana
+
+    ]]></string>
+
+    <string name="battleclade_divinearcana_usage"><![CDATA[
+
+        Strategic Gambit
+
+    ]]></string>
+
+    <string name="battleclade_divinearcana_description"><![CDATA[
+
+        You can inmediatly change this Operatives order and/or can inmediatly perform
+                        any of these actions for free:\nOmniscanner\nFall Back\nPlace Marker\nPick Up Marker
+                        \nMission Action\nReposition.\nWhen doing a Reposition or Fall back action with this rule
+                         and this Operative is not carrying a marker, it must end that move either within your drop
+                         zone(or as close as possible), or with control of a mission marker or objective marker.
+
+    ]]></string>
+
+
+    <string name="battleclade_omniscanner"><![CDATA[
+
+        Omniscanner
+
+    ]]></string>
+
+    <string name="battleclade_omniscanner_usage"><![CDATA[
+
+        1AP/Firefight Phase or Strategic Gambit
+
+    ]]></string>
+
+    <string name="battleclade_omniscanner_description"><![CDATA[
+
+        Select one enemy Operative visible or within 8\" of this operative to gain one of your
+                        Omniscanner tokens. Whenever a friendly BATTLECLADE Operative is shooting, fighting, or retaliating
+                         an enemy Operative with one of your Omniscanner tokens, that friendly Operatives weapons have
+                         the Ceasless weapon rule.\n\nThis Operative CANNOT perform this action while within control range
+                         of an enemy Operative.
+
+    ]]></string>
+
+
+    <string name="battleclade_datacoronal"><![CDATA[
+
+        Datacoronal Accumulator
+
+    ]]></string>
+
+    <string name="battleclade_datacoronal_usage"><![CDATA[
+
+        1AP/ Firefight phase
+
+    ]]></string>
+
+    <string name="battleclade_datacoronal_description"><![CDATA[
+
+        **Support.** on work
+
+    ]]></string>
+
+
+    <string name="battleclade_network"><![CDATA[
+
+        Network Override
+
+    ]]></string>
+
+    <string name="battleclade_network_usage"><![CDATA[
+
+        1AP/ Firefight phase
+
+    ]]></string>
+
+    <string name="battleclade_network_description"><![CDATA[
+
+        **SUPPORT.** on work
+
+    ]]></string>
+
+
+
+    <!--Faction Rules-->
+
+    <!--Equipment-->
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+
+    <!--Firefight ploys-->
+
+
+
+</resources>

@@ -49,10 +49,9 @@ val PlagueMarineWarrior= Operative(
 
     abilities = listOf(
         Ability(
-            title = "Repulsive Fortitude",
-            usage = "Passive",
-            description = "Whenever an Operative is shooting this Operative, defence dice results of " +
-                    " 5+ are critical Successes."
+            title = R.string.plaguemarinefighter,
+            usage = R.string.plaguemarinefighter,
+            description = R.string.plaguemarinefighter
         )
 
     ),

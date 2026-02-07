@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!--Plague Marines-->
+    <string name="malignantplaguecaster_poisonus_miasma"><![CDATA[
+
+        POISONOUS MIASMA
+
+]]></string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_usage"><![CDATA[
+
+        1 AP /SELECT AN ENEMY OPERATIVE
+
+]]></string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_description"><![CDATA[
+
+        Psychic Select one enemy operative visible and within 7\" of this operative
+                     or one enemy Operative thats a valid target for this Operative. That enemy
+                     Operative gains one of your Poison tokens. If it has one already, inflict 3
+                     damage on that enemy instead.\n\nThis operative CANNOT perform this action while
+                     within control range of an enemy Operative.
+
+]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality"><![CDATA[
+
+        PUTRESCENT VITALITY
+
+]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_usage"><![CDATA[
+
+        1 AP /SELECT AN ALLY OPERATIVE
+
+]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_description"><![CDATA[
+
+        Psychic select one friendly operative visible and within 3\" of this
+                     Operative, then roll 2D6: if the result is 7, the selected Operative regains
+                     7 lost wounds; otherwise, the selected Operative regains wounds equal to the
+                     highest result of the 2D6.\n\nThis operative CANNOT perform this action while
+                     within control range of an enemy Operative, or more than once per turning point.
+
+]]></string>
+
+    <string name="plaguemarinebombardier_grenadier"><![CDATA[
+
+        GRENADIER
+
+]]></string>
+
+    <string name="plaguemarinebombardier_grenadier_usage"><![CDATA[
+
+        Passive
+
+]]></string>
+
+    <string name="plaguemarinebombardier_grenadier_description"><![CDATA[
+
+        This operative can use blight and krak grenades ignoring the limit of uses
+                    you have per universal equipment(It doesnt count toward the number of grenades
+                    the rest of the team can use), whenever this operative uses a grenade, improve the
+                     Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
+
+]]></string>
+
+    <string name="plaguemarinechambion_gfblessing"><![CDATA[
+
+        Grandfather’s Blessing
+
+]]></string>
+
+    <string name="plaguemarinechambion_gfblessing_usage"><![CDATA[
+
+        Passive
+
+]]></string>
+
+    <string name="plaguemarinechambion_gfblessing_description"><![CDATA[
+
+       Whenever an enemy Operative that has one of your Poison tokens loses one
+                     or more wounds within 7" of this operative, this operative regains up to an
+                    equal number of lost wounds(to a maximum of 3 per turning point and only if
+                    this operative isnt incapacitated).
+
+]]></string>
+
+
+    <string name="plaguemarinefighter_flail"><![CDATA[
+
+        FLAIL
+
+]]></string>
+
+    <string name="plaguemarinefighter_flail_usage"><![CDATA[
+
+        1 AP/ Fight Action
+
+]]></string>
+
+    <string name="plaguemarinefighter_flail_description"><![CDATA[
+
+       Inflict D3+2 damage on each other operative thats visible and within 2"
+                     of this operative. Roll separately foe each: if its an enemy operative, if the D3
+                     result is a 3, that enemy operative also gains one of your Poison tokens(if it
+                     doesnt have already one).\nThis action is treated as a Fight action, and this
+                     operative cannot perform it while having a Conceal order
+
+]]></string>
+
+    <string name="plaguemarine_iconbearer"><![CDATA[
+
+        ICON BEARER
+
+]]></string>
+
+    <string name="plaguemarine_iconbearer_usage"><![CDATA[
+
+        Passive
+
+]]></string>
+
+    <string name="plaguemarine_iconbearer_description"><![CDATA[
+
+      Whenever determining control of a marker, treat this operative’s APL stat
+                     as 1 higher. Note this isn’t a change to its APL stat, so any changes are
+                    cumulative with this
+
+]]></string>
+
+    <string name="plaguemarine_icon_of_contagion"><![CDATA[
+
+        ICON OF CONTAGION
+
+]]></string>
+
+    <string name="plaguemarine_icon_of_contagionr_usage"><![CDATA[
+
+        Strategy Phase
+
+]]></string>
+
+    <string name="plaguemarine_icon_of_contagionr_description"><![CDATA[
+
+      Whenever this operative is within your opponents territory, the Contagion
+                     strategy ploy costs you 0CP.
+
+]]></string>
+
+    <string name="plaguemarinefighter"><![CDATA[
+
+        GRENADIER
+
+]]></string>
+
+    <string name="plaguemarinefighter_usage"><![CDATA[
+
+        Passive
+
+]]></string>
+
+    <string name="plaguemarinefighter_description"><![CDATA[
+
+        This operative can use blight and krak grenades ignoring the limit of uses
+                    you have per universal equipment(It doesnt count toward the number of grenades
+                    the rest of the team can use), whenever this operative uses a grenade, improve the
+                     Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
+
+]]></string>
+
+
+
+</resources>

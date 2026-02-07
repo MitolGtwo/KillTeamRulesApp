@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Plague Marines-->
+    <string name="malignantplaguecaster_poisonus_miasma"><![CDATA[
+
+         MIASMA VENENOSO
+
+     ]]></string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_usage"><![CDATA[
+
+         1 AP /Selecciona un enemigo
+
+     ]]></string>
+
+    <string name="malignantplaguecaster_poisonus_miasma_description"><![CDATA[
+
+         **Psychic**. Seleciona un Operativo visible y a 7" de este Operativo, o un Operativo
+         que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno de tus
+         Poison token. En caso de ya tener uno, recibe 3 heridas en su lugar.
+
+         Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
+         enemigo.
+
+     ]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality"><![CDATA[
+
+         VITALIDAD PUTRIDA
+
+     ]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_usage"><![CDATA[
+
+         1 AP /Selecciona un aliado
+
+     ]]></string>
+
+    <string name="malignantplaguecaster_putrescent_vitality_description"><![CDATA[
+
+         **Psychic**. Selecciona un Operativo aliado visible y a 3" de este Operative, lanza
+         2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas
+         ; de otra forma, el Operativo recupera heridad totales al resultado mas grande de los
+         dos dados.
+
+         Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
+         enemigo, o mas de una vez por turno.
+
+     ]]></string>
+
+    <string name="plaguemarinebombardier_grenadier"><![CDATA[
+
+         GRANADERO
+
+     ]]></string>
+
+    <string name="plaguemarinebombardier_grenadier_usage"><![CDATA[
+
+         Pasiva
+
+     ]]></string>
+
+    <string name="plaguemarinebombardier_grenadier_description"><![CDATA[
+
+         Este Operativo puede usar granadas krak y de plaga gratis, ignorando el uso limitado por
+         equipamiento universal, cuando este Operativo usa una granada, mejora el Hit a 1. Granadas
+         de plaga tienen la clave Toxic.
+
+     ]]></string>
+
+    <string name="plaguemarinechambion_gfblessing"><![CDATA[
+
+         Bendicion del Gran Padre
+
+     ]]></string>
+
+    <string name="plaguemarinechambion_gfblessing_usage"><![CDATA[
+
+         Pasiva
+
+     ]]></string>
+
+    <string name="plaguemarinefighter_flail_description"><![CDATA[
+
+         Cuando un Operativo enemigo que tenga un marcador de veneno pierde una o mas heridas
+         a 7" de este Operativo, este Operativo recupera heridas igual al numero de heridas que
+         perdio ese Operativo (hasta un maximo de 3 heridas recuperadas por turno, y solo si este
+         Operativo no esta incapacitado).
+
+     ]]></string>
+
+    <string name="plaguemarinefighter_flail"><![CDATA[
+
+         AZOTE IMPLACABLE
+
+     ]]></string>
+
+    <string name="plaguemarinefighter_flail_usage"><![CDATA[
+
+         1 AP/ Accion de combate
+
+     ]]></string>
+
+    <string name="plaguemarinechambion_gfblessing_description"><![CDATA[
+
+         Inflinge D3+2 daño a cada Operativo que sea visible y este a 2" de ese Operativo. Lanza dado por cada Operativo:
+         si es un Operativo enemigo, si el resultado del D3 es 3, ese Operativo tambien gana un marcador de Veneno (en caso de que no tenga uno).
+         Esta accion es considerada una accion de combate, y no se puede realizar mientras este Operativo tenga una orden de **Engage**
+
+     ]]></string>
+
+    <string name="plaguemarine_iconbearer"><![CDATA[
+
+         PORTA ESTANDARTE
+
+     ]]></string>
+
+    <string name="plaguemarine_iconbearer_usage"><![CDATA[
+
+         Pasiva
+
+     ]]></string>
+
+    <string name="plaguemarine_iconbearer_description"><![CDATA[
+
+       Cuando vayas a determinar el control en un objetivo de mision, trata la estadistica APL de este Operativo
+         como +1 a su valor actual, esto no cambia la estadistica de APL de este Operativo, cualquier cambio a este valor es acumulativo.
+
+     ]]></string>
+
+    <string name="plaguemarine_icon_of_contagion"><![CDATA[
+
+         ICONO DEl CONTAGION
+
+     ]]></string>
+
+    <string name="plaguemarine_icon_of_contagionr_usage"><![CDATA[
+
+         Phase estrategica
+
+     ]]></string>
+
+    <string name="plaguemarine_icon_of_contagionr_description"><![CDATA[
+
+         Mientras este Operativo este en el territorio enemigo, la Strategy Ploy Contagion cuesta 0CP.
+
+     ]]></string>
+
+    <string name="plaguemarinefighter"><![CDATA[
+
+        GRENADIER
+
+]]></string>
+
+    <string name="plaguemarinefighter_usage"><![CDATA[
+
+        Passive
+
+]]></string>
+
+    <string name="plaguemarinefighter_description"><![CDATA[
+
+        This operative can use blight and krak grenades ignoring the limit of uses
+                    you have per universal equipment(It doesnt count toward the number of grenades
+                    the rest of the team can use), whenever this operative uses a grenade, improve the
+                     Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
+
+]]></string>
+
+
+</resources>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Death Korps-->
+
+    <string name="deathkorps_bruiser"><![CDATA[
+
+        Bruiser
+
+    ]]></string>
+
+    <string name="deathkorps_bruiser_usage"><![CDATA[
+
+        Passive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_bruiser_description"><![CDATA[
+
+        Once per turning point, when this Operative is fighting or
+                 retaliating, in the Resolve Attack Dice step, you can ignore the damage
+                 inflicted on it from one normal success.\nIf this Operative is incapacitated
+                 during the FIGHT action, you can strike the enemy Operative in that sequence
+                 with one of your unresolved successes before this Operative is removed from the
+                killzone.
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_secondincommand"><![CDATA[
+
+        Second in Command
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_secondincommand_usage"><![CDATA[
+
+        Passive/Firefight phase
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_secondincommand_description"><![CDATA[
+
+        If a friendly WATCHMASTER Operative is incapacitated, you can use this rule. If you
+                           do, until the end of the battle, this Operative can issue a GUARDSMAN ORDER as a
+                          STRATEGIC GAMBIT(even though its not a WATCHMASTER operative).
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_directive"><![CDATA[
+
+        Directive
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_directive_usage"><![CDATA[
+
+        Strategic Gambit
+
+    ]]></string>
+
+    <string name="deathkorps_confidant_directive_description"><![CDATA[
+
+        Whenever this Operative is activated, if you havent used the Second in Command rule
+                           during the battle, you can select one other ready friendly DEATH KORP Operative visible
+                           and within 6\" of it. When this operative is expended, activate that other friendly
+                           Operative before your opponent activates(if that Operative is a TROOPER, ignore its
+                           Group Activation rule).
+
+    ]]></string>
+
+    <string name="deathkorps_medic"><![CDATA[
+
+        Medic!
+
+    ]]></string>
+
+    <string name="deathkorps_medic_usage"><![CDATA[
+
+        Pasive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_medic_description"><![CDATA[
+
+        The first time during each turning point, when another friendly DEATHKORPS Operative
+                 would be incapacitated while visible and within 3\" of this operative, you can use this rule if
+                 neither this nor the other friendly Operative is within control range of an enemy Operative
+                .If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be
+                 incapacitated for the remainder of the action.\nAfter that action, that friendly Operative can
+                 inmediately perfrom a free Dash action, but must end that move within this Operatives control range
+                . Substract 1 from this and the other Operatives APL stats until the end of their next activations
+                , if this rule is used during that other Operative activation, its activation ends.\n
+                You cannot use this rule if this operative is incapacitated, or if its a Shoot action and this
+                 Operative would be a primary or secondary target.
+
+    ]]></string>
+
+    <string name="deathkorps_medikit"><![CDATA[
+
+        MEDKIT
+
+    ]]></string>
+
+    <string name="deathkorps_medikit_usage"><![CDATA[
+
+        1 AP
+
+    ]]></string>
+
+    <string name="deathkorps_medikit_description"><![CDATA[
+
+        Select one friendly DEATHKORPS Operative within this Operatives control range
+                 to regain up to 2D3 lost wounds. It cannot be used on an Operative which benefit from the
+                 rule Medic! this turning point.\n\nThis Operative Cannot perform this action while within
+                control range of an enemy Operative.
+
+    ]]></string>
+
+
+    <string name="deathkorps_sapper_mine"><![CDATA[
+
+        Mine Layer
+
+    ]]></string>
+
+    <string name="deathkorps_sapper_mine_usage"><![CDATA[
+
+        Pasive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_sapper_mine_description"><![CDATA[
+
+        This Operative is carrying your Mine marker. It can perform the
+                 Pick Up Marker action on that marker, and whenever it performs the Place
+                 Marker action on that marker, it can perform a free Dash action.
+
+    ]]></string>
+
+    <string name="deathkorps_sapper_detonate"><![CDATA[
+
+        Detonate
+
+    ]]></string>
+
+    <string name="deathkorps_sapper_detonate_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="deathkorps_sapper_detonate_description"><![CDATA[
+
+        Dont select a valid target, shoot against each operative within 2"
+             of your Mine marker, unless heavy terrain is wholly intervening between that
+             Operative and that marker. Each valid target cannot be in cover or obscured
+            . Roll for each Operative.\nThis weapon cannot be selected if your Mine marker
+             is not in the killzone, after shooting this weapon the Mine marker is removed
+             from the killzone. In a killzone that use close quarter rule, this weapon has
+             Lethal 5+ weapon rule.
+
+    ]]></string>
+
+    <string name="deathkorps_spotter"><![CDATA[
+
+        SPOT
+
+    ]]></string>
+
+    <string name="deathkorps_spotter_usage"><![CDATA[
+
+        1 APL/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_spotter_description"><![CDATA[
+
+        **SUPPPORT.** Select one  enemy Operative visible to this Operative. Once
+                           during this turning point, when a friendly DEATH KORPS Operative within
+                           3\" of this operative is shooting that enemy Operative, you can use this effect
+                          . If you do:\nThat friendly operatives range weapons have the Seek Light weapon rule.
+                          \nThat enemy operative cannot be obscured.\n\nThis Operative CANNOT perform
+                           this action while within control range of an enemy Operative.
+
+    ]]></string>
+
+    <string name="deathkorps_trooper"><![CDATA[
+
+        Group Activation
+
+    ]]></string>
+
+    <string name="deathkorps_trooper_usage"><![CDATA[
+
+        Passive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_trooper_description"><![CDATA[
+
+        Whenever this Operative is expended, you MUST then activate another
+                           ready friendly DEATH KORP TROOPER Operative(if able) before your
+                           opponent activates. When that operative is expended, your opponent then
+                           activates as normal(you cannot activate more than two Operatives before
+                           your opponent with this rule).
+
+    ]]></string>
+
+    <string name="deathkorps_veteranguardsmen"><![CDATA[
+
+        Veteran Guardsman
+
+    ]]></string>
+
+    <string name="deathkorps_veteranguardsmen_usage"><![CDATA[
+
+        Passive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_veteranguardsmen_description"><![CDATA[
+
+        Whenever this Operative is activated, it can receive one
+                           GUARDSMAN ORDER.
+
+    ]]></string>
+
+    <string name="deathkorps_veteran_bionics"><![CDATA[
+
+        Bionics
+
+    ]]></string>
+
+    <string name="deathkorps_veteran_bionics_usage"><![CDATA[
+
+        Passive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_veteran_bionics_description"><![CDATA[
+
+        Normal Dmg of 3 or more inflicts 1 less damage on this
+                           Operative.
+
+    ]]></string>
+
+    <string name="deathkorps_vox_relayorders"><![CDATA[
+
+        Relay Orders
+
+    ]]></string>
+
+    <string name="deathkorps_vox_relayorders_usage"><![CDATA[
+
+        Passive/1 APL
+
+    ]]></string>
+
+    <string name="deathkorps_vox_relayorders_description"><![CDATA[
+
+        Once per turning point, when this operative receives a GUARDSMAN ORDER
+                          , if its not within control range of an enemy Operative, it can relay that
+                           order. All friendly DEATH KORPS Operatives in the killzone receive that order,
+                           this Operative then loses 1 APL until the end of its next activation.
+
+    ]]></string>
+
+    <string name="deathkorps_vox_signal"><![CDATA[
+
+        Signal
+
+    ]]></string>
+
+    <string name="deathkorps_vox_signal_usage"><![CDATA[
+
+        1 APL/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_vox_signal_description"><![CDATA[
+
+        SUPPPORT. Select one other friendly DEATH KORPS Operative visible
+                           and within 6" of this Operative. Until the end of that Operatives
+                           next activation, add 1 to its APL stat.
+
+                           This Operative CANNOT perform
+                           this action while within control range of an enemy Operative.
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_adaptive"><![CDATA[
+
+        Adaptive Orders
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_adaptive_usage"><![CDATA[
+
+        Passive/Firefight phase
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_adaptive_description"><![CDATA[
+
+        If this Operative doesnt issue a Guardsman Order as a Strategic Gambit,
+                           you can use the Inspirational Leadership Firefight ploy for 0CP during this
+                           Operatives activation.
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_bring"><![CDATA[
+
+        Bring it Down!
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_bring_usage"><![CDATA[
+
+        Strategic Gambit
+
+    ]]></string>
+
+    <string name="deathkorps_watchmaster_bring_description"><![CDATA[
+
+        If this Operative is in the killzone. Select one enemy operative. Whenever a friendly
+           DEATH KORP Operative is shooting, fighting or retaliating against that enemy Operative
+          , that friendly Operatives weapons have the Punishing weapon rule.
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_theemperor"><![CDATA[
+
+        The Emperor Protects!!
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_theemperor_usage"><![CDATA[
+
+        Passive/Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_theemperor_description"><![CDATA[
+
+        Whenever an Operative is shooting this Operative, you can re-roll any of
+                           your defence dice
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_uplifting"><![CDATA[
+
+        Uplifting Primer
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_uplifting_usage"><![CDATA[
+
+        Passive/ Firefight Phase
+
+    ]]></string>
+
+    <string name="deathkorps_zealot_uplifting_description"><![CDATA[
+
+        SUPPPORT. Whenever a friendly DEATH KORPS Operative is within 3"
+                           os this Operative, that friendly Operatives weapons have the
+                           Severe weapon rule.
+
+    ]]></string>
+
+    <!--Equipment-->
+
+
+    <!--Ploys-->
+
+    <!--Stategy ploys-->
+
+    <!--Firefight ploys-->
+
+
+</resources>

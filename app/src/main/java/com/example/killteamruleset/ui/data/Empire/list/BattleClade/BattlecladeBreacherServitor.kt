@@ -58,13 +58,9 @@ val BattlecladeBreacherServitor = Operative(
 
     abilities = listOf(
         Ability(
-            title = "BREACH",
-            usage = "1 AP/Firefight phase",
-            description = "Place one of your Breach markers within this Operative´s control range as close as possible to a" +
-                    " terrain feature within control range of it. Whenever an Operative is within 1\" of that marker," +
-                    " it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.\n\n" +
-                    "This Operative **cannot** perform this action while within control range of an enemy Operative, or if" +
-                    " a terrain feature isn´t within its control range."
+            title = R.string.battleclade_breach,
+            usage = R.string.battleclade_breach_usage,
+            description = R.string.battleclade_breach_description
         )
     ),
 

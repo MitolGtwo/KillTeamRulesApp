@@ -54,12 +54,9 @@ val TankbustaGunner= Operative(
 
     abilities = listOf(
         Ability(
-            title = "Kompetitive Streak",
-            usage = "Passive",
-            description = "Once per **Shoot** action, if this operative shoots an enemy Operative that" +
-                    " another friendly Operative has already Shot during this turning point, you" +
-                    " gain 1 Wrecka point. Determine this when you select a valid target, but you can" +
-                    " include any secondary targets when doing so (Ex from the Blast weapon rule)."
+            title = R.string.wrecka_gunner,
+            usage = R.string.wrecka_gunner_usage,
+            description = R.string.wrecka_gunner_description
         )
     ),
     keywords = listOf(

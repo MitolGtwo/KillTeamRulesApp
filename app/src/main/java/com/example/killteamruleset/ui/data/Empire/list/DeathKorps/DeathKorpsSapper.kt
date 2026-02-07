@@ -51,23 +51,15 @@ val DeathKorpsSapper = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Mine Layer",
-            usage = "Pasive/ Firefight Phase",
-            description = "This Operative is carrying your Mine marker. It can perform the" +
-                " Pick Up Marker action on that marker, and whenever it performs the Place" +
-                " Marker action on that marker, it can perform a free Dash action."
+            title = R.string.deathkorps_sapper_mine,
+            usage = R.string.deathkorps_sapper_mine_usage,
+            description = R.string.deathkorps_sapper_mine_description
         ),
 
         Ability(
-            title = "Detonate",
-            usage = "Special Weapon Rule",
-            description = "Don´t select a valid target, shoot against each operative within 2\"" +
-                " of your Mine marker, unless heavy terrain is wholly intervening between that" +
-                " Operative and that marker. Each valid target cannot be in cover or obscured" +
-                ". Roll for each Operative.\nThis weapon cannot be selected if your Mine marker" +
-                " is not in the killzone, after shooting this weapon the Mine marker is removed" +
-                " from the killzone. In a killzone that use close quarter rule, this weapon has" +
-                " Lethal 5+ weapon rule."
+            title = R.string.deathkorps_sapper_detonate,
+            usage = R.string.deathkorps_sapper_detonate_usage,
+            description = R.string.deathkorps_sapper_detonate_description
         )
         
     ),

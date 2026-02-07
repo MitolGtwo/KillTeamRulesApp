@@ -42,9 +42,9 @@ val PlagueMarineBombardier = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Grenadier",
-            usage = "Passive",
-            description = "."
+            title = R.string.plaguemarinebombardier_grenadier,
+            usage = R.string.plaguemarinebombardier_grenadier_usage,
+            description = R.string.plaguemarinebombardier_grenadier_description
         )
     ),
     keywords = listOf(

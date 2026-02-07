@@ -1,7 +1,6 @@
 package com.example.killteamruleset.ui.components
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
@@ -11,10 +10,9 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.FactionRule
 
 @Composable
@@ -30,7 +28,7 @@ fun FactionRuleCard(rule: FactionRule) {
 
             // 🔶 TITLE
             Text(
-                text = rule.title.uppercase(),
+                text = stringResource(rule.title).uppercase(),
                 color = Color(0xFFFF6A00),
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.titleMedium
@@ -43,9 +41,9 @@ fun FactionRuleCard(rule: FactionRule) {
             )
 
             // 📜 LORE
-            rule.lore?.let {
+            rule.lore?.let { loreRes ->
                 Text(
-                    text = it,
+                    text = stringResource(loreRes),
                     color = Color.DarkGray,
                     style = MaterialTheme.typography.bodySmall,
                     modifier = Modifier.padding(bottom = 12.dp)
@@ -53,10 +51,14 @@ fun FactionRuleCard(rule: FactionRule) {
             }
 
             // ⚔️ RULE TEXT
-            RichText(
-                text = rule.ruleText,
-                color = Color.Black
-            )
+            rule.ruleText?.let { ruleTextRes ->
+                RichText(
+                    text = stringResource(ruleTextRes),
+                    color = Color.Black
+                )
+            }
+
+            // 🖼️ IMAGE
             rule.imageRes?.let { resId ->
                 Spacer(Modifier.height(16.dp))
 
@@ -66,7 +68,7 @@ fun FactionRuleCard(rule: FactionRule) {
                     contentScale = ContentScale.Fit,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .heightIn(min = 260.dp) // 👈 KEY LINE (tweak this)
+                        .heightIn(min = 260.dp)
                         .clip(RoundedCornerShape(8.dp))
                 )
             }

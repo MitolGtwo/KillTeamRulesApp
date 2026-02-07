@@ -35,25 +35,19 @@ val SicarianRuststalkerPrinceps = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Canticle of Destruction",
-            usage = "Passive",
-            description = "Whenever an friendly HUNTER CLADE RUSTALKER operative within 3\" of this" +
-                    " operative is Fighting, the first time you strike with a critical success during" +
-                    " that sequence, inflict 1 additional damage"
+            title = R.string.canticle_destruction,
+            usage = R.string.canticle_destruction_usage,
+            description = R.string.canticle_destruction_description
         ),
         Ability(
-            title = "Wasteland Stalker",
-            usage = "Passive",
-            description = "Whenever an Operative is Shooting this operative, if you can retain any" +
-                    " cover saves, you can retain one additional cover save, or you can retain one " +
-                    "cover save as Critical sucess instead. This isn´t cumulative with improved cover" +
-                    " saves from Vantage terrain"
+            title = R.string.wasteland_stalker,
+            usage = R.string.wasteland_stalker_usage,
+            description = R.string.wasteland_stalker_description
         ),
         Ability(
-            title = "Control Protocol",
-            usage = "FireFight Phase, Every Turn",
-            description = "You can use the ploy Command Override Firefight ploy for free, if the " +
-                    "specified friendly HUNTER CLADE operative is visible to this operative."
+            title = R.string.control_protocol,
+            usage = R.string.control_protocol_usage,
+            description = R.string.control_protocol_description
         )
     ),
 

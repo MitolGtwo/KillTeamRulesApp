@@ -46,20 +46,14 @@ val BreakaBoyDemolisha = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Reckless Temperament",
-            usage = "Passive",
-            description = "If this Operative has a Conceal order, Normal damage of 4 or more inflicts" +
-                    " 1 less damage. If this Operative has an Engage order, this rule applies for " +
-                    "Normal and Critical damage."
+            title =R.string.wrecka_demolisha_recklesstemperament,
+            usage =R.string.wrecka_demolisha_recklesstemperament_usage,
+            description = R.string.wrecka_demolisha_recklesstemperament_description
         ),
         Ability(
-            title = "Detonate",
-            usage = "Special Weapon Rule",
-            description = "The first time you would inflict damage on an enemy Operative with this weapon profile" +
-                " during the battle, on a normal success, inflict D6+6 damage on that enemy Operative" +
-                " and each other Operative within this Operative´s control range (Roll separately for each), " +
-                    "on a critical do the same but for 2D6+6. Then the action ends and you gain 1 Wrecka point +1 " +
-                    "for each operative that was incapacitated during this action. Damage from this weapon cannot be reduced or ignored."
+            title = R.string.wrecka_demolisha_detonate,
+            usage = R.string.wrecka_demolisha_detonate_usage,
+            description = R.string.wrecka_demolisha_detonate_description
         )
     ),
     keywords = listOf(

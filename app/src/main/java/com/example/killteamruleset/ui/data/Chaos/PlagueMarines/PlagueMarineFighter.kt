@@ -39,13 +39,9 @@ val PlagueMarineFighter = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Flail",
-            usage = "1 APL",
-            description = "Inflict D3+2 damage on each other operative that´s visible and within 2\"" +
-                    " of this operative. Roll separately foe each: if it´s an enemy operative, if the D3" +
-                    " result is a 3, that enemy operative also gains one of your Poison tokens(if it" +
-                    " doesn´t have already one).\nThis action is treated as a Fight action, and this" +
-                    " operative cannot perform it while having a Conceal order"
+            title = R.string.plaguemarinefighter_flail,
+            usage = R.string.plaguemarinefighter_flail_usage,
+            description = R.string.plaguemarinefighter_flail_description
         )
     ),
     keywords = listOf(

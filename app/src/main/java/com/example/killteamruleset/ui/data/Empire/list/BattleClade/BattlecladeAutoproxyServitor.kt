@@ -34,20 +34,15 @@ val BattleCladeAutoProxyServitor = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Achillan Eye",
-            usage = "Passive",
-            description = "Whenever a friendly **BATTLECLADE** Operative is shooting an enemy Operative visible" +
-                    " to this Operative, that friendly Operative's ranged weapons have the **Saturate** weapon rule." +
-                    " This rule has no effect if this Operative is within control range of an enemy Operative."
+            title = R.string.battleclade_autoproxy_eye,
+            usage = R.string.battleclade_autoproxy_eye_usage,
+            description = R.string.battleclade_autoproxy_eye_description
         ),
 
         Ability(
-            title = "GAZE OF THE OMNISSIAH",
-            usage = "1AP/Firefight Phase",
-            description = "Select one enemy Operative visible to this Operative. Until the end of the turning point, whenever" +
-                    " a friendly **BATTLECLADE** Operative is shooting that enemy Operative, you can use this rule. If you do:\n" +
-                    "*That friendly Operative's ranger weapons have the Seek Light weapon rule.\n*That enemy Operative cannot be obscured." +
-                    " \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative."
+            title = R.string.battleclade_autoproxy_gaze,
+            usage = R.string.battleclade_autoproxy_gaze_usage,
+            description = R.string.battleclade_autoproxy_gaze_description
         )
     ),
 

@@ -36,21 +36,15 @@ val DeathKorpsVoxOperator = Operative(
 
     abilities = listOf(
       Ability(
-            title = "Relay Orders",
-            usage = "Passive/1 APL",
-            description = "Once per turning point, when this operative receives a GUARDSMAN ORDER" +
-                          ", if it´s not within control range of an enemy Operative, it can relay that" +
-                          " order. All friendly DEATH KORPS Operatives in the killzone receive that order," +
-                          " this Operative then loses 1 APL until the end of its next activation."
+            title = R.string.deathkorps_vox_relayorders,
+            usage = R.string.deathkorps_vox_relayorders_usage,
+            description = R.string.deathkorps_vox_relayorders_description
 
         ),
         Ability(
-            title = "Signal",
-            usage = "1 APL/ Firefight Phase",
-            description = "SUPPPORT. Select one other friendly DEATH KORPS Operative visible" +
-                          " and within 6\" of this Operative. Until the end of that Operative´s" +
-                          " next activation, add 1 to its APL stat.\n\nThis Operative CANNOT perform" +
-                          " this action while within control range of an enemy Operative."
+            title = R.string.deathkorps_vox_signal,
+            usage = R.string.deathkorps_vox_signal_usage,
+            description = R.string.deathkorps_vox_signal_description
         )
         
     ),

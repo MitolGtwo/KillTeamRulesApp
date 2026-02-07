@@ -37,14 +37,9 @@ val DeathKorpsBruiser = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Bruiser",
-            usage = "Pasive/ Firefight Phase",
-            description = "Once per turning point, when this Operative is fighting or" +
-                " retaliating, in the Resolve Attack Dice step, you can ignore the damage" +
-                " inflicted on it from one normal success.\nIf this Operative is incapacitated" +
-                " during the FIGHT action, you can strike the enemy Operative in that sequence" +
-                " with one of your unresolved successes before this Operative is removed from the" +
-                "killzone."
+            title = R.string.deathkorps_bruiser,
+            usage = R.string.deathkorps_bruiser_usage,
+            description = R.string.deathkorps_bruiser_description
         )
     ),
 

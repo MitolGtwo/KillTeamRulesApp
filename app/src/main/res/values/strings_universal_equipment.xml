@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Universal Equipments-->
+
+    <string name="portable_barricade">
+        PORTABLE BARRICADE"
+    </string>
+    <string name="portable_barricade_description">
+        <![CDATA[A portable barricade is light cover, Protective and Portable terrain,
+         except the feet which are Insignificant and Exposed. Before the battle,
+         you can set it up wholly within your territory, on the killzone floor and more
+         than 2" from other equipment terrain features, access points and Accessible terrain.
+
+        <b>Protective:</b>While an Operative is in cover from this terrain feature, improve
+         its Save stat by 1 (to a Maximum of 2+).
+         <b>Portable:</b>This terrain feature only provides cover while an Operative is connected
+         to it and if the shield is intervening (ignore its feet).
+
+         Operatives connected to the inside of it can perform the following unique action during the battle.]]>
+    </string>
+    <string name="portable_barricade_title">
+        MOVE WITH BARRICADE
+    </string>
+    <string name="portable_barricade_usage">
+        1 AP
+    </string>
+    <string name="portable_barricade_ability_description">
+        <![CDATA[The same as <b>Reposition</b> action, except the active Operative can move
+         no more than its Move stat minus 2" and cannot climb, drop, jump, or use any
+         kill teams rules that remove it and set it back up again (Ex Fly, Teleportation).
+
+        Before this operative moves, remove the portable barricade its connected to.
+         After it moves, set up the portable barricade so its connected again, but
+         the portable barricade cannot be set up within 2" of other equipment terrain
+         feature, access points or Accessible terrain. If this is not possible, the
+         portable barricade is not set up again.
+
+         This action is treated as a <b>Reposition</b> action. An Operative cannot perform
+         this action while within control range of an enemy Operative or during the same activation
+         in which it performed the <b>Fall Back</b> or <b>charge</b> action.]]>
+    </string>
+
+
+    <string name="explosive_grenades">
+        EXPLOSIVE GRENADES
+
+    </string>
+    <string name="explosive_grenades_description">
+        <![CDATA[When you select this equipment, select two explosive grenades
+        -2 frag.
+        -2 krak.
+        -1 frag and 1 krak.
+
+        Each selection is a unique action your Operatives can perform, but your kill team can only
+        perform that action a total number of times during the battle equal to your election.]]>
+    </string>
+
+
+    <string name="smoke_grenade">
+        SMOKE GRENADE
+    </string>
+    <string name="smoke_grenade_description">
+        <![CDATA[When you select this equipment, select two utility grenades
+        -2 Smokes.
+        -2 Stun.
+        -1 Smoke and 1 Stun.
+        Each selection is a unique action your Operatives can perform, but your kill team can only
+        perform that action a total number of times during the battle equal to your election.]]>
+    </string>
+    <string name="smoke_grenade_title">
+        SMOKE GRENADE
+    </string>
+    <string name="smoke_grenade_usage">
+        1 AP
+    </string>
+    <string name="smoke_grenade_ability_description">
+        <![CDATA[Place one of your Smoke Grenade markers within 6" of this Operative.
+         It must be visible to this Operative, or on Vantage terrain of a terrain feature
+         thats visible to this Operative. The marker creates an area of smoke 1"
+         horizontally and unlimited height vertically from (but not below) it.
+
+         While an Operative is wholly within an area of smoke, its <b>Obscured</b> to Operatives
+         more than 2" from it, and vice versa. In addition, whenever an Operative is
+         shooting an enemy Operative wholly within an area of smoke, weapons with the
+         <b>Piercing 2</b> or <b>Piercing Crits 2</b> weapon rule will have <b>Piercing 1</b>
+         or <b>Piercing Crits 1</b> instead, unless theyre within 2" of each other
+
+
+        In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke
+         Grenade marker after a number of activations equal to the result have been
+         completed or at the end of the turning point (whichever comes first).
+
+
+        An operative CANNOT perform this action while within control range of an
+         enemy Operative, or if you have reached the total number of times you kill team
+        can perform it.]]>
+    </string>
+
+    <string name="stun_grenade">
+        STUN GRENADE
+    </string>
+    <string name="stun_grenade_description">
+        <![CDATA[When you select this equipment, select two utility grenades
+        -2 Smokes.
+        -2 Stun.
+        -1 Smoke and 1 Stun.
+        Each selection is a unique action your Operatives can perform, but your kill team can only
+        perform that action a total number of times during the battle equal to your election.]]>
+    </string>
+    <string name="stun_grenade_title">
+        STUN GRENADE
+    </string>
+    <string name="stun_grenade_usage">
+        1 AP
+    </string>
+    <string name="stun_grenade_ability_description">
+        <![CDATA[Select one enemy Operative visible and within 6" of this Operative
+        . That operative and each other Operative within 1" of it takes a stun test.
+         For an Operative to take a stun test, roll one D6: on a 3+, subtract 1 from
+         its APL stat until the end of its next activation.
+
+
+        An operative CANNOT perform this action while within control range of an
+         enemy Operative, or if you have reached the total number of times you kill team
+        can perform it.]]>
+    </string>
+
+    <string name="ammo_cache">
+        1X AMMO CACHE"
+    </string>
+    <string name="ammo_cache_description">
+        <![CDATA[Before the battle, you can set up one of your Ammo Cache markers wholly within
+                     your territory. Friendly Operatives can perform the following mission action
+                     during the battle.]]>
+    </string>
+    <string name="ammo_cache_title">
+        AMMO RESUPPLY
+    </string>
+    <string name="ammo_cache_usage">
+        0 AP
+    </string>
+    <string name="ammo_cache_ability_description">
+        <![CDATA[One of your Ammo Cache markers the active Operative controls is used
+             during this turning point.
+             Until the start of the next turning point,
+             whenever this Operative is shooting with a weapon from its datacard, you
+             can re-roll one of your attack dice.
+
+
+            An operative CANNOT perform this action while within control range of an
+             enemy Operative, if that marker isnt yours, or if that marker has been used
+             during this turning point.]]>
+
+    </string>
+
+    <string name="razor_wire">
+        1X RAZOR WIRE
+    </string>
+    <string name="razor_wire_description">
+        <![CDATA[Razor wire is Exposed and Obstructing terrain. Before the battle, you can
+                     set it up wholly within your territory, on the killzone floor and more than 2"
+                     from other equipment terrain features, access points and Accessible terrain.
+
+                    <b>Obstructing:</b> Whenever an Operative would cross over this terrain feature
+                     within 1" of it, treat the distance as an additional 1".]]>
+
+    </string>
+
+    <string name="comms_device">
+        1X COMMS DEVICE
+    </string>
+    <string name="comms_device_description">
+        <![CDATA[Before the battle, you can set up one of your Comms Device markers wholly
+                     within your territory. While a friendly operative controls this marker, add 3"
+                     to the distance requirements of its <b>SUPPORT</b> rules that refer to friendly
+                     Operatives, improving the distance. Note that you cannot benefit from your
+                     opponents Comms Device markers.]]>
+    </string>
+
+    <string name="mines">
+        1X MINES
+    </string>
+    <string name="mines_description">
+       <![CDATA[Before the battle, you can set up one of your Mines Marker wholly within
+                     your territory and more than 2" from other markers, access points and
+                     Accessible terrain. The first time that marker is within an Operatives control
+                     range, remove that marker and inflict D3+3 damage on that Operative.]]>
+    </string>
+
+    <string name="light_barricades">
+        2X LIGHT BARRICADES
+    </string>
+    <string name="light_barricades_description">
+        <![CDATA[Light barricades are Light terrain, except the feet, which are Insignificant
+                     and Exposed. Before the battle, you can set up one of your Light Barricades wholly
+                     within your territory and more than 2" from other markers, access points and
+                     Accessible terrain.]]>
+    </string>
+
+    <string name="heavy_barricade">
+        1X HEAVY BARRICADE
+    </string>
+    <string name="heavy_barricade_description">
+        <![CDATA[A heavy barricade is Heavy terrain. Before the battle, you can set it up"
+                     wholly within 4" of your drop zone, on the kill zone floor and more than 2"
+                    from other markers, access points and Accessible terrain.]]>
+    </string>
+
+    <string name="ladder">
+        2X LADDERS
+    </string>
+    <string name="ladder_description">
+        <![CDATA[Ladders are Insignificant and Exposed terrain. Before the battle, you can
+         set up any of them as follows:
+
+         *Wholly within your territory.\nUpright against a terrain thats at least 2" tall.
+        *More than 2" from other equipment terrain features.
+        *More than 1" from doors and access points.
+
+        Once per action, whenever an Operative is climbing the terrain feature a ladder is placed against
+        , treat the vertical distance as 1" if the ladder is within that Operatives
+         control range during that entire climb.]]>
+    </string>
+
+    <string name="breaching_charge">
+        BREACHING CHARGE
+    </string>
+    <string name="breaching_charge_description">
+        <![CDATA[Once per battle, when a friendly Operative performs the **BREACH** action,
+                     you can use this rule. If you do, that Operative can perform that action for 1
+                     less AP (to a minimum of 1AP) as though it had the word "breach marker" on its
+                    datacard.]]>
+    </string>
+</resources>

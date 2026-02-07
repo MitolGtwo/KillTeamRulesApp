@@ -60,9 +60,9 @@ val DeathKorpsSniper = Operative(
 
     abilities = listOf(
         Ability(
-            title = "",
-            usage = "",
-            description = ""
+            title = null,
+            usage = null,
+            description = null
         )
         
     ),

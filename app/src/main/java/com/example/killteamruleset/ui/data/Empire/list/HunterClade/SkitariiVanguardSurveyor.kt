@@ -39,20 +39,15 @@ val SkitariiVanguardSurveyor = Operative(
 
     abilities = listOf(
 
-        Ability(title = "Rad-Saturation",
-            usage = "Passive",
-            description = "Whenever an enemy Operative is within 2\" of friendly HUNTER CLADE VANGUARD" +
-                    " operatives, worsen the Hit stat of that enemy operative´s weapons by 1." +
-                    "This isn´t cumulative with being injured"
+        Ability(
+            title = R.string.rad_saturation,
+            usage = R.string.rad_saturation_usage,
+            description = R.string.rad_saturation_description
         ),
-        Ability(title = "SPOT",
-            usage = "1 APL Action",
-            description = "SUPPORT. Select one enemy Operative visible to this operative, until the" +
-                    " end of the turning point, whenever a friendly Operative HUNTER CLADE within 3\"" +
-                    " of this operative is shooting that selected enemy Operative, that friendly Operative" +
-                    "performing the Shoot actions has the rules \n *Seek light\n *That enemy Operative" +
-                    " cannot be obscured\n \n *This operative CANNOT perform this action while within" +
-                    " control range of an enemy Operative"
+        Ability(
+            title = R.string.hunterclade_spotter,
+            usage = R.string.hunterclade_spotter_usage,
+            description =R.string.hunterclade_spotter_description
         )
     ),
 

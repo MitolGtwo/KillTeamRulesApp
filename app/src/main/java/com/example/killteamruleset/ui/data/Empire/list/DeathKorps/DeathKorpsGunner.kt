@@ -88,9 +88,9 @@ val DeathKorpsGunner = Operative(
 
     abilities = listOf(
 
-        Ability(title = "",
-            usage = "",
-            description = ""
+        Ability(title = null,
+            usage = null,
+            description = null
         )
     ),
 

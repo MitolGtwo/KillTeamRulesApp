@@ -39,20 +39,14 @@ val BreakaBoyKrusha = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Armoured Up",
-            usage = "Pasive",
-            description = "Whenever an enemy Operative is Shooting, or this operative is Fighting or" +
-                    " Retaliating, your opponent cannot retain a dice result less than 6 as a Critical" +
-                    " success (Ex Severe,Lethal,Rending weapon rules)"
+            title =R.string.wrecka_krusha_armoured,
+            usage = R.string.wrecka_krusha_armoured_usage,
+            description = R.string.wrecka_krusha_armoured_description
         ),
         Ability(
-            title = "Smash",
-            usage = "Special Weapon Rule",
-            description = "Whenever you strike, you can move the enemy Operative in a straight line increment" +
-                " of up to 1\". If you do, it must end the move further away from this Operative and" +
-                " in a location it can be placed. Then move this Operative in a straight line the same" +
-                " distance, but it must end that move within that enemy Operative´s control range" +
-                "(If neither is possible, you cannot move them)."
+            title = R.string.wrecka_krusha_smash,
+            usage = R.string.wrecka_krusha_smash_usage,
+            description = R.string.wrecka_krusha_smash_description
         )
     ),
     keywords = listOf(

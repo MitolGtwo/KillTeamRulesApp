@@ -105,23 +105,19 @@ val SkitariiRangerAlpha = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Canticle of Elimination",
-            usage = "Passive",
-            description = "Whenever a friendly HUNTER CLADE RANGER is within 3\" of this operative," +
-                    " that friendly operative range weapons have the Severe weapon rule."
+            title = R.string.canticle_elimination,
+            usage = R.string.canticle_elimination_usage,
+            description = R.string.canticle_elimination_description
         ),
         Ability(
-            title = "Targeting Protocol",
-            usage = "Passive",
-            description = "Whenever this operative is shooting, if it hasn't move before during its " +
-                    "activation, or if is a counteraction, all its range weapons have the Lethal 5+ " +
-                    "weapon rule. Note this operative can perform a normal move action after the shoot action."
+            title = R.string.targeting_protocols,
+            usage = R.string.targeting_protocols_usage,
+            description = R.string.targeting_protocols_description
         ),
         Ability(
-            title = "Control Protocol",
-            usage = "FireFight Phase, Every Turn",
-            description = "You can use the ploy Command Override Firefight ploy for free, if the " +
-                    "specified friendly HUNTER CLADE operative is visible to this operative."
+            title = R.string.control_protocol,
+            usage = R.string.control_protocol_usage,
+            description = R.string.control_protocol_description
         )
     ),
 

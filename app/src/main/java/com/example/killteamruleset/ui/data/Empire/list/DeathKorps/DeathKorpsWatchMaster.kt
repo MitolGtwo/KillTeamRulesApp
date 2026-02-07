@@ -101,18 +101,14 @@ val DeathKorpsWatchMaster = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Adaptive Orders",
-            usage = "Passive/Firefight phase",
-            description = "If this Operative doesn't issue a Guardsman Order as a Strategic Gambit," +
-                          " you can use the Inspirational Leadership Firefight ploy for 0CP during this" +
-                          " Operative´s activation."
+            title = R.string.deathkorps_watchmaster_adaptive,
+            usage = R.string.deathkorps_watchmaster_adaptive_usage,
+            description = R.string.deathkorps_watchmaster_adaptive_description
         ),
         Ability(
-            title = "Bring it Down!",
-            usage = "Strategic Gambit",
-            description = "If this Operative is in the killzone. Select one enemy operative. Whenever a friendly" +
-                          " DEATH KORP Operative is shooting, fighting or retaliating against that enemy Operative" +
-                          ", that friendly Operative´s weapons have the Punishing weapon rule."
+            title = R.string.deathkorps_watchmaster_bring,
+            usage = R.string.deathkorps_watchmaster_bring_usage,
+            description = R.string.deathkorps_watchmaster_bring_description
         )
     ),
 

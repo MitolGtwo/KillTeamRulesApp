@@ -83,18 +83,14 @@ val WreckaBossNob = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Wrecka Boss",
-            usage = "Passive",
-            description = "Whenever this operative performs the **Shoot** or **Fight** action (Excluding " +
-                    "**Guard**), you gain 1 Wrecka point"
+            title = R.string.wreckaboss,
+            usage = R.string.wreckaboss_usage,
+            description = R.string.wreckaboss_description
         ),
         Ability(
-            title = "Salvo",
-            usage = "Special Weapon Rule",
-            description = "Select up to Two different valid targets that aren´t within control range of friendly" +
-                " Operatives. Shoot with this weapon against both primary targets in an order of your" +
-                " choice, then against all remaining secondary targets if any. Each target (primary" +
-                " and secondary) cannot be shot more than once during the action"
+            title =R.string.wrecka_salvo,
+            usage = R.string.wrecka_salvo_usage,
+            description = R.string.wrecka_salvo_description
         )
 
 

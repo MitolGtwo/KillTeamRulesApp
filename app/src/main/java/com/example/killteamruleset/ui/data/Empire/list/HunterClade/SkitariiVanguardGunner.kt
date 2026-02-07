@@ -82,11 +82,10 @@ val SkitariiVanguardGunner = Operative(
 
     abilities = listOf(
 
-        Ability(title = "Rad-Saturation",
-            usage = "Passive",
-            description = "Whenever an enemy Operative is within 2\" of friendly HUNTER CLADE VANGUARD" +
-                    " operatives, worsen the Hit stat of that enemy operative´s weapons by 1." +
-                    "This isn´t cumulative with being injured"
+        Ability(
+            title = R.string.rad_saturation,
+            usage = R.string.rad_saturation_usage,
+            description = R.string.rad_saturation_description
         )
     ),
 

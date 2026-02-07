@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Hunter Clade-->
+
+
+    <string name="targeting_protocols"><![CDATA[
+
+        Targeting Protocol
+
+    ]]></string>
+
+    <string name="targeting_protocols_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="targeting_protocols_description"><![CDATA[
+
+        Whenever this operative is shooting, if it hasnt move before during its
+                    activation, or if is a counteraction, all its range weapons have the Lethal 5+
+                    weapon rule. Note this operative can perform a normal move action after the shoot action.
+
+    ]]></string>
+
+    <string name="rad_saturation"><![CDATA[
+
+        Rad-Saturation
+
+    ]]></string>
+
+    <string name="rad_saturation_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="rad_saturation_description"><![CDATA[
+
+        Whenever an enemy Operative is within 2\" of friendly HUNTER CLADE VANGUARD
+                     operatives, worsen the Hit stat of that enemy operativs weapons by 1.
+                    This isnt cumulative with being injured
+
+    ]]></string>
+
+    <string name="wasteland_stalker"><![CDATA[
+
+        Wasteland Stalker
+
+    ]]></string>
+
+    <string name="wasteland_stalker_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="wasteland_stalker_description"><![CDATA[
+
+        Whenever an Operative is Shooting this operative, if you can retain any
+                     cover saves, you can retain one additional cover save, or you can retain one
+                    cover save as Critical sucess instead. This isnt cumulative with improved cover
+                     saves from Vantage terrain
+
+    ]]></string>
+
+    <string name="control_protocol"><![CDATA[
+
+        Control Protocol
+
+    ]]></string>
+
+    <string name="control_protocol_usage"><![CDATA[
+
+        FireFight Phase, Free ploy
+
+    ]]></string>
+
+    <string name="control_protocol_description"><![CDATA[
+
+        You can use the ploy Command Override Firefight ploy for free, if the
+                    specified friendly HUNTER CLADE operative is visible to this operative.
+
+    ]]></string>
+
+    <string name="canticle_shroudpsalm"><![CDATA[
+
+        Canticle of Shroudpsalm
+
+    ]]></string>
+
+    <string name="canticle_shroudpsalm_usage"><![CDATA[
+
+        Passive"
+
+    ]]></string>
+
+    <string name="canticle_shroudpsalm_description"><![CDATA[
+
+        Whenever an friendly HUNTER CLADE INFILTRATOR Operative is within 3"
+                    of this operative, has a conceal order and is in cover, that friendly Operative
+                     cannot be selected as a valid target, taking precedence over all other rules
+                    (Ex Seek, Seek light or Vantage terrain) except being withing 2"
+
+    ]]></string>
+
+    <string name="canticle_destruction"><![CDATA[
+
+        Canticle of Destruction
+
+    ]]></string>
+
+    <string name="canticle_destruction_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="canticle_destruction_description"><![CDATA[
+
+        Whenever an friendly HUNTER CLADE RUSTALKER operative within 3\" of this
+                     operative is Fighting, the first time you strike with a critical success during
+                     that sequence, inflict 1 additional damage
+
+    ]]></string>
+
+    <string name="canticle_elimination"><![CDATA[
+
+        Canticle of Elimination
+
+    ]]></string>
+
+    <string name="canticle_elimination_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="canticle_elimination_description"><![CDATA[
+
+        Whenever a friendly HUNTER CLADE RANGER is within 3\" of this operative,
+                     that friendly operative range weapons have the Severe weapon rule.
+
+    ]]></string>
+
+    <string name="hunterclade_vox_signal"><![CDATA[
+
+        Signal
+
+    ]]></string>
+
+    <string name="hunterclade_vox_signal_usage"><![CDATA[
+
+    1 APL/ Firefight Phase
+
+    ]]></string>
+
+    <string name="hunterclade_vox_signal_description"><![CDATA[
+
+    **SUPPPORT.** Select one other friendly HUNTERCLADE Operative visible
+    and within 6\" of this Operative. Until the end of that Operatives
+    next activation, add 1 to its APL stat.\n\nThis Operative CANNOT perform
+    this action while within control range of an enemy Operative.
+
+    ]]></string>
+
+    <string name="hunterclade_spotter"><![CDATA[
+
+        SPOT
+
+    ]]></string>
+
+    <string name="hunterclade_spotter_usage"><![CDATA[
+
+        1 APL/ Firefight Phase
+
+    ]]></string>
+
+    <string name="hunterclade_spotter_description"><![CDATA[
+
+        **SUPPPORT.** Select one  enemy Operative visible to this Operative. Once
+                           during this turning point, when a friendly HUNTERCLADE Operative within
+                           3\" of this operative is shooting that enemy Operative, you can use this effect
+                          . If you do:\nThat friendly operatives range weapons have the Seek Light weapon rule.
+                          \nThat enemy operative cannot be obscured.\n\nThis Operative CANNOT perform
+                           this action while within control range of an enemy Operative.
+
+    ]]></string>
+
+
+    <string name="canticle_glow"><![CDATA[
+
+        Canticle of the Glow
+
+    ]]></string>
+
+    <string name="canticle_glow_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="canticle_glow_description"><![CDATA[
+
+        Whenever an enemy Operative is within 3\" of this Operative, if its under
+                     the effects of Rad-Saturation(see below), also subtract 1 from the Atk stat
+                     of that enemy operatives weapons
+
+    ]]></string>
+
+    <!--faction rules-->
+
+    <!--Equipments-->
+
+    <!--Ploys-->
+
+    <!--Strategic ploys-->
+
+    <!--Firefight ploys-->
+
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--/Keywords-->
+
+    <string name="keyword_accurate">
+        <![CDATA[You can retain You can retain X Accurate results as normal successful before rolling dice.]]>
+
+    </string>
+    <string name="keyword_balanced">
+         <![CDATA[ You can re-roll one attack die.]]>
+
+     </string>
+    <string name="keyword_blast">
+    <![CDATA[The target you select for a shoot action becomes the Primary target, and every other operative
+    within X Blast distance and visible to the Primary Target becomes the Secondary targets
+    (Regardless of their order).
+    Resolve the shoot action for the Primary target, then roll another
+    shoot action for every Secondary Target (You have to roll dice for every valid target) if the
+    Primary target was Obscure and/or in cover, the Secondary targets will have those modifiers as well.]]>
+    </string>
+    <string name="keyword_brutal">
+         <![CDATA[ Your opponent can only parry with critical successes.]]>
+     </string>
+    <string name="keyword_ceaseless">
+       <![CDATA[You can re-roll all attack dice showing the same result(Ex: all dice with a result of 2)]]>
+    </string>
+    <string name="keyword_concealed_position">
+        <![CDATA[ This weapon can be used once while Concealed without changing order.]]>
+     </string>
+    <string name="keyword_devastating">
+        <![CDATA[Critical hits inflict immediate damage equal to the Devastating value, the dice are
+        not discarded.
+        If theres Range associate with the keyword, inflict that damage
+        each other operative in that distance.]]>
+    </string>
+    <string name="keyword_heavy">
+        <![CDATA[An operative cannot use this weapon if it moved during its activation,
+        and it cannot move after performing a Shoot action with this weapon.
+
+        If marked Heavy (Reposition), Reposition is the only movement action
+        allowed that still permits shooting in the same activation.
+
+        An operative cannot use Guard with a Heavy weapon if these conditions are not met.]]>
+    </string>
+    <string name="keyword_hot">
+        <![CDATA[After an operative shoots with this weapon, roll one D6, if the result
+         is equal or greater than the Hit stat nothing happens, if the roll is less than
+         the Hit stat, duplicate the value and deal that amount of damage to the friendly
+        operative who made the shoot action.
+
+         If you hit multiple targets, Ex: Blast. Still roll only one D6.]]>
+    </string>
+    <string name="keyword_lethal">
+        <![CDATA[Your successes equal or greater to Lethal x value are Critical successes.]]>
+    </string>
+    <string name="keyword_limited">
+        <![CDATA[After an operative uses this weapon x number of times, it cannot use this weapon
+                again, if it hits multiple targets, Ex: Blast/Torrent. still treat it
+                as only one use.]]>
+    </string>
+    <string name="keyword_obscure">
+        <![CDATA[Whenever an Operative Shoot another Operative while this is Obscure, all Critical
+                successes will become Normal successes, any rule around Critical success is ignored
+                (Ex: Devastating, Piercing Crits, Punishing).]]>
+    </string>
+    <string name="keyword_psychic">
+        <![CDATA[This action or weapon is a psychic attack.]]>
+    </string>
+    <string name="keyword_piercing">
+        <![CDATA[The defender picks one less dice based on the Piercing X value.]]>
+    </string>
+    <string name="keyword_piercing_Crits">
+        <![CDATA[The defender picks one less dice based on the Piercing Crits X value, if you score a
+        Critical success.]]>
+    </string>
+    <string name="keyword_punishing">
+        <![CDATA[If you retain any critical successes, you can change one failed dice into one success
+        normal attack.]]>
+    </string>
+    <string name="keyword_range">
+        <![CDATA[Only operatives within X inches can be targeted.]]>
+    </string>
+    <string name="keyword_relentless">
+        <![CDATA[You can re-roll all attack dice.]]>
+    </string>
+    <string name="keyword_rending">
+        <![CDATA[Convert one normal hit into a critical when retaining a critical.]]>
+    </string>
+    <string name="keyword_saturate">
+        <![CDATA[The defender cannot retain cover saves.]]>
+    </string>
+    <string name="keyword_seek_light">
+        <![CDATA[For the purpose of selecting a valid target for a shoot action, you can
+                 select operatives in Conceal if they are being cover by light terrain. This
+                 does not prevent Cover Saves if any.]]>
+    </string>
+    <string name="keyword_seek">
+        <![CDATA[For the purpose of selecting a valid target for a shoot action,
+        you can select operatives in Conceal. This does not prevent any Cover Saves if any.]]>
+    </string>
+    <string name="keyword_severe">
+        <![CDATA[If you do not make any Critical success, you can change one Normal success
+                 into a Critical success, any rule such as Devastating or Piercing Crits X is
+                applied accordingly, but it cannot be combine in any way with the rules Punishing
+                 or Rending, Ex: You cant just have 2 free Crits lmao.]]>
+    </string>
+    <string name="keyword_shock">
+        <![CDATA[The first time you strike with a Critical success, discard one of your
+                 opponents unresolved Normal success, if the opponent has no more Normal
+                 Successes, discard one of its Critical successes if any.]]>
+    </string>
+    <string name="keyword_silent">
+        <![CDATA[This weapon can be used while having a Conceal order.]]>
+    </string>
+    <string name="keyword_stun">
+        <![CDATA[If you retain any Critical success with this weapon, the enemy operative loses 1 Apl
+        until the start of its next activation.]]>
+    </string>
+    <string name="keyword_torrent">
+        <![CDATA[Select one valid target, this will be the Primary target, then select any
+                 number of secondary targets if they are valid as well and, if they are within
+                 Torrent X value range of the Primary objective. You cant select enemy targets
+                 in Control range of a friendly operative.
+                Shoot this weapon against all of them, roll separately for each.]]>
+    </string>
+
+
+</resources>

@@ -46,35 +46,24 @@ val WreckaBombSquig = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Explosive",
-            usage = "Special Weapon Rule",
-            description = "This operative can perform the Shoot action with this weapon while being in control" +
-                " range of an enemy operative, Don´t select a valid target. Instead, this operative is always" +
-                " the primary target and cannot be in cover or Obscured."
+            title = R.string.squig_explosive,
+            usage = R.string.squig_explosive_usage,
+            description = R.string.squig_explosive_description
         ),
         Ability(
-            title = "Stoopid",
-            usage = "Passive",
-            description = "In the Firefight phase, whenever you determine this operative´s order" +
-                    ", you cannot select conceal. This Operative cannot perform any action other than" +
-                    " **CHARGE**, **DASH**, **FIGHT**, **REPOSITION** and **SHOOT**. It cannot use any weapons that " +
-                    "aren´t on its datacard."
+            title = R.string.squig_stoopid,
+            usage = R.string.squig_stoopid_usage,
+            description = R.string.squig_stoopid_description
         ),
         Ability(
-            title = "Boom!",
-            usage = "Passive, when this operative is incapacitated",
-            description = "If this Operative is incapacitated during the battle in which it hasn´t " +
-                    "used its explosives, roll one D6, or two D6 if you wish. If any result is 4+," +
-                    " this Operative performs a free Shoot action with its explosives before is removed" +
-                    " from the game."
+            title = R.string.squig_boom,
+            usage = R.string.squig_boom_usage,
+            description = R.string.squig_boom_description
         ),
         Ability(
-            title = "Expendable",
-            usage = "Passive",
-            description = "This operative is ignored for your opponent´s kill op(Making this team a" +
-                    " 6 Operatives Kill team). It´s also ignored for victory conditions and scoring VPs" +
-                    " if either require operatives to \"escape\" or \"survive\" or be incapacitated by" +
-                    " enemy Operatives."
+            title = R.string.squig_expendable,
+            usage = R.string.squig_expendable_usage,
+            description = R.string.squig_expendable_description
         )
     ),
 

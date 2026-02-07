@@ -43,20 +43,14 @@ val SkitariiRangerSurveyor = Operative(
     abilities = listOf(
 
         Ability(
-            title = "Targeting Protocol",
-            usage = "Passive",
-            description = "Whenever this operative is shooting, if it hasn't move before during its " +
-                    "activation, or if is a counteraction, all its range weapons have the Lethal 5+ " +
-                    "weapon rule. Note this operative can perform a normal move action after the shoot action."
+            title = R.string.targeting_protocols,
+            usage = R.string.targeting_protocols_usage,
+            description = R.string.targeting_protocols_description
         ),
-        Ability(title = "SPOT",
-            usage = "1 APL Action",
-            description = "SUPPORT. Select one enemy Operative visible to this operative, until the" +
-                    " end of the turning point, whenever a friendly Operative HUNTER CLADE within 3\"" +
-                    " of this operative is shooting that selected enemy Operative, that friendly Operative" +
-                    "performing the Shoot actions has the rules \n *Seek light\n *That enemy Operative" +
-                    " cannot be obscured\n \n *This operative CANNOT perform this action while within" +
-                    " control range of an enemy Operative"
+        Ability(
+            title = R.string.hunterclade_spotter,
+            usage = R.string.hunterclade_spotter_usage,
+            description =R.string.hunterclade_spotter_description
         )
     ),
 

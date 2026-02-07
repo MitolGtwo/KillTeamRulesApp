@@ -36,13 +36,9 @@ val DeathKorpsTrooper = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Group Activation",
-            usage = "Passive/ Firefight Phase",
-            description = "Whenever this Operative is expended, you MUST then activate another" +
-                          " ready friendly DEATH KORP TROOPER Operative(if able) before your" +
-                          " opponent activates. When that operative is expended, your opponent then" +
-                          " activates as normal(you cannot activate more than two Operatives before" +
-                          " your opponent with this rule)."
+            title = R.string.deathkorps_trooper,
+            usage = R.string.deathkorps_trooper_usage,
+            description = R.string.deathkorps_trooper_description
 
         )
     ),

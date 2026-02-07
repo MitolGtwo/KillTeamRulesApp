@@ -36,16 +36,14 @@ val DeathKorpsVeteran = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Veteran Guardsman",
-            usage = "Passive/ Firefight Phase",
-            description = "Whenever this Operative is activated, it can receive one" +
-                          " GUARDSMAN ORDER."
+            title =R.string.deathkorps_veteranguardsmen,
+            usage = R.string.deathkorps_veteranguardsmen_usage,
+            description = R.string.deathkorps_veteranguardsmen_description
       ),
         Ability(
-            title = "Bionics",
-            usage = "Passive/ Firefight Phase",
-            description = "Normal Dmg of 3 or more inflicts 1 less damage on this" +
-                          " Operative."
+            title = R.string.deathkorps_veteran_bionics,
+            usage = R.string.deathkorps_veteran_bionics_usage,
+            description = R.string.deathkorps_veteran_bionics_description
       )
     ),
     keywords = listOf(

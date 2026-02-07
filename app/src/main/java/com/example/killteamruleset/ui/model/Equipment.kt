@@ -4,8 +4,8 @@ import androidx.annotation.StringRes
 
 data class Equipment(
     val id: String,
-    val name: String,
-    val lore: String? = null,
+    val name: Int,
+    val lore: Int? = null,
     @StringRes val description: Int,
     val ability: Ability? = null,
     val weapons: List<WeaponProfile> = emptyList()

@@ -49,17 +49,14 @@ val PlagueMarineIconBearer= Operative(
 
     abilities = listOf(
         Ability(
-            title = "Icon Bearer",
-            usage = "Pasive",
-            description = "Whenever determining control of a marker, treat this operative’s APL stat" +
-                    " as 1 higher. Note this isn’t a change to its APL stat, so any changes are " +
-                    "cumulative with this."
+            title = R.string.plaguemarine_iconbearer,
+            usage = R.string.plaguemarine_iconbearer_usage,
+            description = R.string.plaguemarine_iconbearer_description
         ),
         Ability(
-            title = "Icon of Contagion",
-            usage = "Strategy Phase",
-            description = "Whenever this operative is within your opponent´s territory, the Contagion" +
-                    " strategy ploy costs you 0CP."
+            title = R.string.plaguemarine_icon_of_contagion,
+            usage = R.string.plaguemarine_icon_of_contagionr_usage,
+            description = R.string.plaguemarine_icon_of_contagionr_description
         )
 
     ),

@@ -35,15 +35,9 @@ val BreakaBoyFighter = Operative(
 
     abilities = listOf(
         Ability(
-            title = "BREAK STUFF",
-            usage = "1 AP/Firefight Phase",
-            description = "Select a terrain feature within the control range of this Operative. If is an" +
-                    " equipment terrain, remove it. Otherwise, place one of your Breach markers within" +
-                    " this Operative´s control range as close as possible to that terrain feature." +
-                    " Whenever an Operative is within 1\" of that marker, it treats parts of that terrain" +
-                    " feature that are no more than 1\" thick as Accessible terrain\n\nThis " +
-                    "operative CANNOT perform this action while within control range of an enemy " +
-                    "Operative, or if a terrain feature isn´t within its control range."
+            title = R.string.wrecka_fighter,
+            usage = R.string.wrecka_fighter_usage,
+            description = R.string.wrecka_fighter_description
         )
     ),
     keywords = listOf(

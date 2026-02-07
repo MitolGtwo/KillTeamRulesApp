@@ -49,23 +49,15 @@ val BattlecladeServitorUnderseer: Operative
 
         abilities = listOf(
             Ability(
-                title = "Seeker of Divine Arcana",
-                usage = "Strategic Gambit",
-                description = "You can inmediatly change this Operative´s order and/or can inmediatly perform" +
-                        "any of these actions for free:\nOmniscanner\nFall Back\nPlace Marker\nPick Up Marker" +
-                        "\nMission Action\nReposition.\nWhen doing a Reposition or Fall back action with this rule" +
-                        " and this Operative is not carrying a marker, it must end that move either within your drop" +
-                        " zone(or as close as possible), or with control of a mission marker or objective marker."
+                title = R.string.battleclade_datacoronal,
+                usage = R.string.battleclade_datacoronal_usage,
+                description = R.string.battleclade_datacoronal_description
             ),
 
             Ability(
-                title = "OMNISCANNER",
-                usage = "1AP/Firefight Phase or Strategic Gambit",
-                description = "Select one enemy Operative visible or within 8\" of this operative to gain one of your" +
-                        "Omniscanner tokens. Whenever a friendly BATTLECLADE Operative is shooting, fighting, or retaliating" +
-                        " an enemy Operative with one of your Omniscanner tokens, that friendly Operative´s weapons have" +
-                        " the Ceasless weapon rule.\n\nThis Operative CANNOT perform this action while within control range" +
-                        " of an enemy Operative."
+                title = R.string.battleclade_network,
+                usage = R.string.battleclade_network_usage,
+                description = R.string.battleclade_network_description
             )
         ),
 

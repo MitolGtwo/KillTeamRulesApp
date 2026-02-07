@@ -36,17 +36,14 @@ val DeathKorpsZealot = Operative(
 
     abilities = listOf(
       Ability(
-            title = "The Emperor Protects!!",
-            usage = "Passive/Firefight Phase",
-            description = "Whenever an Operative is shooting this Operative, you can re-roll any of" +
-                          " your defence dice."
+            title = R.string.deathkorps_zealot_theemperor,
+            usage =  R.string.deathkorps_zealot_theemperor_usage,
+            description =  R.string.deathkorps_zealot_theemperor_description
         ),
         Ability(
-            title = "Uplofting Primer",
-            usage = "Passive/ Firefight Phase",
-            description = "SUPPPORT. Whenever a friendly DEATH KORPS Operative is within 3\"" +
-                          " os this Operative, that friendly Operative´s weapons have the" +
-                          " Severe weapon rule." 
+            title =  R.string.deathkorps_zealot_uplifting,
+            usage = R.string.deathkorps_zealot_uplifting_usage,
+            description = R.string.deathkorps_zealot_uplifting_description
         )
         
     ),

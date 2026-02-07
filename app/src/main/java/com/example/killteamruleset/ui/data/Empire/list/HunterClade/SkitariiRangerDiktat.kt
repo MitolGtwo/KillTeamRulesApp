@@ -44,18 +44,14 @@ val SkitariiRangerDiktat = Operative(
     abilities = listOf(
 
         Ability(
-            title = "Targeting Protocol",
-            usage = "Passive",
-            description = "Whenever this operative is shooting, if it hasn't move before during its " +
-                    "activation, or if is a counteraction, all its range weapons have the Lethal 5+ " +
-                    "weapon rule. Note this operative can perform a normal move action after the shoot action."
+            title = R.string.targeting_protocols,
+            usage = R.string.targeting_protocols_usage,
+            description = R.string.targeting_protocols_description
         ),
-        Ability(title = "SIGNAL",
-            usage = "1 APL Action",
-            description = "SUPPORT. Select one other friendly HUNTER CLADE Operative visible to and" +
-                    " within 6\" of this Operative. Until the end of that Operative´s next activation" +
-                    ", add 1 to its APL stat.\n\nThis operative CANNOT perform this action while within" +
-                    " control range of an enemy Operative."
+        Ability(
+            title = R.string.hunterclade_vox_signal,
+            usage = R.string.hunterclade_vox_signal_usage,
+            description =R.string.hunterclade_vox_signal_description
         )
     ),
 

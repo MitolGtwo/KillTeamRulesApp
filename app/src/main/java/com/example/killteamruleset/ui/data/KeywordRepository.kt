@@ -33,7 +33,7 @@ object KeywordRepository {
     // DESCRIPTIONS (BY CLASS)
     private val descriptions: Map<KClass<out KeywordInfo>, Int> = mapOf(
 
-        Accurate::class to R.string.keyword_accurrate,
+        Accurate::class to R.string.keyword_accurate,
         Balanced::class to R.string.keyword_balanced,
         Blast::class to R.string.keyword_blast,
         Brutal::class to R.string.keyword_brutal,
