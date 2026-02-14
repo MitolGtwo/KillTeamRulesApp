@@ -4,10 +4,13 @@ import com.example.killteamruleset.R
 import kotlinx.coroutines.Job
 
 sealed class KeywordInfo {
-
     abstract val name: String
+
+    // ✅ default for static keywords
     open val displayName: String get() = name
-    open val description: String = ""
+
+    // 🔑 used to fetch rule text
+    open val baseKey: String get() = name
 }
 
 data class Blast(val range: Int) : KeywordInfo() {
@@ -79,7 +82,6 @@ object Hot : KeywordInfo() {
     override val name = "Hot"
 }
 
-
 object Obscure : KeywordInfo() {
     override val name = "Obscure"
 }
@@ -136,3 +138,52 @@ object Stun : KeywordInfo() {
 object Toxic : KeywordInfo() {
     override val name = "Toxic"
 }
+
+
+///
+
+object BlastBase : KeywordInfo() {
+    override val name = "Blast"
+    override val displayName = "Blast"
+}
+
+object DevastatingBase : KeywordInfo() {
+    override val name = "Devastating"
+    override val displayName = "Devastating"
+}
+
+object LimitedBase : KeywordInfo() {
+    override val name = "Limited"
+    override val displayName = "Limited"
+}
+
+object LethalBase : KeywordInfo() {
+    override val name = "Lethal"
+    override val displayName = "Lethal"
+}
+
+object RangeBase : KeywordInfo() {
+    override val name = "Range"
+    override val displayName = "Range"
+}
+
+object PiercingBase : KeywordInfo() {
+    override val name = "Piercing"
+    override val displayName = "Piercing"
+}
+
+object PiercingCritsBase : KeywordInfo() {
+    override val name = "Piercing Crits"
+    override val displayName = "Piercing Crits"
+}
+
+object HeavyBase : KeywordInfo() {
+    override val name = "Heavy"
+    override val displayName = "Heavy"
+}
+
+object TorrentBase : KeywordInfo() {
+    override val name = "Torrent"
+    override val displayName = "Torrent"
+}
+

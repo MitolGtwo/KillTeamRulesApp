@@ -50,7 +50,8 @@ fun KeywordPopup(
                 // DESCRIPTION (from repository)
                 Text(
                     text = KeywordRepository.getDescription(context, keyword),
-                    style = MaterialTheme.typography.bodyMedium
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.surface
                 )
 
                 Spacer(Modifier.height(8.dp))

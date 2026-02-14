@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.ExpandableCharacterCard
 import com.example.killteamruleset.ui.components.KeywordPopup
+import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.model.KeywordInfo
 import com.example.killteamruleset.ui.model.Operative
 
@@ -21,6 +22,7 @@ fun OperativesListScreen(
     operatives: List<Operative>,
     onBack: () -> Unit
 ) {
+    KillTeamBackground {
     var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
 
     Column(modifier = Modifier
@@ -57,4 +59,6 @@ fun OperativesListScreen(
             onDismiss = { selectedKeyword = null }
         )
     }
+    }
+
 }

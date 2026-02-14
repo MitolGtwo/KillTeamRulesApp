@@ -1,3 +1,10 @@
 <resources>
+    <string name="mission_action">MISSION ACTION</string>
+    <string name="additional_rules">ADDITIONAL RULES</string>
+    <string name="victory_points">VICTORY POINTS</string>
+    <string name="resources">Resources</string>
+    <string name="language">Language</string>
     <string name="app_name">Kill Team Rule Set</string>
+    <string name="maps">Maps</string>
+    <string name="crit_ops">Crit Ops</string>
 </resources>

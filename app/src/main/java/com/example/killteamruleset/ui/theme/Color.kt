@@ -5,11 +5,10 @@ import androidx.compose.ui.graphics.Color
 
 val DarkBlueBackground = Color(0xFF2B2C2C)
 val DarkBlueSurface = Color(0xFF1B263B)
-val Orange = Color(0xFFC53939)
 val Black = Color(0xFF020202)
 
 val Cream = Color(0xFFECE2E2)
-
+val Orange = Color(0xFFF53907)
 
 val Purple80 = Color(0xFFD0BCFF)
 val PurpleGrey80 = Color(0xFFCCC2DC)
