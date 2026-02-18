@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AOD-->
+  <string name="heroic_leader_usage"><![CDATA[
+        Passive/Once per turning point
+]]></string>
+
+        <string name="heroic_leader_usage_description"><![CDATA[
+        You can do one of the following:\n\n
+
+            -Use a Firefight ploy for 0CP if this is the specified **ANGEL OF DEATH** (excluding Command Re-roll).\n
+            -Use the Combat Doctrine strategy ploy when you activate a friendly **ANGEL OF DEATH** Operative if this Operative is in the killzone and isnt within control 
+            range of an enemy Operative (pay its CP cost as normal). Note that you cannot do so if you have already used that ploy during this turning point.\n
+            -Used the Adjust Doctrine Firefight ploy for 0CP if this Operative is in the killzone and isnt within control range of enemy Operatives.
+]]></string>
+
+      <string name="heroic_leader_usage"><![CDATA[
+        Passive/Once per battle
+]]></string>
+
+        <string name="heroic_leader_description"><![CDATA[
+       When an attack dice inflicts Normal Dmg on this Operative, you can ignore that inflicted damage.
+]]></string>
+
+          <string name="assault_doctrine_warfare_usage"><![CDATA[
+        Passive
+]]></string>
+
+        <string name="assault_doctrine_warfare_description"><![CDATA[
+       You can do each of the following once per battle:\n\n
+
+            -Whenever you would use the Combat Doctrine strategy ploy and then select Assault, if this Operative is in the killzone, it costs you 0CP.\n
+            -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
+]]></string>
+
+
+     <string name="intercessor_doctrine_warfare_usage"><![CDATA[
+        Passive
+]]></string>
+
+        <string name="intercessor_doctrine_warfare_description"><![CDATA[
+       You can do each of the following once per battle:\n\n
+
+            -Whenever you would use the Combat Doctrine strategy ploy and then select Devastator, if this Operative is in the killzone, it costs you 0CP.\n
+            -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
+]]></string>
+
+          <string name="chapter_veteran_usage"><![CDATA[
+        Passive
+]]></string>
+
+        <string name="chapter_veteran_description"><![CDATA[
+       At the end of the Select Operative step, if this Operative is selected for deployment, select one additional **CHAPTER TACTIC** for it to have for the battle.
+            Unlike the primary or secondary, you dont have to select the same one for each battle.
+]]></string>
+
+         <string name="aod_grenadier_usage"><![CDATA[
+        Passive
+]]></string>
+
+        <string name="aod_grenadier_description"><![CDATA[
+       This Operative can use frag and krak grenades (see universal equipment). Doing so doesnt count towards any limited uses you have. Whenever its doing so,
+            improve the Hit stat of that weapon by 1.
+]]></string>
+
+         <string name="aod_camo_cloak_usage"><![CDATA[
+        Passive
+]]></string>
+
+        <string name="aod_camo_cloak_description"><![CDATA[
+       Whenever an Operative is shooting this Operative, ignore the Saturate weapon rule. This Operative has the Stealthy **CHAPTER TACTIC**. If you selected that **CHAPTER TACTIC**
+            , you can do both of its options (retain two cover saves - one normal and one critical success).
+]]></string>
+
+         <string name="aod_optics_usage"><![CDATA[
+ 1AP
+]]></string>
+
+        <string name="aod_optics_description"><![CDATA[
+       Until the start of this Operatives next activation, whenever its shooting, enemy Operatives cannot be obscured.\n\n
+
+            This Operative cannot perform this while within control range of an enemy Operative.
+]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="astartes_lore"><![CDATA[
+        These genetically modified superhumans are made for one purpose: war.
+]]></string>
+
+        <string name="astartes_description"><![CDATA[
+        During each friendly **ANGEL OF DEATH** Operatives activation, it can perform either two **Shoot* actions or two **Fight** actions. If its two
+            **Shoot** actions, a Bolt weapon must be selected for at least one of them, and if its a Bolt Sniper Rifle or Heavy Bolter, 1 additional AP must be
+            spent for the second action if both actions are using that weapon.\n\n
+
+            Each friendly **ANGEL OF DEATH** Operative can counteract regardless of its order.
+]]></string>
+
+        <string name="chapter_tactics_lore"><![CDATA[
+        Each Space Marine Chapter is a martial brotherhood with its own combat philosophies, suited to the unique skills and temperaments of its battle-brothers.
+            These tenets of war may be clothed in esoteric rituals built up over thousands of years, but remain as brutally effective as when they were first laid down.
+]]></string>
+
+        <string name="chapter_tactics_description"><![CDATA[
+        When selecting your kill team, select a Primary and secondary **CHAPTER TACTIC** for friendly **ANGEL OF DEATH** Operatives to gain for the battle. Multiple instances
+            of the same **CHAPTER TACTIC** arent cumulative.\n\n
+
+            If you are playing a series of games or a tournament, you must select the same **CHAPTER TACTIC** for every battle, you can still change the secondary with the Adaptive
+            Tactics strategy ploy.\n\n
+
+                        ---1.AGGRESIVE\n
+            This operatives melee weapons have the Rending weapon rule.\n
+                        ---2.DUELLER\n
+            Whenever this Operative is fighting or retaliating, each of your normal successes can block one unresolved critical success (unless the enemy has the Brutal weapon rule).\n
+                        ---3.RESOLUTE\n
+            You can ignore any changes to this Operatives APL stat and it isnt affected by enemy Operatives Shock weapon rule.\n
+                        ---4.STEALTHY\n
+            Whenever an Operative is shooting this Operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save
+            as critical success instead. This isnt cumulative with improved cover saves from Vantage terrain.\n
+                        ---5.MOBILE\n
+            *This operative can perform the **Fall Back** action for 1 less AP.\n
+            *This operative can perform the **Charge** action while within control range of an enemy Operative, and can leave that Operatives control range to do so 
+            (but then normal requirements for that move apply).\n
+                        ---6.HARDY\n
+            Whenever an Operative is shooting this Operative, defence dice results of 5+ are critical successes. Whenever this Operative is retaliating, the first
+            time an attack dice inflicts Normal Dmg of 3 or more on this Operative during that sequence, that dice inflicts 1 less damage on it.\n
+                        ---1.SHARPSHOOTER\n
+            Whenever this Operative is shooting during an activation in which it hasnt performed the **Charge, Fall Back** or **Reposition** action, its bolt weapon has the Acurrate 1
+            and Severe weapons rules.\n
+                        ---9.SIEGE SPECIALIST\n
+            This Operatives ranged weapons have the Saturate weapon rule. Whenever this Operative is fighting or retaliating, enemy Operatives cannot assist.\n
+]]></string>
+
+  
+    <!--Equipment-->
+
+        <string name="purity_seals_lore"><![CDATA[
+        Awarded by the Chapters Chaplains, purity seals are inscribed with blessings and inspire the bearer to fight with increased vigour.
+]]></string>
+
+          <string name="purity_seals_description"><![CDATA[
+
+        Once per turning point, when a friendly **ANGEL OF DEATH** Operative is shooting, fighting or retaliating, if you roll two two or more fails, you
+            can discard one of them to retain another as a normal success instead.
+
+]]></string>
+
+  <string name="chapter_reliquaries_lore"><![CDATA[
+        Many Space Marines bear macabre relics taken from the bodies of their fallen. Those who bear these inspirational items fight all the harder to honour
+    the sacrifice of their battle-brothers.
+]]></string>
+
+          <string name="chapter_reliquaries_description"><![CDATA[
+        You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly Operative has an **Engage** order
+]]></string>
+
+  <string name="tilting_shields_lore"><![CDATA[
+    As well as displaying company colours and personal heraldry, a Space Marines tilting plate serves to protect the bearer in the press of melee combat.
+]]></string>
+
+          <string name="purity_seals_description"><![CDATA[
+    Once per turning point, when a friendly **ANGEL OF DEATH** Operative is fighting or retaliating, after your opponent rolls their attack dice, but before re-rolls, you can use 
+            this rule. If you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (ex. Lethal, Rending or Severe).
+]]></string>
+
+  <string name="auspex_lore"><![CDATA[
+    Auspexes come in many forms. These scanning devices can detect motion, analyse atmospheric conditions and reveal heat signatures.
+]]></string>
+
+          <string name="auspex_description"><![CDATA[
+    Once per turning point, when a friendly **ANGEL OF DEATH** Operative performs the **Shoot** action, and you are selecting a valid target, you can use this rule.
+            If you do, until the end of the activation/counteraction, enemy Operatives within 8\" of that friendly Operative cannot be Obscured.
+]]></string>
+  
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    
+ <string name="combat_doctrine_lore"><![CDATA[
+   Space Marines hold the teachings of the Codex Astartes in highest esteem, employing its flexible combat doctrines to annihilate their enemies.
+]]></string>
+
+<string name="combat_doctrine_description"><![CDATA[
+    Select one **COMBAT DOCTRINE** from those presented below. Whenever a friendly **ANGEL OF DEATH** Operative is x, its weapons have the Balanced weapon rule. X is the 
+     **COMBAT DOCTRINE** you selected.\n\n
+    - **DEVASTATOR DOCTRINE:** Shooting an Operative more than 6\" from it.\n
+    *TACTICAL DOCTRINE:** Shooting an Operative within 6\" of it.\n
+    *ASSAULT DOCTRINE:** Fighting or retaliating.
+]]></string>
+
+     <string name="no_fear_lore"><![CDATA[
+   Space Marines possess extraordinary courage and are utterly unflinching in the face of terrifying horros and overwhelming odds.
+]]></string>
+
+<string name="no_fear_description"><![CDATA[
+    You can ignore any changes to the stats of friendly  **ANGEL OF DEATH** Operatives from being injured.
+]]></string>
+
+     <string name="apadtive_tactics_lore"><![CDATA[
+   There are few more tactically flexible warriors than the Adeptus Astartes. Supplementing the teachings of the Codex Astartes with their own experience, 
+         Space Marines may adjust their strategies at a moments notice.
+]]></string>
+
+<string name="apadtive_tactics_description"><![CDATA[
+    Change your secondary **CHAPTER TACTIC**. Note this ploy only lasts until the end of the turning point.
+]]></string>
+
+     <string name="indomitus_lore"><![CDATA[
+   This is the Era Indomitus. The Imperium wages galaxy-spanning crusades to drive back the horrors that plague it, and the battle-brothers of the Adeptus Astartes 
+         are spurred on by this righteous purpose.
+]]></string>
+
+<string name="indomitus_description"><![CDATA[
+    Whenever an Operative is shooting a friendly **ANGEL OF DEATH** Operative, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.
+]]></string>
+
+
+    
+    <!--Firefight ploys-->
+
+ <string name="adjust_doctrine_lore"><![CDATA[
+   Adeptus Astartes kill teams adapt their strategies on the fly to overcome the foe. Swifly traded hand signals and abrupt vox exchanges herald a shift in doctrine.
+]]></string>
+
+<string name="adjust_doctrine_description"><![CDATA[
+    Use this Firefight ploy during a friendly **ANGEL OF DEATH** Operatives activation, before or after it performs an action. If you have used the Combat Doctrine 
+    strategy ploy during this turning point, change the **COMBAT DOCTRINE** you selected.
+]]></string>
+
+     <string name="transhuman_physiology_lore"><![CDATA[
+   The genetically modified physiology of a Space Marine is capable of resisting wounds that would kill a lesser being.
+]]></string>
+
+<string name="transhuman_physiology_description"><![CDATA[
+    Use this Firefight ploy when an Operative is shooting a friendly **ANGEL OF DEATH** Operative, in the Roll Defence Dice Step. You can retain one of your normal successes as a critical
+    success instead.
+]]></string>
+
+     <string name="shock_assault_lore"><![CDATA[
+   The Adeptus Astartes strike with exceptional speed and strength, the roar of chainswords and brutal assaults spelling death for their foes.
+]]></string>
+
+<string name="shock_assault_description"><![CDATA[
+    Use this Firefight ploy when a friendly **ANGEL OF DEATH** Operative is performing the **Fight** action during an activation in which it performed the **Charge** action,
+    at the start of the Resolve Attack Dice step. Until the end of that action:\n\n
+
+    -Its melee weapon has the Shock weapon rule.
+    -The first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).
+]]></string>
+
+     <string name="wrath_of_vengeance_lore"><![CDATA[
+   When roused to anger, a battle-brother of the Adeptus Astartes may be spurred to acts of extraordinary strength and athleticism.
+]]></string>
+
+<string name="wrath_of_vengeance_description"><![CDATA[
+    Use this Firefight ploy when a friendly **ANGEL OF DEATH** Operative is counteracting. It can perform an additional 1AP action for free during that action, but both actions must be different.
+]]></string>
+    
+
+</resources>
