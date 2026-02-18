@@ -7,6 +7,71 @@ import com.example.killteamruleset.ui.model.PloyType
 object PloyRepository {
 
     private val ploysByTeam = mapOf(
+        angels_of_death to listOf(
+            // ── Aod STRATEGY ──
+            Ploy(
+                id = "combat_doctrine",
+                name ="COMBAT DOCTRINE",
+                type = PloyType.STRATEGY,
+                lore = R.string.combat_doctrine_lore,
+                description = R.string.combat_doctrine_description
+            ),
+            Ploy(
+                id = "no_fear",
+                name = "AND THEY SHALL KNOW NO FEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.no_fear_lore,
+                description = R.string.no_fear_description
+            ),
+            Ploy(
+                id = "adaptive_tactics",
+                name = "ADAPTIVE TACTICS",
+                type = PloyType.STRATEGY,
+                lore = R.string.adaptive_tactics_lore,
+                description = R.string.adaptive_tactics_description
+            ),
+            Ploy(
+                id = "indomitus",
+                name = "INDOMITUS",
+                type = PloyType.STRATEGY,
+                lore = R.string.indomitus_lore,
+                description = R.string.indomitus_description
+            ),
+
+
+            // ── Wreckas FIREFIGHT ──
+            Ploy(
+                id = "adjust_doctrine",
+                name = "ADJUST DOCTRINE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.adjust_doctrine_lore,
+                description = R.string.adjust_doctrine_description
+            ),
+            Ploy(
+            id = "transhuman_physiology",
+            name = "TRANSHUMAN PHYSIOLOGY",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.transhuman_physiology_lore,
+            description = R.string.transhuman_physiology_description
+            ),
+            Ploy(
+                id = "shock_assault",
+                name = "SHOCK ASSAULT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.shock_assault_lore,
+                description = R.string.shock_assault_description
+            ),
+            Ploy(
+                id = "wrath_of_vengeance",
+                name = "WRATH OF VENGEANCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wrath_of_vengeance_lore,
+                description = R.string.wrath_of_vengeance_description
+            )
+        ),
+
+
+        
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──
             Ploy(
