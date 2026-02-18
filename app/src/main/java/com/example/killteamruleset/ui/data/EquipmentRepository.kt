@@ -19,26 +19,26 @@ object EquipmentRepository {
             Equipment(
                 id = "purity_seals",
                 name = "PURITY SEALS",
-                lore =R.string.wrecka_drillrokkit_lore,
-                description = R.string.wrecka_drillrokkit_description
+                lore =R.string.purity_seals_lore,
+                description = R.string.purity_seals_description
             ),
             Equipment(
                 id = "chapter_reliquaries",
                 name = "CHAPTER RELIQUARIES",
-                lore =R.string.wrecka_extra_armour_lore,
-                description = R.string.wrecka_extra_armour_description
+                lore =R.string.chapter_reliquaries_lore,
+                description = R.string.chapter_reliquaries_description
             ),
             Equipment(
                 id = "tilting_shields",
                 name = "TILTING SHIELDS",
-                lore =R.string.wrecka_engine_oil_lore,
-                description = R.string.wrecka_engine_oil_description
+                lore =R.string.wrecka_tilting_shields_lore,
+                description = R.string.tilting_shields_description
             ),
             Equipment(
                 id = "auspex",
                 name = "AUSPEX",
-                lore =R.string.wrecka_glyphs_lore,
-                description = R.string.wrecka_glyphs_description
+                lore =R.string.auspex_lore,
+                description = R.string.auspex_description
             )
         ),
         
