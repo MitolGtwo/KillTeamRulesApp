@@ -58,7 +58,7 @@
     Auspexes come in many forms. These scanning devices can detect motion, analyse atmospheric conditions and reveal heat signatures.
 ]]></string>
 
-          <string name="purity_seals_description"><![CDATA[
+          <string name="auspex_description"><![CDATA[
     Once per turning point, when a friendly **ANGEL OF DEATH** Operative performs the **Shoot** action, and you are selecting a valid target, you can use this rule.
             If you do, until the end of the activation/counteraction, enemy Operatives within 8\" of that friendly Operative cannot be Obscured.
 ]]></string>
