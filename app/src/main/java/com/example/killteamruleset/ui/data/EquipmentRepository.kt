@@ -14,6 +14,34 @@ import com.example.killteamruleset.ui.model.WeaponType
 object EquipmentRepository {
 
     private val equipmentByTeam = mapOf(
+        "angels_of_death" to listOf(
+
+            Equipment(
+                id = "purity_seals",
+                name = "PURITY SEALS",
+                lore =R.string.wrecka_drillrokkit_lore,
+                description = R.string.wrecka_drillrokkit_description
+            ),
+            Equipment(
+                id = "chapter_reliquaries",
+                name = "CHAPTER RELIQUARIES",
+                lore =R.string.wrecka_extra_armour_lore,
+                description = R.string.wrecka_extra_armour_description
+            ),
+            Equipment(
+                id = "tilting_shields",
+                name = "TILTING SHIELDS",
+                lore =R.string.wrecka_engine_oil_lore,
+                description = R.string.wrecka_engine_oil_description
+            ),
+            Equipment(
+                id = "auspex",
+                name = "AUSPEX",
+                lore =R.string.wrecka_glyphs_lore,
+                description = R.string.wrecka_glyphs_description
+            )
+        ),
+        
 
         "wrecka_krew" to listOf(
 
