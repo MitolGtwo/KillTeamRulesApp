@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MalignantPlaguecaster= Operative(
     name = "Malignant Plaguecaster",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.plague_plaguecaster,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

@@ -2,6 +2,24 @@
 <resources>
 
 
+     <string name="plaguemarine_toxic"><![CDATA[
+
+         Toxic
+
+     ]]></string>
+
+    <string name="plaguemarine_toxic_usage"><![CDATA[
+
+         Pasiva
+
+     ]]></string>
+
+    <string name="plaguemarine_toxic_description"><![CDATA[
+        Cuando usas esta arma contra un Operativo que tiene uno de tus tokens de Veneno, incrementa el daño normal y critico de esta arma +1
+     ]]></string>
+
+
+
     <!--Plague Marines-->
     <string name="malignantplaguecaster_poisonus_miasma"><![CDATA[
 
@@ -16,14 +34,9 @@
      ]]></string>
 
     <string name="malignantplaguecaster_poisonus_miasma_description"><![CDATA[
-
-         **Psychic**. Seleciona un Operativo visible y a 7" de este Operativo, o un Operativo
-         que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno de tus
-         Poison token. En caso de ya tener uno, recibe 3 heridas en su lugar.
-
-         Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
-         enemigo.
-
+**Psychic**. Seleciona un Operativo visible y a 7" de este Operativo, o un Operativo
+que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno de tus Poison token. En caso de ya tener uno, recibe 3 heridas en su lugar.
+\n\nEste Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
      ]]></string>
 
     <string name="malignantplaguecaster_putrescent_vitality"><![CDATA[
@@ -39,15 +52,13 @@
      ]]></string>
 
     <string name="malignantplaguecaster_putrescent_vitality_description"><![CDATA[
+**Psychic**. Selecciona un Operativo aliado visible y a 3" de este Operative, lanza
+2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas
+; de otra forma, el Operativo recupera heridad totales al resultado mas grande de los
+dos dados.
 
-         **Psychic**. Selecciona un Operativo aliado visible y a 3" de este Operative, lanza
-         2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas
-         ; de otra forma, el Operativo recupera heridad totales al resultado mas grande de los
-         dos dados.
-
-         Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
-         enemigo, o mas de una vez por turno.
-
+Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
+enemigo, o mas de una vez por turno.
      ]]></string>
 
     <string name="plaguemarinebombardier_grenadier"><![CDATA[
@@ -82,13 +93,11 @@
 
      ]]></string>
 
-    <string name="plaguemarinefighter_flail_description"><![CDATA[
-
-         Cuando un Operativo enemigo que tenga un marcador de veneno pierde una o mas heridas
-         a 7" de este Operativo, este Operativo recupera heridas igual al numero de heridas que
-         perdio ese Operativo (hasta un maximo de 3 heridas recuperadas por turno, y solo si este
-         Operativo no esta incapacitado).
-
+    <string name="plaguemarinechambion_gfblessing_description"><![CDATA[
+        Cuando un Operativo enemigo tiene un marcador de veneno, y pierde una o mas heridas
+         a 7\" de este Operativo, este Operativo recupera heridas igual al numero de heridas que
+         perdio ese Operativo (hasta un máximo de 3 heridas recuperadas por turno, y solo si este
+          Operativo no esta incapacitado).
      ]]></string>
 
     <string name="plaguemarinefighter_flail"><![CDATA[
@@ -103,12 +112,12 @@
 
      ]]></string>
 
-    <string name="plaguemarinechambion_gfblessing_description"><![CDATA[
+    <string name="plaguemarinefighter_flail_description"><![CDATA[
+         Inflinge D3+2 daño a cada Operativo que sea visible y este a 2\" de ese Operativo. Lanza dado por cada Operativo:
+    si es un Operativo enemigo, si el resultado del D3 es 3, ese Operativo tambien gana un marcador de Veneno (en caso de que no tenga uno).
 
-         Inflinge D3+2 daño a cada Operativo que sea visible y este a 2" de ese Operativo. Lanza dado por cada Operativo:
-         si es un Operativo enemigo, si el resultado del D3 es 3, ese Operativo tambien gana un marcador de Veneno (en caso de que no tenga uno).
-         Esta accion es considerada una accion de combate, y no se puede realizar mientras este Operativo tenga una orden de **Engage**
 
+    Esta accion es considerada una accion de combate, y no se puede realizar mientras este Operativo tenga una orden de **Conceal**
      ]]></string>
 
     <string name="plaguemarine_iconbearer"><![CDATA[
@@ -168,6 +177,278 @@
                      Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
 
 ]]></string>
+
+
+    <string name="plaguemarinewarrior"><![CDATA[
+
+        Fortuna Repulsiva
+
+]]></string>
+
+    <string name="plaguemarinewarrior_usage"><![CDATA[
+
+        Pasiva
+
+]]></string>
+
+    <string name="plaguemarinewarrior_description"><![CDATA[
+        Cuando un Operativo dispare a este Operativo, dados de defensa de 5+ son exitos criticos
+]]></string>
+
+    <!--/Equipment Wreckas-->
+
+    <string name="plague_bell"><![CDATA[
+
+        CAMPANAS DE LA PLAGA
+
+]]></string>
+
+    <string name="plague_bell_lore"><![CDATA[
+        Cuando las campanas malditas suenan, la Death Guard se potencia con energia corrupta, incrementando su impura resistencia a niveles extraordinarios.
+]]></string>
+
+    <string name="plague_bell_description"><![CDATA[
+        Puedes ignorar cualquier cambio a Stats de Operativos **PLAGUE MARINES** aliados por estar heridos.
+]]></string>
+
+
+    <string name="plague_blight_grenades"><![CDATA[
+
+        GRANADAS PUTRIDAS
+
+]]></string>
+
+    <string name="plague_blight_grenades_lore"><![CDATA[
+        Estos dispositivos estan hechos con explisvos y fragmentos de metal con patogenos mortales, capaces de envenar a cualquier desaforunado que haya sobrevivido la explosion.
+]]></string>
+
+    <string name="plague_blight_grenades_description"><![CDATA[
+        Operativos **PLAGUE MARINES** aliados tiene la siguiente arma de disparo (no puedes usarla mas de 2 veces por batalla).
+]]></string>
+
+    <string name="plague_rounds"><![CDATA[
+        BALAS ENVENENADAS
+]]></string>
+
+    <string name="plague_rounds_lore"><![CDATA[
+       Toxinas viles emanan de estos projectiles, cualquiera impactado por estos se vera infectado con una plaga mortal.
+]]></string>
+
+    <string name="plague_rounds_description"><![CDATA[
+        Los Boltguns y Bolt Pistols de Operativos **PLAGUE MARINES** aliados tienen las claves Poison y Severe.
+]]></string>
+
+    <string name="plague_poison_vents"><![CDATA[
+
+        VENTILADORES DE VENENO
+
+]]></string>
+
+    <string name="plague_poison_vents_lore"><![CDATA[
+        Al activar la ventilacion en su armadura de poder, Plague Marines liberan nubes de humos enfermizos que ocluyen los pulmones de enemigos cercanos.
+]]></string>
+
+    <string name="plague_poison_vents_description"><![CDATA[
+        Cuando un Operativo enemigo no tiene uno de tus tokens de Veneno, es activado a 3\" de Operativos
+        aliados, lanza un D3: en 3+, ese Operativo gana unos de tus Tokens de veneno.
+]]></string>
+
+    <!--/Faction Rules Plague marines-->
+
+
+    <string name="plague_astartes"><![CDATA[
+
+        ASTARTES
+
+]]></string>
+
+    <string name="plague_astartes_lore"><![CDATA[
+        Space Marines son humanos geneticamente modificados con un solo proposito: guerra.
+]]></string>
+
+    <string name="plague_astartes_description"><![CDATA[
+        Durante cada activacion de un **PLAGUE MARINE**, este puede realizar 2 acciones de Disparo o
+        2 acciones de Pelea. Si hace 2 acciones de disparo, un Bolt Pistol, Boltgun o arma **PSYCHIC**
+        debe ser seleccionada para almenos uno de esos disparos, no se puede usar el mismo disparo **PSYCHIC**
+        en una activacion.\n\n
+
+        Cada Operativo **PLAGUE MARINE** puede hacer un counteract, independientemente de su orden.
+]]></string>
+
+    <string name="plague_poison"><![CDATA[
+
+        VENENO
+
+]]></string>
+
+    <string name="plague_poison_lore"><![CDATA[
+        Nurgle genera venenos impregandos con el mismo inmaterium, toxinas y plagas que envenenan la misma alma, y desafian cualquier intervencion medica.
+]]></string>
+
+    <string name="plague_poison_description"><![CDATA[
+        Algunas armas de este equipo tienen la regla Poison en sus armas.
+
+        **Poison:** Al momento de resolver dados de ataque, si haces daño con cualquier dado exitoso,
+        el Operativo contra el que se usa esta arma (A menos que sea un aliado **PLAGUE MARINE**) gana
+        uno de tus tokens de Veneno (en caso de que no tenga uno).
+
+        Cuando un Operativo con uno de tus tokens de Veneno activa, recibe 1 daño.
+]]></string>
+
+
+
+    <string name="plague_disgustingly_resilent"><![CDATA[
+
+        DESAGRADABLEMENTE RESISTENTE
+
+]]></string>
+
+    <string name="plague_disgustingly_resilent_lore"><![CDATA[
+        Los adoradores de Nurgle poseen una resistencia extrema a balas y espadas, pues sus repugnantes formas estan hinchadas por muerte, enfermedades y pobredumbre.
+]]></string>
+
+    <string name="plague_disgustingly_resilent_description"><![CDATA[
+        Cuando un dado de ataque hace daño igual a 3 o mas a un aliado **PLAGUE MARINE**, lanza un D6:
+        al 4+, reduce 1 al daño recibido.
+]]></string>
+
+
+    <!--/Ploys Plague marines-->
+
+    <!--/Strategic Ploy Plague marines-->
+
+    <string name="plague_contagion"><![CDATA[
+
+        CONTAGION
+
+]]></string>
+
+    <string name="plague_contagion_lore"><![CDATA[
+        Plague Marines supuran contangio, sus horribles formas emanan miasma de decadencia capaz de drenar el vigor de sus enemigos.
+]]></string>
+
+    <string name="plague_contagion_description"><![CDATA[
+        Substrae 2\" al Move Stat y empeora el Hit Stat por 1 a las armas de Operativos enemigos
+        (esto no se acumulativo con estar herido) siempre y cuando una de estas reglas se cumplan:\n\n
+
+        *El enemigo tiene uno de tus tokens de Veneno, es visible y esta a 3\" de un *PLAGUE MARINES* aliado.\n
+        *Es visible y esta a 3\" de un **PLAGUE MARINE ICON BEARER** aliado.
+]]></string>
+
+    <string name="plague_lumbering_death"><![CDATA[
+
+        MUERTE DEAMBULANDO
+
+]]></string>
+
+    <string name="plague_lumbering_lore"><![CDATA[
+        Plague Marines son metodicos y despreocupados al acercarse a la batalla, avanzanzo y disparando con implacable determinacion.
+]]></string>
+
+    <string name="plague_lumbering_description"><![CDATA[
+        Siempre que un aliado **PLAGUE MARINE** haga una accion de Disparo o una accion de Pelea en una
+        activacion en la que no haya movido una distancia mayor a 3\", o cuando este Retaliando, las
+        armas obtienen la regla Ceaselesss.
+]]></string>
+
+    <string name="plague_cloud_flies"><![CDATA[
+        NUBE DE MOSCAS
+]]></string>
+
+    <string name="plague_cloud_flies_lore"><![CDATA[
+        Asquerosas moscas vuelan en el campo de batalla, ocultando los cuerpos de Plague Marines y absorbiendo parte de los projectiles enemigos.
+]]></string>
+
+    <string name="plague_cloud_flies_description"><![CDATA[
+        Pon uno de tus tokens Nube de Moscas en el campo de batalla, siempre que un Operativo dispare a un
+        aliado **PLAGUE MARINE** a mas de 3\" de el, si ese Operativo aliado esta completamente a 1\"
+        de tu marcador, ese Operativo aliado esta Obscure. Al inicio de la proxima fase estrategica,
+        remueve ese marcador.
+]]></string>
+
+    <string name="plague_nurglings"><![CDATA[
+
+        NURGLINGS
+
+]]></string>
+
+    <string name="plague_nurglings_lore"><![CDATA[
+        Los pequeños daemons de nurgle, son maliciosos y juguetones, portan una sonrisa salvage mientras molestan enemigos de Plague Marines con garras y colmillos.
+]]></string>
+
+    <string name="plague_nurglings_description"><![CDATA[
+        Selecciona un Operativo enemigo a 3\" de un **PLAGUE MARINE** aliado, o un Operativo enemigo
+        con uno de tus tokens de Veneno y a 7\" de un **PLAGUE MARINE** aliado. hasta el final de la
+        proxima activacion del Operativo seleccionado, substrae 1 a su APL Stat.
+]]></string>
+
+    <!--/Firefight Ploy Plague marines-->
+
+    <string name="plague_virulent_poison"><![CDATA[
+
+        VENENO VIRULENTO
+
+]]></string>
+
+    <string name="plague_virulent_poison_lore"><![CDATA[
+        La mas potente de plagas del Gran Padre Nurgle se expanden en el aire, penetrando incluso
+        mascaras para respirar.
+]]></string>
+
+    <string name="plague_virulent_poison_description"><![CDATA[
+        Usa esta Firefight ploy durante la activacion or counteract de un aliado **PLAGUE MARINE**
+        antes o despues de realizar una accion. Un enemigo Operativo a 3\", o visible y a 7\", gana
+        uno de tus tokens de Veneno (en caso de que no tenga uno).
+]]></string>
+
+    <string name="plague_poisonous_demise"><![CDATA[
+        PERDICION VENENOSA
+]]></string>
+
+    <string name="plague_poisonous_demise_lore"><![CDATA[
+        Los cuerpos de Plague Marines estan llenos de incontables venenos y plagas, al morir sus formas inchadas pueden explotar, liberando toda la peste alrededor.
+]]></string>
+
+    <string name="plague_poisonous_demise_description"><![CDATA[
+        Usa esta Firefight ploy cuando un Operativo aliado **PLAGUE MARINES** es incapacitado, antes de
+        removerlo del campo. Cada Operativo enemigo visible y a 3\" de este Operativo gana uno de tus
+        tokens de Veneno (si no tienen uno): por cada uno de esos enemigos que ya tengan un token de
+        Veneno (incluyendo los que ganaron un token a causa de esta accion), inflinje 1 daño en su lugar.
+]]></string>
+
+    <string name="plague_sickening_resilence"><![CDATA[
+        RESILENCIA ENFERMIZA
+]]></string>
+
+    <string name="plague_sickening_resilence_lore"><![CDATA[
+        Al ofrecer sus cuerpos voluntariamente para almacenar los regalos del Gran Padre, algunos Plague
+        Marines son otorgados con un aguante aun mayor.
+]]></string>
+
+    <string name="plague_sickening_resilence_description"><![CDATA[
+        Usa esta Firefight ploy cuando un dado de ataque inflinje daño a un **PLAGUE MARINE** aliado.
+        Hasta el final de esa activacion o counteract, para el proposito de la pasiva DESAGRADABLEMENTE RESISTENTE,
+        sustrae automaticamente 1 al daño recibido (hasta un minimo de 2), no necesitas lanzar un D6.
+]]></string>
+
+    <string name="plague_curse_rot"><![CDATA[
+
+        MALDICION DE PUTREFACCION
+
+]]></string>
+
+    <string name="plague_curse_rot_lore"><![CDATA[
+        Entrar en combate contra un Plague Marine significa exponerse a contagio fisico y pobredumbre al alma.
+]]></string>
+
+    <string name="plague_curse_rot_description"><![CDATA[
+        Usa esta Firefight ploy cuando un aliado **PLAGUE MARINE** este disparando o peleando contra un
+        Operativo a 3\" de el (o a 7\" si tiene uno de tus tokens de Veneno), despues de que tu oponente
+        lanza sus dados de ataque o defensa. Por cada resultado de 3, inflinje 1 daño a ese Operativo enemigo
+        y ese resultado no puede retenerse como exito o Re-lanzarse.
+]]></string>
+
+
 
 
 </resources>

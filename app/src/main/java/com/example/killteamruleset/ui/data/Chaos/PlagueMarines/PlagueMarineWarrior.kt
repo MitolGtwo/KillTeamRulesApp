@@ -14,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val PlagueMarineWarrior= Operative(
     name = "Plague Marine Warrior",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.plague_warrior,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",
@@ -49,9 +49,14 @@ val PlagueMarineWarrior= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarinefighter,
-            usage = R.string.plaguemarinefighter,
-            description = R.string.plaguemarinefighter
+            title = R.string.plaguemarinewarrior,
+            usage = R.string.plaguemarinewarrior_usage,
+            description = R.string.plaguemarinewarrior_description
+        ),
+        Ability(
+            title = R.string.plaguemarine_toxic,
+            usage = R.string.plaguemarine_toxic_usage,
+            description = R.string.plaguemarine_toxic_description
         )
 
     ),

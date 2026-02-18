@@ -100,7 +100,7 @@
 
     <string name="wrecka_krusha_armoured_usage"><![CDATA[
 
-        Pasive
+        Passive
 
 ]]></string>
 
@@ -298,7 +298,7 @@
         If this Operative is incapacitated during the battle in which it hasnt
                     used its explosives, roll one D6, or two D6 if you wish. If any result is 4+,
                      this Operative performs a free Shoot action with its explosives before is removed
-                     from the game.
+                     from the game. (it counts as being injured during this action)
 
 ]]></string>
 
@@ -504,7 +504,7 @@
 
     <string name="wrecka_destruction_description"><![CDATA[
 
-        Friendly WRECKA KREW Operatives ranged weapons have the Saturate
+        Friendly **WRECKA KREW** Operatives ranged weapons have the Saturate
                          weapon rule.
 
 ]]></string>

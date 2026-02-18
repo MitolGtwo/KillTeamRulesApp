@@ -1,22 +1,42 @@
 package com.example.killteamruleset.ui.data
 
+import androidx.compose.foundation.Image
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.painterResource
 import com.example.killteamruleset.ui.model.GameMap
 import com.example.killteamruleset.ui.model.MapCategory
 import com.example.killteamruleset.R
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.unit.dp
+
 
 object MapsRepository {
-    private val maps = mutableListOf<GameMap>()
 
     fun byCategory(category: MapCategory): List<GameMap> {
-        maps.clear()
-        maps.addAll(allMaps.filter { it.category == category })
-        return maps
+        return allMaps.filter { it.category == category }
     }
 }
 
     val allMaps = listOf(
 
         // ─── VOLKUS ───
+        GameMap(
+            id = "components",
+            category = MapCategory.VOLKUS,
+            number = 0,
+            title = "Volkus component",
+            image = R.drawable.vk_comp,
+            randomizable = false
+
+        ),
         GameMap(
             id = "volkus_1",
             category = MapCategory.VOLKUS,
@@ -29,7 +49,7 @@ object MapsRepository {
             category = MapCategory.VOLKUS,
             number = 2,
             title = "Volkus Map 2",
-            image = R.drawable.map_vk_2
+            image = R.drawable.map_vk_2,
         ),
         GameMap(
             id = "volkus_3",
@@ -102,6 +122,22 @@ object MapsRepository {
             image = R.drawable.map_vk_12
         ),
         GameMap(
+            id = "itd_0",
+            category = MapCategory.INTO_THE_DARK,
+            number = 1,
+            title = "Into the Oscurito Map 1",
+            image = R.drawable.itd_comp1,
+                    randomizable = false
+        ),
+        GameMap(
+            id = "itd_00",
+            category = MapCategory.INTO_THE_DARK,
+            number = 1,
+            title = "Into the Oscurito Map 1",
+            image = R.drawable.itd_comp2,
+            randomizable = false
+        ),
+        GameMap(
             id = "itd_1",
             category = MapCategory.INTO_THE_DARK,
             number = 1,
@@ -142,6 +178,22 @@ object MapsRepository {
             number = 6,
             title = "Into the Oscurito Map 6",
             image = R.drawable.map_itd_6
+        ),
+        GameMap(
+            id = "tw_0",
+            category = MapCategory.TOMB_WORLD,
+            number = 1,
+            title = "Tombo World Map 1",
+            image = R.drawable.tw_comp1,
+            randomizable = false
+        ),
+        GameMap(
+            id = "tw_00",
+            category = MapCategory.TOMB_WORLD,
+            number = 1,
+            title = "Tombo World Map 1",
+            image = R.drawable.tw_comp2,
+            randomizable = false
         ),
         GameMap(
             id = "tw_1",
@@ -187,7 +239,66 @@ object MapsRepository {
         )
     )
 
+@Composable
+fun MapCategoryReference(category: MapCategory) {
+    when (category) {
+        MapCategory.VOLKUS -> {
+            Image(
+                painter = painterResource(R.drawable.vk_comp),
+                contentDescription = null,
+                modifier = Modifier
+                    .height(320.dp)
+                    .fillMaxWidth()
+                    .padding(bottom = 8.dp)
+                    .clip(RoundedCornerShape(12.dp)),
 
+                contentScale = ContentScale.Fit
+            )
+        }
+
+        MapCategory.INTO_THE_DARK -> {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Image(
+                    painter = painterResource(R.drawable.itd_comp1),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(320.dp)
+                        .fillMaxWidth(),
+                    contentScale = ContentScale.Fit
+                )
+                Image(
+                    painter = painterResource(R.drawable.itd_comp2),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(320.dp)
+                        .fillMaxWidth(),
+                    contentScale = ContentScale.Fit
+                )
+            }
+        }
+
+        MapCategory.TOMB_WORLD -> {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Image(
+                    painter = painterResource(R.drawable.tw_comp1),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(320.dp)
+                        .fillMaxWidth(),
+                    contentScale = ContentScale.Fit
+                )
+                Image(
+                    painter = painterResource(R.drawable.tw_comp2),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .height(320.dp)
+                        .fillMaxWidth(),
+                    contentScale = ContentScale.Fit
+                )
+            }
+        }
+    }
+}
 
 
 

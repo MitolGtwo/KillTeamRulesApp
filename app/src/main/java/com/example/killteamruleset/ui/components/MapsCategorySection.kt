@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.killteamruleset.ui.data.MapCategoryReference
 import com.example.killteamruleset.ui.data.MapsRepository
 import com.example.killteamruleset.ui.model.GameMap
 import com.example.killteamruleset.ui.model.MapCategory
@@ -29,12 +30,12 @@ fun MapsCategorySection(
 ) {
     val isExpanded = expandedCategory == category
 
-    // ✅ FIX: do NOT cache without a key
     val maps = MapsRepository.byCategory(category)
+        .filter { it.randomizable }
 
     Column {
 
-        // 🔷 HEADER
+        // HEADER
         Card(
             modifier = Modifier
                 .fillMaxWidth()
@@ -47,12 +48,16 @@ fun MapsCategorySection(
             )
         }
 
-        // 📂 MAP LIST
         AnimatedVisibility(visible = isExpanded) {
             Column(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 modifier = Modifier.padding(top = 8.dp)
             ) {
+
+                // 👇 TERRAIN IMAGE HERE
+                MapCategoryReference(category)
+
+                // 👇 MAP LIST
                 maps.forEach { map ->
                     MapCard(
                         map = map,

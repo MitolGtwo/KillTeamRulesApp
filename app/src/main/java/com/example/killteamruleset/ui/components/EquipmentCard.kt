@@ -47,7 +47,7 @@ fun EquipmentCard(
 
             // 🔶 TITLE
             Text(
-                text = stringResource(equipment.name), // ✅ FIX
+                text = stringResource(equipment.name),
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFFFF6A00),
                 style = MaterialTheme.typography.titleMedium
@@ -59,7 +59,17 @@ fun EquipmentCard(
                 thickness = 2.dp
             )
 
-            // 📜 DESCRIPTION
+            // 📜 LORE (OPTIONAL)
+            equipment.lore?.let { loreRes ->
+                Text(
+                    text = stringResource(loreRes),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = Color.DarkGray,
+                    modifier = Modifier.padding(bottom = 12.dp)
+                )
+            }
+
+            // 📖 RULE TEXT
             RichText(
                 text = stringResource(equipment.description),
                 color = Color.Black

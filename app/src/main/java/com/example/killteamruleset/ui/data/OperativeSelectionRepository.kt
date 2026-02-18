@@ -1,13 +1,16 @@
 package com.example.killteamruleset.ui.data
 
+import com.example.killteamruleset.ui.data.Chaos.PlagueMarines.PlagueMarineOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
-import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.OperativeSelectionRule
+import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
 object OperativeSelectionRepository {
 
+    private val rulesByTeam: Map<String, List<OperativeSelectionRule>> = mapOf(
+        "wrecka_krew" to WreckaKrewOperativeSelection,
+        "plague_marines" to PlagueMarineOperativeSelection
+    )
+
     fun getRulesForTeam(teamId: String): List<OperativeSelectionRule> =
-        when (teamId) {
-            "wrecka_krew" -> WreckaKrewOperativeSelection
-            else -> emptyList()
-        }
+        rulesByTeam[teamId].orEmpty()
 }

@@ -14,17 +14,10 @@ import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
-
-data class OperativeSelectionRule(
-    val text: String,
-    val indent: Int = 0,
-    val isFooter: Boolean = false
+import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
 
-
-)
-
-val WreckaKrewOperativeSelection = listOf(
+val WreckaKrewOperativeSelection: List<OperativeSelectionRule> = listOf(
 
     OperativeSelectionRule(
         text = "1 WRECKA KREW BOSS NOB operative with one of the following options:"

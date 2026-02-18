@@ -5,22 +5,19 @@
 
     <string name="wrecka_demolisha_recklesstemperament"><![CDATA[
 
-        Reckless Temperament
+        Temperamento Temerario
 
     ]]></string>
 
     <string name="wrecka_demolisha_recklesstemperament_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="wrecka_demolisha_recklesstemperament_description"><![CDATA[
-
-        If this Operative has a Conceal order, Normal damage of 4 or more inflicts
-                     1 less damage. If this Operative has an Engage order, this rule applies for
-                    Normal and Critical damage.
-
+        Si este Operativo tiene una orden de Conceal, daño normal de 4 o mas inflinje 1 menos.
+        Si este Operativo tiene una orden de Engage, esta regla aplica con daño critico tambien.
     ]]></string>
 
     <string name="wrecka_demolisha_detonate"><![CDATA[
@@ -36,19 +33,18 @@
     ]]></string>
 
     <string name="wrecka_demolisha_detonate_description"><![CDATA[
+        La primera vez que hagas daño a un Operativo enemigo con esta arma durante la batalla,
+        si golpeas con un resultado normal, inflinje D6+6 daño a ese Operativo enemigo y a cualquier
+        otro Operativo dentro de tu rango de control (Rollea dados por separado). Si golpeas con un
+        exito critico, inflinje 2D6+6 en su lugar.
 
-        The first time you would inflict damage on an enemy Operative with this weapon profile
-                 during the battle, on a normal success, inflict D6+6 damage on that enemy Operative
-                 and each other Operative within this Operativs control range (Roll separately for each),
-                    on a critical do the same but for 2D6+6. Then the action ends and you gain 1 Wrecka point +1
-                    for each operative that was incapacitated during this action. Damage from
-        this weapon cannot be reduced or ignored.
-
+        La accion despues termina, ganas 1 punto Wrecka, y +1 punto wrecka por cada Operativo que haya
+        sido Incapacitado por este ataque, este daño no puede ser reducido o ignorado.
     ]]></string>
 
     <string name="wrecka_fighter"><![CDATA[
 
-        BREAK STUFF
+        Romper Vaina
 
     ]]></string>
 
@@ -59,56 +55,50 @@
     ]]></string>
 
     <string name="wrecka_fighter_description"><![CDATA[
+        Selecciona una pieza de terreno dentro del rango de control de este Operativo.
+        Si es una pieza de equipamiento, remuevela. De otra forma, pon uno de tus marcadores Breach
+        dentro del rango de control de este Operativo y lo mas cercano posible de esa pieza de terreno.
 
-        Select a terrain feature within the control range of this Operative. If is an
-                     equipment terrain, remove it. Otherwise, place one of your Breach markers within
-                     this Operatives control range as close as possible to that terrain feature.
-                     Whenever an Operative is within 1\" of that marker, it treats parts of that terrain
-                     feature that are no more than 1\" thick as Accessible terrain\n\nThis
-                    operative CANNOT perform this action while within control range of an enemy
-                    Operative, or if a terrain feature isnt within its control range.
+        Siempre que un Operativo este a 1\" de ese marcador, puede tratar ese terreno como terreno accesible
+        de 1\" de ancho.\n\n
 
+        Este Operativo no puede realizar esta accion mientras este dentro del rango de control de un
+        Operativo enemigo, o si la pieza de terreno no esta en su rango de control.
     ]]></string>
 
     <string name="wrecka_gunner"><![CDATA[
 
-        Kompetitive Streak
+        Racha Kompetitiva
 
     ]]></string>
 
     <string name="wrecka_gunner_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="wrecka_gunner_description"><![CDATA[
-
-        Once per **Shoot** action, if this operative shoots an enemy Operative that
-                     another friendly Operative has already Shot during this turning point, you
-                     gain 1 Wrecka point. Determine this when you select a valid target, but you can
-                     include any secondary targets when doing so (Ex from the Blast weapon rule).
-
+        Una vez por accion de **Disparo**, si este Operativo Dispara a un enemigo que otro aliado
+        haya Disparado durante este turno, ganas 1 punto Wrecka. Determina esto cuando seleccionas
+        un objetivo valido, puedes incluir a cualquier objetivo secundario de esta forma (Ej de Blast).
     ]]></string>
 
     <string name="wrecka_krusha_armoured"><![CDATA[
 
-        Armoured Up
+        Re Acorazado
 
     ]]></string>
 
     <string name="wrecka_krusha_armoured_usage"><![CDATA[
 
-        Pasive
+        Pasiva
 
     ]]></string>
 
     <string name="wrecka_krusha_armoured_description"><![CDATA[
-
-        Whenever an enemy Operative is Shooting, or this operative is Fighting or
-                    Retaliating, your opponent cannot retain a dice result less than 6 as a Critical
-                    success (Ex Severe,Lethal,Rending weapon rules)
-
+        Siempre que un enemigo Operativo dispare, o si este Operativo Pelea o Retalea, tu oponente
+        no puede retener exitos criticos con resultados menores a 6 (Ej Lethal, Severe, Rending).
     ]]></string>
 
     <string name="wrecka_krusha_smash"><![CDATA[
@@ -124,13 +114,11 @@
     ]]></string>
 
     <string name="wrecka_krusha_smash_description"><![CDATA[
-
-        Whenever you strike, you can move the enemy Operative in a straight line increment
-                 of up to 1\". If you do, it must end the move further away from this Operative and
-                 in a location it can be placed. Then move this Operative in a straight line the same
-                 distance, but it must end that move within that enemy Operatives control range
-                (If neither is possible, you cannot move them).
-
+        Siempre que decidad atacar con un dado en melee, puedes mover al enemigo en incrementos de
+        1\" en linea recta. Si lo haces, debe moverse lejos de este Operativo y en un lugar donde
+        pueda ponerse, Luego, mueve este Operativo en linea recta la misma distancia, tiene que
+        terminar el movimiento dentro de la zona de control del enemigo (si ninguna de estas reglas
+        es posible, no podras moverlo).
     ]]></string>
 
     <string name="wrecka_rokkiteer_shock"><![CDATA[
@@ -146,13 +134,11 @@
     ]]></string>
 
     <string name="wrecka_rokkiteer_shock_description"><![CDATA[
-
-        Whenever an operative is within your Pulsa area of effect, subtract 2\"
-                    from its Move stat and worsen the hit stat of its weapons by 1. This is
-                    Cumulative with being injured.\nIn the Ready step of each Strategy phase,
-                    subtract 1 from your Pulsa markers points, If it reaches 0 points, remove it.\n
-                    (In practice, your Pulsa area of effect is smaller every turning pont.)
-
+        Siempre que un Operativo este dentro del area de efecto de tu Pulsa, reduce su Move Stat por 2\"
+        y empeora su Hit stat por 1. Esto se acumula con estar herido.\n
+        Al inicio de la fase estrategica, reduce 1 el valor de tu marcador Pulsa, si alcanza los 0
+        puntos, remuevelo.
+        (En resumen, el area de efecto de tu pulsa es mas pequeña cada turno).
     ]]></string>
 
     <string name="wrecka_pulsa"><![CDATA[
@@ -168,14 +154,14 @@
     ]]></string>
 
     <string name="wrecka_pulsa_description"><![CDATA[
-
-        Dont select a valid target, place your Pulsa marker visible to this operative, or
-                 on Vantage terrain of a terrain feature that is visible to this operative. That marker
-                 gains 1 Pulsa point, then roll attack dice as normal.\n It gains 1 additional Pulsa
-                 point for each success(up to 3 additional points). \n This token has an area of effect
-                 equal to its pulsa points, every point is 1\" of additional distance (To a max of 4\").
-                \n Deal D3 damage on each operative wholly within your Pulsa marker range(Roll for each).
-
+        No selecciones un objetivo valido, pon tu marcador Pulsa visible para este Operativo, o
+        sobre terreno aventajado de una pieza de terreno que sea visible para este Operativo.
+        Ese token gana 1 punto Pulsa, despues lanza tus dados de ataque normalmente.\n
+        Gana 1 punto pulsa por cada dado exitoso (hasta 3 puntos).\n
+        El area de efecto de este token es equivalente el numero de puntos Pulsa, cada punto es
+        una pulgada extra.
+        Cada Operativo dentro del rango de tu marcador Pulsa recibe D3 daño solo cuando lanzas inicialmente
+        este ataque (lanza el dado por cada Operativo).
     ]]></string>
 
     <string name="wreckaboss"><![CDATA[
@@ -186,15 +172,13 @@
 
     <string name="wreckaboss_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="wreckaboss_description"><![CDATA[
-
-        Whenever this operative performs the **Shoot** or **Fight** action (Excluding
-                    **Guard**), you gain 1 Wrecka point
-
+        Siempre que este Operativo realice una accion de **Disparo** o **Pelea** (excluyendo **Guardia**)
+        , ganas 1 punto Wrecka.
     ]]></string>
 
     <string name="wrecka_salvo"><![CDATA[
@@ -210,12 +194,9 @@
     ]]></string>
 
     <string name="wrecka_salvo_description"><![CDATA[
-
-        Select up to Two different valid targets that arent within control range of friendly
-                 Operatives. Shoot with this weapon against both primary targets in an order of your
-                 choice, then against all remaining secondary targets if any. Each target (primary
-                 and secondary) cannot be shot more than once during the action.
-
+        Selecciona hasta 2 Operativos distintos que no esten en rango de contron de Operativos aliados
+        . Dispara esta arma a ambos objetivos primarios en cualquier orden de tu eleccion, luego dispara
+        a los objetivos secundarios. Cada objetivo solo puede ser disparado una sola vez por esta accion.
     ]]></string>
 
     <string name="squig_explosive"><![CDATA[
@@ -231,32 +212,27 @@
     ]]></string>
 
     <string name="squig_explosive_description"><![CDATA[
-
-        This operative can perform the Shoot action with this weapon while being in control
-                 range of an enemy operative, Dont select a valid target. Instead, this operative is always
-                 the primary target and cannot be in cover or Obscured.
-
+        Este Operativo puede realizar la accion de **Disparo** con esta arma mientras esta en rango
+        de control de un Operativo enemigo, no selecciones un objetivo valido. En su lugar, este Operativo
+        es el objetivo primario, no puede ser Obsucure ni tener cobertura.
     ]]></string>
 
     <string name="squig_stoopid"><![CDATA[
 
-        Stoopid
+        Guebon
 
     ]]></string>
 
     <string name="squig_stoopid_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="squig_stoopid_description"><![CDATA[
-
-        In the Firefight phase, whenever you determine this operatives order
-                    , you cannot select conceal. This Operative cannot perform any action other than
-                     **CHARGE**, **DASH**, **FIGHT**, **REPOSITION** and **SHOOT**. It cannot use any weapons that
-                    arent on its datacard.
-
+        En la fase Firefight, siempre que determines la orden de este Operativo, no puede estar en Conceal.
+        Este Operativo no puede hacer ninguna otra accion que no sea  **CARGAR**, **DASH**, **PELEAR**,
+        **REPOSITION** and **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
     ]]></string>
 
     <string name="squig_expendable"><![CDATA[
@@ -267,17 +243,14 @@
 
     <string name="squig_expendable_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="squig_expendable_description"><![CDATA[
-
-        This operative is ignored for your opponents kill op(Making this team a
-                     6 Operatives Kill team). Its also ignored for victory conditions and scoring VPs
-                     if either require operatives to \"escape\" or \"survive\" or be incapacitated by
-                     enemy Operatives.
-
+        Este Operativo es ignorado para la kill op de tu enemigo (este equipo es de 6 Operativos).
+        tambien es ignorado para condiciones de victoria o para ganar VPs que requieran que este
+        Operativo \"escape\" o \"sobreviva\" or sea incapacitado por Operativos enemigos.
     ]]></string>
 
     <string name="squig_boom"><![CDATA[
@@ -288,109 +261,89 @@
 
     <string name="squig_boom_usage"><![CDATA[
 
-        Passive, when this operative is incapacitated
+        Pasiva, cuando este Operativo es incapacitado
 
     ]]></string>
 
     <string name="squig_boom_description"><![CDATA[
 
-        If this Operative is incapacitated during the battle in which it hasnt
-                    used its explosives, roll one D6, or two D6 if you wish. If any result is 4+,
-                     this Operative performs a free Shoot action with its explosives before is removed
-                     from the game.
-
+        Si este Operativo es incapacitado durante la batalla, si no ha usado sus explosive,
+        lanza un D6 o dos D6 si deseas. Si el resultado de cualquiera es 4+,
+        este Operativo puede realizar una accion de **Disparo** con su explosive antes de ser
+        incapacitado.
+        (El Operativo cuenta como Herido para el resultado de este disparo).
     ]]></string>
 
     <!--/Equipment Wreckas-->
 
     <string name="wrecka_drillrokkit"><![CDATA[
 
-        DRILL ROKKITS
+        CUETES PENETRANTES
 
     ]]></string>
 
     <string name="wrecka_drillrokkit_lore"><![CDATA[
-
-        Mek ingenuity knows few bounds. Drill rokkits are designed to strike a target
-                        " and bore through thick armour before exploding(Like 3+ Saves).
-
+        El ingenio de un MekBoy conoce pocos limites, los Cuetes penetrantes estan diseñados
+        para golpear el objetivo atravez de armadura gruesa antes de explotar.
     ]]></string>
 
     <string name="wrecka_drillrokkit_description"><![CDATA[
-
-        Once per turning point, when a friendly **WRECKA KREW** Operative is
-                         performing the **Shoot** action and you select a **Rokkit launcha** or
-                         **Eavy rokkit launcha**, you can use this rule. If you do, until the end
-                         of that action, that weapon loses the Blast weapon rule but has the Piercing 1
-                         weapon rule (You cant combine this with the **Kaboom** Firefight ploy).
-
+        Una vez por turno, cuando un aliado **WRECKA KREW** realice una accion de **Disparo** y
+        use un **Rokkit launcha** o **Eavy rokkit launcha**, puedes usar esta regla, si lo haces,
+        hasta el final de la accion pierdes el Blast, y ganas Piercing 1 (no puedes combinar esto
+        con la Firefight ploy **Kaboom**).
     ]]></string>
 
 
     <string name="wrecka_extra_armour"><![CDATA[
 
-        EXTRA ARMOUR
+        EXTRA ARMADURA
 
     ]]></string>
 
     <string name="wrecka_extra_armour_lore"><![CDATA[
-
-        Scrap metal Ork armour may appear haphazard, but it is no less effective for
-                         its simple construction.
-
+        Los trozos de metal que cubren a un Orko pueden parecer debiles, pero no son menos
+        efectivos que una armadura normal.
     ]]></string>
 
     <string name="wrecka_extra_armour_description"><![CDATA[
-
-        Subtract 1\" from the Move stat of friendly **WRECKA KREW** Operatives
-                        and improve their Save stat by 1. This excludes **BOMB SQUIG** Operatives
-                        and isnt cumulative with the Protective rule of a Portable Barricade from
-                        universal equipment.
-
+        Reduce el movimiento de Opertativos **WRECKA KREW** aliados por 2\", y mejora su Save Stat por 1.
+        esto excluye Operativos **BOMB SQUIG**.
+        Esto no es acumulable con Barricada portatil.
     ]]></string>
 
     <string name="wrecka_engine_oil"><![CDATA[
 
-        ENGINE OIL
+        ACEITE DE MOTOR
 
     ]]></string>
 
     <string name="wrecka_engine_oil_lore"><![CDATA[
-
-        Wrecka Krews are known yo ingest the oils of vehicles they have destroyed.
-                         The intoxicating fluid bolsters their natural resilience.
-
+        Wrecka Krews son conocidos por ingerir el aceite y gasolina de los vehiculos que destruyen.
+        los fluidos toxicos mejoras su resistencia natural.
     ]]></string>
 
     <string name="wrecka_engine_oil_description"><![CDATA[
-
-        Once per turning point, when a friendly **WRECKA KREW** Operative
-                         (Excluding **BOMB SQUIG**) is activated, you can use this rule. If you do
-                        , until the end of that activation, you can ignore any changes to that
-                        Operatives from being injured (including its weapons stats).
-
+        Una vez por turno cuando un aliado **WRECKA KREW** (excluyendo **BOMB SQUIG**) es activado.
+        puedes usar esta regla. Si lo haces, hasta el final de la activacion, ese Operativo puede
+        ignorar cualquier cambio a sus estadisticas por estar Herido.
     ]]></string>
 
     <string name="wrecka_glyphs"><![CDATA[
 
-        GLYPHS
+        ESTANDARTE
 
     ]]></string>
 
     <string name="wrecka_glyphs_lore"><![CDATA[
-
-        Back-banners, crude markings and glyph-scrawled armour proudly display the
-                         Wrecka Krews favoured method of destruction.
-
+        Un estandarte lleno de simbologia simple y grotesca demuestran orgullosamente el metodo
+        favorito de destruccion de los Wrecka Krew.
     ]]></string>
 
     <string name="wrecka_glyphs_description"><![CDATA[
-
-        When this equipment is selected, also select between the ploys
-                         **Waaagh!** or **Destruction**. The first time you would use that ploy
-                         during the battle, it costs you 0CP; whenever you would use it thereafter,
-                         it costs you 0CP if you have any Wrecka points.
-
+        Cuando este equipamiento es seleccionado, tambien selecciona una ploy entre **Waaagh!** o
+        **Destruccion**. La primera vez que uses esa ploy durante la batalla, cuesta 0CP; siempre
+        que la uses despues, cuesta 0CP si tienes puntos Wrecka.
     ]]></string>
 
     /Faction Rules
@@ -398,51 +351,43 @@
 
     <string name="wrecka_rampage"><![CDATA[
 
-        WRECKA RAMPAGE
+        DESMADRE WRECKA
 
     ]]></string>
 
     <string name="wrecka_rampage_lore"><![CDATA[
-
-        The sound of explosions, thea acrid stench of smoke and screams of battle drive
-                         Wrecka Krews forwards to ever more destructive acts.
-
+        El sonido de explosivos, el aroma de azufre y los gritos de la batalla emocionan a los
+        Wrecka Krew hacia actos cada vez mas destructivos.
     ]]></string>
 
     <string name="wrecka_rampage_description"><![CDATA[
-
-        Whenever a friendly **WRECKA KREW** Operative is shooting, fighting or
-                         retaliating in the Roll Attack Dice step:\n\n•For each attack dice result
-                        of 6 you retain, you gain one Wrecka point.\n•You can spend up to 3 of
-                        your Wrecka points (unless it’s a **BOMB SQUIG**). For each point you spend this
-                         way, retain one of your fails as a normal success instead of discarding it.\n\n
-                        You cannot have more than 6 Wrecka points at once. You can gain and spend
-                        Wrecka points during the same action and can do so in an order of your choice,
-                        unless you started the action with 6, in which case you can
-                        only spend them.
-
+        Siempre que un Operativo aliado **WRECKA KREW** este disparando, peleando o retaleando.
+        En la fase de lanzar dados de ataque:
+        \n\nPor cada resultado de 6, ganas un punto Wrecka(no resultado critico, resultado de 6).
+        \n
+        En cada fase de lanzar dados de ataque, puedes gastar hasta 3 puntos Wrecka para cambiar
+        dados fallidos por exitos normales (no se puede usar con **BOMB SQUIG**), puedes ganar puntos
+        Wrecka y gastarlos inmediatamente.\n
+        Puedes tener un total de 6 puntos Wreckas, si empiezas un disparo o combate con 6 Puntos Wreckas
+        no podras ganar mas, en ese caso solo podras gastarlos.
     ]]></string>
 
     <string name="wrecka_tanked_up"><![CDATA[
 
-        TANKED UP
+        LLENOS DE COMBUSTIBLE
 
     ]]></string>
 
     <string name="wrecka_tanked_up_lore"><![CDATA[
-
-        Wrecka Krews are empowered by by the thrill of explosive combat, lending them
-                         fresh impetus as they undertake their murderous rampages.
-
+        Wrecka Krews son animados por la emocion de la batalla, brindandoles impetu para
+        realizar sus matanzas imparables.
     ]]></string>
 
     <string name="wrecka_tanked_up_description"><![CDATA[
-
-        The first time a friendly **WRECKA KREW** Operative (excluding **BOMB SGUIG**)
-                        that has an Engage order performs either the **Charge**, **Shoot** or **Fight** action
-                         (excluding **Guard**) during each of its activations/counteractions, add 1 to
-                         its APL stat until the start of its next activation
-
+        La primera vez que un Operativo **WRECKA KREW** (excluyendo **BOMB SGUIG**) con una accion
+        de Engage realiza una accion de **Carga**, **Disparo** o **Pelea** (excluyendo **Guard**)
+        durante cada activacion o counteract, añade 1 a la estadistica APL de ese operativo hasta el
+        inicio de su proxima activacion.
     ]]></string>
 
     /Ploys
@@ -454,58 +399,43 @@
     ]]></string>
 
     <string name="wrecka_waaagh_lore"><![CDATA[
-
-        When the Wrecka Krews violent rampage reaches its crescendo, a rage overcomes
-                         them. They bellow the infamous Ork battle cry as they set upon their enemies
-                         with hammer and fist.
-
+        Cuando la matanza de los Wrecka Krew alcanza su climax, su ira los consume por completo,
+        causando que griten su infame grito de guerra mientras enfrentan sus enemigos con martillos y puños.
     ]]></string>
 
     <string name="wrecka_waaagh_description"><![CDATA[
-
-        Friendly **WRECKA KREW** Operatives melee weapons have the Balanced
-                         weapon rule.
-
+        Aliados **WRECKA KREW** tienen Balanced en sus armas de melee.
     ]]></string>
 
     <string name="wrecka_tuff_gitz"><![CDATA[
 
-        TUFF GITZ
+        TIPOZ DUROS
 
     ]]></string>
 
     <string name="wrecka_tuff_gitz_lore"><![CDATA[
-
-        Wrecka Krews dont have time for mukkin about. Theyll gladly take a hit
-                         if it means they get to land a few of their own.
-
+        Wrecka Krews no tienen tiempo para preocuparse por sus heridas, ellos tomarian gustosamente
+        un golpe si pueden regresar un par al enemigo.
     ]]></string>
 
     <string name="wrecka_tuff_gitz_description"><![CDATA[
-
-        Whenever an Operative is shooting a friendly **WRECKA KREW** Operative
-                        that has an **Engage** order, you can re-roll one of you defense dice.
-
+        Siempre que un Operativo este disparando a un aliado **WRECKA KREW** que tenga una orden
+        de **Engage**, puedes re-lanzar uno de tus dados de defensa.
     ]]></string>
 
     <string name="wrecka_destruction"><![CDATA[
 
-        DESTRUCTION
+        DESTRUCCION
 
     ]]></string>
 
     <string name="wrecka_destruction_lore"><![CDATA[
-
-        If an enemy takes cover, this just proves Wrecka krews with the opportunity
-                         to blow more stuff up.
-
+        Si un enemigo toma cobertura, solo abre la oportunidad a los Wrecka Krew para explotar mas
+        cosas.
     ]]></string>
 
     <string name="wrecka_destruction_description"><![CDATA[
-
-        Friendly WRECKA KREW Operatives ranged weapons have the Saturate
-                         weapon rule.
-
+        Operativos **WRECKA KREW** ganan la regla Saturate a sus armas de rango.
     ]]></string>
 
     <string name="wrecka_amped_up"><![CDATA[
@@ -515,48 +445,37 @@
     ]]></string>
 
     <string name="wrecka_amped_up_lore"><![CDATA[
-
-        Orks thrive in the chaos and cacophony of battle. The greater the explosions
-                         and destruction around them, the more their adrenaline kicks in. When whipped
-                         up into such a fury, they can fight on through injuries that would ordinarily
-                         lay them low.
-
+        Orks prosperan en el caos y en la cacofonia de la batalla, mientras mas grandes sean las
+        explosiones y destruccion alrededor de ellos, mas adrenalina tendran, capaz de soportar
+        heridas que normalmente incapacitarian o cualquier otro ser vivo.
     ]]></string>
 
     <string name="wrecka_amped_up_description"><![CDATA[
-
-        Each friendly **WRECKA KREW** Operative that has an **Engage** order
-                         can immediately regain up to D3+1 lost wounds (roll separately for each).
-
+        Cada aliado **WRECKA KREW** con una orden de **Engage** puede inmediatamente recuperar
+        D3+1 heridas (Lanza por cada Operativo).
     ]]></string>
 
     /Firefight Ploy
 
     <string name="wrecka_demolition_job"><![CDATA[
 
-        DEMOLITION JOB
+        TRABAJO DE DEMOLICION
 
     ]]></string>
 
     <string name="wrecka_demolition_job_lore"><![CDATA[
-
-        Should a prime target present itself, the Wrecka Krew will unleash their
-                         combined destructive might, demolishing anything in the vicinity.
-
+        Cuando un objetivo se muestre, los Wrecka Krew liberalan su proeza destructiva combinada
+        sobre el desgraciado, destruyendo cualquier cosa en la cercanias.
     ]]></string>
 
     <string name="wrecka_demolition_job_description"><![CDATA[
-
-        Use this firefight ploy after a friendly **WRECKA KREW** Operative
-                         performs the **Shoot** or **Fight** action; just before incapacitated
-                         Operatives are removed (if any). Place one of your Demolition markers within
-                         the targets control range (if its using a Blast weapon, the primary target).
-                         Whenever a friendly **WRECKA KREW** Operative (excluding BOMB **SQUIG**)
-                         is shooting against, fighting against, or retaliating against an Operative
-                         thats within 3\" of that marker, you can spend a Wrecka pont for free (
-                        even if you have none). In the Ready step of the next Strategy phase, remove
-                         that marker.
-
+        Usa esta Firefight ploy despues de que un aliado **WRECKA KREW** realize una accion de
+        **Disparo** o **Pelea**; antes de incapacitar al objetivo. pon uno de tus marcadores de
+        demolicion dentro de la zona de control de ese Operativo, (Si usan Blast, selecciona el objetivo
+        primario).
+        \nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, peleando
+        o retaleando contra un enemigo a 3\" de tu marcador de Demolicion, puedes gastar 1 punto Wrecka gratis
+        (aunque no tengas ninguno). al inicio de la proxima fase Estrategica, retira tu marcador.
     ]]></string>
 
     <string name="wrecka_proppa_scrap"><![CDATA[
@@ -566,18 +485,13 @@
     ]]></string>
 
     <string name="wrecka_proppa_scrap_lore"><![CDATA[
-
-        Orks like nothing better than a good scrap. With fist or hammer, they seek to
-                     demonstrate that might is right.
-
+        Orks aman una buena pelea, con martillos o puños, ellos buscan desmostrar que son los mejores.
     ]]></string>
 
     <string name="wrecka_proppa_scrap_description"><![CDATA[
-
-        Use this firefight ploy during a **WRECKA KREW BREAKKA BOY** or **WRECKA
-                     KREW BOSS NOB** Operatives activation. During that activation, that Operative
-                     can perform two **Fight** actions.
-
+        Usa esta Firefight ploy durante la activacion de un **WRECKA KREW BREAKKA BOY** o
+        **WRECKA KREW BOSS NOB**. Durante esa activacion, ese Operativo puede hacer 2 acciones
+        de **Pelea**.
     ]]></string>
 
     <string name="wrecka_kaboom"><![CDATA[
@@ -587,21 +501,15 @@
     ]]></string>
 
     <string name="wrecka_kaboom_lore"><![CDATA[
-
-        The more intense the dakka and the louder the boom explosions, the more
-                         satisfying the carnage!
-
+        Mientras mas intenso sea el Dakka, mayor es el sonido de explosiones, haciendo la masacre
+        mas divertida!
     ]]></string>
 
     <string name="wrecka_kaboom_description"><![CDATA[
-
-        Use this firefight ploy when a friendly **WRECKA KREW** Operative
-                         performs the **Shoot** action and a weapon with Blast is selected. Until
-         the end of that action, add 1\" to that Blast range, and it has the Severe
-                         weapon rule when shooting the primary target. You cannot use this ploy and
-                         the **Drill Rokkits** rule, note that Severe as not being a natural 6, doesnt
-                         generate Wrecka points.
-
+        Usa esta Firefight ploy cuando un Operativo **WRECKA KREW** realiza la accion de **Disparo**
+        y el arma seleccionada tiene la regla **Blast**, incrementa el rango del Blast +1\" y obten
+        la regla Severa cuando le dispares al objetivo primario. No puedes combinar esto con el equipo
+        Cuetes Penetrantes, nota que Severe no es un 6 natural, por lo que no genera puntos Wreckas.
     ]]></string>
 
     <string name="wrecka_jas"><![CDATA[
@@ -611,18 +519,13 @@
     ]]></string>
 
     <string name="wrecka_jas_lore"><![CDATA[
-
-        The favorite for Ork players, Orks have a remarkable ability to shrug off
-                        grievous damage that would incapacitate most other creatures.
-
+        La ploy favorita de mains Orks, Orks tienen la abilidad para ignorar heridas fatales que
+        incapacitarian la mayoria de criaturas.
     ]]></string>
 
     <string name="wrecka_jas_description"><![CDATA[
-
-        Use this firefight ploy when an attack dice inflicts Normal Dmg on a friendly
-                         **WRECKA KREW** Operative (excluding **BOMB SQUIG**). ignore that inflicted
-                         damage.
-
+        Usa esta Firefight ploy, cuando un dado de ataque inflinje daño normal a un aliado **WRECKA KREW**
+        (excluyendo **BOMB SQUIG**). Ignora ese daño.
     ]]></string>
 
 

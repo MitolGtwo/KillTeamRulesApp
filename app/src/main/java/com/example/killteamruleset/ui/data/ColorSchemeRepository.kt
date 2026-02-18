@@ -10,6 +10,7 @@ object ColorSchemeRepository {
             ColorScheme("wk_1", R.drawable.wrecka_scheme, "bottom text"),
             ColorScheme("wk_2", R.drawable.wrecka_scheme2, "Hazard Yellow"),
         )
+
     )
 
     fun getForTeam(teamId: String): List<ColorScheme> =

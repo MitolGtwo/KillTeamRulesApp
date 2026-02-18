@@ -20,6 +20,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
@@ -67,13 +68,15 @@ fun EquipmentScreen(
             EquipmentSection(
                 title = "FACTION EQUIPMENT",
                 equipment = factionEquipment,
-                onKeywordClick = { selectedKeyword = it }
+                onKeywordClick = { selectedKeyword = it },
+                titleColor = Color(0xFFFF6A00),
             )
 
             EquipmentSection(
                 title = "UNIVERSAL EQUIPMENT",
                 equipment = universalEquipment,
-                onKeywordClick = { selectedKeyword = it }
+                onKeywordClick = { selectedKeyword = it },
+                titleColor = Color(0xFFFF6A00),
             )
         }
     }

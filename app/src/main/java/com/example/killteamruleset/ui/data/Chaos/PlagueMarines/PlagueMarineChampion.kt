@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val PlagueMarineChampion = Operative(
     name = "Plague Marine Champion",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.plague_champion,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",
@@ -37,7 +37,7 @@ val PlagueMarineChampion = Operative(
             )
         ),
         WeaponProfile(
-            name = "Plasma Pistol(standard)",
+            name = "Plasma Pistol(Supercharge)",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
@@ -70,8 +70,14 @@ val PlagueMarineChampion = Operative(
             title = R.string.plaguemarinechambion_gfblessing,
             usage = R.string.plaguemarinechambion_gfblessing_usage,
             description = R.string.plaguemarinechambion_gfblessing_description
+        ),
+        Ability(
+            title = R.string.plaguemarine_toxic,
+            usage = R.string.plaguemarine_toxic_usage,
+            description = R.string.plaguemarine_toxic_description
         )
     ),
+
     keywords = listOf(
         "PLAGUE MARINE",
         "CHAOS",

@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val PlagueMarineHeavyGunner = Operative(
     name = "Plague Marine Heavy Gunner",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.plague_gunner,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

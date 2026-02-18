@@ -8,5 +8,6 @@ data class GameMap(
     val category: MapCategory,
     val number: Int,
     val title: String,
-    @DrawableRes val image: Int
+    @DrawableRes val image: Int,
+    val randomizable: Boolean = true
 )

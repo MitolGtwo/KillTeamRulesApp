@@ -37,7 +37,8 @@ import com.example.killteamruleset.ui.model.KeywordInfo
 fun EquipmentSection(
     title: String,
     equipment: List<Equipment>,
-    onKeywordClick: (KeywordInfo) -> Unit
+    onKeywordClick: (KeywordInfo) -> Unit,
+    titleColor: Color = MaterialTheme.colorScheme.onSurface
 ) {
     var compressed by remember { mutableStateOf(true) }
 
@@ -52,7 +53,8 @@ fun EquipmentSection(
             Text(
                 text = title,
                 style = MaterialTheme.typography.titleMedium,
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.Bold,
+                color = titleColor
             )
 
             TextButton(onClick = { compressed = !compressed }) {

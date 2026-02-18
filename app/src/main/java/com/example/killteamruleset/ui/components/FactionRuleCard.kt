@@ -27,12 +27,14 @@ fun FactionRuleCard(rule: FactionRule) {
         Column(modifier = Modifier.padding(16.dp)) {
 
             // 🔶 TITLE
-            Text(
-                text = stringResource(rule.title).uppercase(),
-                color = Color(0xFFFF6A00),
-                fontWeight = FontWeight.Bold,
-                style = MaterialTheme.typography.titleMedium
-            )
+            rule.title?.let {
+                Text(
+                    text = stringResource(it).uppercase(),
+                    fontWeight = FontWeight.Bold,
+                    color = Color(0xFFFF6A00)
+                )
+            }
+
 
             Divider(
                 modifier = Modifier.padding(vertical = 6.dp),

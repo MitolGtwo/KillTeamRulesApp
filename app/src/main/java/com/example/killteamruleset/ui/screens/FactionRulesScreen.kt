@@ -27,7 +27,7 @@ fun FactionRulesScreen(
     onBack: () -> Unit
 ) {
     val team = TeamRepository.getTeamById(teamId)
-    val rules = FactionRuleRepository.getForTeam(teamId)
+    val rules = FactionRuleRepository.getForTeam(teamId).orEmpty()
 
     // 🔥 Background ONLY here
     Box(modifier = Modifier.fillMaxSize

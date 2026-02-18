@@ -12,7 +12,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val PlagueMarineBombardier = Operative(
     name = "Plague Marine Bombardier",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.plague_bombardier,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",
@@ -45,6 +45,11 @@ val PlagueMarineBombardier = Operative(
             title = R.string.plaguemarinebombardier_grenadier,
             usage = R.string.plaguemarinebombardier_grenadier_usage,
             description = R.string.plaguemarinebombardier_grenadier_description
+        ),
+        Ability(
+            title = R.string.plaguemarine_toxic,
+            usage = R.string.plaguemarine_toxic_usage,
+            description = R.string.plaguemarine_toxic_description
         )
     ),
     keywords = listOf(

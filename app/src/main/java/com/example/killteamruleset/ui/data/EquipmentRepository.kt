@@ -2,7 +2,14 @@ package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.Equipment
+import com.example.killteamruleset.ui.model.Poison
+import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Severe
+import com.example.killteamruleset.ui.model.WeaponProfile
+import com.example.killteamruleset.ui.model.WeaponType
 
 object EquipmentRepository {
 
@@ -34,7 +41,52 @@ object EquipmentRepository {
                 lore =R.string.wrecka_glyphs_lore,
                 description = R.string.wrecka_glyphs_description
             )
+        ),
+        "plague_marines" to listOf(
+
+            Equipment(
+                id = "plague_bell",
+                name = R.string.plague_bell,
+                lore =R.string.plague_bell,
+                description = R.string.plague_bell_description
+            ),
+            Equipment(
+                id = "blight_grenades",
+                name = R.string.plague_blight_grenades,
+                lore =R.string.plague_blight_grenades_lore,
+                description = R.string.plague_blight_grenades_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Blight Grennade",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "4+",
+                        damage = "2/4",
+                        keywords = listOf(
+                            Range(6),
+                            Blast(2),
+                            Saturate,
+                            Severe,
+                            Poison,
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "plague_rounds",
+                name = R.string.plague_rounds,
+                lore =R.string.plague_rounds_lore,
+                description = R.string.plague_rounds_description
+            ),
+            Equipment(
+                id = "poison_vent",
+                name = R.string.plague_poison_vents,
+                lore =R.string.plague_poison_vents_lore,
+                description = R.string.plague_poison_vents_description
+            )
         )
+
+
     )
 
     fun getForTeam(teamId: String): List<Equipment> =

@@ -66,12 +66,14 @@ fun PloysScreen(
 
             PloySection(
                 title = "STRATEGY PLOYS",
-                ploys = strategy
+                ploys = strategy,
+                titleColor = Color(0xFFFF6A00)
             )
 
             PloySection(
                 title = "FIREFIGHT PLOYS",
-                ploys = firefight
+                ploys = firefight,
+                titleColor = Color(0xFFFF6A00)
             )
         }
     }
@@ -80,7 +82,8 @@ fun PloysScreen(
 @Composable
 fun PloySection(
     title: String,
-    ploys: List<Ploy>
+    ploys: List<Ploy>,
+    titleColor: Color = MaterialTheme.colorScheme.onSurface
 ) {
     var compressed by remember { mutableStateOf(true) }
 
@@ -94,7 +97,8 @@ fun PloySection(
             Text(
                 text = title,
                 fontWeight = FontWeight.Bold,
-                style = MaterialTheme.typography.titleMedium
+                style = MaterialTheme.typography.titleMedium,
+                color = titleColor
             )
 
             Text(
