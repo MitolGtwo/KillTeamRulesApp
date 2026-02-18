@@ -5,8 +5,35 @@ import com.example.killteamruleset.ui.model.FactionRule
 
 object FactionRuleRepository {
 
-    //Wrecka Krew
+    
     private val rulesByTeam = mapOf(
+        //AoD
+         "wrecka_krew" to listOf(
+            FactionRule(
+                id = "astartes",
+                title = "ASTARTES",
+                lore = R.string.wrecka_rampage_lore,
+                ruleText = R.string.wrecka_rampage_description,
+
+            ),
+            FactionRule(
+                id = "chapter_tactics",
+                title = "CHAPTER TACTICS",
+                lore = R.string.wrecka_tanked_up_lore,
+                ruleText = R.string.wrecka_tanked_up_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+                ),
+
+        ),
+
+        //Wrecka Krew
         "wrecka_krew" to listOf(
             FactionRule(
                 id = "wrecka_rampage",
