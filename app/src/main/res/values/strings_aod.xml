@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Battleclade-->
+
+    <string name="battleclade_autoproxy_eye"><![CDATA[
+
+        Achillan Eye
+
+]]></string>
+
+
+
+
+
+
+
+    <!--Faction Rules-->
+
+
+
+
+
+
+  
+    <!--Equipment-->
+
+        <string name="purity_seals_lore"><![CDATA[
+        Awarded by the Chapters Chaplains, purity seals are inscribed with blessings and inspire the bearer to fight with increased vigour.
+]]></string>
+
+          <string name="purity_seals_description"><![CDATA[
+
+        Once per turning point, when a friendly **ANGEL OF DEATH** Operative is shooting, fighting or retaliating, if you roll two two or more fails, you
+            can discard one of them to retain another as a normal success instead.
+
+]]></string>
+
+  <string name="chapter_reliquaries_lore"><![CDATA[
+        Many Space Marines bear macabre relics taken from the bodies of their fallen. Those who bear these inspirational items fight all the harder to honour
+    the sacrifice of their battle-brothers.
+]]></string>
+
+          <string name="chapter_reliquaries_description"><![CDATA[
+        You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly Operative has an **Engage** order
+]]></string>
+
+  <string name="tilting_shields_lore"><![CDATA[
+    As well as displaying company colours and personal heraldry, a Space Marines tilting plate serves to protect the bearer in the press of melee combat.
+]]></string>
+
+          <string name="purity_seals_description"><![CDATA[
+    Once per turning point, when a friendly **ANGEL OF DEATH** Operative is fighting or retaliating, after your opponent rolls their attack dice, but before re-rolls, you can use 
+            this rule. If you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (ex. Lethal, Rending or Severe).
+]]></string>
+
+  <string name="auspex_lore"><![CDATA[
+    Auspexes come in many forms. These scanning devices can detect motion, analyse atmospheric conditions and reveal heat signatures.
+]]></string>
+
+          <string name="purity_seals_description"><![CDATA[
+    Once per turning point, when a friendly **ANGEL OF DEATH** Operative performs the **Shoot** action, and you are selecting a valid target, you can use this rule.
+            If you do, until the end of the activation/counteraction, enemy Operatives within 8\" of that friendly Operative cannot be Obscured.
+]]></string>
+  
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+
+    <!--Firefight ploys-->
+
+
+</resources>
