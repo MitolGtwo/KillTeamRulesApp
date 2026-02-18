@@ -90,13 +90,13 @@ val EliminatorSniper = Operative(
     abilities = listOf(
         Ability(
             title = "Camo Cloak",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.camo_cloak_usage,
+            description = R.string.camo_cloak_description
         ),
         Ability(
             title = "Optics",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.aod_optics_usage,
+            description = R.string.aod_optics_description
         )
     ),
     keywords = listOf(
