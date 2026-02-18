@@ -58,7 +58,7 @@ val BattlecladeBreacherServitor = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.battleclade_breach,
+            title = "Breach",
             usage = R.string.battleclade_breach_usage,
             description = R.string.battleclade_breach_description
         )

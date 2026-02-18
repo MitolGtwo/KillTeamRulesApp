@@ -67,12 +67,12 @@ val PlagueMarineChampion = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarinechambion_gfblessing,
+            title = "Grandfathers Blessing",
             usage = R.string.plaguemarinechambion_gfblessing_usage,
             description = R.string.plaguemarinechambion_gfblessing_description
         ),
         Ability(
-            title = R.string.plaguemarine_toxic,
+            title = "Toxic",
             usage = R.string.plaguemarine_toxic_usage,
             description = R.string.plaguemarine_toxic_description
         )

@@ -36,7 +36,7 @@ fun EquipmentExpandedContent(equipment: Equipment) {
 
             ability.title?.let { titleRes ->
                 Text(
-                    text = stringResource(titleRes),
+                    text = titleRes,
                     fontWeight = FontWeight.Bold
                 )
             }

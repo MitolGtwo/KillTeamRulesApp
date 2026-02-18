@@ -120,17 +120,17 @@ val SkitariiVanguardAlpha = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.canticle_glow,
+            title = "Canticle of Glow",
             usage = R.string.canticle_glow_usage,
             description = R.string.canticle_glow_description
         ),
         Ability(
-            title = R.string.rad_saturation,
+            title = "Rad-Saturation",
             usage = R.string.rad_saturation_usage,
             description = R.string.rad_saturation_description
         ),
         Ability(
-            title = R.string.control_protocol,
+            title = "Control Protocol",
             usage = R.string.control_protocol_usage,
             description = R.string.control_protocol_description
         )

@@ -43,12 +43,12 @@ val SkitariiRangerSurveyor = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.targeting_protocols,
+            title = "Targeting Protocols",
             usage = R.string.targeting_protocols_usage,
             description = R.string.targeting_protocols_description
         ),
         Ability(
-            title = R.string.hunterclade_spotter,
+            title = "Spot",
             usage = R.string.hunterclade_spotter_usage,
             description =R.string.hunterclade_spotter_description
         )

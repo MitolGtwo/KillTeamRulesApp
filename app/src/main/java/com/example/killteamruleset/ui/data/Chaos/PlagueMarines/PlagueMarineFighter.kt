@@ -39,7 +39,7 @@ val PlagueMarineFighter = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarinefighter_flail,
+            title = "Flail",
             usage = R.string.plaguemarinefighter_flail_usage,
             description = R.string.plaguemarinefighter_flail_description
         )

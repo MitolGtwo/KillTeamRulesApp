@@ -83,7 +83,7 @@ val SkitariiVanguardGunner = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.rad_saturation,
+            title = "Rad-Saturation",
             usage = R.string.rad_saturation_usage,
             description = R.string.rad_saturation_description
         )

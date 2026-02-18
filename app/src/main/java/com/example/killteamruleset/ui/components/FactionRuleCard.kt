@@ -29,7 +29,7 @@ fun FactionRuleCard(rule: FactionRule) {
             // 🔶 TITLE
             rule.title?.let {
                 Text(
-                    text = stringResource(it).uppercase(),
+                    text = it,
                     fontWeight = FontWeight.Bold,
                     color = Color(0xFFFF6A00)
                 )

@@ -71,12 +71,12 @@ val TankbustaRokkiteer= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.wrecka_rokkiteer_shock,
+            title = "Shokkwave",
             usage = R.string.wrecka_rokkiteer_shock_usage,
             description = R.string.wrecka_rokkiteer_shock_description
         ),
         Ability(
-            title = R.string.wrecka_pulsa,
+            title = "Pulsa",
             usage = R.string.wrecka_pulsa_usage,
             description = R.string.wrecka_pulsa_description
         )

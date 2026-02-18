@@ -70,13 +70,13 @@ val SicarianInfiltratorPrinceps = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.canticle_shroudpsalm,
+            title = "Canticle of Shroudpsalm",
             usage = R.string.canticle_shroudpsalm_usage,
             description = R.string.canticle_shroudpsalm_description
         ),
 
         Ability(
-            title = R.string.control_protocol,
+            title = "Control Protocol",
             usage = R.string.control_protocol_usage,
             description = R.string.control_protocol_description
         )

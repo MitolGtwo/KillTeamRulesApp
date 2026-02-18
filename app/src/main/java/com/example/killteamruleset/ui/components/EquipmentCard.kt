@@ -47,7 +47,7 @@ fun EquipmentCard(
 
             // 🔶 TITLE
             Text(
-                text = stringResource(equipment.name),
+                text = equipment.name,
                 fontWeight = FontWeight.Bold,
                 color = Color(0xFFFF6A00),
                 style = MaterialTheme.typography.titleMedium

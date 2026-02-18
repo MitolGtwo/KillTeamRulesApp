@@ -36,7 +36,7 @@ val DeathKorpsTrooper = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_trooper,
+            title = "Group Activation",
             usage = R.string.deathkorps_trooper_usage,
             description = R.string.deathkorps_trooper_description
 

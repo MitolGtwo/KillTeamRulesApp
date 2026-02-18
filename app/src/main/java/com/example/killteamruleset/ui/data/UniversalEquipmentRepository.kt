@@ -15,17 +15,17 @@ object UniversalEquipmentRepository {
     private val universalEquipment = listOf(
         Equipment(
             id = "portable_barricade",
-            name =R.string.portable_barricade,
+            name ="PORTABLE BARRICADE",
             description = R.string.portable_barricade_description,
             ability = Ability(
-                title = R.string.portable_barricade_title,
+                title = "MOVE WITH BARRICADE",
                 usage =R.string.portable_barricade_usage ,
                 description =R.string.portable_barricade_ability_description
             )
         ),
         Equipment(
             id = "explosive_grenades",
-            name = R.string.explosive_grenades,
+            name = "EXPLOSIVE GRENADES",
             description =R.string.explosive_grenades_description,
             weapons = listOf(
                 WeaponProfile(
@@ -55,10 +55,10 @@ object UniversalEquipmentRepository {
         ),
         Equipment(
             id = "utility_grenades_smoke",
-            name =R.string.smoke_grenade,
+            name ="SMOKE GRENADES",
             description = R.string.smoke_grenade_description,
             ability = Ability(
-                title = R.string.smoke_grenade_title,
+                title = "SMOKE GRENADE",
                 usage = R.string.smoke_grenade_usage,
                 description = R.string.smoke_grenade_ability_description
             )
@@ -66,57 +66,57 @@ object UniversalEquipmentRepository {
         ),
         Equipment(
             id = "utility_grenades_stun",
-            name =R.string.stun_grenade,
+            name ="STUN GRENADES",
             description = R.string.stun_grenade_description ,
             ability = Ability(
-                title = R.string.stun_grenade_title ,
+                title = "STUN GRENADE" ,
                 usage = R.string.stun_grenade_usage ,
                 description = R.string.stun_grenade_ability_description
             )
         ),
         Equipment(
             id = "ammo_cache",
-            name =R.string.ammo_cache ,
+            name ="AMMO CACHE" ,
             description = R.string.ammo_cache_description,
             ability = Ability(
-                title = R.string.ammo_cache_title,
+                title = "AMMO CACHE",
                 usage = R.string.ammo_cache_usage,
                 description = R.string.ammo_cache_ability_description
             )
         ),
         Equipment(
             id = "razor_wire",
-            name = R.string.razor_wire,
+            name = "RAZON WIRE",
             description = R.string.razor_wire_description
             ),
         Equipment(
             id = "comms_device",
-            name = R.string.comms_device,
+            name = "COMMS DEVICE",
             description = R.string.comms_device_description
         ),
         Equipment(
             id = "mines",
-            name = R.string.mines,
+            name = "MINES",
             description = R.string.mines_description
         ),
         Equipment(
             id = "light_barricades",
-            name = R.string.light_barricades,
+            name = "LIGHT BARRICADES",
             description = R.string.light_barricades_description
         ),
         Equipment(
             id = "heavy_barricade",
-            name = R.string.heavy_barricade,
+            name = "HEAVY BARRICADES",
             description = R.string.heavy_barricade_description
         ),
         Equipment(
             id = "ladder",
-            name = R.string.ladder,
+            name = "LADDERS",
             description = R.string.ladder_description
         ),
         Equipment(
             id = "breaching_charge",
-            name = R.string.breaching_charge,
+            name = "BREACHING CHARGE",
             description = R.string.breaching_charge_description
         )
     )

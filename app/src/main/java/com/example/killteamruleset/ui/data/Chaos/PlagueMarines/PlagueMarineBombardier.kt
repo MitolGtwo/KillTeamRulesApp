@@ -42,12 +42,12 @@ val PlagueMarineBombardier = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarinebombardier_grenadier,
+            title = "Grenadier",
             usage = R.string.plaguemarinebombardier_grenadier_usage,
             description = R.string.plaguemarinebombardier_grenadier_description
         ),
         Ability(
-            title = R.string.plaguemarine_toxic,
+            title = "Toxic",
             usage = R.string.plaguemarine_toxic_usage,
             description = R.string.plaguemarine_toxic_description
         )

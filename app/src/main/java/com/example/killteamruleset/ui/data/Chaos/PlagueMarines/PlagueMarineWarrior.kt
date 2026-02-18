@@ -49,12 +49,12 @@ val PlagueMarineWarrior= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarinewarrior,
+            title = "Repulsive Fortitude",
             usage = R.string.plaguemarinewarrior_usage,
             description = R.string.plaguemarinewarrior_description
         ),
         Ability(
-            title = R.string.plaguemarine_toxic,
+            title = "Toxic",
             usage = R.string.plaguemarine_toxic_usage,
             description = R.string.plaguemarine_toxic_description
         )

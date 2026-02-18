@@ -54,7 +54,7 @@ val TankbustaGunner= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.wrecka_gunner,
+            title = "Kompetitive Streak",
             usage = R.string.wrecka_gunner_usage,
             description = R.string.wrecka_gunner_description
         )

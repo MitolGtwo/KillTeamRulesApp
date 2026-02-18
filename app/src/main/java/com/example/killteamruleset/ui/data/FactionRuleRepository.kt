@@ -10,14 +10,14 @@ object FactionRuleRepository {
         "wrecka_krew" to listOf(
             FactionRule(
                 id = "wrecka_rampage",
-                title = R.string.wrecka_rampage,
+                title = "WRECKA RAMPAGE",
                 lore = R.string.wrecka_rampage_lore,
                 ruleText = R.string.wrecka_rampage_description,
 
             ),
             FactionRule(
                 id = "wrecka_tanked_up",
-                title = R.string.wrecka_tanked_up,
+                title = "TANKED UP",
                 lore = R.string.wrecka_tanked_up_lore,
                 ruleText = R.string.wrecka_tanked_up_description,
 
@@ -36,21 +36,21 @@ object FactionRuleRepository {
             FactionRule(
 
                 id = "plague_astartes",
-                title = R.string.plague_astartes,
+                title = "ASTARTES",
                 lore = R.string.plague_astartes_lore,
                 ruleText = R.string.plague_astartes_description,
 
                 ),
             FactionRule(
                 id = "plague_posion",
-                title = R.string.plague_poison,
+                title = "POISON",
                 lore = R.string.plague_poison_lore,
                 ruleText = R.string.plague_poison_description,
 
                 ),
             FactionRule(
                 id = "disgustingly_resilient",
-                title = R.string.plague_disgustingly_resilent,
+                title = "DISGUSTINGLY RESILIENT",
                 lore = R.string.plague_disgustingly_resilent_lore,
                 ruleText = R.string.plague_disgustingly_resilent_description,
 

@@ -40,12 +40,12 @@ val SkitariiVanguardSurveyor = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.rad_saturation,
+            title = "Rad-Saturation",
             usage = R.string.rad_saturation_usage,
             description = R.string.rad_saturation_description
         ),
         Ability(
-            title = R.string.hunterclade_spotter,
+            title = "Spot",
             usage = R.string.hunterclade_spotter_usage,
             description =R.string.hunterclade_spotter_description
         )

@@ -51,13 +51,13 @@ val BattleCladeTechnoarcheologist: Operative
 
         abilities = listOf(
             Ability(
-                title = R.string.battleclade_divinearcana,
+                title = "Searcher of the Divine Arcana",
                 usage = R.string.battleclade_divinearcana_usage,
                 description = R.string.battleclade_divinearcana_description
             ),
 
             Ability(
-                title = R.string.battleclade_omniscanner,
+                title = "Omniscanner",
                 usage = R.string.battleclade_omniscanner_usage,
                 description = R.string.battleclade_omniscanner_description
             )

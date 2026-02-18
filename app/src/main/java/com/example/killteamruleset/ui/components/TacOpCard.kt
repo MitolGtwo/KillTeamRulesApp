@@ -82,7 +82,7 @@ fun TacOpCard(
 
                     ability.title?.let {
                         Text(
-                            text = stringResource(it).uppercase(),
+                            text = it,
                             fontWeight = FontWeight.Bold,
                             color = MaterialTheme.colorScheme.onSurface
                         )

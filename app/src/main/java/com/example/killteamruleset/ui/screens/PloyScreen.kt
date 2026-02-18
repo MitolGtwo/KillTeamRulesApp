@@ -136,7 +136,7 @@ fun PloyCard(ploy: Ploy) {
 
             // 🔶 TITLE
             Text(
-                text = stringResource(ploy.name),
+                text = ploy.name,
                 color = Color(0xFFFF6A00),
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.titleMedium

@@ -37,7 +37,7 @@ val DeathKorpsBruiser = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_bruiser,
+            title = "Bruiser",
             usage = R.string.deathkorps_bruiser_usage,
             description = R.string.deathkorps_bruiser_description
         )

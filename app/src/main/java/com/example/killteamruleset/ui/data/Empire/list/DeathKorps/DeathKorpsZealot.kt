@@ -36,12 +36,12 @@ val DeathKorpsZealot = Operative(
 
     abilities = listOf(
       Ability(
-            title = R.string.deathkorps_zealot_theemperor,
+            title = "The Emperor Protects!",
             usage =  R.string.deathkorps_zealot_theemperor_usage,
             description =  R.string.deathkorps_zealot_theemperor_description
         ),
         Ability(
-            title =  R.string.deathkorps_zealot_uplifting,
+            title =  "Uplifting Primer",
             usage = R.string.deathkorps_zealot_uplifting_usage,
             description = R.string.deathkorps_zealot_uplifting_description
         )

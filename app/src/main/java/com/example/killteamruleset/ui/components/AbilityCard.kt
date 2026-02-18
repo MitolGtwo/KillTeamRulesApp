@@ -33,7 +33,7 @@ fun AbilityCard(
 
             ability.title?.let {
                 Text(
-                    text = stringResource(it),
+                    text = it,
                     fontWeight = FontWeight.Bold
                 )
             }

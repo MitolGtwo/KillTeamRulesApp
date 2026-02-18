@@ -51,13 +51,13 @@ val DeathKorpsSapper = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_sapper_mine,
+            title = "Sapper Mine",
             usage = R.string.deathkorps_sapper_mine_usage,
             description = R.string.deathkorps_sapper_mine_description
         ),
 
         Ability(
-            title = R.string.deathkorps_sapper_detonate,
+            title = "Detonate",
             usage = R.string.deathkorps_sapper_detonate_usage,
             description = R.string.deathkorps_sapper_detonate_description
         )

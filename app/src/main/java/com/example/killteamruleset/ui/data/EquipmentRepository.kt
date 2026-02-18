@@ -19,25 +19,25 @@ object EquipmentRepository {
 
             Equipment(
                 id = "drill_rokkits",
-                name = R.string.wrecka_drillrokkit,
+                name = "DRILL ROKKITS",
                 lore =R.string.wrecka_drillrokkit_lore,
                 description = R.string.wrecka_drillrokkit_description
             ),
             Equipment(
                 id = "extra_armour",
-                name = R.string.wrecka_extra_armour,
+                name = "EXTRA ARMOUR",
                 lore =R.string.wrecka_extra_armour_lore,
                 description = R.string.wrecka_extra_armour_description
             ),
             Equipment(
                 id = "engine_oil",
-                name = R.string.wrecka_engine_oil,
+                name = "ENGINE OIL",
                 lore =R.string.wrecka_engine_oil_lore,
                 description = R.string.wrecka_engine_oil_description
             ),
             Equipment(
                 id = "glyphs",
-                name = R.string.wrecka_glyphs,
+                name = "GLYPHS",
                 lore =R.string.wrecka_glyphs_lore,
                 description = R.string.wrecka_glyphs_description
             )
@@ -46,13 +46,13 @@ object EquipmentRepository {
 
             Equipment(
                 id = "plague_bell",
-                name = R.string.plague_bell,
+                name = "PLAGUE BELLS",
                 lore =R.string.plague_bell,
                 description = R.string.plague_bell_description
             ),
             Equipment(
                 id = "blight_grenades",
-                name = R.string.plague_blight_grenades,
+                name = "BLIGHT GRENADES",
                 lore =R.string.plague_blight_grenades_lore,
                 description = R.string.plague_blight_grenades_description,
                 weapons = listOf(
@@ -74,13 +74,13 @@ object EquipmentRepository {
             ),
             Equipment(
                 id = "plague_rounds",
-                name = R.string.plague_rounds,
+                name = "PLAGUE ROUNDS",
                 lore =R.string.plague_rounds_lore,
                 description = R.string.plague_rounds_description
             ),
             Equipment(
                 id = "poison_vent",
-                name = R.string.plague_poison_vents,
+                name = "POISON VENTS",
                 lore =R.string.plague_poison_vents_lore,
                 description = R.string.plague_poison_vents_description
             )

@@ -35,17 +35,17 @@ val SicarianRuststalkerPrinceps = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.canticle_destruction,
+            title = "Canticle of Destruction",
             usage = R.string.canticle_destruction_usage,
             description = R.string.canticle_destruction_description
         ),
         Ability(
-            title = R.string.wasteland_stalker,
+            title = "Wasteland Stalker",
             usage = R.string.wasteland_stalker_usage,
             description = R.string.wasteland_stalker_description
         ),
         Ability(
-            title = R.string.control_protocol,
+            title = "Control Protocol",
             usage = R.string.control_protocol_usage,
             description = R.string.control_protocol_description
         )

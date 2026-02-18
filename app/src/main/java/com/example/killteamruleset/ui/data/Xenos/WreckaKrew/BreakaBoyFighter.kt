@@ -35,7 +35,7 @@ val BreakaBoyFighter = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.wrecka_fighter,
+            title = "Break Stuff",
             usage = R.string.wrecka_fighter_usage,
             description = R.string.wrecka_fighter_description
         )

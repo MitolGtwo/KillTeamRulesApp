@@ -44,12 +44,12 @@ val SkitariiRangerDiktat = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.targeting_protocols,
+            title = "Targeting Protocols",
             usage = R.string.targeting_protocols_usage,
             description = R.string.targeting_protocols_description
         ),
         Ability(
-            title = R.string.hunterclade_vox_signal,
+            title = "Vox-Signal",
             usage = R.string.hunterclade_vox_signal_usage,
             description =R.string.hunterclade_vox_signal_description
         )

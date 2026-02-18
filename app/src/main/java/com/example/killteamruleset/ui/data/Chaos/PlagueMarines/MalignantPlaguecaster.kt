@@ -74,12 +74,12 @@ val MalignantPlaguecaster= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.malignantplaguecaster_poisonus_miasma,
+            title = "Poisonus Miasma",
             usage = R.string.malignantplaguecaster_poisonus_miasma_usage,
             description = R.string.malignantplaguecaster_poisonus_miasma_description
         ),
         Ability(
-            title = R.string.malignantplaguecaster_putrescent_vitality,
+            title = "Putrescent Vitality",
             usage = R.string.malignantplaguecaster_putrescent_vitality_usage,
             description = R.string.malignantplaguecaster_putrescent_vitality_description
         )

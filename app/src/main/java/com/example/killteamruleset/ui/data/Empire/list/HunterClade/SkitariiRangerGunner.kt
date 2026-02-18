@@ -84,7 +84,7 @@ val SkitariiRangerGunner = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.targeting_protocols,
+            title = "Targeting Protocols",
             usage = R.string.targeting_protocols_usage,
             description = R.string.targeting_protocols_description)
     ),

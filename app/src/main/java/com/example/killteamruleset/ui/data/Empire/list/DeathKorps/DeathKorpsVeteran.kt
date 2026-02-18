@@ -36,12 +36,12 @@ val DeathKorpsVeteran = Operative(
 
     abilities = listOf(
         Ability(
-            title =R.string.deathkorps_veteranguardsmen,
+            title ="Veteran Guardsman",
             usage = R.string.deathkorps_veteranguardsmen_usage,
             description = R.string.deathkorps_veteranguardsmen_description
       ),
         Ability(
-            title = R.string.deathkorps_veteran_bionics,
+            title = "Bionics",
             usage = R.string.deathkorps_veteran_bionics_usage,
             description = R.string.deathkorps_veteran_bionics_description
       )

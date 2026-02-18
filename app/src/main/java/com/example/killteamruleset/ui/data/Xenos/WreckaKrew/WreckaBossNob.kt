@@ -83,12 +83,12 @@ val WreckaBossNob = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.wreckaboss,
+            title = "Wrecka Boss",
             usage = R.string.wreckaboss_usage,
             description = R.string.wreckaboss_description
         ),
         Ability(
-            title =R.string.wrecka_salvo,
+            title ="Salvo",
             usage = R.string.wrecka_salvo_usage,
             description = R.string.wrecka_salvo_description
         )

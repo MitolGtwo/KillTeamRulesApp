@@ -41,12 +41,12 @@ val SkitariiVanguardDiktat = Operative(
     abilities = listOf(
 
         Ability(
-            title = R.string.rad_saturation,
+            title = "Rad-Saturation",
             usage = R.string.rad_saturation_usage,
             description = R.string.rad_saturation_description
         ),
         Ability(
-            title = R.string.hunterclade_vox_signal,
+            title = "Vox-Signal",
             usage = R.string.hunterclade_vox_signal_usage,
             description =R.string.hunterclade_vox_signal_description
         )

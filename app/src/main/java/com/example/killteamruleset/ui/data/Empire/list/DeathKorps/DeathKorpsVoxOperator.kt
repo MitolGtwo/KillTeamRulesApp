@@ -36,13 +36,13 @@ val DeathKorpsVoxOperator = Operative(
 
     abilities = listOf(
       Ability(
-            title = R.string.deathkorps_vox_relayorders,
+            title = "Relay Orders",
             usage = R.string.deathkorps_vox_relayorders_usage,
             description = R.string.deathkorps_vox_relayorders_description
 
         ),
         Ability(
-            title = R.string.deathkorps_vox_signal,
+            title = "Vox-Signal",
             usage = R.string.deathkorps_vox_signal_usage,
             description = R.string.deathkorps_vox_signal_description
         )

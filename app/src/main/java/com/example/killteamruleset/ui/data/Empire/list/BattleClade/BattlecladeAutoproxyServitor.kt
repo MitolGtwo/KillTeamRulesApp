@@ -34,13 +34,13 @@ val BattleCladeAutoProxyServitor = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.battleclade_autoproxy_eye,
+            title = "Achilian Eye",
             usage = R.string.battleclade_autoproxy_eye_usage,
             description = R.string.battleclade_autoproxy_eye_description
         ),
 
         Ability(
-            title = R.string.battleclade_autoproxy_gaze,
+            title = "Gaze of the Omnissiah",
             usage = R.string.battleclade_autoproxy_gaze_usage,
             description = R.string.battleclade_autoproxy_gaze_description
         )

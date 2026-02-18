@@ -75,12 +75,12 @@ val DeathKorpsConfidant = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_confidant_secondincommand,
+            title = "Second in Command",
             usage = R.string.deathkorps_confidant_secondincommand_usage,
             description = R.string.deathkorps_confidant_secondincommand_description
         ),
         Ability(
-            title = R.string.deathkorps_confidant_directive,
+            title = "Directive",
             usage = R.string.deathkorps_confidant_directive_usage,
             description = R.string.deathkorps_confidant_directive_description
         )

@@ -15,7 +15,7 @@ object TacOpRepository {
             archetype = Archetypes.RECON,
             reveal = R.string.recon_01_reveal,
             missionAction = Ability(
-                title = R.string.recon_01_atitle,
+                title = "SCOUT",
                 usage = R.string.recon_01_usage,
                 description =R.string.recon_01_description),
             additionalRules = null,
@@ -28,7 +28,7 @@ object TacOpRepository {
             archetype = Archetypes.RECON,
             reveal =R.string.recon_02_reveal,
             missionAction = Ability(
-                title = R.string.recon_02_atitle,
+                title = "RETRIEVE",
                 usage = R.string.recon_02_usage,
                 description =R.string.recon_02_description),
             additionalRules = null,
@@ -52,7 +52,7 @@ object TacOpRepository {
             archetype = Archetypes.SECURITY,
             reveal = R.string.security_01_reveal,
             missionAction = Ability(
-                title = R.string.security_01_atitle,
+                title = "PLANT BANNER",
                 usage = R.string.security_01_reveal,
                 description =R.string.security_01_description),
             additionalRules = null,
@@ -83,7 +83,7 @@ object TacOpRepository {
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_01_reveal,
             missionAction = Ability(
-                title = R.string.seek_and_destroy_01_atitle,
+                title = "CLEAR",
                 usage = R.string.seek_and_destroy_01_usage,
                 description =R.string.seek_and_destroy_01_description),
             additionalRules = R.string.seek_and_destroy_01_additional,
@@ -127,7 +127,7 @@ object TacOpRepository {
             archetype = Archetypes.INFILTRATION,
             reveal = R.string.infiltration_03_reveal,
             missionAction = Ability(
-                title = R.string.infiltration_03_atitle,
+                title = "PLANT DEVICE",
                 usage = R.string.infiltration_03_usage,
                 description =R.string.infiltration_03_description),
             additionalRules = null,

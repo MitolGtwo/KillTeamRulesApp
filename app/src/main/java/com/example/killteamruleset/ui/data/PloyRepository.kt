@@ -11,28 +11,28 @@ object PloyRepository {
             // ── Wreckas STRATEGY ──
             Ploy(
                 id = "waaagh",
-                name =R.string.wrecka_waaagh,
+                name ="WAAAAGH!",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_waaagh_lore,
                 description = R.string.wrecka_waaagh_description
             ),
             Ploy(
                 id = "tuff_gitz",
-                name = R.string.wrecka_tuff_gitz,
+                name = "TUFF GITZ",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_tuff_gitz_lore,
                 description = R.string.wrecka_tuff_gitz_description
             ),
             Ploy(
                 id = "destruction",
-                name = R.string.wrecka_destruction,
+                name = "DESTRUCTION",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_destruction_lore,
                 description = R.string.wrecka_destruction_description
             ),
             Ploy(
                 id = "amped_up",
-                name = R.string.wrecka_amped_up,
+                name = "AMPED UP",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_amped_up_lore,
                 description = R.string.wrecka_amped_up_description
@@ -42,28 +42,28 @@ object PloyRepository {
             // ── Wreckas FIREFIGHT ──
             Ploy(
                 id = "demolition_job",
-                name = R.string.wrecka_demolition_job,
+                name = "DEMOLITION JOB",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.wrecka_demolition_job_lore,
                 description = R.string.wrecka_demolition_job_description
             ),
             Ploy(
             id = "proppa_scrap",
-            name = R.string.wrecka_proppa_scrap,
+            name = "PROPPA SCRAP",
             type = PloyType.FIREFIGHT,
             lore = R.string.wrecka_proppa_scrap_lore,
             description = R.string.wrecka_proppa_scrap_description
             ),
             Ploy(
                 id = "kaboom",
-                name = R.string.wrecka_kaboom,
+                name = "KABOOM",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.wrecka_kaboom_lore,
                 description = R.string.wrecka_kaboom_description
             ),
             Ploy(
                 id = "just_a_scratch",
-                name = R.string.wrecka_jas,
+                name = "JUST A SCRATCH",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.wrecka_jas_lore,
                 description = R.string.wrecka_jas_description
@@ -71,62 +71,62 @@ object PloyRepository {
         ),
 
         "plague_marines" to listOf(
-            // ── Wreckas STRATEGY ──
+            // ── PLAGUE MARINES STRATEGY ──
             Ploy(
                 id = "contagion",
-                name =R.string.plague_contagion,
+                name ="CONTAGION",
                 type = PloyType.STRATEGY,
                 lore = R.string.plague_contagion_lore,
                 description = R.string.plague_contagion_description
             ),
             Ploy(
                 id = "lumbering_death",
-                name = R.string.plague_lumbering_death,
+                name = "LUMBERING DEATH",
                 type = PloyType.STRATEGY,
                 lore = R.string.plague_lumbering_lore,
                 description = R.string.plague_lumbering_description
             ),
             Ploy(
                 id = "cloud_flies",
-                name = R.string.plague_cloud_flies,
+                name = "CLOUD OF FLIES",
                 type = PloyType.STRATEGY,
                 lore = R.string.plague_cloud_flies_lore,
                 description = R.string.plague_cloud_flies_description
             ),
             Ploy(
                 id = "nurglins",
-                name = R.string.plague_nurglings,
+                name = "NURGLINGS",
                 type = PloyType.STRATEGY,
                 lore = R.string.plague_nurglings_lore,
                 description = R.string.plague_nurglings_description
             ),
 
 
-            // ── Wreckas FIREFIGHT ──
+            // ── PLAGUE MARINES FIREFIGHT ──
             Ploy(
                 id = "virulent_poison",
-                name = R.string.plague_virulent_poison,
+                name = "VIRULENT POISON",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.plague_virulent_poison_lore,
                 description = R.string.plague_virulent_poison_description
             ),
             Ploy(
                 id = "poisonous_demise",
-                name = R.string.plague_poisonous_demise,
+                name = "POISONUS DEMISE",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.plague_poisonous_demise_lore,
                 description = R.string.plague_poisonous_demise_description
             ),
             Ploy(
                 id = "sickening_resilience",
-                name = R.string.plague_sickening_resilence,
+                name = "SICKENING RESILIENCE",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.plague_sickening_resilence_lore,
                 description = R.string.plague_sickening_resilence_description
             ),
             Ploy(
                 id = "curse_of_rot",
-                name = R.string.plague_curse_rot,
+                name = "CURSE OF ROT",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.plague_curse_rot_lore,
                 description = R.string.plague_curse_rot_description

@@ -4,7 +4,7 @@ import androidx.annotation.StringRes
 
 data class Equipment(
     val id: String,
-    val name: Int,
+    val name: String,
     val lore: Int? = null,
     @StringRes val description: Int,
     val ability: Ability? = null,

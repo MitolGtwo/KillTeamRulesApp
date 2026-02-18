@@ -105,17 +105,17 @@ val SkitariiRangerAlpha = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.canticle_elimination,
+            title = "Canticle of Elimination",
             usage = R.string.canticle_elimination_usage,
             description = R.string.canticle_elimination_description
         ),
         Ability(
-            title = R.string.targeting_protocols,
+            title = "Targeting Protocols",
             usage = R.string.targeting_protocols_usage,
             description = R.string.targeting_protocols_description
         ),
         Ability(
-            title = R.string.control_protocol,
+            title = "Control Protocol",
             usage = R.string.control_protocol_usage,
             description = R.string.control_protocol_description
         )

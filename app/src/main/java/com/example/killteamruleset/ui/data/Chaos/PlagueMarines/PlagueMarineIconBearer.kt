@@ -49,12 +49,12 @@ val PlagueMarineIconBearer= Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.plaguemarine_iconbearer,
+            title = "Icon Bearer",
             usage = R.string.plaguemarine_iconbearer_usage,
             description = R.string.plaguemarine_iconbearer_description
         ),
         Ability(
-            title = R.string.plaguemarine_icon_of_contagion,
+            title = "Icon of Contagion",
             usage = R.string.plaguemarine_icon_of_contagionr_usage,
             description = R.string.plaguemarine_icon_of_contagionr_description
         )

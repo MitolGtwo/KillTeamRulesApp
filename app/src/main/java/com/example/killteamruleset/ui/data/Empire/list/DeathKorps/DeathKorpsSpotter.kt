@@ -48,7 +48,7 @@ val DeathKorpsSpotter = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_spotter,
+            title = "Spot",
             usage = R.string.deathkorps_spotter_usage,
             description = R.string.deathkorps_spotter_description
         )

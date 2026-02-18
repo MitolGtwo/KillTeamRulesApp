@@ -49,13 +49,13 @@ val BattlecladeServitorUnderseer: Operative
 
         abilities = listOf(
             Ability(
-                title = R.string.battleclade_datacoronal,
+                title = "Datacoronal Accumulator",
                 usage = R.string.battleclade_datacoronal_usage,
                 description = R.string.battleclade_datacoronal_description
             ),
 
             Ability(
-                title = R.string.battleclade_network,
+                title = "Network Override",
                 usage = R.string.battleclade_network_usage,
                 description = R.string.battleclade_network_description
             )

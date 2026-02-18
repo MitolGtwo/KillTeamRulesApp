@@ -39,12 +39,12 @@ val BreakaBoyKrusha = Operative(
 
     abilities = listOf(
         Ability(
-            title =R.string.wrecka_krusha_armoured,
+            title ="Armoured Up",
             usage = R.string.wrecka_krusha_armoured_usage,
             description = R.string.wrecka_krusha_armoured_description
         ),
         Ability(
-            title = R.string.wrecka_krusha_smash,
+            title = "Smash",
             usage = R.string.wrecka_krusha_smash_usage,
             description = R.string.wrecka_krusha_smash_description
         )

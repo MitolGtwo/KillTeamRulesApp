@@ -45,7 +45,7 @@ val SicarianRuststalkerWarrior = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.wasteland_stalker,
+            title = "Wasteland Stalker",
             usage = R.string.wasteland_stalker_usage,
             description = R.string.wasteland_stalker_description
         )

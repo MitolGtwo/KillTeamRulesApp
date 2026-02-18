@@ -46,22 +46,22 @@ val WreckaBombSquig = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.squig_explosive,
+            title = "Explosive",
             usage = R.string.squig_explosive_usage,
             description = R.string.squig_explosive_description
         ),
         Ability(
-            title = R.string.squig_stoopid,
+            title = "Stoopid",
             usage = R.string.squig_stoopid_usage,
             description = R.string.squig_stoopid_description
         ),
         Ability(
-            title = R.string.squig_boom,
+            title = "Boom",
             usage = R.string.squig_boom_usage,
             description = R.string.squig_boom_description
         ),
         Ability(
-            title = R.string.squig_expendable,
+            title = "Expendable",
             usage = R.string.squig_expendable_usage,
             description = R.string.squig_expendable_description
         )

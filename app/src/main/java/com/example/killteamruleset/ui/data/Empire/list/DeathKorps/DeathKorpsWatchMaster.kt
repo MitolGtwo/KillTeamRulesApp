@@ -101,12 +101,12 @@ val DeathKorpsWatchMaster = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_watchmaster_adaptive,
+            title = "Adaptive Orders",
             usage = R.string.deathkorps_watchmaster_adaptive_usage,
             description = R.string.deathkorps_watchmaster_adaptive_description
         ),
         Ability(
-            title = R.string.deathkorps_watchmaster_bring,
+            title = "Bring it Down!",
             usage = R.string.deathkorps_watchmaster_bring_usage,
             description = R.string.deathkorps_watchmaster_bring_description
         )

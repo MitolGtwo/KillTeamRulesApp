@@ -36,12 +36,12 @@ val DeathKorpsMedic = Operative(
 
     abilities = listOf(
         Ability(
-            title = R.string.deathkorps_medic,
+            title ="Medic!",
             usage = R.string.deathkorps_medic_usage,
             description = R.string.deathkorps_medic_description
         ),
         Ability(
-            title = R.string.deathkorps_medikit,
+            title = "Medikit",
             usage = R.string.deathkorps_medikit_usage,
             description = R.string.deathkorps_medikit_description
         )
