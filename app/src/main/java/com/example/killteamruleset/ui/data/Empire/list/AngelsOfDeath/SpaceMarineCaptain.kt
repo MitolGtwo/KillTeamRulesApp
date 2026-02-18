@@ -63,13 +63,13 @@ val SpaceMarineCaptain = Operative(
     abilities = listOf(
         Ability(
             title = "Heroic Leader",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.heroic_leader_usage,
+            description = R.string.heroic_leader_description
         ),
         Ability(
             title = "Iron Halo",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.iron_halo_usage,
+            description = R.string.iron_halo_description
         )
     ),
     keywords = listOf(
