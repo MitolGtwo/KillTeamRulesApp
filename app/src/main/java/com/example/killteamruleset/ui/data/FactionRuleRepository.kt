@@ -12,15 +12,15 @@ object FactionRuleRepository {
             FactionRule(
                 id = "astartes",
                 title = "ASTARTES",
-                lore = R.string.wrecka_rampage_lore,
-                ruleText = R.string.wrecka_rampage_description,
+                lore = R.string.astartes_lore,
+                ruleText = R.string.astartes_description,
 
             ),
             FactionRule(
                 id = "chapter_tactics",
                 title = "CHAPTER TACTICS",
-                lore = R.string.wrecka_tanked_up_lore,
-                ruleText = R.string.wrecka_tanked_up_description,
+                lore = R.string.chapter_tactics_lore,
+                ruleText = R.string.chapter_tactics_description,
 
                 ),
             FactionRule(
