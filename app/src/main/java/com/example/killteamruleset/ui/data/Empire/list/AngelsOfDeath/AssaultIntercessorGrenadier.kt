@@ -45,8 +45,8 @@ val AssaultIntercessorGrenadier = Operative(
     abilities = listOf(
         Ability(
             title = "Grenadier",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.aod_grenadier_usage,
+            description = R.string.aod_grenadier_description
         )
     ),
     keywords = listOf(
