@@ -123,13 +123,13 @@ val IntercessorSergeant = Operative(
     abilities = listOf(
         Ability(
             title = "Doctrine Warfare",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.intercessor_doctrine_warfare_usage,
+            description = R.string.intercessor_doctrine_warfare_description
         ),
         Ability(
             title = "Chapter Veteran",
-            usage = R.string.plaguemarinebombardier_grenadier_usage,
-            description = R.string.plaguemarinebombardier_grenadier_description
+            usage = R.string.chapter_veteran_usage,
+            description = R.string.chapter_veteran_description
         )
     ),
     keywords = listOf(
