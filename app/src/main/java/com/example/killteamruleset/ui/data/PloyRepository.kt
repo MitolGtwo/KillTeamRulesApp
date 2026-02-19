@@ -133,6 +133,71 @@ object PloyRepository {
                 description = R.string.servile_surrogacy_description
             )
         ),
+
+
+         "celestian_insidiants" to listOf(
+            // ── Celestian Insidiants STRATEGY ──
+            Ploy(
+                id = "suspect_&_eliminate",
+                name ="SUSPECT & ELIMINATE",
+                type = PloyType.STRATEGY,
+                lore = R.string.suspect_&_eliminate_lore,
+                description = R.string.suspect_&_eliminate_description
+            ),
+            Ploy(
+                id = "wrathful_determination",
+                name = "WRATHFUL DETERMINATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.wrathful_determination_lore,
+                description = R.string.wrathful_determination_description
+            ),
+             Ploy(
+                id = "suffering_&_sacrifice",
+                name = "SUFFERING & SACRIFICE",
+                type = PloyType.STRATEGY,
+                lore = R.string.suffering_&_sacrifice_lore,
+                description = R.string.suffering_&_sacrifice_description
+            ),
+            Ploy(
+                id = "holy_resilience",
+                name = "HOLY RESILIENCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.holy_resilience_lore,
+                description = R.string.holy_resilience_description
+            ),
+
+            // ── AOD FIREFIGHT ──
+            Ploy(
+                id = "glory_to_the_martyrs",
+                name = "GLORY TO THE MARTYRS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.glory_to_the_martyrs_lore,
+                description = R.string.glory_to_the_martyrs_description
+            ),
+            Ploy(
+            id = "faith_&_fury",
+            name = "FAITH & FURY",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.faith_&_fury_lore,
+            description = R.string.faith_&_fury_description
+            ),
+            Ploy(
+                id = "unshakeable_pursuit",
+                name = "UNSHAKEABLE PURSUIT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.unshakeable_pursuit_lore,
+                description = R.string.unshakeable_pursuit_description
+            ),
+            Ploy(
+                id = "fervent_hate",
+                name = "FERVENT HATE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.fervent_hate_lore,
+                description = R.string.fervent_hate_description
+            )
+        ),
+
+        
         
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──
