@@ -11,6 +11,7 @@ object OperativeSelectionRepository {
     private val rulesByTeam: Map<String, List<OperativeSelectionRule>> = mapOf(
         "angels_of_death" to AngelsOfDeathOperativeSelection,
         "battle_clade" to BattlecladeOperativeSelection,
+        "celestian_insidiants" to CelestianOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection
     )
