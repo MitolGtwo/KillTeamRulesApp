@@ -1,3 +1,5 @@
+package com.example.killteamruleset.ui.data.Empire.list.CelestianInsidiants
+
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
 val CelestianOperativeSelection: List<OperativeSelectionRule> = listOf(
