@@ -14,6 +14,7 @@ object OperativeRepository {
         return when (teamId) {
             "angels_of_death" -> aodOperatives
             "battle_clade" -> BattlecladeOperatives
+            "celestian_insidiants" -> CelestianOperatives
             "death_Korps" -> DeathKorpsOperatives
             "hunter_clade" -> HunterCladeOperatives
             "plague_marines" -> PlagueMarinesOperatives
