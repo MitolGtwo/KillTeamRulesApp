@@ -1,3 +1,4 @@
+package com.example.killteamruleset.ui.data.Empire.list.BattleClade
 
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
