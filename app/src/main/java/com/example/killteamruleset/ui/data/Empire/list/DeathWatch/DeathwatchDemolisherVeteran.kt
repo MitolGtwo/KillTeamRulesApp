@@ -39,7 +39,16 @@ val DeathwatchDemolisherVeteran = Operative(
     ),
 
     abilities = listOf(
-       
+        Ability(
+            title = "Brutal Assault",
+            usage = R.string.brutal_assault_usage,
+            description = R.string.brutal_assault_description
+        ),
+        Ability(
+            title = "Aggresive Force",
+            usage = R.string.aggresive_force_usage,
+            description = R.string.aggresive_force_description
+        )
     ),
 
 
