@@ -62,13 +62,13 @@ val InsidiatReliquarius: Operative
 
         abilities = listOf(
             Ability(
-                title = "Zealous Ultimatum",
+                title = "Simulacrum Nullificatus Icon Bearer",
                 usage = R.string.battleclade_divinearcana_usage,
                 description = R.string.battleclade_divinearcana_description
             ),
 
             Ability(
-                title = "Bladed Stance",
+                title = "Devotion",
                 usage = R.string.battleclade_omniscanner_usage,
                 description = R.string.battleclade_omniscanner_description
             )
