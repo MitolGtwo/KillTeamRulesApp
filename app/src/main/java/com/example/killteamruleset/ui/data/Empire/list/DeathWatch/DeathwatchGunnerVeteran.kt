@@ -1,5 +1,9 @@
 package com.example.killteamruleset.ui.data.Empire.list.DeathWatch
 
+import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.*
+
+
 val DeathwatchGunnerVeteran = Operative(
     name = "Deathwatch Gunner Veteran",
     imageRes = R.drawable.alpharanger,
