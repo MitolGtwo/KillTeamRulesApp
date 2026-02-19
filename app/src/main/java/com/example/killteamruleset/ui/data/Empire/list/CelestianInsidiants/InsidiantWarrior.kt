@@ -45,7 +45,7 @@ val InsidiatWarrior: Operative
                   Piercing_Crits(1),
                   Silent
                 ),
-                
+                extraRules = listOf("*Anti-PSYKER")
                 )
         ),
            WeaponProfile(
@@ -57,7 +57,7 @@ val InsidiatWarrior: Operative
                 keywords = listOf(
                     Shock
                 ),
-
+               extraRules = listOf("*Anti-PSYKER")
              )
         ),
 
