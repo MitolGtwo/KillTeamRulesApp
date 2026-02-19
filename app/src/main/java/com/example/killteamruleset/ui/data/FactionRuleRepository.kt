@@ -95,6 +95,25 @@ object FactionRuleRepository {
 
         ),
 
+        //DEATH KORPS
+         "death_Korps" to listOf(
+            FactionRule(
+                id = "guardsman_orders",
+                title = "GUARDSMAN ORDERS",
+                lore = R.string.guardsman_orders_lore,
+                ruleText = R.string.guardsman_orders_description,
+
+            ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+                ),
+
+        ),
+
         
         //Wrecka Krew
         "wrecka_krew" to listOf(
