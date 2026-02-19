@@ -13,6 +13,7 @@ object OperativeSelectionRepository {
         "battle_clade" to BattlecladeOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
+        "deathwatch" to DeathWatchOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection
     )
