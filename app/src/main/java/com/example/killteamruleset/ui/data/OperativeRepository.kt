@@ -16,6 +16,7 @@ object OperativeRepository {
             "battle_clade" -> BattlecladeOperatives
             "celestian_insidiants" -> CelestianOperatives
             "death_Korps" -> DeathKorpsOperatives
+            "deathwatch" -> DeathWatchOperatives
             "hunter_clade" -> HunterCladeOperatives
             "plague_marines" -> PlagueMarinesOperatives
             "wrecka_krew" -> WreckaKrewOperatives
