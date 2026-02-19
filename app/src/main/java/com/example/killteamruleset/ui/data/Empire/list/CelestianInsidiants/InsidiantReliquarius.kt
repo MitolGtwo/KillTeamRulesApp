@@ -45,7 +45,7 @@ val InsidiatReliquarius: Operative
                   Piercing_Crits(1),
                   Silent
                 ),
-                
+                extraRules = listOf("*Anti-PSYKER")
                 )
         ),
            WeaponProfile(
