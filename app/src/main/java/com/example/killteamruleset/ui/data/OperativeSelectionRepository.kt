@@ -7,6 +7,7 @@ import com.example.killteamruleset.ui.model.OperativeSelectionRule
 object OperativeSelectionRepository {
 
     private val rulesByTeam: Map<String, List<OperativeSelectionRule>> = mapOf(
+        "angels_of_death" to aodOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection
     )
