@@ -166,7 +166,7 @@ object PloyRepository {
                 description = R.string.holy_resilience_description
             ),
 
-            // ── AOD FIREFIGHT ──
+            // ── CELESTIAN FIREFIGHT ──
             Ploy(
                 id = "glory_to_the_martyrs",
                 name = "GLORY TO THE MARTYRS",
@@ -194,6 +194,69 @@ object PloyRepository {
                 type = PloyType.FIREFIGHT,
                 lore = R.string.fervent_hate_lore,
                 description = R.string.fervent_hate_description
+            )
+        ),
+
+        "death_Korps" to listOf(
+            // ── DEATH KORPS STRATEGY ──
+            Ploy(
+                id = "siege_warfare",
+                name ="SIEGE WARFARE",
+                type = PloyType.STRATEGY,
+                lore = R.string.siege_warfare_lore,
+                description = R.string.siege_warfare_description
+            ),
+            Ploy(
+                id = "take_cover",
+                name = "TAKE COVER",
+                type = PloyType.STRATEGY,
+                lore = R.string.take_cover_lore,
+                description = R.string.take_cover_description
+            ),
+            Ploy(
+                id = "clear_the_line",
+                name = "CLEAR THE LINE",
+                type = PloyType.STRATEGY,
+                lore = R.string.clear_the_line_lore,
+                description = R.string.clear_the_line_description
+            ),
+            Ploy(
+                id = "regroup",
+                name = "REGROUP",
+                type = PloyType.STRATEGY,
+                lore = R.string.regroup_lore,
+                description = R.string.regroup_description
+            ),
+
+
+            // ── DEATH KORPS FIREFIGHT ──
+            Ploy(
+                id = "inspirational_leadership",
+                name = "INSPIRATIONAL LEADERSHIP",
+                type = PloyType.FIREFIGHT,
+                lore = R.stringinspirational_leadership_lore,
+                description = R.string.inspirational_leadership_description
+            ),
+            Ploy(
+            id = "combined_arms",
+            name = "COMBINED ARMS",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.combined_arms_lore,
+            description = R.string.combined_arms_description
+            ),
+            Ploy(
+                id = "in_life_shame",
+                name = "IN LIFE, SHAME",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.in_life_shame_lore,
+                description = R.string.in_life_shame_description
+            ),
+            Ploy(
+                id = "in_death_atonement",
+                name = "IN DEATH, ATONEMENT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.in_death_atonement_lore,
+                description = R.string.in_death_atonement_description
             )
         ),
 
