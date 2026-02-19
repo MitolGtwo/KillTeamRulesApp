@@ -65,7 +65,7 @@ val DeathwatchBombardVeteran = Operative(
         "ADEPTUS ASTARTES",
         "GRAVIS",
         "BOMBARD",
-        "32MM"
+        "40MM"
 
     )
 )
