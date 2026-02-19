@@ -33,13 +33,15 @@ val DeathwatchAegisVeteran = Operative(
             damage = "4/6",
             keywords = listOf(
              Shock
+            ),
+            extraRules = listOf("*Shield")
             )
         )
     ),
 
     abilities = listOf(
         Ability(
-            title = "Shield",
+            title = "*Shield",
             usage = R.string.deathwatch_shield_usage,
             description = R.string.deathwatch_shield_description
         ),
