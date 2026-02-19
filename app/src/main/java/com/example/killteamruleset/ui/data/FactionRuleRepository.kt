@@ -52,6 +52,50 @@ object FactionRuleRepository {
 
             ),
 
+         //Celestian Insidiants
+         "celestian_insidiants" to listOf(
+            FactionRule(
+                id = "martyrdoom",
+                title = "MARTYRDOM",
+                lore = R.string.martyrdoom_lore,
+                ruleText = R.string.martyrdoom_description,
+
+            ),
+            FactionRule(
+                id = "benedictions",
+                title = "BENEDICTIONS",
+                lore = R.string.benedictions_lore,
+                ruleText = R.string.benedictions_description,
+
+                ),
+             
+              FactionRule(
+                id = "weapons_of_the_witch_hunters",
+                title = "WEAPONS OF THE WITCH HUNTERS",
+                lore = R.string.weapons_of_the_witch_hunters_lore,
+                ruleText = R.string.weapons_of_the_witch_hunters_description,
+
+                ),
+
+               FactionRule(
+                id = "inspiration",
+                title = INSPIRATION",
+                lore = R.string.inspiration_lore,
+                ruleText = R.string.inspiration_description,
+
+                ),
+             
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+                ),
+
+        ),
+
+        
         //Wrecka Krew
         "wrecka_krew" to listOf(
             FactionRule(
