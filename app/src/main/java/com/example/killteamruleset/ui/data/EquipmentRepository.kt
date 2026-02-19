@@ -99,6 +99,36 @@ object EquipmentRepository {
             )
         ),
 
+
+        "death_Korps" to listOf(
+
+            Equipment(
+                id = "chronometer",
+                name = "CHRONOMETER",
+                lore =R.string.chronometer_lore,
+                description = R.string.chronometer_description
+            ),
+            Equipment(
+                id = "comm_beads",
+                name = "COMM-BEADS",
+                lore =R.string.comm_beads_lore,
+                description = R.string.comm_beads_description
+            ),
+            Equipment(
+                id = "hand_axes",
+                name = "HAND AXES",
+                lore =R.string.hand_axes_lore,
+                description = R.string.hand_axes_description
+            ),
+            Equipment(
+                id = "gas_bombardment",
+                name = "GAS BOMBARDMENT",
+                lore =R.string.gas_bombardment_lore,
+                description = R.string.gas_bombardment_description
+            )
+        ),
+
+
         
         "wrecka_krew" to listOf(
 
