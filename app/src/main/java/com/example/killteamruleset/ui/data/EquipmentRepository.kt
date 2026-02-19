@@ -31,7 +31,7 @@ object EquipmentRepository {
             Equipment(
                 id = "tilting_shields",
                 name = "TILTING SHIELDS",
-                lore =R.string.wrecka_tilting_shields_lore,
+                lore =R.string.tilting_shields_lore,
                 description = R.string.tilting_shields_description
             ),
             Equipment(
@@ -39,6 +39,34 @@ object EquipmentRepository {
                 name = "AUSPEX",
                 lore =R.string.auspex_lore,
                 description = R.string.auspex_description
+            )
+        ),
+
+        "battle_clade" to listOf(
+
+            Equipment(
+                id = "covert guises",
+                name = "COVERT GUISES",
+                lore =R.string.covert_guises_lore,
+                description = R.string.covert_guises_description
+            ),
+            Equipment(
+                id = "electromantic_capacitors",
+                name = "ELECTROMANTIC CAPACITORS",
+                lore =R.string.electromantic_capacitors_lore,
+                description = R.string.electromantic_capacitors_description
+            ),
+            Equipment(
+                id = "concealed_apparatus",
+                name = "CONCEALED APPARATUS",
+                lore =R.string.concealed_apparatus_lore,
+                description = R.string.concealed_apparatus_description
+            ),
+            Equipment(
+                id = "neurocyclic_reserve_cells",
+                name = "NEUROCYCLIC RESERVE CELLS",
+                lore =R.string.neurocylic_reserve_cells_lore,
+                description = R.string.neurocylic_reserve_cells_description
             )
         ),
         

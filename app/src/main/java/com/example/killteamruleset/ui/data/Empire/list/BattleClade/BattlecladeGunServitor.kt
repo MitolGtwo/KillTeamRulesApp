@@ -49,7 +49,7 @@ val BattlecladeGunServitor = Operative(
             )
         ),
        WeaponProfile(
-            name = "Heavy Bolter(Focused)",
+            name = "Heavy Bolter(Sweeping)",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "4+",

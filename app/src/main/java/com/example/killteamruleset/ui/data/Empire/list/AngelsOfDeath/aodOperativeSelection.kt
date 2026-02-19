@@ -20,10 +20,10 @@ import com.example.killteamruleset.ui.model.OperativeSelectionRule
 val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
 
     OperativeSelectionRule(
-        text = "1 **ANGEL OF DEATH** Operative selected from the following list"
+        text = "1 ANGEL OF DEATH Operative selected from the following list"
     ),
     OperativeSelectionRule(
-        text = "**ASSAULT INTERCESSOR SERGEANT** with one of option from each of the following:",
+        text = "ASSAULT INTERCESSOR SERGEANT with one of option from each of the following:",
         indent = 1
     ),
     OperativeSelectionRule(
@@ -38,13 +38,9 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
         text = "Plasma Pistol; Chainsword",
         indent = 2
     ),
-    OperativeSelectionRule(
-        text = "Two rokkit pistols; Choppa",
-        indent = 1
-    ),
 
       OperativeSelectionRule(
-        text = "**INTERCESSOR SERGEANT** with one of option from each of the following:",
+        text = "INTERCESSOR SERGEANT with one of option from each of the following:",
         indent = 1
     ),
     OperativeSelectionRule(
@@ -56,7 +52,7 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "**SPACE MARINE CAPTAIN**",
+        text = "SPACE MARINE CAPTAIN",
         indent = 1
     ),
 
@@ -71,22 +67,22 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
    OperativeSelectionRule(
-        text = "**ASSAULT INTERCESSOR WARRIOR**",
+        text = "ASSAULT INTERCESSOR WARRIOR",
         indent = 1
     ),
 
    OperativeSelectionRule(
-        text = "**ELIMINATION SNIPER**",
+        text = "ELIMINATION SNIPER",
         indent = 1
     ),
 
    OperativeSelectionRule(
-        text = "**HEAVY INTERCESSOR GUNNER**",
+        text = "HEAVY INTERCESSOR GUNNER",
         indent = 1
     ),
 
    OperativeSelectionRule(
-        text = "**INTERCESSOR GUNNER** with auxiliary grenade launcher and one of the following options:",
+        text = "INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:",
         indent = 1
     ),
 
@@ -104,7 +100,7 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
   OperativeSelectionRule(
-        text = "**INTERCESSOR WARRIOR** with one of the following options:",
+        text = "INTERCESSOR WARRIOR with one of the following options:",
         indent = 1
     ),
 
@@ -123,7 +119,7 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
 
 
     OperativeSelectionRule(
-    text = "Other than **WARRIOR** Operatives, your kill team can only include each Operative on this list once.",
+    text = "Other than WARRIOR Operatives, your kill team can only include each Operative on this list once.",
     isFooter = true
     )
 )

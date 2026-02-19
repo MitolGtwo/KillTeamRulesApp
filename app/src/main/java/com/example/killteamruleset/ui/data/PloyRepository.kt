@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.PloyType
 object PloyRepository {
 
     private val ploysByTeam = mapOf(
-        angels_of_death to listOf(
+        "angels_of_death" to listOf(
             // ── Aod STRATEGY ──
             Ploy(
                 id = "combat_doctrine",
@@ -39,7 +39,7 @@ object PloyRepository {
             ),
 
 
-            // ── Wreckas FIREFIGHT ──
+            // ── AOD FIREFIGHT ──
             Ploy(
                 id = "adjust_doctrine",
                 name = "ADJUST DOCTRINE",
@@ -70,7 +70,69 @@ object PloyRepository {
             )
         ),
 
+        "battle_clade" to listOf(
 
+            // ── BATTLECLADE STRATEGY ──
+            Ploy(
+                id = "noospheric_possession",
+                name ="NOOSPHERIC POSSESION",
+                type = PloyType.STRATEGY,
+                lore = R.string.noospheric_possession_lore,
+                description = R.string.noospheric_possession_description
+            ),
+            Ploy(
+                id = "duty_of_reclamation",
+                name = "DUTY OF RECLAMATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.duty_of_reclamation_lore,
+                description = R.string.duty_of_reclamation_description
+            ),
+            Ploy(
+                id = "incantation_of_the_iron_soul",
+                name = "INCANTATION OF THE IRON SOUL",
+                type = PloyType.STRATEGY,
+                lore = R.string.incantation_of_the_iron_soul_lore,
+                description = R.string.incantation_of_the_iron_soul_description
+            ),
+            Ploy(
+                id = "prioritised_acquisition",
+                name = "PRIORITISED ACQUISITION",
+                type = PloyType.STRATEGY,
+                lore = R.string.prioritised_acquisition_lore,
+                description = R.string.prioritised_acquisition_description
+            ),
+
+
+            // ── AOD FIREFIGHT ──
+            Ploy(
+                id = "system_exorcism",
+                name = "SYSTEM EXORCISM",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.system_exorcism_lore,
+                description = R.string.system_exorcism_description
+            ),
+            Ploy(
+                id = "remote_access",
+                name = "REMOTE ACCESS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.remote_access_lore,
+                description = R.string.remote_access_description
+            ),
+            Ploy(
+                id = "autoferric_supplication",
+                name = "AUTOFERRIC SUPPLICATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.autoferric_supplication_lore,
+                description = R.string.autoferric_supplication_description
+            ),
+            Ploy(
+                id = "servile_surrogacy",
+                name = "SERVILE SURROGACY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.servile_surrogacy_lore,
+                description = R.string.servile_surrogacy_description
+            )
+        ),
         
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──

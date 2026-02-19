@@ -3,16 +3,14 @@ package com.example.killteamruleset.ui.data.Empire.list.BattleClade
 import com.example.killteamruleset.ui.data.Empire.list.SkitariiRangerAlpha
 import com.example.killteamruleset.ui.model.Operative
 
-val HunterCladeOperatives = listOf(
+val BattlecladeOperatives = listOf(
   BattleCladeTechnoarcheologist,
-  /*
-  BattleCladeServitorUnderseer,
   BattleCladeAutoProxyServitor,
-  BattleCladeBreacherServitor,
-  BattleCladeCombatServitor,
-  BattleCladeGunServitor,
+  BattlecladeBreacherServitor,
+  BattlecladeCombatServitor,
+  BattlecladeGunServitor,
+  BattlecladeServitorUnderseer,
   BattleCladeTechnomedicServitor
-*/
 )
 
 

@@ -8,7 +8,7 @@ object FactionRuleRepository {
     
     private val rulesByTeam = mapOf(
         //AoD
-         "wrecka_krew" to listOf(
+         "angels_of_death" to listOf(
             FactionRule(
                 id = "astartes",
                 title = "ASTARTES",
@@ -32,6 +32,25 @@ object FactionRuleRepository {
                 ),
 
         ),
+
+        //Battleclade
+        "battle_clade" to listOf(
+            FactionRule(
+                id = "noospheric_network",
+                title = "NOOSPHERIC NETWORK",
+                lore = R.string.noospheric_network_lore,
+                ruleText = R.string.noospheric_network_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+
+            ),
 
         //Wrecka Krew
         "wrecka_krew" to listOf(

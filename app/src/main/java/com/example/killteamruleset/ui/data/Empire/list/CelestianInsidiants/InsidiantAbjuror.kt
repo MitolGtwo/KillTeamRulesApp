@@ -30,9 +30,8 @@ val InsidiatAbjuror: Operative
                 hit = "3+",
                 damage = "4/6",
                 keywords = listOf(
-                    Shield
-
-                )
+                ),
+                extraRules = listOf("*Shield")
             ),
             WeaponProfile (
                 name = "Blessed sword & Praesidium protectiva (offensive)",

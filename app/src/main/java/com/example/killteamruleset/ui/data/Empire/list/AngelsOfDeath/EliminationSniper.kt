@@ -90,8 +90,8 @@ val EliminatorSniper = Operative(
     abilities = listOf(
         Ability(
             title = "Camo Cloak",
-            usage = R.string.camo_cloak_usage,
-            description = R.string.camo_cloak_description
+            usage = R.string.aod_camo_cloak_usage,
+            description = R.string.aod_camo_cloak_description
         ),
         Ability(
             title = "Optics",

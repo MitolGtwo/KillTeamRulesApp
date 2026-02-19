@@ -19,7 +19,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.aod_faction_bg,
             backgroundRes = R.drawable.aod_bg,
-            assemblyPdfAsset = "pdf/aod_assembly.pdf",
+            assemblyPdfAsset = "pdfs/aod_assembly.pdf",
             iconRes = R.drawable.aod_logo,
             quote = "They are my bulk weapon against the terror. They are my space marines, and they shall know no fear"
         ),
@@ -32,7 +32,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.RECON, Archetypes.INFILTRATION),
             factionRulesBackgroundRes = R.drawable.battleclade_faction_bg,
             backgroundRes = R.drawable.battleclade_bg,
-            assemblyPdfAsset = "pdf/battleclade_assembly.pdf",
+            assemblyPdfAsset = "pdfs/battleclade_assembly.pdf",
             iconRes = R.drawable.battleclade_logo,
             quote = "Let nothing dissuade your quest for knowledge"
         ),
@@ -45,7 +45,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.celestian_faction_bg,
             backgroundRes = R.drawable.celestian_bg,
-            assemblyPdfAsset = "pdf/wrecka_assembly.pdf",
+            assemblyPdfAsset = "pdfs/wrecka_assembly.pdf",
             iconRes = R.drawable.celestian_logo,
             quote = "Abhor Witchcraft, my sisters, for there is no heresy greater or more foul"
         ),
@@ -58,7 +58,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.deathkorps_faction_bg,
             backgroundRes = R.drawable.deathkorps_bg,
-            assemblyPdfAsset = "pdf/deathkorps_assembly.pdf",
+            assemblyPdfAsset = "pdfs/deathkorps_assembly.pdf",
             iconRes = R.drawable.deathkorps_logo,
             quote = "In life, shame.\nIn death, atonement."
         ),
@@ -71,7 +71,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.dw_faction_bg,
             backgroundRes = R.drawable.dw_bg,
-            assemblyPdfAsset = "pdf/dw_assembly.pdf",
+            assemblyPdfAsset = "pdfs/dw_assembly.pdf",
             iconRes = R.drawable.dw_logo,
             quote = "Suffer not the alien"
         ),
@@ -84,7 +84,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.elucian_faction_bg,
             backgroundRes = R.drawable.elucian_bg,
-            assemblyPdfAsset = "pdf/elucidian_assembly.pdf",
+            assemblyPdfAsset = "pdfs/elucidian_assembly.pdf",
             iconRes = R.drawable.elucian_logo,
             quote = "There is nowhere we cannot travel, nothing we cannot accomplish"
         ),
@@ -97,7 +97,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.exaction_faction_bg,
             backgroundRes = R.drawable.exaction_bg,
-            assemblyPdfAsset = "pdf/exaction_assembly.pdf",
+            assemblyPdfAsset = "pdfs/exaction_assembly.pdf",
             iconRes = R.drawable.exaction_logo,
             quote = "Innocence is irrelevant. You have been judge of transgressing the lex imperialis"
         ),
@@ -110,7 +110,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.RECON, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.hunterclade_faction_bg,
             backgroundRes = R.drawable.hunterclade_bg,
-            assemblyPdfAsset = "pdf/wrecka_assembly.pdf",
+            assemblyPdfAsset = "pdfs/wrecka_assembly.pdf",
             iconRes = R.drawable.hunterclade_logo,
             quote = "True and sacred might his knowledge be"
         ),
@@ -123,7 +123,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.navy_faction_bg,
             backgroundRes = R.drawable.navy_bg,
-            assemblyPdfAsset = "pdf/navy_assembly.pdf",
+            assemblyPdfAsset = "pdfs/navy_assembly.pdf",
             iconRes = R.drawable.navy_logo,
             quote = "Through the start, by his light, with our blood, and out shot"
         ),
@@ -136,7 +136,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY,Archetypes.RECON,Archetypes.INFILTRATION),
             factionRulesBackgroundRes = R.drawable.inquisitorial_faction_bg,
             backgroundRes = R.drawable.inquisitorial_bg,
-            assemblyPdfAsset = "pdf/inquisitorial_assembly.pdf",
+            assemblyPdfAsset = "pdfs/inquisitorial_assembly.pdf",
             iconRes = R.drawable.inquisitorial_logo,
             quote = "Innocence means nothing"
         ),
@@ -149,7 +149,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY,Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.kasrkin_faction_bg,
             backgroundRes = R.drawable.kasrkin_bg,
-            assemblyPdfAsset = "pdf/kasrkin_assembly.pdf",
+            assemblyPdfAsset = "pdfs/kasrkin_assembly.pdf",
             iconRes = R.drawable.kasrkin_logo,
             quote = "Our strength is not ignoring the horrors, it is the opposite. The devastation we witness is our fuel to fight on."
         ),
@@ -162,7 +162,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SECURITY,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.novitiates_faction_bg,
             backgroundRes = R.drawable.novitiates_bg,
-            assemblyPdfAsset = "pdf/novitiates_assembly.pdf",
+            assemblyPdfAsset = "pdfs/novitiates_assembly.pdf",
             iconRes = R.drawable.novitiates_logo,
             quote = "There is no light but the light of the emperor"
         ),
@@ -175,7 +175,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.phobos_faction_bg,
             backgroundRes = R.drawable.phobos_bg,
-            assemblyPdfAsset = "pdf/phobos_assembly.pdf",
+            assemblyPdfAsset = "pdfs/phobos_assembly.pdf",
             iconRes = R.drawable.phobos_logo,
             quote = "You say we are but a handful of warriors facing an army of heretics, but every space marine is an army in his own right"
         ),
@@ -188,7 +188,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.SECURITY),
             factionRulesBackgroundRes = R.drawable.ratlings_faction_bg,
             backgroundRes = R.drawable.ratlings_bg,
-            assemblyPdfAsset = "pdf/ratlings_assembly.pdf",
+            assemblyPdfAsset = "pdfs/ratlings_assembly.pdf",
             iconRes = R.drawable.ratlings_logo,
             quote = "settle your sights in the target. Take a breath. Hold. Squeeze. One dead Ork"
         ),
@@ -201,7 +201,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SEEK_AND_DESTROY,Archetypes.SECURITY),
             factionRulesBackgroundRes = R.drawable.sanctifiers_faction_bg,
             backgroundRes = R.drawable.sanctifiers_bg,
-            assemblyPdfAsset = "pdf/sanctifier_assembly.pdf",
+            assemblyPdfAsset = "pdfs/sanctifier_assembly.pdf",
             iconRes = R.drawable.sanctifiers_logo,
             quote = "Burn the heretic. Kill the mutant. Purge the unclean"
         ),
@@ -214,7 +214,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.scout_faction_bg,
             backgroundRes = R.drawable.scout_bg,
-            assemblyPdfAsset = "pdf/scout_assembly.pdf",
+            assemblyPdfAsset = "pdfs/scout_assembly.pdf",
             iconRes = R.drawable.scout_logo,
             quote = "They were right. It was only after this that we arrived at our destination, where our examination would truly begin"
         ),
@@ -227,7 +227,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SEEK_AND_DESTROY,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.tempestus_faction_bg,
             backgroundRes = R.drawable.tempestus_bg,
-            assemblyPdfAsset = "pdf/tempestus_assembly.pdf",
+            assemblyPdfAsset = "pdfs/tempestus_assembly.pdf",
             iconRes = R.drawable.tempestus_logo,
             quote = "The emperor expects two things of us, the first is absolute, uncompromising belief, the second is victory at any cost"
         ),
@@ -239,8 +239,8 @@ object TeamRepository {
             difficulty = "Easy",
             archetypes = listOf(Archetypes.SEEK_AND_DESTROY,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.wolfscouts_faction_bg,
-            backgroundRes = R.drawable.wolfscouts_bg,
-            assemblyPdfAsset = "pdf/tempestus_assembly.pdf",
+            backgroundRes = R.drawable.wolfscouts_bg2,
+            assemblyPdfAsset = "pdfs/tempestus_assembly.pdf",
             iconRes = R.drawable.wolfscouts_logo,
             quote = "Aaaauuuuuuu!!"
         ),
@@ -546,7 +546,7 @@ object TeamRepository {
             name = "Raveners",
             alliance = Alliance.XENOS,
             type = TeamType.ELITE,
-            difficulty = "Medium",
+            difficulty = "Hard",
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.raveners_faction_bg,
             backgroundRes = R.drawable.raveners_bg,

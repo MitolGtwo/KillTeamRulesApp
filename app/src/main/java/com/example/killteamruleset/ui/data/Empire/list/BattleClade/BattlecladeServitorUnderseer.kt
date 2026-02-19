@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val BattlecladeServitorUnderseer: Operative
     get() = Operative(
-        name = "Battleclade Gun Servitor",
+        name = "Battleclade Servitor Underseer",
         imageRes = R.drawable.alpharanger,
         stats = OperativeStats(
             apl = 3,

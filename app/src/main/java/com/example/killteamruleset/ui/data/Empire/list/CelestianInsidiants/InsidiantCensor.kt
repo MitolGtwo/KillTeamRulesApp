@@ -2,6 +2,7 @@ package com.example.killteamruleset.ui.data.Empire.list.CelestianInsidiants
 
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.Brutal
 import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
@@ -31,10 +32,9 @@ val InsidiatCensor: Operative
                 damage = "5/5",
                 keywords = listOf(
                     Brutal,
-                    Shock,
-                    Anti-PSYKER
-
-                )
+                    Shock
+                ),
+                extraRules = listOf("*Anti-PSYKER")
             )
         ),
 
@@ -49,8 +49,8 @@ val InsidiatCensor: Operative
                 title = "Null Field",
                 usage = R.string.battleclade_omniscanner_usage,
                 description = R.string.battleclade_omniscanner_description
-            )
-        ),
+            ),
+
        Ability(
                 title = "Nullifying Ritual",
                 usage = R.string.battleclade_omniscanner_usage,

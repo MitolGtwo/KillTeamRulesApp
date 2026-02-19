@@ -7,13 +7,13 @@
 
         Achillan Eye
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_autoproxy_eye_usage"><![CDATA[
 
         Passive
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_autoproxy_eye_description"><![CDATA[
 
@@ -21,19 +21,19 @@
                      to this Operative, that friendly Operatives ranged weapons have the **Saturate** weapon rule.
                      This rule has no effect if this Operative is within control range of an enemy Operative.
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_autoproxy_gaze"><![CDATA[
 
         GAZE OF THE OMNISSIAH
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_autoproxy_gaze_usage"><![CDATA[
 
         1AP/Firefight Phase
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_autoproxy_gaze_description"><![CDATA[
 
@@ -42,19 +42,19 @@
                     \n*That enemy Operative cannot be obscured.
                      \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative.
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_breach"><![CDATA[
 
         Breach
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_breach_usage"><![CDATA[
 
         1 AP/Firefight phase
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_breach_description"><![CDATA[
 
@@ -64,19 +64,19 @@
                     This Operative **cannot** perform this action while within control range of an enemy Operative, or if
                      a terrain feature isnt within its control range.
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_divinearcana"><![CDATA[
 
         Seeker of Divine Arcana
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_divinearcana_usage"><![CDATA[
 
         Strategic Gambit
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_divinearcana_description"><![CDATA[
 
@@ -86,20 +86,20 @@
                          and this Operative is not carrying a marker, it must end that move either within your drop
                          zone(or as close as possible), or with control of a mission marker or objective marker.
 
-    ]]></string>
+]]></string>
 
 
     <string name="battleclade_omniscanner"><![CDATA[
 
         Omniscanner
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_omniscanner_usage"><![CDATA[
 
         1AP/Firefight Phase or Strategic Gambit
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_omniscanner_description"><![CDATA[
 
@@ -109,33 +109,33 @@
                          the Ceasless weapon rule.\n\nThis Operative CANNOT perform this action while within control range
                          of an enemy Operative.
 
-    ]]></string>
+]]></string>
 
 
     <string name="battleclade_datacoronal"><![CDATA[
 
         Datacoronal Accumulator
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_datacoronal_usage"><![CDATA[
 
         1AP/ Firefight phase
 
-    ]]></string>
+]]></string>
 
     <string name="battleclade_datacoronal_description"><![CDATA[
 
-        **Support.** on work
+        **SUPPORT.** Determine the friendly **BATTLECLADE** operatives within 6\" of this operative and/or a friendly
+**BATTLECLADE AUTO-PROXY** operative, then roll one D3. If the result is equal to or less than the number of objective
+markers those friendly operatives contest, you gain 1CP. For the purposes of the Comms Device universal equipment, the
+operative the distance is being determined from must control your Comms Device marker to add 3\" to its distance requirement
+for this rule.\n\n
 
+ This operative cannot perform this action while within control range of an enemy operative.
     ]]></string>
 
 
-    <string name="battleclade_network"><![CDATA[
-
-        Network Override
-
-    ]]></string>
 
     <string name="battleclade_network_usage"><![CDATA[
 
@@ -144,22 +144,307 @@
     ]]></string>
 
     <string name="battleclade_network_description"><![CDATA[
+       **SUPPORT**. Select one friendly **BATTLECLADE SERVITOR** operative within 6\" of either this operative or a friendly
+**BATTLECLADE AUTO-PROXY** operative to immediately **NETWORK COUNTERACT** (you dont have to **TRANSFER
+POWER** to do so). Continue this operatives activation after doing so. For the purposes of the Comms Device universal
+equipment, the operative the distance is being determined from must control that marker.\n\n
 
-        **SUPPORT.** on work
+ This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="battleclade_mechanosuture_array_usage"><![CDATA[
+
+        Passive/Friendly Operative is incapacitated
 
     ]]></string>
 
+    <string name="battleclade_mechanosuture_array_description"><![CDATA[
+Once per turning point, when another friendly **BATTLECLADE** operative would be incapacitated while
+visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of
+an enemy operative. If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated
+for the remainder of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must
+end that move within this operatives control range. If this rule was used during that friendly operatives activation, that activation
+ends. You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this operative would be a primary or
+secondary target.
+    ]]></string>
+
+    <string name="battleclade_expedient_repair_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="battleclade_expedient_repair_description"><![CDATA[
+Select one friendly **BATTLECLADE** operative within this
+operatives control range to regain up to D3+3 lost wounds.
+It cannot be an operative that the Mechanosuture Array rule
+was used on during this turning point.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
 
 
     <!--Faction Rules-->
 
+    <string name="noospheric_network_lore"><![CDATA[
+Servitors are yoked to their Tech-Priest masters by
+an invisible web of control. This noospheric network
+enables servitors to be rapidly reorganised, transferring
+processing power to other thralls who might better serve
+the Tech-Priests immediate wishes. While some are
+left to conform to their basic programming, others are
+instructed with key tasks that must be fulfilled for the
+glory of the Machine God.
+]]></string>
+
+    <string name="noospheric_network_description"><![CDATA[
+Once during each friendly **BATTLECLADE
+SERVITOR** operatives activation, before or after
+it performs an action, you can spend 1AP to
+**TRANSFER POWER**. \n\n
+
+After that activation, you can **NETWORK
+COUNTERACT** with one other friendly
+**BATTLECLADE SERVITOR** operative before your
+opponent activates. Whenever you **NETWORK
+COUNTERACT** with a friendly operative, first
+select its order. It can then perform a 1AP action
+for free, but cannot move more than 2\" during
+that action. Once its done so, your opponent
+then activates as normal.\n\n
+
+An operative cannot **TRANSFER POWER** or
+**NETWORK COUNTERACT** if it has an APL stat of
+less than 2 (e.g. if the stat has been changed to
+less than 2 by a rule). **NETWORK COUNTERACT** is
+a counteraction, but the operative doesnt need
+to be expended with an Engage order to do it.
+That means if they’re ready when they **NETWORK
+COUNTERACT**, they can still be activated as
+normal later in the turning point. An operative
+that does **NETWORK COUNTERACT** cannot
+do so again, or counteract, during the same
+turning point.
+]]></string>
+
+
     <!--Equipment-->
+
+    <string name="covert_guises_lore"><![CDATA[
+        Using filthy bodysuits of local design, falsified insignia or emitters that broadcast shrouding
+        static-filled hisses to foil biological senses, this Battleclade can infiltrate into restricted areas undetected.
+]]></string>
+
+    <string name="covert_guises_description"><![CDATA[
+        After revealing this equipment option, roll one D3. As a **STRATEGIC GAMBIT** in the first
+        turning point, a number of friendly **BATTLECLADE** Operatives equal to the result that are
+        wholly within your drop zone can immediately perform a free **Reposition** action, but must
+        end that move wholly within 3\" of your drop zone. Your **TECHNOARCHEOLOGIST** Operative
+        cannot perform more than one **Reposition** action in the Strategy phase of the first turning
+        point (result of Seeker of Divine Arcana rule as well).
+]]></string>
+
+    <string name="electromantic_capacitors_lore"><![CDATA[
+       Wired into an Operatives numerous mechanical components, these devices can charge the bodies
+       of a clandestine team with coruscating arcs of the sacred Motive Force.
+]]></string>
+
+    <string name="electromantic_capacitors_description"><![CDATA[
+        Friendly **BATTLECLADE** Operatives melee weapons have the Shock weapon rule. Whenever a friendly
+        **BATTLECLADE** Operative is retaliating, its melee weapons have the Severe weapon rule.
+]]></string>
+
+    <string name="concealed_apparatus_lore"><![CDATA[
+       Seemingly equipper servitors can, at an imperative from their master, swiftly assemble far
+       more deadly apparatus, the components of which were hidden in body cavities or as entirely different
+       mechanisms.
+]]></string>
+
+    <string name="concealed_apparatus_description"><![CDATA[
+        **STRATEGIC GAMBIT** in the second turning point. You can swap the locations of any number of
+        friendly **BATTLECLADE SERVITOR** Operatives with each other (excluding **GUN SERVITOR**),
+        and you can swap the locations of friendly **BATTLECLADE GUN SERVITOR** Operatives with each
+        other (remove then from the killzone and swt them back up gain). You cannot swap any Operative
+        that have done any of the following during the battle:
+        \n
+        -Used any weapons on their datacard.
+        \n
+        -Performed any actions on their datacard.
+        \n
+        -Used the Mechanosuture Array rule.
+
+]]></string>
+
+    <string name="neurocylic_reserve_cells_lore"><![CDATA[
+       Battleclades are granted these devices to accelerate servitor capabilities.
+]]></string>
+
+    <string name="neurocylic_reserve_cells_description"><![CDATA[
+       After revealing this equipment option, roll one D3. A number of times during the battle equal
+       to the result, whenever you **TRANSFER POWER**, you can use this rule. If you do, you can
+       **TRANSFER POWER** for 0AP (this takes precedence over the normal Noospheric Network Rules).
+]]></string>
+
+
 
     <!--Ploys-->
     <!--Strategy ploys-->
+    <string name="noospheric_possession_lore"><![CDATA[
+    By broadcasting portions of their neural architecture into their thralls, sometimes via a
+    well-positioned relay, manipulative Servitor Underseers effectively possess their tools to better
+    direct the Omnissiahs wrath.
+]]></string>
+
+    <string name="noospheric_possession_description"><![CDATA[
+    **SUPPORT.** Whenever a friendly **BATTLECLADE SERVITOR** Operative is within 6" of a friendly
+    **BATTLECLADE AUTO-PROXY** or **BATTLECLADE SERVITOR UNDERSEER** Operative, that friendly **SERVITOR**
+    Operativves weapons have the Accurrate 1 weapon rule.\n\n
+
+    For the purpose of the Comms Device universal equipment, the Operative the distance is being
+    determined from must control your Comms Device marker to add 3\" to its distance requirement
+    for this rule.
+]]></string>
+
+    <string name="duty_of_reclamation_lore"><![CDATA[
+    Embedded in Battleclade operatives are lurking strands of enhanced binharic doctrine. These instructions await
+the moment to activate, triggered by the proximity of a Tech-Priests designated prize.
+]]></string>
+
+    <string name="duty_of_reclamation_description"><![CDATA[
+    Once per action, you can use the Command Reroll firefight ploy for 0CP if the attack or defence
+dice was rolled for a friendly **BATTLECLADE** operative that contests an objective marker or
+one of your mission markers.
+]]></string>
+
+    <string name="incantation_of_the_iron_soul_lore"><![CDATA[
+    Through chanted binharic praise from the Tech-Priests,
+or sparked by holy subroutines, microactuators lock
+into bracing positions and reserve power cells are
+brought online. The flesh may be weak, but the sacred
+invulnerability of the Machine God’s augmetic blessings
+is evident to all.
+]]></string>
+
+    <string name="incantation_of_the_iron_soul_description"><![CDATA[
+    Whenever an attack dice inflicts damage of 3 or
+more on a friendly **BATTLECLADE** operative,
+roll one D6: on a 5+, subtract 1 from that
+inflicted damage.
+]]></string>
+
+    <string name="prioritised_acquisition_lore"><![CDATA[
+    Acquisition is a holy task to a Technoarcheologist,
+and their zealous fanaticism bleeds into their binharic
+instructions. Faced with the sacrilege of thieves,
+aggression protocols are initiated and biochemical
+stimulants are released in their thralls, endowing all with
+a measure of their master’s repugnance.
+]]></string>
+
+    <string name="prioritised_acquisition_description"><![CDATA[
+    Select one objective marker or one of your mission markers.\n
+• Whenever determining control of that
+marker, treat the total APL stat of friendly
+**BATTLECLADE** operatives that contest it as 1
+higher if at least one friendly **BATTLECLADE**
+operative contests that marker. Note this isnt
+a change to the APL stat, so any changes are
+cumulative with this.\n
+• Whenever a friendly **BATTLECLADE** operative
+is within 3\" of that marker, add 1 to the Atk stat
+of its melee weapons (to a maximum of 4).
+]]></string>
+
+
 
     <!--Firefight ploys-->
+    <string name="system_exorcism_lore"><![CDATA[
+    By redirecting sensory pathways, purging contaminants
+or unleashing feral machine spirits to consume tainted
+logic loops, the elite operatives of a Battleclade can
+exorcise many dangerous afflictions.
+]]></string>
 
+    <string name="system_exorcism_description"><![CDATA[
+    Use this firefight ploy when you would activate a
+friendly **BATTLECLADE** operative. Remove one
+rules effect or stat change your opponent has
+applied to it (e.g. Poison token, -1APL, cannot be
+activated or perform actions, etc.), then activate
+it. This ploy cannot allow it to regain lost wounds,
+ignore the effects of being injured or remove
+mission pack rules.
+]]></string>
 
+    <string name="remote_access_lore"><![CDATA[
+    Projecting a canticle of hexamathic authority, the most
+worthy Tech-Priests can commune with intransigent
+machine spirits even without physical contact.
+]]></string>
+
+    <string name="remote_access_description"><![CDATA[
+    Use this firefight ploy during a friendly
+**BATTLECLADE TECH-PRIEST** operatives
+activation. Once during that activation, you can
+use one of the following rules:\n
+
+• That operative doesnt require a marker to be
+within its control range to perform a mission
+action that usually requires this (this takes
+precedence over that actions conditions).
+Instead, the marker must be within 4\" of it
+and no enemy operatives can contest that
+marker. However, you can ignore enemy
+operatives within control range of other
+friendly **BATTLECLADE** operatives when
+determining this.\n
+• That operative doesnt require a hatchways
+access point to be within its control range to
+perform an **Operate Hatch** action. Instead, that
+access point must be within 4\" of it.
+]]></string>
+
+    <string name="autoferric_supplication_lore"><![CDATA[
+    In extremis, the Omnissiahs faithful channel their zeal
+into shielding energy projectors and the refractive
+realignment of their bionic body parts.
+]]></string>
+
+    <string name="autoferric_supplication_description"><![CDATA[
+    Use this firefight ploy when an operative is
+shooting a friendly **BATTLECLADE TECH-PRIEST**
+operative, at the start of the Roll Attack Dice step.
+Until the end of the sequence, ignore the Piercing
+weapon rule.
+]]></string>
+
+    <string name="servile_surrogacy_lore"><![CDATA[
+    Deeply woven into each thralls cybernetic programming
+is the instinct to bodily shield their masters should they
+be threatened.
+]]></string>
+
+    <string name="servile_surrogacy_description"><![CDATA[
+    Use this firefight ploy when a friendly
+**BATTLECLADE TECH-PRIEST** operative is
+selected as the valid target of a Shoot action or
+to fight against during the Fight action. Select
+one friendly **BATTLECLADE SERVITOR** operative
+visible to and within 3" of that first friendly
+operative to become the valid target or to be
+fought against (as appropriate) instead (even if
+it wouldn’t normally be valid for this). If its the
+Fight action, treat that SERVITOR operative as
+being within the fighting operatives control range
+for the duration of that action. If its the Shoot
+action, that SERVITOR operative is only in cover
+or obscured if the original target was.\n
+
+This ploy has no effect if its the Shoot action
+and the ranged weapon has the Blast or Torrent
+weapon rule.
+]]></string>
 
 </resources>

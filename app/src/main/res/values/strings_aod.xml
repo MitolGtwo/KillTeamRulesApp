@@ -6,20 +6,22 @@
         Passive/Once per turning point
 ]]></string>
 
-        <string name="heroic_leader_usage_description"><![CDATA[
-        You can do one of the following:\n\n
-
+        <string name="heroic_leader_description"><![CDATA[
+        You can do one of the following:\n
+            \n
             -Use a Firefight ploy for 0CP if this is the specified **ANGEL OF DEATH** (excluding Command Re-roll).\n
-            -Use the Combat Doctrine strategy ploy when you activate a friendly **ANGEL OF DEATH** Operative if this Operative is in the killzone and isnt within control 
+            \n
+            -Use the Combat Doctrine strategy ploy when you activate a friendly **ANGEL OF DEATH** Operative if this Operative is in the killzone and isnt within control
             range of an enemy Operative (pay its CP cost as normal). Note that you cannot do so if you have already used that ploy during this turning point.\n
+            \n
             -Used the Adjust Doctrine Firefight ploy for 0CP if this Operative is in the killzone and isnt within control range of enemy Operatives.
 ]]></string>
 
-      <string name="heroic_leader_usage"><![CDATA[
+      <string name="iron_halo_usage"><![CDATA[
         Passive/Once per battle
 ]]></string>
 
-        <string name="heroic_leader_description"><![CDATA[
+        <string name="iron_halo_description"><![CDATA[
        When an attack dice inflicts Normal Dmg on this Operative, you can ignore that inflicted damage.
 ]]></string>
 
@@ -28,9 +30,10 @@
 ]]></string>
 
         <string name="assault_doctrine_warfare_description"><![CDATA[
-       You can do each of the following once per battle:\n\n
-
+       You can do each of the following once per battle:\n
+       \n
             -Whenever you would use the Combat Doctrine strategy ploy and then select Assault, if this Operative is in the killzone, it costs you 0CP.\n
+            \n
             -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
 ]]></string>
 
@@ -40,9 +43,10 @@
 ]]></string>
 
         <string name="intercessor_doctrine_warfare_description"><![CDATA[
-       You can do each of the following once per battle:\n\n
-
+       You can do each of the following once per battle:\n
+       \n
             -Whenever you would use the Combat Doctrine strategy ploy and then select Devastator, if this Operative is in the killzone, it costs you 0CP.\n
+            \n
             -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
 ]]></string>
 
@@ -126,10 +130,10 @@
                         ---6.HARDY\n
             Whenever an Operative is shooting this Operative, defence dice results of 5+ are critical successes. Whenever this Operative is retaliating, the first
             time an attack dice inflicts Normal Dmg of 3 or more on this Operative during that sequence, that dice inflicts 1 less damage on it.\n
-                        ---1.SHARPSHOOTER\n
+                        ---7.SHARPSHOOTER\n
             Whenever this Operative is shooting during an activation in which it hasnt performed the **Charge, Fall Back** or **Reposition** action, its bolt weapon has the Acurrate 1
             and Severe weapons rules.\n
-                        ---9.SIEGE SPECIALIST\n
+                        ---8.SIEGE SPECIALIST\n
             This Operatives ranged weapons have the Saturate weapon rule. Whenever this Operative is fighting or retaliating, enemy Operatives cannot assist.\n
 ]]></string>
 
@@ -160,7 +164,7 @@
     As well as displaying company colours and personal heraldry, a Space Marines tilting plate serves to protect the bearer in the press of melee combat.
 ]]></string>
 
-          <string name="purity_seals_description"><![CDATA[
+          <string name="tilting_shields_description"><![CDATA[
     Once per turning point, when a friendly **ANGEL OF DEATH** Operative is fighting or retaliating, after your opponent rolls their attack dice, but before re-rolls, you can use 
             this rule. If you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (ex. Lethal, Rending or Severe).
 ]]></string>
@@ -186,8 +190,8 @@
     Select one **COMBAT DOCTRINE** from those presented below. Whenever a friendly **ANGEL OF DEATH** Operative is x, its weapons have the Balanced weapon rule. X is the 
      **COMBAT DOCTRINE** you selected.\n\n
     - **DEVASTATOR DOCTRINE:** Shooting an Operative more than 6\" from it.\n
-    *TACTICAL DOCTRINE:** Shooting an Operative within 6\" of it.\n
-    *ASSAULT DOCTRINE:** Fighting or retaliating.
+    - **TACTICAL DOCTRINE:** Shooting an Operative within 6\" of it.\n
+    - **ASSAULT DOCTRINE:** Fighting or retaliating.
 ]]></string>
 
      <string name="no_fear_lore"><![CDATA[
@@ -198,12 +202,12 @@
     You can ignore any changes to the stats of friendly  **ANGEL OF DEATH** Operatives from being injured.
 ]]></string>
 
-     <string name="apadtive_tactics_lore"><![CDATA[
+     <string name="adaptive_tactics_lore"><![CDATA[
    There are few more tactically flexible warriors than the Adeptus Astartes. Supplementing the teachings of the Codex Astartes with their own experience, 
          Space Marines may adjust their strategies at a moments notice.
 ]]></string>
 
-<string name="apadtive_tactics_description"><![CDATA[
+<string name="adaptive_tactics_description"><![CDATA[
     Change your secondary **CHAPTER TACTIC**. Note this ploy only lasts until the end of the turning point.
 ]]></string>
 

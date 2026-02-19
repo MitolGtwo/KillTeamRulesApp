@@ -6,9 +6,12 @@ import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing
+import com.example.killteamruleset.ui.model.Piercing_Crits
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Silent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -25,7 +28,7 @@ val InsidiatSuperior: Operative
         weapons = listOf(
             WeaponProfile(
                 name = "Inferno Pistol",
-                type = WeaponType.RANGE,
+                type = WeaponType.RANGED,
                 attacks = 4,
                 hit = "3+",
                 damage = "4/2",
@@ -38,7 +41,7 @@ val InsidiatSuperior: Operative
             ),
            WeaponProfile(
                 name = "Relic Bolt Pistol",
-                type = WeaponType.RANGE,
+                type = WeaponType.RANGED,
                 attacks = 4,
                 hit = "3+",
                 damage = "3/5",
@@ -46,10 +49,10 @@ val InsidiatSuperior: Operative
                      Range(8),
                       Lethal(5)
                 )
-            )
+            ),
             WeaponProfile(
                 name = "Relic Condemmor Stakethrower",
-                type = WeaponType.RANGE,
+                type = WeaponType.RANGED,
                 attacks = 4,
                 hit = "3+",
                 damage = "2/2",
@@ -58,10 +61,9 @@ val InsidiatSuperior: Operative
                     Lethal(5),
                     Piercing_Crits(1),
                     Silent,
-                    Anti-PSYKER
-
-                )
-            )
+                ),
+                extraRules = listOf("*Anti-PSYKER")
+            ),
              WeaponProfile(
                 name = "Null Mace",
                 type = WeaponType.MELEE,
@@ -69,10 +71,9 @@ val InsidiatSuperior: Operative
                 hit = "3+",
                 damage = "4/4",
                 keywords = listOf(
-                    Shock,
-                    Anti-PSYKER
-
-                )
+                    Shock
+                ),
+                 extraRules = listOf("*Anti-PSYKER")
             )
         ),
 
@@ -96,7 +97,7 @@ val InsidiatSuperior: Operative
             "CELESTIAN INSIDIANT",
             "IMPERIUM",
             "ADEPTA SORORITAS",
-            "LEADER"
+            "LEADER",
             "SUPERIOR",
             "32MM"
         )

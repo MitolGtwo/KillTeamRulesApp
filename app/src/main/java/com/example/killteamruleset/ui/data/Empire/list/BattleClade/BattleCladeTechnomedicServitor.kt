@@ -5,6 +5,7 @@ import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Shock
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
@@ -34,14 +35,14 @@ val BattleCladeTechnomedicServitor = Operative(
     abilities = listOf(
         Ability(
             title = "Mechanosuture Array",
-            usage = R.string.battleclade_autoproxy_eye_usage,
-            description = R.string.battleclade_autoproxy_eye_description
+            usage = R.string.battleclade_mechanosuture_array_usage,
+            description = R.string.battleclade_mechanosuture_array_description
         ),
 
         Ability(
             title = "Expedient Repair",
-            usage = R.string.battleclade_autoproxy_gaze_usage,
-            description = R.string.battleclade_autoproxy_gaze_description
+            usage = R.string.battleclade_expedient_repair_usage,
+            description = R.string.battleclade_expedient_repair_description
         )
     ),
 
