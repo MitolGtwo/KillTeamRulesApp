@@ -69,8 +69,37 @@ object EquipmentRepository {
                 description = R.string.neurocylic_reserve_cells_description
             )
         ),
-        
 
+
+        "celestian_insidiants" to listOf(
+
+            Equipment(
+                id = "psyk_out_grenades",
+                name = "PSYK-OUT GRENADES",
+                lore =R.string.psyk_out_grenades_lore,
+                description = R.string.psyk_out_grenades_description
+            ),
+            Equipment(
+                id = "vocifera_mortis",
+                name = "VOCIFERA MORTIS",
+                lore =R.string.vocifera_mortis_lore,
+                description = R.string.vocifera_mortis_description
+            ),
+            Equipment(
+                id = "saintly_relics",
+                name = "SAINTLY RELICS",
+                lore =R.string.saintly_relics_lore,
+                description = R.string.saintly_relics_description
+            ),
+            Equipment(
+                id = "auto_flagellator",
+                name = "AUTO-FLAGELLATOR",
+                lore =R.string.auto_flagellator_lore,
+                description = R.string.auto_flagellator_description
+            )
+        ),
+
+        
         "wrecka_krew" to listOf(
 
             Equipment(
