@@ -260,7 +260,73 @@ object PloyRepository {
             )
         ),
 
-        
+
+        "deathwatch" to listOf(
+            // ── DeathWatch STRATEGY ──
+            Ploy(
+                id = "mission_tactics",
+                name ="MISSION TACTICS",
+                type = PloyType.STRATEGY,
+                lore = R.string.mission_tactics_lore,
+                description = R.string.mission_tactics_description
+            ),
+           
+            Ploy(
+                id = "the_long_vigil",
+                name = "THE LONG VIGIL",
+                type = PloyType.STRATEGY,
+                lore = R.string.the_long_vigil_lore,
+                description = R.string.the_long_vigil_description
+            ),
+            Ploy(
+                id = "the_shield_that_slays",
+                name = "THE SHIELD THAT SLAYS",
+                type = PloyType.STRATEGY,
+                lore = R.string.the_shield_that_slays_lore,
+                description = R.string.the_shield_that_slays_description
+            ),
+
+             Ploy(
+                id = "dw_no_fear",
+                name = "AND THEY SHALL KNOW NO FEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.dw_no_fear_lore,
+                description = R.string.dw_no_fear_description
+            )
+
+
+            // ── DeathWatch FIREFIGHT ──
+            Ploy(
+                id = "suffer_not_the_alien",
+                name = "SUFFER NOT THE ALIEN",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.suffer_not_the_alien_lore,
+                description = R.string.suffer_not_the_alien_description
+            ),
+           
+            Ploy(
+                id = "auspicator_tracking",
+                name = "AUSPICATOR TRACKING",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.auspicator_tracking_lore,
+                description = R.string.auspicator_tracking_description
+            ),
+            Ploy(
+                id = "advance_auspex_scan",
+                name = "ADVANCE AUSPEX SCAN",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.advance_auspex_scan_lore,
+                description = R.string.advance_auspex_scan_description
+            ),
+       
+         Ploy(
+            id = "dw_transhuman_physiology",
+            name = "TRANSHUMAN PHYSIOLOGY",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.dw_transhuman_physiology_lore,
+            description = R.string.dw_transhuman_physiology_description
+            )
+         ),
         
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──
