@@ -46,7 +46,7 @@ val DeathwatchBombardVeteran = Operative(
         ),
               WeaponProfile(
             name = "Fists",
-            type = WeaponType.RANGED,
+            type = WeaponType.MELEE,
             attacks = 4,
             hit = "3+",
             damage = "3/4",
