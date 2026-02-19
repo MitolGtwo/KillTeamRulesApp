@@ -114,6 +114,32 @@ object FactionRuleRepository {
 
         ),
 
+        //DeathWatch
+         "deathwatch" to listOf(
+            FactionRule(
+                id = "veteran_astartes",
+                title = "VETERAN ASTARTES",
+                lore = R.string.veteran_astartes_lore,
+                ruleText = R.string.veteran_astartes_description,
+
+            ),
+            FactionRule(
+                id = "special_issue_ammunition",
+                title = "SPECIAL ISSUE AMMUNITION",
+                lore = R.string.special_issue_ammunition_lore,
+                ruleText = R.string.special_issue_ammunition_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+                ),
+
+        ),
+
         
         //Wrecka Krew
         "wrecka_krew" to listOf(
