@@ -12,6 +12,7 @@ object OperativeSelectionRepository {
         "angels_of_death" to AngelsOfDeathOperativeSelection,
         "battle_clade" to BattlecladeOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
+        "death_Korps" to DeathKorpsOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection
     )
