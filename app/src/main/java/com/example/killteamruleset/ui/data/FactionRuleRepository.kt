@@ -140,6 +140,32 @@ object FactionRuleRepository {
 
         ),
 
+        //Elucidian Starstriders
+         "elucidian_star" to listOf(
+            FactionRule(
+                id = "warrant_of_trade",
+                title = "WARRANT OF TRADE",
+                lore = R.string.warrant_of_trade_lore,
+                ruleText = R.string.warrant_of_trade_description,
+
+            ),
+            FactionRule(
+                id = "privateer_support_assets",
+                title = "PRIVATEER SUPPORT ASSETS",
+                lore = R.string.privateer_support_assets_lore,
+                ruleText = R.string.privateer_support_assets_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+                ),
+
+        ),
+
         
         //Wrecka Krew
         "wrecka_krew" to listOf(
