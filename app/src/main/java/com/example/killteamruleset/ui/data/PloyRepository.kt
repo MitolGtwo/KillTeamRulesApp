@@ -327,6 +327,68 @@ object PloyRepository {
             description = R.string.dw_transhuman_physiology_description
             )
          ),
+
+        "elucidian_star" to listOf(
+            // ── Elucidian STRATEGY ──
+            Ploy(
+                id = "lethal_proximity",
+                name ="LETHAL PROXIMITY",
+                type = PloyType.STRATEGY,
+                lore = R.string.lethal_proximity_lore,
+                description = R.string.lethal_proximity_description
+            ),
+            Ploy(
+                id = "elucidian_stake_claim",
+                name = "STAKE CLAIM",
+                type = PloyType.STRATEGY,
+                lore = R.string.elucidian_stake_claim_lore,
+                description = R.string.elucidian_take_claim_description
+            ),
+            Ploy(
+                id = "undaunted_explorers",
+                name = "UNDAUNTED EXPLORERS",
+                type = PloyType.STRATEGY,
+                lore = R.string.undaunted_explorers_lore,
+                description = R.string.undaunted_explorers_description
+            ),
+            Ploy(
+                id = "quick_march",
+                name = "QUICK MARCH",
+                type = PloyType.STRATEGY,
+                lore = R.string.quick_march_lore,
+                description = R.string.quick_march_description
+            )
+
+            // ── Elucidian FIREFIGHT ──
+            Ploy(
+            id = "elucidian_combined_arms",
+            name = "COMBINED ARMS",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.elucidian_combined_arms_lore,
+            description = R.string.elucidian_combined_arms_description
+            ),
+            Ploy(
+                id = "elucidian_survivalist",
+                name = "SURVIVALIST",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.elucidian_survivalist_lore,
+                description = R.string.elucidian_survivalist_description
+            ),
+            Ploy(
+                id = "great_endurance",
+                name = "GREAT ENDURANCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.great_endurance_lore,
+                description = R.string.great_endurance_description
+            ),
+            Ploy(
+                id = "well_drilled",
+                name = "WELL-DRILLED",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.well_drilled_lore,
+                description = R.string.well_drilled_description
+            ),
+        ),
         
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──
