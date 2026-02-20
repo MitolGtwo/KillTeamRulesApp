@@ -128,6 +128,63 @@ object EquipmentRepository {
             )
         ),
 
+        "DeathWatch" to listOf(
+
+            Equipment(
+                id = "digital_weapons",
+                name = "Digital Weapons",
+                lore =R.string.digital_weapons_lore,
+                description = R.string.digital_weapons_description
+            ),
+            Equipment(
+                id = "scrutavore_servothrall",
+                name = "SCRUTAVORE SERVO-THRALL",
+                lore =R.string.scrutavore_servothrall_lore,
+                description = R.string.scrutavore_servothrall_description
+            ),
+            Equipment(
+                id = "sanctusv_biooscryer_cuffs",
+                name = "SANCTUS-V VIOSCRYER CUFFS",
+                lore =R.string.sanctusv_biooscryer_cuffs_lore,
+                description = R.string.sanctusv_biooscryer_cuffs_description
+            ),
+            Equipment(
+                id = "ammunition_reserve",
+                name = "AMMUNITION RESERVE",
+                lore =R.string.ammunition_reserve_lore,
+                description = R.string.ammunition_reserve_description
+            )
+        ),
+
+
+        "elucidian_star" to listOf(
+
+            Equipment(
+                id = "armoured_undersuit",
+                name = "ARMOURED UNDERSUIT",
+                lore =R.string.armoured_undersuit_lore,
+                description = R.string.armoured_undersuit_description
+            ),
+            Equipment(
+                id = "hot_shot_capacitor_packs",
+                name = "HOT SHOT CAPACITOR PACKS",
+                lore =R.string.hot_shot_capacitor_packs_lore,
+                description = R.string.hot_shot_capacitor_packs_description
+            ),
+            Equipment(
+                id = "improved_coordinates_uplink",
+                name = "IMPROVED COORDINATES UPLINK",
+                lore =R.string.improved_coordinates_uplink_lore,
+                description = R.string.improved_coordinates_uplink_description
+            ),
+            Equipment(
+                id = "rapid_gunnery",
+                name = "RAPID GUNNERY",
+                lore =R.string.rapid_gunnery_lore,
+                description = R.string.rapid_gunnery_description
+            )
+        ),
+
 
         
         "wrecka_krew" to listOf(
