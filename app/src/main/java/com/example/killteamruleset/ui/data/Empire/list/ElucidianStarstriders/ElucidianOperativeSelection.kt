@@ -1,4 +1,4 @@
-package com.example.killteamruleset.ui.data.Empire.list.DeathKorps
+package com.example.killteamruleset.ui.data.Empire.list.ElucidianStarstriders
 
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
