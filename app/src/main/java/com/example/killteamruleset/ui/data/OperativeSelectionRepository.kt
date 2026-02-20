@@ -14,6 +14,7 @@ object OperativeSelectionRepository {
         "celestian_insidiants" to CelestianOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,
+        "elucidian_star" to ElucidianOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection
     )
