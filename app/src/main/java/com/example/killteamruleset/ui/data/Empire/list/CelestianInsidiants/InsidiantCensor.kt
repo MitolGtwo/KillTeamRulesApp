@@ -41,20 +41,20 @@ val InsidiatCensor: Operative
         abilities = listOf(
             Ability(
                 title = "Virge of Admonition Icon Bearer",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.virge_admonition_icon_bearer_usage,
+                description = R.string.virge_admonition_icon_bearer_description
             ),
 
             Ability(
                 title = "Null Field",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.null_field_usage,
+                description = R.string.null_field_description
             ),
 
        Ability(
                 title = "Nullifying Ritual",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.nullifyin_ritual_usage,
+                description = R.string.nullifyin_ritual_description
             )
         ),
 

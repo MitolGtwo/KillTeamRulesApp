@@ -71,7 +71,7 @@ val DeathwatchWatchSergeant = Operative(
         "IMPERIUM",
         "ADEPTUS ASTARTES",
         "LEADER",
-        "WATCH SERGEANT"
+        "WATCH SERGEANT",
         "32MM"
 
     )

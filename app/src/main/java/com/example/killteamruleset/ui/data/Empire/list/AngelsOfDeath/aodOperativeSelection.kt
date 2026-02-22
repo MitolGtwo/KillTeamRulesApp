@@ -27,11 +27,11 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
         indent = 1
     ),
     OperativeSelectionRule(
-        text = "Hand Flamer or Heavy bolt Pistol",
+        text = "• Hand Flamer or Heavy bolt Pistol",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Chainsword, Power Fist, Power Weapon or Thunder Hammer",
+        text = "• Chainsword, Power Fist, Power Weapon or Thunder Hammer",
         indent = 2
     ),
   OperativeSelectionRule(
@@ -44,11 +44,11 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
         indent = 1
     ),
     OperativeSelectionRule(
-        text = "Auto Bolt Rifle, Bolt Rifle or Stalker Bolt Rifle",
+        text = "• Auto Bolt Rifle, Bolt Rifle or Stalker Bolt Rifle",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Chainsword, Power Fist, Power Weapon or Thunder Hammer",
+        text = "• Chainsword, Power Fist, Power Weapon or Thunder Hammer",
         indent = 2
     ),
   OperativeSelectionRule(
@@ -62,7 +62,7 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
 
   
     OperativeSelectionRule(
-        text = "**ASSAULT INTERCESSOR GRENADIER**",
+        text = "ASSAULT INTERCESSOR GRENADIER",
         indent = 1
     ),
 
@@ -87,15 +87,15 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
    OperativeSelectionRule(
-        text = "Auto Bolt Rifle; Fists",
+        text = "• Auto Bolt Rifle; Fists",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Bolt Rifle; Fists",
+        text = "• Bolt Rifle; Fists",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Stalker Bolt Rifle: Fists",
+        text = "• Stalker Bolt Rifle: Fists",
         indent = 2
     ),
 
@@ -105,15 +105,15 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
    OperativeSelectionRule(
-        text = "Auto Bolt Rifle; Fists",
+        text = "• Auto Bolt Rifle; Fists",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Bolt Rifle; Fists",
+        text = "• Bolt Rifle; Fists",
         indent = 2
     ),
   OperativeSelectionRule(
-        text = "Stalker Bolt Rifle: Fists",
+        text = "• Stalker Bolt Rifle: Fists",
         indent = 2
     ),
 

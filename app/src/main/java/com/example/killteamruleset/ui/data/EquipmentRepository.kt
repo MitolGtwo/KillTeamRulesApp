@@ -118,7 +118,18 @@ object EquipmentRepository {
                 id = "hand_axes",
                 name = "HAND AXES",
                 lore =R.string.hand_axes_lore,
-                description = R.string.hand_axes_description
+                description = R.string.hand_axes_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Hand Axe",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
             ),
             Equipment(
                 id = "gas_bombardment",
@@ -128,7 +139,7 @@ object EquipmentRepository {
             )
         ),
 
-        "DeathWatch" to listOf(
+        "deathwatch" to listOf(
 
             Equipment(
                 id = "digital_weapons",
@@ -185,8 +196,201 @@ object EquipmentRepository {
             )
         ),
 
+        "exaction_squad" to listOf(
 
-        
+            Equipment(
+                id = "reinforced_mirrovisor",
+                name = "REINFORCED MIRROR-VISOR",
+                lore =R.string.reinforced_mirrovisor_lore,
+                description = R.string.reinforced_mirrovisor_description
+            ),
+            Equipment(
+                id = "manacles",
+                name = "MANACLES",
+                lore =R.string.manacles_lore,
+                description = R.string.manacles_description
+            ),
+            Equipment(
+                id = "strobing_phosphorlumen",
+                name = "STROBING PHOSPHOR-LUMEN",
+                lore =R.string.strobing_phosphorlumen_lore,
+                description = R.string.strobing_phosphorlumen_description
+            ),
+            Equipment(
+                id = "special_issue_shells",
+                name = "SPECIAL ISSUE SHELLS",
+                lore =R.string.special_issue_shells_lore,
+                description = R.string.special_issue_shells_description
+            )
+        ),
+
+        "hunter_clade" to listOf(
+
+            Equipment(
+                id = "rad_bombardment",
+                name = "RAD BOMBARDMENT",
+                lore =R.string.rad_bombardment_lore,
+                description = R.string.rad_bombardment_description
+            ),
+            Equipment(
+                id = "redundacy_systems",
+                name = "REDUNDANCY SYSTEMS",
+                lore =R.string.redundacy_systems_lore,
+                description = R.string.redundacy_systems_description
+            ),
+            Equipment(
+                id = "refractor_field",
+                name = "REFRACTOR FIELD",
+                lore =R.string.refractor_field_lore,
+                description = R.string.refractor_field_description
+            ),
+            Equipment(
+                id = "extremis_mindlink",
+                name = "EXTREMIS MIND-LINK",
+                lore =R.string.extremis_mindlink_lore,
+                description = R.string.extremis_mindlink_description
+            )
+        ),
+
+        "imperial_navy_breachers" to listOf(
+
+            Equipment(
+                id = "rebreathers",
+                name = "REBREATHERS",
+                lore =R.string.rebreathers_lore,
+                description = R.string.rebreathers_description
+            ),
+            Equipment(
+                id = "slugs",
+                name = "SLUGS",
+                lore =R.string.slugs_lore,
+                description = R.string.slugs_description
+            ),
+            Equipment(
+                id = "combat_stimms",
+                name = "COMBAT STIMMS",
+                lore =R.string.combat_stimms_lore,
+                description = R.string.combat_stimms_description
+            ),
+            Equipment(
+                id = "system_override_device",
+                name = "SYSTEM OVERRIDE DEVICE",
+                lore =R.string.system_override_device_lore,
+                description = R.string.system_override_device_description
+            )
+        ),
+
+        "inquisitorial_agents" to listOf(
+
+            Equipment(
+                id = "inquisitorial_rosette",
+                name = "INQUISITORIAL ROSETTE",
+                lore =R.string.inquisitorial_rosette_lore,
+                description = R.string.inquisitorial_rosette_description
+            ),
+            Equipment(
+                id = "combat_daggers",
+                name = "COMBAT DAGGERS",
+                lore =R.string.combat_daggers_lore,
+                description = R.string.combat_daggers_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Combat Dagger",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+
+            ),
+            Equipment(
+                id = "armoured_bodysuits",
+                name = "ARMOURED BODYSUITS",
+                lore =R.string.armoured_bodysuits_lore,
+                description = R.string.armoured_bodysuits_description
+            ),
+            Equipment(
+                id = "servo_skull",
+                name = "SERVO-SKULL",
+                lore =R.string.servo_skull_lore,
+                description = R.string.servo_skull_description
+            )
+        ),
+
+        "kasrkin" to listOf(
+
+            Equipment(
+                id = "foregrip",
+                name = "FOREGRIP",
+                lore =R.string.foregrip_lore,
+                description = R.string.foregrip_description
+            ),
+            Equipment(
+                id = "long_range_scope",
+                name = "LONG-RANGE SCOPE",
+                lore =R.string.long_range_scope_lore,
+                description = R.string.long_range_scope_description
+            ),
+            Equipment(
+                id = "relics_of_cadia",
+                name = "RELICS OF CADIA",
+                lore =R.string.relics_of_cadia_lore,
+                description = R.string.relics_of_cadia_description
+            ),
+            Equipment(
+                id = "combat_daggers",
+                name = "COMBAT DAGGERS",
+                lore =R.string.kasrkin_combat_daggers_lore,
+                description = R.string.kasrkin_combat_daggers_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Combat Dagger",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+
+            ),
+        ),
+
+
+        "novitiates" to listOf(
+
+            Equipment(
+                id = "icon_of_faith",
+                name = "ICON OF FAITH",
+                lore =R.string.icon_of_faith_lore,
+                description = R.string.icon_of_faith_description
+            ),
+            Equipment(
+                id = "sanctified_rounds",
+                name = "SANCTIFIED ROUNDS",
+                lore =R.string.sanctified_rounds_lore,
+                description = R.string.sanctified_rounds_description
+            ),
+            Equipment(
+                id = "auto_chastisers",
+                name = "AUTO-CHASTISERS",
+                lore =R.string.auto_chastisers_lore,
+                description = R.string.auto_chastisers_description
+            ),
+            Equipment(
+                id = "holy_embrocations",
+                name = "HOLY EMBROCATIONS",
+                lore =R.string.kasrkin_combat_daggers_lore,
+                description = R.string.holy_embrocations_description,
+
+
+            ),
+        ),
+
         "wrecka_krew" to listOf(
 
             Equipment(

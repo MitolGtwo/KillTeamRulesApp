@@ -48,7 +48,7 @@ val DeathwatchBlademasterVeteran = Operative(
               Lethal(5)
             ),
             extraRules = listOf("*Phase Sweep")
-            )
+
         )
     ),
 
@@ -70,7 +70,7 @@ val DeathwatchBlademasterVeteran = Operative(
         "DEATHWATCH",
         "IMPERIUM",
         "ADEPTUS ASTARTES",
-        "BLADEMASTER"
+        "BLADEMASTER",
         "32MM"
 
     )

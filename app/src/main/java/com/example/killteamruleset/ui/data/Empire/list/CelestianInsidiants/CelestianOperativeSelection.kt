@@ -9,12 +9,12 @@ val CelestianOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
     OperativeSelectionRule(
-        text = "*Relic Condemnor Stakethrower; Relic Bolt Pistol ; Null Mace"
+        text = "• Relic Condemnor Stakethrower; Relic Bolt Pistol ; Null Mace",
         indent = 1
     ),
 
       OperativeSelectionRule(
-        text = "*Inferno Pistol; Null Mace"
+        text = "• Inferno Pistol; Null Mace",
         indent = 1
     ),
 

@@ -3,11 +3,6 @@
 
     <!--Death Korps-->
 
-    <string name="deathkorps_bruiser"><![CDATA[
-
-        Bruiser
-
-]]></string>
 
     <string name="deathkorps_bruiser_usage"><![CDATA[
 
@@ -26,11 +21,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_confidant_secondincommand"><![CDATA[
-
-        Second in Command
-
-]]></string>
 
     <string name="deathkorps_confidant_secondincommand_usage"><![CDATA[
 
@@ -46,11 +36,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_confidant_directive"><![CDATA[
-
-        Directive
-
-]]></string>
 
     <string name="deathkorps_confidant_directive_usage"><![CDATA[
 
@@ -68,11 +53,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_medic"><![CDATA[
-
-        Medic!
-
-]]></string>
 
     <string name="deathkorps_medic_usage"><![CDATA[
 
@@ -95,11 +75,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_medikit"><![CDATA[
-
-        MEDKIT
-
-]]></string>
 
     <string name="deathkorps_medikit_usage"><![CDATA[
 
@@ -117,11 +92,6 @@
 ]]></string>
 
 
-    <string name="deathkorps_sapper_mine"><![CDATA[
-
-        Mine Layer
-
-]]></string>
 
     <string name="deathkorps_sapper_mine_usage"><![CDATA[
 
@@ -137,11 +107,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_sapper_detonate"><![CDATA[
-
-        Detonate
-
-]]></string>
 
     <string name="deathkorps_sapper_detonate_usage"><![CDATA[
 
@@ -158,12 +123,6 @@
              is not in the killzone, after shooting this weapon the Mine marker is removed
              from the killzone. In a killzone that use close quarter rule, this weapon has
              Lethal 5+ weapon rule.
-
-]]></string>
-
-    <string name="deathkorps_spotter"><![CDATA[
-
-        SPOT
 
 ]]></string>
 
@@ -184,11 +143,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_trooper"><![CDATA[
-
-        Group Activation
-
-]]></string>
 
     <string name="deathkorps_trooper_usage"><![CDATA[
 
@@ -206,11 +160,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_veteranguardsmen"><![CDATA[
-
-        Veteran Guardsman
-
-]]></string>
 
     <string name="deathkorps_veteranguardsmen_usage"><![CDATA[
 
@@ -225,11 +174,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_veteran_bionics"><![CDATA[
-
-        Bionics
-
-]]></string>
 
     <string name="deathkorps_veteran_bionics_usage"><![CDATA[
 
@@ -244,11 +188,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_vox_relayorders"><![CDATA[
-
-        Relay Orders
-
-]]></string>
 
     <string name="deathkorps_vox_relayorders_usage"><![CDATA[
 
@@ -265,11 +204,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_vox_signal"><![CDATA[
-
-        Signal
-
-]]></string>
 
     <string name="deathkorps_vox_signal_usage"><![CDATA[
 
@@ -286,11 +220,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_watchmaster_adaptive"><![CDATA[
-
-        Adaptive Orders
-
-]]></string>
 
     <string name="deathkorps_watchmaster_adaptive_usage"><![CDATA[
 
@@ -306,11 +235,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_watchmaster_bring"><![CDATA[
-
-        Bring it Down!
-
-]]></string>
 
     <string name="deathkorps_watchmaster_bring_usage"><![CDATA[
 
@@ -326,11 +250,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_zealot_theemperor"><![CDATA[
-
-        The Emperor Protects!!
-
-]]></string>
 
     <string name="deathkorps_zealot_theemperor_usage"><![CDATA[
 
@@ -345,11 +264,6 @@
 
 ]]></string>
 
-    <string name="deathkorps_zealot_uplifting"><![CDATA[
-
-        Uplifting Primer
-
-]]></string>
 
     <string name="deathkorps_zealot_uplifting_usage"><![CDATA[
 
@@ -367,16 +281,246 @@
 
     <!--Faction Rules-->
 
+    <string name="guardsman_orders_lore"><![CDATA[
+The soldiers of the Death Korps of Krieg are
+unquestioningly loyal to their officers, following barked
+orders with a speed and efficiency that is the envy of
+many other regiments.
+
+]]></string>
+
+    <string name="guardsman_orders_description"><![CDATA[
+STRATEGIC GAMBIT and SUPPORT. A friendly
+DEATH KORPS WATCHMASTER operative
+can issue a GUARDSMAN ORDER. Whenever it
+does, select one GUARDSMAN ORDER for all
+friendly DEATH KORPS operatives within 6\" of it
+to receive.\n
+\n
+
+Whenever a friendly operative receives a
+GUARDSMAN ORDER, apply its rules until the end
+of the turning point. Operatives cannot benefit
+from more than one GUARDSMAN ORDER at
+once; they only benefit from the most recent
+order they received during the turning point.\n
+\n
+-TAKE AIM!\n
+Ranged weapons of operatives that received
+this order (excluding mortar barrage and remote
+detonator) have the Ceaseless weapon rule.\n
+\n
+-FIX BAYONETS!\n
+Melee weapons of operatives that received this
+order have the Ceaseless weapon rule.\n
+\n
+-DIG IN!\n
+Whenever an operative is shooting
+a friendly operative thats received this order, if
+you can retain any cover saves, you can re-roll
+any of your defence dice results of one result (e.g.
+results of 2).\n
+\n
+-MOVE! MOVE! MOVE!\n
+Whenever an operative thats received this order
+is performing the Reposition action, add 1\" to its
+Move stat.
+]]></string>
 
     <!--Equipment-->
+    <string name="chronometer_lore"><![CDATA[
+Krieg combat operations are performed to strict
+schedules. Synchronised chronometers ensure
+operatives adhere to the time frames laid down
+by command.
+]]></string>
 
+    <string name="chronometer_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT** in the first
+or second turning point. Each friendly **DEATH
+KORPS** operative wholly within your territory
+can immediately perform a free **Dash** action in an
+order of your choice, but each that does so must
+end that move closer to an opponents drop zone
+or killzone edge.\n
+\n
+You cannot use this **STRATEGIC GAMBIT** and
+the Regroup strategy ploy during the same
+turning point.
 
+]]></string>
+
+    <string name="comm_beads_lore"><![CDATA[
+Vox-casters and receivers allow Death Korps soldiers
+to remain in contact even as they are separated in the
+confusion of battle.
+]]></string>
+
+    <string name="comm_beads_description"><![CDATA[
+Whenever a friendly **DEATH KORPS
+WATCHMASTER** or friendly **DEATH KORPS
+CONFIDANT** operative issues a **GUARDSMAN
+ORDER**, you can use this rule. If you do, instead
+of each friendly **DEATH KORPS** operative within
+6\" of it receiving that order, you can select one
+friendly **DEATH KORPS** operative to receive
+that order.
+]]></string>
+
+    <string name="hand_axes_lore"><![CDATA[
+Issued primarily as tools rather than weapons, these
+sharp-bladed axes can be utilised in melee should close
+confines prevent the use of bayonets.
+]]></string>
+
+    <string name="hand_axes_description"><![CDATA[
+Friendly DEATH KORPS operatives have the
+following melee weapon:
+]]></string>
+
+    <string name="gas_bombardment_lore"><![CDATA[
+Calling for artillery support, the Death Korps request
+a chemical barrage, knowing full well that even
+enviro-sealed uniforms will not protect them from the
+poisonous fumes.
+]]></string>
+
+    <string name="gas_bombardment_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT**. Place
+your Gas marker in the killzone; it cannot be
+placed underneath Vantage terrain. Whenever
+an operative is within 3\" of that marker, subtract
+1 from its APL stat. In the Ready step of the next
+Strategy phase, remove that marker. Note that
+an operatives APL stat is only changed while its
+within 3\" of that marker. If it moves more than
+3\" from that marker, its APL stat is no longer
+changed by this rule.
+]]></string>
     <!--Ploys-->
 
     <!--Stategy ploys-->
+    <string name="siege_warfare_lore"><![CDATA[
+Death Korps infantry are at home in the dreadful grind of
+siege warfare, repelling their foes with overlapping fields
+of withering fire.
+]]></string>
 
+    <string name="siege_warfare_description"><![CDATA[
+Friendly **DEATH KORPS** operatives ranged
+weapons have the Saturate and Accurate 1
+weapon rules.
+]]></string>
+
+    <string name="take_cover_lore"><![CDATA[
+Used to fighting in the close confines of trenches and
+tunnels, Krieg soldiers make excellent use of whatever
+meagre cover they can find.
+]]></string>
+
+    <string name="take_cover_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**DEATH KORPS** operative, if you can retain any
+cover saves, improve that friendly operatives
+Save stat by 1.
+]]></string>
+
+    <string name="clear_the_line_lore"><![CDATA[
+Should the enemy break through, the soldiers of Krieg
+are disciplined enough to retain their composure and
+repel the foe.
+]]></string>
+
+    <string name="clear_the_line_description"><![CDATA[
+Friendly **DEATH KORPS** operatives melee
+weapons have the Accurate 1 weapon rule.
+Whenever a friendly **DEATH KORPS** operative is
+fighting wholly within your territory, or whenever
+its retaliating, its melee weapons also have the
+Severe weapon rule.
+]]></string>
+
+    <string name="regroup_lore"><![CDATA[
+Even in the confusion of combat, the Death Korps of
+Krieg retain their focus, returning to formation as they
+destroy the enemy with accurate las fire.
+]]></string>
+
+    <string name="regroup_description"><![CDATA[
+**SUPPORT.** Select one friendly **DEATH KORPS**
+operative thats more than 3\" from enemy
+operatives. Each other friendly **DEATH KORPS**
+operative within 5\" of that operative and not
+within control range of enemy operatives can
+immediately perform a free **Dash** action in an
+order of your choice, but each that does so must
+end that move closer to that operative. Note that
+a Comms Device from universal equipment only
+affects the second distance of this rule.\n
+\n
+You cannot use this ploy and the Chronometer
+faction equipment **STRATEGIC GAMBIT** during
+the same turning point.
+]]></string>
     <!--Firefight ploys-->
 
+    <string name="inspirational_leadership_lore"><![CDATA[
+The greatest officers lead by example, issuing orders
+with calm precision even as they cut down their foes.
+]]></string>
 
+    <string name="inspirational_leadership_description"><![CDATA[
+**SUPPORT**. Use this firefight ploy during a friendly
+**DEATH KORPS WATCHMASTER** or **DEATH
+KORPS CONFIDANT** operatives activation,
+before or after it performs an action. It issues a
+**GUARDSMAN ORDER**.
+]]></string>
+
+    <string name="combined_arms_lore"><![CDATA[
+Precisely coordinated fire is capable of taking down
+even the most potent of enemies.
+]]></string>
+
+    <string name="combined_arms_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice
+for a friendly **DEATH KORPS** operative, if its
+shooting an enemy operative thats been shot by
+another friendly **DEATH KORPS** operative during
+this turning point. You can re-roll any of your
+attack dice.
+]]></string>
+
+    <string name="in_life_shame_lore"><![CDATA[
+The Cult of Krieg demand sacrifice in the name of
+the Emperor, so those who are yet to give their lives
+must atone by achieving ever greater feats upon
+the battlefield.
+]]></string>
+
+    <string name="in_life_shame_description"><![CDATA[
+Use this firefight ploy when a friendly **DEATH
+KORPS** operative is activated and given an
+Engage order. It receives every **GUARDSMAN
+ORDER**. This takes precedence over the normal
+rule that operatives cannot benefit from more
+than one **GUARDSMAN ORDER** at once.
+]]></string>
+
+    <string name="in_death_atonement_lore"><![CDATA[
+All soldiers of Krieg are destined to die in battle. The
+Cult of Sacrifice teaches that in death they will earn
+forgiveness for the sins of their forebears.
+]]></string>
+
+    <string name="in_death_atonement_description"><![CDATA[
+Use this firefight ploy when a ready friendly
+**DEATH KORPS** operative is incapacitated, if it
+isnt within control range of enemy operatives.
+Before its removed from the killzone, it can
+immediately perform one free action and you
+can change its order to do so. Note that friendly
+operative is injured for the duration of that action.
+]]></string>
 
 </resources>

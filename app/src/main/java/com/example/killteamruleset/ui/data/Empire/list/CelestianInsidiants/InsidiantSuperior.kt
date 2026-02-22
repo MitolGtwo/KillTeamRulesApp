@@ -80,14 +80,14 @@ val InsidiatSuperior: Operative
         abilities = listOf(
             Ability(
                 title = "Holy Example",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.holy_example_usage,
+                description = R.string.holy_example_description
             ),
 
        Ability(
                 title = "Spiritual Mentor",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.spiritual_mentor_usage,
+                description = R.string.spiritual_mentor_description
             )
         ),
 

@@ -36,6 +36,7 @@ val DeathwatchDemolisherVeteran = Operative(
               Shock,
               Stun
             )
+          )
     ),
 
     abilities = listOf(

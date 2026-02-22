@@ -23,7 +23,7 @@ val EluciaVhane = Operative(
             keywords = listOf(
               Range(8),
               Piercing_Crits(1),
-              Seek_Light
+                Seek_light
             )
         ),
         WeaponProfile(

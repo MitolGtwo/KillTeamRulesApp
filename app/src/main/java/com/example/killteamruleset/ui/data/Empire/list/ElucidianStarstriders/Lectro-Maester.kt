@@ -27,7 +27,7 @@ val LectroMaester = Operative(
             )
         ),
         WeaponProfile(
-            name = "Gun Butt,
+            name = "Gun Butt",
             type = WeaponType.MELEE,
             attacks = 3,
             hit = "4+",

@@ -33,7 +33,7 @@ val DeathwatchMarksmanVeteran = Operative(
             keywords = listOf(
               Heavy("Dash Only"),
               Lethal(5),
-              Piecing_Crits(1)
+                Piercing_Crits(1)
 
             )
         ),
@@ -62,7 +62,7 @@ val DeathwatchMarksmanVeteran = Operative(
         "DEATHWATCH",
         "IMPERIUM",
         "ADEPTUS ASTARTES",
-        "MARKSMAN"
+        "MARKSMAN",
         "32MM"
 
     )

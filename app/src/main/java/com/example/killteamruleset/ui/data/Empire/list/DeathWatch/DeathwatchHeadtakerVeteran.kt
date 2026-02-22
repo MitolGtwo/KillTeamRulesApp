@@ -34,6 +34,7 @@ val DeathwatchHeadtakerVeteran = Operative(
             damage = "4/5",
             keywords = listOf(
             )
+          )
     ),
 
     abilities = listOf(

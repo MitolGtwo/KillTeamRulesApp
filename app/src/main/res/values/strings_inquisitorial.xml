@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Inquisitorial Agents-->
+
+    <string name="scrivener_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="scrivener_description"><![CDATA[
+Each subsequent time your opponent uses each ploy
+during the battle (excluding Command Re-roll), if this operative
+is in the killzone, you gain 1CP (to a maximum of 2CP per
+turning point).
+    ]]></string>
+
+    <string name="irrefutable_report_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="irrefutable_report_description"><![CDATA[
+Whenever this operative contests an
+objective marker or one of your mission markers, it always
+controls that marker. This takes precedence over all other rules.
+    ]]></string>
+
+    <string name="lightly_armed_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="lightly_armed_description"><![CDATA[
+This operative cannot use any weapons that arent on its datacard, or perform unique actions.
+    ]]></string>
+
+    <string name="inquisitorial_hunter_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_hunter_description"><![CDATA[
+This operative can perform the Charge action while it has a Conceal order.
+    ]]></string>
+
+    <string name="weathered_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="weathered_description"><![CDATA[
+Once per turning point, when this operative is
+fighting or retaliating, in the Resolve Attack Dice step, you can
+ignore the damage inflicted on it from one normal success.
+    ]]></string>
+
+    <string name="no_escape_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="no_escape_description"><![CDATA[
+Whenever an enemy operative would perform the
+**Fall Back** action while within control range of this operative,
+you can use this rule. If you do, roll one D6, subtracting 1 from
+the result if that enemy operative has a higher Wounds stat than
+this operative, and adding 1 if that enemy operative is wounded:
+on a 4+, that enemy operative cannot perform that action during
+that activation/counteraction (the AP spent on it isnt refunded).
+    ]]></string>
+
+    <string name="extract_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="extract_description"><![CDATA[
+Whenever an enemy operative is incapacitated within this operatives control range, you gain 1CP.
+    ]]></string>
+
+    <string name="hexorcise_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="hexorcise_description"><![CDATA[
+Whenever an enemy operative
+is visible to and within 6\n" of this operative,
+your opponent cannot re-roll their attack
+or defence dice for that operative.
+    ]]></string>
+
+    <string name="chasten_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="chasten_description"><![CDATA[
+Select one enemy operative thats a valid target for this operative and within 6\" of it,
+then select one additional rule (including a unique action) that enemy operative has
+on its datacard (excluding a weapon rule). Until the end of that enemy operatives
+next activation, its treated as not having that additional rule.\n\n
+
+This operative cannot perform this action while within control range of an
+enemy operative.
+    ]]></string>
+
+    <string name="inquisitorial_tomes_usage"><![CDATA[
+        Passive/ Strategic Gambit
+    ]]></string>
+
+    <string name="inquisitorial_tomes_description"><![CDATA[
+**STRATEGIC GAMBIT** if this operative is in the
+killzone and/or when this operative is
+activated. Select one of the following
+**INQUISITORIAL TOME** rules for
+this operative to have, and one for a
+friendly **INQUISITORIAL AGENT
+TOME-SKULL** operative to have (they
+can be the same, and ignore the rule you
+didnt select for each operative):\n
+\n
+• **Denunciation:** Whenever a friendly
+**INQUISITORIAL AGENT** operative
+is shooting against, fighting against or
+retaliating against an enemy operative
+within 2\n" of friendly operatives with
+this rule, add 1 to the Atk stat of that
+friendly operatives weapons.\n
+\n
+• **Sanctification:** Whenever an enemy
+operative is shooting against, fighting
+against or retaliating against a friendly
+**INQUISITORIAL AGENT** operative
+within 2\" of friendly operatives with this
+rule, subtract 1 from the Atk stat of that
+enemy operative’s weapons.
+    ]]></string>
+
+    <string name="inquisitorial_icon_bearer_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_icon_bearer_description"><![CDATA[
+Whenever determining control of a marker, treat
+this operatives APL stat as 1 higher. Note this isnt a change to
+its APL stat, so any changes are cumulative with this.
+    ]]></string>
+
+    <string name="consecrated_tome_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="consecrated_tome_description"><![CDATA[
+This operative can have an **INQUISITORIAL TOME** rule (see **INTERROGATOR**).
+Note it keeps that rule even if that friendly **INTERROGATOR**
+operative is removed from the killzone.
+    ]]></string>
+
+    <string name="inquisitorial_group_activation_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_group_activation_description"><![CDATA[
+Whenever this operative is expended, you
+must then activate a ready friendly **INQUISITORIAL AGENT
+INTERROGATOR** operative (if able) before your opponent
+activates. The same is true in reverse (**INTERROGATOR**
+followed by **TOME-SKULL**). When that other operative is
+expended, your opponent then activates as normal.
+    ]]></string>
+
+    <string name="scry_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="scry_description"><![CDATA[
+**PSYCHIC.** Select one friendly **INQUISITORIAL AGENT** operative within 6\" of this operative, then select one of the
+following effects to last until the start of this operatives next activation, until its incapacitated or until it performs this action
+again (whichever comes first):\n
+\n
+• **Guidance: PSYCHIC.** Whenever the selected operative is shooting, fighting or retaliating, in the Roll Attack Dice step, you
+can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical
+success instead.\n
+\n
+• **Protection: PSYCHIC.** Whenever an operative is shooting the selected operative, in the Roll Defence Dice step, you can retain one
+of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="chem_mask_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="chem_mask_description"><![CDATA[
+You can ignore any changes to this operatives
+APL stat, and any changes to its stats from being injured. This
+operative isnt affected by enemy operatives Shock and Stun
+weapon rules.
+    ]]></string>
+
+    <string name="cruel_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="cruel_description"><![CDATA[
+Whenever this operative is shooting against, fighting
+against or retaliating against a wounded enemy operative, this
+operatives weapons have the Relentless weapon rule.
+    ]]></string>
+
+    <string name="inquisitorial_pistolier_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_pistolier_description"><![CDATA[
+You can ignore any changes to the Hit stat of this operatives ranged weapons.
+    ]]></string>
+
+    <string name="pistol_barrage_usage"><![CDATA[
+        1 AP
+    ]]></string>
+
+    <string name="pistol_barrage_description"><![CDATA[
+Perform two free **Shoot** actions with this operative (this takes precedence over
+action restrictions). You must select a profile of its scoped plasma pistol for one
+action and its suppressed autopistol for the other (in any order).\n\n
+
+This operative cannot perform this action while it has a **Conceal** order, or during an
+activation in which it performed the **Shoot** action (or vice versa).
+    ]]></string>
+
+    <string name="irrepressible_purpose_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="irrepressible_purpose_description"><![CDATA[
+If this operative is incapacitated during
+the **Fight** action, you can strike the enemy operative in that
+sequence with one of your unresolved successes before its
+removed from the killzone.
+    ]]></string>
+
+    <string name="inquisitorial_zealot_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_zealot_description"><![CDATA[
+Whenever an attack dice inflicts damage of 3 or more
+on this operative, roll one D6: on a 5+, subtract 1 from that
+inflicted damage.
+    ]]></string>
+
+    <string name="lobotomised_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="lobotomised_description"><![CDATA[
+Whenever this operative is activated, if its visible to and within 3\" of another friendly **INQUISITORIAL AGENT**
+operative (excluding **GUN SERVITOR**) or vice versa, add 1 to this operatives APL stat until the end of that activation.
+    ]]></string>
+
+    <string name="psychic_null_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="psychic_null_description"><![CDATA[
+**PSYCHIC** ranged weapons cannot inflict damage on this operative. For the effects of **PSYCHIC** actions, this
+operative cannot be selected and is never treated as being within those actions required distances. Whenever an operative is within
+6\" of this operative:\n
+\n
+• That operative cannot perform **PSYCHIC** actions or use **PSYCHIC** additional rules.\n
+• That operative cannot use **PSYCHIC** ranged weapons.\n
+• **PSYCHIC** melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.
+    ]]></string>
+
+    <string name="inquisitorial_medic_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="inquisitorial_medic_description"><![CDATA[
+The first time during each turning point that another friendly **INQUISITORIAL AGENT** operative would be incapacitated
+while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range
+of an enemy operative. If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated for
+the remainder of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must end that
+move within this operatives control range. Subtract 1 from this and that operatives APL stats until the end of their next activations
+respectively, and if this rule was used during that friendly operatives activation, that activation ends. You cannot use this rule if this
+operative is incapacitated, or if its a **Shoot** action and this operative would be a primary or secondary target.
+    ]]></string>
+
+    <string name="inquisitorial_medikit_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="inquisitorial_medikit_description"><![CDATA[
+Select one friendly **INQUISITORIAL AGENT** operative
+within this operatives control range to regain up to 2D3 lost
+wounds. It cannot be an operative that the Medic! rule was
+used on during this turning point.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="adaptive_equipment_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="adaptive_equipment_description"><![CDATA[
+You can do each of the following once per turning point:\n
+\n
+• One friendly **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** operative can perform the Smoke
+Grenade action.\n
+• One friendly **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** operative can perform the Stun
+Grenade action.\n
+\n
+The rules for these actions are found in universal equipment. Performing these actions using this rule doesnt count towards their
+action limits (i.e. if you also select those grenades from equipment).
+    ]]></string>
+
+    <string name="inquisitorial_signal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="inquisitorial_signal_description"><![CDATA[
+**SUPPORT.** Select one other friendly **INQUISITORIAL
+AGENT** operative in the killzone. Until the end of that
+operatives next activation, add 1 to its APL stat.\n\n
+
+This operative can perform this action twice during its
+activation, but cannot perform this action while within
+control range of an enemy operative.
+    ]]></string>
+
+    <!--Faction Rules-->
+    <string name="inquisitorial_requisition_lore"><![CDATA[
+Few authorities in the Imperium have greater jurisdiction than the Inquisition. An Inquisitor can, on
+a whim, requisition forces from virtually any of the Imperiums military branches
+]]></string>
+
+    <string name="inquisitorial_requisition_description"><![CDATA[
+**REQUISITIONED** operatives can be taken from
+one of the following groups to supplement an
+**INQUISITORIAL AGENT** kill team, as specified in
+this kill teams selection rules:\n
+\n
+• DEATH KORPS\n
+• EXACTION SQUAD\n
+• IMPERIAL NAVY BREACHER\n
+• KASRKIN\n
+• SISTER OF SILENCE\n
+• TEMPESTUS SCION\n
+\n
+These operatives have their faction keyword
+replaced in all instances on their datacards with
+**INQUISITORIAL AGENT** (unless they already
+have it). You cannot use ploys and equipment
+associated with a **REQUISITIONED** operatives
+former faction keyword, and you cannot use a
+**REQUISITIONED** operatives former faction rules
+unless specified on their Inquisitorial Requisition
+card (it only applies to those **REQUISITIONED**
+operatives). Note that with their new faction
+keyword, **REQUISITIONED** operatives can interact
+with the **INQUISITORIAL AGENT** rules.\n
+\n
+For example, a **REQUISITIONED VOX-OPERATOR**
+operative from the **DEATH KORPS** group would
+have its **DEATH KORPS** keyword replaced in all
+instances on its datacard with **INQUISITORIAL
+AGENT**. This allows you to select any other
+friendly **INQUISITORIAL AGENT** operative for its
+Signal unique action. However, the Guardsman
+Orders faction rule isnt permitted, so its Relay
+Orders additional rule would be ignored. It
+would now also be a valid operative for the
+**INQUISITORIAL AGENT MYSTIC** operatives Scry
+unique action.
+]]></string>
+
+
+    <string name="inquisitorial_deathkorps_description"><![CDATA[
+6 ** DEATH KORPS** operatives selected from the following list:\n
+\n
+• **BRUISER**\n
+• **CONFIDANT** with one of the following options:\n
+○ Boltgun or lasgun; bayonet\n
+○ Bolt pistol or relic laspistol; chainsword\n
+• **GUNNER** with flamer and bayonet*\n
+• **GUNNER** with grenade launcher and bayonet*\n
+• **GUNNER** with meltagun and bayonet*\n
+• **GUNNER** with plasma gun and bayonet*\n
+• **MEDIC**\n
+• **SAPPER**\n
+• **SNIPER***\n
+• **TROOPER**\n
+• **VETERAN**\n
+• **VOX-OPERATOR**\n
+• **ZEALOT**\n
+\n
+Other than TROOPER operatives, your kill team can only include each operative on this list once.\n
+\n
+You cannot select more than three of these * operatives combined.
+]]></string>
+
+
+    <string name="inquisitorial_exaction_squad_description"><![CDATA[
+5 **EXACTION SQUAD** operatives selected from the following list:\n
+\n
+• **CASTIGATOR**\n
+• **CHIRURGANT**\n
+• **GUNNER** with one of the following options:\n
+○ Grenade launcher; repression baton\n
+○ Heavy stubber; repression baton\n
+○ Webber; repression baton\n
+• **LEASHMASTER**\n
+• **MALOCATOR**\n
+• **MARKSMAN**\n
+• **REVELATUM**\n
+• **R-VR CYBER-MASTIFF**\n
+• **SUBDUCTOR**\n
+• **VIGILANT**\n
+• **VOX-SIGNIFIER**\n
+\n
+Other than **SUBDUCTOR** and **VIGILANT** operatives, your kill team can only include each
+operative on this list once. Your kill team can only include up to two **SUBDUCTOR** operatives.\n
+\n
+Permitted **EXACTION SQUAD **faction rules: Ruthless Efficiency, Repress.
+]]></string>
+
+
+    <string name="inquisitorial_imperial_navy_description"><![CDATA[
+5 **IMPERIAL NAVY BREACHER** operatives selected from the following list:\n
+\n
+• **ARMSMAN**\n
+• **AXEJACK**\n
+• **C.A.T. UNIT***\n
+• **ENDURANT**\n
+• **GHEISTSKULL**\n
+• **GRENADIER***\n
+• **HATCHCUTTER**\n
+• **SURVEYOR**\n
+• **VOID-JAMMER**\n
+• **GUNNER** with one of the following options:\n
+○ Navis las-volley; gun butt\n
+○ Meltagun; gun butt\n
+○ Plasma gun; gun butt\n
+\n
+Other than **ARMSMAN** operatives, your kill
+team can only include each operative on this
+list once. Your kill team can only include a
+**GHEISTSKULL** operative if it also includes a
+**VOID-JAMMER** operative, and it can only include
+a **C.A.T. UNIT** operative if it also includes a
+**SURVEYOR** operative.\n
+\n
+These operatives count as half a selection each,
+meaning you can select both of them and its
+treated as one selection in total.\n
+\n
+Permitted **IMPERIAL NAVY BREACHER** faction
+rule: Void Armour.
+]]></string>
+
+
+    <string name="inquisitorial_kasrkin_description"><![CDATA[
+5 **KASRKIN** operatives selected from the following list:\n
+\n
+• **COMBAT MEDIC**\n
+• **DEMO-TROOPER**\n
+• **GUNNER*** with flamer and gun butt\n
+• **GUNNER*** with grenade launcher and gun butt\n
+• **GUNNER*** with hot-shot volley gun and gun butt\n
+• **GUNNER*** with meltagun and gun butt\n
+• **GUNNER*** with plasma gun and gun butt\n
+• **RECON-TROOPER**\n
+• **SHARPSHOOTER***\n
+• **TROOPER**\n
+• **VOX-TROOPER**\n
+\n
+Other than **TROOPER** operatives, your kill team can only include each operative on this list once.\n
+\n
+You cannot select more than two of these * operatives combined.
+]]></string>
+
+
+    <string name="inquisitorial_sister_of_silence_description"><![CDATA[
+5 **SISTER OF SILENCE** operatives selected from the following list:\n
+\n
+• **PROSECUTOR**\n
+• **VIGILATOR**\n
+• **WITCHSEEKER**\n
+]]></string>
+
+
+    <string name="inquisitorial_tempestus_scions_description"><![CDATA[
+5 **TEMPESTUS SCION** operatives selected from the following list:\n
+\n
+• **GUNNER** with flamer and gun butt\n
+• **GUNNER** with grenade launcher and gun butt\n
+• **GUNNER** with hot-shot volley gun and gun butt\n
+• **GUNNER** with meltagun and gun butt\n
+• **GUNNER** with plasma gun and gun butt\n
+• **MEDIC**\n
+• **TROOPER**\n
+• **VOX-OPERATOR**\n
+\n
+Other than **TROOPER** operatives, your kill team
+can only include each operative on this list
+once. Your kill team can only include up to two
+**GUNNER** operatives.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="inquisitorial_rosette_lore"><![CDATA[
+A symbol of an Inquisitors near-boundless authority,
+the rosette is feared by all.
+]]></string>
+
+    <string name="inquisitorial_rosette_description"><![CDATA[
+Once per battle, when a friendly **INQUISITORIAL
+AGENT** operative is activated, if youve used the
+Quarry strategy ploy during this turning point, you
+can use this rule. If you do, you can select a new
+enemy operative to be your quarry until the end of
+the turning point.
+]]></string>
+
+    <string name="combat_daggers_lore"><![CDATA[
+In the press of melee combat, a simple dagger can be
+the difference between life and death.
+]]></string>
+
+    <string name="combat_daggers_description"><![CDATA[
+Friendly **INQUISITORIAL AGENT** operatives have
+the following melee weapon. Whenever a friendly
+**SISTER OF SILENCE** operative is using it, add 1 to
+its Atk stat.
+]]></string>
+
+    <string name="armoured_bodysuits_lore"><![CDATA[
+Lightweight yet tough, these form-fitting bodysuits
+provide an extra layer of protection to the wearer.
+]]></string>
+
+    <string name="armoured_bodysuits_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**INQUISITORIAL AGENT** operative (excluding
+**TOME-SKULL**) that has a 5+ Save stat, you can
+retain one of your defence dice results of 4 as a
+normal success
+]]></string>
+
+    <string name="servo_skull_lore"><![CDATA[
+Servo-skulls are diminutive floating servitors that can be
+crafted and programmed to assist their operators with a
+wide range of tasks.
+]]></string>
+
+    <string name="servo_skull_description"><![CDATA[
+Once per battle, one friendly **INQUISITORIAL
+AGENT** operative can perform a mission action
+for 1 less AP.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+
+    <string name="denounce_lore"><![CDATA[
+None escape the long arm of the Inquisition. Those
+denounced and proclaimed guilty quail before its
+vengeful Agents.
+]]></string>
+
+    <string name="denounce_description"><![CDATA[
+Select one enemy operative and roll one D3. In
+the Firefight phase of this turning point, that
+enemy operative cannot be activated or perform
+actions until its the last enemy operative to
+be activated, or your opponent has activated a
+number of enemy operatives equal to the result
+of the D3 (whichever comes first). This ploy costs
+you 1 additional CP for each previous time youve
+used it during the battle (e.g. 1CP the first time
+you would use it, 2CP the second time, etc.).
+]]></string>
+
+    <string name="intense_scrutiny_lore"><![CDATA[
+There is no hiding from the all-seeing eyes of the Inquisition.
+]]></string>
+
+    <string name="intense_scrutiny_description"><![CDATA[
+Whenever you are selecting a valid target for a
+friendly **INQUISITORIAL AGENT** operative,
+enemy operatives within 4\" of it cannot be in
+cover (instead of 2\"). While this can allow such
+operatives to be targeted (assuming they are
+visible), it does not remove their cover save (if
+any), unless the friendly **INQUISITORIAL AGENT**
+operative is within 2\" as normal.
+]]></string>
+
+    <string name="quarry_lore"><![CDATA[
+For those judged guilty, there is no escape. Once marked for execution, the Inquisitions quarry is doomed.
+]]></string>
+
+    <string name="quarry_description"><![CDATA[
+Select one enemy operative to be your quarry for the turning point. Whenever a friendly
+**INQUISITORIAL AGENT** operative is shooting
+against, fighting against or retaliating against your
+quarry, that friendly operatives weapons have
+the Ceaseless weapon rule. Whenever your quarry
+is incapacitated, you can select a new enemy
+operative to be your quarry (and can continue to
+do so during this turning point).
+]]></string>
+
+    <string name="irrefutable_jurisdiction_lore"><![CDATA[
+The Agents of the Inquisition are emboldened by their
+near-limitless authority, and will bow before neither
+traitor nor xenos.
+]]></string>
+
+    <string name="irrefutable_jurisdiction_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**INQUISITORIAL AGENT** operative thats within
+3\" of an objective marker, you can re-roll one
+of your defence dice. If that friendly operative
+contests that marker, you can re-roll any of your
+defence dice results of one result instead (e.g.
+results of 2).
+]]></string>
+
+    <!--Firefight ploys-->
+    <string name="absolute_authority_lore"><![CDATA[
+All who know of the Inquisition fear its limitless reach.
+Those unfortunate enough to draw the ire of its Agents
+are often stricken by fear.
+]]></string>
+
+    <string name="absolute_authority_description"><![CDATA[
+Use this firefight ploy during the battle, when
+an opponent uses a strategy or firefight ploy
+(excluding Command Re-roll or one that costs
+0CP). Their ploy isnt used, the CP spent on it is
+refunded and they cannot use that ploy again
+during this turning point. This ploy cannot be
+used to stop the same ploy more than once
+per battle.
+]]></string>
+
+    <string name="relentless_in_pursuit_lore"><![CDATA[
+The Inquisition pursues its foes with dogged and
+relentless determination.
+]]></string>
+
+    <string name="relentless_in_pursuit_description"><![CDATA[
+Use this firefight ploy when an enemy operative
+within 2\" of a ready friendly **INQUISITORIAL
+AGENT** operative performs an action in
+which it moves. After it moves, that friendly
+**INQUISITORIAL AGENT** operative can either
+perform a free **Reposition** action, but must end
+that move within 2\" of that enemy operative, or
+a free **Charge** action, but must end that move
+within control range of that enemy operative. If
+neither is possible, that friendly operative cannot
+perform those actions, this ploy is not used and the
+CP spent on it is refunded.
+]]></string>
+
+    <string name="the_emperor_will_lore"><![CDATA[
+The Agents of the Inquisition enforce the Emperors will.
+This authority emboldens them in their duties
+]]></string>
+
+    <string name="the_emperor_will_description"><![CDATA[
+Use this firefight ploy when a friendly
+**INQUISITORIAL AGENT** operative is activated.
+Until the end of that operatives activation, you
+can ignore any changes to its stats (including its
+weapons stats).
+]]></string>
+
+    <string name="intimidating_presence_lore"><![CDATA[
+Those that bear the sigils and authority of the Inquisition
+are rightly feared, even by the mightiest of foes.
+]]></string>
+
+    <string name="intimidating_presence_description"><![CDATA[
+Use this firefight ploy when an enemy
+operative visible to and within 3\" of a friendly
+**INQUISITORIAL AGENT** operative, or visible to
+and within 6\" of a friendly **MYSTIC** operative,
+performs the **Pick Up Marker** or a mission action
+(excluding **Operate Hatch**). Your opponent must
+spend 1 additional AP for that enemy operative to
+perform that action (if they cannot or choose not
+to, the AP spent on it is refunded).
+]]></string>
+
+</resources>

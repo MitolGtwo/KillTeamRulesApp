@@ -1,7 +1,7 @@
 package com.example.killteamruleset.ui.data.Empire.list
+
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
-
 
 val SkitariiRangerAlpha = Operative(
     name = "Skitarii Ranger Alpha",

@@ -7,9 +7,11 @@ import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing_Crits
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Silent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -42,11 +44,10 @@ val InsidiatReliquarius: Operative
                 damage = "2/2",
                 keywords = listOf(
                   Devastating(1),
-                  Piercing_Crits(1),
-                  Silent
+                    Piercing_Crits(1),
+                    Silent
                 ),
                 extraRules = listOf("*Anti-PSYKER")
-                )
         ),
            WeaponProfile(
                 name = "Gun butt",
@@ -58,19 +59,20 @@ val InsidiatReliquarius: Operative
                     Lethal(5),
                     Brutal
                 )
+           )
         ),
 
         abilities = listOf(
             Ability(
                 title = "Simulacrum Nullificatus Icon Bearer",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.simulacrum_nullificatus_usage,
+                description = R.string.simulacrum_nullificatus_description
             ),
 
             Ability(
                 title = "Devotion",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.devotion_usage,
+                description = R.string.devotion_description
             )
         ),
 

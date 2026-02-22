@@ -8,8 +8,10 @@ import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Seek
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Stun
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -46,19 +48,20 @@ val InsidiatDenuncia: Operative
                 keywords = listOf(
                     Shock
                 )
+            )
         ),
 
         abilities = listOf(
             Ability(
                 title = "Accusing Exorcist",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.accusing_exorcist_usage,
+                description = R.string.accusing_exorcist_description
             ),
 
             Ability(
                 title = "Speak of her Deeds",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.speak_of_her_deeds_usage,
+                description = R.string.speak_of_her_deeds_description
             )
         ),
 
@@ -70,3 +73,4 @@ val InsidiatDenuncia: Operative
             "32MM"
         )
     )
+

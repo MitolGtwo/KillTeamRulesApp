@@ -59,15 +59,18 @@ fun CharacterCard(
 
             Spacer(Modifier.height(16.dp))
 
-            // ✅ HEADER ONCE
-            WeaponTableHeader()
+            if (operative.weapons.isNotEmpty()) {
 
-            // ✅ WEAPON ROWS
-            operative.weapons.forEach { weapon ->
-                WeaponRow(
-                    weapon = weapon,
-                    onKeywordClick = { selectedKeyword = it }
-                )
+                Spacer(Modifier.height(16.dp))
+
+                WeaponTableHeader()
+
+                operative.weapons.forEach { weapon ->
+                    WeaponRow(
+                        weapon = weapon,
+                        onKeywordClick = { selectedKeyword = it }
+                    )
+                }
             }
 
             Spacer(Modifier.height(12.dp))

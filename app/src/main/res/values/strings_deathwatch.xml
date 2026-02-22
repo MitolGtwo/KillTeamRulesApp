@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AOD-->
+    <string name="brutal_assault_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="brutal_assault_description"><![CDATA[
+Whenever this operative is fighting, its heavy
+thunder hammer has the Brutal weapon rule. Whenever this
+operative performs the **Charge** action, its heavy thunder
+hammer has the Ceaseless weapon rule until the end of
+the activation/counteraction.
+]]></string>
+
+    <string name="aggresive_force_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="aggresive_force_description"><![CDATA[
+Whenever this operative is fighting or
+retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less
+damage on it. This isnt cumulative with the Shield that Slays
+strategy ploy.
+]]></string>
+
+
+    <string name="adaptive_armoury_usage"><![CDATA[
+        Operative Selection Step
+]]></string>
+
+    <string name="adaptive_armoury_description"><![CDATA[
+        You can select one additional equipment option.
+]]></string>
+
+    <string name="strategic_command_usage"><![CDATA[
+        Passive/ Once per battle
+]]></string>
+
+    <string name="strategic_command_description"><![CDATA[
+       You can do each of the following once per battle if this Operative is in the killzone:
+       \n
+       -use a **DEATHWATCH** strategy ploy for 0CP.
+       \n
+       -use a **DEATHWATCH** firefight ploy for 0CP.
+]]></string>
+
+    <string name="vigilant_marksman_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="vigilant_marksman_description"><![CDATA[
+      This Operative can perform the **Guard** action during its activation regardless of the killzone
+      (see close quarters rule, Kill Team : Tomb World).\n
+      \n
+      When using the close quarters rules, once per turning point, after this Operative performs
+      a free **Shoot** action on guard, it can immediately perform a free **Guard** action.
+      However, if it does, it cannot counteract during that tuning point (nor **Guard** twice if
+      its counteracted).
+]]></string>
+
+
+    <string name="gravchute_and_grapnel_launcher_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="gravchute_and_grapnel_launcher_description"><![CDATA[
+       Whenever this operative is
+climbing, treat the vertical distance as 2\" (regardless of how far
+the operative actually moves vertically). Whenever this operative
+is dropping, ignore the vertical distance.
+]]></string>
+
+    <string name="clandestine_headtaker_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="clandestine_headtaker_description"><![CDATA[
+This operative can perform the Charge
+action while it has a Conceal order. Whenever this operative is
+fighting against an operative it wasnt visible to at the start of
+the activation/counteraction, the first time you strike during
+that sequence, you can immediately resolve another of your
+successes as a strike (before your opponent)
+]]></string>
+
+    <string name="advance_omniscrambler_usage"><![CDATA[
+        Passive/ Strategic gambit
+]]></string>
+
+    <string name="advance_omniscrambler_description"><![CDATA[
+**STRATEGIC GAMBIT.** Select
+one enemy operative visible to or within 6\" of this operative,
+then roll one D6. In the Firefight phase of this turning point, that
+enemy operative cannot be activated or perform actions until one
+of the following is true:\n
+\n
+-Your opponent has activated a number of enemy operatives
+equal to the result of the D6.
+\n
+-Its the last enemy operative to be activated.
+]]></string>
+
+    <string name="auspex_triangulation_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="auspex_triangulation_description"><![CDATA[
+        The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n
+        \n
+        -This Operative isnt within control range of enemy Operatives.
+        \n
+        -The target of that **Shoot** action (primary target, if relevant) is
+visible to this operative.\n
+\n
+Note that it doesnt have to be this operative performing
+the **Shoot** action, and that any subsequent **Shoot** actions
+during that activation/counteraction must meet these same
+requirements (or that ploy has no effect on those subsequent
+**Shoot** actions).
+]]></string>
+
+    <string name="adaptive_swordmanship_usage"><![CDATA[
+       Passive
+]]></string>
+
+    <string name="adaptive_swordmanship_description"><![CDATA[
+You can ignore any changes to the Hit
+stat of this operatives xenophase blade. Whenever this operative
+is fighting or retaliating, you can resolve one of your successes
+before the normal order. If you do, that success must be used
+to block.
+]]></string>
+
+    <string name="phase_sweep_usage"><![CDATA[
+       Special Weapon Rule
+]]></string>
+
+    <string name="phase_sweep_description"><![CDATA[
+Whenever this operative performs the **Fight**
+action with this weapon profile, if it isnt incapacitated, it can
+immediately perform a free **Fight** action afterwards, but you
+must select this weapon profile and it can only fight against each
+enemy operative within its control range once per activation or
+counteraction using this weapon profile. This takes precedence
+over action restrictions, and you can continue to perform free
+Fight actions until this operative is incapacitated or has fought
+against every enemy operative within its control range.
+]]></string>
+
+    <string name="deathwatch_shield_usage"><![CDATA[
+       Special Weapon Rule
+]]></string>
+
+    <string name="deathwatch_shield_description"><![CDATA[
+Whenever this operative is fighting or retaliating with
+this weapon, each of your blocks can be allocated to block two
+unresolved successes (instead of one).
+]]></string>
+
+    <string name="storm_shield_usage"><![CDATA[
+       Passive
+]]></string>
+
+    <string name="storm_shield_description"><![CDATA[
+Whenever an operative is shooting this operative,
+worsen the x of the Piercing weapon rule by 1 (if any). Note that
+Piercing 1 would therefore be ignored.
+]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="veteran_astartes_lore"><![CDATA[
+These genetically modified superhumans are made to
+wage unending war. Their skills have been honed over
+long years of battle and further refined with specialist
+knowledge through their Long Vigil.
+]]></string>
+
+    <string name="veteran_astartes_description"><![CDATA[
+During each friendly DEATHWATCH operatives
+activation, it can perform either two Shoot
+actions or two Fight actions. If its two Shoot
+actions and an auxiliary grenade launcher, frag
+cannon, heavy plasma incinerator, infernus
+heavy bolter, plasma pistol or stalker bolt rifle is
+selected for both, or if a melta bomb is selected
+for either, 1 additional AP must be spent for the
+second action.\n\n
+
+Each friendly DEATHWATCH operative can
+counteract regardless of its order. Whenever it
+does, it can perform an additional 1AP action for
+free during that counteraction, but both actions
+must be different and you cannot perform a Fight
+and Shoot action during the same counteraction.
+]]></string>
+
+    <string name="special_issue_ammunition_lore"><![CDATA[
+The Deathwatch utilise a range of specialised
+ammunition in many of their weapons. Each type is
+designed to eliminate specific xenos foes
+]]></string>
+
+    <string name="special_issue_ammunition_description"><![CDATA[
+Once per turning point, when a friendly
+DEATHWATCH operative is performing the
+Shoot action, in the Select Weapon step, you
+can use this rule. If you do, select one of the
+following weapon rules for that operatives ranged
+weapons to have until the end of the action. This
+rule cannot be used with explosive grenades (see
+universal equipment) or melta bombs.\n
+\n
+-Blast 1\" (you cannot select thi if the weapon profile being used has the Torrent weapon rule)\n
+-Devastating 1\n
+-Lethal 5+\n
+-Piercing Crits 1\n
+-Saturate\n
+-Severe\n
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="digital_weapons_lore"><![CDATA[
+Various high-powered lasers, toxic needlers, incineration
+projectors and more are concealed as bionic implants or
+in the knuckles of gauntlets. They lack the power to be
+used at range, but can be triggered up close to exploit a
+weakness while the enemy fends off the main attack.
+]]></string>
+
+    <string name="digital_weapons_description"><![CDATA[
+Once per turning point, when a friendly
+**DEATHWATCH** operative performs the Fight
+action, at the start of the Roll Attack Dice step,
+you can use this rule. If you do, inflict 1 damage
+on the enemy operative in that sequence.
+]]></string>
+
+    <string name="scrutavore_servothrall_lore"><![CDATA[
+This specialised servo-skull circles a kill teams
+deployment on anti-grav motors, consuming data at
+a voracious rate before dissecting it and feeding the
+resultant analyses to the battle-brothers to provide
+maximum strategic awareness. Many are built upon
+the skulls of loyal serfs, though some are constructed
+around the sanctified craniums of defeated xenos.
+]]></string>
+
+    <string name="scrutavore_servothrall_description"><![CDATA[
+Once per turning point, during a friendly
+**DEATHWATCH** operatives activation, you can
+use this rule. If you do, during that activation,
+that operative can perform a mission action for 1
+less AP.\n
+\n
+Having an enemy operative within its control
+range doesnt prevent that friendly operative
+from performing that mission action. However,
+in such an instance, after it does so, you and
+your opponent roll-off. If your opponent wins,
+you cannot use this equipment for the rest of
+the battle.
+]]></string>
+
+    <string name="sanctusv_biooscryer_cuffs_lore"><![CDATA[
+Developed by Techmarines and Apothecaries of the
+Castilos Nullifact watch fortress, these vambracemounted monitron relays offer unparalleled analysis
+and purgation of a range of bio-threats to the wearers
+augmented physiology.
+]]></string>
+
+    <string name="sanctusv_biooscryer_cuffs_description"><![CDATA[
+Once during each friendly **DEATHWATCH**
+operatives activation, before or after it performs
+an action, if its not within control range of enemy
+operatives, you can use this rule. If you do, select
+one of the following:\n
+\n
+
+-That friendly operative regains up to D3
+lost wounds.\n
+-Remove any changes to that friendly
+operatives APL stat.\n
+-Remove one of the following tokens that
+friendly operative has (before that tokens
+activation effects are resolved, if relevant):
+Neutron Fragment, Poison, Terrorchem.
+]]></string>
+
+    <string name="ammunition_reserve_lore"><![CDATA[
+Awarded to kill teams whose marksmanship is as
+efficient as it is lethal, additional caches of individually
+crafted shells, fuel canisters and ammunition cells serve
+to secure victory during the most dangerous missions.
+]]></string>
+
+    <string name="ammunition_reserve_description"><![CDATA[
+Once per battle, you can use the Special Issue
+Ammunition faction rule for up to two Shoot
+actions during one turning point, but you must
+select different weapon rules for both uses. This
+takes precedence over the normal Special Issue
+Ammunition rules.
+]]></string>
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+
+    <string name="mission_tactics_lore"><![CDATA[
+Through collated strategic data and hard-won combat
+experience, the Deathwatch possess the tactics to
+combat almost any foe
+]]></string>
+
+    <string name="mission_tactics_description"><![CDATA[
+Select Conceal or Engage. Whenever a friendly
+**DEATHWATCH** operative is shooting against or
+fighting against an enemy operative that has that
+order, that friendly operative’s weapons have the
+Balanced weapon rule.
+]]></string>
+
+    <string name="the_long_vigil_lore"><![CDATA[
+The Deathwatch guard some of the most dangerous
+stretches of the Imperium. Their vow to stand firm is
+at the heart of their vigil; they will see their foes dead
+before they abandon the Emperors realm.
+]]></string>
+
+    <string name="the_long_vigil_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**DEATHWATCH** operative thats wholly within
+your territory, you can re-roll one of your
+defence dice
+]]></string>
+
+    <string name="the_shield_that_slays_lore"><![CDATA[
+To enter the infested holds of the xenos is to be assailed
+by the most inhuman of abominations and technology, a
+foulness that the Deathwatch are trained to resist.
+]]></string>
+
+    <string name="the_shield_that_slays_description"><![CDATA[
+Whenever a friendly **DEATHWATCH** operative is
+wholly within your opponents territory, Normal
+Dmg of 4 or more inflicts 1 less damage on it.
+]]></string>
+
+    <string name="dw_no_fear_lore"><![CDATA[
+Space Marines possess extraordinary courage and are
+utterly unflinching in the face of terrifying horrors and
+overwhelming odds.
+]]></string>
+
+    <string name="dw_no_fear_description"><![CDATA[
+You can ignore any changes to the stats of
+friendly DEATHWATCH operatives from being
+injured (including their weapons’ stats).
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+
+    <string name="suffer_not_the_alien_lore"><![CDATA[
+Every tool at their disposal, every scrap of knowledge,
+is sharpened upon the whetstone of the Deathwatchs
+hatred of the alien.
+]]></string>
+
+    <string name="suffer_not_the_alien_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice
+for a friendly **DEATHWATCH** operative, if its
+shooting against or fighting against an operative
+that doesnt have the CHAOS or IMPERIUM
+keyword. You can re-roll any of your attack dice.
+]]></string>
+
+    <string name="auspicator_tracking_lore"><![CDATA[
+Neurally connected to a battle-brothers senses,
+auspicator lenses can improve their data prescience to
+almost precognitive levels.
+]]></string>
+
+    <string name="auspicator_tracking_description"><![CDATA[
+Use this firefight ploy when a friendly
+**DEATHWATCH** operative is counteracting,
+before it performs any actions. You can change
+its order
+]]></string>
+
+    <string name="advance_auspex_scan_lore"><![CDATA[
+Between unstinting sweeps of their bioscryer cuffs,
+their inbuilt auspexes warning of hostile threats and the
+augmented instincts of the Deathwatch themselves, no
+lurking threat can long evade their sights.
+]]></string>
+
+    <string name="advance_auspex_scan_description"><![CDATA[
+Use this firefight ploy when a friendly
+**DEATHWATCH** operative performs the
+**Shoot** action. Until the end of the activation/
+counteraction, its ranged weapons have the
+Saturate weapon rule and enemy operatives
+cannot be obscured.
+]]></string>
+
+    <string name="dw_transhuman_physiology_lore"><![CDATA[
+The genetically modified physiology of a Space
+Marine is capable of resisting wounds that would kill a
+lesser being.
+]]></string>
+
+    <string name="dw_transhuman_physiology_description"><![CDATA[
+Use this firefight ploy when an operative is
+shooting a friendly **DEATHWATCH** operative,
+in the Roll Defence Dice step. You can retain
+one of your normal successes as a critical
+success instead.
+]]></string>
+
+
+</resources>

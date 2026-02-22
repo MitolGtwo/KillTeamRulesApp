@@ -52,6 +52,8 @@ val DeathwatchBombardVeteran = Operative(
             damage = "3/4",
             keywords = listOf(
             )
+        )
+
     ),
 
     abilities = listOf(

@@ -48,14 +48,14 @@ val InsidiatAbjuror: Operative
         abilities = listOf(
             Ability(
                 title = "Shield",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.celestian_shield_usage,
+                description = R.string.celestian_shield_description
             ),
 
             Ability(
                 title = "Holy Defender",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.holy_defender_usage,
+                description = R.string.holy_defender_description
             )
         ),
 

@@ -1,7 +1,17 @@
 package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.FactionRule
+import com.example.killteamruleset.ui.model.Heavy
+import com.example.killteamruleset.ui.model.Lethal
+import com.example.killteamruleset.ui.model.Piercing
+import com.example.killteamruleset.ui.model.Piercing_Crits
+import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Silent
+import com.example.killteamruleset.ui.model.Torrent
+import com.example.killteamruleset.ui.model.WeaponProfile
+import com.example.killteamruleset.ui.model.WeaponType
 
 object FactionRuleRepository {
 
@@ -61,13 +71,6 @@ object FactionRuleRepository {
                 ruleText = R.string.martyrdoom_description,
 
             ),
-            FactionRule(
-                id = "benedictions",
-                title = "BENEDICTIONS",
-                lore = R.string.benedictions_lore,
-                ruleText = R.string.benedictions_description,
-
-                ),
              
               FactionRule(
                 id = "weapons_of_the_witch_hunters",
@@ -79,7 +82,7 @@ object FactionRuleRepository {
 
                FactionRule(
                 id = "inspiration",
-                title = INSPIRATION",
+                title = "INSPIRATION",
                 lore = R.string.inspiration_lore,
                 ruleText = R.string.inspiration_description,
 
@@ -154,6 +157,74 @@ object FactionRuleRepository {
                 title = "PRIVATEER SUPPORT ASSETS",
                 lore = R.string.privateer_support_assets_lore,
                 ruleText = R.string.privateer_support_assets_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Archeotech Beam",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "3+",
+                        damage = "6/7",
+                        keywords = listOf(
+                            Heavy("Reposition Only"),
+                            Piercing(2),
+                            Silent
+                        )
+
+                    ),
+                    WeaponProfile(
+                        name = "Plasma Battery",
+                        type = WeaponType.RANGED,
+                        attacks = 5,
+                        hit = "4+",
+                        damage = "5/6",
+                        keywords = listOf(
+                            Heavy("Reposition Only"),
+                            Lethal(5),
+                            Piercing(1),
+                            Silent
+                        )
+                    ),
+                    WeaponProfile(
+                        name = "Macrocannon",
+                        type = WeaponType.RANGED,
+                        attacks = 5,
+                        hit = "4+",
+                        damage = "4/5",
+                        keywords = listOf(
+                            Heavy("Reposition Only"),
+                            Piercing_Crits(1),
+                            Saturate,
+                            Silent,
+                            Torrent(2)
+                        )
+
+                    ),
+                    WeaponProfile(
+                        name = "Guided Shell",
+                        type = WeaponType.MELEE,
+                        attacks = 5,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                            Blast(2),
+                            Heavy("Reposition Only"),
+                            Silent
+                        )
+
+                    ),
+                    WeaponProfile(
+                        name = "Cluster Bomb",
+                        type = WeaponType.RANGED,
+                        attacks = 5,
+                        hit = "4+",
+                        damage = "2/3",
+                        keywords = listOf(
+                            Blast(3),
+                            Heavy("Reposition Only"),
+                            Silent
+                        )
+                    )
+                )
 
                 ),
             FactionRule(
@@ -166,6 +237,194 @@ object FactionRuleRepository {
 
         ),
 
+        "exaction_squad" to listOf(
+            FactionRule(
+                id = "ruthless_efficiency",
+                title = "RUTHLESS EFFICIENCY",
+                lore = R.string.ruthless_efficiency_lore,
+                ruleText = R.string.ruthless_efficiency_description,
+
+                ),
+            FactionRule(
+                id = "marked_for_justice",
+                title = "MARKED FOR JUSTICE",
+                lore = R.string.marked_for_justice_lore,
+                ruleText = R.string.marked_for_justice_description,
+
+                ),
+            FactionRule(
+                id = "repress",
+                title = "REPRESS",
+                lore = R.string.repress_lore,
+                ruleText = R.string.repress_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+
+            ),
+        //Hunter Clade
+        "hunter_clade" to listOf(
+            FactionRule(
+                id = "doctrina_imperatives",
+                title = "DOCTRINA IMPERATIVES",
+                lore = R.string.doctrina_imperatives_lore,
+                ruleText = R.string.doctrina_imperatives_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+        //Imperial Navy breachers
+        "imperial_navy_breachers" to listOf(
+            FactionRule(
+                id = "void_armour",
+                title = "VOID ARMOUR",
+                lore = R.string.void_armour_lore,
+                ruleText = R.string.void_armour_description,
+                ),
+            FactionRule(
+                id = "breach_and_clear",
+                title = "BREACH AND CLEAR",
+                lore = R.string.breach_and_clear_lore,
+                ruleText = R.string.breach_and_clear_description,
+            ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+        //Inquisitorial Agent
+        "inquisitorial_agents" to listOf(
+            FactionRule(
+                id = "inquisitorial_requisition",
+                title = "INQUISITORIAL REQUISITION",
+                lore = R.string.inquisitorial_requisition_lore,
+                ruleText = R.string.inquisitorial_requisition_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_deathkorps",
+                title = "DEATH KORPS",
+                ruleText = R.string.inquisitorial_deathkorps_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_exaction_squad",
+                title = "EXACTION SQUAD",
+                ruleText = R.string.inquisitorial_exaction_squad_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_imperial_navy",
+                title = "IMPERIAL NAVY BREACHERS",
+                ruleText = R.string.inquisitorial_imperial_navy_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_kasrkin",
+                title = "KASRKIN",
+                ruleText = R.string.inquisitorial_kasrkin_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_sister_of_silence",
+                title = "SISTERS OF SILENCE",
+                ruleText = R.string.inquisitorial_sister_of_silence_description,
+            ),
+            FactionRule(
+                id = "inquisitorial_tempestus_scions",
+                title = "TEMPESTUS SCIONS",
+                ruleText = R.string.inquisitorial_tempestus_scions_description,
+            ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+        //Kasrkin
+        "kasrkin" to listOf(
+            FactionRule(
+                id = "skill_at_arms",
+                title = "SKILL AT ARMS",
+                lore = R.string.skill_at_arms_lore,
+                ruleText = R.string.skill_at_arms_description,
+                ),
+            FactionRule(
+                id = "light_em_up",
+                title = "Light ’Em Up",
+                lore = R.string.light_em_up_lore,
+                ruleText = R.string.light_em_up_description,
+            ),
+            FactionRule(
+                id = "strike_fast",
+                title = "Strike Fast",
+                lore = R.string.strike_fast_lore,
+                ruleText = R.string.strike_fast_description,
+            ),
+            FactionRule(
+                id = "ice_in_your_veins",
+                title = "Ice In Your Veins",
+                lore = R.string.ice_in_your_veins_lore,
+                ruleText = R.string.ice_in_your_veins_description,
+            ),
+            FactionRule(
+                id = "for_cadia",
+                title = "For Cadia!",
+                lore = R.string.for_cadia_lore,
+                ruleText = R.string.for_cadia_description,
+            ),
+
+            FactionRule(
+                id = "rapid_fire",
+                title = "RAPID FIRE",
+                lore = R.string.rapid_fire_lore,
+                ruleText = R.string.rapid_fire_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+
+            ),
+
+
+        //Novitiate
+        "novitiates" to listOf(
+            FactionRule(
+                id = "acts_of_faith",
+                title = "WRECKA RAMPAGE",
+                lore = R.string.acts_of_faith_lore,
+                ruleText = R.string.acts_of_faith_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+
+        ),
         
         //Wrecka Krew
         "wrecka_krew" to listOf(

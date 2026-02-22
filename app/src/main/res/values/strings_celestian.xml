@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Celestine-->
+
+    <string name="celestian_shield_usage"><![CDATA[
+
+        Special Weapon Rule
+
+]]></string>
+
+    <string name="celestian_shield_description"><![CDATA[
+Whenever this operative is fighting or retaliating with this weapon profile, each of your blocks can be allocated to block two
+unresolved successes (instead of one).
+]]></string>
+
+
+    <string name="holy_defender_usage"><![CDATA[
+
+        Passive/ Once per turn
+
+]]></string>
+
+    <string name="holy_defender_description"><![CDATA[
+Once per turning point, when a friendly
+**CELESTIAN INSIDIANT** operative visible to and within 2\"
+of this operative is selected as the valid target of a **Shoot** action
+or to fight against during the **Fight** action, you can use this rule.
+If you do, this operative becomes the valid target or is fought
+against (as appropriate) instead (even if it wouldnt normally
+be valid for this). If its the **Fight** action, treat this operative
+as being within the fighting operatives control range for the
+duration of that action. If its the **Shoot** action, this operative is
+only in cover or obscured if the original target was.\n
+\n
+This rule has no effect if its the **Shoot** action and the ranged
+weapon has the Blast or Torrent weapon rule.
+]]></string>
+
+    <string name="holy_example_usage"><![CDATA[
+
+        Passive/ Free firefight ploy
+
+]]></string>
+
+    <string name="holy_example_description"><![CDATA[
+Once per turning point, if this operative is **INSPIRING**, you can use a firefight ploy for 0CP if this is the specified
+**CELESTIAN INSIDIANT** operative (including Command Re-roll if the attack or defence dice was rolled for this operative).
+
+]]></string>
+
+    <string name="spiritual_mentor_usage"><![CDATA[
+
+        1AP
+
+]]></string>
+
+    <string name="spiritual_mentor_description"><![CDATA[
+**SUPPORT.** Select one friendly **CELESTIAN
+INSIDIANT** operative visible to and within 6\" of this
+operative. That operative becomes **INSPIRING**.\n\n
+
+This operative cannot perform this action while within
+control range of an enemy operative, or more than once per
+turning point.
+]]></string>
+
+
+
+
+    <string name="virge_admonition_icon_bearer_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="virge_admonition_icon_bearer_description"><![CDATA[
+Whenever determining control of a marker, treat this operatives APL stat as 1 higher. Note this
+isnt a change to its APL stat, so any changes are cumulative
+with this
+
+]]></string>
+
+
+
+    <string name="null_field_usage"><![CDATA[
+    Passive
+]]></string>
+
+    <string name="null_field_description"><![CDATA[
+This operative starts the battle with a null range
+of 1\". Whenever an enemy operative is within null range of
+this operative, subtract 2\" from the Move stat of that enemy
+operative and worsen the Hit stat of its weapons by 1 (this isnt
+cumulative with being injured).
+    ]]></string>
+
+
+
+    <string name="nullifyin_ritual_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="nullifyin_ritual_description"><![CDATA[
+Add 1 to this operatives null range (to a maximum of 5\").
+Nullification tokens in the marker/token guide are numbered,
+so use the numbered token equal to this operatives
+null range.\n\n
+
+This operative cannot perform this action while within
+control range of an enemy operative, or more than once per
+turning point.
+    ]]></string>
+
+    <string name="inspirational_pyre_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="inspirational_pyre_description"><![CDATA[
+Once per turning point, when this Operative
+inflicts damage on an enemy operative with either profile of its
+hand flamer but doesnt incapacitate it, you can use this rule. If
+you do, you can select one friendly **CELESTIAN INSIDIANT**
+Operative within 6\" of this operative to become **INSPIRING**.
+    ]]></string>
+
+    <string name="torrent0_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="torrent0_description"><![CDATA[
+Torrent 0\" means you cannot select secondary
+targets, but this weapon still has the Torrent weapon rule for all
+other rules purposes, e.g. the Condensed Stronghold rule (see
+Killzone: Volkus, Kill Team Core Book).
+    ]]></string>
+
+    <string name="accusing_exorcist_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="accusing_exorcist_description"><![CDATA[
+Whenever this operative is **INSPIRING**, the Suspect & Eliminate strategy ploy costs you 0CP if the enemy
+operative or marker you select is visible to or within 6\" of this operative.
+    ]]></string>
+
+    <string name="speak_of_her_deeds_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="speak_of_her_deeds_description"><![CDATA[
+**SUPPORT.** Select an **INSPIRING** friendly **CELESTIAN
+INSIDIANT** operative visible to and within 6\" of this
+operative. That operative is no longer **INSPIRING**. Then,
+select another friendly **CELESTIAN INSIDIANT**
+operative visible to and within 6\" of this operative. Resolve
+one **BENEDICTION** from the Martyrdom faction rule on
+that operative (excluding Exigence).
+    ]]></string>
+
+    <string name="zealous_ultimatum_usage"><![CDATA[
+
+        Passive / Strategic Gambit / Once per battle
+
+    ]]></string>
+
+    <string name="zealous_ultimatum_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT.** Select one enemy operative within 8\" of this operative and issue
+an ultimatum to it. Your opponent must accept or decline that ultimatum (if its a non-player operative, roll one D6: on a 4+, the
+ultimatum is accepted, otherwise its declined).\n
+\n
+If the ultimatum is accepted, whenever this operative is fighting against or retaliating against that enemy operative, add 1 to the
+Atk stat of this operatives blessed broadsword. The first time this operative incapacitates that enemy operative while fighting or
+retaliating during the battle, add 1 to the Atk stat of this operatives blessed broadsword until the end of the battle. In either case, this
+is to a maximum of 5.\n
+\n
+If the ultimatum is declined, whenever that enemy operative is fighting against or retaliating against a friendly **CELESTIAN
+INSIDIANT** operative, subtract 1 from the Atk stat of that enemy operatives weapons.
+    ]]></string>
+
+
+    <string name="celestian_blade_stance_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="celestian_blade_stance_description"><![CDATA[
+Whenever this operative is fighting or retaliating,
+you can resolve one of your successes before the normal order.
+If you do, that success must be used to block.
+    ]]></string>
+
+    <string name="simulacrum_nullificatus_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="simulacrum_nullificatus_description"><![CDATA[
+Whenever determining control of a marker, treat the total APL stat of enemy operatives
+that contest it as 1 lower if at least one of those enemy
+operatives is within 3\n" of this operative. Note this isnt a change
+to the APL stat, so any changes are cumulative with this.
+    ]]></string>
+
+    <string name="devotion_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="devotion_description"><![CDATA[
+At the end of each of this operatives activations,
+if its **INSPIRING** and it controls an objective marker or
+one of your mission markers, one friendly **CELESTIAN
+INSIDIANT** operative this operative is visible to and within 6\"
+of becomes **INSPIRING**.
+    ]]></string>
+
+    <string name="inspired_strike_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="inspired_strike_description"><![CDATA[
+Whenever this operative is **INSPIRING**, add 1 to the Critical Dmg stat of weapons on its datacard.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="martyrdoom_lore"><![CDATA[
+Vaunted veterans of the Orders Militant, Celestian
+Insidiants hunt witches with extreme prejudice. Those
+struck down in the course of their duties become
+martyrs, their deaths only serving to harden the resolve
+of their surviving sisters.
+]]></string>
+
+    <string name="martyrdoom_description"><![CDATA[
+Whenever an **INSPIRING** friendly **CELESTIAN
+INSIDIANT** operative is incapacitated, before
+its removed from the killzone, select one other
+friendly **CELESTIAN INSIDIANT** operative that
+operative is visible to or within 6" of.
+
+Then, that selected operative gains one
+**BENEDICTION** (incapacitated operatives cannot
+be selected for a **BENEDICTION**).\n
+
+BENEDICTION   //  EFFECT
+\n
+Ardour        //    Until the end of the battle, add 1 to that Operatives APL stat, you cant do this with your SUPERIOR
+\n
+Wrath         //    Until the end of the battle, weapons of that Operative have the Ceaseless rule.
+\n
+Restoration   //    That Operative regains up to D3+2 lost Wounds.
+\n
+Exigence      //    That Operative can perform a free Charge or Dash action (cannot move more than 3\"), but it must end that move closer to that incapacitated INSPIRING Operative.
+]]></string>
+
+
+    <string name="weapons_of_the_witch_hunters_lore"><![CDATA[
+Celestian Insidiants bear all manner of esoteric
+weapons, armour and equipment intended to shield
+them from sorcery and impede the ability of their quarry
+to channel malefic power.
+    ]]></string>
+
+    <string name="weapons_of_the_witch_hunters_description"><![CDATA[
+PSYCHIC ranged weapons cannot inflict damage
+on friendly CELESTIAN INSIDIANT operatives.
+For the effects of PSYCHIC actions, friendly
+CELESTIAN INSIDIANT operatives cannot be
+selected and are never treated as being within
+those actions required distances. Whenever an
+operative is within 3\" of a friendly CELESTIAN
+INSIDIANT operative:\n\n
+
+• That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.
+• That operative cannot use PSYCHIC ranged weapons.
+• PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n
+\n
+Some weapons in this teams rules have the Anti-PSYKER weapon rule below.\n
+
+*Anti-PSYKER: Whenever this weapon is being used against an operative that has the PSYKER
+keyword, it has the Lethal 5+ weapon rule.
+    ]]></string>
+
+    <string name="inspiration_lore"><![CDATA[
+Veteran Celestians of the Orders Militant lead by
+example, inspiring their sisters by throwing themselves
+into the heaviest fighting against the deadliest
+of enemies.
+    ]]></string>
+
+    <string name="inspiration_description"><![CDATA[
+Whenever a friendly CELESTIAN INSIDIANT operative:\n
+\n
+• Incapacitates an enemy operative that has a Wounds stat of 6 or more, that friendly
+operative becomes INSPIRING.\n
+• Performs the Charge action, before it moves, it becomes INSPIRING.\n
+\n
+Whenever a friendly CELESTIAN INSIDIANT
+operative is INSPIRING, weapons on its datacard
+have the Severe weapon rule.
+    ]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="psyk_out_grenades_lore"><![CDATA[
+Powerful psyk-out grenades are particularly potent
+against psykers.
+]]></string>
+
+    <string name="psyk_out_grenades_description"><![CDATA[
+This equipment allows you to select two utility
+grenades from the utility grenades equipment
+(see universal equipment) and they must all be
+stun grenades. If you also select that equipment
+as normal, you cannot select any stun grenades
+(i.e. to give you more than two). Whenever an
+operative takes a stun test as a result of a friendly
+**CELESTIAN INSIDIANT** operative performing
+the **Stun Grenade** action, if the result is a 3+,
+also inflict damage on that first operative equal
+to the dice result halved (rounding up). If that
+first operative has the **PSYKER** keyword, inflict
+damage on it equal to the dice result instead.
+]]></string>
+
+    <string name="vocifera_mortis_lore"><![CDATA[
+Upon the death of its bearer, this device transmits
+a sombre requiem across the squad’s vox-channel,
+broadcasting the sisters martyrdom.
+]]></string>
+
+    <string name="vocifera_mortis_description"><![CDATA[
+Once per battle, when an **INSPIRING**
+friendly **CELESTIAN INSIDIANT** operative is
+incapacitated, you can use this rule. If you do,
+for the Martyrdom faction rule, the other friendly
+**CELESTIAN INSIDIANT** operative you select
+can be one that isn’t visible to or within 6\" of
+that operative.
+]]></string>
+
+    <string name="saintly_relics_lore"><![CDATA[
+The witch hunters carry a variety of devotional esoterica
+believed to shield them from harm, enabling them to
+continue their holy duties.
+]]></string>
+
+    <string name="saintly_relics_description"><![CDATA[
+Whenever an attack dice would inflict damage on
+a friendly **CELESTIAN INSIDIANT** operative, you
+can use this rule. If you do, roll one D6, or two D6
+if that operative is **INSPIRING**: if any result is a 6,
+ignore the damage inflicted from that attack dice.
+You cannot ignore more than one attack dice per
+action and two attack dice per battle this way.
+
+]]></string>
+
+    <string name="auto_flagellator_lore"><![CDATA[
+The most devout of Celestian Insidiants may bear
+beneath their power armour instruments of selfflagellation. At times of great import, these devices
+inflict agonising pain upon the body, focusing the mind
+and spirit and driving the recipient to inspirational acts
+of zealotry.
+]]></string>
+
+    <string name="auto_flagellator_description"><![CDATA[
+Whenever a friendly **CELESTIAN INSIDIANT**
+operative is activated, you can use this rule. If
+you do, roll one D6 and inflict damage on that
+operative equal to half the result (rounding
+up); on a 4+, that operative also becomes
+**INSPIRING**. You cannot make more than one
+friendly operative **INSPIRING** using this rule per
+turning point.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="suspect_eliminate_lore"><![CDATA[
+Ruthless in their pursuit of the witch, Celestian
+Insidiants are swift to condemn those they suspect of
+heresy. Protestations of innocence are treated with the
+callous disregard they deserve.
+]]></string>
+
+    <string name="suspect_eliminate_description"><![CDATA[
+Select one enemy operative or marker. If you
+select an enemy operative, that operative and
+each other enemy operative visible to and within
+2\" of it gains one of your Suspicion tokens until
+the end of the turning point. If you selected a
+marker, each enemy operative contesting that
+marker gains one of your Suspicion tokens until
+the end of the turning point.\n\n
+
+Whenever a friendly **CELESTIAN INSIDIANT**
+operative is shooting against or fighting against
+an operative that has one of your Suspicion
+tokens, that friendly operatives weapons have
+the Punishing weapon rule.
+]]></string>
+
+    <string name="wrathful_determination_lore"><![CDATA[
+Once the Celestian Insidiants have detected the spoor
+of sorcery, they will pursue their targets through hails
+of fire.
+]]></string>
+
+    <string name="wrathful_determination_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**CELESTIAN INSIDIANT** operative that has
+an **Engage** order, you can re-roll one of your
+defence dice.
+]]></string>
+
+    <string name="suffering_sacrifice_lore"><![CDATA[
+Battlefield veterans all, Celestian Insidiants are inured
+to pain. Injuries serve only to focus their martial prowess
+and stoke their zealous rage.
+]]></string>
+
+    <string name="suffering_sacrifice_description"><![CDATA[
+Whenever a wounded friendly **CELESTIAN
+INSIDIANT** operative is shooting against, fighting
+against or retaliating against an enemy operative,
+its weapons have the Balanced weapon rule.
+]]></string>
+
+    <string name="holy_resilience_lore"><![CDATA[
+Faith is the greatest of the Celestian Insidiants many
+weapons. So long as it remains unbroken, they may
+shrug off even the most crippling of injuries and remain
+in the fight.
+]]></string>
+
+    <string name="holy_resilience_description"><![CDATA[
+Whenever an **INSPIRING** friendly **CELESTIAN
+INSIDIANT** operative is fighting or retaliating,
+Normal and Critical Dmg of 4 or more inflicts 1
+less damage on that friendly operative.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="glory_to_the_martyrs_lore"><![CDATA[
+There is no greater inspiration than the glorious death
+of a martyr.
+]]></string>
+
+    <string name="glory_to_the_martyrs_description"><![CDATA[
+Use this firefight ploy when a friendly **CELESTIAN
+INSIDIANT** operative is incapacitated while
+fighting or retaliating. You can strike the enemy
+operative in that sequence with one of your
+unresolved successes before its removed
+from the killzone. If that enemy operative is
+incapacitated as a result, that friendly operative
+becomes **INSPIRING** before its removed from
+the killzone and you can resolve the Martyrdom
+faction rule.
+]]></string>
+
+    <string name="faith_fury_lore"><![CDATA[
+Divine rage empowers these warriors to cleave through
+multiple foes.
+]]></string>
+
+    <string name="faith_fury_description"><![CDATA[
+Use this firefight ploy when a friendly **CELESTIAN
+INSIDIANT** operative is fighting and you strike
+the enemy operative in that sequence with a
+critical success. After resolving that strike, also
+inflict D3 damage on each other enemy operative
+visible to and within 2\" of that friendly operative
+in an order of your choice (roll separately for
+each). Note that the friendly operative would
+become **INSPIRING** if any enemy operatives with
+a Wounds stat of 6 or more are incapacitated as a
+result of this damage.
+]]></string>
+
+    <string name="unshakeable_pursuit_lore"><![CDATA[
+Neither fatigue nor terrain can keep a Celestian Insidiant
+from their quarry.
+]]></string>
+
+    <string name="unshakeable_pursuit_description"><![CDATA[
+Use this firefight ploy during a friendly
+**CELESTIAN INSIDIANT** operatives activation,
+before or after it performs an action. Until the
+end of that operatives activation, you can ignore
+any changes to its Move stat. If that operative
+is **INSPIRING**, add 1\" to its Move stat until the
+end of that activation. If that operative becomes
+**INSPIRING** by performing the Charge action,
+you can use this ploy before it moves to gain the
+additional movement (this takes precedence over
+stats not changing during an action).
+]]></string>
+
+    <string name="fervent_hate_lore"><![CDATA[
+The Celestian Insidiants embody the hatred and
+paranoia of their creed.
+]]></string>
+
+    <string name="fervent_hate_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice
+for a friendly **CELESTIAN INSIDIANT** operative, if
+its shooting against, fighting against or retaliating
+against an enemy operative that doesnt have
+the **IMPERIUM** keyword. That friendly operatives
+weapons have the Ceaseless weapon rule
+until the end of that sequence; if that enemy
+operative also has the **CHAOS** and/or **PSYKER**
+keyword, that friendly operatives weapons have
+the Relentless weapon rule until the end of that
+sequence instead.
+]]></string>
+
+</resources>

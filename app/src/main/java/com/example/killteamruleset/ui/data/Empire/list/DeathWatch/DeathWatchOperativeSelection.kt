@@ -9,47 +9,47 @@ val DeathWatchOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
     OperativeSelectionRule(
-        text = "WATCH SERGEANT"
+        text = "WATCH SERGEANT",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "AEGIS"
+        text = "AEGIS",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "BLADEMASTER"
+        text = "BLADEMASTER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "BOMBARD"
+        text = "BOMBARD",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "BREACHER"
+        text = "BREACHER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "DEMOLISHER"
+        text = "DEMOLISHER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "DISRUPTOR"
+        text = "DISRUPTOR",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "GUNNER"
+        text = "GUNNER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "HEADTAKER"
+        text = "HEADTAKER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "HORDE-SLAYER"
+        text = "HORDE-SLAYER",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "MARKSMAN"
+        text = "MARKSMAN",
         indent = 1
     ),
      

@@ -3,13 +3,6 @@
 
     <!--Hunter Clade-->
 
-
-    <string name="targeting_protocols"><![CDATA[
-
-        Targeting Protocol
-
-]]></string>
-
     <string name="targeting_protocols_usage"><![CDATA[
 
         Passive
@@ -24,11 +17,6 @@
 
 ]]></string>
 
-    <string name="rad_saturation"><![CDATA[
-
-        Rad-Saturation
-
-]]></string>
 
     <string name="rad_saturation_usage"><![CDATA[
 
@@ -44,11 +32,6 @@
 
 ]]></string>
 
-    <string name="wasteland_stalker"><![CDATA[
-
-        Wasteland Stalker
-
-]]></string>
 
     <string name="wasteland_stalker_usage"><![CDATA[
 
@@ -65,11 +48,6 @@
 
 ]]></string>
 
-    <string name="control_protocol"><![CDATA[
-
-        Control Protocol
-
-]]></string>
 
     <string name="control_protocol_usage"><![CDATA[
 
@@ -84,11 +62,6 @@
 
 ]]></string>
 
-    <string name="canticle_shroudpsalm"><![CDATA[
-
-        Canticle of Shroudpsalm
-
-]]></string>
 
     <string name="canticle_shroudpsalm_usage"><![CDATA[
 
@@ -105,11 +78,6 @@
 
 ]]></string>
 
-    <string name="canticle_destruction"><![CDATA[
-
-        Canticle of Destruction
-
-]]></string>
 
     <string name="canticle_destruction_usage"><![CDATA[
 
@@ -125,11 +93,6 @@
 
 ]]></string>
 
-    <string name="canticle_elimination"><![CDATA[
-
-        Canticle of Elimination
-
-]]></string>
 
     <string name="canticle_elimination_usage"><![CDATA[
 
@@ -144,11 +107,6 @@
 
 ]]></string>
 
-    <string name="hunterclade_vox_signal"><![CDATA[
-
-        Signal
-
-]]></string>
 
     <string name="hunterclade_vox_signal_usage"><![CDATA[
 
@@ -165,11 +123,6 @@
 
 ]]></string>
 
-    <string name="hunterclade_spotter"><![CDATA[
-
-        SPOT
-
-]]></string>
 
     <string name="hunterclade_spotter_usage"><![CDATA[
 
@@ -189,11 +142,6 @@
 ]]></string>
 
 
-    <string name="canticle_glow"><![CDATA[
-
-        Canticle of the Glow
-
-]]></string>
 
     <string name="canticle_glow_usage"><![CDATA[
 
@@ -209,21 +157,282 @@
 
 ]]></string>
 
-    <!--Faction rules-->
+    <!--Faction Rules-->
 
-    <!--Equipments-->
+    <string name="doctrina_imperatives_lore"><![CDATA[
+Tech-Priests dictate protocols for the Hunter Clade to
+follow as they move through their mission, straining
+the programming of the Skitarii and Sicarians in order
+to optimise their current status, to the detriment of
+all else.
+]]></string>
+
+    <string name="doctrina_imperatives_description"><![CDATA[
+At the end of the Select Operatives step, select
+one **DOCTRINA IMPERATIVE** to be a Primary
+Mode for your kill team until the end of the
+battle (note that selecting a Primary Mode
+doesnt automatically give you the effects of that
+**DOCTRINA IMPERATIVE** for the battle; you must
+still select it as a **STRATEGIC GAMBIT**, as below).\n
+\n
+**STRATEGIC GAMBIT.** Select one **DOCTRINA
+IMPERATIVE** for friendly **HUNTER CLADE**
+operatives to have until the Ready step of the next
+Strategy phase. Each **DOCTRINA IMPERATIVE**
+has both an Optimisation and a Deprecation rule.
+Both are in effect while your kill team has that
+**DOCTRINA IMPERATIVE**. Once per battle, when
+you select the **DOCTRINA IMPERATIVE** thats
+your kill teams Primary Mode, you can ignore its
+Deprecation rule.\n
+\n
+
+**PROTECTOR IMPERATIVE**\n
+-**Optimisation**: Friendly **HUNTER CLADE** operatives ranged weapons have the Ceaseless weapon rule.\n
+-**Deprecation**: Worsen the Hit stat of friendly **HUNTER CLADE** operatives melee weapons by 1. This isnt cumulative with being injured.\n
+\n
+**CONQUEROR IMPERATIVE**\n
+-**Optimisation**: Friendly **HUNTER CLADE** operatives melee weapons have the Ceaseless weapon rule.\n
+-**Deprecation**: Worsen the Hit stat of friendly **HUNTER CLADE** operatives ranged weapons by 1. This isnt cumulative with being injured.\n
+\n
+**BULWARK IMPERATIVE**\n
+-**Optimisation**: Normal Dmg of 3 or more inflicts 1 less damage on friendly **HUNTER CLADE** operatives.\n
+-**Deprecation**: Subtract 1\" from the Move stat of friendly **HUNTER CLADE** operatives.\n
+\n
+**AGGRESSOR IMPERATIVE**\n
+-**Optimisation**: Add 1\" to the Move stat of friendly **HUNTER CLADE** operatives.\n
+-**Deprecation**: Worsen the Save stat of friendly **HUNTER CLADE** operatives by 1.\n
+\n
+**NEUTRAL IMPERATIVE**\n
+-Optimisation: None.\n
+-Deprecation: None.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="rad_bombardment_lore"><![CDATA[
+With a short binharic transmission, the Hunter Clade
+call down a radioactive bombardment. Mortar rounds
+rain down, emitting swathes of irradiating energy that
+flush the enemy from cover or force them to retreat from
+critical objectives.
+]]></string>
+
+    <string name="rad_bombardment_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT** in any
+turning point after the first. Select one objective
+marker or your opponents drop zone. Roll one
+D6 separately for each enemy operative within
+control range of that selected objective marker or
+within that drop zone, and subtract 1 if any part
+of that enemy operatives base is underneath
+Vantage terrain: on a 4+, subtract 1 from that
+operatives APL stat until the end of its next
+activation; on a 6, also inflict D3 damage on it
+(roll separately for each).
+]]></string>
+
+    <string name="redundacy_systems_lore"><![CDATA[
+Expected to operate behind enemy lines for extended
+periods, Hunter Clade operatives are often upgraded
+with redundancy augmetics such as backup lungs
+and emergency blood packs, ensuring that they
+remain capable of functioning even after suffering
+terrible damage.
+]]></string>
+
+    <string name="redundacy_systems_description"><![CDATA[
+Once per turning point, when a friendly **HUNTER
+CLADE** operative is activated, if its not within
+control range of enemy operatives, you can use
+this rule. If you do, that friendly operative regains
+up to D3+2 lost wounds.
+]]></string>
+
+    <string name="refractor_field_lore"><![CDATA[
+A miniaturised shield generator given to key warriors of
+the Adeptus Mechanicus, this device projects a barrier
+of energy that deflects shots and preserves the machine
+form of the bearer.
+]]></string>
+
+    <string name="refractor_field_description"><![CDATA[
+Once per turning point, when an operative is
+shooting a friendly **HUNTER CLADE** operative,
+at the start of the Roll Defence Dice step, you
+can use this rule. If you do, worsen the x of the
+Piercing weapon rule by 1 (if any) until the end
+of that sequence. Note that Piercing 1 would
+therefore be ignored.
+]]></string>
+
+    <string name="extremis_mindlink_lore"><![CDATA[
+This technology allows Hunter Clade leaders to retain
+close control over their Skitarii and Sicarian soldiers. In
+turn, the soldiery see the mind-link as a blessed thing,
+for the edicts transmitted to them are surely the will of
+the Omnissiah.
+]]></string>
+
+    <string name="extremis_mindlink_description"><![CDATA[
+Once per battle, you can use the Control Edict
+firefight ploy for 0CP, but instead of activating
+the selected friendly operatives in succession,
+activate them at the same time. Complete their
+activations action by action in any order
+]]></string>
+
+
 
     <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="debilitating_irradiation_lore"><![CDATA[
+The Skitarii Vanguard push forward, shrouded in clouds
+of radiation. Those caught in this lethal miasma find
+their combat abilities greatly degraded.
+]]></string>
 
-    <!--Strategic ploys-->
+    <string name="debilitating_irradiation_description"><![CDATA[
+Whenever an enemy operative is shooting against, fighting against or retaliating against a
+friendly **HUNTER CLADE VANGUARD** operative,
+if that enemy operative is under the effects of the
+Rad-Saturation rule (see VANGUARD operatives),
+subtract 1 from the Normal Dmg stat of its
+weapons (to a minimum of 3).
+]]></string>
+
+    <string name="neurostatic_interference_lore"><![CDATA[
+Sicarian Infiltrators confound their foes by emitting
+hissing static and electromagnetic pulses that cloud
+minds and interfere with vox-networks.
+]]></string>
+
+    <string name="neurostatic_interference_description"><![CDATA[
+Whenever an enemy operative within 6\" of a friendly **HUNTER CLADE INFILTRATOR** operative
+is shooting, fighting or retaliating, your opponent
+cannot re-roll their attack dice.
+]]></string>
+
+    <string name="scouting_protocol_lore"><![CDATA[
+Operating as advanced scouts, Skitarii Rangers avoid
+close combat, darting from cover to cover to evade the
+attention of their enemies.
+]]></string>
+
+    <string name="scouting_protocol_description"><![CDATA[
+Each friendly **HUNTER CLADE RANGER** operative that has a **Conceal** order and is more
+than 6\" from enemy operatives can immediately perform a free **Dash** action in an order of your
+choice. You cannot use this ploy during the first turning point.
+]]></string>
+
+    <string name="accelerant_agents_lore"><![CDATA[
+Sicarian Ruststalkers are flooded with aggression-inducing binharic code, inciting within them a lust for
+violence and enabling them to strike with blinding speed
+and nightmarish force.
+]]></string>
+
+    <string name="accelerant_agents_description"><![CDATA[
+During each friendly **HUNTER CLADE RUSTSTALKER** operatives activation, it can
+perform two **Fight** actions, and one of them can be free.
+]]></string>
+
+
 
     <!--Firefight ploys-->
+    <string name="control_edict_lore"><![CDATA[
+The leader of a Hunter Clade assumes partial control
+of another member of their kill team, coordinating
+precision strikes with the nearby operative.
+]]></string>
 
+    <string name="control_edict_description"><![CDATA[
+Use this firefight ploy when its your turn to
+activate a friendly operative. Select one friendly
+**HUNTER CLADE LEADER** operative and one
+other ready friendly **HUNTER CLADE* operative
+visible to and within 3\" of that **LEADER* operative;
+activate one of them as normal. When that first
+friendly operative you activate is expended,
+you can activate the other friendly operative
+before your opponent activates. When that
+other operative is expended, your opponent
+then activates as normal. Whenever you use
+this ploy, you cannot select more than one
+**HUNTER CLADE SICARIAN** operative
+]]></string>
 
+    <string name="scrapcode_overload_lore"><![CDATA[
+The Hunter Clades Infiltrator releases an enormous
+bombardment of static and scrapcode that disrupts
+communication channels, reduces enemy coordination
+and allows the kill team to seize objectives and materiel
+from under their foes nose.
+]]></string>
 
+    <string name="scrapcode_overload_description"><![CDATA[
+Use this firefight ploy when a friendly **HUNTER
+CLADE INFILTRATOR** operative is activated.
+Alternatively, use this firefight ploy when
+a friendly **HUNTER CLADE INFILTRATOR**
+operative, or an enemy operative within 3\" of that
+friendly operative, would perform the **Pick Up
+Marker** or a mission action (excluding Operate
+Hatch). Until the start of that friendly operatives
+next activation, whenever determining control
+of a marker, treat the total APL stat of enemy
+operatives that contest it as 1 lower if at least
+one of those enemy operatives is within 3\" of
+that friendly operative. Note this isnt a change
+to the APL stat, so any changes are cumulative
+with this, and this can change control of a marker
+before performing the action.
+]]></string>
 
+    <string name="command_override_lore"><![CDATA[
+By activating command overrides, the imperatives of
+individual operatives can be altered in response to evershifting mission parameters.
+]]></string>
 
+    <string name="command_override_description"><![CDATA[
+Use this firefight ploy when you activate a friendly
+**HUNTER CLADE** operative. Select a **DOCTRINA
+IMPERATIVE** for that operative to have instead of
+its current one (if any) until the Ready step of the
+next Strategy phase.
+]]></string>
 
+    <string name="omnssiah_imperative_lore"><![CDATA[
+The most extreme form of doctrina imperative, this
+protocol pushes an operatives wiring beyond safe
+limits, providing additional combat power at the cost of
+burned circuitry and charred flesh.
+]]></string>
+
+    <string name="omnssiah_imperative_description"><![CDATA[
+Use this firefight ploy during a friendly **HUNTER
+CLADE** operatives activation. Alternatively, use
+it when an enemy operative is shooting a friendly
+**HUNTER CLADE** operative, at the end of the
+Roll Attack Dice step. Until the Ready step of
+the next Strategy phase, that friendly operative
+has an additional rule determined by its current
+**DOCTRINA IMPERATIVE** as follows:\n
+\n
+• Protector: This operatives ranged weapons have the Severe weapon rule.\n
+• Conqueror: Whenever this operative is fighting, after resolving your first attack dice during
+that sequence, you can immediately resolve another (before your opponent).\n
+• Bulwark: Improve this operatives Save stat by 1. In addition, whenever an operative is
+shooting this operative, you can collect and roll one additional defence dice. If you use this
+ploy during a **Shoot** action, this operatives Save stat is changed immediately (this takes
+precedence over the core rules).\n
+• Aggressor: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\n
+• Neutral: None\n
+\n
+Note that you can use this ploy after rolling attack or defence dice for this operative, or before or
+after retaining or re-rolling those dice.
+]]></string>
 
 
 </resources>

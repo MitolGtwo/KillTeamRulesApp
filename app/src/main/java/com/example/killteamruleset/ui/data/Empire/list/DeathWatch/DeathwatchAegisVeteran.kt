@@ -35,7 +35,7 @@ val DeathwatchAegisVeteran = Operative(
              Shock
             ),
             extraRules = listOf("*Shield")
-            )
+
         )
     ),
 
@@ -57,7 +57,7 @@ val DeathwatchAegisVeteran = Operative(
         "DEATHWATCH",
         "IMPERIUM",
         "ADEPTUS ASTARTES",
-        "AEGIS"
+        "AEGIS",
         "32MM"
 
     )

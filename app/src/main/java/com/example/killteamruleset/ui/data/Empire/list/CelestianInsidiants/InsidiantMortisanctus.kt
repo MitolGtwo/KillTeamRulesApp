@@ -34,19 +34,20 @@ val InsidiatMortisanctus: Operative
                     Lethal(5),
                     Brutal
                 )
+           )
         ),
 
         abilities = listOf(
             Ability(
                 title = "Zealous Ultimatum",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.zealous_ultimatum_usage,
+                description = R.string.zealous_ultimatum_description
             ),
 
             Ability(
                 title = "Bladed Stance",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.celestian_blade_stance_usage,
+                description = R.string.celestian_blade_stance_description
             )
         ),
 

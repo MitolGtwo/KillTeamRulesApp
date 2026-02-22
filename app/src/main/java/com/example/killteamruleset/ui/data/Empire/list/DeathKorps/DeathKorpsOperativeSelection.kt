@@ -9,7 +9,7 @@ val DeathKorpsOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
     OperativeSelectionRule(
-        text = "*Boltgun; Bayonet"
+        text = "• Boltgun; Bayonet",
         indent = 1
     ),
       OperativeSelectionRule(
@@ -17,11 +17,11 @@ val DeathKorpsOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
       OperativeSelectionRule(
-        text = "*Bolt Pistol, Plasma Pistol or Relic Laspistol"
+        text = "• Bolt Pistol, Plasma Pistol or Relic Laspistol",
         indent = 1
     ),
       OperativeSelectionRule(
-        text = "*Chainsword or Power Weapon"
+        text = "• Chainsword or Power Weapon",
         indent = 1
     ),
 
@@ -101,9 +101,9 @@ val DeathKorpsOperativeSelection: List<OperativeSelectionRule> = listOf(
 
 
     OperativeSelectionRule(
-        text = "Other than TROOPER Operatives, you kill team can only include each Operative on this list once.\n\n
+        text = "Other than TROOPER Operatives, you kill team can only include each Operative on this list once.\n\n"+
       
-      *Up to four times, instead of selecting one of these TROOPER Operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
+      "*Up to four times, instead of selecting one of these TROOPER Operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
         isFooter = true
     )
 )

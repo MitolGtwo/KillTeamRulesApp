@@ -8,8 +8,11 @@ import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Seek_light
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Torrent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -45,7 +48,7 @@ val InsidiatCremator: Operative
                 keywords = listOf(
                     Range(4),
                     Saturate,
-                    Seek_Light,
+                    Seek_light,
                     Torrent(0)
                 )
         ),
@@ -65,14 +68,14 @@ val InsidiatCremator: Operative
         abilities = listOf(
             Ability(
                 title = "Inspirational Pyre",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.inspirational_pyre_usage,
+                description = R.string.inspirational_pyre_description
             ),
 
             Ability(
                 title = "Note",
-                usage = R.string.battleclade_omniscanner_usage,
-                description = R.string.battleclade_omniscanner_description
+                usage = R.string.torrent0_usage,
+                description = R.string.torrent0_description
             )
         ),
 

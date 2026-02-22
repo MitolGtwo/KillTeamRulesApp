@@ -138,11 +138,11 @@ object PloyRepository {
          "celestian_insidiants" to listOf(
             // ── Celestian Insidiants STRATEGY ──
             Ploy(
-                id = "suspect_&_eliminate",
+                id = "suspect_eliminate",
                 name ="SUSPECT & ELIMINATE",
                 type = PloyType.STRATEGY,
-                lore = R.string.suspect_&_eliminate_lore,
-                description = R.string.suspect_&_eliminate_description
+                lore = R.string.suspect_eliminate_lore,
+                description = R.string.suspect_eliminate_description
             ),
             Ploy(
                 id = "wrathful_determination",
@@ -152,11 +152,11 @@ object PloyRepository {
                 description = R.string.wrathful_determination_description
             ),
              Ploy(
-                id = "suffering_&_sacrifice",
+                id = "suffering_sacrifice",
                 name = "SUFFERING & SACRIFICE",
                 type = PloyType.STRATEGY,
-                lore = R.string.suffering_&_sacrifice_lore,
-                description = R.string.suffering_&_sacrifice_description
+                lore = R.string.suffering_sacrifice_lore,
+                description = R.string.suffering_sacrifice_description
             ),
             Ploy(
                 id = "holy_resilience",
@@ -175,11 +175,11 @@ object PloyRepository {
                 description = R.string.glory_to_the_martyrs_description
             ),
             Ploy(
-            id = "faith_&_fury",
+            id = "faith_fury",
             name = "FAITH & FURY",
             type = PloyType.FIREFIGHT,
-            lore = R.string.faith_&_fury_lore,
-            description = R.string.faith_&_fury_description
+            lore = R.string.faith_fury_lore,
+            description = R.string.faith_fury_description
             ),
             Ploy(
                 id = "unshakeable_pursuit",
@@ -234,7 +234,7 @@ object PloyRepository {
                 id = "inspirational_leadership",
                 name = "INSPIRATIONAL LEADERSHIP",
                 type = PloyType.FIREFIGHT,
-                lore = R.stringinspirational_leadership_lore,
+                lore = R.string.inspirational_leadership_lore,
                 description = R.string.inspirational_leadership_description
             ),
             Ploy(
@@ -292,7 +292,7 @@ object PloyRepository {
                 type = PloyType.STRATEGY,
                 lore = R.string.dw_no_fear_lore,
                 description = R.string.dw_no_fear_description
-            )
+            ),
 
 
             // ── DeathWatch FIREFIGHT ──
@@ -328,6 +328,68 @@ object PloyRepository {
             )
          ),
 
+        "exaction_squad" to listOf(
+            // ── Exaction STRATEGY ──
+            Ploy(
+                id = "guilt_reveals_itself",
+                name ="GUILT REVEALS ITSELF",
+                type = PloyType.STRATEGY,
+                lore = R.string.guilt_reveals_itself_lore,
+                description = R.string.guilt_reveals_itself_description
+            ),
+            Ploy(
+                id = "inviolate_jurisdiction",
+                name = "INVIOLATE JURISDICTION",
+                type = PloyType.STRATEGY,
+                lore = R.string.inviolate_jurisdiction_lore,
+                description = R.string.inviolate_jurisdiction_description
+            ),
+            Ploy(
+                id = "dispense_justice",
+                name = "DISPENSE JUSTICE",
+                type = PloyType.STRATEGY,
+                lore = R.string.dispense_justice_lore,
+                description = R.string.dispense_justice_description
+            ),
+            Ploy(
+                id = "terminal_decree",
+                name = "TERMINAL DECREE",
+                type = PloyType.STRATEGY,
+                lore = R.string.terminal_decree_lore,
+                description = R.string.terminal_decree_description
+            ),
+
+            // ── Exaction FIREFIGHT ──
+            Ploy(
+                id = "long_arm_emperor_law",
+                name = "LONG ARM OF THE EMPEROR'S LAW",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.long_arm_emperor_law_lore,
+                description = R.string.long_arm_emperor_law_description
+            ),
+            Ploy(
+                id = "exact_punishment",
+                name = "EXACT PUNISHMENT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.exact_punishment_lore,
+                description = R.string.exact_punishment_description
+            ),
+            Ploy(
+                id = "brutal_backup",
+                name = "BRUTAL BACKUP",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.brutal_backup_lore,
+                description = R.string.brutal_backup_description
+            ),
+            Ploy(
+                id = "execution_order",
+                name = "EXECUTION ORDER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.execution_order_lore,
+                description = R.string.execution_order_description
+            ),
+        ),
+
         "elucidian_star" to listOf(
             // ── Elucidian STRATEGY ──
             Ploy(
@@ -342,7 +404,7 @@ object PloyRepository {
                 name = "STAKE CLAIM",
                 type = PloyType.STRATEGY,
                 lore = R.string.elucidian_stake_claim_lore,
-                description = R.string.elucidian_take_claim_description
+                description = R.string.elucidian_stake_claim_description
             ),
             Ploy(
                 id = "undaunted_explorers",
@@ -357,7 +419,7 @@ object PloyRepository {
                 type = PloyType.STRATEGY,
                 lore = R.string.quick_march_lore,
                 description = R.string.quick_march_description
-            )
+            ),
 
             // ── Elucidian FIREFIGHT ──
             Ploy(
@@ -389,7 +451,319 @@ object PloyRepository {
                 description = R.string.well_drilled_description
             ),
         ),
-        
+
+        "hunter_clade" to listOf(
+            // ── HUNTERCLADE STRATEGY ──
+            Ploy(
+                id = "debilitating_irradiation",
+                name ="DEBILITATING IRRADIATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.debilitating_irradiation_lore,
+                description = R.string.debilitating_irradiation_description
+            ),
+            Ploy(
+                id = "neurostatic_interference",
+                name = "NEUROSTATIC INTERFERENCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.neurostatic_interference_lore,
+                description = R.string.neurostatic_interference_description
+            ),
+            Ploy(
+                id = "scouting_protocol",
+                name = "SCOUTING PROTOCOL",
+                type = PloyType.STRATEGY,
+                lore = R.string.scouting_protocol_lore,
+                description = R.string.scouting_protocol_description
+            ),
+            Ploy(
+                id = "accelerant_agents",
+                name = "ACCELERANT AGENTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.accelerant_agents_lore,
+                description = R.string.accelerant_agents_description
+            ),
+
+            // ── HUNTERCLADE  FIREFIGHT ──
+            Ploy(
+                id = "control_edict",
+                name = "CONTROL EDICT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.control_edict_lore,
+                description = R.string.control_edict_description
+            ),
+            Ploy(
+                id = "scrapcode_overload",
+                name = "SCRAPCODE OVERLOAD",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.scrapcode_overload_lore,
+                description = R.string.scrapcode_overload_description
+            ),
+            Ploy(
+                id = "command_override",
+                name = "COMMAND OVERRIDE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.command_override_lore,
+                description = R.string.command_override_description
+            ),
+            Ploy(
+                id = "omnssiah_imperative",
+                name = "OMNISSIAH’S IMPERATIVE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.omnssiah_imperative_lore,
+                description = R.string.omnssiah_imperative_description
+            ),
+        ),
+        "imperial_navy_breachers" to listOf(
+            // ── IMPERIAL NAVY STRATEGY ──
+            Ploy(
+                id = "attack_order",
+                name ="ATTACK ORDER",
+                type = PloyType.STRATEGY,
+                lore = R.string.attack_order_lore,
+                description = R.string.attack_order_description
+            ),
+            Ploy(
+                id = "defence_order",
+                name = "DEFENCE ORDER",
+                type = PloyType.STRATEGY,
+                lore = R.string.defence_order_lore,
+                description = R.string.defence_order_description
+            ),
+            Ploy(
+                id = "close_assault",
+                name = "CLOSE ASSAULT",
+                type = PloyType.STRATEGY,
+                lore = R.string.close_assault_lore,
+                description = R.string.close_assault_description
+            ),
+            Ploy(
+                id = "brace_for_counteract",
+                name = "BRACE FOR COUNTERATTACK",
+                type = PloyType.STRATEGY,
+                lore = R.string.brace_for_counteract_lore,
+                description = R.string.brace_for_counteract_description
+            ),
+
+            // ── IMPERIAL NAVY  FIREFIGHT ──
+            Ploy(
+                id = "overwhelm_target",
+                name = "OVERWHELM TARGET",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.overwhelm_target_lore,
+                description = R.string.overwhelm_target_description
+            ),
+            Ploy(
+                id = "blitz",
+                name = "BLITZ",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.blitz_lore,
+                description = R.string.blitz_description
+            ),
+            Ploy(
+                id = "lock_it_down",
+                name = "LOCK IT DOWN",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.lock_it_down_lore,
+                description = R.string.lock_it_down_description
+            ),
+            Ploy(
+                id = "deck_hand",
+                name = "DECK HAND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.deck_hand_lore,
+                description = R.string.deck_hand_description
+            ),
+        ),
+
+        "inquisitorial_agents" to listOf(
+            // ── Inquisitorial STRATEGY ──
+            Ploy(
+                id = "denounce",
+                name ="DENOUNCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.denounce_lore,
+                description = R.string.denounce_description
+            ),
+            Ploy(
+                id = "intense_scrutiny",
+                name = "INTENSE SCRUTINY",
+                type = PloyType.STRATEGY,
+                lore = R.string.intense_scrutiny_lore,
+                description = R.string.intense_scrutiny_description
+            ),
+            Ploy(
+                id = "quarry",
+                name = "QUARRY",
+                type = PloyType.STRATEGY,
+                lore = R.string.quarry_lore,
+                description = R.string.quarry_description
+            ),
+            Ploy(
+                id = "irrefutable_jurisdiction",
+                name = "IRREFUTABLE JURISDICTION",
+                type = PloyType.STRATEGY,
+                lore = R.string.irrefutable_jurisdiction_lore,
+                description = R.string.irrefutable_jurisdiction_description
+            ),
+
+
+            // ── Inquisitorial FIREFIGHT ──
+            Ploy(
+                id = "absolute_authority",
+                name = "ABSOLUTE AUTHORITY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.absolute_authority_lore,
+                description = R.string.absolute_authority_description
+            ),
+            Ploy(
+                id = "relentless_in_pursuit",
+                name = "RELENTLESS IN PURSUIT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.relentless_in_pursuit_lore,
+                description = R.string.relentless_in_pursuit_description
+            ),
+            Ploy(
+                id = "the_emperor_will",
+                name = "THE EMPEROR'S WILL",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.the_emperor_will_lore,
+                description = R.string.the_emperor_will_description
+            ),
+            Ploy(
+                id = "intimidating_presence",
+                name = "INTIMIDATING PRESENCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.intimidating_presence_lore,
+                description = R.string.intimidating_presence_description
+            )
+        ),
+
+        "kasrkin" to listOf(
+            // ── Kasrkin STRATEGY ──
+            Ploy(
+                id = "elimination_pattern",
+                name ="ELIMINATION PATTERN",
+                type = PloyType.STRATEGY,
+                lore = R.string.elimination_pattern_lore,
+                description = R.string.elimination_pattern_description
+            ),
+            Ploy(
+                id = "engage_from_cover",
+                name = "ENGAGE FROM COVER",
+                type = PloyType.STRATEGY,
+                lore = R.string.engage_from_cover_lore,
+                description = R.string.engage_from_cover_description
+            ),
+            Ploy(
+                id = "clearance_sweep",
+                name = "CLEARANCE SWEEP",
+                type = PloyType.STRATEGY,
+                lore = R.string.clearance_sweep_lore,
+                description = R.string.clearance_sweep_description
+            ),
+            Ploy(
+                id = "relocate",
+                name = "RELOCATE",
+                type = PloyType.STRATEGY,
+                lore = R.string.relocate_lore,
+                description = R.string.relocate_description
+            ),
+
+
+            // ── Kasrkin FIREFIGHT ──
+            Ploy(
+                id = "seize_the_initiative",
+                name = "SEIZE THE INITIATIVE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.seize_the_initiative_lore,
+                description = R.string.seize_the_initiative_description
+            ),
+            Ploy(
+                id = "cover_retreat",
+                name = "COVER RETREAT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.cover_retreat_lore,
+                description = R.string.cover_retreat_description
+            ),
+            Ploy(
+                id = "neutralise_target",
+                name = "NEUTRALISE TARGET",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.neutralise_target_lore,
+                description = R.string.neutralise_target_description
+            ),
+            Ploy(
+                id = "give_no_ground",
+                name = "GIVE NO GROUND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.give_no_ground_lore,
+                description = R.string.give_no_ground_description
+            )
+        ),
+
+        "novitiates" to listOf(
+            // ── Novitiates STRATEGY ──
+            Ploy(
+                id = "ardent_vengeance",
+                name ="ARDENT VENGEANCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.ardent_vengeance_lore,
+                description = R.string.ardent_vengeance_description
+            ),
+            Ploy(
+                id = "defenders_of_faith",
+                name = "DEFENDERS OF THE FAITH",
+                type = PloyType.STRATEGY,
+                lore = R.string.defenders_of_faith_lore,
+                description = R.string.defenders_of_faith_description
+            ),
+            Ploy(
+                id = "blessed_rejuvenation",
+                name = "BLESSED REJUVENATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.blessed_rejuvenation_lore,
+                description = R.string.blessed_rejuvenation_description
+            ),
+            Ploy(
+                id = "righteous_advance",
+                name = "RIGHTEOUS ADVANCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.righteous_advance_lore,
+                description = R.string.righteous_advance_description
+            ),
+
+
+            // ── Novitiates FIREFIGHT ──
+            Ploy(
+                id = "glorious_martyrdoom",
+                name = "GLORIOUS MARTYRDOM",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.glorious_martyrdoom_lore,
+                description = R.string.glorious_martyrdoom_description
+            ),
+            Ploy(
+                id = "blazing_inferno",
+                name = "BLAZING INFERNO",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.blazing_inferno_lore,
+                description = R.string.blazing_inferno_description
+            ),
+            Ploy(
+                id = "blinding_aura",
+                name = "BLINDING AURA",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.blinding_aura_lore,
+                description = R.string.blinding_aura_description
+            ),
+            Ploy(
+                id = "guided_by_faith",
+                name = "GUIDED BY FAITH",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.guided_by_faith_lore,
+                description = R.string.guided_by_faith_description
+            )
+        ),
+
         "wrecka_krew" to listOf(
             // ── Wreckas STRATEGY ──
             Ploy(

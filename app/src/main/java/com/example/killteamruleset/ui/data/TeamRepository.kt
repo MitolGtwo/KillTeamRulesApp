@@ -138,7 +138,7 @@ object TeamRepository {
             backgroundRes = R.drawable.inquisitorial_bg,
             assemblyPdfAsset = "pdfs/inquisitorial_assembly.pdf",
             iconRes = R.drawable.inquisitorial_logo,
-            quote = "Innocence means nothing"
+            quote = "Innocence proves nothing"
         ),
         Team(
             id = "kasrkin",
@@ -526,7 +526,7 @@ object TeamRepository {
             backgroundRes = R.drawable.mandrakes_bg,
             assemblyPdfAsset = "pdfs/mandrakes_assembly.pdf",
             iconRes = R.drawable.mandrakes_logo,
-            quote = "The darkness came alive and it took the all"
+            quote = "The darkness came alive and it took them  all"
         ),
         Team(
             id = "pathfinders",
@@ -546,7 +546,7 @@ object TeamRepository {
             name = "Raveners",
             alliance = Alliance.XENOS,
             type = TeamType.ELITE,
-            difficulty = "Hard",
+            difficulty = "Very Hard",
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.raveners_faction_bg,
             backgroundRes = R.drawable.raveners_bg,

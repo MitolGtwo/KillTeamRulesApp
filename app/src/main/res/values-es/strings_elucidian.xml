@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Elucidian-->
+
+
+    <string name="elucidian_beast_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="elucidian_beast_description"><![CDATA[
+This operative cannot perform any actions other than
+**Charge, Dash, Fall Back, Fight, Gather, Guard,
+Reposition, Pick Up Marker** and **Place Marker**. It
+cannot use any weapons that arent on its datacard.
+]]></string>
+
+    <string name="loyal_companion_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="loyal_companion_description"><![CDATA[
+Whenever an enemy operative performs
+the **Fight** action, if this operative is a valid operative to fight
+against, you can force them to select this operative to fight
+against instead. Whenever an enemy operative ends the **Charge**
+action within control range of another friendly **ELUCIDIAN
+STARSTRIDER** operative within 3\" of this operative, if this
+operative isnt within control range of enemy operatives, this
+operative can immediately perform a free **Charge** action (you
+can change its order to **Engage** to do so), but must end that move
+within control range of that enemy operative.
+]]></string>
+
+    <string name="gather_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="gather_description"><![CDATA[
+Perform a free **Dash** or **Reposition** action with this
+operative. During that move, it can perform a free **Pick
+Up Marker** or **Place Marker** action (you can determine
+control during that action to do so), and any remaining move
+distance it had from the **Dash** or **Reposition** action can be
+used after it does so.
+]]></string>
+
+    <string name="digital_lasers_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="digital_lasers_description"><![CDATA[
+Whenever this operative performs the **Fight**
+action, at the start of the Roll Attack Dice step, you can use
+this rule. If you do, inflict 1 damage on the enemy operative in
+that sequence.
+]]></string>
+
+    <string name="merciless_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="merciless_description"><![CDATA[
+Whenever this operative is shooting against, fighting
+against or retaliating against an enemy operative that was
+already wounded when the action started, this operatives
+weapons have the Balanced weapon rule; if the weapon already
+has that weapon rule, it has the Ceaseless weapon rule instead
+of Balanced.
+]]></string>
+
+    <string name="disruption_field_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="disruption_field_description"><![CDATA[
+Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+]]></string>
+
+    <string name="reputation_to_maintain_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="reputation_to_maintain_description"><![CDATA[
+The first time this operative incapacitates an enemy operative during the battle, you can
+either gain 1 additional CP or use an additional **WARRANT OF
+TRADE** rule (up to five uses per battle, instead of four). Note
+that you still cannot use the same **WARRANT OF TRADE** rule
+more than once per battle.
+]]></string>
+
+    <string name="rapid_reflexes_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="rapid_reflexes_description"><![CDATA[
+Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+]]></string>
+
+    <string name="elucidian_bladed_stance_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="elucidian_bladed_stance_description"><![CDATA[
+Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If
+you do, that success must be used to block.
+]]></string>
+
+    <string name="elucidian_zealot_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="elucidian_zealot_description"><![CDATA[
+If this operative is incapacitated during the **Fight** action,
+you can strike the enemy operative in that sequence with one of
+your unresolved successes before this operative is removed from
+the killzone.
+]]></string>
+
+    <string name="elucidian_trained_assasin_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="elucidian_trained_assasin_description"><![CDATA[
+Change this operatives order.\n\n
+This operative cannot perform this action while within control range of an enemy operative.
+]]></string>
+
+    <string name="missionary_martian_creed_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="missionary_martian_creed_description"><![CDATA[
+Once during each of this operatives activations, it can perform the **Pick Up Marker**,
+**Place Marker** or a **mission action** for 1 less AP.
+]]></string>
+
+    <string name="voltaghiest_array_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="voltaghiest_array_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**ELUCIDIAN STARSTRIDER** operative thats within 4\" of
+this operative, you can re-roll one of your defence dice.
+]]></string>
+
+    <string name="calibrate_voltagheist_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="calibrate_voltagheist_description"><![CDATA[
+Select one of the following effects to last until the start of
+this operatives next activation, until its incapacitated or
+until it performs this action again (whichever comes first):\n
+\n
+• Charge: This operatives voltaic pistol has the Lethal 4+
+weapon rule.\n
+\n
+• Field: Whenever an enemy operative ends the **Charge,
+Dash, Fall Back or Reposition** action visible to and
+within 4\" of this operative, inflict D6 damage on that
+enemy operative.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+]]></string>
+
+    <string name="elucidian_medic_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="elucidian_medic_description"><![CDATA[
+The first time during each turning point that another
+friendly **ELUCIDIAN STARSTRIDER** operative would be
+incapacitated while visible to and within 3\" of this operative,
+you can use this rule, providing neither this nor that operative
+is within control range of an enemy operative. If you do, that
+friendly operative isnt incapacitated, has 3 wounds remaining
+and cannot be incapacitated for the remainder of the action.
+After that action, that friendly operative can immediately
+perform a free **Dash** action, but must end that move within
+this operatives control range.\nIf this rule was used during that
+friendly operatives activation, that activation ends. You cannot
+use this rule if this operative is incapacitated, or if its a **Shoot**
+action and this operative would be a primary or secondary target.
+]]></string>
+
+    <string name="normaliser_helm_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="normaliser_helm_description"><![CDATA[
+Whenever a friendly **ELUCIDIAN
+STARSTRIDER** operative is within 6\" of this operative, you
+can ignore any changes to that operatives stats from being
+injured (including its weapons stats).
+]]></string>
+
+    <string name="healing_serum_usage"><![CDATA[
+    1AP
+]]></string>
+
+    <string name="healing_serum_description"><![CDATA[
+Select one friendly **ELUCIDIAN STARSTRIDER**
+operative within this operatives control range to regain up to
+D3+3 lost wounds. It cannot be an operative that the Medic!
+rule was used on during this turning point.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative
+]]></string>
+
+    <string name="disciplinarian_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="disciplinarian_description"><![CDATA[
+**SUPPORT.** Whenever another friendly
+**ELUCIDIAN STARSTRIDER NAVIS** operative is within
+3\" of this operative, that friendly operatives ranged weapons
+(excluding **PRIVATEER SUPPORT ASSET** weapons)
+have the Balanced weapon rule; if the weapon already has
+that weapon rule, it has the Ceaseless weapon rule instead
+of Balanced.
+]]></string>
+
+    <string name="elucidian_hardy_usage"><![CDATA[
+        Passive/ Once per battle
+]]></string>
+
+    <string name="elucidian_hardy_description"><![CDATA[
+Once per battle, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage.
+]]></string>
+
+    <string name="uncompromising_fire_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="uncompromising_fire_description"><![CDATA[
+Perform two free **Shoot** actions with this operative (this
+takes precedence over action restrictions). You must select
+its relic laspistol for one action and its artificer shotgun
+(close range) for the other (in any order).\n\n
+This operative cannot perform this action while it has a
+Conceal order, or during an activation in which it performed
+the **Shoot** action (or vice versa).
+]]></string>
+
+    <string name="crewmen_usage"><![CDATA[
+        Passive
+]]></string>
+
+    <string name="crewmen_description"><![CDATA[
+Once per turning point, whenever you would counteract, if you havent used a **PRIVATEER SUPPORT ASSET**
+during this turning point, you can use this rule. If you do, you can counteract with one friendly **ELUCIDIAN STARSTRIDER
+VOIDSMAN** operative that has a **Conceal** order, but during that counteraction you cannot perform any actions other than **Shoot**,
+and you must use a **PRIVATEER SUPPORT ASSET** to do so.
+]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="warrant_of_trade_lore"><![CDATA[
+The writ of a Rogue Trader allows them incredible
+access across the Imperium. With more flexibility than
+almost any other agents of the Imperium, they barter,
+intimidate and "\borrow"\ to gain valuable resources
+that allow them to enter any engagement with the
+upper hand.
+]]></string>
+
+    <string name="warrant_of_trade_description"><![CDATA[
+Up to four times per battle, you can use a
+WARRANT OF TRADE rule (below). Each one
+specifies when it can be used, and you cannot
+use the same WARRANT OF TRADE rule more
+than once per battle.\n
+\n
+Consideration\n
+When: In the Select Operatives step, after
+revealing your equipment options.
+Effect: Select one additional equipment option. It
+cannot be an option you have previously selected.\n
+\n
+Coordinate\n
+When: At the end of the Select Operatives step.
+Effect: You gain 1 additional CP.\n
+\n
+Coerce\n
+When:At the start of the Set Up Operatives step
+Effect:Your opponent must set up all of their operatives before you set up any. Additionally,
+select one of the following options:\n
+• Your opponent must set up all of their equipment before you set up any.\n
+• You can set up all of your equipment before your opponent sets up any.\n
+\n
+Explore\n
+When:STRATEGIC GAMBIT in the first turning point.
+Effect:Perform a free Reposition action with D3 friendly ELUCIDIAN STARSTRIDER operatives
+that are wholly within your drop zone. Each that does so must end that move wholly within 4\" of
+your drop zone.\n
+\n
+Bribe\n
+When:Its your turn to activate an operative.
+Effect: You can skip that activation.\n
+\n
+Seize\n
+When: In the Strategy phase, after rolling off to decide initiative.
+Effect:You can re-roll your dice.\n
+\n
+Adaptable Terms (Approved Ops only)\n
+When: At the end of the second turning point.
+Effect:  Select a new tac op or a new primary op. If you select a new tac op, any points scored from
+the previous tac op are discarded.
+
+]]></string>
+
+    <string name="privateer_support_assets_lore"><![CDATA[
+The Starstriders never stray too far from the New Dawn.
+Overhead, its massive batteries of ship-based artillery
+rain down on enemies, providing invaluable air support.
+]]></string>
+
+    <string name="privateer_support_assets_description"><![CDATA[
+Once per Firefight phase, when a friendly ELUCIDIAN STARSTRIDER NAVIS or ELUCIDIAN
+STARSTRIDER ELUCIA VHANE operative performs the Shoot action, you can select one
+of the following PRIVATEER SUPPORT ASSET ranged weapons for it to use. You cannot use
+each PRIVATEER SUPPORT ASSET more than once per battle.\n
+\n
+Whenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET,
+determine cover saves differently. Instead, the target has a cover save if any part of its base is
+underneath Vantage terrain. Note that while this can affect the target’s cover save, you must still
+select a valid target as normal. In other words, the shot is guided by an operative in the killzone, but
+it comes from above.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="armoured_undersuit_lore"><![CDATA[
+Ablative plates and steel reinforcements are woven
+into naval fatigues, providing an additional layer
+of protection.
+]]></string>
+
+    <string name="armoured_undersuit_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**ELUCIDIAN STARSTRIDER** operative (excluding
+**CANID**) that has a 5+ Save stat, you can retain
+one of your defence dice results of 4 as a
+normal success.
+]]></string>
+
+    <string name="hot_shot_capacitor_packs_lore"><![CDATA[
+Dangerous but lethal modification of lasguns and
+laspistols provide the Starstriders with additional killing
+power, albeit with the risk of injury.
+]]></string>
+
+    <string name="hot_shot_capacitor_packs_description"><![CDATA[
+Up to twice per turning point, whenever a
+friendly **ELUCIDIAN STARSTRIDER** operative
+is performing the **Shoot** action and you select a
+laspistol, lasgun or relic laspistol, you can use this
+rule. If you do, until the end of the turning point,
+add 1 to both Dmg stats of that weapon and it has
+the Hot and Piercing Crits 1 weapon rules.
+]]></string>
+
+    <string name="improved_coordinates_uplink_lore"><![CDATA[
+Coordinated triangulation undertaken by Navis
+Imperialis operatives allows the New Dawns weapon
+batteries to more accurately target the foe.
+]]></string>
+
+    <string name="improved_coordinates_uplink_description"><![CDATA[
+Whenever a friendly **ELUCIDIAN STARSTRIDER**
+operative is using a **PRIVATEER SUPPORT ASSET**,
+if the target is within 6\" of a friendly **ELUCIDIAN
+STARSTRIDER NAVIS** operative, the target
+cannot be obscured and that weapon has the
+Saturate weapon rule.
+]]></string>
+
+    <string name="rapid_gunnery_lore"><![CDATA[
+The New Dawns colossal batteries are slow to reload
+and recharge. Only veteran gun crews possess the
+expertise and coordination to fire a rapid salvo.
+]]></string>
+
+    <string name="rapid_gunnery_description"><![CDATA[
+Once per battle, when selecting a **PRIVATEER
+SUPPORT ASSET**, you can select one thats
+already been used during the battle. This
+takes precedence over the normal **PRIVATEER
+SUPPORT ASSET** rules.
+]]></string>
+
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="lethal_proximity_lore"><![CDATA[
+Well-drilled in boarding actions and combat in cramped
+conditions, the Starstriders truly excel in closequarters firefights.
+]]></string>
+
+    <string name="lethal_proximity_description"><![CDATA[
+Whenever a friendly **ELUCIDIAN STARSTRIDER**
+operative is shooting an operative within 6\" of
+it, that friendly operatives ranged weapons
+(excluding **PRIVATEER SUPPORT ASSET**
+weapons) have the Balanced weapon rule.
+]]></string>
+
+    <string name="elucidian_stake_claim_lore"><![CDATA[
+When Elucia Vhane stakes her claim upon a prize, the
+Starstriders will strive to ensure it is delivered into
+her hands.
+]]></string>
+
+    <string name="elucidian_stake_claim_description"><![CDATA[
+Place your Claim marker in the killzone.
+Whenever a friendly **ELUCIDIAN STARSTRIDER**
+operative is shooting against, fighting against
+or retaliating against an enemy operative thats
+within 3\" of that marker, in the Roll Attack
+Dice step, you can retain one of your fails as
+a normal success instead of discarding it, or
+retain one of your normal successes as a critical
+success instead.
+]]></string>
+
+    <string name="undaunted_explorers_lore"><![CDATA[
+The Starstriders have weathered many terrible storms
+in their journeys through the void, and are capable of
+shrugging off wounds that would fell lesser soldiers.
+]]></string>
+
+    <string name="undaunted_explorers_description"><![CDATA[
+The first time an attack dice inflicts damage
+on each friendly **ELUCIDIAN STARSTRIDER**
+operative during the turning point in the Resolve
+Attack Dice step, you can halve that inflicted
+damage (rounding up, to a minimum of 2).
+]]></string>
+
+    <string name="quick_march_lore"><![CDATA[
+As fearless as any elite Astra Militarum regiment, the
+Elucidian Starstriders advance swiftly to outflank and
+isolate their enemies.
+]]></string>
+
+    <string name="quick_march_description"><![CDATA[
+Whenever a friendly **ELUCIDIAN STARSTRIDER**
+operative performs the **Reposition** action
+during its activation, you can use this rule. If
+you do, add 1\" to its Move stat until the end
+of that activation, but it must end that move
+closer to your opponents drop zone and cannot
+use a **PRIVATEER SUPPORT ASSET** during
+that activation.
+]]></string>
+
+    <!--Firefight ploys-->
+    <string name="elucidian_combined_arms_lore"><![CDATA[
+The standard training of the Navis Imperialis allows the
+Starstriders to rain fury down upon the enemy with rapid
+volleys. In great enough volume, even the humble lasgun
+can shatter formidable defences.
+]]></string>
+
+    <string name="elucidian_combined_arms_description"><![CDATA[
+Use this firefight ploy after rolling your attack
+dice for a friendly **ELUCIDIAN STARSTRIDER**
+operative, if its shooting an enemy operative
+thats been shot by another friendly **ELUCIDIAN
+STARSTRIDER** operative during this turning
+point. You can re-roll any of your attack dice.
+You cannot use this ploy while shooting with a
+PRIVATEER SUPPORT ASSET.
+]]></string>
+
+    <string name="elucidian_survivalist_lore"><![CDATA[
+Ducking into cover for a brief moment, the Starstrider
+bandages their wounds, applies stimms and prepares to
+rejoin the fight.
+]]></string>
+
+    <string name="elucidian_survivalist_description"><![CDATA[
+Use this firefight ploy when a friendly **ELUCIDIAN
+STARSTRIDER** operative is activated. That
+friendly operative regains up to D3+2 lost wounds
+and during that activation you can ignore any
+changes to its APL stat.
+]]></string>
+
+    <string name="great_endurance_lore"><![CDATA[
+Each member of the Navis Imperialis assigned to a
+Rogue Trader is elite and prepared to endure the most
+testing of circumstances to perform their duties.
+]]></string>
+
+    <string name="great_endurance_description"><![CDATA[
+Use this firefight ploy during a friendly **ELUCIDIAN
+STARSTRIDER NAVIS** operatives activation.
+Until the end of the activation, add 1 to its
+APL stat.
+]]></string>
+
+    <string name="well_drilled_lore"><![CDATA[
+Trained regularly and vigorously in the art of boarding
+actions, members of the Navis Imperialis are expected
+to precisely coordinate their strikes, working in tandem
+to complete the goals of the mission at hand
+]]></string>
+
+    <string name="well_drilled_description"><![CDATA[
+Use this firefight ploy when a friendly **ELUCIDIAN
+STARSTRIDER NAVIS** operative is activated.
+Select one other ready friendly **ELUCIDIAN
+STARSTRIDER NAVIS** operative visible to and
+within 3\" of that operative. When that first friendly
+operative is expended, you can activate that other
+friendly operative before your opponent activates.
+When that other operative is expended, your
+opponent then activates as normal.
+]]></string>
+
+</resources>

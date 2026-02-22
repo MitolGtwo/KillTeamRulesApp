@@ -21,7 +21,7 @@ val Voidsman = Operative(
             attacks = 4,
             hit = "4+",
             damage = "2/3",
-            keywords = listOf(
+            keywords = listOf()
             ),
           WeaponProfile(
             name = "Rotor Cannon (focused)",
@@ -55,6 +55,7 @@ val Voidsman = Operative(
             keywords = listOf(
             )
         )
+
     ),
 
     abilities = listOf(

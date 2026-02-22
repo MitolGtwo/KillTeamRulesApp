@@ -7,9 +7,11 @@ import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing_Crits
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Silent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -42,11 +44,10 @@ val InsidiatWarrior: Operative
                 damage = "2/2",
                 keywords = listOf(
                   Devastating(1),
-                  Piercing_Crits(1),
-                  Silent
+                    Piercing_Crits(1),
+                    Silent
                 ),
                 extraRules = listOf("*Anti-PSYKER")
-                )
         ),
            WeaponProfile(
                 name = "Null Mace",
@@ -64,8 +65,8 @@ val InsidiatWarrior: Operative
         abilities = listOf(
             Ability(
                 title = "Inspired Strikes",
-                usage = R.string.battleclade_divinearcana_usage,
-                description = R.string.battleclade_divinearcana_description
+                usage = R.string.inspired_strike_usage,
+                description = R.string.inspired_strike_description
             )
         ),
 
