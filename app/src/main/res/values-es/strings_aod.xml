@@ -2,7 +2,7 @@
 <resources>
     <!--AOD-->
     <string name="heroic_leader_usage"><![CDATA[
-        Passive/Once per turning point
+        Passive
 ]]></string>
 
     <string name="heroic_leader_description"><![CDATA[
@@ -17,7 +17,7 @@
 ]]></string>
 
     <string name="iron_halo_usage"><![CDATA[
-        Passive/Once per battle
+        Passive
 ]]></string>
 
     <string name="iron_halo_description"><![CDATA[
