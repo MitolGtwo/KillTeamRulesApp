@@ -17,11 +17,11 @@
 ]]></string>
 
     <string name="iron_halo_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="iron_halo_description"><![CDATA[
-       When an attack dice inflicts Normal Dmg on this Operative, you can ignore that inflicted damage.
+        Una vez por batalla, cuando un dado de daño Normal vaya a infligir daño en este Operativo, puedes ignorar ese daño.
 ]]></string>
 
     <string name="assault_doctrine_warfare_usage"><![CDATA[
