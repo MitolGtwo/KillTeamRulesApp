@@ -25,55 +25,55 @@
 ]]></string>
 
     <string name="assault_doctrine_warfare_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="assault_doctrine_warfare_description"><![CDATA[
-       You can do each of the following once per battle:\n
-       \n
-            -Whenever you would use the Combat Doctrine strategy ploy and then select Assault, if this Operative is in the killzone, it costs you 0CP.\n
-            \n
-            -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
+        Puedes realizar cada una de las siguientes opciones una vez por batalla:\n
+        \n
+        -Cuando vayas a usar la Combat Doctrine Strategy Ploy, y seleccionas Assault, si este Operativo esta en la Killzone, la ploy cuesta 0CP.\n
+        \n
+        -Cuando vayas a usar la Combat Doctrine Strategy Ploy, y seleccionas Tactical, si este Operativo esta en la Killzone, la ploy cuesta 0CP.
 ]]></string>
 
 
     <string name="intercessor_doctrine_warfare_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="intercessor_doctrine_warfare_description"><![CDATA[
-       You can do each of the following once per battle:\n
-       \n
-            -Whenever you would use the Combat Doctrine strategy ploy and then select Devastator, if this Operative is in the killzone, it costs you 0CP.\n
-            \n
-            -Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this Operative is in the killzone, it costs you 0CP.
+        Puedes realizar cada una de las siguientes opciones una vez por batalla:\n
+        \n
+        -Cuando vayas a usar la Combat Doctrine Strategy Ploy, y seleccionas Devastator, si este Operativo esta en la Killzone, la ploy cuesta 0CP.\n
+        \n
+        -Cuando vayas a usar la Combat Doctrine Strategy Ploy, y seleccionas Tactical, si este Operativo esta en la Killzone, la ploy cuesta 0CP.
 ]]></string>
 
     <string name="chapter_veteran_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="chapter_veteran_description"><![CDATA[
-       At the end of the Select Operative step, if this Operative is selected for deployment, select one additional **CHAPTER TACTIC** for it to have for the battle.
-            Unlike the primary or secondary, you dont have to select the same one for each battle.
+        Despues de haber seleccionado tus Operativos, si este Operativo es seleccionado, puedes seleccionar una **CHAPTER TACTIC** adicional para este Operativo por el resto
+        de la batalla, a diferencia de la primaria y secundaria, no tienes que seleccionar esta **CHAPTER TACTIC** para cada batalla.
 ]]></string>
 
     <string name="aod_grenadier_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="aod_grenadier_description"><![CDATA[
-       This Operative can use frag and krak grenades (see universal equipment). Doing so doesnt count towards any limited uses you have. Whenever its doing so,
-            improve the Hit stat of that weapon by 1.
+        Este Operativo puede usar granadas Frag y Krak (notese en Universal equipment). al usarlas no cuenta sobre el limite de granadas que tengas, y cuando este Operativo 
+        las use, mejora la estadistica de Hit por 1.
 ]]></string>
 
     <string name="aod_camo_cloak_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="aod_camo_cloak_description"><![CDATA[
-       Whenever an Operative is shooting this Operative, ignore the Saturate weapon rule. This Operative has the Stealthy **CHAPTER TACTIC**. If you selected that **CHAPTER TACTIC**
-            , you can do both of its options (retain two cover saves - one normal and one critical success).
+        Cuando un Operativo este disparando a este Operativo, ignora la regla de Saturate. Este Operativo tiene la **CHAPTER TACTIC Stealthy**. Si seleccionas esa  **CHAPTER TACTIC**
+        , puedes usar las dos opciones (retener dos salvaciones, una normal y una critica).
 ]]></string>
 
     <string name="aod_optics_usage"><![CDATA[
@@ -81,59 +81,61 @@
 ]]></string>
 
     <string name="aod_optics_description"><![CDATA[
-       Until the start of this Operatives next activation, whenever its shooting, enemy Operatives cannot be obscured.\n\n
+        Hasta el inicio de la proxima activacion de este Operativo, cuando este disparando, Operativos enemigos no pueden estas Obscure.\n\n
 
-            This Operative cannot perform this while within control range of an enemy Operative.
+        Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
 ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="astartes_lore"><![CDATA[
-        These genetically modified superhumans are made for one purpose: war.
+        Estos superhumanos son modificados con un solo proposito: Guerra.
 ]]></string>
 
     <string name="astartes_description"><![CDATA[
-        During each friendly **ANGEL OF DEATH** Operatives activation, it can perform either two **Shoot* actions or two **Fight** actions. If its two
-            **Shoot** actions, a Bolt weapon must be selected for at least one of them, and if its a Bolt Sniper Rifle or Heavy Bolter, 1 additional AP must be
-            spent for the second action if both actions are using that weapon.\n\n
+        Durante cada activación de Operativos **ANGEL OF DEATH** aliados, pueden realizar dos acciones **Shoot** o dos acciones **Fight**. Si estas dos acciones son **Shoot**
+        , un arma Bolt debe ser seleccionada para al menos uno de los disparos, si es un Bolt Sniper Rifle o Heavy Bolter, se debe gastar 1AP extra para el segundo disparo, si
+         ambos disparos son con la misma arma.\n
+        \n
+        Cada Operativo **ANGEL OF DEATH** aliado puede hacer un Counteract sin importar su orden.
 
-            Each friendly **ANGEL OF DEATH** Operative can counteract regardless of its order.
 ]]></string>
 
     <string name="chapter_tactics_lore"><![CDATA[
-        Each Space Marine Chapter is a martial brotherhood with its own combat philosophies, suited to the unique skills and temperaments of its battle-brothers.
-            These tenets of war may be clothed in esoteric rituals built up over thousands of years, but remain as brutally effective as when they were first laid down.
+        Cada capítulo Marine es una hermandad con sus propias filosofías de combate, con habilidades y características únicas de sus hermanos de batalla, estas filosofías
+        son formadas durante miles de años después de interminables guerras y rituales, pero el resultado es brutalmente efectivo al momento de combatir.
 ]]></string>
 
     <string name="chapter_tactics_description"><![CDATA[
-        When selecting your kill team, select a Primary and secondary **CHAPTER TACTIC** for friendly **ANGEL OF DEATH** Operatives to gain for the battle. Multiple instances
-            of the same **CHAPTER TACTIC** arent cumulative.\n\n
+        Cuando selecciones tu kill team, selecciona una  **CHAPTER TACTIC** primaria y otra secundaria para Operativos **ANGEL OF DEATH** para el resto de la batalla. tener la misma
+        **CHAPTER TACTIC** no es acumulable.\n\n
 
-            If you are playing a series of games or a tournament, you must select the same **CHAPTER TACTIC** for every battle, you can still change the secondary with the Adaptive
-            Tactics strategy ploy.\n\n
+        Si estas jugando una serie de partidas (Liga o Torneo), debes seleccionar las mismas **CHAPTER TACTICS** para cada batalla, aun puedes cambiar la secundaria con
+        tu Adaptive Tactics strategy ploy.
 
                         ---1.AGGRESIVE\n
-            This operatives melee weapons have the Rending weapon rule.\n
+            Las armas a melee de este Operativo tienen la regla Rending.\n
                         ---2.DUELLER\n
-            Whenever this Operative is fighting or retaliating, each of your normal successes can block one unresolved critical success (unless the enemy has the Brutal weapon rule).\n
+            Cuando este Operativo esté peleando o retaleando, cada uno de tus exitos normales puede ser usado para bloquear un resultado critico sin resolver (a menos de que
+         el enemigo tenga la regla Brutal).\n
                         ---3.RESOLUTE\n
-            You can ignore any changes to this Operatives APL stat and it isnt affected by enemy Operatives Shock weapon rule.\n
+            Puedes ignorar cualquier cambio a las APL de este Operativo, y no es afectado por la regla Shock de Operativos enemigos.\n
                         ---4.STEALTHY\n
-            Whenever an Operative is shooting this Operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save
-            as critical success instead. This isnt cumulative with improved cover saves from Vantage terrain.\n
+            Cuando un Operativos dispare a este Operativo, si puedes retener salvaciones por cobertura, puedes retener una salvacion adicional, o puedes retener una salvacion
+            critica en su lugar. Esto no es acumulable con salvacion mejorada por Vantage terrain.\n
                         ---5.MOBILE\n
-            *This operative can perform the **Fall Back** action for 1 less AP.\n
-            *This operative can perform the **Charge** action while within control range of an enemy Operative, and can leave that Operatives control range to do so
-            (but then normal requirements for that move apply).\n
+            *Este Operativo puede realizar la acción **Fall Back** por 1AP menos.\n
+            *Este Operativo puede realizar la acción **Charge** estando en rango de control de Operativos enemigos, y puede dejar el rango de control de ese Operativo para
+            hacer esto, pero aún debe terminar en rango de control de un Operativo enemigo.\n
                         ---6.HARDY\n
-            Whenever an Operative is shooting this Operative, defence dice results of 5+ are critical successes. Whenever this Operative is retaliating, the first
-            time an attack dice inflicts Normal Dmg of 3 or more on this Operative during that sequence, that dice inflicts 1 less damage on it.\n
+            Cuando un Operativo esté disparando a este Operativo, los resultados en dados de defensa de 5+ son resultados críticos. Cuando este operativo esta retaleando,
+            el primer dado que inflinja daño normal de 3 o más a este Operativo durante esa secuencia, ese dado hace 1 menos de daño.\n
                         ---7.SHARPSHOOTER\n
-            Whenever this Operative is shooting during an activation in which it hasnt performed the **Charge, Fall Back** or **Reposition** action, its bolt weapon has the Acurrate 1
-            and Severe weapons rules.\n
+            Cuando ese Operativo esté disparando durante una activación en la que no se ha realizado acciones de **Charge, Fall Back** o **Reposition**, el arma bolt
+            tiene las reglas Accurate 1 y Severe.
                         ---8.SIEGE SPECIALIST\n
-            This Operatives ranged weapons have the Saturate weapon rule. Whenever this Operative is fighting or retaliating, enemy Operatives cannot assist.\n
+            Las armas de rango de este Operativo tienen la regla Saturate. Cuando este Operativo este peleando o retaleando, Operativos enemigos no pueden asistir.
 ]]></string>
 
 
