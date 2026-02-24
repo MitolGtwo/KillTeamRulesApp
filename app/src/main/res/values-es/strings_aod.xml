@@ -94,7 +94,7 @@
 ]]></string>
 
     <string name="astartes_description"><![CDATA[
-        Durante cada activación de Operativos **ANGEL OF DEATH** aliados, pueden realizar dos acciones **Shoot** o dos acciones **Fight**. Si estas dos acciones son **Shoot**
+        Durante cada activación de Operativos **ANGEL OF DEATH** aliados, pueden realizar dos acciones de **Disparo** o dos acciones **Combate**. Si estas dos acciones son **Disparo**
         , un arma Bolt debe ser seleccionada para al menos uno de los disparos, si es un Bolt Sniper Rifle o Heavy Bolter, se debe gastar 1AP extra para el segundo disparo, si
          ambos disparos son con la misma arma.\n
         \n
@@ -117,13 +117,13 @@
                         ---1.AGGRESIVE\n
             Las armas a melee de este Operativo tienen la regla Rending.\n
                         ---2.DUELLER\n
-            Cuando este Operativo esté peleando o retaleando, cada uno de tus exitos normales puede ser usado para bloquear un resultado critico sin resolver (a menos de que
+            Cuando este Operativo esté peleando o retaleando, cada uno de tus éxitos normales puede ser usado para bloquear un resultado critico sin resolver (a menos de que
          el enemigo tenga la regla Brutal).\n
                         ---3.RESOLUTE\n
             Puedes ignorar cualquier cambio a las APL de este Operativo, y no es afectado por la regla Shock de Operativos enemigos.\n
                         ---4.STEALTHY\n
             Cuando un Operativos dispare a este Operativo, si puedes retener salvaciones por cobertura, puedes retener una salvacion adicional, o puedes retener una salvacion
-            critica en su lugar. Esto no es acumulable con salvacion mejorada por Vantage terrain.\n
+            critica en su lugar. Esto no es acumulable con salvación mejorada por Vantage terrain.\n
                         ---5.MOBILE\n
             *Este Operativo puede realizar la acción **Fall Back** por 1AP menos.\n
             *Este Operativo puede realizar la acción **Charge** estando en rango de control de Operativos enemigos, y puede dejar el rango de control de ese Operativo para
@@ -142,41 +142,39 @@
     <!--Equipment-->
 
     <string name="purity_seals_lore"><![CDATA[
-        Awarded by the Chapters Chaplains, purity seals are inscribed with blessings and inspire the bearer to fight with increased vigour.
+        Condecorados por los Chaplains del capítulo, los sellos de pureza con inscritos benditos inspiran al portador a luchar con vigor.
 ]]></string>
 
     <string name="purity_seals_description"><![CDATA[
-
-        Once per turning point, when a friendly **ANGEL OF DEATH** Operative is shooting, fighting or retaliating, if you roll two two or more fails, you
-            can discard one of them to retain another as a normal success instead.
-
+        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado esté disparando, peleando o retaleando, si lanzas 2 o más fallos, puedes descartar uno de ellos
+        para tener un éxito normal en su lugar.
 ]]></string>
 
     <string name="chapter_reliquaries_lore"><![CDATA[
-        Many Space Marines bear macabre relics taken from the bodies of their fallen. Those who bear these inspirational items fight all the harder to honour
-    the sacrifice of their battle-brothers.
+        Muchos Space Marines portan reliquias macabras tomadas de los cuerpos de sus hermanos caídos; aquellos que cargan estos objetos son inspirados a luchar
+        para honrar el sacrificio de sus hermanos caídos.
 ]]></string>
 
     <string name="chapter_reliquaries_description"><![CDATA[
-        You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly Operative has an **Engage** order
+        Puedes usar la Firefight ploy Wrath of Vengeance por 0CP si el Operativo aliado seleccionado tiene una orden de **Engage**.
 ]]></string>
 
     <string name="tilting_shields_lore"><![CDATA[
-    As well as displaying company colours and personal heraldry, a Space Marines tilting plate serves to protect the bearer in the press of melee combat.
+    Al mismo tiempo que sirven para llevar los colores de capitulo, los escudos de los Space Marines sirven para proteger al portador en combates cercanos.
 ]]></string>
 
     <string name="tilting_shields_description"><![CDATA[
-    Once per turning point, when a friendly **ANGEL OF DEATH** Operative is fighting or retaliating, after your opponent rolls their attack dice, but before re-rolls, you can use
-            this rule. If you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (ex. Lethal, Rending or Severe).
+        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado este peleando o retaleando, despues de que tu oponente lanza sus dados de ataque, pero antes
+        de que haga re-rolls, puedes usar esta regla. Si lo haces, tu oponente no puede retener dados de ataque menores de 6 como exitos criticos (Lethal, rending o Severe).
 ]]></string>
 
     <string name="auspex_lore"><![CDATA[
-    Auspexes come in many forms. These scanning devices can detect motion, analyse atmospheric conditions and reveal heat signatures.
+    Auspexes vienen en varias formas. Estos dispositivos de escaneo detectan movimiento, analizan condiciones atmosféricas y revelan cambios de calor.
 ]]></string>
 
     <string name="auspex_description"><![CDATA[
-    Once per turning point, when a friendly **ANGEL OF DEATH** Operative performs the **Shoot** action, and you are selecting a valid target, you can use this rule.
-            If you do, until the end of the activation/counteraction, enemy Operatives within 8\" of that friendly Operative cannot be Obscured.
+    Una vea por turno, cuando un Operativo **ANGEL OF DEATH** aliado realice una acción de **Disparo**, y seleccionas un objetivo valido, puedes usar esta regla.
+        Si lo haces, hasta el final de esta activacion/counteract, Operativos enemigos a 8\" de este Operativo no pueden estar Obscured.
 ]]></string>
 
 
@@ -184,41 +182,41 @@
     <!--Strategy ploys-->
 
     <string name="combat_doctrine_lore"><![CDATA[
-   Space Marines hold the teachings of the Codex Astartes in highest esteem, employing its flexible combat doctrines to annihilate their enemies.
+        Space Marines mantienen las enseñanzas del Codex Astartes en alta estima, usando sus flexibles doctrinas de combate para aniquilar a sus enemigos.
 ]]></string>
 
     <string name="combat_doctrine_description"><![CDATA[
-    Select one **COMBAT DOCTRINE** from those presented below. Whenever a friendly **ANGEL OF DEATH** Operative is x, its weapons have the Balanced weapon rule. X is the
-     **COMBAT DOCTRINE** you selected.\n\n
-    - **DEVASTATOR DOCTRINE:** Shooting an Operative more than 6\" from it.\n
-    - **TACTICAL DOCTRINE:** Shooting an Operative within 6\" of it.\n
-    - **ASSAULT DOCTRINE:** Fighting or retaliating.
+    Selecciona una **COMBAT DOCTRINE** de las siguientes mostradas abajo. Siempre que un operativo **ANGEL OF DEATH** aliado esté a x distancia, sus armas tienen la regla
+        Balanced. x distancia es la **COMBAT DOCTRINE** que seleccionaste.\n\n
+    - **DEVASTATOR DOCTRINE:** Disparar un Operativo a más de 6\" de este Operativo.\n
+    - **TACTICAL DOCTRINE:** Disparar un Operativo a 6\" de este Operativo.\n
+    - **ASSAULT DOCTRINE:** Pelear o retalear.
 ]]></string>
 
     <string name="no_fear_lore"><![CDATA[
-   Space Marines possess extraordinary courage and are utterly unflinching in the face of terrifying horros and overwhelming odds.
+        Los Space Marines poseen coraje extraordinario y miran el terror a la cara sin titubear, ignorando tener todas las probabilidades en contra.
 ]]></string>
 
     <string name="no_fear_description"><![CDATA[
-    You can ignore any changes to the stats of friendly  **ANGEL OF DEATH** Operatives from being injured.
+    Puedes ignorar cualquier cambio en las estadísticas de Operativos **ANGEL OF DEATH** por estar heridos.
 ]]></string>
 
     <string name="adaptive_tactics_lore"><![CDATA[
-   There are few more tactically flexible warriors than the Adeptus Astartes. Supplementing the teachings of the Codex Astartes with their own experience, 
-         Space Marines may adjust their strategies at a moments notice.
+        Pocos guerreros son tan tácticamente flexibles como los Adeptus Astartes. Incluyendo las enseñanzas del Codex Astartes con su propio conocimiento,
+        Space Marines ajustan sus estrategias al instante.
 ]]></string>
 
     <string name="adaptive_tactics_description"><![CDATA[
-    Change your secondary **CHAPTER TACTIC**. Note this ploy only lasts until the end of the turning point.
+        Cambia tu **CHAPTER TACTIC** secundaria. Esta ploy dura hasta el final del turno.
 ]]></string>
 
     <string name="indomitus_lore"><![CDATA[
-   This is the Era Indomitus. The Imperium wages galaxy-spanning crusades to drive back the horrors that plague it, and the battle-brothers of the Adeptus Astartes 
-         are spurred on by this righteous purpose.
+        Esta es la Era Indomitus. El Imperio usa sus recursos en cruzadas para empujar los horrores que impregnan la galaxia, los hermanos de batalla del 
+        Adeptus Astartes son motivados con un propósito justo.
 ]]></string>
 
     <string name="indomitus_description"><![CDATA[
-    Whenever an Operative is shooting a friendly **ANGEL OF DEATH** Operative, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.
+    Cuando un Operativo esté disparando a un  **ANGEL OF DEATH** aliado, si lanzas dos o más fallos, puedes descartar uno para retener uno resultado como éxito normal.ccess instead.
 ]]></string>
 
 
@@ -226,42 +224,45 @@
     <!--Firefight ploys-->
 
     <string name="adjust_doctrine_lore"><![CDATA[
-   Adeptus Astartes kill teams adapt their strategies on the fly to overcome the foe. Swifly traded hand signals and abrupt vox exchanges herald a shift in doctrine.
+    Los equipos de eliminación Adeptus Astartes adaptan sus estrategias rápidamente para superar a sus enemigos. Rapidamente comunican cambios estratégicos en el vox para 
+        cambiar de doctrina.
 ]]></string>
 
     <string name="adjust_doctrine_description"><![CDATA[
-    Use this Firefight ploy during a friendly **ANGEL OF DEATH** Operatives activation, before or after it performs an action. If you have used the Combat Doctrine 
-    strategy ploy during this turning point, change the **COMBAT DOCTRINE** you selected.
+    Usa esta Firefight ploy durante la activación de un Operativo **ANGEL OF DEATH** aliado, antes o después de que haga una acción. Si usaste la strategy ploy 
+    Combat Doctrine durante este turno, cambia la **COMBAT DOCTRINE** seleccionada.
+
 ]]></string>
 
     <string name="transhuman_physiology_lore"><![CDATA[
-   The genetically modified physiology of a Space Marine is capable of resisting wounds that would kill a lesser being.
+    Las modificaciones genéticas de un Space Marine los hace capaces de resistir heridas capaces de matar organismos inferiores.
+
 ]]></string>
 
     <string name="transhuman_physiology_description"><![CDATA[
-    Use this Firefight ploy when an Operative is shooting a friendly **ANGEL OF DEATH** Operative, in the Roll Defence Dice Step. You can retain one of your normal successes as a critical
-    success instead.
+    Usa esta Firefight ploy cuando un Operativo este disparando a un Operativo **ANGEL OF DEATH** aliado, al momento de lanzar tus dados de defensa. Puedes retener un
+        resultado Normal, como un resultado Critico en su lugar.
 ]]></string>
 
     <string name="shock_assault_lore"><![CDATA[
-   The Adeptus Astartes strike with exceptional speed and strength, the roar of chainswords and brutal assaults spelling death for their foes.
+    El Adeptus Astartes ataca con increíble fuerza y velocidad; el rugido de las espadas sierra y los asaltos brutales amenazan con muerte a sus enemigos.
 ]]></string>
 
     <string name="shock_assault_description"><![CDATA[
-    Use this Firefight ploy when a friendly **ANGEL OF DEATH** Operative is performing the **Fight** action during an activation in which it performed the **Charge** action,
-    at the start of the Resolve Attack Dice step. Until the end of that action:\n\n
+Usa esta Firefight ploy cuando un Operativo **ANGEL OF DEATH** aliado esté haciendo una acción de **Pelea** en una activación en la cual haya realizado una accion de
+        **Carga**, al inicio de la fase de resolver dados de ataque. Hasta el final de esta acción:\n\n
 
-    -Its melee weapon has the Shock weapon rule.
-    -The first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).
+        -Sus armas a melee tienen la regla Shock.
+        -La primera vez que uses un dado para atacar, infliges 1 daño adicional (hasta un máximo de 7).
 ]]></string>
 
     <string name="wrath_of_vengeance_lore"><![CDATA[
-   When roused to anger, a battle-brother of the Adeptus Astartes may be spurred to acts of extraordinary strength and athleticism.
+    Cuando la ira los consume, los hermanos de batalla del Adeptus Astartes pueden realizar actos de increíble fuerza y atletismo.
 ]]></string>
 
     <string name="wrath_of_vengeance_description"><![CDATA[
-    Use this Firefight ploy when a friendly **ANGEL OF DEATH** Operative is counteracting. It can perform an additional 1AP action for free during that action, but both actions must be different.
+    Usa esta Firefight ploy cuando un Operativo **ANGEL OF DEATH** aliado esté haciendo un counteract. Puede realizar una acción adicional de 1AP gratis durante esa acción,
+        pero ambas acciones deben ser distintas.
 ]]></string>
-
 
 </resources>
