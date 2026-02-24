@@ -3,88 +3,64 @@
 
     <!--Battleclade-->
 
-    <string name="battleclade_autoproxy_eye"><![CDATA[
-
-        Achillan Eye
-
-]]></string>
-
     <string name="battleclade_autoproxy_eye_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
 ]]></string>
 
     <string name="battleclade_autoproxy_eye_description"><![CDATA[
-
-        Whenever a friendly **BATTLECLADE** Operative is shooting an enemy Operative visible
-                     to this Operative, that friendly Operatives ranged weapons have the **Saturate** weapon rule.
-                     This rule has no effect if this Operative is within control range of an enemy Operative.
-
-]]></string>
-
-    <string name="battleclade_autoproxy_gaze"><![CDATA[
-
-        GAZE OF THE OMNISSIAH
-
+        Siempre que un Operativo **BATTLECLADE** aliado esté disparando a un enemigo Operativo visible para este Operativo, las armas de rango de esos Operativos aliados
+        tienen la regla Saturate. Esta regla no tiene efecto si este Operativo está en rango de control de un Operativo enemigo.
 ]]></string>
 
     <string name="battleclade_autoproxy_gaze_usage"><![CDATA[
 
-        1AP/Firefight Phase
+        1AP
 
 ]]></string>
 
     <string name="battleclade_autoproxy_gaze_description"><![CDATA[
-
-        Select one enemy Operative visible to this Operative. Until the end of the turning point, whenever
-                     a friendly **BATTLECLADE** Operative is shooting that enemy Operative, you can use this rule. If you do:\n
-                    \n*That enemy Operative cannot be obscured.
-                     \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative.
-
+        Selecciona un Operativo enemigo visible para este Operativo. Hasta el final del turno, siempre que un aliado **BATTLECLADE** le dispare a ese Operativo
+        enemigo, puedes usar esta regla. Si lo haces:\n
+        \n
+        -Ese Operativo no puede estar Obscure.\n
+        -El Operativo aliado tiene la regla Seek Light.\n\n
+        Este Operativo no puede realizar esta acción estando en rango de control de un Operativo enemigo.
 ]]></string>
 
-    <string name="battleclade_breach"><![CDATA[
-
-        Breach
-
-]]></string>
 
     <string name="battleclade_breach_usage"><![CDATA[
 
-        1 AP/Firefight phase
+        1 AP
 
 ]]></string>
 
     <string name="battleclade_breach_description"><![CDATA[
+        Pon uno de tus marcadores Breach dentro del rango de control de este Operativo, tan cerca como sea posible de una pieza de terreno.
+        Siempre que un Operativo esté a 1\" de ese marcador, trata esa parte del terreno como terreno accesible, al pasar por este terreno 
+        accesible Operativos pierden 1\" de movimiento.\n\n
 
-        Place one of your Breach markers within this Operatives control range as close as possible to a
-                     terrain feature within control range of it. Whenever an Operative is within 1\" of that marker,
-                     it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.\n\n
-                    This Operative **cannot** perform this action while within control range of an enemy Operative, or if
-                     a terrain feature isnt within its control range.
-
+        Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo, o si la pieza de terreno no está dentro
+        del rango de control de este Operativo.
 ]]></string>
 
-    <string name="battleclade_divinearcana"><![CDATA[
-
-        Seeker of Divine Arcana
-
-]]></string>
 
     <string name="battleclade_divinearcana_usage"><![CDATA[
 
-        Strategic Gambit
+        Pasiva
 
 ]]></string>
 
     <string name="battleclade_divinearcana_description"><![CDATA[
-
-        You can inmediatly change this Operatives order and/or can inmediatly perform
-                        any of these actions for free:\nOmniscanner\nFall Back\nPlace Marker\nPick Up Marker
-                        \nMission Action\nReposition.\nWhen doing a Reposition or Fall back action with this rule
-                         and this Operative is not carrying a marker, it must end that move either within your drop
-                         zone(or as close as possible), or with control of a mission marker or objective marker.
+**STRATEGIC GAMBIT** Puedes inmediatamente cambiar la orden de este Operativo y/o realizar una de estas acciones gratis inmediatamente:\n
+        **Omniscanner**\n
+        **Fall Back**\n
+        **Place marker, Pick up marker**\n
+        **Mission action**\n
+        **Reposition**\n
+        Al momento de hacer una **Reposition** o **Fall back** por esta regla, si este Operativo no esta cargando un marcador, puedes mover este Operativo
+        ya sea dentro de tu Drop Zone (o tan cerca como sea posible), o en rango de control de un marcador de misión(TacOp) o marcador de objetivo(CritOp).
 
 ]]></string>
 
