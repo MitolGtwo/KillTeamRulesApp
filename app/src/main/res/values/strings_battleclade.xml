@@ -18,7 +18,7 @@
 
     <string name="battleclade_autoproxy_gaze_usage"><![CDATA[
 
-        1AP/Firefight Phase
+        1AP
 
 ]]></string>
 
@@ -34,8 +34,7 @@
 
     <string name="battleclade_breach_usage"><![CDATA[
 
-        1 AP/Firefight phase
-
+        1 AP
 ]]></string>
 
     <string name="battleclade_breach_description"><![CDATA[
@@ -48,11 +47,6 @@
 
 ]]></string>
 
-    <string name="battleclade_divinearcana"><![CDATA[
-
-        Seeker of Divine Arcana
-
-]]></string>
 
     <string name="battleclade_divinearcana_usage"><![CDATA[
 
