@@ -2,18 +2,18 @@
 <resources>
     <!--AOD-->
     <string name="heroic_leader_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="heroic_leader_description"><![CDATA[
-        You can do one of the following:\n
-            \n
-            -Use a Firefight ploy for 0CP if this is the specified **ANGEL OF DEATH** (excluding Command Re-roll).\n
-            \n
-            -Use the Combat Doctrine strategy ploy when you activate a friendly **ANGEL OF DEATH** Operative if this Operative is in the killzone and isnt within control
-            range of an enemy Operative (pay its CP cost as normal). Note that you cannot do so if you have already used that ploy during this turning point.\n
-            \n
-            -Used the Adjust Doctrine Firefight ploy for 0CP if this Operative is in the killzone and isnt within control range of enemy Operatives.
+        Puedes seleccionar entre una de las siguientes opciones:\n
+        \n
+        -Usar una Firefight ploy por 0CP si este es el Operativo **ANGEL OF DEATH** seleccionado.\n
+        \n
+        -Usar la Combat Doctrine Strategy ploy cuando activas un Operativo **ANGEL OF DEATH**, si este Operativo esta en la Killzone y no en rango de control de un Operativo
+        enemigo (paga el cp como lo harias normalmente). No puedes hacerlo si ya usaste la ploy durante este turno.\n
+        \n
+        -Usa la Firefight ploy Adjust Doctrine por 0CP si este Operativo está en la Killzone y no en rango de control de un Operativo enemigo.
 ]]></string>
 
     <string name="iron_halo_usage"><![CDATA[
