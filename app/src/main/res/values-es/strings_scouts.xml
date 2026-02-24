@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Scout-->
+
+    <string name="guidance_and_experience_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="guidance_and_experience_description"><![CDATA[
+ Once during each of this operatives activations, you can select one other friendly **SCOUT SQUAD**
+operative visible to it. Until the end of that operatives next activation, add 1 to its APL stat.
+    ]]></string>
+
+    <string name="scout_astartes_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="scout_astartes_description"><![CDATA[
+During this operatives activation, it can perform either two **Shoot** actions or two **Fight** actions. If its two **Shoot** actions,
+an Astartes shotgun, bolt pistol or boltgun must be selected for at least one of them. This operative can counteract regardless of
+its order.
+    ]]></string>
+
+    <string name="grapnel_launcher_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="grapnel_launcher_description"><![CDATA[
+Whenever this operative is climbing up, you
+can treat the vertical distance as 2\" (regardless of how far the
+operative actually moves vertically).
+    ]]></string>
+
+    <string name="grapnel_assault_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="grapnel_assault_description"><![CDATA[
+Whenever this operative performs the **Charge**
+action during its activation, if it climbs, drops, jumps or its
+base moves underneath Vantage terrain during that action, its
+melee weapons have the Lethal 3+ weapon rule until the end of
+that activation.
+    ]]></string>
+
+    <string name="track_enemy_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="track_enemy_description"><![CDATA[
+Select one enemy operative within 8\" of this operative. Until
+the end of the turning point, whenever a friendly **SCOUT
+SQUAD** operative is shooting that enemy operative, that
+friendly operatives ranged weapons have the Seek Light
+weapon rule.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="scout_auspex_scan_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="scout_auspex_scan_description"><![CDATA[
+Until the start of this operatives next activation or until
+it is incapacitated (whichever comes first), whenever a
+friendly **SCOUT SQUAD** operative is shooting an
+enemy operative within 8\" of this operative, that enemy
+operative cannot be obscured; if that friendly operative is a
+**SNIPER** that is currently benefitting from the effects of its
+**Optics** action, its ranged weapons also have the Seek Light
+weapon rule.
+    ]]></string>
+
+    <string name="scout_adaptive_equipment_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="scout_adaptive_equipment_description"><![CDATA[
+You can do each of the following once per turning point:\n
+
+• One friendly **SCOUT SQUAD WARRIOR** operative can perform the Smoke Grenade action.\n
+• One friendly **SCOUT SQUAD WARRIOR** operative can perform the Stun Grenade action.\n
+The rules for these actions are found in universal equipment. Performing these actions using this
+rule does not count towards their action limits (i.e. if you also select those grenades from equipment).
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="foward_scouting_lore"><![CDATA[
+Central to the role of Space Marine Scouts is ranging
+ahead of the strike force they are attached to, spending
+extensive periods laying traps for the foe, harassing
+enemy patrols, gathering intelligence and reconnoitring
+the ground in preparation for the Chapters
+assault force.
+]]></string>
+
+    <string name="foward_scouting_description"><![CDATA[
+At the end of the Set Up Operatives step, you can
+select and resolve up to six Forward Scouting
+options. Each option has a number in brackets,
+which is the maximum number of times you can
+select and resolve it for the battle. For example,
+your six selections could be Reposition (2), Trip
+Alarm (1), Booby Trap (1) and Diversion (1). If
+both players have this rule, alternate resolving
+selection by selection, starting with the player
+with initiative.\n
+\n
+\n
+**Redeploy** (1)\n
+Change the set up of one third of your operatives (rounding up).\n
+\n
+**Reposition** (2)\n
+Perform a free **Reposition** action with one friendly
+operative that’s wholly within your drop zone.
+It must end that move wholly within 3\" of your drop zone.\n
+\n
+**Trip Alarm** (2)\n
+Place one of your Trip Alarm markers more than
+6\" from your opponents drop zone. During
+the first and second turning point, whenever a
+friendly **SCOUT SQUAD** operative is shooting an
+enemy operative that is within 2\" of that marker,
+that friendly operatives ranged weapons have the
+Seek weapon rule. In the Ready step of the third
+Strategy phase, remove that marker.\n
+\n
+**Booby Trap** (1)\n
+Place one of your Booby Trap markers more than
+6\" from your opponents drop zone and more
+than 2\" from other markers, access points and
+Accessible terrain. The first time your Booby
+Trap marker is within an enemy operatives
+control range, remove that marker and inflict 2D3
+damage on that operative; if it is not incapacitated,
+end its action (if any), even if that actions effects
+are not fulfilled. If it cannot be placed, move it the
+minimum amount to do so.\n
+\n
+**Tactical Manoeuvre** (1)\n
+Twice per battle **STRATEGIC GAMBIT**. Select
+one friendly operative. Until the end of that
+operatives next activation, add 1 to its APL stat.\n
+\n
+**Diversion** (1)\n
+Once per battle **STRATEGIC GAMBIT**. Select one
+enemy operative within 6\" of a killzone edge.
+Until the end of that operative’s next activation,
+subtract 1 from its APL stat.\n
+\n
+**Devise Plan** (1)\n
+You gain 1CP.\n
+\n
+**Designate Target** (1)\n
+Select one enemy operative to gain one of your
+Target tokens. Whenever a friendly **SCOUT
+SQUAD** operative is shooting against, fighting
+against or retaliating against an enemy operative
+that has one of your Target tokens, you can re-roll
+one of your attack dice.\n
+\n
+**Spy** (1)\n
+Approved Ops only. Your opponent must reveal
+their selected tac op.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="camo_cloak_scout_lore"><![CDATA[
+Crafted from light-manipulating materials such as
+cameleoline, camo cloaks help the bearer blend into
+surrounding terrain.
+]]></string>
+
+    <string name="camo_cloak_scout_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**SCOUT SQUAD** operative (excluding **SNIPER**),
+if you can retain any cover saves, you can retain
+one additional cover save. This is not cumulative
+with improved cover saves from Vantage terrain.
+]]></string>
+
+    <string name="targeting_oculars_lore"><![CDATA[
+These highly sensitive multispectral targeting visors
+serve to aid the bearers aim, rendering their weapons
+even more lethal.
+]]></string>
+
+    <string name="targeting_oculars_description"><![CDATA[
+Up to twice per turning point, when a friendly
+**SCOUT SQUAD** operative is performing the
+**Shoot** action and you are selecting a valid target,
+you can use this rule. If you do, until the end
+of that action, that friendly operatives ranged
+weapons have the Lethal 5+ and Saturate
+weapon rules.
+]]></string>
+
+    <string name="scout_combat_blades_lore"><![CDATA[
+Space Marine Neophytes wield a variety of short-bladed
+melee weapons, demonstrating lethal proficiency with
+them all.
+]]></string>
+
+    <string name="scout_combat_blades_description"><![CDATA[
+Friendly **SCOUT SQUAD** operatives have
+the following melee weapon. Note that some
+operatives already have this weapon but
+with better stats; in that instance, use the
+better version.
+]]></string>
+
+    <string name="heavy_weapon_bipod_lore"><![CDATA[
+Deploying a heavy weapon bipod allows the bearer to lay
+down a hail of suppressing fire.
+]]></string>
+
+    <string name="heavy_weapon_bipod_description"><![CDATA[
+Whenever a friendly **SCOUT SQUAD HEAVY
+GUNNER** operative is shooting with a heavy bolter
+or missile launcher, if it has not moved during
+the activation, or if it is a counteraction, that
+weapon has the Ceaseless weapon rule; if the
+weapon already has that weapon rule, it has the
+Relentless weapon rule. Note that operative is not
+restricted from moving after shooting.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="guerrilla_engagement_lore"><![CDATA[
+Space Marine Scouts learn to use terrain to their
+advantage, preventing the enemy from getting a bead on
+them as they move within killing range.
+]]></string>
+
+    <string name="guerrilla_engagement_description"><![CDATA[
+Whenever an enemy operative is shooting a
+friendly **SCOUT SQUAD** operative, if that friendly
+operative is in cover and more than 6\" from
+enemy operatives it is visible to, you can re-roll
+one of your defence dice.
+]]></string>
+
+    <string name="ambush_lore"><![CDATA[
+Scout Squads utilise stealth to close within range
+of their foes, carefully selecting their targets before
+unleashing a devastating assault.
+]]></string>
+
+    <string name="ambush_description"><![CDATA[
+Whenever a friendly **SCOUT SQUAD** operative
+is shooting or fighting during its activation, if its
+order was changed from **Conceal** to **Engage** at
+the start of that activation, or it was not visible to
+enemy operatives at the start of that activation:\n
+• That friendly operatives weapons have the Balanced weapon rule.
+• If the target is expended, that friendly operatives weapons have the Ceaseless weapon rule instead.
+]]></string>
+
+    <string name="adaptable_training_lore"><![CDATA[
+Space Marine Neophytes and their experienced
+Sergeants draw upon a host of versatile tactics
+embedded through hypno-indoctrination. Coupled
+with their stealth training, this enables them to
+outmanoeuvre their foes while remaining out of reach.
+]]></string>
+
+    <string name="adaptable_training_description"><![CDATA[
+You can change the order of up to D3 friendly
+**SCOUT SQUAD** operatives that are more than 4\"
+from enemy operatives.
+]]></string>
+
+    <string name="stealth_relocation_lore"><![CDATA[
+Space Marine Scout Squads are highly mobile
+units, shifting swiftly from cover to cover in order to
+outmanoeuvre the foe.
+]]></string>
+
+    <string name="stealth_relocation_description"><![CDATA[
+Up to D3 friendly **SCOUT SQUAD** operatives that
+have a Conceal order and are more than 4\" from
+enemy operatives can immediately perform a free
+**Dash** action. You cannot use this ploy during the
+first turning point.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="astartes_training_lore"><![CDATA[
+Space Marine Chapters are amongst the galaxys most
+elite fighting forces. Even their Neophytes wield their
+weapons with peerless skill.
+]]></string>
+
+    <string name="astartes_training_description"><![CDATA[
+Use this firefight ploy during a friendly **SCOUT
+SQUAD** operatives activation. Until the end
+of that activation, that operative can do one of
+the following:\n
+• Perform two **Fight** actions.\n
+• Perform two **Shoot** actions if an Astartes shotgun, bolt pistol or boltgun is selected for at
+least one of them. \
+• Perform two **Shoot** actions with a heavy bolter,
+missile launcher or sniper rifle, but 1 additional
+AP must be spent for the second action.
+]]></string>
+
+    <string name="raw_physiology_lore"><![CDATA[
+Though their training may not yet be complete, Space
+Marine Scouts possess the same genetically augmented
+resilience as their fully fledged battle-brothers
+]]></string>
+
+    <string name="raw_physiology_description"><![CDATA[
+Use this firefight ploy during a friendly **SCOUT
+SQUAD** operatives activation, before or after
+it performs an action. Until the start of its next
+activation, add 1\" to its Move stat and you can
+ignore any changes to that operatives stats from
+being injured (including its weapons’ stats).
+]]></string>
+
+    <string name="emboldened_aspirant_lore"><![CDATA[
+Surgical enhancement, indoctrination and brutal
+training instil within a Space Marine Neophyte the
+confidence and determination to battle powerful foes.
+]]></string>
+
+    <string name="emboldened_aspirant_description"><![CDATA[
+Use this firefight ploy when a friendly **SCOUT
+SQUAD** operative performs the **Shoot** or
+**Fight** action, after any re-rolls. If it is the first
+friendly operative to perform either of those
+actions during this turning point, or if the
+enemy operative in that action (primary target,
+if relevant) has a higher Wounds stat than that
+friendly **SCOUT SQUAD** operative, you can
+retain one of your normal successes as a critical
+success instead.
+]]></string>
+
+    <string name="covert_position_lore"><![CDATA[
+Space Marine Scouts excel at camouflaging themselves,
+laying in wait for hours or even days at a time until they
+identify the perfect moment to strike
+]]></string>
+
+    <string name="covert_position_description"><![CDATA[
+Use this firefight ploy during a friendly **SCOUT
+SQUAD** operatives activation. Until the start
+of its next activation, while that operative has
+a **Conceal** order and is in cover, it cannot be
+selected as a valid target, taking precedence over
+all other rules (e.g. Seek, Vantage terrain) except
+being within 2\".
+]]></string>
+
+</resources>

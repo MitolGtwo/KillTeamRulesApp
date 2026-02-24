@@ -448,11 +448,6 @@
 
     /Ploys
     /Strategic Ploy
-    <string name="wrecka_waaagh"><![CDATA[
-
-        WAAAGH!
-
-]]></string>
 
     <string name="wrecka_waaagh_lore"><![CDATA[
 
@@ -466,12 +461,6 @@
 
         Friendly **WRECKA KREW** Operatives melee weapons have the Balanced
                          weapon rule.
-
-]]></string>
-
-    <string name="wrecka_tuff_gitz"><![CDATA[
-
-        TUFF GITZ
 
 ]]></string>
 
@@ -489,11 +478,6 @@
 
 ]]></string>
 
-    <string name="wrecka_destruction"><![CDATA[
-
-        DESTRUCTION
-
-]]></string>
 
     <string name="wrecka_destruction_lore"><![CDATA[
 
@@ -509,11 +493,6 @@
 
 ]]></string>
 
-    <string name="wrecka_amped_up"><![CDATA[
-
-        AMPED UP
-
-]]></string>
 
     <string name="wrecka_amped_up_lore"><![CDATA[
 
@@ -533,11 +512,6 @@
 
     /Firefight Ploy
 
-    <string name="wrecka_demolition_job"><![CDATA[
-
-        DEMOLITION JOB
-
-]]></string>
 
     <string name="wrecka_demolition_job_lore"><![CDATA[
 
@@ -560,11 +534,7 @@
 
 ]]></string>
 
-    <string name="wrecka_proppa_scrap"><![CDATA[
 
-        PROPPA SCRAP
-
-]]></string>
 
     <string name="wrecka_proppa_scrap_lore"><![CDATA[
 
@@ -605,11 +575,6 @@
 
 ]]></string>
 
-    <string name="wrecka_jas"><![CDATA[
-
-        JUST A SCRATCH
-
-]]></string>
 
     <string name="wrecka_jas_lore"><![CDATA[
 

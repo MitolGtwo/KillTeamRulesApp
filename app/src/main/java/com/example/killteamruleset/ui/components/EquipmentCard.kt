@@ -76,25 +76,21 @@ fun EquipmentCard(
             )
 
             // ⚔️ EQUIPMENT ACTION
-            equipment.ability?.let { ability ->
+            if (equipment.abilities.isNotEmpty()) {
                 Spacer(Modifier.height(16.dp))
 
                 Text(
-                    text = "EQUIPMENT ACTION",
+                    text = "EQUIPMENT ABILITIES",
                     fontWeight = FontWeight.Bold,
                     color = Color.Black
                 )
 
-                Spacer(Modifier.height(6.dp))
+                Spacer(Modifier.height(8.dp))
 
-                ability.description?.let { description ->
-                    AbilityDescriptionText(
-                        text = stringResource(description),
-                        enableKeywords = true,
-                        backgroundColor = Color.White,
-                        textColor = Color.Black
-                    )
-                }
+                AbilitiesSection(
+                    abilities = equipment.abilities,
+                    onKeywordClick = { selectedKeyword = it }
+                )
             }
 
             // 🔫 WEAPON PROFILES

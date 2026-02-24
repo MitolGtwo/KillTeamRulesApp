@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Phobos-->
+
+    <string name="tactical_advantage_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tactical_advantage_description"><![CDATA[
+You can do each of the following once per battle:\n
+• After rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n
+• You can use a firefight ploy for 0CP if this is the specified **PHOBOS STRIKE TEAM** operative (including Command Re-roll if the
+attack or defence dice was rolled for this operative), or the Patient Ambush firefight ploy for 0CP if this operative is ready and not
+within control range of enemy operatives
+    ]]></string>
+
+    <string name="strategic_oversight_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="strategic_oversight_description"><![CDATA[
+In the Ready step of each Strategy phase, when you gain CP, if this operative is in the killzone and is not within
+control range of enemy operatives, you can use this rule. If you do, roll one D6: on a 4+, you gain one additional CP
+    ]]></string>
+
+    <string name="comms_array_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="comms_array_description"><![CDATA[
+Once per turning point, during a friendly **PHOBOS STRIKE TEAM** operatives activation or counteraction, before
+or after it performs an action, if this operative is in the killzone, you can change one strategy ploy you have used this turning point (it
+does not cost you any CP to do so).
+    ]]></string>
+
+    <string name="phobos_medic_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="phobos_medic_description"><![CDATA[
+The first time during each turning point that another friendly **PHOBOS STRIKE TEAM** operative would be incapacitated
+while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of
+an enemy operative. If you do, that friendly operative is not incapacitated, has D3 wounds remaining and cannot be incapacitated for
+the remainder of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must end that
+move within this operative’s control range. Subtract 1 from this and that operatives APL stats until the end of their next activations
+respectively, and if this rule was used during that friendly operatives activation, that activation ends. You cannot use this rule if this
+operative is incapacitated, or if it is a **Shoot** action and this operative would be a primary or secondary target.
+    ]]></string>
+
+    <string name="helix_gauntlet_usage"><![CDATA[
+       1AP
+    ]]></string>
+
+    <string name="helix_gauntlet_description"><![CDATA[
+Select one friendly **PHOBOS STRIKE TEAM** operative
+within this operatives control range to regain up to D3+3 lost
+wounds. It cannot be an operative that the Medic! rule was
+used on during this turning point.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="plant_explosives_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="plant_explosives_description"><![CDATA[
+This operative is carrying your Explosives marker. It can perform the **Pick Up Marker** action on that marker, and
+whenever it performs the Place Marker action on that marker, it can immediately perform a free **Dash** action
+    ]]></string>
+
+    <string name="phobos_detonate_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="phobos_detonate_description"><![CDATA[
+Do not select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain
+is wholly intervening between that operative and that marker. Each of those operatives cannot be in cover or obscured. Roll each
+sequence separately in an order of your choice. This weapon cannot be selected if your Explosives marker is not in the killzone. At the
+end of the action, remove your Explosives marker from the killzone. In a killzone that uses the close quarters rules (e.g. Killzone: Tomb
+World), this weapon has the Lethal 5+ weapon rule.
+    ]]></string>
+
+    <string name="custom_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="custom_description"><![CDATA[
+At the end of the Select Operatives step, if this
+operative is selected for deployment, select up to two of the
+following weapon rules for this weapon to have for the battle:
+Balanced, Lethal 5+, Piercing Crits 1, Rending, Saturate.
+    ]]></string>
+
+    <string name="voxbreak_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="voxbreak_description"><![CDATA[
+Whenever an enemy operative
+is within 6\" of this operative, your
+opponent cannot re-roll their attack or
+defence dice for that operative.
+    ]]></string>
+
+    <string name="phobos_auspex_scan_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="phobos_auspex_scan_description"><![CDATA[
+Until the start of this operatives next activation or until it is incapacitated
+(whichever comes first), whenever a friendly **PHOBOS STRIKE TEAM**
+operative is shooting an enemy operative within 8\" of this operative, that enemy
+operative cannot be obscured; if that friendly operative is an **INCURSOR**, its
+ranged weapons also have the Seek Light weapon rule.
+    ]]></string>
+
+    <string name="vanguard_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="vanguard_description"><![CDATA[
+Once per turning point, one friendly **PHOBOS
+STRIKE TEAM** operative with this rule can perform the **Pick
+Up Marker** or a mission action for 1 less AP.
+    ]]></string>
+
+    <string name="track_target_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="track_target_description"><![CDATA[
+This operative can perform the **Guard** action
+during its activation regardless of the killzone (see close quarters
+rules, Kill Team Core Book). It can perform the **Guard** action
+while it has a **Conceal** order, but when you perform the free
+**Shoot** or **Fight** action during the interruption, you must change
+its order to **Engage**.
+    ]]></string>
+
+    <string name="haywire_mine_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="haywire_mine_description"><![CDATA[
+This operative is carrying your Haywire Mine
+marker. It can perform the **Pick Up Marker** action on that
+marker, but that marker cannot be placed within an enemy
+operatives control range (if this operative is incapacitated while
+carrying that marker and that marker cannot be placed, it is
+removed with this operative).
+    ]]></string>
+
+    <string name="phobos_proximity_mine_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="phobos_proximity_mine_description"><![CDATA[
+The first time your Haywire Mine marker is
+within another operatives control range, remove that marker,
+subtract 1 from that operatives APL stat until the end of
+its next activation, and inflict 2D3+3 damage on it; if it is not
+incapacitated, end its action (if any), even if that actions effects
+are not fulfilled. If it cannot be placed, move it the minimum
+amount to do so. Note that this operative is ignored for these
+effects (i.e. it cannot set it off or take damage from that marker).
+    ]]></string>
+
+    <string name="phobos_gravchute_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="phobos_gravchute_description"><![CDATA[
+Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of
+how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance.
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="omni_scrambler_lore"><![CDATA[
+Backpack-mounted omni-scramblers serve to disrupt
+enemy communications.
+]]></string>
+
+    <string name="omni_scrambler_description"><![CDATA[
+**STRATEGIC GAMBIT** if a friendly **INFILTRATOR**
+operative is in the killzone. Select one enemy
+operative visible to a friendly **INFILTRATOR**
+operative, or within 6\" of a friendly **VOXBREAKER**
+operative. In the Firefight phase of this turning
+point, that enemy operative cannot be activated
+or perform actions until one of the following
+is true:\n
+\n
+• Your opponent has activated a number of enemy operatives equal to the number of
+friendly **INFILTRATOR** operatives in the killzone when this **STRATEGIC GAMBIT** was used.\n
+\n
+• It’s the last enemy operative to be activated.
+]]></string>
+
+    <string name="terror_lore"><![CDATA[
+Dedicated terror troops, Space Marine Reivers utilise
+skull masks, shock grenades and vox-enhanced roars to
+terrify their victims.
+]]></string>
+
+    <string name="terror_description"><![CDATA[
+Whenever an enemy operative is within 3\" of
+friendly **REIVER** operatives, your opponent must
+spend 1 additional AP for that enemy operative to
+perform the **Pick Up Marker** and mission actions.\n
+Whenever determining control of a marker,
+treat the total APL stat of enemy operatives
+that contest it as 1 lower if at least one of those
+enemy operatives is within 3\" of friendly **REIVER**
+operatives. Note this is not a change to the APL
+stat, so any changes are cumulative with this.
+]]></string>
+
+    <string name="phobos_astartes_lore"><![CDATA[
+These genetically modified superhumans are made for
+one purpose: war.
+]]></string>
+
+    <string name="phobos_astartes_description"><![CDATA[
+During each friendly **PHOBOS STRIKE TEAM**
+operatives activation, it can perform either two
+**Shoot** actions or two **Fight** actions. If it is two
+**Shoot** actions, a bolt weapon must be selected
+for at least one of them. A bolt weapon is any
+ranged weapon that includes bolt in its name,
+e.g. marksman bolt carbine, special issue bolt
+pistol, etc.\n
+Each friendly **PHOBOS STRIKE TEAM** operative
+can counteract regardless of its order.
+]]></string>
+
+    <string name="multispectrum_array_lore"><![CDATA[
+Feeding into the auto-senses of the bearers armour, the
+multi-spectrum arrays powerful augurs help to reveal
+hidden foes.
+]]></string>
+
+    <string name="multispectrum_array_description"><![CDATA[
+Whenever a friendly **INCURSOR** operative is
+shooting, enemy operatives cannot be obscured.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="phobos_purity_seal_lore"><![CDATA[
+Awarded by the Chapters Chaplains, purity seals are
+inscribed with blessings and inspire the bearer to fight
+with increased vigour.
+]]></string>
+
+    <string name="phobos_purity_seal_description"><![CDATA[
+Once per turning point, when a friendly **PHOBOS
+STRIKE TEAM** operative is shooting, fighting or
+retaliating, if you roll two or more fails, you can
+discard one of them to retain another as a normal
+success instead.
+]]></string>
+
+    <string name="additional_utility_lore"><![CDATA[
+Some Space Marines opt to carry additional smoke
+grenades, shock grenades and other forms of
+hand-held explosives.
+]]></string>
+
+    <string name="additional_utility_description"><![CDATA[
+This equipment allows you to select four utility
+grenades from the utility grenades equipment
+(see universal equipment). You cannot also select
+that equipment as normal (i.e. to give you six).
+]]></string>
+
+    <string name="phobos_combat_blades_lore"><![CDATA[
+These blades are tough, thick and possess a razor-sharp
+cutting edge.
+]]></string>
+
+    <string name="phobos_combat_blades_description"><![CDATA[
+Friendly **PHOBOS STRIKE TEAM** operatives have
+the following melee weapon:
+]]></string>
+
+    <string name="phobos_special_issue_ammunition_lore"><![CDATA[
+Space Marine bolt weapons can be loaded with a variety
+of special ammunition.
+]]></string>
+
+    <string name="phobos_special_issue_ammunition_description"><![CDATA[
+Once per turning point, when a friendly **PHOBOS
+STRIKE TEAM** operative is performing the
+**Shoot** action and you select a bolt carbine,
+marksman bolt carbine or occulus bolt carbine,
+you can use this rule. If you do, until the end of
+the turning point, that weapon has the Piercing 1
+weapon rule.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="guerrilla_warfare_lore"><![CDATA[
+Phobos Strike Teams utilise stealth and ambush tactics
+to overwhelm their foes, striking when least expected.
+]]></string>
+
+    <string name="guerrilla_warfare_description"><![CDATA[
+Friendly **PHOBOS STRIKE TEAM** operatives can
+perform the following unique action:
+]]></string>
+
+    <string name="guerrilla_warfare_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="guerrilla_warfare_description2"><![CDATA[
+Change this operatives order.\n\n
+An operative cannot perform this action while within control range of an enemy operative.
+]]></string>
+
+    <string name="phobos_no_fear_lore"><![CDATA[
+Space Marines possess superhuman courage and are
+utterly unflinching in the face of terrifying horrors and
+overwhelming odds.
+]]></string>
+
+    <string name="phobos_no_fear_description"><![CDATA[
+You can ignore any changes to the stats of
+friendly **PHOBOS STRIKE TEAM** operatives from
+being injured (including their weapons stats).
+]]></string>
+
+    <string name="deadly_shots_lore"><![CDATA[
+Space Marines spend countless hours perfecting
+their marksmanship.
+]]></string>
+
+    <string name="deadly_shots_description"><![CDATA[
+Whenever a friendly **PHOBOS STRIKE TEAM**
+operative is shooting during an activation in
+which it has not performed the **Charge, Fall Back**
+or **Reposition** action, or against an operative
+that is not in cover and is more than 6\" from it,
+that friendly operatives ranged weapons have
+the Balanced weapon rule. Note that for the first
+requirement, that operative is not restricted from
+performing those actions after shooting.
+]]></string>
+
+    <string name="lethal_assaults_lore"><![CDATA[
+Space Marine warriors strike down their foes with
+incredible power and precision.
+]]></string>
+
+    <string name="lethal_assaults_description"><![CDATA[
+Whenever a friendly **PHOBOS STRIKE TEAM**
+operative is fighting, its melee weapons have the
+Balanced weapon rule. If that friendly operative
+is doing so during an activation in which it
+performed the Charge action, its melee weapons
+also have the Lethal 5+ weapon rule.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="patient_ambush_lore"><![CDATA[
+A Phobos Strike Team may lay in wait for hours, days
+or even weeks before launching an assault upon an
+unsuspecting enemy.
+]]></string>
+
+    <string name="patient_ambush_description"><![CDATA[
+Use this firefight ploy when it is your turn to
+activate a friendly operative. You can skip
+that activation.
+]]></string>
+
+    <string name="critical_shot_lore"><![CDATA[
+A well-placed bolt round can fell even the most resilient
+of foes.
+]]></string>
+
+    <string name="critical_shot_description"><![CDATA[
+Use this firefight ploy when you resolve a critical
+success for a friendly **PHOBOS STRIKE TEAM**
+operative that is shooting with a bolt weapon.
+Inflict D3 additional damage.
+]]></string>
+
+    <string name="phobos_transhuman_lore"><![CDATA[
+The genetically modified physiology of a Space
+Marine is capable of resisting wounds that would kill a
+lesser being.
+]]></string>
+
+    <string name="phobos_transhuman_description"><![CDATA[
+Use this firefight ploy when an operative is
+shooting a friendly **PHOBOS STRIKE TEAM**
+operative, in the Roll Defence Dice step. You can
+retain one of your normal successes as a critical
+success instead.
+]]></string>
+
+    <string name="stealth_assault_lore"><![CDATA[
+The silenced servos of Phobos-pattern power armour
+allow a Space Marine to strike swiftly and overwhelm a
+surprised foe.
+]]></string>
+
+    <string name="stealth_assault_description"><![CDATA[
+Use this firefight ploy when a friendly **PHOBOS
+STRIKE TEAM** operative that has a **Conceal**
+order is activated, is given an **Engage** order,
+performs the **Charge** and then the **Fight** action,
+and you are resolving your first attack dice
+from this activation. After doing so, you can
+immediately resolve another of your attack dice
+(before your opponent). The operative cannot
+have performed any other actions during this
+activation (but can do so after resolving this ploy).
+]]></string>
+
+</resources>

@@ -5,7 +5,8 @@ data class Ploy(
     val name: String,
     val type: PloyType,
     val lore: Int? = null,
-    val description: Int
+    val description: Int,
+    val abilities: List<Ability> = emptyList()
 )
 
 enum class PloyType {

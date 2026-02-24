@@ -7,7 +7,6 @@ import kotlin.reflect.KClass
 object KeywordRepository {
 
     val allKeywords: List<KeywordInfo> = listOf(
-        Accurate,
         Balanced,
         Brutal,
         Ceaseless,

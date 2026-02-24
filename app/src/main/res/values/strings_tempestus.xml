@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Tempestus-->
+
+    <string name="tempestus_veteran_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tempestus_veteran_description"><![CDATA[
+Once per battle, you can either use a
+firefight ploy for 0CP if this is the specified **TEMPESTUS
+AQUILON** operative, or the Command Re‑roll firefight ploy
+for 0CP if this is the operative the attack or defence dice was
+rolled for.
+    ]]></string>
+
+    <string name="aquilon_command_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="aquilon_command_description"><![CDATA[
+**SUPPORT**. Select one other friendly **TEMPESTUS
+AQUILON** operative (excluding **SERVO‑SENTRY**)
+visible to and within 6\" of this operative. Until the end of that
+operatives next activation, add 1 to its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="tempestus_grenadier_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tempestus_grenadier_description"><![CDATA[
+This operative can use frag, krak, smoke and stun
+grenades (see universal equipment). Doing so does not count
+towards any limited uses you have (i.e. if you also select those
+grenades from equipment for other operatives). Whenever this
+operative is using a frag or krak grenade, improve the Hit stat of
+that weapon by 1.
+    ]]></string>
+
+    <string name="tempestus_salvo_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="tempestus_salvo_description"><![CDATA[
+Select up to two different
+valid targets that are not within control
+range of friendly operatives. **Shoot**
+with this weapon against both of them
+in an order of your choice (roll each
+sequence separately).
+    ]]></string>
+
+    <string name="gunfight_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="gunfight_description"><![CDATA[
+Whenever an enemy operative within 8\" of this operative shoots this
+operative, keep track of each attack dice that is discarded as a fail. After the action,
+before incapacitated operatives are removed (including this one, if relevant), this
+operative can perform a free *Shoot* action (you can change its order to **Engage** to do
+so), but it can only target that enemy operative with its hot‑shot laspistols (focused),
+and you only roll a number of attack dice equal to the opponents discarded attack dice
+plus one (to a maximum of four).
+    ]]></string>
+
+    <string name="sniper_vantage_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="sniper_vantage_description"><![CDATA[
+Whenever this operative is on Vantage terrain
+and is shooting an operative that has an Engage order and is at
+least 2\" lower than it, all profiles of its hot‑shot long‑las have the
+Severe weapon rule.
+    ]]></string>
+
+    <string name="knife_fighter_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="knife_fighter_description"><![CDATA[
+Whenever this operative is fighting, after
+resolving your first attack dice during that sequence, you can
+immediately resolve another (before your opponent).
+    ]]></string>
+
+    <string name="dynamic_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="dynamic_description"><![CDATA[
+Whenever this operative performs the **Shoot** or
+**Fight** action, it can immediately perform a free **Dash** action
+afterwards. It can do so even if it is performed the **Charge**
+action during this activation, but can only use any remaining
+move distance it had from that **Charge** action (to a maximum
+of 3\").
+    ]]></string>
+
+    <string name="tempestus_machine_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tempestus_machine_description"><![CDATA[
+This operative cannot perform any actions other
+than **Dash, Fall Back, Reposition** and **Shoot**. It cannot
+retaliate, assist in a fight or use any weapons that are not on
+its datacard.
+    ]]></string>
+
+    <string name="turret_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="turret_description"><![CDATA[
+This operative can perform two **Shoot** actions during
+its activation.
+    ]]></string>
+
+    <string name="rapid_insertion_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="rapid_insertion_description"><![CDATA[
+**STRATEGIC GAMBIT** in the first turning
+point. Each friendly **TEMPESTUS AQUILON TROOPER**
+operative wholly within your drop zone can immediately perform
+a free **Reposition** action, but must end that move wholly within
+3\" of your drop zone
+    ]]></string>
+
+    <string name="swift_landing_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="swift_landing_description"><![CDATA[
+When this operative lands, you can set it up
+within 4\" horizontally of one of your Drop markers, taking
+precedence over the normal distance requirement.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="drop_insertion_lore"><![CDATA[
+Aquilons are trained since childhood for expertise, with Fornite strategies they drop into the battlefield
+ready to wipe the enemies of the empire.
+]]></string>
+
+    <string name="drop_insertion_description"><![CDATA[
+When setting up a **TEMPESTUS AQUILON** kill
+team before the battle, the first third of your
+kill team must be set up as normal. Each third
+thereafter can be set up above: place them to
+one side instead of in the killzone. For each third
+that is set up above, you must set up the whole
+third in this way (not some of them), then place
+one of your Drop markers wholly within your
+drop zone.\n
+\n
+As a **STRATEGIC GAMBIT** in the first and second
+turning point, you can move your Drop markers
+up to 4\" horizontally. In a killzone that uses the
+close quarters rules (e.g. Killzone: Tomb World),
+this can be measured and moved through
+Wall terrain.\n
+\n
+In the Firefight phase, friendly **TEMPESTUS
+AQUILON** operatives set up above are activated
+as normal. When you do, you can either expend
+or land that operative. If it lands, set it up in the
+killzone in a location it can be placed as follows
+(it is no longer set up above):\n
+\n
+• Within 3\" horizontally of one of your Drop markers, or wholly within your drop zone.\n
+• Not within control range of enemy operatives
+(unless you’re setting up a PRECURSOR operative, which can be set up within control
+range of an enemy operative).\n
+• With no part of its base underneath Vantage terrain.\n
+• With an order of your choice.\n
+\n
+The operative is treated as performing the
+**Reposition** action (spend the AP accordingly),
+then continue its activation as normal. It is
+obscured until the end of the next activation
+or the end of the turning point (whichever
+comes first).\n
+\n
+Less than half of your operatives can be set up
+above by the end of the first turning point. In
+other words, by the end of the first turning point,
+more than half of your operatives must have been
+set up in the killzone during the battle.\n
+\n
+When readying your operatives during the second
+and third turning points, remove one of your
+Drop markers. This means operatives still set up
+above are incapacitated at the end of the second
+turning point.
+]]></string>
+
+    <string name="grav_chute_lore"><![CDATA[
+Grav‑chutes employ gravitic repulsion fields to allow
+their wearers to drop at a swift but measured pace and
+land safely, no matter from what height they fall.
+]]></string>
+
+    <string name="grav_chute_description"><![CDATA[
+Whenever a friendly **TEMPESTUS AQUILON**
+operative is dropping, ignore the vertical distance.
+]]></string>
+
+
+
+    <!--Equipment-->
+
+    <string name="tempestus_daggers_lore"><![CDATA[
+Awarded to each warrior of the Militarum Tempestus
+upon their induction to the ranks, these weapons double
+as a symbol of regimental pride.
+]]></string>
+
+    <string name="tempestus_daggers_description"><![CDATA[
+Friendly **TEMPESTUS AQUILON **operatives
+(excluding **SERVO‑SENTRY**) have the following
+melee weapon:
+]]></string>
+
+    <string name="aquilon_combat_stimms_lore"><![CDATA[
+The use of Munitorum‑approved combat stimulants is
+standard practice amongst the Tempestus Aquilons,
+who may have to remain alert and fighting for days at
+a time.
+]]></string>
+
+    <string name="aquilon_combat_stimms_description"><![CDATA[
+You can ignore any changes to the Move stat of
+friendly **TEMPESTUS AQUILON** operatives from
+being injured.
+]]></string>
+
+    <string name="drop_agury_lore"><![CDATA[
+Prior to the commencement of hostilities, this region
+has been subjected to thorough augur scans by orbiting
+warships or hovering servo‑skulls, the resultant
+intelligence inloaded to the Tempestors slate monitron.
+]]></string>
+
+    <string name="drop_agury_description"><![CDATA[
+Once per battle, when a friendly **TEMPESTUS
+AQUILON** operative that is set up above is
+activated, before expending or landing that
+operative, you can move one of your Drop
+markers again. However, it cannot be moved
+closer to your opponents drop zone.
+]]></string>
+
+    <string name="remote_overseer_lore"><![CDATA[
+Be it a high‑flying observer aircraft or a specialist team
+of lexmechanicae employing tactical augur banks,
+monitoring officers provide wider strategic insight as the
+firefight rages.
+]]></string>
+
+    <string name="remote_overseer_description"><![CDATA[
+Once per battle, after rolling off to decide initiative, you can re‑roll your dice.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="sudden_offensive_lore"><![CDATA[
+Tempestus Aquilons are skilled at dropping swiftly into
+combat and catching their enemies unawares.
+]]></string>
+
+    <string name="sudden_offensive_description"><![CDATA[
+Count the number of friendly **TEMPESTUS
+AQUILON** operatives that are not incapacitated,
+then halve the result (rounding up) to give
+you x. Until the end of their activation, friendly
+**TEMPESTUS AQUILON** operatives weapons
+have the Balanced weapon rule if they are the
+first friendly operatives activated this turning
+point equal to x. For example, if you have five
+operatives, the first three friendly operatives
+activated will benefit.
+]]></string>
+
+    <string name="maintain_momentum_lore"><![CDATA[
+Once the assault begins, the Aquilons sustain the
+pressure, keeping their enemies reeling and off balance
+]]></string>
+
+    <string name="maintain_momentum_description"><![CDATA[
+Whenever a friendly **TEMPESTUS AQUILON**
+operative is shooting against or fighting against a
+ready enemy operative, that friendly operatives
+weapons have the Severe weapon rule.
+]]></string>
+
+    <string name="eye_above_lore"><![CDATA[
+Airborne servo‑skulls and spotter aircraft keep the
+Aquilons appraised of up‑to‑the‑minute tactical data.
+]]></string>
+
+    <string name="eye_above_description"><![CDATA[
+Select one enemy operative. That operative and
+each other enemy operative within 3\" of it gains
+one of your Detected tokens until the end of the
+turning point. Whenever an enemy operative that
+has one of your Detected tokens:\n
+\n
+• Is shooting a friendly **TEMPESTUS
+**AQUILON operative, you can re‑roll one of
+your defence dice.\n
+\n
+• Is fighting or retaliating against a friendly
+**TEMPESTUS AQUILON** operative, one of
+your blocks can be allocated to block two
+unresolved successes (instead of one).
+]]></string>
+
+    <string name="drop_secure_lore"><![CDATA[
+Priority tactical objectives must be secured to ensure
+victory is absolute.
+]]></string>
+
+    <string name="drop_secure_description"><![CDATA[
+Select one marker.\n
+\n
+• Until the Ready step of the next Strategy
+phase, when determining control of that
+marker, treat the total APL stat of friendly
+**TEMPESTUS AQUILON** operatives that
+contest it as 1 higher if at least one friendly
+**TEMPESTUS AQUILON** operative contests
+that marker. Note this is not a change to the APL
+stat, so any changes are cumulative with this.\n
+\n
+• Whenever a friendly **TEMPESTUS
+AQUILON** operative is within 3\" of that
+marker, add 1 to the Atk stat of its melee
+weapons (to a maximum of 4).
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="hot_drop_lore"><![CDATA[
+Aquilons are trained to drop into the thick of fighting,
+engaging a surprised enemy as they land.
+]]></string>
+
+    <string name="hot_drop_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice
+for a friendly **TEMPESTUS AQUILON** operative
+that is wholly within your opponents territory, or
+either landed or dropped from Vantage terrain at
+least 2\" higher than the killzone floor during this
+activation. If the target is within 6\" of it, you can
+re‑roll any of your attack dice.
+]]></string>
+
+    <string name="adjust_coordinates_lore"><![CDATA[
+As the firefight flows and develops, so those Aquilons
+still descending adjust their trajectories in response.
+]]></string>
+
+    <string name="adjust_coordinates_description"><![CDATA[
+Use this firefight ploy when a friendly
+**TEMPESTUS AQUILON** operative lands. You
+can set it up within 5\" horizontally of one of
+your Drop markers, taking precedence over the
+normal distance requirement. It cannot perform
+the **Dash, Shoot** or **Fight** actions during this
+turning point.
+]]></string>
+
+    <string name="tempestus_exemplars_lore"><![CDATA[
+The training and conditioning of the Tempestus Aquilons
+allows them to stay focused on their mission, even
+during the most ferocious firefights.
+]]></string>
+
+    <string name="tempestus_exemplars_description"><![CDATA[
+Use this firefight ploy during a friendly
+**TEMPESTUS AQUILON** operatives activation
+(excluding **SERVO‑SENTRY** and any operative
+that has an APL stat higher than 2). During that
+activation, that operative can perform the **Pick
+Up Marker**, **Place Marker** or a mission action for
+1 less AP.
+]]></string>
+
+    <string name="progena_lore"><![CDATA[
+As graduates of the Schola Progenium, these warriors
+are not only conditioned to follow their orders with
+unquestioning precision, but are also driven by a zealous
+dedication to the Imperial Cult that helps them to shrug
+off pain and fear.
+]]></string>
+
+    <string name="progena_description"><![CDATA[
+Use this firefight ploy when a friendly
+**TEMPESTUS AQUILON** operative (excluding
+**SERVO‑SENTRY**) is activated. It regains up to 2D3
+lost wounds, and during that activation you can
+ignore any changes to its APL stat.
+]]></string>
+
+</resources>

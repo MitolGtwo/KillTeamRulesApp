@@ -1,6 +1,7 @@
 package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Ploy
 import com.example.killteamruleset.ui.model.PloyType
 
@@ -764,31 +765,423 @@ object PloyRepository {
             )
         ),
 
-        "wrecka_krew" to listOf(
-            // ── Wreckas STRATEGY ──
+
+        "phobos_strike_team" to listOf(
+            // ── Phobos STRATEGY ──
             Ploy(
-                id = "waaagh",
-                name ="WAAAAGH!",
+                id = "guerrilla_warfare",
+                name = "GUERRILLA WARFARE",
+                type = PloyType.STRATEGY,
+                lore = R.string.guerrilla_warfare_lore,
+                description = R.string.guerrilla_warfare_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Guerrilla Warfare ",
+                        usage = R.string.guerrilla_warfare_usage,
+                        description = R.string.guerrilla_warfare_description2
+                    )
+                )
+            ),
+            Ploy(
+                id = "phobos_no_fear",
+                name = "AND THEY SHALL KNOW NO FEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.phobos_no_fear_lore,
+                description = R.string.phobos_no_fear_description
+            ),
+            Ploy(
+                id = "deadly_shots",
+                name = "DEADLY SHOTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.deadly_shots_lore,
+                description = R.string.deadly_shots_description
+            ),
+            Ploy(
+                id = "lethal_assaults",
+                name = "LETHAL ASSAULTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.lethal_assaults_lore,
+                description = R.string.lethal_assaults_description
+            ),
+
+
+            // ── Phobos FIREFIGHT ──
+            Ploy(
+                id = "patient_ambush",
+                name = "PATIENT AMBUSH",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.patient_ambush_lore,
+                description = R.string.patient_ambush_description,
+            ),
+            Ploy(
+                id = "critical_shot",
+                name = "CRITICAL SHOT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.critical_shot_lore,
+                description = R.string.critical_shot_description
+            ),
+            Ploy(
+                id = "phobos_transhuman",
+                name = "TRANSHUMAN PHYSIOLOGY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.phobos_transhuman_lore,
+                description = R.string.phobos_transhuman_description
+            ),
+            Ploy(
+                id = "stealth_assault",
+                name = "STEALTH ASSAULT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.stealth_assault_lore,
+                description = R.string.stealth_assault_description
+            )
+        ),
+
+        "ratlings" to listOf(
+            // ── Ratlings STRATEGY ──
+            Ploy(
+                id = "sniper_positions",
+                name ="SNIPER POSITIONS",
+                type = PloyType.STRATEGY,
+                lore = R.string.sniper_positions_lore,
+                description = R.string.sniper_positions_description
+            ),
+            Ploy(
+                id = "crack_shots",
+                name = "CRACK SHOTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.crack_shots_lore,
+                description = R.string.crack_shots_description
+            ),
+            Ploy(
+                id = "shifty",
+                name = "SHIFTY",
+                type = PloyType.STRATEGY,
+                lore = R.string.shifty_lore,
+                description = R.string.shifty_description
+            ),
+            Ploy(
+                id = "frontline_assault",
+                name = "FRONTLINE ASSAULT",
+                type = PloyType.STRATEGY,
+                lore = R.string.frontline_assault_lore,
+                description = R.string.frontline_assault_description
+            ),
+
+
+            // ── Ratlings FIREFIGHT ──
+            Ploy(
+                id = "survival_insticts",
+                name = "SURVIVAL INSTINCTS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.survival_insticts_lore,
+                description = R.string.survival_insticts_description
+            ),
+            Ploy(
+                id = "sharpshot",
+                name = "SHARPSHOT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.sharpshot_lore,
+                description = R.string.sharpshot_description
+            ),
+            Ploy(
+                id = "larcenous",
+                name = "LARCENOUS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.larcenous_lore,
+                description = R.string.larcenous_description
+            ),
+            Ploy(
+                id = "shoot_and_hide",
+                name = "SHOOT AND HIDE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.shoot_and_hide_lore,
+                description = R.string.shoot_and_hide_description
+            )
+        ),
+
+        "sanctifiers" to listOf(
+            // ── sanctifiers STRATEGY ──
+            Ploy(
+                id = "sanctifiers_the_emperor_protects",
+                name ="THE EMPEROR PROTECTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.sanctifiers_the_emperor_protects_lore,
+                description = R.string.sanctifiers_the_emperor_protects_description
+            ),
+            Ploy(
+                id = "fervent_brawl",
+                name = "FERVENT BRAWL",
+                type = PloyType.STRATEGY,
+                lore = R.string.fervent_brawl_lore,
+                description = R.string.fervent_brawl_description
+            ),
+            Ploy(
+                id = "zealous_persecution",
+                name = "ZEALOUS PERSECUTION",
+                type = PloyType.STRATEGY,
+                lore = R.string.zealous_persecution_lore,
+                description = R.string.zealous_persecution_description
+            ),
+            Ploy(
+                id = "rally_the_flock",
+                name = "RALLY THE FLOCK",
+                type = PloyType.STRATEGY,
+                lore = R.string.rally_the_flock_lore,
+                description = R.string.rally_the_flock_description
+            ),
+
+
+            // ── sanctifiersFIREFIGHT ──
+            Ploy(
+                id = "rosarius",
+                name = "ROSARIUS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.rosarius_lore,
+                description = R.string.rosarius_description
+            ),
+            Ploy(
+                id = "ardent_eradication",
+                name = "ARDENT ERADICATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.ardent_eradication_lore,
+                description = R.string.ardent_eradication_description
+            ),
+            Ploy(
+                id = "redeemed_through_fire",
+                name = "REDEEMED THROUGH FIRE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.redeemed_through_fire_lore,
+                description = R.string.redeemed_through_fire_description
+            ),
+            Ploy(
+                id = "unwavering_devotion",
+                name = "UNWAVERING DEVOTION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.unwavering_devotion_lore,
+                description = R.string.unwavering_devotion_description
+            )
+        ),
+
+
+        "scout_squat" to listOf(
+            // ── scout squad STRATEGY ──
+            Ploy(
+                id = "guerrilla_engagement",
+                name ="GUERRILLA ENGAGEMENT",
+                type = PloyType.STRATEGY,
+                lore = R.string.guerrilla_engagement_lore,
+                description = R.string.guerrilla_engagement_description
+            ),
+            Ploy(
+                id = "ambush",
+                name = "AMBUSH",
+                type = PloyType.STRATEGY,
+                lore = R.string.ambush_lore,
+                description = R.string.ambush_description
+            ),
+            Ploy(
+                id = "adaptable_training",
+                name = "ADAPTABLE TRAINING",
+                type = PloyType.STRATEGY,
+                lore = R.string.adaptable_training_lore,
+                description = R.string.adaptable_training_description
+            ),
+            Ploy(
+                id = "stealth_relocation",
+                name = "STEALTH RELOCATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.stealth_relocation_lore,
+                description = R.string.stealth_relocation_description
+            ),
+
+
+            // ── scout squad IREFIGHT ──
+            Ploy(
+                id = "astartes_training",
+                name = "ASTARTES TRAINING",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.astartes_training_lore,
+                description = R.string.astartes_training_description
+            ),
+            Ploy(
+                id = "raw_physiology",
+                name = "RAW PHYSIOLOGY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.raw_physiology_lore,
+                description = R.string.raw_physiology_description
+            ),
+            Ploy(
+                id = "emboldened_aspirant",
+                name = "EMBOLDENED ASPIRANT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.emboldened_aspirant_lore,
+                description = R.string.emboldened_aspirant_description
+            ),
+            Ploy(
+                id = "covert_position",
+                name = "COVERT POSITION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.covert_position_lore,
+                description = R.string.covert_position_description
+            )
+        ),
+
+
+
+        "tempestus_aquilon" to listOf(
+            // ── Tempestus STRATEGY ──
+            Ploy(
+                id = "sudden_offensive",
+                name ="SUDDEN OFFENSIVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.sudden_offensive_lore,
+                description = R.string.sudden_offensive_description
+            ),
+            Ploy(
+                id = "maintain_momentum",
+                name = "MAINTAIN MOMENTUM",
+                type = PloyType.STRATEGY,
+                lore = R.string.maintain_momentum_lore,
+                description = R.string.maintain_momentum_description
+            ),
+            Ploy(
+                id = "eye_above",
+                name = "EYE ABOVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.eye_above_lore,
+                description = R.string.eye_above_description
+            ),
+            Ploy(
+                id = "drop_secure",
+                name = "DROP AND SECURE",
+                type = PloyType.STRATEGY,
+                lore = R.string.drop_secure_lore,
+                description = R.string.drop_secure_description
+            ),
+
+
+            // ── Tempestus FIREFIGHT ──
+            Ploy(
+                id = "hot_drop",
+                name = "HOT DROP",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.hot_drop_lore,
+                description = R.string.hot_drop_description
+            ),
+            Ploy(
+                id = "adjust_coordinates",
+                name = "ADJUST COORDINATES",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.adjust_coordinates_lore,
+                description = R.string.adjust_coordinates_description
+            ),
+            Ploy(
+                id = "tempestus_exemplars",
+                name = "TEMPESTUS EXEMPLARS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.tempestus_exemplars_lore,
+                description = R.string.tempestus_exemplars_description
+            ),
+            Ploy(
+                id = "progena",
+                name = "PROGENA",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.progena_lore,
+                description = R.string.progena_description
+            )
+        ),
+
+
+        "wolf_scout" to listOf(
+            // ── Wolf STRATEGY ──
+            Ploy(
+                id = "sudden_offensive",
+                name ="SUDDEN OFFENSIVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.sudden_offensive_lore,
+                description = R.string.sudden_offensive_description
+            ),
+            Ploy(
+                id = "maintain_momentum",
+                name = "MAINTAIN MOMENTUM",
+                type = PloyType.STRATEGY,
+                lore = R.string.maintain_momentum_lore,
+                description = R.string.maintain_momentum_description
+            ),
+            Ploy(
+                id = "eye_above",
+                name = "EYE ABOVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.eye_above_lore,
+                description = R.string.eye_above_description
+            ),
+            Ploy(
+                id = "drop_secure",
+                name = "DROP AND SECURE",
+                type = PloyType.STRATEGY,
+                lore = R.string.drop_secure_lore,
+                description = R.string.drop_secure_description
+            ),
+
+
+            // ── Wolf IREFIGHT ──
+            Ploy(
+                id = "hot_drop",
+                name = "HOT DROP",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.hot_drop_lore,
+                description = R.string.hot_drop_description
+            ),
+            Ploy(
+                id = "adjust_coordinates",
+                name = "ADJUST COORDINATES",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.adjust_coordinates_lore,
+                description = R.string.adjust_coordinates_description
+            ),
+            Ploy(
+                id = "tempestus_exemplars",
+                name = "TEMPESTUS EXEMPLARS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.tempestus_exemplars_lore,
+                description = R.string.tempestus_exemplars_description
+            ),
+            Ploy(
+                id = "progena",
+                name = "PROGENA",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.progena_lore,
+                description = R.string.progena_description
+            )
+        ),
+
+
+
+        "wrecka_krew" to listOf(
+            // ── WRECKAS STRATEGY ──
+            Ploy(
+                id = "wrecka_waaagh",
+                name ="WAAAGH!",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_waaagh_lore,
                 description = R.string.wrecka_waaagh_description
             ),
             Ploy(
-                id = "tuff_gitz",
+                id = "wrecka_tuff_gitz",
                 name = "TUFF GITZ",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_tuff_gitz_lore,
                 description = R.string.wrecka_tuff_gitz_description
             ),
             Ploy(
-                id = "destruction",
+                id = "wrecka_destruction",
                 name = "DESTRUCTION",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_destruction_lore,
                 description = R.string.wrecka_destruction_description
             ),
             Ploy(
-                id = "amped_up",
+                id = "wrecka_amped_up",
                 name = "AMPED UP",
                 type = PloyType.STRATEGY,
                 lore = R.string.wrecka_amped_up_lore,
@@ -798,34 +1191,35 @@ object PloyRepository {
 
             // ── Wreckas FIREFIGHT ──
             Ploy(
-                id = "demolition_job",
-                name = "DEMOLITION JOB",
-                type = PloyType.FIREFIGHT,
-                lore = R.string.wrecka_demolition_job_lore,
-                description = R.string.wrecka_demolition_job_description
-            ),
-            Ploy(
-            id = "proppa_scrap",
-            name = "PROPPA SCRAP",
-            type = PloyType.FIREFIGHT,
-            lore = R.string.wrecka_proppa_scrap_lore,
-            description = R.string.wrecka_proppa_scrap_description
-            ),
-            Ploy(
-                id = "kaboom",
-                name = "KABOOM",
-                type = PloyType.FIREFIGHT,
-                lore = R.string.wrecka_kaboom_lore,
-                description = R.string.wrecka_kaboom_description
-            ),
-            Ploy(
-                id = "just_a_scratch",
+                id = "wrecka_jas_job",
                 name = "JUST A SCRATCH",
                 type = PloyType.FIREFIGHT,
                 lore = R.string.wrecka_jas_lore,
                 description = R.string.wrecka_jas_description
+            ),
+            Ploy(
+            id = "wrecka_demolition_job",
+            name = "DEMOLITION JOB",
+            type = PloyType.FIREFIGHT,
+            lore = R.string.wrecka_demolition_job_lore,
+            description = R.string.wrecka_demolition_job_description
+            ),
+            Ploy(
+                id = "wrecka_proppa_scrap",
+                name = "PROPPA SCRAP",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wrecka_proppa_scrap_lore,
+                description = R.string.wrecka_proppa_scrap_description
+            ),
+            Ploy(
+                id = "wrecka_kaboom",
+                name = "KABOOM!",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wrecka_kaboom_lore,
+                description = R.string.wrecka_kaboom_description
             )
         ),
+
 
         "plague_marines" to listOf(
             // ── PLAGUE MARINES STRATEGY ──

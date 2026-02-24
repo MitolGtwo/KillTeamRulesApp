@@ -12,7 +12,6 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.Equipment
-
 @Composable
 fun EquipmentExpandedContent(equipment: Equipment) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -23,37 +22,43 @@ fun EquipmentExpandedContent(equipment: Equipment) {
             style = MaterialTheme.typography.bodySmall
         )
 
-        equipment.ability?.let { ability ->
+        // ⚔️ EQUIPMENT ABILITIES
+        if (equipment.abilities.isNotEmpty()) {
             Spacer(Modifier.height(12.dp))
 
             Text(
-                text = "EQUIPMENT ABILITY",
+                text = "EQUIPMENT ABILITIES",
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.primary
             )
 
-            Spacer(Modifier.height(4.dp))
+            Spacer(Modifier.height(6.dp))
 
-            ability.title?.let { titleRes ->
-                Text(
-                    text = titleRes,
-                    fontWeight = FontWeight.Bold
-                )
-            }
+            equipment.abilities.forEach { ability ->
 
-            ability.usage?.let { usageRes ->
-                Text(
-                    text = stringResource(usageRes),
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.primary
-                )
-            }
+                ability.title?.let {
+                    Text(
+                        text = it,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
 
-            ability.description?.let { descriptionRes ->
-                AbilityDescriptionText(
-                    text = stringResource(descriptionRes),
-                    enableKeywords = true
-                )
+                ability.usage?.let { usageRes ->
+                    Text(
+                        text = stringResource(usageRes),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+
+                ability.description?.let { descriptionRes ->
+                    AbilityDescriptionText(
+                        text = stringResource(descriptionRes),
+                        enableKeywords = true
+                    )
+                }
+
+                Spacer(Modifier.height(8.dp))
             }
         }
     }

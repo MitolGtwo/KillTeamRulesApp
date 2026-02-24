@@ -391,6 +391,234 @@ object EquipmentRepository {
             ),
         ),
 
+        "phobos_strike_team" to listOf(
+
+            Equipment(
+                id = "phobos_purity_seal",
+                name = "PURITY SEALS",
+                lore =R.string.phobos_purity_seal_lore,
+                description = R.string.phobos_purity_seal_description
+            ),
+            Equipment(
+                id = "additional_utility",
+                name = "ADDITIONAL UTILITY GRENADES",
+                lore =R.string.additional_utility_lore,
+                description = R.string.additional_utility_description
+            ),
+            Equipment(
+                id = "phobos_combat_blades",
+                name = "COMBAT BLADES",
+                lore =R.string.phobos_combat_blades_lore,
+                description = R.string.phobos_combat_blades_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Combat Blades",
+                        type = WeaponType.MELEE,
+                        attacks = 5,
+                        hit = "3+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "phobos_special_issue_ammunition",
+                name = "SPECIAL ISSUE AMMUNITION",
+                lore =R.string.phobos_special_issue_ammunition_lore,
+                description = R.string.phobos_special_issue_ammunition_description
+            )
+        ),
+
+        "ratlings" to listOf(
+
+            Equipment(
+                id = "purloined_rations",
+                name = "PURLOINED RATIONS",
+                lore =R.string.purloined_rations_lore,
+                description = R.string.purloined_rations_description
+            ),
+            Equipment(
+                id = "lucky_round",
+                name = "LUCKY ROUND",
+                lore =R.string.lucky_round_lore,
+                description = R.string.lucky_round_description
+            ),
+            Equipment(
+                id = "stolen_goods",
+                name = "STOLEN GOODS",
+                lore =R.string.stolen_goods_lore,
+                description = R.string.stolen_goods_description
+            ),
+            Equipment(
+                id = "improvised_armour",
+                name = "IMPROVISED ARMOUR",
+                lore =R.string.improvised_armour_lore,
+                description = R.string.improvised_armour_description
+            )
+        ),
+
+        "sanctifiers" to listOf(
+
+            Equipment(
+                id = "sanctification_orbs",
+                name = "SANCTIFICATION ORBS",
+                lore =R.string.sanctification_orbs_lore,
+                description = R.string.sanctification_orbs_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Sanctification Orb",
+                        usage = R.string.sanctification_orb_usage,
+                        description = R.string.sanctification_orb_description2
+                    )
+                )
+            ),
+
+            Equipment(
+                id = "sanctifiers_purity_seals",
+                name = "PURITY SEALS",
+                lore =R.string.sanctifiers_purity_seals_lore,
+                description = R.string.sanctifiers_purity_seals_description
+            ),
+            Equipment(
+                id = "ecclesiarchy_texts",
+                name = "ECCLESIARCHY TEXTS",
+                lore =R.string.ecclesiarchy_texts_lore,
+                description = R.string.ecclesiarchy_texts_description
+            ),
+
+            Equipment(
+                id = "imperial_cult_symbols",
+                name = "IMPERIAL CULT SYMBOLS",
+                lore =R.string.imperial_cult_symbols_lore,
+                description = R.string.imperial_cult_symbols_description
+            )
+        ),
+
+
+        "scout_squat" to listOf(
+
+            Equipment(
+                id = "camo_cloak_scout",
+                name = "CAMO CLOAK",
+                lore =R.string.camo_cloak_scout_lore,
+                description = R.string.camo_cloak_scout_description,
+
+            ),
+
+            Equipment(
+                id = "targeting_oculars",
+                name = "TARGETING OCULARS",
+                lore =R.string.targeting_oculars_lore,
+                description = R.string.targeting_oculars_description
+            ),
+            Equipment(
+                id = "scout_combat_blades",
+                name = "COMBAT BLADES",
+                lore =R.string.scout_combat_blades_lore,
+                description = R.string.scout_combat_blades_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Combat Blades",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "3+",
+                        damage = "4/5",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+
+            Equipment(
+                id = "heavy_weapon_bipod",
+                name = "HEAVY WEAPON BIPOD",
+                lore =R.string.heavy_weapon_bipod_lore,
+                description = R.string.heavy_weapon_bipod_description
+            )
+        ),
+
+
+        "tempestus_aquilon" to listOf(
+
+
+            Equipment(
+                id = "tempestus_daggers",
+                name = "TEMPESTUS DAGGERS",
+                lore =R.string.tempestus_daggers_lore,
+                description = R.string.tempestus_daggers_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Tempestus Dagger",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+
+            Equipment(
+                id = "aquilon_combat_stimms",
+                name = "COMBAT STIMMS",
+                lore =R.string.aquilon_combat_stimms_lore,
+                description = R.string.aquilon_combat_stimms_description,
+
+                ),
+
+            Equipment(
+                id = "drop_agury",
+                name = "DROP AUGURY",
+                lore =R.string.drop_agury_lore,
+                description = R.string.drop_agury_description
+            ),
+
+            Equipment(
+                id = "remote_overseer",
+                name = "REMOTE OVERSEER",
+                lore =R.string.remote_overseer_lore,
+                description = R.string.remote_overseer_description
+            )
+        ),
+
+
+        "wolf_scout" to listOf(
+
+            Equipment(
+                id = "tempestus_daggers",
+                name = "TEMPESTUS DAGGERS",
+                lore =R.string.tempestus_daggers_lore,
+                description = R.string.tempestus_daggers_description,
+            ),
+
+            Equipment(
+                id = "aquilon_combat_stimms",
+                name = "COMBAT STIMMS",
+                lore =R.string.aquilon_combat_stimms_lore,
+                description = R.string.aquilon_combat_stimms_description,
+                ),
+
+            Equipment(
+                id = "drop_agury",
+                name = "DROP AUGURY",
+                lore =R.string.drop_agury_lore,
+                description = R.string.drop_agury_description
+            ),
+
+            Equipment(
+                id = "remote_overseer",
+                name = "REMOTE OVERSEER",
+                lore =R.string.remote_overseer_lore,
+                description = R.string.remote_overseer_description
+            )
+        ),
+
+
+
+
+
         "wrecka_krew" to listOf(
 
             Equipment(

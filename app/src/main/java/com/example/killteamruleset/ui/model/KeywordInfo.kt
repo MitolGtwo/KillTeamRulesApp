@@ -13,6 +13,13 @@ sealed class KeywordInfo {
     open val baseKey: String get() = name
 }
 
+
+data class Accurate (val value: Int) : KeywordInfo() {
+    override val name = "Accurate"
+    override val displayName = "Accurate $value\""
+}
+
+
 data class Blast(val range: Int) : KeywordInfo() {
     override val name = "Blast"
     override val displayName = "Blast $range\""
@@ -58,10 +65,10 @@ data class Torrent(val inches: Int) : KeywordInfo() {
     override val displayName = "Torrent $inches\""
 }
 
-object Accurate : KeywordInfo() {
+/*object Accurate : KeywordInfo() {
     override val name = "Accurate"
 }
-
+*/
 object Balanced : KeywordInfo() {
     override val name = "Balanced"
 }
@@ -141,6 +148,11 @@ object Toxic : KeywordInfo() {
 
 
 ///
+
+object AccurateBase : KeywordInfo() {
+    override val name = "Accurate"
+    override val displayName = "Accurate"
+}
 
 object BlastBase : KeywordInfo() {
     override val name = "Blast"

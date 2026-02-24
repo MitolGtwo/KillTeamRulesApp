@@ -13,6 +13,12 @@ import com.example.killteamruleset.ui.data.Empire.list.ImperialNavyBreachers.Nav
 import com.example.killteamruleset.ui.data.Empire.list.InquisitorialAgents.InquisitorialOperatives
 import com.example.killteamruleset.ui.data.Empire.list.Karskin.KasrkinOperatives
 import com.example.killteamruleset.ui.data.Empire.list.Novitiates.NovitiatesOperatives
+import com.example.killteamruleset.ui.data.Empire.list.PhobosStrikeTeam.PhobosOperatives
+import com.example.killteamruleset.ui.data.Empire.list.Ratlings.RatlingsOperatives
+import com.example.killteamruleset.ui.data.Empire.list.Sanctifiers.SanctifiersOperatives
+import com.example.killteamruleset.ui.data.Empire.list.ScoutSquad.ScoutOperatives
+import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.AquilonOperatives
+import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.Wolfperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -32,6 +38,12 @@ object OperativeRepository {
             "inquisitorial_agents" -> InquisitorialOperatives
             "kasrkin"-> KasrkinOperatives
             "novitiates" -> NovitiatesOperatives
+            "phobos_strike_team" -> PhobosOperatives
+            "ratlings" -> RatlingsOperatives
+            "sanctifiers" -> SanctifiersOperatives
+            "scout_squat" -> ScoutOperatives
+            "tempestus_aquilon" -> AquilonOperatives
+            "wolf_scout" -> Wolfperatives
             "plague_marines" -> PlagueMarinesOperatives
             "wrecka_krew" -> WreckaKrewOperatives
             else -> emptyList()

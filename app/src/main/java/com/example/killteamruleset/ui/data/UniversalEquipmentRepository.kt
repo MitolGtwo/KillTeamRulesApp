@@ -15,12 +15,14 @@ object UniversalEquipmentRepository {
     private val universalEquipment = listOf(
         Equipment(
             id = "portable_barricade",
-            name ="PORTABLE BARRICADE",
+            name = "PORTABLE BARRICADE",
             description = R.string.portable_barricade_description,
-            ability = Ability(
-                title = "MOVE WITH BARRICADE",
-                usage =R.string.portable_barricade_usage ,
-                description =R.string.portable_barricade_ability_description
+            abilities = listOf(
+                Ability(
+                    title = "MOVE WITH BARRICADE",
+                    usage = R.string.portable_barricade_usage,
+                    description = R.string.portable_barricade_ability_description
+                )
             )
         ),
         Equipment(
@@ -55,35 +57,43 @@ object UniversalEquipmentRepository {
         ),
         Equipment(
             id = "utility_grenades_smoke",
-            name ="SMOKE GRENADES",
+            name = "SMOKE GRENADES",
             description = R.string.smoke_grenade_description,
-            ability = Ability(
-                title = "SMOKE GRENADE",
-                usage = R.string.smoke_grenade_usage,
-                description = R.string.smoke_grenade_ability_description
+            abilities = listOf(
+                Ability(
+                    title = "SMOKE GRENADE",
+                    usage = R.string.smoke_grenade_usage,
+                    description = R.string.smoke_grenade_ability_description
+                )
             )
-
         ),
+
         Equipment(
             id = "utility_grenades_stun",
-            name ="STUN GRENADES",
-            description = R.string.stun_grenade_description ,
-            ability = Ability(
-                title = "STUN GRENADE" ,
-                usage = R.string.stun_grenade_usage ,
-                description = R.string.stun_grenade_ability_description
+            name = "STUN GRENADES",
+            description = R.string.stun_grenade_description,
+            abilities = listOf(
+                Ability(
+                    title = "STUN GRENADE",
+                    usage = R.string.stun_grenade_usage,
+                    description = R.string.stun_grenade_ability_description
+                )
             )
         ),
+
         Equipment(
             id = "ammo_cache",
-            name ="AMMO CACHE" ,
+            name = "AMMO CACHE",
             description = R.string.ammo_cache_description,
-            ability = Ability(
-                title = "AMMO CACHE",
-                usage = R.string.ammo_cache_usage,
-                description = R.string.ammo_cache_ability_description
+            abilities = listOf(
+                Ability(
+                    title = "AMMO CACHE",
+                    usage = R.string.ammo_cache_usage,
+                    description = R.string.ammo_cache_ability_description
+                )
             )
         ),
+
         Equipment(
             id = "razor_wire",
             name = "RAZON WIRE",

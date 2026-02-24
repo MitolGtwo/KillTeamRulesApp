@@ -4,8 +4,10 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.pager.HorizontalPager
@@ -30,6 +32,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.killteamruleset.ui.components.AbilitiesSection
 import com.example.killteamruleset.ui.data.PloyRepository
 import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.components.RichText
@@ -163,6 +166,23 @@ fun PloyCard(ploy: Ploy) {
                 text = stringResource(ploy.description),
                 color = Color.Black
             )
+            if (ploy.abilities.isNotEmpty()) {
+
+                Spacer(Modifier.height(16.dp))
+
+                Text(
+                    text = "ABILITIES",
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black
+                )
+
+                Spacer(Modifier.height(8.dp))
+
+                AbilitiesSection(
+                    abilities = ploy.abilities,
+                    onKeywordClick = { /* reuse popup if needed */ }
+                )
+            }
         }
     }
 }

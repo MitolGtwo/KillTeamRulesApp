@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Sanctifiers-->
+
+    <string name="lead_the_procession_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="lead_the_procession_description"><![CDATA[
+In each turning point after the first, whenever this operative is an **ORATOR** and performs the **Charge**,
+**Fall Back** or **Reposition** action during its activation, you can use this rule before it moves. If you do, determine each other
+friendly **SANCTIFIER** operative that is benefitting from the **SERMON** and is visible to this operative (or vice versa). After this
+operative ends that action, each of those friendly **SANCTIFIER** operatives can immediately perform a free **Charge, Fall Back**
+or **Reposition** action in an order of your choice (choose separately for each), but each cannot move more than 3\" and must end
+that move in a location where they are still benefitting from the **SERMON**. If this operative is incapacitated before this rule is fully
+resolved, e.g. from the **Guard** actions interruption (see close quarters rules, Kill Team Core Book), do not remove it from the killzone
+until this rule has been resolved.
+    ]]></string>
+
+    <string name="commanding_declamation_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="commanding_declamation_description"><![CDATA[
+Whenever an enemy operative
+would perform an action during an activation or counteraction
+while visible to and within 6\" of this operative, you can use this
+rule. If you do, roll one D6: if the result is higher than that enemy
+operatives APL stat:\n
+• It cannot perform that action during that activation/
+counteraction (the AP spent on it isn’t refunded). If it is a
+counteraction, that counteraction ends.\n
+• You cannot use this rule again during the battle.
+    ]]></string>
+
+    <string name="cherub_usage"><![CDATA[
+    Passive
+    ]]></string>
+
+    <string name="cherub_description"><![CDATA[
+• Whenever determining control of an objective marker, treat
+this operatives APL stat as 1 lower. Note this is not a change
+to its APL stat, so any changes are cumulative with this.\n
+• Whenever this operative has a **Conceal** order and is in cover,
+it cannot be selected as a valid target, taking precedence
+over all other rules (e.g. Seek, Vantage terrain) except being
+within 2\".\n
+• This operative cannot use any weapons that are not on its
+datacard, or perform unique actions other than **Incentivise**
+    ]]></string>
+
+    <string name="sanctifier_fly_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="sanctifier_fly_description"><![CDATA[
+Whenever this operative is performing the **Charge, Fall
+Back** or **Reposition** action, it can **FLY**. If it does, do not move
+it. Instead, remove it from the killzone and set it back up wholly
+within a distance equal to its Move stat horizontally of its original
+location (in a killzone that uses the close quarters rules, e.g.
+Killzone: Tomb World, this distance cannot be measured over or
+through Wall terrain). Note that it gains no additional distance
+when performing the Charge action. It must be set up in a
+location it can be placed, and unless it is the **Charge** action, it
+cannot be set up within control range of an enemy operative.
+    ]]></string>
+
+    <string name="incentivise_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="incentivise_description"><![CDATA[
+**SUPPORT**. Select one other friendly **SANCTIFIER**
+operative (excluding **CONFESSOR, DEATH CULT
+ASSASSIN, MIRACULIST** and **ORATOR**) visible to and
+within 2\" of this operative. Until the end of that operatives
+next activation, add 1 to its APL stat.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="twin_torrent_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="twin_torrent_description"><![CDATA[
+Select up to two different valid targets that
+are not within control range of friendly operatives. Shoot with
+this weapon against both of them in an order of your choice (roll
+each sequence separately). Torrent 0\" means you cannot select
+secondary targets, but this weapon still has the Torrent weapon
+rule for all other rules purposes, e.g. the Condensed Stronghold
+rule (see Killzone: Volkus, Kill Team Core Book).
+    ]]></string>
+
+    <string name="sanctification_rack_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="sanctification_rack_description"><![CDATA[
+This operative can perform the
+**Sanctification Orb** action (see faction equipment). Doing so
+in this manner does not count towards the once per turning point
+limit (i.e. if you also select that equipment for other operatives)
+    ]]></string>
+
+    <string name="sanctifier_blade_stance_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="sanctifier_blade_stance_description"><![CDATA[
+Whenever this operative is fighting or retaliating,
+you can resolve one of your successes before the normal order. If
+you do, that success must be used to block.
+    ]]></string>
+
+    <string name="trained_assasin_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="trained_assasin_description"><![CDATA[
+Change this operatives order.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="schola_progenium_disciplinarian_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="schola_progenium_disciplinarian_description"><![CDATA[
+Whenever a friendly
+**SANCTIFIER** operative is within 6\" of this operative, you can
+ignore any changes to that operatives stats from being injured
+(including its weapons stats).
+    ]]></string>
+
+    <string name="null_skull_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="null_skull_description"><![CDATA[
+Whenever an enemy operative is within 4\" of this
+operative, that enemy operatives APL stat cannot be added
+to (remove all positive APL stat changes it has). If an enemy
+operative thats more than 4\" from this operative has a positive
+APL stat change and your opponent spends its final AP to move
+that operative within 4\" of this operative, this can cause your
+opponent to have spent more AP than its APL stat – this is
+permitted in this situation.
+    ]]></string>
+
+    <string name="merciless_castigation_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="merciless_castigation_description"><![CDATA[
+The first time this operative performs the
+**Fight** action during each of its activations, if neither it nor the
+enemy operative in that sequence is incapacitated, this operative
+can immediately perform a free **Fight** action afterwards, but you
+cannot select any other enemy operative to fight against during
+that action (and only if it is still valid to fight against). This takes
+precedence over action restrictions.
+    ]]></string>
+
+    <string name="fanatical_retribution_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="fanatical_retribution_description"><![CDATA[
+If this operative is incapacitated during
+the **Fight** action, you can strike the enemy operative in that
+sequence with one of your unresolved successes before this
+operative is removed from the killzone.
+    ]]></string>
+
+    <string name="wreathed_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="wreathed_description"><![CDATA[
+This operative can perform the **Shoot** action with
+this weapon while within control range of an enemy operative.
+Do not select a valid target. Instead, this operative is always the
+primary target, but only shoot against secondary targets and they
+cannot be in cover or obscured (in other words, determine Blast
+from this operative, but this operative is not affected).
+    ]]></string>
+
+    <string name="miracle_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="miracle_description"><![CDATA[
+The first time this operative would be incapacitated
+during the battle, it is not incapacitated, has 1 wound remaining
+and cannot be incapacitated for the remainder of the action.
+All remaining attack dice are discarded (including yours if this
+operative is fighting or retaliating), then this operative can
+immediately perform a free **Dash** or **Fall Back** action (for the
+latter, it cannot move more than 3\"), even if it is performed an
+action that prevents it from performing those actions.
+    ]]></string>
+
+    <string name="holy_relic_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="holy_relic_description"><![CDATA[
+If this operative has a holy relic, it is always
+benefitting from the **SERMON**.
+    ]]></string>
+
+    <string name="spread_the_word_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="spread_the_word_description"><![CDATA[
+Whenever this operative
+is more than 6\" from other friendly operatives, its weapons have
+the Severe weapon rule.
+    ]]></string>
+
+    <string name="defend_the_faith_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="defend_the_faith_description"><![CDATA[
+Whenever this operative controls an objective marker, it is benefitting from the **SERMON**.
+    ]]></string>
+
+    <string name="sanctifier_cult_icon_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="sanctifier_cult_icon_description"><![CDATA[
+Whenever determining control of a marker within 4\" of
+this operative, treat the total APL stat of friendly
+**SANCTIFIER** operatives that contest it as 1 higher if at least
+one friendly **SANCTIFIER** operative contests that marker.
+Note this is not a change to the APL stat, so any changes are
+cumulative with this.
+    ]]></string>
+
+    <string name="imperial_cult_devotion_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="imperial_cult_devotion_description"><![CDATA[
+Once per turning point, when a ready
+friendly **SANCTIFIER** operative is incapacitated while visible
+to and within 6\" of this operative, you can use this rule. If you do,
+before that operative is removed from the killzone, it can perform
+one free action (excluding **Fight**), and you can change its order
+to do so. It is then removed from the killzone as normal.
+    ]]></string>
+
+    <string name="conversion_field_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="conversion_field_description"><![CDATA[
+Whenever an operative more than 6\" from
+this operative is shooting a friendly **SANCTIFIER** operative
+within 6\" of this operative, improve that friendly operatives Save
+stat by 1.
+    ]]></string>
+
+    <string name="sanctifier_medikit_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="sanctifier_medikit_description"><![CDATA[
+Select one friendly **SANCTIFIER** operative within this
+operatives control range to regain up to 2D3 lost wounds.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="blaze_lore"><![CDATA[
+Only in holy fire can deviance be absolved. With flamer
+and burning hands the faithful purge the malignant taint
+of heresy.
+]]></string>
+
+    <string name="blaze_description"><![CDATA[
+Some weapons in this teams rules have the Blaze
+weapon rule below.\n
+***Blaze**: If you inflict damage with any critical
+successes, the operative this weapon is being
+used against gains one of your Blaze tokens (if it
+does not already have one). Whenever an operative
+that has one of your Blaze tokens is activated,
+inflict D3 damage on it. Then that operatives
+controlling player selects one of the following:\n
+\n
+• Roll one D6: on a 3+, remove that token.\n
+• Subtract 1 from the operative’s APL stat until the end of that activation to remove that token.
+]]></string>
+
+    <string name="ministorum_sermon_lore"><![CDATA[
+A mighty orator booms out an impassioned sermon.
+The fire and brimstone words inflame the zeal of their
+followers, enabling them to shrug off wounds and
+remain in the fight.
+]]></string>
+
+    <string name="ministorum_sermon_description"><![CDATA[
+**STRATEGIC GAMBIT**. Select one friendly
+**SANCTIFIER** operative. If a friendly **CONFESSOR
+operative has not been incapacitated, you must
+select it. Until you use this **STRATEGIC GAMBIT**
+again during the battle, that operative has the
+**ORATOR** keyword. \n
+Whenever a friendly **SANCTIFIER** operative is
+within 3\" of a friendly ORATOR operative (or 6\"
+if the **ORATOR** is a **CONFESSOR**), that friendly
+**SANCTIFIER** operative is benefitting from
+the **SERMON**.\n
+Whenever a friendly **SANCTIFIER** operative
+is activated within 3\" of a friendly **ORATOR**
+operative (or 6\" if the **ORATOR** is a **CONFESSOR**),
+that friendly **SANCTIFIER** operative is benefitting
+from the **SERMON** until the end of that activation
+(i.e. even if it then moves more than the distance
+requirement from the ORATOR operative).\n
+Whenever a friendly **SANCTIFIER** operative
+is benefitting from the **SERMON**, Normal and
+Critical Dmg of 4 or more inflicts 1 less damage
+on it.
+]]></string>
+
+    <!--Equipment-->
+
+
+    <string name="sanctification_orbs_lore"><![CDATA[
+These spherical devices contain flammable oils. They
+shatter, ignite and detonate upon impact with their
+target, coating the foe in burning liquid.
+]]></string>
+
+    <string name="sanctification_orbs_description"><![CDATA[
+Once per turning point, one friendly **SANCTIFIER**
+operative (excluding **CHERUB, DEATH CULT
+ASSASSIN** and **MIRACULIST**) can perform the
+following unique action:
+]]></string>
+
+    <string name="sanctification_orb_usage"><![CDATA[
+        1AP
+]]></string>
+
+    <string name="sanctification_orb_description2"><![CDATA[
+Select one enemy operative visible to and
+within 6\" of this operative. That operative
+and each other enemy operative within 1\"
+of it takes a doused test. For an operative to
+take a doused test, roll one D6: on a 3+, it
+gains one of your Doused tokens.\n
+*Whenever a friendly **SANCTIFIER** operative
+is shooting an operative that has one of your
+Doused tokens with a weapon that has the
+Blaze weapon rule, that weapon also has the
+Seek weapon rule.\n
+*After a friendly **SANCTIFIER** operative uses
+a weapon that has the Blaze weapon rule
+against an enemy operative that has one
+of your Doused tokens, remove that token
+(even if the Seek weapon rule was not used).\n\n
+This operative cannot perform this
+action while within control range of an
+enemy operative.
+]]></string>
+
+
+    <string name="sanctifiers_purity_seals_lore"><![CDATA[
+Affixed to clothing, armour and wargear by way of wax
+seals, these pieces of parchment are inscribed with holy
+prayers and blessings.
+]]></string>
+
+    <string name="sanctifiers_purity_seals_description"><![CDATA[
+Once per turning point, when a friendly
+**SANCTIFIER** operative is shooting or fighting,
+if you roll two or more fails, you can discard
+one of them to retain another as a normal
+success instead.
+]]></string>
+
+    <string name="ecclesiarchy_texts_lore"><![CDATA[
+The orators of the Adeptus Ministorum carry with them
+many a fiery prayer and excoriating psalm scribed on
+tattered vellum, designed to inspire their allies and
+diminish the foe.
+]]></string>
+
+    <string name="ecclesiarchy_texts_description"><![CDATA[
+In the Ready step of each Strategy phase, roll
+3D6: if the result is less than the remaining
+wounds of a friendly **ORATOR** operative, you gain
+1CP. Note that this is done before the Gambit
+step, so if there is not a valid **ORATOR** operative,
+you cannot use this rule during that turning point
+(e.g. during the first turning point).
+]]></string>
+
+
+    <string name="imperial_cult_symbols_lore"><![CDATA[
+Whether carved from stone or wrought in solid gold,
+blessed religious symbols bestow upon their bearers
+both fortune and favour.
+]]></string>
+
+    <string name="imperial_cult_symbols_description"><![CDATA[
+Once per turning point, when an operative is
+shooting a friendly SANCTIFIER operative that is
+benefitting from the **SERMON**, when you collect
+your defence dice, you can use this rule. If you
+do, change one of the attackers retained critical
+successes to a normal success (any weapon rules
+they have already resolved are not affected, e.g.
+Piercing Crits).
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="sanctifiers_the_emperor_protects_lore"><![CDATA[
+The most dedicated adherents to the Imperial Creed
+believe that the Emperor protects. They hurl themselves
+into battle, confident that their faith will shield them.
+]]></string>
+
+    <string name="sanctifiers_the_emperor_protects_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**SANCTIFIER** operative that is benefitting from
+the **SERMON**, you can re-roll any of your defence
+dice results of one result (e.g. results of 2).
+]]></string>
+
+    <string name="fervent_brawl_lore"><![CDATA[
+With the intolerant diatribes of the priesthood ringing in
+their ears, the Sanctifiers fight with a tireless fury.
+]]></string>
+
+    <string name="fervent_brawl_description"><![CDATA[
+Whenever a friendly **SANCTIFIER** operative
+that is benefitting from the **SERMON** is fighting or
+retaliating, its melee weapons have the Ceaseless
+weapon rule.
+]]></string>
+
+    <string name="zealous_persecution_lore"><![CDATA[
+The longer that heresy is allowed to persist, the more
+indelible the mark it leaves. It must be scoured swiftly
+and without mercy.
+]]></string>
+
+    <string name="zealous_persecution_description"><![CDATA[
+Whenever a friendly **SANCTIFIER** operative is
+fighting during an activation in which it performed
+the Charge action, its melee weapons have the
+Lethal 5+ weapon rule.
+]]></string>
+
+    <string name="rally_the_flock_lore"><![CDATA[
+An orators voice booms above the thunderous din of
+combat, drawing the faithful back into formation
+]]></string>
+
+    <string name="rally_the_flock_description"><![CDATA[
+Each friendly **SANCTIFIER** operative (excluding
+**ORATOR**) that is benefitting from the **SERMON**
+can immediately perform a free **Dash** or **Fall
+Back** action in an order of your choice (choose
+separately for each and, for the latter, it cannot
+move more than 3\"). Each that does so must end
+that move closer and visible to (or vice versa) a
+friendly **ORATOR** operative. You cannot use this
+ploy during the first turning point.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="rosarius_lore"><![CDATA[
+A sacred symbol of office, the Rosarius contains a
+powerful conversion field generator capable of turning
+aside incoming blows
+]]></string>
+
+    <string name="rosarius_description"><![CDATA[
+Use this firefight ploy when an attack dice
+inflicts Normal Dmg on a friendly **SANCTIFIER**
+operative. Ignore that inflicted damage.
+]]></string>
+
+    <string name="ardent_eradication_lore"><![CDATA[
+For those who stand against the Imperial faith there is
+only one punishment: death.
+]]></string>
+
+    <string name="ardent_eradication_description"><![CDATA[
+Use this firefight ploy after rolling your attack
+dice for a friendly **SANCTIFIER** operative, if it is
+shooting against or fighting against an enemy
+operative that is within 3\" of a friendly **ORATOR**
+operative (or 6\" if the **ORATOR** is a **CONFESSOR**).
+You can re-roll any of your attack dice.
+]]></string>
+
+    <string name="redeemed_through_fire_lore"><![CDATA[
+There are few more blessed deaths than fiery
+martyrdom. Such a sacrifice stokes smouldering resolve
+in the hearts of fellow Sanctifiers.
+]]></string>
+
+    <string name="redeemed_through_fire_description"><![CDATA[
+Use this firefight ploy when a friendly
+**SANCTIFIER** operative that has a weapon with
+the Blaze weapon rule is incapacitated, before it is
+removed from the killzone. Each enemy operative
+visible to and within 2\" of it gains one of your
+Blaze tokens (if it does not already have one).
+]]></string>
+
+    <string name="unwavering_devotion_lore"><![CDATA[
+Low ranking Sanctifiers will gladly hurl themselves into
+the path of bullet or blade if doing so will preserve their
+blessed superiors and ensure victory.
+]]></string>
+
+    <string name="unwavering_devotion_description"><![CDATA[
+Use this firefight ploy when a friendly
+**SANCTIFIER ORATOR** or **SANCTIFIER
+MIRACULIST** operative is selected as the valid
+target of a **Shoot** action or to fight against
+during the **Fight** action. Select one other friendly
+**SANCTIFIER** operative (excluding **CONFESSOR,
+MIRACULIST** and **ORATOR**) visible to and within
+3\" of that first friendly operative to become
+the valid target or to be fought against (as
+appropriate) instead (even if it would not normally
+be valid for this). If it is the **Fight** action, treat
+that other operative as being within the fighting
+operatives control range for the duration of
+that action. If it is the **Shoot** action, that other
+operative is only in cover or obscured if the
+original target was.\n
+This ploy has no effect if it is the **Shoot** action
+and the ranged weapon has the Blast or Torrent
+weapon rule.
+]]></string>
+
+</resources>

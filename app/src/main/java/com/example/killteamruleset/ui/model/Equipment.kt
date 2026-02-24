@@ -7,6 +7,6 @@ data class Equipment(
     val name: String,
     val lore: Int? = null,
     @StringRes val description: Int,
-    val ability: Ability? = null,
+    val abilities: List<Ability> = emptyList(),
     val weapons: List<WeaponProfile> = emptyList()
 )

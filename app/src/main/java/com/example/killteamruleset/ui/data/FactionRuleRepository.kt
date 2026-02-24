@@ -423,8 +423,159 @@ object FactionRuleRepository {
                 ruleText = null,
                 imageRes = R.drawable.wrecka_krew_tokens
             ),
-
         ),
+
+        //Phobos
+        "phobos_strike_team" to listOf(
+            FactionRule(
+                id = "omni_scrambler",
+                title = "OMNI-SCRAMBLER",
+                lore = R.string.omni_scrambler_lore,
+                ruleText = R.string.omni_scrambler_description,
+
+                ),
+            FactionRule(
+                id = "terror",
+                title = "TERROR",
+                lore = R.string.terror_lore,
+                ruleText = R.string.terror_description,
+
+                ),
+            FactionRule(
+                id = "phobos_astartes",
+                title = "ASTARTES",
+                lore = R.string.phobos_astartes_lore,
+                ruleText = R.string.phobos_astartes_description,
+
+                ),
+            FactionRule(
+                id = "multispectrum_array",
+                title = "MULTI-SPECTRUM ARRAY",
+                lore = R.string.multispectrum_array_lore,
+                ruleText = R.string.multispectrum_array_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+
+        //Ratlings
+        "ratlings" to listOf(
+            FactionRule(
+                id = "scarper",
+                title = "SCARPER",
+                lore = R.string.scarper_lore,
+                ruleText = R.string.scarper_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+
+            ),
+
+
+        "sanctifiers" to listOf(
+            FactionRule(
+                id = "blaze",
+                title = "BLAZE",
+                lore = R.string.blaze_lore,
+                ruleText = R.string.blaze_description,
+
+                ),
+            FactionRule(
+                id = "ministorum_sermon",
+                title = "MINISTORUM SERMON",
+                lore = R.string.ministorum_sermon_lore,
+                ruleText = R.string.ministorum_sermon_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+
+        "scout_squat" to listOf(
+            FactionRule(
+                id = "foward_scouting",
+                title = "FORWARD SCOUTING",
+                lore = R.string.foward_scouting_lore,
+                ruleText = R.string.foward_scouting_description,
+
+                ),
+
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
+
+        "tempestus_aquilon" to listOf(
+                FactionRule(
+                    id = "drop_insertion",
+                    title = "DROP INSERTION",
+                    lore = R.string.drop_insertion_lore,
+                    ruleText = R.string.drop_insertion_description,
+                    ),
+            FactionRule(
+                id = "grav_chute",
+                title = "GRAV‑CHUTE",
+                lore = R.string.grav_chute_lore,
+                ruleText = R.string.grav_chute_description,
+
+                ),
+        FactionRule(
+            id = "wrecka_markers",
+            title =null,
+            lore = null,
+            ruleText = null,
+            imageRes = R.drawable.wrecka_krew_tokens
+        ),
+    ),
+
+
+        "wolf_scout" to listOf(
+            FactionRule(
+                id = "drop_insertion",
+                title = "DROP INSERTION",
+                lore = R.string.drop_insertion_lore,
+                ruleText = R.string.drop_insertion_description,
+            ),
+            FactionRule(
+                id = "grav_chute",
+                title = "GRAV‑CHUTE",
+                lore = R.string.grav_chute_lore,
+                ruleText = R.string.grav_chute_description,
+
+                ),
+            FactionRule(
+                id = "wrecka_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.wrecka_krew_tokens
+            ),
+        ),
+
         
         //Wrecka Krew
         "wrecka_krew" to listOf(

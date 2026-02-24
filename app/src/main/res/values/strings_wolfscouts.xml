@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Wolf-->
+
+    <string name="lupine_guile_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="lupine_guile_description"><![CDATA[
+Once per battle, after rolling off to decide initiative,
+if this operative is in the killzone, you can re-roll your dice.
+    ]]></string>
+
+    <string name="grizzled_veteran_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="grizzled_veteran_description"><![CDATA[
+The first time this operative would be
+incapacitated during the battle, it is not incapacitated, has 1
+wound remaining and cannot be incapacitated for the remainder
+of the action. All remaining attack dice are discarded (including
+yours if this operative is fighting or retaliating). You cannot use
+the Counterattack firefight ploy or inflict damage as a result of
+the Savage Fighters strategy ploy at the end of that action.
+    ]]></string>
+
+    <string name="spiritual_chirurgy_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="spiritual_chirurgy_description"><![CDATA[
+You can ignore any changes to the stats of
+friendly **WOLF SCOUT** operatives (excluding **FENRISIAN
+WOLF**) from being injured (including their weapons stats).
+Friendly **WOLF SCOUT** operatives (excluding **FENRISIAN
+WOLF**) are not affected by enemy operatives Shock and Stun
+weapon rules and you can ignore any changes to their APL stat.
+Note that friendly operatives have these rules if you select this
+operative for the battle (even if it is incapacitated later).
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="healing_balms_description"><![CDATA[
+Select one friendly **WOLF SCOUT** operative within this
+operatives control range to regain up to D3+3 lost wounds.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="healing_balms_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+</resources>
