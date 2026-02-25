@@ -243,98 +243,60 @@ Algunas armas de este equipo tienen la regla **Anti-PSYKER**.\n
     ]]></string>
 
     <string name="inspiration_lore"><![CDATA[
-Veteran Celestians of the Orders Militant lead by
-example, inspiring their sisters by throwing themselves
-into the heaviest fighting against the deadliest
-of enemies.
+Veteranas Celestian de la orden Militante dirigen dando el ejemplo a sus hermanas, inspirándolas para lanzarse a las peleas más duras contra los enemigos más mortales.
     ]]></string>
 
     <string name="inspiration_description"><![CDATA[
-Whenever a friendly CELESTIAN INSIDIANT operative:\n
+Siempre que una **CELESTIAN INSIDIANT** aliada:\n
 \n
-• Incapacitates an enemy operative that has a Wounds stat of 6 or more, that friendly
-operative becomes INSPIRING.\n
-• Performs the Charge action, before it moves, it becomes INSPIRING.\n
+• Incapacita un Operativo enemigo con una 6 o heridas, ese Operativo aliado se vuelve **INSPIRING**\n
+• Cuando realiza la acción **Carga**, antes de moverse, esta unidad está **INSPIRING**\n  
 \n
-Whenever a friendly CELESTIAN INSIDIANT
-operative is INSPIRING, weapons on its datacard
-have the Severe weapon rule.
+Cuando una Operativa **CELESTIAN INSIDIANT** está **INSPIRING**, sus armas ganan la regla Severe.
     ]]></string>
 
 
     <!--Equipment-->
 
     <string name="psyk_out_grenades_lore"><![CDATA[
-Powerful psyk-out grenades are particularly potent
-against psykers.
+Las granadas Psyk-out son particularmente eficaces contra Psykers.
 ]]></string>
 
     <string name="psyk_out_grenades_description"><![CDATA[
-This equipment allows you to select two utility
-grenades from the utility grenades equipment
-(see universal equipment) and they must all be
-stun grenades. If you also select that equipment
-as normal, you cannot select any stun grenades
-(i.e. to give you more than two). Whenever an
-operative takes a stun test as a result of a friendly
-**CELESTIAN INSIDIANT** operative performing
-the **Stun Grenade** action, if the result is a 3+,
-also inflict damage on that first operative equal
-to the dice result halved (rounding up). If that
-first operative has the **PSYKER** keyword, inflict
-damage on it equal to the dice result instead.
+Este equipamiento te permite seleccionar dos granadas de utilidad del equipamiento universal, deben ser las dos granadas Stun, si también seleccionas granadas de utilidad
+no pueden ser de Stun (No puedes tener mas de dos granadas de Stun). Cuando un Operativo hace un test de Stun como resultado de una Operativa **CELESTIAN INSIDIANT**
+realizando la acción **Stun Grenade**, si el resultado es 3+, también inflige daño a ese Operativo igual a la mitad del valor del dado (redondeando hacia arriba).
+Si ese Operativo tiene la clave **PSYKER**, inflige daño igual al resultado del dado en su lugar.
 ]]></string>
 
     <string name="vocifera_mortis_lore"><![CDATA[
-Upon the death of its bearer, this device transmits
-a sombre requiem across the squad’s vox-channel,
-broadcasting the sisters martyrdom.
+Cuando el portador de este dispositivo fallece, transmite un requirem sombrio a traves de los canales vox de sus hermanas, transmitiendo la accion de martirio e inspirando a sus
+hermanas de batalla.
 ]]></string>
 
     <string name="vocifera_mortis_description"><![CDATA[
-Once per battle, when an **INSPIRING**
-friendly **CELESTIAN INSIDIANT** operative is
-incapacitated, you can use this rule. If you do,
-for the Martyrdom faction rule, the other friendly
-**CELESTIAN INSIDIANT** operative you select
-can be one that isn’t visible to or within 6\" of
-that operative.
+Una vez en la batalla, cuando una Operativa **CELESTIAN INSIDIANT** **INSPIRING** es incapacitada, puedes usar esta regla. Si lo haces, para resolver la regla Martyrdom faction rule
+selecciona un Operativo que no sea visible o esté a 6\" de este Operativo.
 ]]></string>
 
     <string name="saintly_relics_lore"><![CDATA[
-The witch hunters carry a variety of devotional esoterica
-believed to shield them from harm, enabling them to
-continue their holy duties.
+Las cazadoras de brujas cargan una variedad de escudos esotericos, defendiendolas de daño maldito, les permite continuar con sus labores sagrados.
 ]]></string>
 
     <string name="saintly_relics_description"><![CDATA[
-Whenever an attack dice would inflict damage on
-a friendly **CELESTIAN INSIDIANT** operative, you
-can use this rule. If you do, roll one D6, or two D6
-if that operative is **INSPIRING**: if any result is a 6,
-ignore the damage inflicted from that attack dice.
-You cannot ignore more than one attack dice per
-action and two attack dice per battle this way.
-
+Cuando un dado de ataque vaya a infligir daño a una **CELESTIAN INSIDIANT** aliada, puedes usar esta regla. Si lo haces, lanza un D6 o dos D6 si esa unidad
+esta **INSPIRING**: si cualquiera da un resultado de 6, ignora el daño de ese dado de ataque. No puedes ignorar más de un dado por ataque ni más de dos dados durante 
+        la batalla de esta forma.
 ]]></string>
 
     <string name="auto_flagellator_lore"><![CDATA[
-The most devout of Celestian Insidiants may bear
-beneath their power armour instruments of selfflagellation. At times of great import, these devices
-inflict agonising pain upon the body, focusing the mind
-and spirit and driving the recipient to inspirational acts
-of zealotry.
+Las Celestian Insidiants más devotas pueden portar dentro de sus armaduras de poder instrumentos de autoflagelacion. En tiempos de crisis estos dispositivos pueden
+hacerlas sufrir dolor agonizante, haciendo que su cuerpo y mente se enfoquen para realizar actos inspirantes de fanatismo.
 ]]></string>
 
     <string name="auto_flagellator_description"><![CDATA[
-Whenever a friendly **CELESTIAN INSIDIANT**
-operative is activated, you can use this rule. If
-you do, roll one D6 and inflict damage on that
-operative equal to half the result (rounding
-up); on a 4+, that operative also becomes
-**INSPIRING**. You cannot make more than one
-friendly operative **INSPIRING** using this rule per
-turning point.
+Cuando una Operativa **CELESTIAN INSIDIANT** aliada es activada, puedes usar esta regla. Si lo haces, lanza un D6 e inflige daño equivalente a la mitad del valor del dado
+(redondea hacia arriba); al 4+, ese Operativo está **INSPIRING**. No puedes darle **INSPIRING** a más de un Operativo con esta regla por turno.
 ]]></string>
 
 
@@ -342,145 +304,85 @@ turning point.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="suspect_eliminate_lore"><![CDATA[
-Ruthless in their pursuit of the witch, Celestian
-Insidiants are swift to condemn those they suspect of
-heresy. Protestations of innocence are treated with the
-callous disregard they deserve.
+Despiadadas en su persecución, Celestian Insidiant son ágiles para condenar a aquellos bajo sospecha de herejía. Plegarias por inocencia son recibidas
+        Por oídos sordos.
 ]]></string>
 
     <string name="suspect_eliminate_description"><![CDATA[
-Select one enemy operative or marker. If you
-select an enemy operative, that operative and
-each other enemy operative visible to and within
-2\" of it gains one of your Suspicion tokens until
-the end of the turning point. If you selected a
-marker, each enemy operative contesting that
-marker gains one of your Suspicion tokens until
-the end of the turning point.\n\n
-
-Whenever a friendly **CELESTIAN INSIDIANT**
-operative is shooting against or fighting against
-an operative that has one of your Suspicion
-tokens, that friendly operatives weapons have
-the Punishing weapon rule.
+Selecciona un Operativo enemigo o un marcador. Si seleccionas un Operativo enemigo, ese Operativo y cada Operativo enemigo visibles y a 2\" de él ganan uno de tus
+Suspicion tokens hasta el final del turno. Si seleccionas un marcador, cada enemigo contestando ese marcador gana uno de tus Suspicion tokens hasta el final del turno.\n
+\n
+Cuando un Operativo **CELESTIAN INSIDIANT** aliado **Dispara** o **Pelea** contra un Operativo con uno de tus Suspicion tokens, las armas de Operativos aliados ganan la 
+        regla Punishing.
 ]]></string>
 
     <string name="wrathful_determination_lore"><![CDATA[
-Once the Celestian Insidiants have detected the spoor
-of sorcery, they will pursue their targets through hails
-of fire.
+Tan pronto como Celestian Insidiants detectan hechizeria maldita, ellas perseguiran la fuente a traves de lluvia y fuego.
 ]]></string>
 
     <string name="wrathful_determination_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**CELESTIAN INSIDIANT** operative that has
-an **Engage** order, you can re-roll one of your
-defence dice.
+Cuando un Operativo esté disparando a un Operativo **CELESTIAN INSIDIANT** aliado con una orden de **Engage**, puedes relanzar un dado de defensa.
+
 ]]></string>
 
     <string name="suffering_sacrifice_lore"><![CDATA[
-Battlefield veterans all, Celestian Insidiants are inured
-to pain. Injuries serve only to focus their martial prowess
-and stoke their zealous rage.
+Las veteranas del campo de batalla son casi inmunes al dolor. Las heridas solo sirven para mejorar sus aptitudes marciales y como combustible para liberar su ira fanatica.
 ]]></string>
 
     <string name="suffering_sacrifice_description"><![CDATA[
-Whenever a wounded friendly **CELESTIAN
-INSIDIANT** operative is shooting against, fighting
-against or retaliating against an enemy operative,
-its weapons have the Balanced weapon rule.
+Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, peleando o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced. 
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[
-Faith is the greatest of the Celestian Insidiants many
-weapons. So long as it remains unbroken, they may
-shrug off even the most crippling of injuries and remain
-in the fight.
+De todas las armas en el arsenal de Celestian Insidiants, fe es el arma mas poderosa, mientras esta no se romba, estas guerreras pueden ignorar la mayoría de heridas
+en una pelea.
 ]]></string>
 
     <string name="holy_resilience_description"><![CDATA[
-Whenever an **INSPIRING** friendly **CELESTIAN
-INSIDIANT** operative is fighting or retaliating,
-Normal and Critical Dmg of 4 or more inflicts 1
-less damage on that friendly operative.
+Cuando una aliada **CELESTIAN INSIDIANT** estando **INSPIRING** esta peleando o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
+        Operativo aliado.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="glory_to_the_martyrs_lore"><![CDATA[
-There is no greater inspiration than the glorious death
-of a martyr.
+No hay mayor fuente de inspiración que la gloriosa muerte de un mártir.
 ]]></string>
 
     <string name="glory_to_the_martyrs_description"><![CDATA[
-Use this firefight ploy when a friendly **CELESTIAN
-INSIDIANT** operative is incapacitated while
-fighting or retaliating. You can strike the enemy
-operative in that sequence with one of your
-unresolved successes before its removed
-from the killzone. If that enemy operative is
-incapacitated as a result, that friendly operative
-becomes **INSPIRING** before its removed from
-the killzone and you can resolve the Martyrdom
-faction rule.
+Usa esta Firefight ploy cuando una Operativa **CELESTIAN INSIDIANT** es incapacitada mientras pelea o retalea. Puedes golpear el enemigo en esa secuencia con uno de
+tus resultados sin resolver antes de ser removida del juego, si ese enemigo es incapacitado como resultado de esta regla, ese Operativo aliado es **INSPIRING** antes de
+ser removido del juego, esto con proposito de resolver la regla Martyrdom.
 ]]></string>
 
     <string name="faith_fury_lore"><![CDATA[
-Divine rage empowers these warriors to cleave through
-multiple foes.
+La ira divina potencia a estas guerreras para arrazar múltiples enemigos.
 ]]></string>
 
     <string name="faith_fury_description"><![CDATA[
-Use this firefight ploy when a friendly **CELESTIAN
-INSIDIANT** operative is fighting and you strike
-the enemy operative in that sequence with a
-critical success. After resolving that strike, also
-inflict D3 damage on each other enemy operative
-visible to and within 2\" of that friendly operative
-in an order of your choice (roll separately for
-each). Note that the friendly operative would
-become **INSPIRING** if any enemy operatives with
-a Wounds stat of 6 or more are incapacitated as a
-result of this damage.
+Usa esta Firefight ploy cuando una aliada **CELESTIAN INSIDIANT** esté combatiendo y resuelvas un dado para golpear a un enemigo con un éxito crítico. Después de resolver
+ el daño, también inflige D3 de daño a cada otro enemigo Operativo visible y a 2\" de este Operativo aliado (lanza el dado por cada uno). Esta unidad puede volverse
+**INSPIRING** si algún Operativo enemigo con heridas de 6 o más es incapacitado como resultado de esta regla.
 ]]></string>
 
     <string name="unshakeable_pursuit_lore"><![CDATA[
-Neither fatigue nor terrain can keep a Celestian Insidiant
-from their quarry.
+Ni la fatiga ni el terreno pueden mantener a una Celestian Insidiant alejada de su enemigo.
 ]]></string>
 
     <string name="unshakeable_pursuit_description"><![CDATA[
-Use this firefight ploy during a friendly
-**CELESTIAN INSIDIANT** operatives activation,
-before or after it performs an action. Until the
-end of that operatives activation, you can ignore
-any changes to its Move stat. If that operative
-is **INSPIRING**, add 1\" to its Move stat until the
-end of that activation. If that operative becomes
-**INSPIRING** by performing the Charge action,
-you can use this ploy before it moves to gain the
-additional movement (this takes precedence over
-stats not changing during an action).
+Usa esta Firefight ploy cuando una aliada **CELESTIAN INSIDIANT** active, antes o después de realizar una acción. Hasta el final de esa activación, puedes ignorar cualquier
+cambio a la estadística de movimiento. Si ese operativo está **INSPIRING**. añade 1\" a la estadística de movimiento hasta el final de la activación. Si ese Operativo
+esta **INSPIRING** como resultado de una acción de **Carga**, puedes usar esta regla para que gane el movimiento adicional (esto toma precedencia sobre las estadísticas no
+        cambiando durante la activación).
 ]]></string>
 
     <string name="fervent_hate_lore"><![CDATA[
-The Celestian Insidiants embody the hatred and
-paranoia of their creed.
+Las Celestian Insidiants llevan el odio y la paranoia de su credo.
 ]]></string>
 
     <string name="fervent_hate_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice
-for a friendly **CELESTIAN INSIDIANT** operative, if
-its shooting against, fighting against or retaliating
-against an enemy operative that doesnt have
-the **IMPERIUM** keyword. That friendly operatives
-weapons have the Ceaseless weapon rule
-until the end of that sequence; if that enemy
-operative also has the **CHAOS** and/or **PSYKER**
-keyword, that friendly operatives weapons have
-the Relentless weapon rule until the end of that
-sequence instead.
+Usa esta Firefight ploy después de lanzar tus dados de ataque para una **CELESTIAN INSIDIANT** aliada, si esta disparando, peleando o retaleando contra un Operativo
+enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS* y/o **PSYKER**, las armas ganan
+Relentless en su lugar hasta el final de esa secuencia.
 ]]></string>
 
 </resources>
