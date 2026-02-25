@@ -139,61 +139,35 @@ Este Operativo no puede realizar esta acción mientras esté dentro del rango de
     <!--Faction Rules-->
 
     <string name="noospheric_network_lore"><![CDATA[
-Servitors are yoked to their Tech-Priest masters by
-an invisible web of control. This noospheric network
-enables servitors to be rapidly reorganised, transferring
-processing power to other thralls who might better serve
-the Tech-Priests immediate wishes. While some are
-left to conform to their basic programming, others are
-instructed with key tasks that must be fulfilled for the
-glory of the Machine God.
+Los servidores viven bajo el yugo de sus maestros Tecno-Sacerdotes por una red invisible de control. Esta conexión noosférica permite a los servidores ser rápidamente
+        reorganizados, transfiriendo poder de procesamiento a otros esclavos que pueden dar mejores resultados a los deseos inmediatos de los Tecno-Sacerdotes.
+        Mientras algunos son programados con acciones básicas, otros son instruidos con objetivos claves e importantes para la gloria del dios máquina.
 ]]></string>
 
     <string name="noospheric_network_description"><![CDATA[
-Once during each friendly **BATTLECLADE
-SERVITOR** operatives activation, before or after
-it performs an action, you can spend 1AP to
-**TRANSFER POWER**. \n\n
+Una vez durante cada activación de Operativos **BATTLECLADE SERVITOR** aliados, antes o despues de realizar una accion, puedes gastar 1AP para hacer **TRANSFER POWER**. \n\n
 
-After that activation, you can **NETWORK
-COUNTERACT** with one other friendly
-**BATTLECLADE SERVITOR** operative before your
-opponent activates. Whenever you **NETWORK
-COUNTERACT** with a friendly operative, first
-select its order. It can then perform a 1AP action
-for free, but cannot move more than 2\" during
-that action. Once its done so, your opponent
-then activates as normal.\n\n
+Despues de esa activacion, puedes hacer un **NETWORK COUNTERACT** con un Operativo **BATTLECLADE SERVITOR** antes de que tu oponente active. Siempre que hagas un **NETWORK
+COUNTERACT** con un aliado, primero selecciona su orden. Puede realizar una accion de 1AP gratis, pero no puede moverse mas de 2\" durante esa accion. Una vez esto termine,
+tu oponente activa normalmente.\n\n
 
-An operative cannot **TRANSFER POWER** or
-**NETWORK COUNTERACT** if it has an APL stat of
-less than 2 (e.g. if the stat has been changed to
-less than 2 by a rule). **NETWORK COUNTERACT** is
-a counteraction, but the operative doesnt need
-to be expended with an Engage order to do it.
-That means if they’re ready when they **NETWORK
-COUNTERACT**, they can still be activated as
-normal later in the turning point. An operative
-that does **NETWORK COUNTERACT** cannot
-do so again, or counteract, during the same
-turning point.
+Un Operativo no puede hacer **TRANSFER POWER** o **NETWORK COUNTERACT** si tiene menos de 2 APLs (Ej cambios por Stun). **NETWORK COUNTERACT** cuenta como una counteract normal,
+pero el Operativo no tiene que estar Expended con una orden de **Engage** para hacerlo, lo que significa que si estan Ready aun pueden activar normalmente despues de hacer un
+**NETWORK COUNTERACT**, un operativo que haga **NETWORK COUNTERACT** no puede hacerlo otra vez o hacer un counteract durante el mismo turno.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="covert_guises_lore"><![CDATA[
-        Using filthy bodysuits of local design, falsified insignia or emitters that broadcast shrouding
-        static-filled hisses to foil biological senses, this Battleclade can infiltrate into restricted areas undetected.
+    Usando sucios trajes de diseño local, con insignias falsas o emisores que corrompen sensores biológicos, este Clado de Batalla puede
+        infiltrarse en áreas sin ser detectados.
 ]]></string>
 
     <string name="covert_guises_description"><![CDATA[
-        After revealing this equipment option, roll one D3. As a **STRATEGIC GAMBIT** in the first
-        turning point, a number of friendly **BATTLECLADE** Operatives equal to the result that are
-        wholly within your drop zone can immediately perform a free **Reposition** action, but must
-        end that move wholly within 3\" of your drop zone. Your **TECHNOARCHEOLOGIST** Operative
-        cannot perform more than one **Reposition** action in the Strategy phase of the first turning
-        point (result of Seeker of Divine Arcana rule as well).
+        Despues de revelar este equipamiento, lanza un D3. Como **STRATEGIC GAMBIT** en el primer turno, un número de Operativos **BATTLECLADE** aliados igual
+        al resultado del dado que estén completamente dentro de tu Drop Zone pueden realizar una acción gratis de **Reposition**,
+        pero deben estar completamente a 3\" de tu Drop Zone. Tu **TECHNOARCHEOLOGIST** no puede realizar más de una acción de **Reposition** durante el primer turno.
 ]]></string>
 
     <string name="electromantic_capacitors_lore"><![CDATA[
