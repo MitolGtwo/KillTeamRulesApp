@@ -11,7 +11,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val BattleCladeAutoProxyServitor = Operative(
     name = "Battleclade Auto-Proxy Servitor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.autoproxy_servitor,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

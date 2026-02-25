@@ -331,7 +331,8 @@ enemigo, o mas de una vez por turno.
         Substrae 2\" al Move Stat y empeora el Hit Stat por 1 a las armas de Operativos enemigos
         (esto no se acumulativo con estar herido) siempre y cuando una de estas reglas se cumplan:\n\n
 
-        *El enemigo tiene uno de tus tokens de Veneno, es visible y esta a 3\" de un *PLAGUE MARINES* aliado.\n
+        *El enemigo tiene uno de tus tokens de Veneno, es visible y esta a 3\" de un **PLAGUE MARINES** aliado.\n
+       \n
         *Es visible y esta a 3\" de un **PLAGUE MARINE ICON BEARER** aliado.
 ]]></string>
 

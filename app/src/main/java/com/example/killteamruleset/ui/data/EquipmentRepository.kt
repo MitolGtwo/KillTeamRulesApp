@@ -587,31 +587,31 @@ object EquipmentRepository {
         "wolf_scout" to listOf(
 
             Equipment(
-                id = "tempestus_daggers",
-                name = "TEMPESTUS DAGGERS",
-                lore =R.string.tempestus_daggers_lore,
-                description = R.string.tempestus_daggers_description,
+                id = "frost_weapons",
+                name = "FROST WEAPONS",
+                lore =R.string.frost_weapons_lore,
+                description = R.string.frost_weapons_description,
             ),
 
             Equipment(
-                id = "aquilon_combat_stimms",
-                name = "COMBAT STIMMS",
-                lore =R.string.aquilon_combat_stimms_lore,
-                description = R.string.aquilon_combat_stimms_description,
+                id = "runic_charms",
+                name = "RUNIC CHARMS",
+                lore =R.string.runic_charms_lore,
+                description = R.string.runic_charms_description,
                 ),
 
             Equipment(
-                id = "drop_agury",
-                name = "DROP AUGURY",
-                lore =R.string.drop_agury_lore,
-                description = R.string.drop_agury_description
+                id = "wolfteeth_necklaces",
+                name = "WOLFTEETH NECKLACES",
+                lore =R.string.wolfteeth_necklaces_lore,
+                description = R.string.wolfteeth_necklaces_description
             ),
 
             Equipment(
-                id = "remote_overseer",
-                name = "REMOTE OVERSEER",
-                lore =R.string.remote_overseer_lore,
-                description = R.string.remote_overseer_description
+                id = "talismanic_trophies",
+                name = "TALISMANIC TROPHIES",
+                lore =R.string.talismanic_trophies_lore,
+                description = R.string.talismanic_trophies_description
             )
         ),
 

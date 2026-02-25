@@ -171,44 +171,42 @@ pero el Operativo no tiene que estar Expended con una orden de **Engage** para h
 ]]></string>
 
     <string name="electromantic_capacitors_lore"><![CDATA[
-       Wired into an Operatives numerous mechanical components, these devices can charge the bodies
-       of a clandestine team with coruscating arcs of the sacred Motive Force.
+       Numerosos componentes mecanicos estan conectados a estos Operativos, estos dispositivos pueden
+       cargar los cuerpos con descargas de Motive Force sagrada.
 ]]></string>
 
     <string name="electromantic_capacitors_description"><![CDATA[
-        Friendly **BATTLECLADE** Operatives melee weapons have the Shock weapon rule. Whenever a friendly
-        **BATTLECLADE** Operative is retaliating, its melee weapons have the Severe weapon rule.
+        Las armas de melee de Operativos **BATTLECLADE** aliados tienen la regla Shock. Siempre que
+        un Operativo aliado **BATTLECLADE** este retaleando, su arma de melee tiene la regla Severe.
 ]]></string>
 
     <string name="concealed_apparatus_lore"><![CDATA[
-       Seemingly equipper servitors can, at an imperative from their master, swiftly assemble far
-       more deadly apparatus, the components of which were hidden in body cavities or as entirely different
-       mechanisms.
+        Al momento de recibir una orden imperativa de sus maestros, servidores equipados pueden
+        rapidamente ensamblarse aparatos mortales, los componentes los cuales fueron ocultados en
+        sus cavidades corporales o en mecanismos completamente diferentes.
 ]]></string>
 
     <string name="concealed_apparatus_description"><![CDATA[
-        **STRATEGIC GAMBIT** in the second turning point. You can swap the locations of any number of
-        friendly **BATTLECLADE SERVITOR** Operatives with each other (excluding **GUN SERVITOR**),
-        and you can swap the locations of friendly **BATTLECLADE GUN SERVITOR** Operatives with each
-        other (remove then from the killzone and swt them back up gain). You cannot swap any Operative
-        that have done any of the following during the battle:
-        \n
-        -Used any weapons on their datacard.
-        \n
-        -Performed any actions on their datacard.
-        \n
-        -Used the Mechanosuture Array rule.
-
+    **STRATEGIC GAMBIT** en el segundo turno. Puedes cambiar la ubicacion de cualquier numero de
+    Operativos **BATTLECLADE SERVITOR** aliados entre ellos (excluyendo **GUN SERVITOR**), y puedes
+    cambiar la ubicacion de **BATTLECLADE GUN SERVITOR* aliados entre si (remuevelos del killzone y
+    ponlos otra vez despues de intercambiar la ubicacion). No puedes intercambiar cualquier Operativos
+    que haya hecho alguna de estas acciones durante la batalla:
+    \n
+    -Haya usado alguna de sus armas en su tarjeta.
+    \n
+    -Hecho cualquier accion en su tarjeta.
+    \n
+    -Haya usado la regla Mechanosuture Array.
 ]]></string>
 
     <string name="neurocylic_reserve_cells_lore"><![CDATA[
-       Battleclades are granted these devices to accelerate servitor capabilities.
+        Clados de batalla son provistos de dispositivos para aumentar las capacidades de sus servidores.
 ]]></string>
 
     <string name="neurocylic_reserve_cells_description"><![CDATA[
-       After revealing this equipment option, roll one D3. A number of times during the battle equal
-       to the result, whenever you **TRANSFER POWER**, you can use this rule. If you do, you can
-       **TRANSFER POWER** for 0AP (this takes precedence over the normal Noospheric Network Rules).
+        Despues de revelar este equipamiento lanza un D3. puedes hacer **TRANSFER POWER** por 0AP
+        equivalente al resultado de ese dado.(esto toma precedencia sobre la regla normal de Noospheric Network)
 ]]></string>
 
 
@@ -216,159 +214,120 @@ pero el Operativo no tiene que estar Expended con una orden de **Engage** para h
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="noospheric_possession_lore"><![CDATA[
-    By broadcasting portions of their neural architecture into their thralls, sometimes via a
-    well-positioned relay, manipulative Servitor Underseers effectively possess their tools to better
-    direct the Omnissiahs wrath.
+    Al transmitir porciones de su arquitectura en la mente de sus esclavos, algunas veces a traves
+    de transmisores bien posicionados, los manipuladores de Servidores poseen sus herramientas para
+    dirigir la ira del Omnissiah de forma mas efectiva.
 ]]></string>
 
     <string name="noospheric_possession_description"><![CDATA[
+    **SUPPORT.** Siempre que un **BATTLECLADE SERVITOR** Operativo aliado esta a 6\" de un
+    **BATTLECLADE AUTO-PROXY** aliado o de un **BATTLECLADE SERVITOR UNDERSEER** aliado, las armas
+    de esos Operativos **BATTLECLADE SERVITOR** aliados tienen la regla Accurate 1.
+
     **SUPPORT.** Whenever a friendly **BATTLECLADE SERVITOR** Operative is within 6" of a friendly
     **BATTLECLADE AUTO-PROXY** or **BATTLECLADE SERVITOR UNDERSEER** Operative, that friendly **SERVITOR**
-    Operativves weapons have the Accurrate 1 weapon rule.\n\n
+    Operatives weapons have the Accurrate 1 weapon rule.\n\n
 
-    For the purpose of the Comms Device universal equipment, the Operative the distance is being
-    determined from must control your Comms Device marker to add 3\" to its distance requirement
-    for this rule.
+    Para el propósito del equipamiento Comms Device, la distancia se determina desde el marcador
+    del equipamiento Comms Device para añadir 3\" a la distancia de esta habilidad.
 ]]></string>
 
     <string name="duty_of_reclamation_lore"><![CDATA[
-    Embedded in Battleclade operatives are lurking strands of enhanced binharic doctrine. These instructions await
-the moment to activate, triggered by the proximity of a Tech-Priests designated prize.
+    Los operativos de un clado de batalla acechan imbuidos con fragmentos de doctrina binaria.
+    Estas intrucciones esperan el momento para activarse al recibir las ordenes de reclamar un
+    objetivo designado por un Tecno-Sacerdote.
 ]]></string>
 
     <string name="duty_of_reclamation_description"><![CDATA[
-    Once per action, you can use the Command Reroll firefight ploy for 0CP if the attack or defence
-dice was rolled for a friendly **BATTLECLADE** operative that contests an objective marker or
-one of your mission markers.
+    Una vez por accion, puedes usar un Command Reroll por 0CP si el ataque o defensa fue lanzado
+    por un aliado **BATTLECLADE** que este contesteando un marcador de objetivo o marcador de mision.
 ]]></string>
 
     <string name="incantation_of_the_iron_soul_lore"><![CDATA[
-    Through chanted binharic praise from the Tech-Priests,
-or sparked by holy subroutines, microactuators lock
-into bracing positions and reserve power cells are
-brought online. The flesh may be weak, but the sacred
-invulnerability of the Machine God’s augmetic blessings
-is evident to all.
+Atravez de oraciones cantadas en binario por Tecno-Sacerdotes, micromecanismos son activados y reservas
+de poder son encendidas. La carne podra ser debil, pero la sagrada invulnerabilidad de las bendiciones
+del dios Maquina es evidente para todos.
 ]]></string>
 
     <string name="incantation_of_the_iron_soul_description"><![CDATA[
-    Whenever an attack dice inflicts damage of 3 or
-more on a friendly **BATTLECLADE** operative,
-roll one D6: on a 5+, subtract 1 from that
-inflicted damage.
+Siempre que un ataque inflinja daño de 3 o mas a un aliado **BATTLECLADE**, lanza un D6:
+al 5+, substrae 1 de ese daño inflingido.
 ]]></string>
 
     <string name="prioritised_acquisition_lore"><![CDATA[
-    Acquisition is a holy task to a Technoarcheologist,
-and their zealous fanaticism bleeds into their binharic
-instructions. Faced with the sacrilege of thieves,
-aggression protocols are initiated and biochemical
-stimulants are released in their thralls, endowing all with
-a measure of their master’s repugnance.
+La adquisicion es una tarea sagrada para un Tecno Arqueolo, y su fanatismo sangra en sus instrucciones
+binarias. Al momento de encarar ladrones herejes, los protocolos de agresion son iniciados y
+estimulantes son liberados en la mente de sus esclavos, dotandolos a todos con el mismo nivel
+de odio de sus maestros.
 ]]></string>
 
     <string name="prioritised_acquisition_description"><![CDATA[
-    Select one objective marker or one of your mission markers.\n
-• Whenever determining control of that
-marker, treat the total APL stat of friendly
-**BATTLECLADE** operatives that contest it as 1
-higher if at least one friendly **BATTLECLADE**
-operative contests that marker. Note this isnt
-a change to the APL stat, so any changes are
-cumulative with this.\n
-• Whenever a friendly **BATTLECLADE** operative
-is within 3\" of that marker, add 1 to the Atk stat
-of its melee weapons (to a maximum of 4).
+Seleciona un Marcador de objetivo (CritOp) o uno de tus marcadores de mision (TacOp).\n
+• Siempre que determines el control de un marcador, trata el total de APL de aliados **BATTLECLADE**
+como si tuvieran 1 mas si al menos un aliado **BATTLECLADE** esta contesteando ese marcador. Esto no
+es un cambio directo a la estadistica de APl, asi que cualquier cambio es acumulativo.\n
+• Siempre que un Operativo **BATTLECLADE** este a 3\" de ese marcador, añade 1 a la estadistica de ATK
+de las armas de Melee (hasta un maximo de 4).
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="system_exorcism_lore"><![CDATA[
-    By redirecting sensory pathways, purging contaminants
-or unleashing feral machine spirits to consume tainted
-logic loops, the elite operatives of a Battleclade can
-exorcise many dangerous afflictions.
+Redirigiendo acciones sensoriales, purgando informacion o liberando el iracundo espiritu maquina
+para consumir bucles de logica manchados, los Operativos elites del clado de batalla pueden
+exorcizar muchas aflicciones peligrosas.
 ]]></string>
 
     <string name="system_exorcism_description"><![CDATA[
-    Use this firefight ploy when you would activate a
-friendly **BATTLECLADE** operative. Remove one
-rules effect or stat change your opponent has
-applied to it (e.g. Poison token, -1APL, cannot be
-activated or perform actions, etc.), then activate
-it. This ploy cannot allow it to regain lost wounds,
-ignore the effects of being injured or remove
-mission pack rules.
+Usa esta Firefight ploy cuando vayas a activar a un Operativo **BATTLECLADE**. remueve el efecto
+de una regla o un cambio a las estadisticas de este Operativo impuesto por tu oponente (Ej Poison,
+-1APL, reglas que impiden activar este Operativo), despues activa este Operativo. Esta ploy no permite
+recuperar heridas o ignorar efectos de estar herido.
 ]]></string>
 
     <string name="remote_access_lore"><![CDATA[
-    Projecting a canticle of hexamathic authority, the most
-worthy Tech-Priests can commune with intransigent
-machine spirits even without physical contact.
+Al projectar canticos hexamanticos de autoridad, los Tecno-Sacerdortes mas dignos pueden comunicarse
+con espiritus maquinas desconocidos sin necesidad de contacto fisico.
 ]]></string>
 
     <string name="remote_access_description"><![CDATA[
-    Use this firefight ploy during a friendly
-**BATTLECLADE TECH-PRIEST** operatives
-activation. Once during that activation, you can
-use one of the following rules:\n
-
-• That operative doesnt require a marker to be
-within its control range to perform a mission
-action that usually requires this (this takes
-precedence over that actions conditions).
-Instead, the marker must be within 4\" of it
-and no enemy operatives can contest that
-marker. However, you can ignore enemy
-operatives within control range of other
-friendly **BATTLECLADE** operatives when
-determining this.\n
-• That operative doesnt require a hatchways
-access point to be within its control range to
-perform an **Operate Hatch** action. Instead, that
-access point must be within 4\" of it.
+Usa esta Firefight ploy durante la activacion de un **BATTLECLADE TECH-PRIEST** aliado.
+Una vez durante esa activacion, puedes usar estas reglas:\n
+• Ese Operativo no requiere que un marcador este dentro de su rango de control para hacer
+una accion de mision (esto toma precedencia sobre las condiciones regulares). En su lugar, el
+marcador debe estar a 4\" de el Operativo, y ningun Operativo enemigo puede contestear ese marcador.
+Sin embargo, puedes ignorar enemigos Operativos dentro del rango de control de otros Operativos
+**BATTLECLADE** cuando determines esto.\n
+• Ese Operativo no requiere que un Hatchways access este dentro de su rango de control para hacer
+la accion **Operate Hatch**. en su lugar, ese acceso debe estar a 4\".
 ]]></string>
 
     <string name="autoferric_supplication_lore"><![CDATA[
-    In extremis, the Omnissiahs faithful channel their zeal
-into shielding energy projectors and the refractive
-realignment of their bionic body parts.
+En determinados extremos, la fe hacia el Omnnisiah se canaliza en escudos de energia desde las partes
+bionicas de los Tecno-Sacerdotes.
 ]]></string>
 
     <string name="autoferric_supplication_description"><![CDATA[
-    Use this firefight ploy when an operative is
-shooting a friendly **BATTLECLADE TECH-PRIEST**
-operative, at the start of the Roll Attack Dice step.
-Until the end of the sequence, ignore the Piercing
-weapon rule.
+Usa esta Firefight ploy cuando un Operativo este disparando a un **BATTLECLADE TECH-PRIEST** aliado,
+al inicio de la fase de lanzar dados de ataque, hasta el final de la secuencia, ignora la regla Piercing.
 ]]></string>
 
     <string name="servile_surrogacy_lore"><![CDATA[
-    Deeply woven into each thralls cybernetic programming
-is the instinct to bodily shield their masters should they
-be threatened.
+Profundamente tejido dentro de los cerebros ciberneticos de sus esclavos, hay instintos de cubrir
+con su cuerpo a sus maestros al momento de ser amenazados. MR PRESIDENT GET DOWN!!!
 ]]></string>
 
     <string name="servile_surrogacy_description"><![CDATA[
-    Use this firefight ploy when a friendly
-**BATTLECLADE TECH-PRIEST** operative is
-selected as the valid target of a Shoot action or
-to fight against during the Fight action. Select
-one friendly **BATTLECLADE SERVITOR** operative
-visible to and within 3" of that first friendly
-operative to become the valid target or to be
-fought against (as appropriate) instead (even if
-it wouldn’t normally be valid for this). If its the
-Fight action, treat that SERVITOR operative as
-being within the fighting operatives control range
-for the duration of that action. If its the Shoot
-action, that SERVITOR operative is only in cover
-or obscured if the original target was.\n
+Usa esta Firefight ploy cuando un Operativo **BATTLECLADE TECH-PRIEST** aliado sea seleccionado
+como objetivo valido de una accion de **Disparo** o como objetivo de pelea durante una accion de
+**Combatir**. Selecciona un aliado **BATTLECLADE SERVITOR** aliado a 3\" de ese primer Operativo para ser
+un objetivo valido o para ser objetivo de un combate (incluso si normalmente no seria un objetivo valido para
+esto). If es una accion de **Combate** trata ese **SERVITOR** como estando en rango de control durante esa accion.
+Si es una ccion de **Disparo**, el Operativo **SERVITOR** esta Obscure o en Cover si el objetivo
+principal lo era.\n
 
-This ploy has no effect if its the Shoot action
-and the ranged weapon has the Blast or Torrent
-weapon rule.
+Esta ploy no tiene efecto si la accion de **Disparo** tiene la regla Blast o Torrent.
 ]]></string>
 
 </resources>

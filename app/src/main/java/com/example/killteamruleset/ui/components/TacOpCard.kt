@@ -42,7 +42,7 @@ fun TacOpCard(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text(
-                    text = stringResource(tacOp.title).uppercase(),
+                    text = tacOp.title.uppercase(),
                     modifier = Modifier.padding(vertical = 10.dp),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.Bold,

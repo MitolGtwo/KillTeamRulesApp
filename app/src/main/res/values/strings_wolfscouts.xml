@@ -44,7 +44,7 @@ Note that friendly operatives have these rules if you select this
 operative for the battle (even if it is incapacitated later).
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="healing_balms_usage"><![CDATA[
 
         1AP
 
@@ -57,236 +57,390 @@ This operative cannot perform this action while within control
 range of an enemy operative.
     ]]></string>
 
-    <string name="healing_balms_usage"><![CDATA[
+    <string name="storm_eilede_execution_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="storm_eilede_execution_description"><![CDATA[
+ Whenever this operative is within your **STORM:**\n
+ • It can perform the **Guard** action regardless of the killzone (see close quarters rules, Kill Team Core Book).\n
+• It can perform the **Guard** action while it has a **Conceal** order, but if it does, it cannot perform more than one **Shoot** action for the
+rest of the turning point (i.e. it cannot Shoot both during the interruption and during counteract).
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="hunter_sense_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="hunter_sense_description"><![CDATA[
+Select one of the following rules for all profiles of this
+operatives instigator bolt carbine to have until the start of its
+next activation:\n
+• Severe.\n
+• Saturate, and whenever this operative is shooting with that
+weapon, enemy operatives cannot be obscured.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="tempest_fury_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="tempest_fury_description"><![CDATA[
+Whenever this operative is within your **STORM:**\n
+• All profiles of its plasma gun have the Punishing weapon rule.\n
+• Its plasma gun (supercharge) does not have the Hot weapon rule.
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="fierce_temperament_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="fierce_temperament_description"><![CDATA[
+Whenever this operative is within your
+**STORM**, its weapons have the Severe weapon rule.
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="cast_the_runes_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
+    <string name="cast_the_runes_description"><![CDATA[
+After selecting this operative, before the battle, roll three D6 and put them to one side. For each
+result of 1-4, you can use the Command Re-roll firefight ploy for OCP once during the turning point
+that matches the result. For each result of 5-6, you gain 1CP. For example, if you roll 2, 2 and 5,
+you gain 1CP and twice during the second turning point you can use Command Re-roll for 0CP.
+    ]]></string>
+
+    <string name="call_the_storm_usage"><![CDATA[
+
+        1AP
 
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="call_the_storm_description"><![CDATA[
+**PSYCHIC**. Remove your Storm marker from the killzone (if
+any), then place it in the killzone.\n
+PSYCHIC. Alternatively, instead of resolving the above
+effect, select one friendly **WOLF SCOUT** operative.
+Until the start of this operatives next activation, until
+it is incapacitated or until it performs this action again
+(whichever comes first), whenever that friendly operative
+is within your STORM and more than 3\" from the active
+operative, it is obscured.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="wolf_haywire_mine_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="wolf_haywire_mine_description"><![CDATA[
+This operative is carrying your Haywire Mine marker. It can perform the **Pick Up Marker** action on
+that marker, but that marker cannot be placed within another operatives control range (if this
+operative is incapacitated while carrying that marker and that marker cannot be placed, it is removed
+with this operative).
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="wolf_proximity_mine_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="wolf_proximity_mine_description"><![CDATA[
+The first time your Haywire Mine marker is
+within another operative’s control range, remove that marker,
+subtract 1 from that operatives APL stat until the end of its
+next activation, and inflict 2D3+3 damage on it (or D3+6 if that
+marker is within 6" horizontally of your Storm marker); if it is not
+incapacitated, end its action (if any), even if that actions effects
+are not fulfilled. If it cannot be placed, move it the minimum
+amount to do so. Note that this operative is ignored for these
+effects (i.e. it cannot set it off or take damage from that marker).
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="instinctive_predato_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="instinctive_predato_description"><![CDATA[
+This operative cannot perform any actions
+other than **Charge, Dash, Fall Back, Fight, Guard** and
+**Reposition**. It cannot use any weapons that are not on its
+datacard. This operative can perform the **Charge** action while it
+has a Conceal order.
     ]]></string>
 
-    <string name="_usage"><![CDATA[
+    <string name="pounce_usage"><![CDATA[
 
         Passive
 
     ]]></string>
 
-    <string name="_description"><![CDATA[
-
-    ]]></string>
-
-    <string name="_usage"><![CDATA[
-
-        Passive
-
-    ]]></string>
-
-    <string name="_description"><![CDATA[
-
-    ]]></string>
-
-    <string name="_usage"><![CDATA[
-
-        Passive
-
-    ]]></string>
-
-    <string name="_description"><![CDATA[
-
+    <string name="pounce_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT**. If this
+operatives APL stat is 2 or more, this operative can perform a
+free **Charge, Fall Back** or **Reposition** action. If it does, until
+the end of its next activation, subtract 1 from its APL stat and it
+cannot perform any of the aforementioned actions.
     ]]></string>
 
     <!--Faction Rules-->
 
-    <string name="_lore"><![CDATA[
-
+    <string name="elemental_storm_lore"><![CDATA[
+It is said by some battle-brothers that their Chapters
+Wolf Scouts take the storm with them. In many cases,
+these tempestuous upheavals truly are supernatural,
+called into being by accompanying Rune Priest Skjalds.
+At other times, Wolf Scouts skilfully time their hunts to
+coincide with local atmospheric phenomena or instigate
+them with arcane technologies. Wolf Scouts can operate
+for extended periods hidden by such storms; using the
+cover to mask their movements and confuse the senses
+of their prey, their enemies feel they are fighting the
+very elements themselves.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="elemental_storm_description"><![CDATA[
+**STRATEGIC GAMBIT**. Remove your Storm marker
+from the killzone (if any), then place it in the
+killzone. Whenever an operative is within 6\"
+horizontally of your Storm marker, it is within
+your **STORM**.\n
+\n
+Each friendly **WOLF SCOUT** operative can
+perform the **Charge** action while it has a Conceal
+order if it starts and/or ends that action within
+your **STORM**.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="hunting_astartes_lore"><![CDATA[
+Wolf Scouts are experienced Space Marines who
+are utterly lethal on the hunt. These genetically
+modified superhumans are merciless warriors capable
+of exploiting strange climatic events to conceal
+their approach.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="hunting_astartes_description"><![CDATA[
+During each friendly **WOLF SCOUT** operatives
+activation, it can perform either two **Shoot** actions
+or two **Fight** actions. If it is two **Shoot** actions:\n
+\n
+• 1 additional AP must be spent for the second action if both actions are using a plasma gun or
+plasma pistol.\n
+• You cannot select two PSYCHIC ranged weapons.\n
+\n
+Each friendly **WOLF SCOUT** operative can
+counteract regardless of its order. Whenever
+it does so within your **STORM**, you can change
+its order first, or change its order instead of
+performing an action (for the latter, still treat it as
+having counteracted this turning point).
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
-]]></string>
-
-    <string name="_description"><![CDATA[
-
-]]></string>
 
 
     <!--Equipment-->
 
-    <string name="_lore"><![CDATA[
-
+    <string name="frost_weapons_lore"><![CDATA[
+These blisteringly cold weapons are crafted by a master
+Iron Priest and boast lethal edges. Some incorporate
+ice kraken fangs while others are shards of energised
+diamond, appearing as if forged from purest ice.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="frost_weapons_description"><![CDATA[
+Friendly **WOLF SCOUT** operatives combat
+blades have the Lethal 5+ weapon rule, and one
+friendly **WOLF SCOUT PACK LEADER** operatives
+power weapon has the Lethal 4+ weapon rule
+(if any).
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="runic_charms_lore"><![CDATA[
+Many pieces of a warriors wargear are artfully inscribed
+with runes, but only the enigmatic Rune Priests know
+the secrets of etching these more potent charms, which
+the Space Wolves believe can ward their very souls.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="runic_charms_description"><![CDATA[
+Once per turning point, when an operative is
+shooting a friendly **WOLF SCOUT** operative
+(excluding **FENRISIAN WOLF**), at the start of the
+Roll Defence Dice step, you can use this rule. If
+you do, worsen the x of the Piercing weapon rule
+by 1 (if any) until the end of that sequence. Note
+that Piercing 1 would therefore be ignored.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="wolfteeth_necklaces_lore"><![CDATA[
+The right to wear one of these fetishes may be
+earned in the contests of might held in the Chapters
+fortress monastery: the Fang. They recognise the
+bearers martial skill, and their capacity to draw upon
+great reserves of genetically augmented strength
+and perseverance.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="wolfteeth_necklaces_description"><![CDATA[
+Once per turning point, when a friendly **WOLF
+SCOUT** operative (excluding **FENRISIAN WOLF**)
+is shooting, fighting or retaliating, if you roll two or
+more fails, you can discard one of them to retain
+another as a normal success instead.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="talismanic_trophies_lore"><![CDATA[
+Thick pelts, skulls and tails adorn these sons of Russ.
+These trophies – taken from huge lupine beasts they
+have tracked and killed on Fenris – are seen as potent
+tokens of luck and protection against malign attacks.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="talismanic_trophies_description"><![CDATA[
+Whenever a friendly **WOLF SCOUT** operative
+(excluding **FENRISIAN WOLF**) is fighting or
+retaliating, in the Resolve Attack Dice step, you
+can subtract 1 from the damage inflicted on it
+from one success.
 ]]></string>
 
 
 
     <!--Ploys-->
     <!--Strategy ploys-->
-    <string name="_lore"><![CDATA[
-
+    <string name="cloaked_storm_lore"><![CDATA[
+Wolf Scouts are expert in using the uncanny tempests
+around them to their advantage, ensuring their
+desperate prey rarely get a clean shot.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="cloaked_storm_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**WOLF SCOUT** operative that is within your
+**STORM**, you can re-roll one of your defence dice.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="tempestuous_wrath_lore"><![CDATA[
+When roused, the elemental fury of Wolf Scouts is
+as ferocious as that of Fenris winter storms or the
+crackling lightning of its Season of Fire.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="tempestuous_wrath_description"><![CDATA[
+Whenever a friendly **WOLF SCOUT** operative is
+fighting or retaliating, if it is within your **STORM**
+or was within your **STORM** at the start of the
+activation, its melee weapons have the Balanced
+weapon rule.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="storm_bite_lore"><![CDATA[
+Subjected to numbing temperatures, flying debris or the
+empyric lash of a Rune Priest Skjald, the Wolf Scouts
+enemies struggle to focus their wrath and skill.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="storm_bite_description"><![CDATA[
+Whenever a friendly **WOLF SCOUT** operative is
+fighting against an enemy operative that is within
+your **STORM**, subtract 1 from the Atk stat of that
+enemy operatives melee weapons (to a minimum
+of 3).
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="savage_fighters_lore"><![CDATA[
+Once their prey have been cornered, the Wolf Scouts
+savagely sustain the pressure, ensuring no opportunity
+is missed to weaken their quarry.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="savage_fighters_description"><![CDATA[
+Whenever a friendly **WOLF SCOUT** operative
+finishes retaliating, if it was not incapacitated, you
+can inflict D3+1 damage on the enemy operative
+in that sequence.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
-    <string name="_lore"><![CDATA[
-
+    <string name="acute_senses_lore"><![CDATA[
+The heightened acuity of the sons of Russ coupled with
+the keen hunters instincts of an experienced Wolf Scout
+enable these operatives to pick out their prey no matter
+where they hide.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="acute_senses_description"><![CDATA[
+Use this firefight ploy when a friendly **WOLF
+SCOUT** operative performs the **Shoot** action
+and you are selecting a valid target. Until the end
+of that action, that friendly operatives ranged
+weapons have the Range 6\" and Seek Light
+weapon rules and enemy operatives cannot
+be obscured.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="wolf_counterattack_lore"><![CDATA[
+The greatest hunters know never to waste the chance
+to make an unexpected lunge, their prey at its most
+vulnerable just as they strike.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="wolf_counterattack_description"><![CDATA[
+Use this firefight ploy at the end of an enemy
+operatives activation, or after an enemy
+operative performs the **Fight** action. One friendly
+**WOLF SCOUT** operative can immediately
+perform a free **Fight** action, but you cannot select
+any other enemy operative to fight against during
+that action.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="touched_by_lokyar_lore"><![CDATA[
+Independence of spirit is exceptionally strong amongst
+Wolf Scouts. Enemies who believe them vulnerably
+isolated soon regret tackling these vicious survivalists
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="touched_by_lokyar_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice
+for a friendly **WOLF SCOUT** operative (excluding
+**FENRISIAN WOLF**), if it is fighting more than 5\"
+from other friendly operatives. You can re-roll any
+of your attack dice.
 ]]></string>
 
-    <string name="_lore"><![CDATA[
-
+    <string name="wolf_trans_lore"><![CDATA[
+The genetically modified physiology of the Space
+Wolves is capable of resisting wounds that would kill a
+lesser being.
 ]]></string>
 
-    <string name="_description"><![CDATA[
-
+    <string name="wolf_trans_description"><![CDATA[
+Use this firefight ploy when an operative is
+shooting a friendly **WOLF SCOUT** operative
+(excluding **FENRISIAN WOLF**), in the Roll Defence
+Dice step. You can retain one of your normal
+successes as a critical success instead.
 ]]></string>
 
 </resources>

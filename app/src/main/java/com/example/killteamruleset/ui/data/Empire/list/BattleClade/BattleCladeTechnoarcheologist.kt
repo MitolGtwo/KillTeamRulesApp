@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val BattleCladeTechnoarcheologist: Operative
     get() = Operative(
         name = "Battleclade Technoarcheologist",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.technoarqueologist,
         stats = OperativeStats(
             apl = 3,
             move = "6\"",

@@ -12,7 +12,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val BattleCladeTechnomedicServitor = Operative(
     name = "Battleclade Technomedic Servitor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.tecno_medic,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

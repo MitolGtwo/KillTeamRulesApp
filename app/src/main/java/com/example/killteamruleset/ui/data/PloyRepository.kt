@@ -1095,63 +1095,63 @@ object PloyRepository {
         "wolf_scout" to listOf(
             // ── Wolf STRATEGY ──
             Ploy(
-                id = "sudden_offensive",
-                name ="SUDDEN OFFENSIVE",
+                id = "cloaked_storm",
+                name ="CLOAKED BY THE STORM",
                 type = PloyType.STRATEGY,
-                lore = R.string.sudden_offensive_lore,
-                description = R.string.sudden_offensive_description
+                lore = R.string.cloaked_storm_lore,
+                description = R.string.cloaked_storm_description
             ),
             Ploy(
-                id = "maintain_momentum",
-                name = "MAINTAIN MOMENTUM",
+                id = "tempestuous_wrath",
+                name = "TEMPESTUOUS WRATH",
                 type = PloyType.STRATEGY,
-                lore = R.string.maintain_momentum_lore,
-                description = R.string.maintain_momentum_description
+                lore = R.string.tempestuous_wrath_lore,
+                description = R.string.tempestuous_wrath_description
             ),
             Ploy(
-                id = "eye_above",
-                name = "EYE ABOVE",
+                id = "storm_bite",
+                name = "STORM’S BITE",
                 type = PloyType.STRATEGY,
-                lore = R.string.eye_above_lore,
-                description = R.string.eye_above_description
+                lore = R.string.storm_bite_lore,
+                description = R.string.storm_bite_description
             ),
             Ploy(
-                id = "drop_secure",
-                name = "DROP AND SECURE",
+                id = "savage_fighters",
+                name = "SAVAGE FIGHTERS",
                 type = PloyType.STRATEGY,
-                lore = R.string.drop_secure_lore,
-                description = R.string.drop_secure_description
+                lore = R.string.savage_fighters_lore,
+                description = R.string.savage_fighters_description
             ),
 
 
             // ── Wolf IREFIGHT ──
             Ploy(
-                id = "hot_drop",
-                name = "HOT DROP",
+                id = "acute_senses",
+                name = "ACUTE SENSES",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.hot_drop_lore,
-                description = R.string.hot_drop_description
+                lore = R.string.acute_senses_lore,
+                description = R.string.acute_senses_description
             ),
             Ploy(
-                id = "adjust_coordinates",
-                name = "ADJUST COORDINATES",
+                id = "wolf_counterattack",
+                name = "COUNTERATTACK",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.adjust_coordinates_lore,
-                description = R.string.adjust_coordinates_description
+                lore = R.string.wolf_counterattack_lore,
+                description = R.string.wolf_counterattack_description
             ),
             Ploy(
-                id = "tempestus_exemplars",
-                name = "TEMPESTUS EXEMPLARS",
+                id = "touched_by_lokyar",
+                name = "TOUCHED BY LOKYAR",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.tempestus_exemplars_lore,
-                description = R.string.tempestus_exemplars_description
+                lore = R.string.touched_by_lokyar_lore,
+                description = R.string.touched_by_lokyar_description
             ),
             Ploy(
-                id = "progena",
-                name = "PROGENA",
+                id = "wolf_trans",
+                name = "TRANSHUMAN PHYSIOLOGY",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.progena_lore,
-                description = R.string.progena_description
+                lore = R.string.wolf_trans_lore,
+                description = R.string.wolf_trans_description
             )
         ),
 

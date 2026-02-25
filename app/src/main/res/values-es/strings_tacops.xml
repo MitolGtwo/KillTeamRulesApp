@@ -2,21 +2,12 @@
 <resources>
 
     <!--Tacops-->
-    <string name="recon_01_title"><![CDATA[
-
-    PERSEGUIR MOVIMIENTO ENEMIGO
-
-]]></string>
     <string name="recon_01_reveal"><![CDATA[
 
     La primera vez que un Operativo aliado realiza la acción de Scout.
 
 ]]></string>
-    <string name="recon_01_atitle"><![CDATA[
 
-    PERSEGUIR
-
-]]></string>
     <string name="recon_01_usage"><![CDATA[
 
     1 AP / Firefight Phase
@@ -41,19 +32,10 @@
 
 ]]></string>
 
-    <string name="recon_02_title"><![CDATA[
 
-    RECUPERAR
-
-]]></string>
     <string name="recon_02_reveal"><![CDATA[
 
     La primera vez que ganas VP por uso de esta TacOp.
-
-]]></string>
-    <string name="recon_02_atitle"><![CDATA[
-
-    RECUPERAR
 
 ]]></string>
     <string name="recon_02_usage"><![CDATA[
@@ -61,16 +43,15 @@
     1 APL / Firefight Phase
 
 ]]></string>
-    <string name="recon_02_description"><![CDATA[
+    <string name="recon_02_description">
+        <![CDATA[Si el Operativo activo controla un objetivo de mision, donde no se haya hecho la accion **RETRIEVE**
+por Operativos aliados, al momento de usar esa accion, este Operativo esta cargando con uno de
+tus  tokens de Recuperacion (Token de mision) y ese objetivo de vision ya no puede generar otro
+token de Recuperacion.
+Operativos aliados puede hacer la **Pick Up Marker** accion en tu token de Recuperacion.
 
-    Si el Operativo activo controla un objetivo de mision, donde no se haya hecho la accion RECUPERAR
-     por Operativos aliados, al momento de usar esa accion, este Operativo esta cargando con uno de
-    tus  tokens de Recuperacion (Token de mision) y ese objetivo de vision ya no puede generar otro
-    token de Recuperacion.
-    Operativos aliados puede hacer la Pick Up Marker accion en tu token de Recuperacion.
-
-    Un Operativo no puede realizar esta accion durante el primer turno, o mientras esta en rango
-     de control de un Operativo enemigo, o si ya esta cargando un token de recuperacion.
+\n\nUn Operativo no puede realizar esta accion durante el primer turno, o mientras esta en rango
+de control de un Operativo enemigo, o si ya esta cargando un token de recuperacion.
 
 ]]></string>
     <string name="recon_02_victory"><![CDATA[
@@ -82,14 +63,9 @@
 
 ]]></string>
 
-    <string name="recon_03_title"><![CDATA[
-
-    Flancos
-
-]]></string>
     <string name="recon_03_reveal"><![CDATA[
 
-    Como GAMBITO ESTRATEGICO.
+    Como **STRATEGIC GAMBIT**.
 
 ]]></string>
     <string name="recon_03_additional"><![CDATA[
@@ -118,34 +94,24 @@
 
 ]]></string>
 
-    <string name="security_01_title"><![CDATA[
-
-    PLANTAR BANDERA
-
-]]></string>
     <string name="security_01_reveal"><![CDATA[
 
-    Cuando realizes la accion PLANTAR BANDERA.
+    Cuando realizes la accion PLANT BANNER.
 
 ]]></string>
-    <string name="security_01_atitle"><![CDATA[
 
-    PLANTAR BANDERA
-
-]]></string>
     <string name="security_01_usage"><![CDATA[
 
     1 APL / Firefight Phase
 
 ]]></string>
-    <string name="security_01_description"><![CDATA[
+    <string name="security_01_description"><![CDATA[Pon tu marcador de bandera dentro del rango de
+    control del Operativo que realice esta accion,
+    el marcador tiene que estar completamente dentro del territorio enemigo y a mas de 5\" de bordes
+    neutrales del mapa. Todos los Operativos en el juego puede hacer la accion **Pick Up** en ese marcador.
 
-    Pon tu marcador de bandera dentro del rango de control del Operativo que realice esta accion,
-    el marcador tiene que estar completamente dentro del territorio enemigo y a mas de 5" de bordes
-    neutrales del mapa. Todos los Operativos en el juego puede hacer la accion Pick Up en ese marcador.
-
-    Un Operativo no puede realizar esta accion durante el primer turno, si el Operativo esta en
-    rango de control de un Operativo enemigo, o si un Operativo aliado ya realizo la accion de PLANTAR BANDERA.
+    \n\nUn Operativo no puede realizar esta accion durante el primer turno, si el Operativo esta en
+    rango de control de un Operativo enemigo, o si un Operativo aliado ya realizo la accion de PLANT BANNER.
 
 ]]></string>
     <string name="security_01_victory"><![CDATA[
@@ -184,11 +150,7 @@
 
 ]]></string>
 
-    <string name="security_03_title"><![CDATA[
 
-    MENSAJERO
-
-]]></string>
     <string name="security_03_reveal"><![CDATA[
 
     La primera vez que seleccionas a un Mensajero.
@@ -210,20 +172,11 @@
 ]]></string>
 
 
-    <string name="seek_and_destroy_01_title"><![CDATA[
 
-    ARRAZAR Y LIMPIAR
-
-]]></string>
     <string name="seek_and_destroy_01_reveal"><![CDATA[
 
     La primera vez que un Operativo enemigo es incapacitado mientras dispute un objetivo de mision,
-     o la primera vez que un Operativo aliado realiza la accion de LIMPIAR (lo que suceda primero).
-
-]]></string>
-    <string name="seek_and_destroy_01_atitle"><![CDATA[
-
-    LIMPIAR
+     o la primera vez que un Operativo aliado realiza la accion de CLEAR (lo que suceda primero).
 
 ]]></string>
 
@@ -232,53 +185,37 @@
     1 APL / Firefight Phase
 
 ]]></string>
-    <string name="seek_and_destroy_01_description"><![CDATA[
+    <string name="seek_and_destroy_01_description"><![CDATA[Un objetivo de mision que el Operativo activo controle, es CLEAR por el resto del turno.
+    Un Operativo
 
-    Un objetivo de mision que el Operativo activo controle, es Limpiado por el resto del turno.
-    Un Operativo no puede realizar esta accion mientras esta en rango de control de un Operativo
+    \n\nNo puede realizar esta accion mientras esta en rango de control de un Operativo
     enemigo.
-
 ]]></string>
     <string name="seek_and_destroy_01_additional"><![CDATA[
-
     Cuando un Operativo enemigo esta disputando un objetivo mision es incapacitado, ese objetivo
-    de mision gana uno de tus marcadores de Arrazar (si no tiene uno) hasta la Ready step del proximo
+    de mision gana uno de tus marcadores de SWEEP (si no tiene uno) hasta la Ready step del proximo
     turno.
-
 ]]></string>
     <string name="seek_and_destroy_01_victory"><![CDATA[
 
     Al final de cada turno despues del primero, si un Operativo aliado controla cualquier objetivo de
-    mision, que tenga uno de tus marcadores de Arrazar, ganas un 1VP. Si esto es verdad, y ese objetivo
-    de mision fue Limpiado (Accion de TacOp), ganas 2VP en su lugar.
+    mision, que tenga uno de tus marcadores de SWEEP, ganas un 1VP. Si esto es verdad, y ese objetivo
+    de mision fue CLEAR (Accion de TacOp), ganas 2VP en su lugar.\n
     No puedes ganar mas de 2VP por esta TacOp por turno.
-
 ]]></string>
 
-    <string name="seek_and_destroy_02_title"><![CDATA[
-
-    RUTA
-
-]]></string>
     <string name="seek_and_destroy_02_reveal"><![CDATA[
 
     La primera vez que ganas VP por esta TacOp
 
 ]]></string>
     <string name="seek_and_destroy_02_victory"><![CDATA[
-
     Cuando un Operativo aliado incapacita a un Operativo enemigo, si ese Operativo aliado esta a
-    6" de la zona de despliegue de tu enemigo, ganas 1VP; si esto es verdad, y el Operativo enemigo
-    tiene una cantidad total de 12 Heridas o mas, ganas 2VP en su lugar.
+    6\" de la zona de despliegue de tu enemigo, ganas 1VP; si esto es verdad, y el Operativo enemigo
+    tiene una cantidad total de 12 Heridas o mas, ganas 2VP en su lugar.\n
     No puedes ganar mas de 2VP por esta TacOp por turno.
-
 ]]></string>
 
-    <string name="seek_and_destroy_03_title"><![CDATA[
-
-    DOMINACION
-
-]]></string>
     <string name="seek_and_destroy_03_reveal"><![CDATA[
 
     La primera vez que un Operativo enemigo es incapacitado por un Operativo aliado.
@@ -291,65 +228,49 @@
 
 ]]></string>
     <string name="seek_and_destroy_03_victory"><![CDATA[
-
     Al final del 3er y 4to turno, puedes remover tokens de Dominacion de Operativos aliados que
     no esten incapacitados. Por cada uno que remuevas, ganas 1VP.
+    \n
     No puedes ganar mas de 3VP por esta TacOp por turno.
-
 ]]></string>
 
-    <string name="infiltration_01_title"><![CDATA[
 
-    LOCALIZAR ENEMIGO
-
-]]></string>
     <string name="infiltration_01_reveal"><![CDATA[
 
     La primera vez que ganas VP con esta TacOp.
 
 ]]></string>
     <string name="infiltration_01_additional"><![CDATA[
-
-    Un Operativo enemigo es Localizado si es un objetivo valido para un Operativo aliado a 6" de distancia.
-    Ese Operativo aliado tiene que tener una orden de Conceal, no puede ser un objetivo valido para
-    el Operativo enemigo que esta intentando Localizar, no puede realizar esto mientras este en rango
-    de control de un Operativo enemigo.
-
+    Un Operativo enemigo es **TRACKED** si es un objetivo valido para un Operativo aliado a 6\" de distancia.
+    Ese Operativo aliado tiene que tener una orden de **Conceal**, no puede ser un objetivo valido para
+    el Operativo enemigo que esta intentando Localizar.
+   \n\nNo puede realizar esto mientras este en rango de control de un Operativo enemigo.
 ]]></string>
     <string name="infiltration_01_victory"><![CDATA[
-
-    Al final de cada turno despues del primero.
-    *Si un Operativo enemigo esta siendo Localizado, ganas 1VP, o 2VP si este es el 4to turno.
-    *Si dos o mas Operativos enemigos estan siendo Localizados, ganas 2VP.
+    Al final de cada turno despues del primero.\n
+    *Si un Operativo enemigo esta siendo Localizado, ganas 1VP, o 2VP si este es el 4to turno.\n
+    *Si dos o mas Operativos enemigos estan siendo Localizados, ganas 2VP.\n
     No puedes ganar mas de 2VP usando esta TacOp por turno.
-
 ]]></string>
 
-    <string name="infiltration_02_title"><![CDATA[
 
-    ROBAR INTELIGENCIA
-
-]]></string>
     <string name="infiltration_02_reveal"><![CDATA[
 
     La primera vez que un Operativo enemigo es incapacitado.
 
 ]]></string>
     <string name="infiltration_02_additional"><![CDATA[
-
     Cuando un Operativo enemigo es incapacitado, antes de que sea removido del campo de batalla,
-    pon uno de tus marcadores de Inteligencia dentro del rango de control de ese Operativo enemigo.
-    Operativos aliados pueden realizar la accion de Pick up marker en ese marcador de Inteligencia,
+    pon uno de tus marcadores de Intelligence dentro del rango de control de ese Operativo enemigo.
+    Operativos aliados pueden realizar la accion de **Pick up marker** en ese marcador de Intelligence,
     por el proposito de esta mision, un Operativo puede cargar 2 marcadores de inteligencia, o 1 marcador
     de inteligencia y cualquier otro marcador al mismo tiempo.
 
 ]]></string>
     <string name="infiltration_02_victory"><![CDATA[
-
     Al final de cada turno despues del primero, si cualquier Operativo esta cargando un cualquier cantidad
     de marcadores de inteligencia, ganas 1VP. Al final de la batalla, por cada marcador de
     Inteligencia que un Operativo aliado este cargando, ganas 1VP.
-
 ]]></string>
 
     <string name="infiltration_03_title"><![CDATA[
@@ -359,7 +280,7 @@
 ]]></string>
     <string name="infiltration_03_reveal"><![CDATA[
 
-    La primera vez que un Operativo aliado realiza la accion PLANTAR DISPOSITIVO.
+    La primera vez que un Operativo aliado realiza la accion **PLANT DEVICE**.
 
 ]]></string>
     <string name="infiltration_03_atitle"><![CDATA[
@@ -373,13 +294,17 @@
 
 ]]></string>
     <string name="infiltration_03_description"><![CDATA[
+Un objetivo de mision controlado por el Operativo activo gana uno de tus marcadores de DEVICE.
 
-    Un objetivo de mision controlado por el Operativo activo gana uno de tus marcadores de Dispositivo.
-
-    Un Operativo no puede realizar esta accion durante el primer turno, mientras este en rango de control
-    de un Operativo enemigo, o si ese objetivo de mision ya tiene un marcador de Dispositivo.
+\n\nUn Operativo no puede realizar esta accion durante el primer turno, mientras este en rango de control
+de un Operativo enemigo, o si ese objetivo de mision ya tiene un marcador de DEVICE.
 
 ]]></string>
+
+    <string name="infiltration_03_additional"><![CDATA[
+NONE
+]]></string>
+
     <string name="infiltration_03_victory"><![CDATA[
 
     Al final de cada turno despues del primero:

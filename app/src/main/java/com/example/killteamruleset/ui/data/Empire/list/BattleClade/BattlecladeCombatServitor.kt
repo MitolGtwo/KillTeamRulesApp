@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val BattlecladeCombatServitor = Operative(
     name = "Battleclade Combat Servitor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.combat_servitor,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

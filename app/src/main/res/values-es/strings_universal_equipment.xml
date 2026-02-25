@@ -10,15 +10,14 @@
 ]]></string>
 
     <string name="portable_barricade_description"><![CDATA[
-
     Una barricada portatil es cobertura ligera, Protectiva y terrero Portatil,
     excepto los pies, los cuales son Insignificantes y Expuestos. Antes de la batalla,
-    puedes poner este terreno en el piso de la killzone, a mas de 2" de otros equipamientos
-    y puntos de acceso.
-
+    puedes poner este terreno en el piso de la killzone, a mas de 2\" de otros equipamientos
+    y puntos de acceso.\n
+    \n
     **Protectiva:**Mientras un Operativo este en covertura por este terreno, mejora la
-    estadistica de Save por 1 (hasta un maximo de 2+).
-
+    estadistica de Save por 1 (hasta un maximo de 2+).\n
+    \n
     **Portable:**Este terreno solo da cobertura mientras un Operativo esta conectado a este
     terreno y si el escudo esta interviniendo(ignorar los pies del terreno). Operativos
     conectados pueden realizar la siguiente accion unica durante la batalla.
@@ -38,15 +37,15 @@
 ]]></string>
 
     <string name="portable_barricade_ability_description"><![CDATA[
-
     Al igual que una accion de **Reposicion**, solo que el Operativo no puede moverse
-    mas que su estadistica de Move - 2" y no puede escalar, caer, saltar, o usar cualquier
-    habilidad de teletrasportacion o vuelo(Necrones, Murderwing, Vespids, Mandrakes, etc).
-
-    Antes de que este Operativo se mueva, remueve la Barricada Portatil que este conectada.
+    mas que su estadistica de Move - 2\" y no puede escalar, caer, saltar, o usar
+    cualquier habilidad de teletrasportacion o vuelo
+    (Necrones, Murderwing, Vespids, Mandrakes, etc).\n
+    -Antes de que este Operativo se mueva, remueve la Barricada Portatil que este conectada.
     Despues de que termine el movimiento, pon la Barricada de tal forma que este conectada
-    otra vez, pero la Barricada Portatil no puede ser puesta a 2" de otro equipamiento de terreno,
+    otra vez, pero la Barricada Portatil no puede ser puesta a 2\" de otro equipamiento de terreno,
     o terreno accesible. Si esto no es posible, la Barricada Portatil no se pone otra vez.
+    \n\n
 
     Un Operativo no puede realizar esta accion mientras este en rango de control de un Operativo
     enemigo, o durante una misma activacion en donde uso las acciones **Fall back** o **Charge**.
@@ -102,24 +101,24 @@
 
 ]]></string>
 
-    <string name="smoke_grenade_ability_description"><![CDATA[
+    <string name="smoke_grenade_ability_description">
+        <![CDATA[
+Pon un marcador de granada de humo a 6\" de este Operativo, tiene que ser visible para este Operativo, o en terreno aventajado que sea visible para este Operativo.\n
 
-    Pon un marcador de granada de humo a 6" de este Operativo, tiene que ser visible para
-    este Operativo, o en terreno aventajado que sea visible para este Operativo. este marcador
-    crea un area de Humo de 1" horizontal e ilimitadamente vertical (no aplica abajo del token).
-    Mientras este Operativo este completamente dentro del area del Humo, esta **Obscured** para
-    Operativos que esten a mas de 2" de el, y viceversa. En adicion, siempre que un Operativo
-    este disparando a otro Operativo dentro del Humo, efectos Piercing 2 o similares se reducen
-    a Piercing 1, siempre y cuando el disparo se dispare a mas de 2".
+Este marcador crea un area de Humo de 1\" horizontal e ilimitadamente vertical (no aplica abajo del token).
+Mientras este Operativo este completamente dentro del area del Humo, esta **Obscured** para
+Operativos que esten a mas de 2\" de el, y viceversa\n
 
-    En la Ready Step de la siguiente fase Estrategica, lanza un D3. El marcador de humo es
-    removido despues de un numero activacion terminadas equivalentes al resultado del D3.
+En adicion, siempre que un Operativo este disparando a otro Operativo dentro del Humo, efectos
+Piercing 2 o similares se reducen a Piercing 1, siempre y cuando el disparo se dispare a mas de 2\".\n
 
+En la Ready Step de la siguiente fase Estrategica, lanza un D3. El marcador de humo es
+removido despues de un numero activacion terminadas equivalentes al resultado del D3.
 
-    Un Operativo no puede realizar esta accion si esta en rango de control de un Operativo
-    enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
-
-]]></string>
+\n\nUn Operativo no puede realizar esta accion si esta en rango de control de un Operativo
+enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
+]]>
+    </string>
 
     <string name="stun_grenade"><![CDATA[
 
@@ -151,13 +150,10 @@
 ]]></string>
 
     <string name="stun_grenade_ability_description"><![CDATA[
-
-    Selecciona un Operativo enemigo visible y a 6" de este Operativo.
-    Ese Operativo enemigo, y todo otro Operativo a 1" de el tiene que realizar una
+    Selecciona un Operativo enemigo visible y a 6\" de este Operativo.
+    Ese Operativo enemigo, y todo otro Operativo a 1\" de el tiene que realizar una
     prueba de Stun. Lanza un D6, si el resultado es 3+, substrae 1 a los APLs del Operativo
-    hasta el fin de su proxima activacion.
-
-
+    hasta el fin de su proxima activacion.\n\n
 
     Un Operativo no puede realizar esta accion si esta en rango de control de un Operativo
     enemigo, o si se alcanzo el numero maximo de usos de granadas Aturdidoras.
@@ -191,11 +187,10 @@
 ]]></string>
 
     <string name="ammo_cache_ability_description"><![CDATA[
-
-    El marcador de Municion que el Operativo activo controle es usado durante este turno.
+    El marcador de Municion que el Operativo activo controle es usado durante este turno.\n
 
     Hasta el inicio del proximo turno, cuando este Operativo haga una accion de disparo con
-    un arma de su tarjeta de personaje, puedes re-lanzar uno de tus dados de ataque.
+    un arma de su tarjeta de personaje, puedes re-lanzar uno de tus dados de ataque.\n\n
 
 
     Un Operativo no puede realizar esta accion mientras este en rango de control de un
@@ -211,12 +206,11 @@
 ]]></string>
 
     <string name="razor_wire_description"><![CDATA[
-
-    Un Alambrado es terreno Expuesto y Entorpece. Antes de la batalla, puedes poner esto
+    Un Razor wire es terreno Expuesto y Entorpece. Antes de la batalla, puedes poner esto
     completamente dentro de tu territorio, en contacto con el piso del killzone, a mas de
-    2" de otros equipamientos de terreno o puntos de acceso.
-
-    **Entorpecer**. Cuando un Operativo vaya a pasar atravez de este terreno a 1" de el, trata
+    2\" de otros equipamientos de terreno o puntos de acceso.\n
+\n
+    **Entorpecer**. Cuando un Operativo vaya a pasar atravez de este terreno a 1\" de el, trata
     la distancia como 1" adicional.
 
 ]]></string>
@@ -230,7 +224,7 @@
     <string name="comms_device_description"><![CDATA[
 
     Antes de la batalla, puedes poner tu marcador Vox Comunicador completamente dentro de
-    tu territorio. Mientras un Operativo aliado lo controle, añade 3" de distancia al
+    tu territorio. Mientras un Operativo aliado lo controle, añade 3\" de distancia al
     requerimiento de su abilidad **SOPORTE** que se refiere a un Operativo aliado.
     No te puedes beneficiar de un marcador Vox Comunicador que no sea tuyo.
 
@@ -246,7 +240,7 @@
     <string name="mines_description"><![CDATA[
 
     Antes de la batalla, puedes poner un marcador de Mina completamente dentro de tu
-    territorio, a mas de 2" de otros marcadores y puntos de acceso.
+    territorio, a mas de 2\" de otros marcadores y puntos de acceso.\n
 
     La primera vez que este marcador esta en rango de control de un Operativo, remueve
     ese marcador e inflinge D3+3 de daño a ese Operativo.
@@ -260,12 +254,11 @@
 ]]></string>
 
     <string name="light_barricades_description"><![CDATA[
-
     Una Barricada ligera es terreno ligero, excepto los pies, los cuales son Insignificantes y
-    Expuestos.
-
+    Expuestos.\n
+\n
     Antes de la batalla, puedes poner tus Barricadas Ligeras completamente dentro de tu
-    territorio, en el piso de killzone, y a mas de 2" de otros marcadores y puntos de acceso.
+    territorio, en el piso de killzone, y a mas de 2\" de otros marcadores y puntos de acceso.
 
 ]]></string>
 
@@ -278,8 +271,9 @@
 
     <string name="heavy_barricade_description"><![CDATA[
 
-    Una Barricada Pesada es terreno pesado. Antes de la batalla puedes colocarlo
-    completamente a 4" en tu zona de descenso, en el piso del killzone y a mas de 2" de
+    Una Barricada Pesada es terreno pesado. \n
+    Antes de la batalla puedes colocarlo
+    completamente a 4\" en tu zona de descenso, en el piso del killzone y a mas de 2\" de
     otros marcadores o terrenos de acceso.
 
 ]]></string>
@@ -291,15 +285,17 @@
 ]]></string>
 
     <string name="ladder_description"><![CDATA[
-
     Escaleras son terreno Insignificante y Expuesto, antes de la batalla, puedes ponerlas
-    de la siguiente forma:
-    Completamente dentro de tu territorio.
+    de la siguiente forma:\n
+    \n
+    Completamente dentro de tu territorio.\n
+    \n
     Apoyada a un terreno que sea al menos 2" de alto.
-    A mas de 2" de otros equipamientos y puntos de acceso.
+    \n
+    A mas de 2\" de otros equipamientos y puntos de acceso.\n
 
     Una vez por accion, cuando un Operativo este escalando un terreno con una Escalera apoyada
-    en ese terreno, trata la distancia vertical como 1" si la Escalera esta dentro del area
+    en ese terreno, trata la distancia vertical como 1\" si la Escalera esta dentro del area
     de control del Operativo durante toda la escalada.
 
 ]]></string>

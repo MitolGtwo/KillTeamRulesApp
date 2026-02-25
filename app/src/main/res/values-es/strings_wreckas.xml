@@ -3,11 +3,7 @@
 
     <!--Wreckas-->
 
-    <string name="wrecka_demolisha_recklesstemperament"><![CDATA[
 
-        Temperamento Temerario
-
-    ]]></string>
 
     <string name="wrecka_demolisha_recklesstemperament_usage"><![CDATA[
 
@@ -20,11 +16,6 @@
         Si este Operativo tiene una orden de Engage, esta regla aplica con daño critico tambien.
     ]]></string>
 
-    <string name="wrecka_demolisha_detonate"><![CDATA[
-
-        Detonate
-
-    ]]></string>
 
     <string name="wrecka_demolisha_detonate_usage"><![CDATA[
 
@@ -42,15 +33,11 @@
         sido Incapacitado por este ataque, este daño no puede ser reducido o ignorado.
     ]]></string>
 
-    <string name="wrecka_fighter"><![CDATA[
 
-        Romper Vaina
-
-    ]]></string>
 
     <string name="wrecka_fighter_usage"><![CDATA[
 
-        1 AP/Firefight Phase
+        1 AP
 
     ]]></string>
 
@@ -66,11 +53,6 @@
         Operativo enemigo, o si la pieza de terreno no esta en su rango de control.
     ]]></string>
 
-    <string name="wrecka_gunner"><![CDATA[
-
-        Racha Kompetitiva
-
-    ]]></string>
 
     <string name="wrecka_gunner_usage"><![CDATA[
 
@@ -84,11 +66,6 @@
         un objetivo valido, puedes incluir a cualquier objetivo secundario de esta forma (Ej de Blast).
     ]]></string>
 
-    <string name="wrecka_krusha_armoured"><![CDATA[
-
-        Re Acorazado
-
-    ]]></string>
 
     <string name="wrecka_krusha_armoured_usage"><![CDATA[
 
@@ -101,11 +78,6 @@
         no puede retener exitos criticos con resultados menores a 6 (Ej Lethal, Severe, Rending).
     ]]></string>
 
-    <string name="wrecka_krusha_smash"><![CDATA[
-
-        Smash
-
-    ]]></string>
 
     <string name="wrecka_krusha_smash_usage"><![CDATA[
 
@@ -121,11 +93,6 @@
         es posible, no podras moverlo).
     ]]></string>
 
-    <string name="wrecka_rokkiteer_shock"><![CDATA[
-
-        Shokkwave
-
-    ]]></string>
 
     <string name="wrecka_rokkiteer_shock_usage"><![CDATA[
 
@@ -141,11 +108,6 @@
         (En resumen, el area de efecto de tu pulsa es mas pequeña cada turno).
     ]]></string>
 
-    <string name="wrecka_pulsa"><![CDATA[
-
-        Pulsa
-
-    ]]></string>
 
     <string name="wrecka_pulsa_usage"><![CDATA[
 
@@ -164,11 +126,6 @@
         este ataque (lanza el dado por cada Operativo).
     ]]></string>
 
-    <string name="wreckaboss"><![CDATA[
-
-        Wrecka Boss
-
-    ]]></string>
 
     <string name="wreckaboss_usage"><![CDATA[
 
@@ -181,11 +138,6 @@
         , ganas 1 punto Wrecka.
     ]]></string>
 
-    <string name="wrecka_salvo"><![CDATA[
-
-        Salvo
-
-    ]]></string>
 
     <string name="wrecka_salvo_usage"><![CDATA[
 
@@ -199,11 +151,6 @@
         a los objetivos secundarios. Cada objetivo solo puede ser disparado una sola vez por esta accion.
     ]]></string>
 
-    <string name="squig_explosive"><![CDATA[
-
-        Explosive
-
-    ]]></string>
 
     <string name="squig_explosive_usage"><![CDATA[
 
@@ -217,11 +164,6 @@
         es el objetivo primario, no puede ser Obsucure ni tener cobertura.
     ]]></string>
 
-    <string name="squig_stoopid"><![CDATA[
-
-        Guebon
-
-    ]]></string>
 
     <string name="squig_stoopid_usage"><![CDATA[
 
@@ -235,11 +177,6 @@
         **REPOSITION** and **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
     ]]></string>
 
-    <string name="squig_expendable"><![CDATA[
-
-        Expendable
-
-    ]]></string>
 
     <string name="squig_expendable_usage"><![CDATA[
 
@@ -253,11 +190,6 @@
         Operativo \"escape\" o \"sobreviva\" or sea incapacitado por Operativos enemigos.
     ]]></string>
 
-    <string name="squig_boom"><![CDATA[
-
-        Boom!
-
-    ]]></string>
 
     <string name="squig_boom_usage"><![CDATA[
 
@@ -392,11 +324,7 @@
 
     /Ploys
     /Strategic Ploy
-    <string name="wrecka_waaagh"><![CDATA[
 
-        WAAAGH!
-
-    ]]></string>
 
     <string name="wrecka_waaagh_lore"><![CDATA[
         Cuando la matanza de los Wrecka Krew alcanza su climax, su ira los consume por completo,
@@ -407,11 +335,6 @@
         Aliados **WRECKA KREW** tienen Balanced en sus armas de melee.
     ]]></string>
 
-    <string name="wrecka_tuff_gitz"><![CDATA[
-
-        TIPOZ DUROS
-
-    ]]></string>
 
     <string name="wrecka_tuff_gitz_lore"><![CDATA[
         Wrecka Krews no tienen tiempo para preocuparse por sus heridas, ellos tomarian gustosamente
@@ -423,12 +346,6 @@
         de **Engage**, puedes re-lanzar uno de tus dados de defensa.
     ]]></string>
 
-    <string name="wrecka_destruction"><![CDATA[
-
-        DESTRUCCION
-
-    ]]></string>
-
     <string name="wrecka_destruction_lore"><![CDATA[
         Si un enemigo toma cobertura, solo abre la oportunidad a los Wrecka Krew para explotar mas
         cosas.
@@ -438,11 +355,6 @@
         Operativos **WRECKA KREW** ganan la regla Saturate a sus armas de rango.
     ]]></string>
 
-    <string name="wrecka_amped_up"><![CDATA[
-
-        AMPED UP
-
-    ]]></string>
 
     <string name="wrecka_amped_up_lore"><![CDATA[
         Orks prosperan en el caos y en la cacofonia de la batalla, mientras mas grandes sean las
@@ -457,11 +369,7 @@
 
     /Firefight Ploy
 
-    <string name="wrecka_demolition_job"><![CDATA[
 
-        TRABAJO DE DEMOLICION
-
-    ]]></string>
 
     <string name="wrecka_demolition_job_lore"><![CDATA[
         Cuando un objetivo se muestre, los Wrecka Krew liberalan su proeza destructiva combinada
@@ -476,12 +384,6 @@
         \nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, peleando
         o retaleando contra un enemigo a 3\" de tu marcador de Demolicion, puedes gastar 1 punto Wrecka gratis
         (aunque no tengas ninguno). al inicio de la proxima fase Estrategica, retira tu marcador.
-    ]]></string>
-
-    <string name="wrecka_proppa_scrap"><![CDATA[
-
-        PROPPA SCRAP
-
     ]]></string>
 
     <string name="wrecka_proppa_scrap_lore"><![CDATA[
@@ -512,11 +414,6 @@
         Cuetes Penetrantes, nota que Severe no es un 6 natural, por lo que no genera puntos Wreckas.
     ]]></string>
 
-    <string name="wrecka_jas"><![CDATA[
-
-        JUST A SCRATCH
-
-    ]]></string>
 
     <string name="wrecka_jas_lore"><![CDATA[
         La ploy favorita de mains Orks, Orks tienen la abilidad para ignorar heridas fatales que

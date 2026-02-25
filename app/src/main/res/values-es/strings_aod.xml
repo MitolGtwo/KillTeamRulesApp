@@ -6,9 +6,10 @@
 ]]></string>
 
     <string name="heroic_leader_description"><![CDATA[
-        Puedes seleccionar entre una de las siguientes opciones:\n
+        Una vez por turno, puedes seleccionar entre una de las siguientes opciones:\n
         \n
-        -Usar una Firefight ploy por 0CP si este es el Operativo **ANGEL OF DEATH** seleccionado.\n
+        -Usar una Firefight ploy por 0CP si este es el Operativo **ANGEL OF DEATH** seleccionado
+        (excluyendo Command Reroll).\n
         \n
         -Usar la Combat Doctrine Strategy ploy cuando activas un Operativo **ANGEL OF DEATH**, si este Operativo esta en la Killzone y no en rango de control de un Operativo
         enemigo (paga el cp como lo harias normalmente). No puedes hacerlo si ya usaste la ploy durante este turno.\n
@@ -81,7 +82,8 @@
 ]]></string>
 
     <string name="aod_optics_description"><![CDATA[
-        Hasta el inicio de la proxima activacion de este Operativo, cuando este disparando, Operativos enemigos no pueden estas Obscure.\n\n
+        Hasta el inicio de la proxima activacion de este Operativo, cuando este disparando,
+        Operativos enemigos no pueden estar Obscure.\n\n
 
         Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
 ]]></string>
@@ -133,7 +135,7 @@
             el primer dado que inflinja daño normal de 3 o más a este Operativo durante esa secuencia, ese dado hace 1 menos de daño.\n
                         ---7.SHARPSHOOTER\n
             Cuando ese Operativo esté disparando durante una activación en la que no se ha realizado acciones de **Charge, Fall Back** o **Reposition**, el arma bolt
-            tiene las reglas Accurate 1 y Severe.
+            tiene las reglas Accurate 1 y Severe\n.
                         ---8.SIEGE SPECIALIST\n
             Las armas de rango de este Operativo tienen la regla Saturate. Cuando este Operativo este peleando o retaleando, Operativos enemigos no pueden asistir.
 ]]></string>

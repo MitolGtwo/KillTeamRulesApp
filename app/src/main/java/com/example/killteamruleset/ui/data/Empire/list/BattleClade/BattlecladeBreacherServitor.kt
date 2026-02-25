@@ -13,7 +13,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val BattlecladeBreacherServitor = Operative(
     name = "Battleclade Breacher Servitor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.breacher_servitor,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

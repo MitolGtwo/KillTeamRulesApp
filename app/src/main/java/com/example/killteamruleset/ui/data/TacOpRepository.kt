@@ -11,7 +11,7 @@ object TacOpRepository {
         // RECON
         TacOp(
             id = "recon_01",
-            title = R.string.recon_01_title,
+            title = "SCOUT ENEMY MOVEMENT",
             archetype = Archetypes.RECON,
             reveal = R.string.recon_01_reveal,
             missionAction = Ability(
@@ -24,7 +24,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "recon_02",
-            title =R.string.recon_02_title,
+            title ="RETRIEVAL",
             archetype = Archetypes.RECON,
             reveal =R.string.recon_02_reveal,
             missionAction = Ability(
@@ -37,7 +37,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "recon_03",
-            title = R.string.recon_03_title,
+            title = "FLANK",
             archetype = Archetypes.RECON,
             reveal = R.string.recon_03_reveal,
             additionalRules = R.string.recon_03_additional,
@@ -48,7 +48,7 @@ object TacOpRepository {
 
         TacOp(
             id = "security_01",
-            title = R.string.security_01_title,
+            title = "PLANT BANNER",
             archetype = Archetypes.SECURITY,
             reveal = R.string.security_01_reveal,
             missionAction = Ability(
@@ -61,7 +61,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "security_02",
-            title = R.string.security_02_title,
+            title = "MARTYRS",
             archetype = Archetypes.SECURITY,
             reveal = R.string.security_02_reveal,
             additionalRules = R.string.security_02_additional,
@@ -70,7 +70,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "security_03",
-            title = R.string.security_03_title,
+            title = "ENVOY",
             archetype = Archetypes.SECURITY,
             reveal = R.string.security_03_reveal,
             additionalRules = R.string.security_03_additional,
@@ -79,7 +79,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "seek_and_destroy_01",
-            title = R.string.seek_and_destroy_01_title,
+            title = "SWEEP & CLEAR",
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_01_reveal,
             missionAction = Ability(
@@ -91,15 +91,15 @@ object TacOpRepository {
         ),
         TacOp(
             id = "seek_and_destroy_02",
-            title = R.string.seek_and_destroy_02_title,
+            title = "ROUTE",
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_02_reveal,
-            additionalRules = null,
+            additionalRules = R.string.seek_and_destroy_02_additional,
             victoryPoints = R.string.seek_and_destroy_02_victory
         ),
         TacOp(
             id = "seek_and_destroy_03",
-            title = R.string.seek_and_destroy_03_title,
+            title ="DOMINATE",
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_03_reveal,
             additionalRules = R.string.seek_and_destroy_03_additional,
@@ -107,7 +107,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "infiltration_01",
-            title =R.string.infiltration_01_title,
+            title ="TRACK ENEMY",
             archetype = Archetypes.INFILTRATION,
             reveal = R.string.infiltration_02_reveal,
             additionalRules = R.string.infiltration_01_additional,
@@ -115,7 +115,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "infiltration_02",
-            title = R.string.infiltration_02_title,
+            title = "STEAL INTELLIGENCE",
             archetype = Archetypes.INFILTRATION,
             reveal = R.string.infiltration_02_reveal,
             additionalRules = R.string.infiltration_02_additional,
@@ -123,14 +123,14 @@ object TacOpRepository {
         ),
         TacOp(
             id = "infiltration_03",
-            title = R.string.infiltration_03_title,
+            title = "PLANT DEVICES",
             archetype = Archetypes.INFILTRATION,
             reveal = R.string.infiltration_03_reveal,
             missionAction = Ability(
                 title = "PLANT DEVICE",
                 usage = R.string.infiltration_03_usage,
                 description =R.string.infiltration_03_description),
-            additionalRules = null,
+            additionalRules = R.string.infiltration_03_additional,
             victoryPoints = R.string.infiltration_03_victory
         ),
     )

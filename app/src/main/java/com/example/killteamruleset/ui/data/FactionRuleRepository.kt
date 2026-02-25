@@ -32,14 +32,7 @@ object FactionRuleRepository {
                 lore = R.string.chapter_tactics_lore,
                 ruleText = R.string.chapter_tactics_description,
 
-                ),
-            FactionRule(
-                id = "wrecka_markers",
-                title =null,
-                lore = null,
-                ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
-                ),
+                )
 
         ),
 
@@ -53,11 +46,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "battleclade_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.battleclade_tokens
             ),
 
             ),
@@ -555,16 +548,16 @@ object FactionRuleRepository {
 
         "wolf_scout" to listOf(
             FactionRule(
-                id = "drop_insertion",
-                title = "DROP INSERTION",
-                lore = R.string.drop_insertion_lore,
-                ruleText = R.string.drop_insertion_description,
+                id = "elemental_storm",
+                title = "ELEMENTAL STORM",
+                lore = R.string.elemental_storm_lore,
+                ruleText = R.string.elemental_storm_description,
             ),
             FactionRule(
-                id = "grav_chute",
-                title = "GRAV‑CHUTE",
-                lore = R.string.grav_chute_lore,
-                ruleText = R.string.grav_chute_description,
+                id = "hunting_astartes",
+                title = "HUNTING ASTARTES",
+                lore = R.string.hunting_astartes_lore,
+                ruleText = R.string.hunting_astartes_description,
 
                 ),
             FactionRule(

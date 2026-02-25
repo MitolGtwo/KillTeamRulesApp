@@ -2,9 +2,7 @@
 <resources>
 
     <!--Tacops-->
-    <string name="recon_01_title">
-        SCOUT ENEMY MOVEMENT
-    </string>
+
     <string name="recon_01_reveal">
         The first time a friendly Operative performs the Scout action.
     </string>
@@ -15,22 +13,20 @@
         1 AP / Firefight Phase
     </string>
     <string name="recon_01_description">
-        <![CDATA[Select one ready enemy Operative visible to and more than 6" from
-        the active Operative.
-        That enemy Operative is now monitored until the Ready step of the next Strategy phase.
+        <![CDATA[
+Select one ready enemy Operative visible to and more than 6\" from the active Operative.
+That enemy Operative is now monitored until the Ready step of the next Strategy phase.
 
-
-        An Operative CANNOT perform this action while it has an Engage order, during the first
-        turning point, or while within control range of an enemy Operative.]]>
+\n\nAn Operative cannot perform this action while it has an **Engage** order, during the first
+turning point, or while within control range of an enemy Operative.
+]]>
     </string>
     <string name="recon_01_victory">
         <![CDATA[At the end of each turning point after the first for each monitored enemy Operative thats visible to any friendly Operative, you score 1VP.
         You Cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
-    <string name="recon_02_title">
-        RETRIEVAL
-    </string>
+
     <string name="recon_02_reveal">
         The first time you score VP from this TacOp.
     </string>
@@ -41,13 +37,15 @@
         1 APL / Firefight Phase
     </string>
     <string name="recon_02_description">
-        <![CDATA[If the active Operative controls an objective marker, that hasnt been searched by friendly Operatives,
-        that Operative is now carrying one of your Retrieval mission markers and that objective marker is now searched.
+        <![CDATA[
+If the active Operative controls an objective marker, that has not been searched by friendly Operatives,
+that Operative is now carrying one of your Retrieval mission markers and that objective marker is now searched.
 
-         Friendly Operatives can perform the Pick Up Marker action on your Retrieval mission markers.
+ Friendly Operatives can perform the **Pick Up Marker** action on your Retrieval mission markers.
 
-         An Operative CANNOT perform this action during the first turning point,
-         or while within control range of an enemy Operative, or if its already carrying a marker.]]>
+\n\nAn Operative cannot perform this action during the first turning point,
+or while within control range of an enemy Operative, or if its already carrying a marker.
+]]>
     </string>
     <string name="recon_02_victory" >
         <![CDATA[The first time each objective marked is searched by a friendly Operative you score 1VP.
@@ -55,9 +53,7 @@
          you score 1VP.]]>
     </string>
 
-    <string name="recon_03_title">
-        FLANK
-    </string>
+
     <string name="recon_03_reveal">
         As a <b>STRATEGIC GAMBIT.</b>
     </string>
@@ -83,9 +79,7 @@
         You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
-    <string name="security_01_title">
-        PLANT BANNER
-    </string>
+
     <string name="security_01_reveal">
         When you perform the Plant Banner action.
     </string>
@@ -96,15 +90,15 @@
         1 APL / Firefight Phase
     </string>
     <string name="security_01_description">
-        <![CDATA[Place your Banner mission marker within the active Operatives control
-             range, wholly within your opponents territory and more than 5" from a neutral
-             killzone edge.
-             Operatives can perform the Pick Up Marker action on your
-             Banner mission marker.
 
-             An Operative CANNOT perform this action during the first turning point, while within
-             control range of an enemy Operative, or if a friendly Operative has already performed
-             this action during the battle.]]>
+<![CDATA[Place your Banner mission marker within the active Operatives control
+range, wholly within your opponents territory and more than 5\" from a neutral killzone edge.
+Operatives can perform the **Pick Up Marker** action on your Banner mission marker.
+
+\n\nAn Operative cannot perform this action during the first turning point, while within
+control range of an enemy Operative, or if a friendly Operative has already performed
+this action during the battle.
+]]>
     </string>
     <string name="security_01_victory">
         At the end of each turning point after the first, if you Banner mission
@@ -138,14 +132,12 @@
                     You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
-    <string name="security_03_title">
-        ENVOY
-    </string>
+
     <string name="security_03_reveal">
         The first time you select an envoy.
     </string>
     <string name="security_03_additional">
-        <![CDATA[As a <b>STRATEGIC GAMBIT</b> in each turning point after the first, select
+        <![CDATA[As a **STRATEGIC GAMBIT** in each turning point after the first, select
                      one friendly Operative to be your Envoy until the Ready step of the next
                      Strategy phase. You cannot select an Operative you selected during a previous
                      turning point.]]>
@@ -158,9 +150,8 @@
     </string>
 
 
-    <string name="seek_and_destroy_01_title">
-        <![CDATA[SWEEP & CLEAR]]>
-    </string>
+
+
     <string name="seek_and_destroy_01_reveal">
         <![CDATA[The first time an enemy Operative is incapacitated while contesting an objective
                      marker, or the first time a friendly Operative performs the Clear action(whichever
@@ -173,10 +164,12 @@
         1 APL / Firefight Phase
     </string>
     <string name="seek_and_destroy_01_description">
-        <![CDATA[An objective marker the active Operative controls is cleared for the turning point.
+        <![CDATA[
+An objective marker the active Operative controls is cleared for the turning point.
 
-                    Operative CANNOT perform this action during the first turning point, while
-                    within control range of an enemy Operative.]]>
+\n\nOperative CANNOT perform this action during the first turning point, while
+within control range of an enemy Operative.
+]]>
     </string>
     <string name="seek_and_destroy_01_additional">
         <![CDATA[When an enemy Operative that contests an objective marker is incapacitated,
@@ -190,24 +183,29 @@
                      2VP instead. You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
-    <string name="seek_and_destroy_02_title">
-        ROUTE
-    </string>
+
     <string name="seek_and_destroy_02_reveal">
         The first time you score VP from this TacOp
     </string>
+
+    <string name="seek_and_destroy_02_additional">
+        <![CDATA[None]]>
+    </string>
+
+
     <string name="seek_and_destroy_02_victory">
-        <![CDATA[Whenever a friendly Operative incapacitates an enemy Operative, if
-                     that friendly Operative is within 6" of your opponents drop zone, you score
-                     1VP; if this is true and the enemy Operative had a Wounds stat of 12 or more,
-                     you score 2 VP instead.
-                     You cannot score more than 2VP from this TacOp per turning point.]]>
+        <![CDATA[
+Whenever a friendly Operative incapacitates an enemy Operative, if
+that friendly Operative is within 6\" of your opponents drop zone, you score
+1VP; if this is true and the enemy Operative had a Wounds stat of 12 or more,
+you score 2 VP instead.\n
+
+You cannot score more than 2VP from this TacOp per turning point.
+]]>
 
     </string>
 
-    <string name="seek_and_destroy_03_title">
-        DOMINATE
-    </string>
+
     <string name="seek_and_destroy_03_reveal">
         The first time an enemy Operative is incapacitated by a friendly Operative.
     </string>
@@ -224,17 +222,17 @@
                     You cannot score more than 3VP from this op per turning point.]]>
     </string>
 
-    <string name="infiltration_01_title">
-        TRACK ENEMY
-    </string>
+
     <string name="infiltration_01_reveal">
         The first time you score VP from this TacOp.
     </string>
     <string name="infiltration_01_additional">
-        <![CDATA[An enemy Operative is being tracked if its a valid target for a
-                     friendly Operative within 6" of it. That friendly operative must have a Conceal
-                     order, cannot be a valid target for the enemy Operative its attempting to Track
-                    , and cannot be within control range of enemy Operatives.]]>
+        <![CDATA[
+An enemy Operative is being tracked if its a valid target for a
+friendly Operative within 6\" of it. That friendly operative must have a Conceal
+order, cannot be a valid target for the enemy Operative its attempting to Track
+, and cannot be within control range of enemy Operatives.
+]]>
     </string>
     <string name="infiltration_01_victory">
         <![CDATA[At the end of each turning point after the first:
@@ -245,9 +243,7 @@
                     "score more than 2VP from this TacOp per turning point.]]>
     </string>
 
-    <string name="infiltration_02_title">
-        STEAL INTELLIGENCE
-    </string>
+
     <string name="infiltration_02_reveal">
         The first time an enemy Operative is incapacitated.
     </string>
@@ -259,10 +255,12 @@
                      carry 2 Intelligence markers, or one other marker and one Intelligence marker.
     </string>
     <string name="infiltration_02_victory">
-        <![CDATA[At the end of each turning point after the first, if any friendly Operative
-                     are carrying any of your Intelligence mission markers, you score 1VP.
-                     At the end of the battle, for each of your Intelligence mission markers friendly
-                     Operatives are carrying, you score 1VP.]]>
+        <![CDATA[
+At the end of each turning point after the first, if any friendly Operative
+ are carrying any of your Intelligence mission markers, you score 1VP.\n
+At the end of the battle, for each of your Intelligence mission markers friendly
+Operatives are carrying, you score 1VP.
+]]>
     </string>
 
     <string name="infiltration_03_title">
@@ -278,11 +276,16 @@
         1 APL / Firefight Phase
     </string>
     <string name="infiltration_03_description">
-        <![CDATA[One objective marker the active operative controls gains one of your Device tokens.
+        <![CDATA[
+One objective marker the active operative controls gains one of your Device tokens.
 
-        An Operative CANNOT perform this action during the first turning point, while within control
-         range of an enemy Operative, or if that objective marker already has one of your Device tokens.]]>
+\n\nAn Operative CANNOT perform this action during the first turning point, while within control
+range of an enemy Operative, or if that objective marker already has one of your Device tokens.
+]]>
     </string>
+    <string name="infiltration_03_additional"><![CDATA[
+NONE
+]]></string>
     <string name="infiltration_03_victory">
         <![CDATA[At the end of each turning point after the first:
         *If your opponents objective marker has one of your Device tokens, you score 1VP.

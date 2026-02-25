@@ -59,7 +59,7 @@ val BattlecladeOperativeSelection: List<OperativeSelectionRule> = listOf(
     OperativeSelectionRule(
         text = "Other than COMBAT SERVITOR Operatives, your kill team can only include each Operative on this list once." +
                 "Your kill team can only include up to one COMBAT SERVITOR with Meltagun and up to three with" +
-                "Incendine Igniter.",
+                " Incendine Igniter.",
         isFooter = true
     )
 )
