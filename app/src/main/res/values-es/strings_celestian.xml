@@ -10,43 +10,34 @@
 ]]></string>
 
     <string name="celestian_shield_description"><![CDATA[
-Whenever this operative is fighting or retaliating with this weapon profile, each of your blocks can be allocated to block two
-unresolved successes (instead of one).
+Siempre que este Operativo esté peleando o retaleando con este perfil, cada uno de tus bloqueos a melee puede detener 2 resultados enemigos sin resolver (en lugar de uno).
 ]]></string>
 
 
     <string name="holy_defender_usage"><![CDATA[
 
-        Passive/ Once per turn
+        Pasiva
 
 ]]></string>
 
     <string name="holy_defender_description"><![CDATA[
-Once per turning point, when a friendly
-**CELESTIAN INSIDIANT** operative visible to and within 2\"
-of this operative is selected as the valid target of a **Shoot** action
-or to fight against during the **Fight** action, you can use this rule.
-If you do, this operative becomes the valid target or is fought
-against (as appropriate) instead (even if it wouldnt normally
-be valid for this). If its the **Fight** action, treat this operative
-as being within the fighting operatives control range for the
-duration of that action. If its the **Shoot** action, this operative is
-only in cover or obscured if the original target was.\n
+Una vez por turno, cuando un Operativo **CELESTIAN INSIDIANT** aliado visible y a 2\" de este Operativo es seleccionado como objetivo válido para una acción de
+**Disparo** o como objetivo de una acción de **Combate** , puedes usar esta regla. Si lo haces, este Operativo se vuelve objetivo válido o es el objetivo del combate en
+su lugar (incluso si normalmente no sería posible). Si una acción de **Combate**, trata este Operativo como estando dentro del rango de control del Operativo enemigo. Si es
+una acción de **Disparo**, este Operativo tiene Obscure o Cover si el objetivo original lo estaba.\n
 \n
-This rule has no effect if its the **Shoot** action and the ranged
-weapon has the Blast or Torrent weapon rule.
+Esta regla no tiene efecto si la acción de **Disparo** tiene la regla Blast o Torrent.
 ]]></string>
 
     <string name="holy_example_usage"><![CDATA[
 
-        Passive/ Free firefight ploy
+        Pasiva
 
 ]]></string>
 
     <string name="holy_example_description"><![CDATA[
-Once per turning point, if this operative is **INSPIRING**, you can use a firefight ploy for 0CP if this is the specified
-**CELESTIAN INSIDIANT** operative (including Command Re-roll if the attack or defence dice was rolled for this operative).
-
+Una vez por turno, si este Operativo está **INSPIRING**, puedes usar una Firefight ploy por 0CP si este Operativo es el seleccionado (incluyendo Command Reroll si el dado de 
+        ataque o defensa fue lanzado por este Operativo).
 ]]></string>
 
     <string name="spiritual_mentor_usage"><![CDATA[
@@ -56,25 +47,21 @@ Once per turning point, if this operative is **INSPIRING**, you can use a firefi
 ]]></string>
 
     <string name="spiritual_mentor_description"><![CDATA[
-**SUPPORT.** Select one friendly **CELESTIAN
-INSIDIANT** operative visible to and within 6\" of this
-operative. That operative becomes **INSPIRING**.\n\n
+**SUPPORT.** Selecciona un Operativo **CELESTIAN INSIDIANT** aliado visible y a 6\" de este Operativo. Ese Operativo se gana **INSPIRING** .\n\n
 
-This operative cannot perform this action while within
-control range of an enemy operative, or more than once per
-turning point.
+Este Operativo no puede hacer esta acción mientras esté en rango de control con un Operativo enemigo o más de una vez por turno.
 ]]></string>
 
 
 
 
     <string name="virge_admonition_icon_bearer_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="virge_admonition_icon_bearer_description"><![CDATA[
-Whenever determining control of a marker, treat this operatives APL stat as 1 higher. Note this
-isnt a change to its APL stat, so any changes are cumulative
+Siempre que determines el control sobre un marcador, trata el APL de este Operativo si tuviera 1 más. Esto no es un cambio de APL, así que cualquier cambio es 
+        acumulable con esto.
 with this
 
 ]]></string>
@@ -82,18 +69,14 @@ with this
 
 
     <string name="null_field_usage"><![CDATA[
-    Passive
+    Pasiva
 ]]></string>
 
     <string name="null_field_description"><![CDATA[
-This operative starts the battle with a null range
-of 1\". Whenever an enemy operative is within null range of
-this operative, subtract 2\" from the Move stat of that enemy
-operative and worsen the Hit stat of its weapons by 1 (this isnt
-cumulative with being injured).
+Este Operativo empieza la batalla con un área de efecto de su Null Field de 1\". Siempre que un Operativo enemigo esté dentro de este rango,
+Subtrae 2 al Stat de movimiento de esos Operativos enemigos y empeora su Hit stat por 1 (Esto no es acumulable con estar herido).
+        
     ]]></string>
-
-
 
     <string name="nullifyin_ritual_usage"><![CDATA[
 
@@ -102,28 +85,21 @@ cumulative with being injured).
     ]]></string>
 
     <string name="nullifyin_ritual_description"><![CDATA[
-Add 1 to this operatives null range (to a maximum of 5\").
-Nullification tokens in the marker/token guide are numbered,
-so use the numbered token equal to this operatives
-null range.\n\n
-
-This operative cannot perform this action while within
-control range of an enemy operative, or more than once per
-turning point.
+Añade 1\" al rango del Null Field (hasta un máximo de 5\").
+Puedes marcar el rango actual con tokens o dados equivalentes al área de efecto del Null Field.\n\n
+        
+Este Operativo no puede hacer esta acción mientras esté en rango de control con un Operativo enemigo o más de una vez por turno.
     ]]></string>
 
     <string name="inspirational_pyre_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="inspirational_pyre_description"><![CDATA[
-Once per turning point, when this Operative
-inflicts damage on an enemy operative with either profile of its
-hand flamer but doesnt incapacitate it, you can use this rule. If
-you do, you can select one friendly **CELESTIAN INSIDIANT**
-Operative within 6\" of this operative to become **INSPIRING**.
+Una vez por turno, cuando este Operativo inflige daño a un Operativo enemigo con cualquier perfil de su Hand Flamer, pero no lo incapacita, puedes usar esta regla.
+Si lo haces, puedes seleccionar un Operativo **CELESTIAN INSIDIANT** aliado a 6\" de este Operativo para que gane **INSPIRING**.
     ]]></string>
 
     <string name="torrent0_usage"><![CDATA[
@@ -133,21 +109,19 @@ Operative within 6\" of this operative to become **INSPIRING**.
     ]]></string>
 
     <string name="torrent0_description"><![CDATA[
-Torrent 0\" means you cannot select secondary
-targets, but this weapon still has the Torrent weapon rule for all
-other rules purposes, e.g. the Condensed Stronghold rule (see
-Killzone: Volkus, Kill Team Core Book).
+Torrent 0\" significa que no puedes seleccionar un objetivo secundario, pero aún aplica Lethal 5+ si se usa dentro de un espacio cerrado.
+        
     ]]></string>
 
     <string name="accusing_exorcist_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="accusing_exorcist_description"><![CDATA[
-Whenever this operative is **INSPIRING**, the Suspect & Eliminate strategy ploy costs you 0CP if the enemy
-operative or marker you select is visible to or within 6\" of this operative.
+Cuando este Operativo está **INSPIRING**, la strategy ploy Suspect & Eliminate cuesta 0CP si el Operativo enemigo o marcador que selecciones es visible o a 6\"
+        de este Operativo.
     ]]></string>
 
     <string name="speak_of_her_deeds_usage"><![CDATA[
@@ -157,83 +131,72 @@ operative or marker you select is visible to or within 6\" of this operative.
     ]]></string>
 
     <string name="speak_of_her_deeds_description"><![CDATA[
-**SUPPORT.** Select an **INSPIRING** friendly **CELESTIAN
-INSIDIANT** operative visible to and within 6\" of this
-operative. That operative is no longer **INSPIRING**. Then,
-select another friendly **CELESTIAN INSIDIANT**
-operative visible to and within 6\" of this operative. Resolve
-one **BENEDICTION** from the Martyrdom faction rule on
-that operative (excluding Exigence).
+**SUPPORT.** Selecciona un Operativo aliado con **INSPIRING** visible y a 6\" de este Operativo. Ese Operativo deja de tener **INSPIRING**. Despues
+, selecciona otro Operativo **CELESTIAN INSIDIANT** aliado visible y a 6\" de este Operativo, puedes otorgarle a ese Operativo una **BENEDICTION** de la regla Martyrdom de esta
+faccion a ese Operativo (excluyendo Exigence).
     ]]></string>
 
     <string name="zealous_ultimatum_usage"><![CDATA[
 
-        Passive / Strategic Gambit / Once per battle
+        Pasiva
 
     ]]></string>
 
     <string name="zealous_ultimatum_description"><![CDATA[
-Once per battle **STRATEGIC GAMBIT.** Select one enemy operative within 8\" of this operative and issue
-an ultimatum to it. Your opponent must accept or decline that ultimatum (if its a non-player operative, roll one D6: on a 4+, the
-ultimatum is accepted, otherwise its declined).\n
+Una vez por batalla como **STRATEGIC GAMBIT.** Selecciona un Operativo enemigo a 8\" de este Operativo y escogelo para un Ultimatum. Tu oponente debe aceptar o declinar ese
+Ultimatum.\n
 \n
-If the ultimatum is accepted, whenever this operative is fighting against or retaliating against that enemy operative, add 1 to the
-Atk stat of this operatives blessed broadsword. The first time this operative incapacitates that enemy operative while fighting or
-retaliating during the battle, add 1 to the Atk stat of this operatives blessed broadsword until the end of the battle. In either case, this
-is to a maximum of 5.\n
+Si el Ultimatum es aceptado, siempre que este Operativo combata o retalee contra ese Operativo enemigo, añade 1 ATK a la estadística del Blessed Broadsword de este Operativo.
+La primera vez que este Operativo incapacite a ese Operativo enemigo combatiendo o retaliando durante la batalla, añade 1 ATK a la estadística del Blessed Broadsword de este Operativo
+hasta el fin de la batalla. En cualquier caso, siempre hasta un maximo de 5.\n
 \n
-If the ultimatum is declined, whenever that enemy operative is fighting against or retaliating against a friendly **CELESTIAN
-INSIDIANT** operative, subtract 1 from the Atk stat of that enemy operatives weapons.
+Si el Ultimatum es declinado, siempre que ese Operativo enemigo pelee o retalee contra Operativos **CELESTIAN INSIDIANT** aliados, sustrae 1 a la estadística de ATK de las armas
+        de ese Operativo.
     ]]></string>
 
 
     <string name="celestian_blade_stance_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="celestian_blade_stance_description"><![CDATA[
-Whenever this operative is fighting or retaliating,
-you can resolve one of your successes before the normal order.
-If you do, that success must be used to block.
+Siempre que este Operativo pelee o retalee, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, debes usarlo para bloquear.
     ]]></string>
 
     <string name="simulacrum_nullificatus_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="simulacrum_nullificatus_description"><![CDATA[
-Whenever determining control of a marker, treat the total APL stat of enemy operatives
-that contest it as 1 lower if at least one of those enemy
-operatives is within 3\n" of this operative. Note this isnt a change
-to the APL stat, so any changes are cumulative with this.
+Siempre que determines el control de un marcador, trata el total de APL de enemigos Operativos como si tuvieran 1 menos si al menos uno de esos Operativos está a
+        3\" de este Operativo. Esto no es un cambio de APL, así que cualquier cambio es acumulable con esto.
+
     ]]></string>
 
     <string name="devotion_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="devotion_description"><![CDATA[
-At the end of each of this operatives activations,
-if its **INSPIRING** and it controls an objective marker or
-one of your mission markers, one friendly **CELESTIAN
-INSIDIANT** operative this operative is visible to and within 6\"
-of becomes **INSPIRING**.
+Al final de cada activación de este Operativo, si está **INSPIRING** y controlé un Marcador de Objetivo o Marcador de misión, un Operativo **CELESTIAN INSIDIANT** 
+aliado visible y a 6\" gana **INSPIRING**.
+
     ]]></string>
 
     <string name="inspired_strike_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="inspired_strike_description"><![CDATA[
-Whenever this operative is **INSPIRING**, add 1 to the Critical Dmg stat of weapons on its datacard.
+Siempre que este Operativo esté **INSPIRING**, añade 1 al daño crítico a las armas de este Operativo.
     ]]></string>
 
     <!--Faction Rules-->
