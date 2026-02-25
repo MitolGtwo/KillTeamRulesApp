@@ -65,84 +65,61 @@
 ]]></string>
 
 
-    <string name="battleclade_omniscanner"><![CDATA[
-
-        Omniscanner
-
-]]></string>
-
     <string name="battleclade_omniscanner_usage"><![CDATA[
 
-        1AP/Firefight Phase or Strategic Gambit
+        1AP
 
 ]]></string>
 
     <string name="battleclade_omniscanner_description"><![CDATA[
-
-        Select one enemy Operative visible or within 8\" of this operative to gain one of your
-                        Omniscanner tokens. Whenever a friendly BATTLECLADE Operative is shooting, fighting, or retaliating
-                         an enemy Operative with one of your Omniscanner tokens, that friendly Operatives weapons have
-                         the Ceasless weapon rule.\n\nThis Operative CANNOT perform this action while within control range
-                         of an enemy Operative.
-
-]]></string>
-
-
-    <string name="battleclade_datacoronal"><![CDATA[
-
-        Datacoronal Accumulator
-
+        Seleciona un Operativo visible o a 8\" de este Operativo; ese Operativo gana uno de tus marcadores Omniscanner. Siempre que un aliado **BATTLECLADE**
+        este disparando, peleando o retaleando contra un enemigo con un marcador de Omniscanner, las armas de ese Operativo aliado ganan la regla Ceaseless.
+        \n\n
+         Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
 ]]></string>
 
     <string name="battleclade_datacoronal_usage"><![CDATA[
 
-        1AP/ Firefight phase
+        1AP
 
 ]]></string>
 
     <string name="battleclade_datacoronal_description"><![CDATA[
-
-        **SUPPORT.** Determine the friendly **BATTLECLADE** operatives within 6\" of this operative and/or a friendly
-**BATTLECLADE AUTO-PROXY** operative, then roll one D3. If the result is equal to or less than the number of objective
-markers those friendly operatives contest, you gain 1CP. For the purposes of the Comms Device universal equipment, the
-operative the distance is being determined from must control your Comms Device marker to add 3\" to its distance requirement
-for this rule.\n\n
-
- This operative cannot perform this action while within control range of an enemy operative.
+        **SUPPORT.** Escoge un Operativo **BATTLECLADE** aliado a 6\" de este Operativo y/o de un Operativo **BATTLECLADE AUTO-PROXY** aliado, entonces lanza un D3.
+        Si el resultado es igual o menor al número de marcadores de misión (TacOp/CritOp) que esté contestando, ganas 1CP.\n
+        Para el propósito del equipamiento Comms Device, la distancia se determina desde el marcador del equipamiento Comms Device para añadir 3\" a la distancia de esta habilidad.
+        \n\n
+        Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
     ]]></string>
-
-
 
     <string name="battleclade_network_usage"><![CDATA[
 
-        1AP/ Firefight phase
+        1AP
 
     ]]></string>
 
     <string name="battleclade_network_description"><![CDATA[
-       **SUPPORT**. Select one friendly **BATTLECLADE SERVITOR** operative within 6\" of either this operative or a friendly
-**BATTLECLADE AUTO-PROXY** operative to immediately **NETWORK COUNTERACT** (you dont have to **TRANSFER
-POWER** to do so). Continue this operatives activation after doing so. For the purposes of the Comms Device universal
-equipment, the operative the distance is being determined from must control that marker.\n\n
-
- This operative cannot perform this action while within control range of an enemy operative.
+     **SUPPORT.** Escoge un Operativo **BATTLECLADE** aliado a 6\" de este Operativo y/o de un Operativo **BATTLECLADE AUTO-PROXY** aliado, para
+        inmediatamente realizar un **NETWORK COUNTERACT** (No tienes que hacer **TRANSFER POWER** para hacer esta acción). Continua con la activacion de este Operativo 
+        despues de hacerlo.\n
+        Para el propósito del equipamiento Comms Device, la distancia se determina desde el marcador del equipamiento Comms Device para añadir 3\" a la distancia de esta habilidad.
+        \n\n
+        Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
     ]]></string>
-
 
     <string name="battleclade_mechanosuture_array_usage"><![CDATA[
 
-        Passive/Friendly Operative is incapacitated
+        Pasiva
 
     ]]></string>
 
     <string name="battleclade_mechanosuture_array_description"><![CDATA[
-Once per turning point, when another friendly **BATTLECLADE** operative would be incapacitated while
-visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of
-an enemy operative. If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated
-for the remainder of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must
-end that move within this operatives control range. If this rule was used during that friendly operatives activation, that activation
-ends. You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this operative would be a primary or
-secondary target.
+Una vez por turno, cuando otro Operativo aliado **BATTLECLADE** vaya a ser incapacitado mientras esté visible y a 3\" de este Operativo, puedes usar esta regla,
+siempre y cuando ni este Operativo ni el Operativo aliado estén en rango de control de un Operativo enemigo.
+Si lo haces, ese Operativo aliado no es incapacitado; tiene 1 herida restante y no puede ser incapacitado por el resto de la acción. Despues de esa accion, ese 
+Operativo aliado puede realizar inmediatamente una acción de **Dash**, pero debe terminar ese movimiento dentro del area de control de este Operativo.
+Si esta regla es usada durante la activación de ese Operativo aliado, esa activación termina.\n
+No puedes usar esta regla si es una acción de **Disparo** y si este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="battleclade_expedient_repair_usage"><![CDATA[
@@ -152,13 +129,10 @@ secondary target.
     ]]></string>
 
     <string name="battleclade_expedient_repair_description"><![CDATA[
-Select one friendly **BATTLECLADE** operative within this
-operatives control range to regain up to D3+3 lost wounds.
-It cannot be an operative that the Mechanosuture Array rule
-was used on during this turning point.\n\n
+        Selecciona un Operativo **BATTLECLADE** aliado dentro del rango de control de este Operativo para recuperar D3+3 heridas perdidas.
+        No puede usarse con un Operativo con el que se haya usado la regla **Mechanosuture Array** este turno.\n\n
+Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
 
-This operative cannot perform this action while within control
-range of an enemy operative.
     ]]></string>
 
 
