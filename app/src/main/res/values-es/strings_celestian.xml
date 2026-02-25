@@ -202,61 +202,44 @@ Siempre que este Operativo esté **INSPIRING**, añade 1 al daño crítico a las
     <!--Faction Rules-->
 
     <string name="martyrdoom_lore"><![CDATA[
-Vaunted veterans of the Orders Militant, Celestian
-Insidiants hunt witches with extreme prejudice. Those
-struck down in the course of their duties become
-martyrs, their deaths only serving to harden the resolve
-of their surviving sisters.
+Veteranas de la orden Militante, Celestian Insidiants cazan brujos con prejuicio extremo. Aquellas abatidas en sus labores se vuelven mártires,
+sus muertes solo sirven para endurecer la determinación de sus hermanas sobrevivientes.
 ]]></string>
 
     <string name="martyrdoom_description"><![CDATA[
-Whenever an **INSPIRING** friendly **CELESTIAN
-INSIDIANT** operative is incapacitated, before
-its removed from the killzone, select one other
-friendly **CELESTIAN INSIDIANT** operative that
-operative is visible to or within 6" of.
-
-Then, that selected operative gains one
-**BENEDICTION** (incapacitated operatives cannot
-be selected for a **BENEDICTION**).\n
+Siempre que una Operativa **CELESTIAN INSIDIANT* aliada que esté **INSPIRING** es incapacitada, antes de que sea removida del Killzone, selecciona otra aliada
+**CELESTIAN INSIDIANT** a 6\" y que sea visible de esta Operativa.
+\n
+Luego, esa Operativa seleccionada gana una **BENEDICTION** (ningún Operativo incapacitado puede beneficiarse de una **BENEDICTION**).\n
 
 BENEDICTION   //  EFFECT
 \n
-Ardour        //    Until the end of the battle, add 1 to that Operatives APL stat, you cant do this with your SUPERIOR
+Ardour        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.
 \n
-Wrath         //    Until the end of the battle, weapons of that Operative have the Ceaseless rule.
+Wrath         //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.
 \n
-Restoration   //    That Operative regains up to D3+2 lost Wounds.
+Restoration   //    Este Operativo recupera D3+2 Heridas perdidas.
 \n
-Exigence      //    That Operative can perform a free Charge or Dash action (cannot move more than 3\"), but it must end that move closer to that incapacitated INSPIRING Operative.
+Exigence      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.
 ]]></string>
 
 
     <string name="weapons_of_the_witch_hunters_lore"><![CDATA[
-Celestian Insidiants bear all manner of esoteric
-weapons, armour and equipment intended to shield
-them from sorcery and impede the ability of their quarry
-to channel malefic power.
+Celestian Insidiants se equipan con múltiples armas esotéricas, armaduras y armas hechas para defendarlas contra magia e impedir la canalización de estas
+energias maléficas.
     ]]></string>
 
     <string name="weapons_of_the_witch_hunters_description"><![CDATA[
-PSYCHIC ranged weapons cannot inflict damage
-on friendly CELESTIAN INSIDIANT operatives.
-For the effects of PSYCHIC actions, friendly
-CELESTIAN INSIDIANT operatives cannot be
-selected and are never treated as being within
-those actions required distances. Whenever an
-operative is within 3\" of a friendly CELESTIAN
-INSIDIANT operative:\n\n
-
-• That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.
-• That operative cannot use PSYCHIC ranged weapons.
-• PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n
+Armas **Psychic** de distancia no pueden infligir daño a Operativas  **CELESTIAN INSIDIANT**. Para efectos de acciones *Phychic**, aliadas **CELESTIAN INSIDIANT**
+no pueden ser seleccionadas y no pueden ser tratadas como estando dentro de la distancia de dichos efectos. Cuando un Operativo Psyker está a 3\" de una **CELESTIAN INSIDIANT**:
+\n\n
+• Ese Operativo no puede realizar acciones *Psychic** o usar reglas *Psychic** adicionales.\n
+• Ese Operativo no puede usar armas *Psychic** de rango.\n
+• Armas de melee *Psychic** no tiene reglas especiales, y no puede hacer daño mayor a 3/4.\n
 \n
-Some weapons in this teams rules have the Anti-PSYKER weapon rule below.\n
+Algunas armas de este equipo tienen la regla **Anti-PSYKER**.\n
 
-*Anti-PSYKER: Whenever this weapon is being used against an operative that has the PSYKER
-keyword, it has the Lethal 5+ weapon rule.
+*Anti-PSYKER**: Siempre que esta arma sea usada contra un Operativo con la Regla **PSYKER**, el arma gana Lethal 5+.
     ]]></string>
 
     <string name="inspiration_lore"><![CDATA[
