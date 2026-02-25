@@ -28,7 +28,7 @@
                      a friendly **BATTLECLADE** Operative is shooting that enemy Operative, you can use this rule. If you do:\n
                     \n*That enemy Operative cannot be obscured.:\n
                       *That friendly Operatives range weapons have the Seek Light weapon rule.
-                     \n\nThis Operative **CANNOT** perform this action while within control range of an enemy Operative.
+                     \n\nThis Operative cannot perform this action while within control range of an enemy Operative.
 
 ]]></string>
 
@@ -42,21 +42,22 @@
         Place one of your Breach markers within this Operatives control range as close as possible to a
                      terrain feature within control range of it. Whenever an Operative is within 1\" of that marker,
                      it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.\n\n
-                    This Operative **cannot** perform this action while within control range of an enemy Operative, or if
-                     a terrain feature isnt within its control range.
+        
+                    This Operative cannot perform this action while within control range of an enemy Operative, or if
+                     a terrain feature is not within its control range.
 
 ]]></string>
 
 
     <string name="battleclade_divinearcana_usage"><![CDATA[
 
-        Strategic Gambit
+        Passive
 
 ]]></string>
 
     <string name="battleclade_divinearcana_description"><![CDATA[
 
-        You can inmediatly change this Operatives order and/or can inmediatly perform
+       **STRATEGIC GAMBIT** You can immediately change this Operatives order and/or can immediately perform
                         any of these actions for free:\nOmniscanner\nFall Back\nPlace Marker\nPick Up Marker
                         \nMission Action\nReposition.\nWhen doing a Reposition or Fall back action with this rule
                          and this Operative is not carrying a marker, it must end that move either within your drop
@@ -73,17 +74,17 @@
 
     <string name="battleclade_omniscanner_usage"><![CDATA[
 
-        1AP/Firefight Phase or Strategic Gambit
+        1AP
 
 ]]></string>
 
     <string name="battleclade_omniscanner_description"><![CDATA[
 
         Select one enemy Operative visible or within 8\" of this operative to gain one of your
-                        Omniscanner tokens. Whenever a friendly BATTLECLADE Operative is shooting, fighting, or retaliating
-                         an enemy Operative with one of your Omniscanner tokens, that friendly Operatives weapons have
-                         the Ceasless weapon rule.\n\nThis Operative CANNOT perform this action while within control range
-                         of an enemy Operative.
+                        Omniscanner tokens. Whenever a friendly **BATTLECLADE** Operative is shooting, fighting, or retaliating
+                         against an enemy Operative with one of your Omniscanner tokens, that friendly Operatives weapons have
+                         the Ceasless weapon rule.\n\n
+        This Operative cannot perform this action while within control range of an enemy Operative.
 
 ]]></string>
 
@@ -96,7 +97,7 @@
 
     <string name="battleclade_datacoronal_usage"><![CDATA[
 
-        1AP/ Firefight phase
+        1AP
 
 ]]></string>
 
@@ -115,7 +116,7 @@ for this rule.\n\n
 
     <string name="battleclade_network_usage"><![CDATA[
 
-        1AP/ Firefight phase
+        1AP
 
     ]]></string>
 
@@ -131,7 +132,7 @@ equipment, the operative the distance is being determined from must control that
 
     <string name="battleclade_mechanosuture_array_usage"><![CDATA[
 
-        Passive/Friendly Operative is incapacitated
+        Passive
 
     ]]></string>
 
