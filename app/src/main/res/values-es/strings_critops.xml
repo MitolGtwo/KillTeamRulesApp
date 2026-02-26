@@ -1,58 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-        <string name="crit_op_1_title"><![CDATA[
-    SECURE
-]]></string>
 
     <string name="crit_op_1_atitle"><![CDATA[
     SECURE/ 1 APL
 ]]></string>
 
     <string name="crit_op_1_usage"><![CDATA[
-    One objective marker the active Operative controls is secured by your kill team until the
-    enemy kill team secures that objective marker.
+Un marcador de objetivo controlado por el Operativo activo es **SECURED** por tu kill team hasta que el kill team enemigo realice la acción **SECURE** sobre
+ese mismo marcador de objetivo\n\n
 
-    An Operative cannot perform this action during the first turning point, or while within control
-    range of an enemy Operative.
+Un Operativo no puede hacer esta accion durante el primer turno, o estando en rango de control de un Operativo enemigo.
 ]]></string>
 
     <string name="crit_op_1_victory"><![CDATA[
-    At the end of each turning point after the first:
-
-    *If an objective marker is secured by your kill team, you score 1VP.
-
-    *If more objective markers are secured by your kill team than your opponent, you score 1VP.
+Al final de cada turno despues del primero:\n
+\n 
+* Si un marcador de objetivo esta **SECURED** por tu kill team, ganas 1VP.\n
+\n 
+* Si tienes mas marcadores de objetivos **SECURED** que tu oponente, ganas 1VP.
 ]]></string>
 
-
-
-    <string name="crit_op_2_title"><![CDATA[
-    LOOT
-]]></string>
 
     <string name="crit_op_2_atitle"><![CDATA[
     LOOT/ 1 APL
 ]]></string>
 
     <string name="crit_op_2_usage"><![CDATA[
-    One Objective marker the active Operative controls is looted.
+Un marcador de objetivo controlado por el Operativo activo esta **LOOTED**\n\n
 
-    An Operative cannot perform this action during the first turning point, while within control
-    range of an enemy Operative, or if that objective marker has already been looted during this
-    turning point.
+Un Operativo no puede realizar esta accion durante el primer turno, mientras el Operativo esta en rango de control de un Enemigo, o si ese marcador de objetivo
+ya ha sido **LOOTED** durante este turno.
 ]]></string>
 
     <string name="crit_op_2_victory"><![CDATA[
-    Whenever a friendly Operative performs the <b>Loot</b> action, you score 1VP (to a maximum
-    of 2VP per turning point).
+Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un maximo de 2VP por turno).
 ]]></string>
 
-
-
-    <string name="crit_op_3_title"><![CDATA[
-    TRANSMISSION
-]]></string>
 
     <string name="crit_op_3_atitle"><![CDATA[
     INITIATE TRANSMISSION/ 1 APL
