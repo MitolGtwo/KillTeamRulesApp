@@ -381,7 +381,7 @@ Las Celestian Insidiants llevan el odio y la paranoia de su credo.
 
     <string name="fervent_hate_description"><![CDATA[
 Usa esta Firefight ploy después de lanzar tus dados de ataque para una **CELESTIAN INSIDIANT** aliada, si esta disparando, peleando o retaleando contra un Operativo
-enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS* y/o **PSYKER**, las armas ganan
+enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS** y/o **PSYKER**, las armas ganan
 Relentless en su lugar hasta el final de esa secuencia.
 ]]></string>
 
