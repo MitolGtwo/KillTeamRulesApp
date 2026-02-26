@@ -4,36 +4,28 @@
     <!--Death Korps-->
 
 
-    <string name="deathkorps_bruiser_usage"><![CDATA[
+ <string name="deathkorps_bruiser_usage"><![CDATA[
 
-        Passive/ Firefight Phase
+        Pasiva
 
 ]]></string>
 
     <string name="deathkorps_bruiser_description"><![CDATA[
-
-        Once per turning point, when this Operative is fighting or
-                 retaliating, in the Resolve Attack Dice step, you can ignore the damage
-                 inflicted on it from one normal success.\nIf this Operative is incapacitated
-                 during the FIGHT action, you can strike the enemy Operative in that sequence
-                 with one of your unresolved successes before this Operative is removed from the
-                killzone.
-
+Una vez por turno, cuando este Operativo este peleando o retaleando, en la al momento de resolver dados de ataque, puedes ignorar el daño de un resultado Normal.\n
+Si este Operativo es incapacitado durante una acción de **Combate**, puedes golpear al Operativo enemigo en esa secuencia con uno de tus dados sin resolver, antes de que
+este Operativo sea removido del campo.
 ]]></string>
 
 
     <string name="deathkorps_confidant_secondincommand_usage"><![CDATA[
 
-        Passive/Firefight phase
+        Passive
 
 ]]></string>
 
     <string name="deathkorps_confidant_secondincommand_description"><![CDATA[
-
-        If a friendly WATCHMASTER Operative is incapacitated, you can use this rule. If you
-                           do, until the end of the battle, this Operative can issue a GUARDSMAN ORDER as a
-                          STRATEGIC GAMBIT(even though its not a WATCHMASTER operative).
-
+Si un Operativo **WATCHMASTER** es incapacitado, puedes usar esta regla. Si lo haces, hasta el final de la batalla, este Operativo puede dar **GUARDSMAN ORDERS** en la
+**STRATEGIC GAMBIT** (aunque este Operativo no sea el **WATCHMASTER**).
 ]]></string>
 
 
@@ -44,35 +36,27 @@
 ]]></string>
 
     <string name="deathkorps_confidant_directive_description"><![CDATA[
-
-        Whenever this Operative is activated, if you havent used the Second in Command rule
-                           during the battle, you can select one other ready friendly DEATH KORP Operative visible
-                           and within 6\" of it. When this operative is expended, activate that other friendly
-                           Operative before your opponent activates(if that Operative is a TROOPER, ignore its
-                           Group Activation rule).
-
+    Cuando este Operativo es activado, si no has usado la regla **SECOND IN COMMAND** durante la batalla, puedes seleccionar otro Operativo **DEAHTKORPS** Ready, visible 
+    y a 6\" de este Operativo. Cuando este Operativo termine su activación, activa otro el Operativo antes de que tu oponente active (si ese Operativo es un **TROOPER**
+        ignora su regla **GROUP ACTIVATION**).
 ]]></string>
 
 
     <string name="deathkorps_medic_usage"><![CDATA[
 
-        Pasive/ Firefight Phase
+        Pasive
 
 ]]></string>
 
     <string name="deathkorps_medic_description"><![CDATA[
+La primera vez durante cada turno que otro Operativo **DEAHTKORPS aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
+ni el Operativo con el que se use esta regla esten en rango de control de un enemigo. Ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado
+por el resto de esa accion.\n
+Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
+1 APL de este Operativo y el Operativo con el que se uso esta regla hasta el final de sus proximas activaciones, si esta regla se usa durante la activacion de ese otro Operativo aliado,
+        su activacion termina inmediatamente.\n
 
-        The first time during each turning point, when another friendly DEATHKORPS Operative
-                 would be incapacitated while visible and within 3\" of this operative, you can use this rule if
-                 neither this nor the other friendly Operative is within control range of an enemy Operative
-                .If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be
-                 incapacitated for the remainder of the action.\nAfter that action, that friendly Operative can
-                 inmediately perfrom a free Dash action, but must end that move within this Operatives control range
-                . Substract 1 from this and the other Operatives APL stats until the end of their next activations
-                , if this rule is used during that other Operative activation, its activation ends.\n
-                You cannot use this rule if this operative is incapacitated, or if its a Shoot action and this
-                 Operative would be a primary or secondary target.
-
+        No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
 ]]></string>
 
 
