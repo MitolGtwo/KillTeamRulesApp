@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val InsidiatCensor: Operative
     get() = Operative(
         name = "Insidiat Censor",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.celestian_censor,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

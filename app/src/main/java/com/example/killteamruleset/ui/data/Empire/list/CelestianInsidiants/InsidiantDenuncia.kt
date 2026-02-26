@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val InsidiatDenuncia: Operative
     get() = Operative(
         name = "Insidiat Denuncia",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.celestian_denuncia,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

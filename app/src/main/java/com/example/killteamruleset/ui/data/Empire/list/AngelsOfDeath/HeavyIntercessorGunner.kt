@@ -13,7 +13,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HeavyIntercessorGunner = Operative(
     name = "Heavy Intercessor Gunner",
-    imageRes = R.drawable.plague_bombardier,
+    imageRes = R.drawable.aod_heavy_gunner,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

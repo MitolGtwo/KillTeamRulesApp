@@ -27,7 +27,7 @@ fun CritOpCard(
     onKeywordClick: (KeywordInfo) -> Unit
 ) {
     // 🔑 Resolve ALL string resources first
-    val titleText = critOp.title?.let { stringResource(it) } ?: ""
+    val titleText = critOp.title ?: ""
 
     val missionActionLabel = stringResource(R.string.mission_action)
     val additionalRulesLabel = stringResource(R.string.additional_rules)

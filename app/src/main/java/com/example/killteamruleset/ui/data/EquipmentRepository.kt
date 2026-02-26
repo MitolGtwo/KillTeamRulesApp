@@ -646,12 +646,47 @@ object EquipmentRepository {
                 description = R.string.wrecka_glyphs_description
             )
         ),
+
+
+
+
+
+        "blooded" to listOf(
+
+            Equipment(
+                id = "chaos_sigil",
+                name = "CHAOS SIGIL",
+                lore =R.string.chaos_sigil_lore,
+                description = R.string.chaos_sigil_description
+            ),
+            Equipment(
+                id = "sinister_trophies",
+                name = "BSINISTER TROPHIES",
+                lore =R.string.sinister_trophies_lore,
+                description = R.string.sinister_trophies_description,
+            ),
+            Equipment(
+                id = "symbols_of_worship",
+                name = "SYMBOLS OF BLOODY WORSHIP",
+                lore =R.string.symbols_of_worship_lore,
+                description = R.string.symbols_of_worship_description
+            ),
+            Equipment(
+                id = "wicked_blades",
+                name = "WICKED BLADES",
+                lore =R.string.wicked_blades_lore,
+                description = R.string.wicked_blades_description
+            )
+        ),
+
+
+
         "plague_marines" to listOf(
 
             Equipment(
                 id = "plague_bell",
                 name = "PLAGUE BELLS",
-                lore =R.string.plague_bell,
+                lore =R.string.plague_bell_lore,
                 description = R.string.plague_bell_description
             ),
             Equipment(

@@ -5,7 +5,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -29,6 +31,8 @@ fun TeamsScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .statusBarsPadding()        // 👈 top safe
+            .navigationBarsPadding()
             .padding(16.dp)
     ) {
         TextButton(onClick = onBack) {

@@ -19,15 +19,15 @@
     de el Operativo activo.\n
     Ese Operativo enemigo esta ahora siendo monitoreado hasta la Ready step del la
     siguiente Strategy phase.\n\n
-    Un Operativo no puede realizar esta acción mientras tenga una orden de Engage,
+    Un Operativo no puede realizar esta acción mientras tenga una orden de **Engage**,
     durante el primer turno, o  si esta en la zona de control de un enemigo.
 
 ]]></string>
     <string name="recon_01_victory"><![CDATA[
 
-    Al final de cada turno después del primero. for cada Operativo enemigo monitorado, que sea
+    Al final de cada turno después del primero. por cada Operativo enemigo monitorado, que sea
     visible a cualquier Operativo aliado (No tiene que ser el que hizo la accion de Scout), tu
-    ganas 1VP.
+    ganas 1VP.\n
     No puedes ganar mas de 2VP por esta TacOp por turno.
 
 ]]></string>
@@ -45,10 +45,10 @@
 ]]></string>
     <string name="recon_02_description">
         <![CDATA[Si el Operativo activo controla un objetivo de mision, donde no se haya hecho la accion **RETRIEVE**
-por Operativos aliados, al momento de usar esa accion, este Operativo esta cargando con uno de
-tus  tokens de Recuperacion (Token de mision) y ese objetivo de vision ya no puede generar otro
-token de Recuperacion.
-Operativos aliados puede hacer la **Pick Up Marker** accion en tu token de Recuperacion.
+por Operativos aliados, al momento de usar esa accion, este Operativo empieza a cargar uno de
+tus  tokens de **RETRIEVAL** (Token de mision) y ese objetivo de mision ya no puede generar otro
+token **RETRIEVAL**.
+Operativos aliados puede hacer la **Pick Up Marker** accion en tu token de **RETRIEVAL**.
 
 \n\nUn Operativo no puede realizar esta accion durante el primer turno, o mientras esta en rango
 de control de un Operativo enemigo, o si ya esta cargando un token de recuperacion.
@@ -56,7 +56,7 @@ de control de un Operativo enemigo, o si ya esta cargando un token de recuperaci
 ]]></string>
     <string name="recon_02_victory"><![CDATA[
 
-    La primera vez que un Operativo aliado hace la accion RETRIEVAL en un objetivo de mision, ganas
+    La primera vez que un Operativo aliado hace la accion **RETRIEVAL** en un objetivo de mision, ganas
      1VP.
     Por cada token de recuperacion que Operativos aliados esten cargando al final de la batalla,
     ganas 1VP
@@ -69,15 +69,15 @@ de control de un Operativo enemigo, o si ya esta cargando un token de recuperaci
 
 ]]></string>
     <string name="recon_03_additional"><![CDATA[
-
     Divide el mapa con una linea vertical que pase por el centro del mapa, y que toque los bordes
-    de ambos territorios de los jugadores, cada lado (izquierdo y derecho) se vuelve un Flanco.
+    de ambos territorios de los jugadores, cada lado (izquierdo y derecho) se vuelve un Flanco.\n
 
-    Un Operativo tanto Aliado como Enemigo, discute el flanco si cumple estos requisitos:
-    *Esta completamente dentro del territorio enemigo.
-    *Esta completamente en el Flanco (lado izquierdo o derecho).
-    *No esta en la zona de control de un Operativo enemigo.
-
+    Un Operativo tanto Aliado como Enemigo, discute el flanco si cumple estos requisitos:\n
+    \n
+    *Esta completamente dentro del territorio enemigo.\n
+    *Esta completamente en el Flanco (lado izquierdo o derecho).\n
+    *No esta en la zona de control de un Operativo enemigo.\n
+\n
     Un Operativo gana control del Flanco si tiene operativos en el Flanco enemigo con un valor
     total de APLs mayor al valol total de APLs del oponente en el mismo flanco y en tu territorio.
 
@@ -85,9 +85,10 @@ de control de un Operativo enemigo, o si ya esta cargando un token de recuperaci
     <string name="recon_03_victory"><![CDATA[
 
     Despues de revelar esta TacOp, al final de cada turno despues del primero, por cada Flanco
-    que controlen Operativos aliados, ganas 1VP.
-    si es el 4to turno, si Operativos aliados controlan un Flanco que hayan controlado desde
-    el final del 3er turno, ganas 2VP.
+    que controlen Operativos aliados, ganas 1VP.\n
+
+    Si es el 4to turno, si Operativos aliados controlan un Flanco que hayan controlado desde
+    el final del 3er turno, ganas 2VP.\n
 
     No puedes gamar mas de 2VP por turno con esta TacOp.
 
@@ -111,41 +112,36 @@ de control de un Operativo enemigo, o si ya esta cargando un token de recuperaci
     neutrales del mapa. Todos los Operativos en el juego puede hacer la accion **Pick Up** en ese marcador.
 
     \n\nUn Operativo no puede realizar esta accion durante el primer turno, si el Operativo esta en
-    rango de control de un Operativo enemigo, o si un Operativo aliado ya realizo la accion de PLANT BANNER.
+    rango de control de un Operativo enemigo, o si un Operativo aliado ya realizo la accion de **PLANT BANNER**.
 
 ]]></string>
     <string name="security_01_victory"><![CDATA[
 
     Al final de cada turno despues del primero, si tu marcador de bandera esta completamente dentro
     del territorio enemigo, y un Operativo aliado lo controla, ganas 1VP; si esto es verdad y no hay
-    Operativos enemigos disputando el marcador, ganas 2VP en su lugar.
+    Operativos enemigos disputando el marcador, ganas 2VP en su lugar.\n
     Tu marcador de bandera tiene que estar en el mapa para ganar puntos (no cuenta si esta siendo cargado por Operativos)
 
 ]]></string>
 
-    <string name="security_02_title"><![CDATA[
 
-    MARTIR
-
-]]></string>
     <string name="security_02_reveal"><![CDATA[
 
     La primera vez que un Operativo aliado es incapacitado mientras disputa un objetivo de mision.
 
 ]]></string>
     <string name="security_02_additional"><![CDATA[
-
     Cuando un Operativo aliado es incapacitado mientras disputa un objetivo de mision, ese objetivo
-    gana uno de tus marcadores de Martir. Note que esto solo pasa la primera vez que un Operativo
+    gana uno de tus marcadores de **Martir.** Note que esto solo pasa la primera vez que un Operativo
     es incapacitado (Ej Hierotek Circle).
 
 ]]></string>
     <string name="security_02_victory"><![CDATA[
 
-    Al final de cada turno despues del primero, si un Operativo aliado dispute un objetivo de mision,
-    que tenga uno o mas marcadores de Martir, puedes remover cualquiera de esos marcadores. Por cada marcador
-    que remuevas de esta forma, ganas 1VP; si el Operativo aliado tambien controla ese marcador, ganas
-    2VP en su lugar.
+    Al final de cada turno despues del primero, si un Operativo aliado disputa un objetivo de mision
+    que tenga uno o mas marcadores de **Martir**, puedes remover cualquiera de esos marcadores.\n
+    Por cada marcador que remuevas de esta forma, ganas 1VP; si el Operativo aliado tambien controla
+    ese marcador, ganas 2VP en su lugar.\n
     No puede ganar mas de 2VP por uso de esta TacOp por turno.
 
 ]]></string>
@@ -153,13 +149,13 @@ de control de un Operativo enemigo, o si ya esta cargando un token de recuperaci
 
     <string name="security_03_reveal"><![CDATA[
 
-    La primera vez que seleccionas a un Mensajero.
+    La primera vez que seleccionas a un Operativo como **Envoy**.
 
 ]]></string>
     <string name="security_03_additional"><![CDATA[
 
-    Como GAMBITO ESTRATEGICO en cada turno despues del primero, selecciona un Operativo aliado
-    para ser tu Mensajero hasta la Ready step del siguiente turno. No puedes seleccionar un Operativo
+    Como **STRATEGIC GAMBIT** en cada turno despues del primero, selecciona un Operativo aliado
+    para ser tu **Envoy** hasta el inicio del siguiente turno. No puedes seleccionar un Operativo
     que ya hayas seleccionado previamente en la batalla.
 
 ]]></string>

@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.data
 
+import com.example.killteamruleset.ui.data.Chaos.Blooded.BloodedOperativeSelection
 import com.example.killteamruleset.ui.data.Chaos.PlagueMarines.PlagueMarineOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.AngelsOfDeath.AngelsOfDeathOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.BattleClade.BattlecladeOperativeSelection
@@ -27,6 +28,7 @@ object OperativeSelectionRepository {
     private val rulesByTeam: Map<String, List<OperativeSelectionRule>> = mapOf(
         "angels_of_death" to AngelsOfDeathOperativeSelection,
         "battle_clade" to BattlecladeOperativeSelection,
+        "blooded" to BloodedOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,

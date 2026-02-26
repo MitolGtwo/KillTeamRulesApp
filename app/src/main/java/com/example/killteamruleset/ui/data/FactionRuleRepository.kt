@@ -82,11 +82,11 @@ object FactionRuleRepository {
                 ),
              
             FactionRule(
-                id = "wrecka_markers",
+                id = "celestian_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.celestian_tokens
                 ),
 
         ),
@@ -594,6 +594,24 @@ object FactionRuleRepository {
                 imageRes = R.drawable.wrecka_krew_tokens
                 ),
 
+        ),
+
+        //Blooded
+        "blooded" to listOf(
+            FactionRule(
+                id = "blooded",
+                title = "BLOODED",
+                lore = R.string.blooded_lore,
+                ruleText = R.string.blooded_description,
+
+                ),
+            FactionRule(
+                id = "blooded_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.blooded_tokens
+            ),
         ),
 
         "plague_marines" to listOf(

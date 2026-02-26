@@ -13,7 +13,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val AssaultIntercessorWarrior = Operative(
     name = "Assault Intercessor Warrior",
-    imageRes = R.drawable.plague_bombardier,
+    imageRes = R.drawable.aod_assintercessor_warrior,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

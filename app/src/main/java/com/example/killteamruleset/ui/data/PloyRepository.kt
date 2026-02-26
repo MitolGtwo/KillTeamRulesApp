@@ -1221,6 +1221,71 @@ object PloyRepository {
         ),
 
 
+
+        "blooded" to listOf(
+            // ── Blooded  STRATEGY ──
+            Ploy(
+                id = "glory_kill",
+                name ="GLORY KILL",
+                type = PloyType.STRATEGY,
+                lore = R.string.glory_kill_lore,
+                description = R.string.glory_kill_description
+            ),
+            Ploy(
+                id = "reckless_aspirant",
+                name = "RECKLESS ASPIRANT",
+                type = PloyType.STRATEGY,
+                lore = R.string.reckless_aspirant_lore,
+                description = R.string.reckless_aspirant_description
+            ),
+            Ploy(
+                id = "malevolent_grit",
+                name = "MALEVOLENT GRIT",
+                type = PloyType.STRATEGY,
+                lore = R.string.malevolent_grit_lore,
+                description = R.string.malevolent_grit_description
+            ),
+            Ploy(
+                id = "bitter_demise",
+                name = "BITTER DEMISE",
+                type = PloyType.STRATEGY,
+                lore = R.string.bitter_demise_lore,
+                description = R.string.bitter_demise_description
+            ),
+
+
+            // ── Blooded FIREFIGHT ──
+            Ploy(
+                id = "callous_disregard",
+                name = "CALLOUS DISREGARD",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.callous_disregard_lore,
+                description = R.string.callous_disregard_description
+            ),
+            Ploy(
+                id = "moment_of_repute",
+                name = "MOMENT OF REPUTE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.moment_of_repute_lore,
+                description = R.string.moment_of_repute_description
+            ),
+            Ploy(
+                id = "reward_earned",
+                name = "REWARD EARNED",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.reward_earned_lore,
+                description = R.string.reward_earned_description
+            ),
+            Ploy(
+                id = "dark_favour",
+                name = "DARK FAVOUR",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.dark_favour_lore,
+                description = R.string.dark_favour_description
+            )
+        ),
+
+
         "plague_marines" to listOf(
             // ── PLAGUE MARINES STRATEGY ──
             Ploy(

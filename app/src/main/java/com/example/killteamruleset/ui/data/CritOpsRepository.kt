@@ -11,7 +11,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_1",
             number = 1,
-            title = R.string.crit_op_1_title,
+            title = "Secure",
             missionActions = listOf(
                 Ability(
                 title = null,
@@ -26,7 +26,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_2",
             number = 2,
-            title = R.string.crit_op_2_title,
+            title = "Loot",
             missionActions = listOf(
                 Ability(
                 title = null,
@@ -41,7 +41,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_3",
             number = 3,
-            title = R.string.crit_op_3_title,
+            title = "Transmission",
             missionActions = listOf(
                 Ability(
                 title = null,
@@ -56,7 +56,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_4",
             number = 4,
-            title = R.string.crit_op_4_title,
+            title = "Orb",
             missionActions = listOf(
                 Ability(
                 title = null,
@@ -71,7 +71,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_5",
             number = 5,
-            title = R.string.crit_op_5_title,
+            title = "Stake Claim",
             additionalRules = R.string.crit_op_5_aditional,
             victoryPoints = R.string.crit_op_5_victory
         ),
@@ -79,7 +79,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_6",
             number = 6,
-            title = R.string.crit_op_6_title,
+            title = "Energy Cells",
             additionalRules = R.string.crit_op_6_aditional,
             victoryPoints = R.string.crit_op_6_victory
         ),
@@ -87,7 +87,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_7",
             number = 7,
-            title = R.string.crit_op_7_title,
+            title = "Download",
             missionActions =listOf(
                 Ability(
                 title = null,
@@ -101,7 +101,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_8",
             number = 8,
-            title = R.string.crit_op_8_title,
+            title = "Data",
             missionActions = listOf(
                 Ability(
                     title = null,
@@ -120,7 +120,7 @@ object CritOpsRepository {
         CritOp(
             id = "critop_9",
             number = 9,
-            title = R.string.crit_op_9_title,
+            title = "Reboot",
             missionActions =listOf(
                 Ability(
                 title = null,

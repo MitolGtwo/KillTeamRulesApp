@@ -42,7 +42,8 @@ object TacOpRepository {
             reveal = R.string.recon_03_reveal,
             additionalRules = R.string.recon_03_additional,
 
-            victoryPoints = R.string.recon_03_victory
+            victoryPoints = R.string.recon_03_victory,
+            imageRes = R.drawable.flank_example
         ),
         // SECURITY
 
@@ -94,7 +95,7 @@ object TacOpRepository {
             title = "ROUTE",
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_02_reveal,
-            additionalRules = R.string.seek_and_destroy_02_additional,
+            additionalRules = null,
             victoryPoints = R.string.seek_and_destroy_02_victory
         ),
         TacOp(
@@ -130,7 +131,7 @@ object TacOpRepository {
                 title = "PLANT DEVICE",
                 usage = R.string.infiltration_03_usage,
                 description =R.string.infiltration_03_description),
-            additionalRules = R.string.infiltration_03_additional,
+            additionalRules = null,
             victoryPoints = R.string.infiltration_03_victory
         ),
     )

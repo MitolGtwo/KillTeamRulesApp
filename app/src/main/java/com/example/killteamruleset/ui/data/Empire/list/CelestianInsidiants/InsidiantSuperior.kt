@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val InsidiatSuperior: Operative
     get() = Operative(
         name = "Insidiat Superior",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.celestian_superior,
         stats = OperativeStats(
             apl = 3,
             move = "6\"",

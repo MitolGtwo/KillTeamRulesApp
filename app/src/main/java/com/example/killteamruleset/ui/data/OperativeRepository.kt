@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.data
 
+import com.example.killteamruleset.ui.data.Chaos.Blooded.BlooodedOperatives
 import com.example.killteamruleset.ui.data.Chaos.PlagueMarines.PlagueMarinesOperatives
 import com.example.killteamruleset.ui.data.Empire.list.AngelsOfDeath.aodOperatives
 import com.example.killteamruleset.ui.data.Empire.list.BattleClade.BattlecladeOperatives
@@ -28,6 +29,7 @@ object OperativeRepository {
         return when (teamId) {
             "angels_of_death" -> aodOperatives
             "battle_clade" -> BattlecladeOperatives
+            "blooded" -> BlooodedOperatives
             "celestian_insidiants" -> CelestianOperatives
             "death_Korps" -> DeathKorpsOperatives
             "deathwatch" -> DeathWatchOperatives

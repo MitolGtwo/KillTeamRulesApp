@@ -6,9 +6,6 @@
     <string name="recon_01_reveal">
         The first time a friendly Operative performs the Scout action.
     </string>
-    <string name="recon_01_atitle">
-        SCOUT
-    </string>
     <string name="recon_01_usage">
         1 AP / Firefight Phase
     </string>
@@ -30,9 +27,7 @@ turning point, or while within control range of an enemy Operative.
     <string name="recon_02_reveal">
         The first time you score VP from this TacOp.
     </string>
-    <string name="recon_02_atitle">
-        RETRIEVE
-    </string>
+
     <string name="recon_02_usage">
         1 APL / Firefight Phase
     </string>
@@ -83,9 +78,7 @@ or while within control range of an enemy Operative, or if its already carrying 
     <string name="security_01_reveal">
         When you perform the Plant Banner action.
     </string>
-    <string name="security_01_atitle">
-        PLANT BANNER
-    </string>
+
     <string name="security_01_usage">
         1 APL / Firefight Phase
     </string>
@@ -108,27 +101,26 @@ this action during the battle.
                      being carried).
     </string>
 
-    <string name="security_02_title">
-        MARTYRS
-    </string>
+
     <string name="security_02_reveal">
         The first time a friendly Operative is incapacitated while contesting an objective marker.
     </string>
     <string name="security_02_additional">
        <![CDATA[Whenever a friendly Operative is incapacitated while contesting an objective marker, that marker
         gains one of your Martyr tokens. Note that this is only the first time each Operative is incapacitated
-        (Ex Hierotek Circle).
+        (Ex Hierotek Circle).\n
 
-        As a <b>STRATEGIC GAMBIT</b> in each turning point after the first, select
+        As a **STRATEGIC GAMBIT** in each turning point after the first, select
                      one friendly Operative to be your Envoy until the Ready step of the next
                      Strategy phase. You cannot select an Operative you selected during a previous
-                     turning point.]]>
+                     turning point.
+]]>
     </string>
     <string name="security_02_victory">
         <![CDATA[At the end of each turning point after the first, if a friendly Operative
                      contest an objective marker that has one or more of your Martyr tokens, you can
                      remove any of those tokens. For each token you remove this way, you score 1VP;
-                    if friendly operatives also control that marker, you score 2VP instead.
+                    if friendly operatives also control that marker, you score 2VP instead.\n
                     You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
@@ -157,9 +149,7 @@ this action during the battle.
                      marker, or the first time a friendly Operative performs the Clear action(whichever
                      comes first)]]>
     </string>
-    <string name="seek_and_destroy_01_atitle">
-        CLEAR
-    </string>
+
     <string name="seek_and_destroy_01_usage">
         1 APL / Firefight Phase
     </string>
@@ -167,7 +157,7 @@ this action during the battle.
         <![CDATA[
 An objective marker the active Operative controls is cleared for the turning point.
 
-\n\nOperative CANNOT perform this action during the first turning point, while
+\n\nOperative cannot perform this action during the first turning point, while
 within control range of an enemy Operative.
 ]]>
     </string>
@@ -180,7 +170,7 @@ within control range of an enemy Operative.
         <![CDATA[At the end of each turning point after the first, if friendly operatives
                      control any objective markers that have one of your Swept tokens, you score 1VP.
                      If this is true and any of those objective markers are also cleared, you score
-                     2VP instead. You cannot score more than 2VP from this TacOp per turning point.]]>
+                     2VP instead.\n You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
 
@@ -188,9 +178,6 @@ within control range of an enemy Operative.
         The first time you score VP from this TacOp
     </string>
 
-    <string name="seek_and_destroy_02_additional">
-        <![CDATA[None]]>
-    </string>
 
 
     <string name="seek_and_destroy_02_victory">
@@ -217,30 +204,29 @@ You cannot score more than 2VP from this TacOp per turning point.
     <string name="seek_and_destroy_03_victory">
         <![CDATA[At the end of the third and fourth turning point, you can remove Dominate
                      tokens from friendly Operatives that arent incapacitated. For each you remove,
-                    you score 1VP.
+                    you score 1VP.\n
 
                     You cannot score more than 3VP from this op per turning point.]]>
     </string>
 
 
     <string name="infiltration_01_reveal">
-        The first time you score VP from this TacOp.
+        The first time you score VP from this TacOp
     </string>
     <string name="infiltration_01_additional">
         <![CDATA[
 An enemy Operative is being tracked if its a valid target for a
-friendly Operative within 6\" of it. That friendly operative must have a Conceal
+friendly Operative within 6\" of it. That friendly operative must have a **Conceal**
 order, cannot be a valid target for the enemy Operative its attempting to Track
 , and cannot be within control range of enemy Operatives.
 ]]>
     </string>
     <string name="infiltration_01_victory">
-        <![CDATA[At the end of each turning point after the first:
-                    *If one enemy Operative is being tracked, you score 1VP, or 2VP instead if its the fourth turning point.
+        <![CDATA[At the end of each turning point after the first:\n
+        *If one enemy Operative is being tracked, you score 1VP, or 2VP instead if its the fourth turning point.\n
 
-                    *If two or more enemy Operatives are being tracked, you score 2VP.
-                    You cannot
-                    "score more than 2VP from this TacOp per turning point.]]>
+        *If two or more enemy Operatives are being tracked, you score 2VP.\n
+        You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>
 
 
@@ -250,7 +236,8 @@ order, cannot be a valid target for the enemy Operative its attempting to Track
     <string name="infiltration_02_additional">
         Whenever an enemy Operative is incapacitated, before its removed from
                      the killzone, place one of your Intelligence mission markers within its control
-                     range.\nFriendly Operatives can perform the Pick Up Marker action on your Intelligence
+                     range.\n
+        Friendly Operatives can perform the **Pick Up Marker** action on your Intelligence
                      mission markers, and for the purpose of that actions conditions, an Operative can
                      carry 2 Intelligence markers, or one other marker and one Intelligence marker.
     </string>
@@ -279,7 +266,7 @@ Operatives are carrying, you score 1VP.
         <![CDATA[
 One objective marker the active operative controls gains one of your Device tokens.
 
-\n\nAn Operative CANNOT perform this action during the first turning point, while within control
+\n\nAn Operative cannot perform this action during the first turning point, while within control
 range of an enemy Operative, or if that objective marker already has one of your Device tokens.
 ]]>
     </string>
@@ -287,10 +274,10 @@ range of an enemy Operative, or if that objective marker already has one of your
 NONE
 ]]></string>
     <string name="infiltration_03_victory">
-        <![CDATA[At the end of each turning point after the first:
-        *If your opponents objective marker has one of your Device tokens, you score 1VP.
+        <![CDATA[At the end of each turning point after the first:\n
+        *If your opponents objective marker has one of your Device tokens, you score 1VP.\n
         *For each other objective marker enemy Operatives contest that has one of your Device tokens
-        , you score 1VP.
+        , you score 1VP.\n
 
         You cannot score more than 2VP from this TacOp per turning point.]]>
     </string>

@@ -207,20 +207,20 @@ sus muertes solo sirven para endurecer la determinación de sus hermanas sobrevi
 ]]></string>
 
     <string name="martyrdoom_description"><![CDATA[
-Siempre que una Operativa **CELESTIAN INSIDIANT* aliada que esté **INSPIRING** es incapacitada, antes de que sea removida del Killzone, selecciona otra aliada
+Siempre que una Operativa **CELESTIAN INSIDIANT** aliada que esté **INSPIRING** es incapacitada, antes de que sea removida del Killzone, selecciona otra aliada
 **CELESTIAN INSIDIANT** a 6\" y que sea visible de esta Operativa.
 \n
 Luego, esa Operativa seleccionada gana una **BENEDICTION** (ningún Operativo incapacitado puede beneficiarse de una **BENEDICTION**).\n
-
-BENEDICTION   //  EFFECT
 \n
-Ardour        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.
+BENEDICTION   //  EFFECT\n
 \n
-Wrath         //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.
+Ardour        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.\n
 \n
-Restoration   //    Este Operativo recupera D3+2 Heridas perdidas.
+Wrath         //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.\n
 \n
-Exigence      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.
+Restoration   //    Este Operativo recupera D3+2 Heridas perdidas.\n
+\n
+Exigence      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.\n
 ]]></string>
 
 
@@ -230,16 +230,18 @@ energias maléficas.
     ]]></string>
 
     <string name="weapons_of_the_witch_hunters_description"><![CDATA[
-Armas **Psychic** de distancia no pueden infligir daño a Operativas  **CELESTIAN INSIDIANT**. Para efectos de acciones *Phychic**, aliadas **CELESTIAN INSIDIANT**
+Armas **Psychic** de distancia no pueden infligir daño a Operativas  **CELESTIAN INSIDIANT**. Para efectos de acciones **Psychic**, aliadas **CELESTIAN INSIDIANT**
 no pueden ser seleccionadas y no pueden ser tratadas como estando dentro de la distancia de dichos efectos. Cuando un Operativo Psyker está a 3\" de una **CELESTIAN INSIDIANT**:
 \n\n
-• Ese Operativo no puede realizar acciones *Psychic** o usar reglas *Psychic** adicionales.\n
+• Ese Operativo no puede realizar acciones **Psychic** o usar reglas **Psychic** adicionales.\n
+\n
 • Ese Operativo no puede usar armas *Psychic** de rango.\n
+\n
 • Armas de melee *Psychic** no tiene reglas especiales, y no puede hacer daño mayor a 3/4.\n
 \n
 Algunas armas de este equipo tienen la regla **Anti-PSYKER**.\n
-
-*Anti-PSYKER**: Siempre que esta arma sea usada contra un Operativo con la Regla **PSYKER**, el arma gana Lethal 5+.
+\n
+* **Anti-PSYKER**: Siempre que esta arma sea usada contra un Operativo con la Regla **PSYKER**, el arma gana Lethal 5+.
     ]]></string>
 
     <string name="inspiration_lore"><![CDATA[

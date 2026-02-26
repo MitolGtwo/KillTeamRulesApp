@@ -45,8 +45,13 @@ fun AllianceSelectionScreen(
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
+                .statusBarsPadding(), // 👈 top safe
+            verticalArrangement = Arrangement.spacedBy(16.dp),
+            contentPadding = PaddingValues(
+                start = 16.dp,
+                end = 16.dp,
+                top = 16.dp,
+                bottom = 96.dp )//
         ) {
 
             item {

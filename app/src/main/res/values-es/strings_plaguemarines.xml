@@ -226,9 +226,6 @@ enemigo, o mas de una vez por turno.
         Operativos **PLAGUE MARINES** aliados tiene la siguiente arma de disparo (no puedes usarla mas de 2 veces por batalla).
 ]]></string>
 
-    <string name="plague_rounds"><![CDATA[
-        BALAS ENVENENADAS
-]]></string>
 
     <string name="plague_rounds_lore"><![CDATA[
        Toxinas viles emanan de estos projectiles, cualquiera impactado por estos se vera infectado con una plaga mortal.
@@ -238,11 +235,6 @@ enemigo, o mas de una vez por turno.
         Los Boltguns y Bolt Pistols de Operativos **PLAGUE MARINES** aliados tienen las claves Poison y Severe.
 ]]></string>
 
-    <string name="plague_poison_vents"><![CDATA[
-
-        VENTILADORES DE VENENO
-
-]]></string>
 
     <string name="plague_poison_vents_lore"><![CDATA[
         Al activar la ventilacion en su armadura de poder, Plague Marines liberan nubes de humos enfermizos que ocluyen los pulmones de enemigos cercanos.
@@ -275,11 +267,7 @@ enemigo, o mas de una vez por turno.
         Cada Operativo **PLAGUE MARINE** puede hacer un counteract, independientemente de su orden.
 ]]></string>
 
-    <string name="plague_poison"><![CDATA[
 
-        VENENO
-
-]]></string>
 
     <string name="plague_poison_lore"><![CDATA[
         Nurgle genera venenos impregandos con el mismo inmaterium, toxinas y plagas que envenenan la misma alma, y desafian cualquier intervencion medica.
@@ -297,11 +285,7 @@ enemigo, o mas de una vez por turno.
 
 
 
-    <string name="plague_disgustingly_resilent"><![CDATA[
 
-        DESAGRADABLEMENTE RESISTENTE
-
-]]></string>
 
     <string name="plague_disgustingly_resilent_lore"><![CDATA[
         Los adoradores de Nurgle poseen una resistencia extrema a balas y espadas, pues sus repugnantes formas estan hinchadas por muerte, enfermedades y pobredumbre.
@@ -317,11 +301,6 @@ enemigo, o mas de una vez por turno.
 
     <!--/Strategic Ploy Plague marines-->
 
-    <string name="plague_contagion"><![CDATA[
-
-        CONTAGION
-
-]]></string>
 
     <string name="plague_contagion_lore"><![CDATA[
         Plague Marines supuran contangio, sus horribles formas emanan miasma de decadencia capaz de drenar el vigor de sus enemigos.
@@ -336,11 +315,6 @@ enemigo, o mas de una vez por turno.
         *Es visible y esta a 3\" de un **PLAGUE MARINE ICON BEARER** aliado.
 ]]></string>
 
-    <string name="plague_lumbering_death"><![CDATA[
-
-        MUERTE DEAMBULANDO
-
-]]></string>
 
     <string name="plague_lumbering_lore"><![CDATA[
         Plague Marines son metodicos y despreocupados al acercarse a la batalla, avanzanzo y disparando con implacable determinacion.
@@ -352,9 +326,6 @@ enemigo, o mas de una vez por turno.
         armas obtienen la regla Ceaselesss.
 ]]></string>
 
-    <string name="plague_cloud_flies"><![CDATA[
-        NUBE DE MOSCAS
-]]></string>
 
     <string name="plague_cloud_flies_lore"><![CDATA[
         Asquerosas moscas vuelan en el campo de batalla, ocultando los cuerpos de Plague Marines y absorbiendo parte de los projectiles enemigos.
@@ -367,11 +338,7 @@ enemigo, o mas de una vez por turno.
         remueve ese marcador.
 ]]></string>
 
-    <string name="plague_nurglings"><![CDATA[
 
-        NURGLINGS
-
-]]></string>
 
     <string name="plague_nurglings_lore"><![CDATA[
         Los pequeños daemons de nurgle, son maliciosos y juguetones, portan una sonrisa salvage mientras molestan enemigos de Plague Marines con garras y colmillos.
@@ -385,11 +352,6 @@ enemigo, o mas de una vez por turno.
 
     <!--/Firefight Ploy Plague marines-->
 
-    <string name="plague_virulent_poison"><![CDATA[
-
-        VENENO VIRULENTO
-
-]]></string>
 
     <string name="plague_virulent_poison_lore"><![CDATA[
         La mas potente de plagas del Gran Padre Nurgle se expanden en el aire, penetrando incluso
@@ -402,9 +364,6 @@ enemigo, o mas de una vez por turno.
         uno de tus tokens de Veneno (en caso de que no tenga uno).
 ]]></string>
 
-    <string name="plague_poisonous_demise"><![CDATA[
-        PERDICION VENENOSA
-]]></string>
 
     <string name="plague_poisonous_demise_lore"><![CDATA[
         Los cuerpos de Plague Marines estan llenos de incontables venenos y plagas, al morir sus formas inchadas pueden explotar, liberando toda la peste alrededor.
@@ -415,10 +374,6 @@ enemigo, o mas de una vez por turno.
         removerlo del campo. Cada Operativo enemigo visible y a 3\" de este Operativo gana uno de tus
         tokens de Veneno (si no tienen uno): por cada uno de esos enemigos que ya tengan un token de
         Veneno (incluyendo los que ganaron un token a causa de esta accion), inflinje 1 daño en su lugar.
-]]></string>
-
-    <string name="plague_sickening_resilence"><![CDATA[
-        RESILENCIA ENFERMIZA
 ]]></string>
 
     <string name="plague_sickening_resilence_lore"><![CDATA[
@@ -432,11 +387,7 @@ enemigo, o mas de una vez por turno.
         sustrae automaticamente 1 al daño recibido (hasta un minimo de 2), no necesitas lanzar un D6.
 ]]></string>
 
-    <string name="plague_curse_rot"><![CDATA[
 
-        MALDICION DE PUTREFACCION
-
-]]></string>
 
     <string name="plague_curse_rot_lore"><![CDATA[
         Entrar en combate contra un Plague Marine significa exponerse a contagio fisico y pobredumbre al alma.

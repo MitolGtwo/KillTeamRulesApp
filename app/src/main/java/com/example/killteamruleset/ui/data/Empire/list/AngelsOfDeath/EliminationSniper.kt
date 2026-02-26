@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val EliminatorSniper = Operative(
     name = "Eliminator Sniper",
-    imageRes = R.drawable.plague_bombardier,
+    imageRes = R.drawable.aod_elimination_sniper,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

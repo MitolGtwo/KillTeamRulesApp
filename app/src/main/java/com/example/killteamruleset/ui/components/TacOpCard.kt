@@ -1,6 +1,7 @@
 package com.example.killteamruleset.ui.components
 
 import android.R.id.title
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -11,7 +12,10 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -107,7 +111,7 @@ fun TacOpCard(
                 }
 
                 // ── ADDITIONAL RULES (OPTIONAL) ───────
-                tacOp.additionalRules?.let {
+                tacOp.additionalRules?.let { rulesRes ->
 
                     Spacer(Modifier.height(16.dp))
 
@@ -119,30 +123,44 @@ fun TacOpCard(
 
                     Spacer(Modifier.height(4.dp))
 
-                    tacOp.additionalRules?.let {
-                        AbilityDescriptionText(
-                            text = stringResource(it),
-                            enableKeywords = false
-                        )
-                    }
-
-                    // ── VICTORY POINTS (ALWAYS) ───────────
-                    Spacer(Modifier.height(16.dp))
-
-                    Text(
-                        text = "VICTORY POINTS",
-                        fontWeight = FontWeight.Bold,
-                        color = tacOp.archetype.bannerColor()
-                    )
-
-                    Spacer(Modifier.height(4.dp))
-
                     AbilityDescriptionText(
-                        text = stringResource(tacOp.victoryPoints),
+                        text = stringResource(rulesRes),
                         enableKeywords = false
                     )
                 }
+
+// ── VICTORY POINTS (ALWAYS) ───────────
+                Spacer(Modifier.height(16.dp))
+
+                Text(
+                    text = "VICTORY POINTS",
+                    fontWeight = FontWeight.Bold,
+                    color = tacOp.archetype.bannerColor()
+                )
+
+                Spacer(Modifier.height(4.dp))
+
+                AbilityDescriptionText(
+                    text = stringResource(tacOp.victoryPoints),
+                    enableKeywords = false
+                )
+
+                tacOp.imageRes?.let { resId ->
+
+                    Spacer(Modifier.height(16.dp))
+
+                    Image(
+                        painter = painterResource(resId),
+                        contentDescription = null,
+                        contentScale = ContentScale.Fit,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clip(RoundedCornerShape(8.dp))
+                    )
+                }
+
             }
         }
     }
 }
+

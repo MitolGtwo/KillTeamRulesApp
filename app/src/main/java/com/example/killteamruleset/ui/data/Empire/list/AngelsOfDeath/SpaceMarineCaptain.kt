@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val SpaceMarineCaptain = Operative(
     name = "Space Marine Captain",
-    imageRes = R.drawable.plague_bombardier,
+    imageRes = R.drawable.aod_captain,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",
