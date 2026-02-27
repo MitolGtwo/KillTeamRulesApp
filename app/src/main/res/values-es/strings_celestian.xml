@@ -293,7 +293,7 @@ esta **INSPIRING**: si cualquiera da un resultado de 6, ignora el daño de ese d
 
     <string name="auto_flagellator_lore"><![CDATA[
 Las Celestian Insidiants más devotas pueden portar dentro de sus armaduras de poder instrumentos de autoflagelacion. En tiempos de crisis estos dispositivos pueden
-hacerlas sufrir dolor agonizante, haciendo que su cuerpo y mente se enfoquen para realizar actos inspirantes de fanatismo.
+hacerlas sufrir dolor agonizante, haciendo que su cuerpo y mente se enfoquen para realizar actos inspirandores de fanatismo.
 ]]></string>
 
     <string name="auto_flagellator_description"><![CDATA[
@@ -336,7 +336,7 @@ Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, peleando o
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[
-De todas las armas en el arsenal de Celestian Insidiants, fe es el arma mas poderosa, mientras esta no se romba, estas guerreras pueden ignorar la mayoría de heridas
+De todas las armas en el arsenal de Celestian Insidiants, fe es el arma mas poderosa, mientras esta no se rompa, estas guerreras pueden ignorar la mayoría de heridas
 en una pelea.
 ]]></string>
 
@@ -383,7 +383,7 @@ Las Celestian Insidiants llevan el odio y la paranoia de su credo.
 
     <string name="fervent_hate_description"><![CDATA[
 Usa esta Firefight ploy después de lanzar tus dados de ataque para una **CELESTIAN INSIDIANT** aliada, si esta disparando, peleando o retaleando contra un Operativo
-enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS* y/o **PSYKER**, las armas ganan
+enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS** y/o **PSYKER**, las armas ganan
 Relentless en su lugar hasta el final de esa secuencia.
 ]]></string>
 
