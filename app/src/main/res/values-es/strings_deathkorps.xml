@@ -197,7 +197,7 @@ Si este Operativo no otorga una **GUARDSMAN ORDER** como **STRATEGIC GAMBIT**, p
 ]]></string>
 
     <string name="deathkorps_watchmaster_bring_description"><![CDATA[
-    Si este Operativo esta en el campo de batalla. Selecciona un Operativo enemigo. siempre que un Operativo **DEATHKORPS** dispare, pelee o retale contra ese Operativo enemigo,
+    **STRATEGIC GAMBIT**. Si este Operativo esta en el campo de batalla. Selecciona un Operativo enemigo. siempre que un Operativo **DEATHKORPS** dispare, pelee o retale contra ese Operativo enemigo,
         ese Operativo aliado **DEATHKORPS** gana la regla Punishing en todas sus armas.
 ]]></string>
 
