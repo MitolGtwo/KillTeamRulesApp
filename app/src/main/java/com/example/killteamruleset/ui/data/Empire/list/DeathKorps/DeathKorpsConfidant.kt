@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val DeathKorpsConfidant = Operative(
     name = "Death Korps Confidant",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.dk_confidant,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

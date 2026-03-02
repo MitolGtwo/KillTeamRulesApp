@@ -10,7 +10,7 @@
 ]]></string>
 
     <string name="celestian_shield_description"><![CDATA[
-Siempre que este Operativo esté peleando o retaleando con este perfil, cada uno de tus bloqueos a melee puede detener 2 resultados enemigos sin resolver (en lugar de uno).
+Siempre que este Operativo esté combatiendo o retaleando con este perfil, cada uno de tus bloqueos a melee puede detener 2 resultados enemigos sin resolver (en lugar de uno).
 ]]></string>
 
 
@@ -314,7 +314,7 @@ Despiadadas en su persecución, Celestian Insidiant son ágiles para condenar a 
 Selecciona un Operativo enemigo o un marcador. Si seleccionas un Operativo enemigo, ese Operativo y cada Operativo enemigo visibles y a 2\" de él ganan uno de tus
 Suspicion tokens hasta el final del turno. Si seleccionas un marcador, cada enemigo contestando ese marcador gana uno de tus Suspicion tokens hasta el final del turno.\n
 \n
-Cuando un Operativo **CELESTIAN INSIDIANT** aliado **Dispara** o **Pelea** contra un Operativo con uno de tus Suspicion tokens, las armas de Operativos aliados ganan la 
+Cuando un Operativo **CELESTIAN INSIDIANT** aliado **Dispara** o **Combata** contra un Operativo con uno de tus Suspicion tokens, las armas de Operativos aliados ganan la
         regla Punishing.
 ]]></string>
 
@@ -332,7 +332,7 @@ Las veteranas del campo de batalla son casi inmunes al dolor. Las heridas solo s
 ]]></string>
 
     <string name="suffering_sacrifice_description"><![CDATA[
-Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, peleando o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced. 
+Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, combatiendo o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced.
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[
@@ -341,7 +341,7 @@ en una pelea.
 ]]></string>
 
     <string name="holy_resilience_description"><![CDATA[
-Cuando una aliada **CELESTIAN INSIDIANT** estando **INSPIRING** esta peleando o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
+Cuando una aliada **CELESTIAN INSIDIANT** estando **INSPIRING** esta combatiendo o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
         Operativo aliado.
 ]]></string>
 
@@ -351,7 +351,7 @@ No hay mayor fuente de inspiración que la gloriosa muerte de un mártir.
 ]]></string>
 
     <string name="glory_to_the_martyrs_description"><![CDATA[
-Usa esta Firefight ploy cuando una Operativa **CELESTIAN INSIDIANT** es incapacitada mientras pelea o retalea. Puedes golpear el enemigo en esa secuencia con uno de
+Usa esta Firefight ploy cuando una Operativa **CELESTIAN INSIDIANT** es incapacitada mientras combate o retalea. Puedes golpear el enemigo en esa secuencia con uno de
 tus resultados sin resolver antes de ser removida del juego, si ese enemigo es incapacitado como resultado de esta regla, ese Operativo aliado es **INSPIRING** antes de
 ser removido del juego, esto con proposito de resolver la regla Martyrdom.
 ]]></string>
@@ -382,7 +382,7 @@ Las Celestian Insidiants llevan el odio y la paranoia de su credo.
 ]]></string>
 
     <string name="fervent_hate_description"><![CDATA[
-Usa esta Firefight ploy después de lanzar tus dados de ataque para una **CELESTIAN INSIDIANT** aliada, si esta disparando, peleando o retaleando contra un Operativo
+Usa esta Firefight ploy después de lanzar tus dados de ataque para una **CELESTIAN INSIDIANT** aliada, si esta disparando, combatiendo o retaleando contra un Operativo
 enemigo que no tenga la clave **IMPERIUM**. las armas de ese Operativo ganan la regla Ceaseless hasta el final de esa secuencia; si ese enemigo tiene la clave **CHAOS** y/o **PSYKER**, las armas ganan
 Relentless en su lugar hasta el final de esa secuencia.
 ]]></string>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Nemesis-->
+
+    <string name="prescience_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="prescience_description"><![CDATA[
+**PSYCHIC.** In the Ready step of each Strategy phase, you gain D3 Prescience points. At the end of
+each turning point, discard your Prescience points.
+You can spend your Prescience points in the Firefight phase as follows (you cannot use each of the
+following rules more than once per turning point):\n
+\n
+• Foreboding: **PSYCHIC**. Whenever it is your turn to activate a friendly operative, you can spend 1 of your Prescience points to
+skip that activation.\n
+\n
+• Portent: **PSYCHIC**. Whenever an attack dice inflicts Normal Dmg on this operative, you can spend 1 of your Prescience points to
+ignore that inflicted damage.\n
+\n
+You cannot gain or spend your Prescience points if this operative is incapacitated.
+    ]]></string>
+
+    <string name="nemesis_premonition_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="nemesis_premonition_description"><![CDATA[
+**PSYCHIC**. Spend 1 of your Prescience points to gain 1CP.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point.
+    ]]></string>
+
+    <string name="terrochem_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="terrochem_description"><![CDATA[
+In the Resolve Attack Dice step, if you inflict
+damage with any critical successes, the operative this weapon
+is being used against gains one of your Terrorchem tokens (if it
+does not already have one).
+    ]]></string>
+
+    <string name="terrochem_poison_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="terrochem_poison_description"><![CDATA[
+Whenever an operative that has one of your Terrorchem tokens is activated, inflict D3 damage on it.
+    ]]></string>
+
+    <string name="poison_objective_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="poison_objective_description"><![CDATA[
+Select one objective marker this operative controls to gain
+one of your Terrorchem tokens. It cannot be an objective
+marker within control range of an enemy operative, or one
+that already has one of your Terrorchem tokens. The first
+time that objective marker is within control range of an
+enemy operative that does not have one of your Terrorchem
+tokens, that operative gains that Terrorchem token, then
+inflict 2D3 damage on it (if it is during an action, at the end
+of that action).\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="screecher_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="screecher_description"><![CDATA[
+Whenever an enemy operative within 3\" of this
+operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice.
+    ]]></string>
+
+    <string name="appetite_for_cruelty_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="appetite_for_cruelty_description"><![CDATA[
+Whenever this operative is fighting against
+a wounded enemy operative, this operatives lightning claws have the Lethal 4+ weapon rule.
+    ]]></string>
+
+    <string name="flay_them_alive_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="flay_them_alive_description"><![CDATA[
+Once per turning point, when this operative
+incapacitates an enemy operative within its control range, you
+can select one other enemy operative visible to and within 6\" of
+either this operative or the incapacitated enemy operative. Until
+the start of the next turning point, that other enemy operative
+cannot control markers or perform the **Pick Up Marker** or
+mission actions.
+    ]]></string>
+
+    <string name="tyrant_skinning_pits_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tyrant_skinning_pits_description"><![CDATA[
+Whenever this operative is fighting
+or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it.
+    ]]></string>
+
+    <string name="nemesis_icon_bearer_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="nemesis_icon_bearer_description"><![CDATA[
+Whenever determining control of a marker, treat this operative’s
+APL stat as 1 higher. Note this
+is not a change to its APL stat, so any changes are cumulative with this.
+    ]]></string>
+
+    <string name="disconcerting_mimicry_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="disconcerting_mimicry_description"><![CDATA[
+**PSYCHIC.** Select one enemy operative within 6\" of this operative, then select one of the
+following for that enemy operative (you can only select each option once per battle):\n
+\n
+• Until the end of its next activation, subtract 1 from its APL stat.\n
+\n
+• Change its order.\n
+\n
+• Perform a free Dash action with it (specify the location for your opponent to move it to).\n\n
+
+This operative cannot perform this action while within control range of an enemy operative
+    ]]></string>
+
+    <string name="cruel_tormenter_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="cruel_tormenter_description"><![CDATA[
+Whenever this operative is shooting against,
+fighting against or retaliating against an injured enemy operative,
+or an enemy operative that has a Wounds stat of 7 or less, this
+operatives weapons have the Lethal 5+ weapon rule.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="nemesis_astartes_lore"><![CDATA[
+These genetically modified superhumans are made for one purpose: war.
+]]></string>
+
+    <string name="nemesis_astartes_description"><![CDATA[
+During each friendly **NEMESIS CLAW** operatives
+activation, it can perform either two **Shoot**
+actions or two **Fight** actions. If it’s two **Shoot**
+actions, a bolt pistol, boltgun or scoped bolt pistol
+must be selected for at least one of them.\n
+\n
+Each friendly **NEMESIS CLAW** operative can counteract regardless of its order.
+]]></string>
+
+    <string name="in_midnight_clad_lore"><![CDATA[
+Night Lords are one with the darkness, employing it as an ally and a weapon.
+]]></string>
+
+    <string name="in_midnight_clad_description"><![CDATA[
+Whenever an enemy operative is shooting a friendly **NEMESIS CLAW** operative, that friendly
+operative is obscured if both of the following are true:\n
+\n
+• It is more than 8\" from enemy operatives it is visible to.\n
+\n
+• It has Heavy terrain within its control range, or any part of its base is underneath
+Vantage terrain.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="flayed_skin_lore"><![CDATA[
+Bedecked with the bloody hides of butchered victims,
+the Night Lords inspire abject terror and revulsion in
+their enemies.
+]]></string>
+
+    <string name="flayed_skin_description"><![CDATA[
+Whenever an enemy operative is shooting
+against, fighting against or retaliating against a
+friendly **NEMESIS CLAW** operative within 2\" of
+it, your opponent cannot re-roll their attack dice results of 1.
+]]></string>
+
+    <string name="chain_snare_lore"><![CDATA[
+Composed of hooked blades attached to a length of
+chain, this weapon bites into the flesh or armour of the
+wielder’s target, preventing them from fleeing.
+]]></string>
+
+    <string name="chain_snare_description"><![CDATA[
+Whenever an enemy operative would perform
+the **Fall Back** action while within control range
+of a friendly **NEMESIS CLAW** operative, if no
+other enemy operatives are within that friendly
+operatives control range, you can use this rule.
+If you do, roll two D6, or one D6 if that enemy
+operative has a higher Wounds stat than that
+friendly operative. If any result is a 4+, that enemy
+operative cannot perform that action during that
+activation/counteraction (no AP are spent on it),
+and you cannot use this rule again during this
+turning point.
+]]></string>
+
+    <string name="grisly_trophy_lore"><![CDATA[
+Severed hands and limbs, eyeballs plucked from the
+skulls of screaming victims – these macabre trophies
+and more cause the Night Lords’ foes to waver.
+]]></string>
+
+    <string name="grisly_trophy_description"><![CDATA[
+Once per battle, when a friendly **NEMESIS CLAW**
+operative incapacitates an enemy operative
+within 2\" of it, you can use this rule. If you do, that
+friendly operative gains one of your Grisly Trophy
+tokens (if it does not already have one). Whenever
+a friendly **NEMESIS CLAW** operative that has
+one of your Grisly Trophy tokens is visible to and
+within 2\" of an enemy operative, subtract 1 from
+the Atk stat of that enemy operatives weapons.
+]]></string>
+
+    <string name="nemesis_comms_jammers_lore"><![CDATA[
+The Night Lords use jamming devices to sow chaos
+and confusion by preventing their panicked foes
+from communicating.
+]]></string>
+
+    <string name="nemesis_comms_jammers_description"><![CDATA[
+Whenever an enemy operative is within 3\" of a
+friendly **NEMESIS CLAW** operative, that enemy
+operatives APL stat cannot be added to. Note
+that this does not affect APL stats that have already been changed.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="we_have_come_for_you_lore"><![CDATA[
+The Night Lords strike their foes swiftly, utilising shock,
+awe and terror to brutalise the enemy before they can
+lift a blade in response.
+]]></string>
+
+    <string name="we_have_come_for_you_description"><![CDATA[
+Whenever a friendly **NEMESIS CLAW** operative
+is activated, if the first action it performs during
+that activation is the **Charge** action, when it
+ends its move during that action, you can inflict
+D3 damage on one enemy operative within its control range.
+]]></string>
+
+    <string name="the_black_hunt_lore"><![CDATA[
+A terrible malice burns within the twin hearts of each
+Night Lord, and they enjoy nothing more than toying with their wounded prey
+]]></string>
+
+    <string name="the_black_hunt_description"><![CDATA[
+Whenever a friendly **NEMESIS CLAW** operative
+is shooting against, fighting against or retaliating
+against a wounded enemy operative, you can
+re-roll one of your attack dice.
+]]></string>
+
+    <string name="preysight_lore"><![CDATA[
+The Night Lords seem able to sense the fear of cowering
+prey, hunting down the craven with unerring precision
+]]></string>
+
+    <string name="preysight_description"><![CDATA[
+Whenever you are selecting a valid target for a
+friendly **NEMESIS CLAW** operative, enemy
+operatives within 6\" of it cannot use Light terrain
+for cover. While this can allow such operatives to
+be targeted (assuming they are visible), it does not
+remove their cover save (if any).
+]]></string>
+
+    <string name="return_to_darkness_lore"><![CDATA[
+The Night Lords move from shadow to shadow with an
+agility and speed belied by their transhuman bulk.
+]]></string>
+
+    <string name="return_to_darkness_description"><![CDATA[
+One friendly **NEMESIS CLAW** operative
+can immediately perform a free **Fall Back** or
+**Reposition** action, but it must end that move
+with Heavy terrain within its control range, or
+any part of its base underneath Vantage terrain.
+In addition, it cannot move more than 4\" during
+that action and it cannot end that move closer
+to enemy operatives (in a killzone that uses the
+close quarters rules, e.g. Killzone: Tomb World,
+ignore Wall terrain when determining this).
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="nemesis_vox_scream_lore"><![CDATA[
+By modulating the frequency of their helm-mounted
+vox-units, Night Lord operatives can unleash a terrifying
+scream with the ability to stun an opponent.
+]]></string>
+
+    <string name="nemesis_vox_scream_description"><![CDATA[
+Use this firefight ploy when your opponent would
+activate an enemy operative that is visible to a
+friendly **NEMESIS CLAW** operative. Roll one D6;
+if the result is higher than that enemy operatives
+APL stat, your opponent cannot activate it during
+this activation; if the result is less than or equal
+to that enemy operatives APL stat, this ploy is not
+used, the CP spent on it is refunded and you
+cannot use this ploy again during this turning
+point. If there are no other enemy operatives
+eligible to be activated, this ploy has no effect.
+]]></string>
+
+    <string name="death_to_the_false_emperor_lore"><![CDATA[
+The Night Lords, like all Heretic Astartes, bear a
+particular hatred for the corpse-worshipping soldiers of
+the Imperium.
+]]></string>
+
+    <string name="death_to_the_false_emperor_description"><![CDATA[
+Use this firefight ploy after rolling your attack
+dice for a friendly **NEMESIS CLAW** operative,
+if it is shooting against, fighting against or
+retaliating against an enemy operative that has
+the **IMPERIUM** keyword. That friendly operatives
+weapons have the Ceaseless weapon rule
+until the end of that sequence; if that enemy
+operative also has the **ADEPTUS ASTARTES**
+keyword, that friendly operatives weapons have
+the Relentless weapon rule until the end of that
+sequence instead.
+]]></string>
+
+    <string name="proclivity_for_murder_lore"><![CDATA[
+Each brutal kill a Night Lord performs serves to feed
+their bloodlust and drives them to further acts of
+terrible violence.
+]]></string>
+
+    <string name="proclivity_for_murder_description"><![CDATA[
+Use this firefight ploy after a friendly **NEMESIS
+CLAW** operative incapacitates an enemy
+operative within its control range. That friendly
+operative can immediately perform a free **Charge**
+or **Dash** action (for the former, it cannot move
+more than 3\"), even if it is performed an action
+that prevents it from performing those actions.
+]]></string>
+
+    <string name="dirty_fighter_lore"><![CDATA[
+The Night Lords have no respect for the concept of
+honour and will use whatever underhanded tactics they
+deem necessary.
+]]></string>
+
+    <string name="dirty_fighter_description"><![CDATA[
+Use this firefight ploy when a friendly **NEMESIS CLAW** operative is retaliating, at the start of the
+Resolve Attack Dice step. You can resolve one of
+your successes before the normal order. If you do,
+you cannot resolve any other successes during
+that sequence.
+]]></string>
+
+</resources>

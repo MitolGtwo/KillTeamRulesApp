@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.data
 
+import androidx.annotation.Nullable
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.FactionRule
@@ -101,11 +102,11 @@ object FactionRuleRepository {
 
             ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "dk_tokens",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.dk_tokens
                 ),
 
         ),
@@ -596,6 +597,62 @@ object FactionRuleRepository {
 
         ),
 
+
+
+        //Chaos Cult
+        "chaos_cult" to listOf(
+            FactionRule(
+                id = "accursed_gifts",
+                title = "ACCURSED GIFTS",
+                lore = R.string.accursed_gifts_lore,
+                ruleText = R.string.accursed_gifts_description,
+                ),
+            FactionRule(
+                id = "gift1",
+                title = "1. Deformed Wings",
+                lore = R.string.gift1_lore,
+                ruleText = R.string.gift1_description,
+            ),
+            FactionRule(
+                id = "gift2",
+                title = "2. Fleet",
+                lore = R.string.gift2_lore,
+                ruleText = R.string.gift2_description,
+            ),
+            FactionRule(
+                id = "gift3",
+                title = "3. Chitinous",
+                lore = R.string.gift3_lore,
+                ruleText = R.string.gift3_description,
+            ),
+            FactionRule(
+                id = "gift4",
+                title = "4. Horned",
+                lore = R.string.gift4_lore,
+                ruleText = R.string.gift4_description,
+            ),
+            FactionRule(
+                id = "gift5",
+                title = "5. Sinewed",
+                lore = R.string.gift5_lore,
+                ruleText = R.string.gift5_description,
+            ),
+            FactionRule(
+                id = "gift6",
+                title = "6. Barbed",
+                lore = R.string.gift6_lore,
+                ruleText = R.string.gift6_description,
+            ),
+            FactionRule(
+                id = "mutation",
+                title = "MUTATION",
+                lore = R.string.mutation_lore,
+                ruleText = R.string.mutation_description,
+
+                ),
+        ),
+
+
         //Blooded
         "blooded" to listOf(
             FactionRule(
@@ -613,6 +670,312 @@ object FactionRuleRepository {
                 imageRes = R.drawable.blooded_tokens
             ),
         ),
+
+
+        "fellgor_ravagers" to listOf(
+            FactionRule(
+                id = "frenzy",
+                title = "FRENZY",
+                lore = R.string.frenzy_lore,
+                ruleText = R.string.frenzy_description,
+
+                ),
+            FactionRule(
+                id = "fellgor_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.fellgor_tokens
+            ),
+        ),
+
+
+
+        "gellepox_infected" to listOf(
+            FactionRule(
+                id = "techno_curse",
+                title = "TECHNO-CURSE",
+                lore = R.string.techno_curse_lore,
+                ruleText = R.string.techno_curse_description,
+                ),
+            FactionRule(
+                id = "barrelwarp",
+                title = "Barrelwarp",
+                lore = R.string.barrelwarp_lore,
+                ruleText = R.string.barrelwarp_description,
+            ),
+            FactionRule(
+                id = "screaming_rustpikes",
+                title = "Screaming Rustspikes",
+                lore = R.string.screaming_rustpikes_lore,
+                ruleText = R.string.screaming_rustpikes_description,
+            ),
+            FactionRule(
+                id = "viral_vox_static",
+                title = "Viral Vox-static",
+                lore = R.string.viral_vox_static_lore,
+                ruleText = R.string.viral_vox_static_description,
+            ),
+            FactionRule(
+                id = "faction_mutoid_vermin",
+                title = "MUTOID VERMIN",
+                lore = R.string.faction_mutoid_vermin_lore,
+                ruleText = R.string.faction_mutoid_vermin_description,
+            ),
+            FactionRule(
+                id = "nightmare_hulks",
+                title = "NIGHTMARE HULKS",
+                lore = R.string.nightmare_hulks_lore,
+                ruleText = R.string.nightmare_hulks_description,
+            ),
+            FactionRule(
+                id = "revoltingly_resilient",
+                title = "REVOLTINGLY RESILIENT",
+                lore = R.string.revoltingly_resilient_lore,
+                ruleText = R.string.revoltingly_resilient_description,
+            ),
+        ),
+
+
+
+        "goremongers" to listOf(
+            FactionRule(
+                id = "runes_of_khorne",
+                title = "RUNES OF KHORNE",
+                lore = R.string.runes_of_khorne_lore,
+                ruleText = R.string.runes_of_khorne_description,
+                ),
+            FactionRule(
+                id = "gore_tanks",
+                title = "GORE TANKS",
+                lore = R.string.gore_tanks_lore,
+                ruleText = R.string.gore_tanks_description,
+                imageRes = R.drawable.goremongers_bloodtank
+            ),
+            FactionRule(
+                id = "sanguavitae",
+                title = "SANGUAVITAE",
+                lore = R.string.sanguavitae_lore,
+                ruleText = R.string.sanguavitae_description,
+            ),
+            FactionRule(
+                id = "goremongers_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.goremongers_tokens
+            ),
+        ),
+
+        "legionaries" to listOf(
+            FactionRule(
+                id = "marks_of_chaos",
+                title = "MARKS OF CHAOS",
+                lore = R.string.marks_of_chaos_lore,
+                ruleText = R.string.marks_of_chaos_description,
+            ),
+            FactionRule(
+                id = "khorne",
+                title = "KHORNE",
+                lore = null,
+                ruleText = R.string.khorne_description,
+                imageRes = R.drawable.legio_khorne
+            ),
+            FactionRule(
+                id = "nurgle",
+                title = "NURGLE",
+                lore = null,
+                ruleText = R.string.nurgle_description,
+                imageRes = R.drawable.legio_nurgle
+            ),
+            FactionRule(
+                id = "slaanesh",
+                title = "SLAANESH",
+                lore = null,
+                ruleText = R.string.slaanesh_description,
+                imageRes = R.drawable.legio_slaanesh
+            ),
+            FactionRule(
+                id = "tzeentch",
+                title = "TZEENTCH",
+                lore = null,
+                ruleText = R.string.tzeentch_description,
+                imageRes = R.drawable.legio_tzeentch
+            ),
+            FactionRule(
+                id = "undivided",
+                title = "UNDIVIDED",
+                lore = null,
+                ruleText = R.string.undivided_description,
+                imageRes = R.drawable.legio_undivided
+            ),
+            FactionRule(
+                id = "legionaries_astartes",
+                title = "ASTARTES",
+                lore = R.string.legionaries_astartes_lore,
+                ruleText = R.string.legionaries_astartes_description
+            ),
+            FactionRule(
+                id = "goremongers_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.legionaries_tokens
+            ),
+        ),
+
+
+
+
+
+
+        "murderwing" to listOf(
+            FactionRule(
+                id = "jump_pack",
+                title = "JUMP PACK",
+                lore = R.string.jump_pack_lore,
+                ruleText = R.string.jump_pack_description,
+            ),
+            FactionRule(
+                id = "jump_pack_example",
+                title = "JUMP PACK EXAMPLE",
+                lore = null,
+                ruleText = R.string.jump_pack_example_description,
+                imageRes = R.drawable.jumpack
+            ),
+            FactionRule(
+                id = "boost_actions",
+                title = "BOOST ACTIONS",
+                lore = R.string.boost_actions_lore,
+                ruleText = R.string.boost_actions_description,
+            ),
+            FactionRule(
+                id = "boost_action_example",
+                title = "BOOST ACTIONS EXAMPLE",
+                ruleText = R.string.boost_actions_description,
+                imageRes = R.drawable.boost_action
+            ),
+            FactionRule(
+                id = "murderwing_astartes",
+                title = "ASTARTES",
+                lore = R.string.murderwing_astartes_lore,
+                ruleText = R.string.murderwing_astartes_description,
+            ),
+            FactionRule(
+                id = "murderwing_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.murderwing_tokens
+            ),
+        ),
+
+
+
+        "nemesis_claw" to listOf(
+            FactionRule(
+                id = "nemesis_astartes",
+                title = "ASTARTES",
+                lore = R.string.nemesis_astartes_lore,
+                ruleText = R.string.nemesis_astartes_description,
+
+                ),
+            FactionRule(
+                id = "in_midnight_clad",
+                title = "IN MIDNIGHT CLAD",
+                lore = R.string.in_midnight_clad_lore,
+                ruleText = R.string.in_midnight_clad_description,
+
+                ),
+            FactionRule(
+                id = "nemesis_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.nemesis_token
+            ),
+        ),
+
+
+        "warpcoven" to listOf(
+            FactionRule(
+                id = "boons_of_tzeentch",
+                title = "BOONS OF TZEENTCH",
+                lore = R.string.boons_of_tzeentch_lore,
+                ruleText = R.string.boons_of_tzeentch_description,
+
+                ),
+            FactionRule(
+                id = "incorporeal_sight",
+                title = "Incorporeal Sight",
+                lore = R.string.incorporeal_sight_lore,
+                ruleText = R.string.incorporeal_sight_description,
+
+                ),
+            FactionRule(
+                id = "time_walk",
+                title = "Time-Walk",
+                lore = R.string.time_walk_lore,
+                ruleText = R.string.time_walk_description,
+
+                ),
+            FactionRule(
+                id = "warp_echoes",
+                title = "Echoes from the Warp",
+                lore = R.string.warp_echoes_lore,
+                ruleText = R.string.warp_echoes_description,
+
+                ),
+            FactionRule(
+                id = "warp_swell",
+                title = "Warp Swell",
+                lore = R.string.warp_swell_lore,
+                ruleText = R.string.warp_swell_description,
+
+                ),
+            FactionRule(
+                id = "mutant_appendage",
+                title = "Mutant Appendage",
+                lore = R.string.mutant_appendage_lore,
+                ruleText = R.string.mutant_appendage_description,
+
+                ),
+            FactionRule(
+                id = "immaterial_flight",
+                title = "Immaterial Flight",
+                lore = R.string.immaterial_flight_lore,
+                ruleText = R.string.immaterial_flight_description,
+
+                ),
+            FactionRule(
+                id = "twist_of_fate",
+                title = "Twist of Fate",
+                lore = R.string.twist_of_fate_lore,
+                ruleText = R.string.twist_of_fate_description,
+
+                ),
+            FactionRule(
+                id = "master_immaterium",
+                title = "Master of the Immaterium",
+                lore = R.string.master_immaterium_lore,
+                ruleText = R.string.master_immaterium_description,
+
+                ),
+            FactionRule(
+                id = "nemesis_astartes",
+                title = "ASTARTES",
+                lore = R.string.nemesis_astartes_lore,
+                ruleText = R.string.nemesis_astartes_description,
+
+                ),
+            FactionRule(
+                id = "warpcoven_astartes",
+                title = "ASTARTES",
+                lore = R.string.warpcoven_astartes_lore,
+                ruleText = R.string.warpcoven_astartes_description,
+            ),
+        ),
+
 
         "plague_marines" to listOf(
             FactionRule(

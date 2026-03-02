@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Blooded-->
+
+    <string name="blooded_grenadier_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="blooded_grenadier_description"><![CDATA[
+This operative can use frag and krak grenades (see
+universal equipment). Doing so does not count towards any
+limited uses you have (i.e. if you also select those grenades from
+equipment for other operatives). Whenever it is doing so, improve
+the Hit stat of that weapon by 1.
+    ]]></string>
+
+    <string name="explosive_demise_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="explosive_demise_description"><![CDATA[
+If this operative is incapacitated, before it is
+removed from the killzone, you can use this rule. If you do, roll
+two D6, or one D6 if this operative is within control range of an
+enemy operative. If any result is a 4+, inflict D3+2 damage on
+each operative visible to and within 2\" of this operative (roll
+separately for each). If this operative has not used its diabolyk
+bomb during the battle, inflict D6+2 damage instead.
+    ]]></string>
+
+
+    <string name="blooded_icon_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="blooded_icon_description"><![CDATA[
+Once per turning point, when a friendly
+**BLOODED** operative that has one of your Blooded tokens is
+incapacitated, if this operative is within 6\" of it, you can regain
+that token.
+    ]]></string>
+
+    <string name="lead_with_strength_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="lead_with_strength_description"><![CDATA[
+Whenever this operative has one of your
+Blooded tokens or is wholly within your opponents territory,
+treat it as if it is under the **GAZE OF THE GODS**.
+    ]]></string>
+
+    <string name="unholy_sustenance_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="unholy_sustenance_description"><![CDATA[
+Whenever this operative is fighting or
+retaliating, if it incapacitates the enemy operative in that
+sequence, it regains up to D3 lost wounds. This is cumulative
+with the Symbols of Bloody Worship equipment.
+    ]]></string>
+
+    <string name="blood_offering_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="blood_offering_description"><![CDATA[
+Whenever this operative is fighting or retaliating
+with this weapon, the first time you strike with a critical success
+during that sequence, you gain one Blooded token.
+    ]]></string>
+
+    <string name="regular_dosage_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="regular_dosage_description"><![CDATA[
+At the end of the Select
+Operatives step, if this operative is
+selected for deployment, you can select
+one other friendly **BLOODED** operative
+to gain one **STIMM** rule for the battle
+(excluding Rejuvenated).\n
+\n
+**STIMM RULES:**\n
+\n
+• Rejuvenated: The operative regains up to 2D3 lost wounds.\n
+\n
+• Enraged: The operatives melee weapons have the Relentless weapon rule.\n
+\n
+• Fortified: Whenever an attack dice inflicts damage of 3 or more on the operative, roll
+one D6: on a 5+, subtract 1 from that inflicted damage
+    ]]></string>
+
+    <string name="stimms_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="stimms_description"><![CDATA[
+Select one friendly **BLOODED** operative within this
+operatives control range, then select the Rejuvenated
+**STIMM** rule, or one other **STIMM** rule for that operative to
+have for the battle. You cannot select each **STIMM** rule for
+each operative more than once per battle.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="blooded_signal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="blooded_signal_description"><![CDATA[
+**SUPPORT.** Select one other friendly **BLOODED**
+operative (excluding **OGRYN**) visible to and within 6\" of this
+operative. Until the end of that operative’s next activation,
+add 1 to its APL stat.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="sacrilegious_actuation_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="sacrilegious_actuation_description"><![CDATA[
+You gain one Blooded token.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative, or if it does not have one of your
+Blooded tokens.
+    ]]></string>
+
+    <string name="gruelling_disciplinarian_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="gruelling_disciplinarian_description"><![CDATA[
+• Whenever a friendly **BLOODED** operative is within 6\" of this
+operative, you can ignore any changes to that operatives stats
+from being injured (including its weapons stats).\n
+\n
+• Whenever a friendly **BLOODED** operative is activated
+within 6\" of this operative, you can ignore any changes to
+that operatives stats from being injured until the end of its
+activation (including its weapons’ stats).
+    ]]></string>
+
+    <string name="enforce_usage"><![CDATA[
+
+        1AP
+
+    ]]></string>
+
+    <string name="enforce_description"><![CDATA[
+Select one other friendly **BLOODED** operative visible
+to and within 3\" of this operative. That operative can
+immediately perform a 1AP action for free, but it cannot
+move more than 2\" during that action. If the selected
+friendly operative is a **COMMSMAN**, it cannot perform the
+**Sacrilegious Actuation** or **Signal** actions.\n\n
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="stalk_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="stalk_description"><![CDATA[
+Whenever this operative is fighting or retaliating with this
+weapon, if Light or Heavy terrain is within its control range, this
+weapon has the Lethal 5+ weapon rule.
+    ]]></string>
+
+    <string name="wretched_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="wretched_description"><![CDATA[
+This operative can perform the **Charge** action while
+it has a **Conceal** order. If this operative is incapacitated during
+the **Fight** action, you can strike the enemy operative in that
+sequence with one of your unresolved successes before this
+operative is removed from the killzone
+    ]]></string>
+
+    <string name="chem_enhance_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="chem_enhance_description"><![CDATA[
+ You can ignore any changes to this operatives
+APL stat and it is not affected by enemy operatives Shock and
+Stun weapon rules.
+    ]]></string>
+
+    <string name="avalanche_muscle_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="avalanche_muscle_description"><![CDATA[
+Whenever this operative ends its move
+during the **Charge** action, you can inflict D3 damage on one
+enemy operative within its control range.
+    ]]></string>
+
+    <string name="blooded_camo_cloak_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="blooded_camo_cloak_description"><![CDATA[
+Whenever an operative is shooting this operative,
+if you can retain any cover saves, you can retain one additional
+cover save. This is not cumulative with improved cover saves from
+Vantage terrain.
+    ]]></string>
+
+    <string name="a_name_whispered_in_blood_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="a_name_whispered_in_blood_description"><![CDATA[
+**STRATEGIC GAMBIT** in the
+first turning point. Select one enemy operative. Whenever this
+operative is shooting that enemy operative, treat this operative
+as if it has one of your Blooded tokens and is under the **GAZE
+OF THE GODS.**
+    ]]></string>
+
+    <string name="tough_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="tough_description"><![CDATA[
+Whenever this operative is fighting or retaliating, or an
+operative is shooting it, Normal Dmg of 3 or more inflicts 1 less
+damage on it.
+    ]]></string>
+
+    <string name="blooded_shield_usage"><![CDATA[
+
+        Special Weapon Rule
+
+    ]]></string>
+
+    <string name="blooded_shield_description"><![CDATA[
+Whenever this operative is fighting or retaliating with
+this weapon, each of your blocks can be allocated to block two
+unresolved successes (instead of one).
+    ]]></string>
+
+    <string name="shielding_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="shielding_description"><![CDATA[
+Whenever this operative is activated, you can use this
+rule. If you do, until the start of this operative’s next activation:\n
+\n
+• Subtract 2" from its Move stat.\n
+\n
+• Whenever an operative is shooting this operative, you can
+re-roll any of your defence dice.
+    ]]></string>
+
+    <string name="blooded_group_activation_usage"><![CDATA[
+
+        Passive
+
+    ]]></string>
+
+    <string name="blooded_group_activation_description"><![CDATA[
+Whenever this operative is expended, you
+must then activate one other ready friendly **BLOODED
+TROOPER** operative (if able) before your opponent activates.
+When that other operative is expended, your opponent then
+activates as normal (in other words, you cannot activate more
+than two operatives in succession with this rule).
+    ]]></string>
+    <!--Faction Rules-->
+
+    <string name="blooded_lore"><![CDATA[
+The Blooded seek to earn the favour of malign warp
+entities by hurling themselves into combat and slaying
+the most potent foes. Should they die in the attempt,
+their souls may serve as acceptable sacrifices.
+]]></string>
+
+    <string name="blooded_description"><![CDATA[
+You gain one Blooded token:\n
+\n
+• In the Ready step of each Strategy phase.\n
+\n
+• The first time an enemy operative is incapacitated during each turning point.\n
+\n
+• The first time a friendly operative is incapacitated within 6\" of an enemy operative
+during each turning point.\n
+\n
+As a **STRATEGIC GAMBIT**, you can assign any
+of your unassigned Blooded tokens to friendly
+**BLOODED** operatives. Each operative cannot
+have more than one of your Blooded tokens.
+Then, if four or more friendly operatives in the
+killzone have one of your Blooded tokens, you can
+select one of them to be under the **GAZE OF THE
+GODS** until the end of the turning point.\n
+\n
+Whenever a friendly **BLOODED** operative has
+one of your Blooded tokens, its weapons have
+the Accurate 1 weapon rule. If that friendly
+**BLOODED** operative is under the **GAZE OF
+THE GODS**, you can retain one of your normal
+successes as a result of the Accurate 1 weapon
+rule as a critical success instead.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="chaos_sigil_lore"><![CDATA[
+The disquieting sigils carried by the Blooded bend
+reality and thin the veil between realspace and the
+ever-shifting tides of the warp.
+]]></string>
+
+    <string name="chaos_sigil_description"><![CDATA[
+The Reward Earned firefight ploy costs you 0CP.
+]]></string>
+
+    <string name="sinister_trophies_lore"><![CDATA[
+The Blooded adorn their armour with severed heads
+affixed to rusty spikes, cloaks and tabards of flayed skin,
+and all manner of other grisly trophies hacked from the
+corpses of their victims.
+]]></string>
+
+    <string name="sinister_trophies_description"><![CDATA[
+Whenever an enemy operative is shooting
+against, fighting against or retaliating against
+a friendly **BLOODED** operative that has one of
+your Blooded tokens and is within 2\" of it, your
+opponent cannot re-roll their attack dice results
+of 1
+]]></string>
+
+    <string name="symbols_of_worship_lore"><![CDATA[
+Desperate to garner the favour of malefic warp entities,
+the Blooded will daub their armour with bloody runes
+and take risks to be imbued with malevolent power.
+]]></string>
+
+    <string name="symbols_of_worship_description"><![CDATA[
+Whenever a friendly **BLOODED** operative ends
+an action, if it was not incapacitated but inflicted
+damage on any enemy operatives during that
+action, it regains 1 lost wound.
+]]></string>
+
+    <string name="wicked_blades_lore"><![CDATA[
+The Ruinous Powers respect nothing so much as the
+lethal arena of close combat, and so the Blooded seek
+to plunge their wickedly sharp weapons into the flesh of
+their foes.
+]]></string>
+
+    <string name="wicked_blades_description"><![CDATA[
+Add 1 to both Dmg stats of each friendly
+**BLOODED** operatives bayonet, bayonet & shield
+and improvised blade for the battle.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="glory_kill_lore"><![CDATA[
+By bringing down the strongest and most capable of
+enemies, the Blooded may provide a worthy offering to
+the Ruinous Powers.
+]]></string>
+
+    <string name="glory_kill_description"><![CDATA[
+Select one enemy operative visible to a friendly
+**BLOODED** operative. Until the end of the turning
+point, whenever a friendly **BLOODED** operative
+is shooting against, fighting against or retaliating
+against that enemy operative, that shooting,
+fighting or retaliating operatives weapons have
+the Ceaseless weapon rule, or Relentless if it has
+one of your Blooded tokens.
+]]></string>
+
+    <string name="reckless_aspirant_lore"><![CDATA[
+No coward can earn glory. The Blooded are willing to
+risk life and limb in pursuit of malefic warp powers.
+]]></string>
+
+    <string name="reckless_aspirant_description"><![CDATA[
+Whenever a friendly **BLOODED** operative
+that is wholly within your opponents territory
+and does not have one of your Blooded tokens
+is shooting or fighting, its weapons have the
+Accurate 1 weapon rule.\n
+\n
+Whenever a friendly **BLOODED** operative that
+has one of your Blooded tokens is wholly within
+your opponents territory, its weapons have the
+Punishing weapon rule.
+]]></string>
+
+    <string name="malevolent_grit_lore"><![CDATA[
+Those that have earned the favour of the Dark Gods of
+Chaos may draw upon the warp to predict and avoid the
+bullets of their foes.
+]]></string>
+
+    <string name="malevolent_grit_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**BLOODED** operative that has one of your
+Blooded tokens or is wholly within your
+opponents territory, you can re-roll one of your
+defence dice.
+]]></string>
+
+    <string name="bitter_demise_lore"><![CDATA[
+Consumed by hatred, the Blooded spit, curse and lash
+out as they die, screaming aggrieved words of heresy as
+they land a final strike upon the foe.
+]]></string>
+
+    <string name="bitter_demise_description"><![CDATA[
+Whenever a friendly **BLOODED** operative is
+incapacitated, before it is removed from the
+killzone, roll one D3: on a 3 (or 2+ if that friendly
+operative has one of your Blooded tokens),
+inflict damage equal to the result on one
+enemy operative visible to and within 2\" of that
+friendly operative.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="callous_disregard_lore"><![CDATA[
+Pity is a trait of the weak. The Blooded will gladly turn
+their guns upon their own kin if doing so will ensure the
+destruction of an enemy.
+]]></string>
+
+    <string name="callous_disregard_description"><![CDATA[
+Use this firefight ploy when a friendly **BLOODED**
+operative performs the Shoot action and you are
+selecting a valid target. Having other friendly
+**BLOODED** operatives within an enemy
+operatives control range does not prevent that
+enemy operative from being selected. Until
+the end of that action, whenever you discard
+an attack dice as a fail, inflict damage equal to
+the dice result on one friendly operative of your
+choice within control range of the target.
+]]></string>
+
+    <string name="moment_of_repute_lore"><![CDATA[
+When infused with a portion of the Dark Gods’ power,
+the Blooded are lent infernal speed and aggression.
+]]></string>
+
+    <string name="moment_of_repute_description"><![CDATA[
+Use this firefight ploy during the activation of a
+friendly **BLOODED** operative that is under the
+**GAZE OF THE GODS**, before or after it performs
+an action. Until the end of that operatives
+activation, add 1 to its APL stat.
+]]></string>
+
+    <string name="reward_earned_lore"><![CDATA[
+The surest way to earn the attention of the Ruinous
+Powers is to draw blood in their name.
+]]></string>
+
+    <string name="reward_earned_description"><![CDATA[
+Use this firefight ploy when an enemy operative is
+incapacitated by a friendly **BLOODED** operative
+within 2\" of it that has one of your Blooded
+tokens. You gain one Blooded token.
+]]></string>
+
+    <string name="dark_favour_lore"><![CDATA[
+Those who have spilled the blood of the foe and earned
+the favour of their infernal patron may be spared from
+death, as long as another pays the price in their stead
+]]></string>
+
+    <string name="dark_favour_description"><![CDATA[
+Use this firefight ploy when a friendly **BLOODED**
+operative that has one of your Blooded tokens
+is selected as the valid target of a **Shoot** action
+or to fight against during the **Fight** action. Select
+one other friendly **BLOODED** operative visible
+to and within 3\" of that first friendly operative to
+become the valid target or to be fought against
+(as appropriate) instead (even if it would not
+normally be valid for this). If it is the **Fight** action,
+treat that other operative as being within the
+fighting operatives control range for the duration
+of that action. If it is the **Shoot** action, that other
+operative is only in cover or obscured if the
+original target was.
+]]></string>
+
+</resources>

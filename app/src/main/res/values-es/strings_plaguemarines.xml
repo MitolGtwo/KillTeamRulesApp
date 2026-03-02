@@ -2,11 +2,7 @@
 <resources>
 
 
-     <string name="plaguemarine_toxic"><![CDATA[
 
-         Toxic
-
-     ]]></string>
 
     <string name="plaguemarine_toxic_usage"><![CDATA[
 
@@ -21,11 +17,6 @@
 
 
     <!--Plague Marines-->
-    <string name="malignantplaguecaster_poisonus_miasma"><![CDATA[
-
-         MIASMA VENENOSO
-
-     ]]></string>
 
     <string name="malignantplaguecaster_poisonus_miasma_usage"><![CDATA[
 
@@ -39,11 +30,6 @@ que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno d
 \n\nEste Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
      ]]></string>
 
-    <string name="malignantplaguecaster_putrescent_vitality"><![CDATA[
-
-         VITALIDAD PUTRIDA
-
-     ]]></string>
 
     <string name="malignantplaguecaster_putrescent_vitality_usage"><![CDATA[
 
@@ -53,19 +39,14 @@ que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno d
 
     <string name="malignantplaguecaster_putrescent_vitality_description"><![CDATA[
 **Psychic**. Selecciona un Operativo aliado visible y a 3" de este Operative, lanza
-2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas
-; de otra forma, el Operativo recupera heridad totales al resultado mas grande de los
-dos dados.
+2D6: si el resultado es 7 en total, the Operativo seleccionado recupera 7 heridas perdidas;
+de otra forma, el Operativo recupera heridad totales al resultado mas grande de los dos dados.
 
 Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo
 enemigo, o mas de una vez por turno.
      ]]></string>
 
-    <string name="plaguemarinebombardier_grenadier"><![CDATA[
 
-         GRANADERO
-
-     ]]></string>
 
     <string name="plaguemarinebombardier_grenadier_usage"><![CDATA[
 
@@ -78,12 +59,6 @@ enemigo, o mas de una vez por turno.
          Este Operativo puede usar granadas krak y de plaga gratis, ignorando el uso limitado por
          equipamiento universal, cuando este Operativo usa una granada, mejora el Hit a 1. Granadas
          de plaga tienen la clave Toxic.
-
-     ]]></string>
-
-    <string name="plaguemarinechambion_gfblessing"><![CDATA[
-
-         Bendicion del Gran Padre
 
      ]]></string>
 
@@ -100,11 +75,6 @@ enemigo, o mas de una vez por turno.
           Operativo no esta incapacitado).
      ]]></string>
 
-    <string name="plaguemarinefighter_flail"><![CDATA[
-
-         AZOTE IMPLACABLE
-
-     ]]></string>
 
     <string name="plaguemarinefighter_flail_usage"><![CDATA[
 
@@ -120,11 +90,6 @@ enemigo, o mas de una vez por turno.
     Esta accion es considerada una accion de combate, y no se puede realizar mientras este Operativo tenga una orden de **Conceal**
      ]]></string>
 
-    <string name="plaguemarine_iconbearer"><![CDATA[
-
-         PORTA ESTANDARTE
-
-     ]]></string>
 
     <string name="plaguemarine_iconbearer_usage"><![CDATA[
 
@@ -139,11 +104,6 @@ enemigo, o mas de una vez por turno.
 
      ]]></string>
 
-    <string name="plaguemarine_icon_of_contagion"><![CDATA[
-
-         ICONO DEl CONTAGION
-
-     ]]></string>
 
     <string name="plaguemarine_icon_of_contagionr_usage"><![CDATA[
 
@@ -157,11 +117,6 @@ enemigo, o mas de una vez por turno.
 
      ]]></string>
 
-    <string name="plaguemarinefighter"><![CDATA[
-
-        GRENADIER
-
-]]></string>
 
     <string name="plaguemarinefighter_usage"><![CDATA[
 
@@ -179,11 +134,6 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
 
-    <string name="plaguemarinewarrior"><![CDATA[
-
-        Fortuna Repulsiva
-
-]]></string>
 
     <string name="plaguemarinewarrior_usage"><![CDATA[
 
@@ -197,12 +147,6 @@ enemigo, o mas de una vez por turno.
 
     <!--/Equipment Wreckas-->
 
-    <string name="plague_bell"><![CDATA[
-
-        CAMPANAS DE LA PLAGA
-
-]]></string>
-
     <string name="plague_bell_lore"><![CDATA[
         Cuando las campanas malditas suenan, la Death Guard se potencia con energia corrupta, incrementando su impura resistencia a niveles extraordinarios.
 ]]></string>
@@ -211,12 +155,6 @@ enemigo, o mas de una vez por turno.
         Puedes ignorar cualquier cambio a Stats de Operativos **PLAGUE MARINES** aliados por estar heridos.
 ]]></string>
 
-
-    <string name="plague_blight_grenades"><![CDATA[
-
-        GRANADAS PUTRIDAS
-
-]]></string>
 
     <string name="plague_blight_grenades_lore"><![CDATA[
         Estos dispositivos estan hechos con explisvos y fragmentos de metal con patogenos mortales, capaces de envenar a cualquier desaforunado que haya sobrevivido la explosion.
@@ -248,19 +186,13 @@ enemigo, o mas de una vez por turno.
     <!--/Faction Rules Plague marines-->
 
 
-    <string name="plague_astartes"><![CDATA[
-
-        ASTARTES
-
-]]></string>
-
     <string name="plague_astartes_lore"><![CDATA[
         Space Marines son humanos geneticamente modificados con un solo proposito: guerra.
 ]]></string>
 
     <string name="plague_astartes_description"><![CDATA[
-        Durante cada activacion de un **PLAGUE MARINE**, este puede realizar 2 acciones de Disparo o
-        2 acciones de Pelea. Si hace 2 acciones de disparo, un Bolt Pistol, Boltgun o arma **PSYCHIC**
+        Durante cada activacion de un **PLAGUE MARINE**, este puede realizar 2 acciones de **Disparo** o
+        2 acciones de **Pelea**. Si hace 2 acciones de **disparo**, un Bolt Pistol, Boltgun o arma **PSYCHIC**
         debe ser seleccionada para almenos uno de esos disparos, no se puede usar el mismo disparo **PSYCHIC**
         en una activacion.\n\n
 
@@ -321,9 +253,9 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
     <string name="plague_lumbering_description"><![CDATA[
-        Siempre que un aliado **PLAGUE MARINE** haga una accion de Disparo o una accion de Pelea en una
+        Siempre que un aliado **PLAGUE MARINE** haga una accion de **Disparo** o una accion de **Pelea** en una
         activacion en la que no haya movido una distancia mayor a 3\", o cuando este Retaliando, las
-        armas obtienen la regla Ceaselesss.
+        armas obtienen la regla Ceaseless.
 ]]></string>
 
 

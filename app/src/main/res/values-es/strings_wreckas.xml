@@ -74,7 +74,7 @@
     ]]></string>
 
     <string name="wrecka_krusha_armoured_description"><![CDATA[
-        Siempre que un enemigo Operativo dispare, o si este Operativo Pelea o Retalea, tu oponente
+        Siempre que un enemigo Operativo dispare, o si este Operativo esta combatiendo o Retaleando, tu oponente
         no puede retener exitos criticos con resultados menores a 6 (Ej Lethal, Severe, Rending).
     ]]></string>
 
@@ -134,7 +134,7 @@
     ]]></string>
 
     <string name="wreckaboss_description"><![CDATA[
-        Siempre que este Operativo realice una accion de **Disparo** o **Pelea** (excluyendo **Guardia**)
+        Siempre que este Operativo realice una accion de **Disparo** o **Combate** (excluyendo **Guardia**)
         , ganas 1 punto Wrecka.
     ]]></string>
 
@@ -173,7 +173,7 @@
 
     <string name="squig_stoopid_description"><![CDATA[
         En la fase Firefight, siempre que determines la orden de este Operativo, no puede estar en Conceal.
-        Este Operativo no puede hacer ninguna otra accion que no sea  **CARGAR**, **DASH**, **PELEAR**,
+        Este Operativo no puede hacer ninguna otra accion que no sea  **CARGAR**, **DASH**, **COMBATIR**,
         **REPOSITION** and **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
     ]]></string>
 
@@ -293,7 +293,7 @@
     ]]></string>
 
     <string name="wrecka_rampage_description"><![CDATA[
-        Siempre que un Operativo aliado **WRECKA KREW** este disparando, peleando o retaleando.
+        Siempre que un Operativo aliado **WRECKA KREW** este disparando, combatiendo o retaleando.
         En la fase de lanzar dados de ataque:
         \n\nPor cada resultado de 6, ganas un punto Wrecka(no resultado critico, resultado de 6).
         \n
@@ -317,7 +317,7 @@
 
     <string name="wrecka_tanked_up_description"><![CDATA[
         La primera vez que un Operativo **WRECKA KREW** (excluyendo **BOMB SGUIG**) con una accion
-        de Engage realiza una accion de **Carga**, **Disparo** o **Pelea** (excluyendo **Guard**)
+        de Engage realiza una accion de **Carga**, **Disparo** o **Combate** (excluyendo **Guard**)
         durante cada activacion o counteract, añade 1 a la estadistica APL de ese operativo hasta el
         inicio de su proxima activacion.
     ]]></string>
@@ -378,10 +378,10 @@
 
     <string name="wrecka_demolition_job_description"><![CDATA[
         Usa esta Firefight ploy despues de que un aliado **WRECKA KREW** realize una accion de
-        **Disparo** o **Pelea**; antes de incapacitar al objetivo. pon uno de tus marcadores de
+        **Disparo** o **Combate**; antes de incapacitar al objetivo. pon uno de tus marcadores de
         demolicion dentro de la zona de control de ese Operativo, (Si usan Blast, selecciona el objetivo
         primario).
-        \nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, peleando
+        \nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, combatiendo
         o retaleando contra un enemigo a 3\" de tu marcador de Demolicion, puedes gastar 1 punto Wrecka gratis
         (aunque no tengas ninguno). al inicio de la proxima fase Estrategica, retira tu marcador.
     ]]></string>
@@ -393,7 +393,7 @@
     <string name="wrecka_proppa_scrap_description"><![CDATA[
         Usa esta Firefight ploy durante la activacion de un **WRECKA KREW BREAKKA BOY** o
         **WRECKA KREW BOSS NOB**. Durante esa activacion, ese Operativo puede hacer 2 acciones
-        de **Pelea**.
+        de **Combate**.
     ]]></string>
 
     <string name="wrecka_kaboom"><![CDATA[

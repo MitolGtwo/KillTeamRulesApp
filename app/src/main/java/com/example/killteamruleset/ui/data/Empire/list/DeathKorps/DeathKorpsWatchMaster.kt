@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val DeathKorpsWatchMaster = Operative(
     name = "Death Korps Watch Master",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.dk_watch,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

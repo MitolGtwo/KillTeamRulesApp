@@ -61,10 +61,6 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 
 
 
-    <string name="crit_op_4_title"><![CDATA[
-    ORB
-]]></string>
-
     <string name="crit_op_4_atitle"><![CDATA[
     MOVE ORB / 1APL
 ]]></string>
@@ -73,10 +69,10 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     Si el Operativo activo controla el marcador de objetivo que tenga el token **ORB**, mueve
     ese token de la siguiente forma:\n
     \n
-    *Si es el marcador de objetivo central, muevelo a cualquier marcador de objetivo dentro de las
+    *Si es el **ORB** esta en el objetivo del centro, muevelo a cualquier objetivo dentro de las
     zonas de cualquier jugador (tu escoges).\n
     \n
-   *Si es el marcador de objetivo de cualquier jugador, mueve el token **ORB** hasta el marcador de objetivo central.\n\n
+   *Si es el **ORB** esta en la zona de cualquier jugador, mueve el token **ORB** hasta el objetivo del centro.\n\n
 
   Un Operativo no puede hacer esta accion durante el primer turno, estando en rango de control de un
   Operativo enemigo, o si no controla un marcador de objetivo que tenga el token **ORB**.

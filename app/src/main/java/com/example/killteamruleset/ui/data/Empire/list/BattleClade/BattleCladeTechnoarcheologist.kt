@@ -31,7 +31,7 @@ val BattleCladeTechnoarcheologist: Operative
                 damage = "4/2",
                 keywords = listOf(
                     Range(8),
-                    Devastating(3),
+                    Devastating(3,"1\""),
                     Lethal(5)
 
                 )

@@ -1,7 +1,15 @@
 package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.ui.data.Chaos.Blooded.BlooodedOperatives
+import com.example.killteamruleset.ui.data.Chaos.ChaosCult.ChaosCultOperatives
+import com.example.killteamruleset.ui.data.Chaos.FellgorRavagers.FellgorOperatives
+import com.example.killteamruleset.ui.data.Chaos.GellerpoxInfected.GellerpoxOperatives
+import com.example.killteamruleset.ui.data.Chaos.Goremongers.GoremongersOperatives
+import com.example.killteamruleset.ui.data.Chaos.Legionaries.LegionariesOperatives
+import com.example.killteamruleset.ui.data.Chaos.Murderwing.MurdewingOperatives
+import com.example.killteamruleset.ui.data.Chaos.NemesisClaw.NemesisOperatives
 import com.example.killteamruleset.ui.data.Chaos.PlagueMarines.PlagueMarinesOperatives
+import com.example.killteamruleset.ui.data.Chaos.Warpcoven.WarpcovenOperatives
 import com.example.killteamruleset.ui.data.Empire.list.AngelsOfDeath.aodOperatives
 import com.example.killteamruleset.ui.data.Empire.list.BattleClade.BattlecladeOperatives
 import com.example.killteamruleset.ui.data.Empire.list.CelestianInsidiants.CelestianOperatives
@@ -31,14 +39,21 @@ object OperativeRepository {
             "battle_clade" -> BattlecladeOperatives
             "blooded" -> BlooodedOperatives
             "celestian_insidiants" -> CelestianOperatives
+            "chaos_cult" -> ChaosCultOperatives
             "death_Korps" -> DeathKorpsOperatives
             "deathwatch" -> DeathWatchOperatives
+            "fellgor_ravagers" -> FellgorOperatives
+            "gellepox_infected" -> GellerpoxOperatives
+            "goremongers" -> GoremongersOperatives
             "elucidian_star" -> ElucidianOperatives
             "exaction_squad" -> ExactionOperatives
             "hunter_clade" -> HunterCladeOperatives
             "imperial_navy_breachers" -> NavybreachersOperatives
             "inquisitorial_agents" -> InquisitorialOperatives
             "kasrkin"-> KasrkinOperatives
+            "legionaries" -> LegionariesOperatives
+            "murderwing" -> MurdewingOperatives
+            "nemesis_claw" -> NemesisOperatives
             "novitiates" -> NovitiatesOperatives
             "phobos_strike_team" -> PhobosOperatives
             "ratlings" -> RatlingsOperatives
@@ -47,6 +62,7 @@ object OperativeRepository {
             "tempestus_aquilon" -> AquilonOperatives
             "wolf_scout" -> Wolfperatives
             "plague_marines" -> PlagueMarinesOperatives
+            "warpcoven" -> WarpcovenOperatives
             "wrecka_krew" -> WreckaKrewOperatives
             else -> emptyList()
         }

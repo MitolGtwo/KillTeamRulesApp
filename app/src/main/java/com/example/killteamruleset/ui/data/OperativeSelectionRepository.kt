@@ -1,7 +1,15 @@
 package com.example.killteamruleset.ui.data
 
 import com.example.killteamruleset.ui.data.Chaos.Blooded.BloodedOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.ChaosCult.ChaosCultOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.FellgorRavagers.FellgorOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.GellerpoxInfected.GellerpoxOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.Goremongers.GoremongersOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.Legionaries.LegionariesOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.Murderwing.MurderwingOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.NemesisClaw.NemesisOperativeSelection
 import com.example.killteamruleset.ui.data.Chaos.PlagueMarines.PlagueMarineOperativeSelection
+import com.example.killteamruleset.ui.data.Chaos.Warpcoven.WarpcovenOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.AngelsOfDeath.AngelsOfDeathOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.BattleClade.BattlecladeOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.CelestianInsidiants.CelestianOperativeSelection
@@ -30,23 +38,32 @@ object OperativeSelectionRepository {
         "battle_clade" to BattlecladeOperativeSelection,
         "blooded" to BloodedOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
+        "chaos_cult" to ChaosCultOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,
+        "fellgor_ravagers" to FellgorOperativeSelection,
+        "gellepox_infected" to GellerpoxOperativeSelection,
+        "goremongers" to GoremongersOperativeSelection,
         "elucidian_star" to ElucidianOperativeSelection,
         "exaction_squad" to ExactionOperativeSelection,
          "hunter_clade" to HunterCladeOperativeSelection,
         "imperial_navy_breachers" to NavisOperativeSelection,
         "inquisitorial_agents" to InquisitorialOperativeSelection,
         "kasrkin" to KasrkinOperativeSelection,
+        "legionaries" to LegionariesOperativeSelection,
+        "murderwing" to MurderwingOperativeSelection,
+        "nemesis_claw" to NemesisOperativeSelection,
         "novitiates" to NovitiatesOperativeSelection,
+        "plague_marines" to PlagueMarineOperativeSelection,
         "phobos_strike_team" to PhobosOperativeSelection,
         "ratlings" to RatlingsOperativeSelection,
         "sanctifiers" to SanctifiersOperativeSelection,
         "scout_squat" to ScoutOperativeSelection,
         "tempestus_aquilon" to AquilonOperativeSelection,
         "wolf_scout" to WolfOperativeSelection,
+        "warpcoven" to WarpcovenOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
-        "plague_marines" to PlagueMarineOperativeSelection
+
     )
 
     fun getRulesForTeam(teamId: String): List<OperativeSelectionRule> =

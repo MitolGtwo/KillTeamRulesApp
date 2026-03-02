@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Legionary-->
+
+    <string name="in_the_eye_of_the_gods_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="in_the_eye_of_the_gods_description"><![CDATA[
+Once during each of this operatives activations, if it incapacitates an enemy operative, add 1 to its APL stat
+until the end of that activation.
+    ]]></string>
+
+    <string name="daemonic_aura_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="daemonic_aura_description"><![CDATA[
+Whenever an enemy operative performs the **Fall Back** action while within control range of this operative,
+you can use this rule. If you do, roll one D6: on a 3+, that enemy
+operative cannot perform that action during that activation/
+counteraction (the AP spent on it is refunded).
+    ]]></string>
+
+    <string name="soul_gorge_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="soul_gorge_description"><![CDATA[
+After this operative fights or retaliates, if it is not incapacitated, but it incapacitated an enemy
+operative during that sequence, it regains up to D3+1 lost wounds.
+    ]]></string>
+
+    <string name="unleash_daemon_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="unleash_daemon_description"><![CDATA[
+Once per battle, when this operative is activated, you can use this rule. If you do, until the end of the battle:\n
+\n
+• This operative cannot perform the **Pick Up Marker** or mission actions (excluding Operate Hatch).
+If it is carrying a marker, it must immediately perform the **Place Marker** action for 0AP
+(this takes precedence over all other rules).\n
+\n
+• Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative. If this operative has the **NURGLE** keyword, you
+cannot reduce the damage of an attack dice by more than 1. In other words, you cannot use both rules to reduce Normal Dmg of 4
+or more by 2.\n
+\n
+• Its daemonic claw has the Ceaseless and Lethal 5+ weapon rules.
+    ]]></string>
+
+    <string name="siphon_life_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="siphon_life_description"><![CDATA[
+When you select this weapon, you can use this rule. If you do, at the start of the Resolve
+Attack Dice step, select one friendly **LEGIONARY** operative visible to and within 6\" of this
+operative. For each attack dice you resolve during that step that inflicts damage, that friendly
+operative regains 1 lost wound, or D3 lost wounds if it was a critical success.
+You cannot use this weapon rule more than once per turning point.
+    ]]></string>
+
+    <string name="devastating_onslaught_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="devastating_onslaught_description"><![CDATA[
+• Whenever this operative is fighting or retaliating, enemy operatives cannot assist.\n
+\n
+• At the end of each enemy operatives activation or counteraction, you can select one enemy
+operative within 2\" of this operative. This operative can perform a free **Charge**
+action (you can change its order to **Engage** to do so), but it
+cannot move more than 2\n" and must end that move within control range of that selected operative.
+    ]]></string>
+
+    <string name="legionaries_icon_bearer_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="legionaries_icon_bearer_description"><![CDATA[
+Whenever determining control of a marker, treat this operatives APL stat as 1 higher.
+Note this is not a change to its APL stat, so any changes are cumulative with this.
+    ]]></string>
+
+    <string name="favoured_of_the_dark_gods_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="favoured_of_the_dark_gods_description"><![CDATA[
+In the Ready step of each Strategy phase, if this operative controls an objective marker that is not
+tainted, that objective marker is tainted for the battle and you gain 1CP. Note that if any
+operative (including enemy operatives) has tainted an objective marker, you cannot taint that
+objective marker.
+    ]]></string>
+
+    <string name="vicious_reflexes_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="vicious_reflexes_description"><![CDATA[
+Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).
+    ]]></string>
+
+    <string name="horrifying_dismemberment_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="horrifying_dismemberment_description"><![CDATA[
+Whenever this operative incapacitates an enemy operative while fighting or retaliating,
+select one other enemy operative visible to and within 3\" of either this operative or the
+incapacitated enemy operative. Subtract 1 from that enemy operative’s APL stat until the end of its next activation.
+    ]]></string>
+
+    <string name="grisly_mark_usage"><![CDATA[
+        2AP
+    ]]></string>
+
+    <string name="grisly_mark_description"><![CDATA[
+Place your Grisly marker within this operatives control range.\n
+\n
+• Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy
+operative to perform the **Pick Up Marker** and mission actions.\n
+\n
+• Whenever determining control of a marker, treat the total APL stat of enemy operatives that
+contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.
+Note this is not a change to the APL stat, so any changes are cumulative with this.\n\n
+
+This operative cannot perform this action more than once per battle, and cannot perform it while within control range of an
+enemy operative.
+    ]]></string>
+
+    <string name="infernal_pact_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="infernal_pact_description"><![CDATA[
+Once per battle, when a friendly **LEGIONARY WARRIOR** operative is activated, you can use this rule. If you
+do, change that operatives Marks of Chaos keyword.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="marks_of_chaos_lore"><![CDATA[
+By making dark pacts with the Ruinous Powers,
+Legionaries may increase their own might. Yet such
+bargains rarely come without a cost.
+]]></string>
+
+    <string name="marks_of_chaos_description"><![CDATA[
+Whenever you select a **LEGIONARY** operative for the battle, you must select one of the following
+keywords for it to have for that battle: **KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.**
+Each operatives keyword can be different, but
+a **BALEFIRE ACOLYTE** operative cannot have the **KHORNE** keyword.
+]]></string>
+
+
+    <string name="khorne_description"><![CDATA[
+**Wrathful Onslaught**\n
+\n
+This operatives melee weapons have the Severe weapon rule.
+]]></string>
+
+
+    <string name="nurgle_description"><![CDATA[
+**Disgusting Vigour**\n
+\n
+Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1
+from that inflicted damage.
+]]></string>
+
+    <string name="slaanesh_description"><![CDATA[
+**Unnatural Agility**\n
+\n
+Add 1" to this operative’s Move stat.
+]]></string>
+
+
+    <string name="tzeentch_description"><![CDATA[
+**Empyreal Guidance**\n
+\n
+This operatives ranged weapons have the Severe weapon rule.
+]]></string>
+
+
+    <string name="undivided_description"><![CDATA[
+**Vicious Reavers**\n
+\n
+Whenever this operative is shooting against, fighting against or retaliating against an enemy
+operative within 6\" of it, this operative’s weapons have the Ceaseless weapon rule.
+]]></string>
+
+
+    <string name="legionaries_astartes_lore"><![CDATA[
+These genetically modified superhumans are made for one purpose: war.
+]]></string>
+
+    <string name="legionaries_astartes_description"><![CDATA[
+During each friendly **LEGIONARY** operatives activation, it can perform either two **Shoot**
+actions or two **Fight** actions. If it is two **Shoot**
+actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them\n
+\n
+Each friendly **LEGIONARY** operative can counteract regardless of its order.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="warded_armour_lore"><![CDATA[
+Daubed with profane icons, emblazoned with infernal
+scripture and blessed by the Ruinous Powers, this power armour possesses unholy resilience.
+]]></string>
+
+    <string name="warded_armour_description"><![CDATA[
+**STRATEGIC GAMBIT**. Select one friendly **LEGIONARY** operative. Until the Ready step of
+the next Strategy phase, change that operatives Save stat to 2+.
+]]></string>
+
+    <string name="tainted_rounds_lore"><![CDATA[
+Subjected to fell rituals, these bolt rounds are infused with corruption.
+]]></string>
+
+    <string name="tainted_rounds_description"><![CDATA[
+Once per turning point, when a friendly **LEGIONARY** operative is performing the **Shoot**
+action and you select a bolt pistol or boltgun, you can use this rule. If you do, until the end
+of that action, that weapon has the Rending weapon rule.
+]]></string>
+
+    <string name="chaos_talismans_lore"><![CDATA[
+Those who carry the talismans of the Ruinous Powers
+may be granted great gifts, though they invariably come at a price.
+]]></string>
+
+    <string name="chaos_talismans_description"><![CDATA[
+**STRATEGIC GAMBIT**. Select one Marks of Chaos keyword. Once during each of their activations,
+when a friendly **LEGIONARY** operative that has that keyword is shooting, fighting or retaliating,
+if you roll two or more fails, you can inflict D3 damage on that friendly operative to discard one
+of them and retain the other as a normal success instead. Note that if it’s the Shoot action and that
+damage incapacitates that friendly operative, the action does not end (continue the sequence with
+your successful attack dice).
+]]></string>
+
+    <string name="malefic_blades_lore"><![CDATA[
+Redolent with daemonic energies, this blade hungers for blood.
+]]></string>
+
+    <string name="malefic_blades_description"><![CDATA[
+Friendly **LEGIONARY** operatives have the following melee weapon:
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="blood_for_the_blood_god_lore"><![CDATA[
+Bloodthirsty, battle-hungry and filled with unbridled fury, Legionaries strike with rage-fuelled might.
+]]></string>
+
+    <string name="blood_for_the_blood_god_description"><![CDATA[
+Whenever a friendly **LEGIONARY** operative (excluding **KHORNE**) is fighting, the first time you
+strike during that sequence, inflict 1 additional damage (to a maximum of 7).\n
+\n
+Add 1 to both Dmg stats of friendly **LEGIONARY KHORNE** operatives melee weapons (to a maximum of 7).
+]]></string>
+
+    <string name="legionarie_implacable_lore"><![CDATA[
+Empowered by their transhuman might and the
+gifts of their daemonic patrons, Legionaries are monstrously resilient.
+]]></string>
+
+    <string name="legionarie_implacable_description"><![CDATA[
+Whenever an operative is shooting a friendly **LEGIONARY** operative, weapons with the
+Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead.\n
+\n
+You can ignore any changes to the stats of
+friendly **LEGIONARY NURGLE** operatives from being injured (including their weapons’ stats).
+]]></string>
+
+    <string name="quicksilver_speed_lore"><![CDATA[
+Some amongst the Heretic Astartes are possessed of
+a fleetness of foot and inhuman agility with which they beguile and confound the foe.
+]]></string>
+
+    <string name="quicksilver_speed_description"><![CDATA[
+Whenever a friendly **LEGIONARY** operative that performed an action in which it moved during this
+turning point is fighting, worsen the Hit stat of the enemy operative’s melee weapons by 1.\n
+\n
+Whenever an operative is shooting a friendly **LEGIONARY SLAANESH** operative more than
+6\" from it that performed an action in which it moved during this turning point, worsen the Hit
+stat of the enemy operatives weapons by 1.\n
+\n
+In all cases for this ploy, this isn’t cumulative with being injured.
+]]></string>
+
+    <string name="fickle_fates_lore"><![CDATA[
+With superhuman reactions, a Heretic Astartes warrior
+can use even fractional glimpses of future events to devastating effect.
+]]></string>
+
+    <string name="fickle_fates_description"><![CDATA[
+Whenever a friendly **LEGIONARY** operative is shooting a ready enemy operative, that friendly
+operatives ranged weapons have the Balanced weapon rule.\n
+\n
+Whenever an operative is shooting a ready friendly **LEGIONARY TZEENTCH** operative, in the
+Roll Defence Dice step, if you retain any critical successes, you can retain one of your fails as a
+normal success instead of discarding it.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="uneding_bloodshed_lore"><![CDATA[
+Even when on the verge of death, the devotees of
+Khorne spend their last vestiges of energy to kill in the Blood Gods name.
+]]></string>
+
+    <string name="uneding_bloodshed_description"><![CDATA[
+Use this firefight ploy when a friendly **LEGIONARY KHORNE** operative is incapacitated
+while fighting or retaliating. You can strike the enemy operative in that sequence with one of
+your unresolved successes before it is removed from the killzone.
+]]></string>
+
+    <string name="mutability_and_change_lore"><![CDATA[
+Tzeentch bestows upon his most devoted followers all
+manner of bizarre mutations, some of which may even prove beneficial.
+]]></string>
+
+    <string name="mutability_and_change_description"><![CDATA[
+Use this firefight ploy when a friendly **LEGIONARY TZEENTCH** operative is activated.
+Until the end of that operatives activation, add 1 to its APL stat, but it cannot perform the same
+action more than once during that activation. If it is a **WARRIOR** operative, that operatives Marks
+of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule).
+]]></string>
+
+    <string name="malignant_aura_lore"><![CDATA[
+Those who swear themselves to Nurgle may be granted
+his favour. Some are even able to project an miasmic aura of decay.
+]]></string>
+
+    <string name="malignant_aura_description"><![CDATA[
+Use this firefight ploy when a friendly **LEGIONARY NURGLE** operative is performing the
+**Shoot** action, when you select a valid target. Until the end of that action, whenever that friendly
+operative is shooting an enemy operative within 3\" of it (i.e. including secondary targets, if any),
+that friendly operatives ranged weapons have the Piercing 1 weapon rule.
+]]></string>
+
+    <string name="sickening_captivation_lore"><![CDATA[
+Slaanesh bestows upon the loyal the power to nauseate
+their foes, using dazzling speed, sickening perfumed auras and horrific sonic projections.
+]]></string>
+
+    <string name="sickening_captivation_description"><![CDATA[
+Use this firefight ploy during a friendly **LEGIONARY SLAANESH** operative’s activation, before or after it performs an action.
+Select one enemy operative visible to and within 4\" of that friendly operative.
+Until the end of that enemy operatives next activation, subtract 1 from its APL stat.
+]]></string>
+
+</resources>

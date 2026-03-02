@@ -25,9 +25,20 @@ data class Blast(val range: Int) : KeywordInfo() {
     override val displayName = "Blast $range\""
 }
 
-data class Devastating(val value: Int) : KeywordInfo() {
+data class Devastating(
+    val value: Int,
+    val prefix: String? = null // 👈 optional extra info
+) : KeywordInfo() {
+
     override val name = "Devastating"
-    override val displayName = "Devastating $value"
+
+    override val displayName: String
+        get() = buildString {
+            prefix?.let {
+                append("$it ")
+            }
+            append("$name $value")
+        }
 }
 
 data class Limited(val value: Int) : KeywordInfo() {

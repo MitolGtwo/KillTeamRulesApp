@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-     <string name="plaguemarine_toxic"><![CDATA[
-
-         Toxic
-
-     ]]></string>
-
     <string name="plaguemarine_toxic_usage"><![CDATA[
-         Pasiva
+         Passive
      ]]></string>
 
     <string name="plaguemarine_toxic_description"><![CDATA[
@@ -18,11 +11,6 @@
 
 
     <!--Plague Marines-->
-    <string name="malignantplaguecaster_poisonus_miasma"><![CDATA[
-
-        POISONOUS MIASMA
-
-]]></string>
 
     <string name="malignantplaguecaster_poisonus_miasma_usage"><![CDATA[
 
@@ -39,11 +27,6 @@
     This operative CANNOT perform this action while within control range of an enemy Operative.
 ]]></string>
 
-    <string name="malignantplaguecaster_putrescent_vitality"><![CDATA[
-
-        PUTRESCENT VITALITY
-
-]]></string>
 
     <string name="malignantplaguecaster_putrescent_vitality_usage"><![CDATA[
 
@@ -59,11 +42,6 @@
                      within control range of an enemy Operative, or more than once per turning point.
 ]]></string>
 
-    <string name="plaguemarinebombardier_grenadier"><![CDATA[
-
-        GRENADIER
-
-]]></string>
 
     <string name="plaguemarinebombardier_grenadier_usage"><![CDATA[
 
@@ -80,11 +58,6 @@
 
 ]]></string>
 
-    <string name="plaguemarinechambion_gfblessing"><![CDATA[
-
-        Grandfather’s Blessing
-
-]]></string>
 
     <string name="plaguemarinechambion_gfblessing_usage"><![CDATA[
 
@@ -97,12 +70,6 @@
 ]]></string>
 
 
-    <string name="plaguemarinefighter_flail"><![CDATA[
-
-        FLAIL
-
-]]></string>
-
     <string name="plaguemarinefighter_flail_usage"><![CDATA[
 
         1 AP/ Fight Action
@@ -110,18 +77,14 @@
 ]]></string>
 
     <string name="plaguemarinefighter_flail_description"><![CDATA[
-         Inflict D3+2 damage on each other operative thats visible and within 2\" of this operative. Roll separately foe each: if its an enemy operative, if the D3
+    Inflict D3+2 damage on each other operative thats visible and within 2\" of this operative.
+    Roll separately foe each: if its an enemy operative, if the D3
    result is a 3, that enemy operative also gains one of your Poison tokens(if it
    doesnt have already one).\n\n
 
-    This action is treated as a Fight action, and this operative cannot perform it while having a **Conceal** order
+    This action is treated as a **Fight** action, and this operative cannot perform it while having a **Conceal** order
 ]]></string>
 
-    <string name="plaguemarine_iconbearer"><![CDATA[
-
-        ICON BEARER
-
-]]></string>
 
     <string name="plaguemarine_iconbearer_usage"><![CDATA[
 
@@ -137,15 +100,10 @@
 
 ]]></string>
 
-    <string name="plaguemarine_icon_of_contagion"><![CDATA[
-
-        ICON OF CONTAGION
-
-]]></string>
 
     <string name="plaguemarine_icon_of_contagionr_usage"><![CDATA[
 
-        Strategy Phase
+        Passive
 
 ]]></string>
 
@@ -156,11 +114,6 @@
 
 ]]></string>
 
-    <string name="plaguemarinefighter"><![CDATA[
-
-        GRENADIER
-
-]]></string>
 
     <string name="plaguemarinefighter_usage"><![CDATA[
 
@@ -177,11 +130,6 @@
 
 ]]></string>
 
-    <string name="plaguemarinewarrior"><![CDATA[
-
-        Repulsive Fortitude
-
-]]></string>
 
     <string name="plaguemarinewarrior_usage"><![CDATA[
 
@@ -206,19 +154,8 @@
 
 
 
-
-
-
-
-
-
     <!--/Equipment Wreckas-->
 
-    <string name="plague_bell"><![CDATA[
-
-        PLAGUE BELLS
-
-]]></string>
 
     <string name="plague_bell_lore"><![CDATA[
 
@@ -231,11 +168,6 @@
 ]]></string>
 
 
-    <string name="plague_blight_grenades"><![CDATA[
-
-        BLIGHT GRENADES
-
-]]></string>
 
     <string name="plague_blight_grenades_lore"><![CDATA[
         These devices are packed with explosives, shards of jagged metal and deadly pathogens that poison any unfortunate enough to survive the initial blast.
@@ -245,9 +177,6 @@
         Friendly **PLAGUE MARINES** Operatives have the following range weapon (you cannot use it more than twice per battle):
 ]]></string>
 
-    <string name="plague_rounds"><![CDATA[
-        PLAGUE ROUNDS
-]]></string>
 
     <string name="plague_rounds_lore"><![CDATA[
 
@@ -258,12 +187,6 @@
     <string name="plague_rounds_description"><![CDATA[
 
         Friendly **PLAGUE MARINES** Operatives Boltguns and Bolt Pistols have the Poison and Severe weapon rules
-
-]]></string>
-
-    <string name="plague_poison_vents"><![CDATA[
-
-        POISON VENTS
 
 ]]></string>
 
@@ -283,11 +206,6 @@
     <!--/Faction Rules Plague marines-->
 
 
-    <string name="plague_astartes"><![CDATA[
-
-        ASTARTES
-
-]]></string>
 
     <string name="plague_astartes_lore"><![CDATA[
 
@@ -297,19 +215,14 @@
 
     <string name="plague_astartes_description"><![CDATA[
 
-        During each **Plague Marine** Operatives activation, it can perform either two Shoot actions
-        or two Fight actions. if its two Shoot actions, a Bolt Pistol, Boltgun or **PSYCHIC** weapon
+        During each **Plague Marine** Operatives activation, it can perform either two **Shoot** actions
+        or two **Fight** actions. if its two **Shoot** actions, a Bolt Pistol, Boltgun or **PSYCHIC** weapon
         must be selected for at least one of them. You cannot select the same **PSYCHIC** ranged weapon
         more than once per activation.
 
         Each friendly **PLAGUE MARINE** Operative can counteract regardless of its order.
 ]]></string>
 
-    <string name="plague_poison"><![CDATA[
-
-        POISON
-
-]]></string>
 
     <string name="plague_poison_lore"><![CDATA[
 
@@ -330,13 +243,6 @@
 ]]></string>
 
 
-
-    <string name="plague_disgustingly_resilent"><![CDATA[
-
-        DISGUSTINGLY RESILIENT
-
-]]></string>
-
     <string name="plague_disgustingly_resilent_lore"><![CDATA[
 
         The followers of Nurgle possess extreme resilience to bullet and blade, for their hideous
@@ -356,11 +262,6 @@
 
     <!--/Strategic Ploy Plague marines-->
 
-    <string name="plague_contagion"><![CDATA[
-
-        CONTAGION
-
-]]></string>
 
     <string name="plague_contagion_lore"><![CDATA[
 
@@ -380,11 +281,6 @@
 
 ]]></string>
 
-    <string name="plague_lumbering_death"><![CDATA[
-
-        LUMBERING DEATH
-
-]]></string>
 
     <string name="plague_lumbering_lore"><![CDATA[
 
@@ -401,11 +297,6 @@
 
 ]]></string>
 
-    <string name="plague_cloud_flies"><![CDATA[
-
-        CLOUD OF FLIES
-
-]]></string>
 
     <string name="plague_cloud_flies_lore"><![CDATA[
 
@@ -423,11 +314,6 @@
 
 ]]></string>
 
-    <string name="plague_nurglings"><![CDATA[
-
-        NURGLINGS
-
-]]></string>
 
     <string name="plague_nurglings_lore"><![CDATA[
 
@@ -446,12 +332,6 @@
 
     <!--/Firefight Ploy Plague marines-->
 
-    <string name="plague_virulent_poison"><![CDATA[
-
-        VIRULENT POISON
-
-]]></string>
-
     <string name="plague_virulent_poison_lore"><![CDATA[
 
         The most potent of Grandfather Nurgle foul plagues spread swiftly through the air, breaching
@@ -468,11 +348,6 @@
 
 ]]></string>
 
-    <string name="plague_poisonous_demise"><![CDATA[
-
-        POISONOUS DEMISE
-
-]]></string>
 
     <string name="plague_poisonous_demise_lore"><![CDATA[
 
@@ -491,11 +366,6 @@
 
 ]]></string>
 
-    <string name="plague_sickening_resilence"><![CDATA[
-
-        SICKENING RESILENCE
-
-]]></string>
 
     <string name="plague_sickening_resilence_lore"><![CDATA[
 
@@ -513,11 +383,6 @@
 
 ]]></string>
 
-    <string name="plague_curse_rot"><![CDATA[
-
-        CURSE OF ROT
-
-]]></string>
 
     <string name="plague_curse_rot_lore"><![CDATA[
 
@@ -535,8 +400,6 @@
         success and they cannot re-roll it.
 
 ]]></string>
-
-
 
 
 </resources>

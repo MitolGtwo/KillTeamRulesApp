@@ -661,7 +661,7 @@ object EquipmentRepository {
             ),
             Equipment(
                 id = "sinister_trophies",
-                name = "BSINISTER TROPHIES",
+                name = "SINISTER TROPHIES",
                 lore =R.string.sinister_trophies_lore,
                 description = R.string.sinister_trophies_description,
             ),
@@ -678,6 +678,286 @@ object EquipmentRepository {
                 description = R.string.wicked_blades_description
             )
         ),
+
+        "chaos_cult" to listOf(
+
+            Equipment(
+                id = "baleful_script",
+                name = "BALEFUL SCRIPT",
+                lore =R.string.baleful_script_lore,
+                description = R.string.baleful_script_description
+            ),
+            Equipment(
+                id = "chaos_covert_guises",
+                name = "COVERT GUISES",
+                lore =R.string.chaos_covert_guises_lore,
+                description = R.string.chaos_covert_guises_description,
+            ),
+            Equipment(
+                id = "unholy_talisman",
+                name = "UNHOLY TALISMAN",
+                lore =R.string.unholy_talisman_lore,
+                description = R.string.unholy_talisman_description
+            ),
+            Equipment(
+                id = "vile_blessing",
+                name = "VILE BLESSING",
+                lore =R.string.vile_blessing_lore,
+                description = R.string.vile_blessing_description
+            )
+
+        ),
+
+
+        "fellgor_ravagers" to listOf(
+
+            Equipment(
+                id = "brass_adornments",
+                name = "BRASS ADORNMENTS",
+                lore =R.string.brass_adornments_lore,
+                description = R.string.brass_adornments_description
+            ),
+            Equipment(
+                id = "gore_marks",
+                name = "GORE MARKS",
+                lore =R.string.gore_marks_lore,
+                description = R.string.gore_marks_description
+            ),
+
+            Equipment(
+                id = "fellgor_chaos_sigil",
+                name = "CHAOS SIGIL",
+                lore =R.string.fellgor_chaos_sigil_lore,
+                description = R.string.fellgor_chaos_sigil_description,
+            ),
+            Equipment(
+                id = "war_paint",
+                name = "WAR PAINT",
+                lore =R.string.war_paint_lore,
+                description = R.string.war_paint_description
+            )
+        ),
+
+
+
+        "gellepox_infected" to listOf(
+
+            Equipment(
+                id = "mutoid_vermin",
+                name = "MUTOID VERMIN",
+                lore =R.string.mutoid_vermin_lore,
+                description = R.string.mutoid_vermin_description
+            ),
+            Equipment(
+                id = "pulluted_stockpile",
+                name = "POLLUTED STOCKPILE",
+                lore =R.string.pulluted_stockpile_lore,
+                description = R.string.pulluted_stockpile_description
+            ),
+
+            Equipment(
+                id = "fellgor_chaos_sigil",
+                name = "MUTATED SYMPTOMS",
+                lore =R.string.fellgor_chaos_sigil_lore,
+                description = R.string.fellgor_chaos_sigil_description,
+            ),
+            Equipment(
+                id = "plague_bellows",
+                name = "PLAGUE BELLOWS",
+                lore =R.string.plague_bellows_lore,
+                description = R.string.plague_bellows_description
+            )
+        ),
+
+
+
+        "goremongers" to listOf(
+
+            Equipment(
+                id = "gory_totem",
+                name = "GORY TOTEM",
+                lore =R.string.gory_totem_lore,
+                description = R.string.gory_totem_description
+            ),
+            Equipment(
+                id = "bloody_cadaver",
+                name = "BLOODY CADAVER",
+                lore =R.string.bloody_cadaver_lore,
+                description = R.string.bloody_cadaver_description
+            ),
+
+            Equipment(
+                id = "gore_chaos_sigil",
+                name = "CHAOS SIGIL",
+                lore =R.string.gore_chaos_sigil_lore,
+                description = R.string.gore_chaos_sigil_description,
+            ),
+            Equipment(
+                id = "wrist_chains",
+                name = "WRIST CHAINS",
+                lore =R.string.wrist_chains_lore,
+                description = R.string.wrist_chains_description
+            )
+        ),
+
+
+
+        "legionaries" to listOf(
+
+            Equipment(
+                id = "warded_armour",
+                name = "WARDED ARMOUR",
+                lore =R.string.warded_armour_lore,
+                description = R.string.warded_armour_description
+            ),
+            Equipment(
+                id = "tainted_round",
+                name = "TAINTED ROUNDS",
+                lore =R.string.tainted_rounds_lore,
+                description = R.string.tainted_rounds_description
+            ),
+
+            Equipment(
+                id = "chaos_talismans",
+                name = "CHAOS TALISMANS",
+                lore =R.string.chaos_talismans_lore,
+                description = R.string.chaos_talismans_description,
+            ),
+            Equipment(
+                id = "malefic_blades",
+                name = "MALEFIC BLADES",
+                lore =R.string.malefic_blades_lore,
+                description = R.string.malefic_blades_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Malefic Blade",
+                        type = WeaponType.MELEE,
+                        attacks = 5,
+                        hit = "3+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            )
+        ),
+
+
+
+        "murderwing" to listOf(
+
+            Equipment(
+                id = "bladefins",
+                name = "BLADEFINS",
+                lore =R.string.bladefins_lore,
+                description = R.string.bladefins_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Slice from Above",
+                        usage = R.string.bladefins_usage,
+                        description = R.string.bladefins_description2
+                    )
+
+                ),
+            ),
+            Equipment(
+                id = "clawed_armour",
+                name = "CLAWED ARMOUR",
+                lore =R.string.clawed_armour_lore,
+                description = R.string.clawed_armour_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Slice from Above",
+                        usage = R.string.clawed_armour_usage,
+                        description = R.string.clawed_armour_description2
+                    )
+
+                ),
+            ),
+
+            Equipment(
+                id = "warp_fuel",
+                name = "WARP FUEL",
+                lore =R.string.warp_fuel_lore,
+                description = R.string.warp_fuel_description,
+            ),
+            Equipment(
+                id = "vox_casters",
+                name = "VOX-CASTERS",
+                lore =R.string.vox_casters_lore,
+                description = R.string.vox_casters_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Vox-Cry",
+                        usage = R.string.vox_casters_usage,
+                        description = R.string.vox_casters_description2
+                    )
+
+                ),
+            )
+        ),
+
+        "nemesis_claw" to listOf(
+
+            Equipment(
+                id = "flayed_skin",
+                name = "FLAYED SKIN",
+                lore =R.string.flayed_skin_lore,
+                description = R.string.flayed_skin_description
+            ),
+            Equipment(
+                id = "chain_snare",
+                name = "CHAIN SNARE",
+                lore =R.string.chain_snare_lore,
+                description = R.string.chain_snare_description
+            ),
+
+            Equipment(
+                id = "grisly_trophy",
+                name = "GRISLY TROPHY",
+                lore =R.string.grisly_trophy_lore,
+                description = R.string.grisly_trophy_description,
+            ),
+            Equipment(
+                id = "nemesis_comms_jammers",
+                name = "COMMS JAMMERS",
+                lore =R.string.nemesis_comms_jammers_lore,
+                description = R.string.nemesis_comms_jammers_description
+            )
+        ),
+
+
+
+        "warpcoven" to listOf(
+
+            Equipment(
+                id = "ensorcelled_rounds",
+                name = "ENSORCELLED ROUNDS",
+                lore =R.string.ensorcelled_rounds_lore,
+                description = R.string.ensorcelled_rounds_description
+            ),
+            Equipment(
+                id = "daemonmaw_weapons",
+                name = "DAEMONMAW WEAPONS",
+                lore =R.string.daemonmaw_weapons_lore,
+                description = R.string.daemonmaw_weapons_description
+            ),
+
+            Equipment(
+                id = "arcane_robes",
+                name = "ARCANE ROBES",
+                lore =R.string.arcane_robes_lore,
+                description = R.string.arcane_robes_description,
+            ),
+            Equipment(
+                id = "nemesis_comms_jammers",
+                name = "COMMS JAMMERS",
+                lore =R.string.nemesis_comms_jammers_lore,
+                description = R.string.nemesis_comms_jammers_description
+            )
+        ),
+
+
 
 
 

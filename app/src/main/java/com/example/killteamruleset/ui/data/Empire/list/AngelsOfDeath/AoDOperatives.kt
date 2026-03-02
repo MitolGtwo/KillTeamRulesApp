@@ -11,9 +11,4 @@ val aodOperatives = listOf(
     IntercessorWarrior,
     EliminatorSniper
 
-
-
-
-
-
 )

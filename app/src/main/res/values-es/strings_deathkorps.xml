@@ -11,7 +11,7 @@
 ]]></string>
 
     <string name="deathkorps_bruiser_description"><![CDATA[
-Una vez por turno, cuando este Operativo este peleando o retaleando, en la al momento de resolver dados de ataque, puedes ignorar el daño de un resultado Normal.\n
+Una vez por turno, cuando este Operativo este combatiendo o retaleando, al momento de resolver dados de ataque, puedes ignorar el daño de un resultado Normal.\n
 Si este Operativo es incapacitado durante una acción de **Combate**, puedes golpear al Operativo enemigo en esa secuencia con uno de tus dados sin resolver, antes de que
 este Operativo sea removido del campo.
 ]]></string>
@@ -49,7 +49,7 @@ Si un Operativo **WATCHMASTER** es incapacitado, puedes usar esta regla. Si lo h
 ]]></string>
 
     <string name="deathkorps_medic_description"><![CDATA[
-La primera vez durante cada turno que otro Operativo **DEAHTKORPS aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
+La primera vez durante cada turno que otro Operativo **DEAHTKORPS** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
 ni el Operativo con el que se use esta regla esten en rango de control de un enemigo. Ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado
 por el resto de esa accion.\n
 Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
@@ -107,7 +107,7 @@ No selecciones un objetivo valido, dispara con esta arma a cada Operativo a 2\" 
 ]]></string>
 
     <string name="deathkorps_spotter_description"><![CDATA[
-        **SUPPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un Operativo **DEATHKORPS** aliado a 3\" de este Operativo esta
+        **SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un Operativo **DEATHKORPS** aliado a 3\" de este Operativo esta
         disparando este disparando a ese Operativo enemigo, puedes usar estar regla. Si lo haces:\n
         \n
         Las armas de distancia de ese Operativo aliado tienen la regla Seek Light.\n
@@ -172,7 +172,7 @@ Una vez por turno, cuando este Operativo recibe una **GUARDSMAN ORDER**, si no e
 ]]></string>
 
     <string name="deathkorps_vox_signal_description"><![CDATA[
-        **SUPPPORT.** Selecciona otro Operativo **DEATHKORPS** aliado visible y a 6\" de este Operativo. Hasta el final de la proxima activacion de ese Operativo,
+        **SUPPORT.** Selecciona otro Operativo **DEATHKORPS** aliado visible y a 6\" de este Operativo. Hasta el final de la proxima activacion de ese Operativo,
         añade 1 a su total de APLs.\n\n
 
         Este Operativo no puede hacer esta accion mientras esta en rango de control de un Operativo enemigo.
@@ -316,7 +316,8 @@ Si los enemigos atraviesan las trincheras, la disciplina de los soldados Krieg l
 ]]></string>
 
     <string name="clear_the_line_description"><![CDATA[
-Las armas de melee de Operativos **DEATHKORPS** ganan la regla Accurate 1. Cuando un Operativo **DEATHKORPS** este peleando completamente dentro de tu territorio, o cuando este
+Las armas de melee de Operativos **DEATHKORPS** ganan la regla Accurate 1. Cuando un Operativo
+**DEATHKORPS** este combatiendo completamente dentro de tu territorio, o cuando este
         retaleando, sus armas a melee ganan tambien la regla Severe.
 ]]></string>
 

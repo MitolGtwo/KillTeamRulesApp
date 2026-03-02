@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Chaos Cult-->
+
+    <string name="incite_slaughter_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="incite_slaughter_description"><![CDATA[
+**SUPPORT.** One other friendly **CHAOS CULT** operative
+visible to and within 9\" of this operative can immediately
+perform a free **Fight** action.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="incite_urgency_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="incite_urgency_description"><![CDATA[
+**SUPPORT.** One other friendly **CHAOS CULT** operative
+visible to and within 9\" of this operative can immediately
+perform a free **Charge** or **Dash** action (for the former, it
+cannot move more than 3\").
+    ]]></string>
+
+
+    <string name="cut_them_down_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="cut_them_down_description"><![CDATA[
+Whenever an enemy operative performs the
+**Fall Back** action while within control range of this operative,
+you can use this rule. If you do, inflict D3+1 damage on that
+enemy operative before it moves. If that enemy operative is
+within control range of two of these operatives, inflict 2D3+2
+damage instead.
+    ]]></string>
+
+    <string name="attune_in_purpose_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="attune_in_purpose_description"><![CDATA[
+Whenever this operative is activated,
+you can activate another ready friendly **BLESSED BLADE**
+operative within 6\" of it at the same time. Complete their
+activations action by action in any order.
+    ]]></string>
+
+    <string name="chaos_icon_bearer_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="chaos_icon_bearer_description"><![CDATA[
+Whenever determining control of a marker, treat
+this operatives APL stat as 1 higher. Note this is not a change to
+its APL stat, so any changes are cumulative with this.
+    ]]></string>
+
+    <string name="ruinous_icon_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="ruinous_icon_description"><![CDATA[
+**PSYCHIC**. Select one of the following effects to last
+until the start of this operative’s next activation, until
+it’s incapacitated or until it performs this action again
+(whichever comes first):\n
+\n
+• Invigoration: **PSYCHIC.** Whenever a friendly **CHAOS
+CULT** operative is within 4\" of this operative, Normal
+and Critical Dmg of 4 or more inflicts 1 less damage on that operative.\n
+\n
+Deterioration: **PSYCHIC**. Whenever an enemy
+operative is within 4\" of this operative, Normal and Critical
+Dmg inflicts 1 more damage on that operative.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="heinous_deluge_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="heinous_deluge_description"><![CDATA[
+**PSYCHIC**. Select one enemy operative that is a valid target for this operative. Until the end of that
+operatives next activation, subtract 1 from its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="malefic_vortex_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="malefic_vortex_description"><![CDATA[
+**PSYCHIC.** Remove your Malefic Vortex marker from the killzone (if any). Then
+place your Malefic Vortex marker visible to this operative, or on Vantage terrain of
+a terrain feature that is visible to this operative. Inflict 1 damage on each enemy
+operative within 2\" of that marker. In addition, in the Ready step of each Strategy
+phase, inflict 1 damage on each enemy operative within 2\" of that marker.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="chaos_group_activacion_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="chaos_group_activacion_description"><![CDATA[
+Whenever this operative is expended, you must then activate one other ready friendly **CHAOS CULT
+DEVOTEE** operative (if able) before your opponent activates.
+When that other operative is expended, your opponent then
+activates as normal (in other words, you cannot activate more
+than two operatives in succession with this rule).
+    ]]></string>
+
+    <string name="accursed_mutant_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="accursed_mutant_description"><![CDATA[
+This operative cannot perform unique actions. You must spend 1 additional AP for this operative to
+perform the **Pick Up Marker** and mission actions (excluding **Operate Hatch**).
+    ]]></string>
+
+    <string name="unnatural_regeneration_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="unnatural_regeneration_description"><![CDATA[
+Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+,
+subtract 1 from that inflicted damage.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="accursed_gifts_lore"><![CDATA[
+Accursed followers of Chaos are blessed by the gods
+with a horrifying array of mutations. Chiropteran wings,
+rigid horns, wicked claws and dextrous tentacles: all of
+these diabolical gifts are used to devastating effect.
+]]></string>
+
+    <string name="accursed_gifts_description"><![CDATA[
+**ACCURSED GIFTS** are rules that friendly **CHAOS
+CULT** operatives gain when they turn into
+another operative type (see **Mutation** faction
+rule). The first time a friendly **DEVOTEE** operative
+turns into a **MUTANT** operative during the battle,
+select your primary **ACCURSED GIFT**. The first
+time a friendly **MUTANT** operative turns into a
+**TORMENT** operative during the battle, select your
+secondary **ACCURSED GIFT**.\n
+\n
+All friendly **MUTANT** operatives have your primary
+**ACCURSED GIFT**, and all friendly **TORMENT**
+operatives have your primary and secondary
+**ACCURSED GIFTS**. You cannot select the same
+**ACCURSED GIFT** more than once per battle.
+]]></string>
+
+    <string name="gift1_lore"><![CDATA[
+Tattered, leathery wings burst from heaving folds of
+flesh. These infernal mutations allow their wretched
+bearer to ascend and drop into the fray with
+terrifying agility.
+]]></string>
+
+    <string name="gift1_description"><![CDATA[
+Whenever this operative is climbing up, you can
+treat the vertical distance as 2\" (regardless of
+how far the operative actually moves vertically).
+Whenever this operative is dropping, ignore the
+vertical distance.
+]]></string>
+
+
+    <string name="gift2_lore"><![CDATA[
+Muscular, misshapen limbs, undulating tentacles and
+slime-slick extrusions propel mutant Cultists across
+the battlefield with a speed that is as shocking as it
+is horrific.
+]]></string>
+
+    <string name="gift2_description"><![CDATA[
+Add 1\" to this operatives Move stat.
+]]></string>
+
+
+    <string name="gift3_lore"><![CDATA[
+Hardened plates formed of chitinous, daemonic material
+erupt from angry, swollen flesh, lending the accursed
+unholy resilience and turning lasbolts, bullets and
+blades aside.
+]]></string>
+
+    <string name="gift3_description"><![CDATA[
+Improve this operatives Save stat by 1.
+]]></string>
+
+
+    <string name="gift4_lore"><![CDATA[
+Pairs of sharp, curved horns protrude from the
+foreheads of some mutant Cultists, used to charge, gore
+and impale their victims.
+]]></string>
+
+    <string name="gift4_description"><![CDATA[
+Whenever this operative ends its move during the
+**Charge** action, you can inflict 1 damage on one
+enemy operative within its control range, or D3
+damage instead if this operative is a **TORMENT**.
+]]></string>
+
+
+    <string name="gift5_lore"><![CDATA[
+Within this Cultists twisted form, hardened sinews and
+tendons bind muscle, lending monstrous strength to
+each and every strike they make.
+]]></string>
+
+    <string name="gift5_description"><![CDATA[
+You can ignore any changes to the Hit stat of this
+operatives melee weapons from being injured.
+This operatives melee weapons have the Brutal
+weapon rule.
+]]></string>
+
+
+    <string name="gift6_lore"><![CDATA[
+This Cultists body and weapons are coated with sharp
+barbs that bite into those nearby, ripping flesh and
+spilling blood.
+]]></string>
+
+    <string name="gift6_description"><![CDATA[
+Whenever this operative is fighting or retaliating:\n
+\n
+• Enemy operatives cannot assist.\n
+\n
+• The first time you strike during that sequence, also inflict 1 damage on each other enemy
+operative within this operatives control range, or D3 damage instead if this operative is a
+**TORMENT* (roll separately for each).
+]]></string>
+
+    <string name="mutation_lore"><![CDATA[
+Through arcane ritual, the most devoted among a
+Chaos Cult have profane symbols carved into their
+flesh or tattooed onto their skin. Should the correct
+words of invocation be uttered, these icons appear to
+draw empyric power, mutating the form of the devotee.
+This does not satisfy the dark cravings and power lust
+of some; depraved prayers are written upon flayed
+skin and nailed into tormented flesh, and daemons are
+summoned and bound into mortal bodies.
+]]></string>
+
+    <string name="mutation_description"><![CDATA[
+During the battle, friendly **CHAOS CULT** operatives can **MUTATE** as follows:\n
+\n
+• As a **STRATEGIC GAMBIT**, you can **MUTATE** a number of friendly **CHAOS CULT** operatives
+based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n
+\n
+• Whenever a friendly **DEVOTEE** operative incapacitates an enemy operative within its
+control range, it can **MUTATE**.\n
+\n
+• Each operative cannot MUTATE more than once per turning point.\n
+\n
+Whenever a friendly operative **MUTATES**, select one of the following:\n
+\n
+• If it is a **DEVOTEE** operative, turn it into a **MUTANT** operative.\n
+\n
+• If it is a **MUTANT** operative, turn it into a **TORMENT** operative (max twice per turning point).\n
+\n
+• It can regain up to D3+1 lost wounds.\n
+\n
+You cannot have more than five **MUTANT** operatives and three **TORMENT** operatives at
+once. Whenever a friendly operative turns into a new operative:\n
+\n
+• Swap the miniatures, ensuring the centre of the new miniatures base is as close as possible to
+where the centre of the old miniatures base was. This can put it within control range of
+enemy operatives, and if the old miniature was, the new miniature must be if possible.\n
+\n
+• The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n
+\n
+• It is still the same operative for any rules its already been selected for. The operative is
+simply a new operative type and will use that new type’s miniature and datacard rules.\n
+\n
+
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="baleful_script_lore"><![CDATA[
+These infernal scrawlings, inscribed upon pages
+wrought from Human flesh, may bestow malefic gifts
+upon the reader when recited in the dark tongue.
+]]></string>
+
+    <string name="baleful_script_description"><![CDATA[
+Once per battle **STRATEGIC GAMBIT**. Change
+one of your **ACCURSED GIFTS**. Note that if it is
+an **ACCURSED GIFT** an operative has from the
+Abhorrent Mutation firefight ploy, only that
+operative benefits from this.
+]]></string>
+
+    <string name="chaos_covert_guises_lore"><![CDATA[
+The most insidious of Chaos Cults are masters of
+infiltration, disguise and betrayal.
+]]></string>
+
+    <string name="chaos_covert_guises_description"><![CDATA[
+After revealing this equipment option, roll one D3.
+As a **STRATEGIC GAMBIT** in the first turning point,
+a number of friendly ***CHAOS CULT DEVOTEE**
+operatives equal to the result that are wholly
+within your drop zone can immediately perform a
+free **Reposition** action, but must end that move
+wholly within 3\" of your drop zone.
+]]></string>
+
+    <string name="unholy_talisman_lore"><![CDATA[
+Whether held aloft on ragged banners, carved into
+puckered flesh or hanging from spiked chains, these
+Cultists display talismans in the belief that the Dark
+Gods will look favourably upon them.
+]]></string>
+
+    <string name="unholy_talisman_description"><![CDATA[
+Once per turning point, when an operative is shooting a friendly **CHAOS CULT** operative,
+in the Roll Defence Dice step, you can retain one of your normal successes as a critical
+success instead.
+]]></string>
+
+    <string name="vile_blessing_lore"><![CDATA[
+Though hideous, disturbing and often painful, the Dark
+Gods gifts of mutation bestow upon their recipients
+incredible resilience
+]]></string>
+
+    <string name="vile_blessing_description"><![CDATA[
+Once per battle, when an attack dice inflicts Normal Dmg on a friendly **CHAOS CULT**
+operative (excluding **DEVOTEE**), you can ignore that inflicted damage. If that friendly operative
+is a **MUTANT** or **TORMENT** operative, you cannot roll for the Unnatural Regeneration rule for that
+attack dice then decide to use this rule on the same dice – you must use one or the other.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="exaltation_in_pain_lore"><![CDATA[
+Spurred on by their fervour, Cultists embrace the
+exquisite agony of wounds upon their mutant flesh with
+maniacal delight.
+]]></string>
+
+    <string name="exaltation_in_pain_description"><![CDATA[
+You can ignore any changes to the Hit stat of
+friendly **CHAOS CULT** operatives weapons
+from being injured. Whenever an operative is
+shooting a friendly **CHAOS CULT** operative
+that is wounded, you can re-roll one of your
+defence dice.
+]]></string>
+
+    <string name="fervent_onslaught_lore"><![CDATA[
+The lost and the damned fight with a zealous
+desperation to earn the fickle favour of their
+uncaring patrons.
+]]></string>
+
+    <string name="fervent_onslaught_description"><![CDATA[
+Friendly **CHAOS CULT** operatives melee
+weapons have the Accurate 1 weapon rule, or the
+Accurate 2 weapon rule if that friendly operative
+is a **MUTANT** or **TORMENT** operative.
+]]></string>
+
+    <string name="creatures_of_nightmare_lore"><![CDATA[
+The twisted and unnatural forms of these accursed monstrosities inspire abject terror.
+]]></string>
+
+    <string name="creatures_of_nightmare_description"><![CDATA[
+Whenever determining control of a marker, treat the total APL stat of enemy operatives that
+contest it as 1 lower if at least one of those enemy operatives is within 2\" of friendly **CHAOS CULT**
+**MUTANT** or **CHAOS CULT TORMENT** operatives. Note this is not a change to the APL stat, so any
+changes are cumulative with this.
+]]></string>
+
+    <string name="sickening_aura_lore"><![CDATA[
+Sickening corruption flows from the hideous form of
+Mutant and Torment, eroding the sanity and strength of
+those who gaze upon them.
+]]></string>
+
+    <string name="sickening_aura_description"><![CDATA[
+Whenever an enemy operative is within 2\" of friendly **CHAOS CULT MUTANT** or **CHAOS CULT**
+**TORMENT** operatives, worsen the Hit stat of that enemy operative’s weapons by 1. This is not
+cumulative with being injured.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="faithful_follower_lore"><![CDATA[
+The teeming masses of a Chaos Cult will gladly
+sacrifice their own wretched lives to preserve their
+unholy superiors.
+]]></string>
+
+    <string name="faithful_follower_description"><![CDATA[
+Use this firefight ploy when a friendly **CHAOS
+CULT DARK COMMUNE** operative is selected
+as the valid target of a Shoot action or to fight
+against during the **Fight** action. Select one other
+friendly **CHAOS CULT** operative (excluding **DARK
+COMMUNE**) visible to and within 3\" of that **DARK
+COMMUNE** operative to become the valid target
+or to be fought against (as appropriate) instead
+(even if it would not normally be valid for this). If
+it is the **Fight** action, treat that other operative as
+being within the fighting operatives control range
+for the duration of that action. If it is the **Shoot**
+action, that other operative is only in cover or
+obscured if the original target was.\n
+\n
+This ploy has no effect if it is the **Shoot** action
+and the ranged weapon has the Blast or Torrent weapon rule.
+]]></string>
+
+    <string name="abhorrent_mutation_lore"><![CDATA[
+In the midst of battle, when violence and emotion
+run rampant, the Ruinous Powers bestow upon their underlings their accursed gifts.
+]]></string>
+
+    <string name="abhorrent_mutation_description"><![CDATA[
+Use this firefight ploy when a friendly **CHAOS CULT** operative (excluding **DARK COMMUNE**)
+is activated. Select an **ACCURSED GIFT** for that operative to gain. This is in addition to any
+**ACCURSED GIFTS** it already has. Each friendly operative cannot be selected for this ploy more
+than once per battle, and if that operative turns into a different one (see Mutation faction rule), it
+still has that **ACCURSED GIFT.**
+]]></string>
+
+    <string name="frenzied_demise_lore"><![CDATA[
+Even in their death throes, the devotees of the Dark Gods seek to inflict agony and destruction.
+]]></string>
+
+    <string name="frenzied_demise_description"><![CDATA[
+Use this firefight ploy when a friendly **CHAOS CULT MUTANT** or **CHAOS CULT TORMENT**
+operative is incapacitated, before it is removed from the killzone. Inflict D3 damage (or D6
+damage instead if that friendly operative is a **TORMENT**) on one enemy operative visible to and
+within 2\" of that friendly operative.
+]]></string>
+
+    <string name="unleash_the_daemon_lore"><![CDATA[
+Amidst escalating violence, the veil of reality is torn asunder and the influence of the daemonic strengthens.
+]]></string>
+
+    <string name="unleash_the_daemon_description"><![CDATA[
+Use this firefight ploy during a friendly **CHAOS CULT MUTANT** or **CHAOS CULT TORMENT**
+operatives activation, before or after it performs an action. During that activation, that operative
+can perform two **Fight** actions, and one of them can be free.
+]]></string>
+
+</resources>

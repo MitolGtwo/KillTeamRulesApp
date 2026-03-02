@@ -1286,6 +1286,524 @@ object PloyRepository {
         ),
 
 
+        "chaos_cult" to listOf(
+            // ── chaos cult  STRATEGY ──
+            Ploy(
+                id = "exaltation_in_pain",
+                name ="EXALTATION IN PAIN",
+                type = PloyType.STRATEGY,
+                lore = R.string.exaltation_in_pain_lore,
+                description = R.string.exaltation_in_pain_description
+            ),
+            Ploy(
+                id = "fervent_onslaught",
+                name = "FERVENT ONSLAUGHT",
+                type = PloyType.STRATEGY,
+                lore = R.string.fervent_onslaught_lore,
+                description = R.string.fervent_onslaught_description
+            ),
+            Ploy(
+                id = "creatures_of_nightmare",
+                name = "CREATURES OF NIGHTMARE",
+                type = PloyType.STRATEGY,
+                lore = R.string.creatures_of_nightmare_lore,
+                description = R.string.creatures_of_nightmare_description
+            ),
+            Ploy(
+                id = "sickening_aura",
+                name = "SICKENING AURA",
+                type = PloyType.STRATEGY,
+                lore = R.string.sickening_aura_lore,
+                description = R.string.sickening_aura_description
+            ),
+
+
+            // ── chaos cult FIREFIGHT ──
+            Ploy(
+                id = "faithful_follower",
+                name = "FAITHFUL FOLLOWER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.faithful_follower_lore,
+                description = R.string.faithful_follower_description
+            ),
+            Ploy(
+                id = "abhorrent_mutation",
+                name = "ABHORRENT MUTATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.abhorrent_mutation_lore,
+                description = R.string.abhorrent_mutation_description
+            ),
+            Ploy(
+                id = "frenzied_demise",
+                name = "FRENZIED DEMISE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.frenzied_demise_lore,
+                description = R.string.frenzied_demise_description
+            ),
+            Ploy(
+                id = "unleash_the_daemon",
+                name = "UNLEASH THE DAEMON",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.unleash_the_daemon_lore,
+                description = R.string.unleash_the_daemon_description
+            )
+        ),
+
+
+        "fellgor_ravagers" to listOf(
+            // ── fellgor  STRATEGY ──
+            Ploy(
+                id = "violent_temperament",
+                name ="VIOLENT TEMPERAMENT",
+                type = PloyType.STRATEGY,
+                lore = R.string.violent_temperament_lore,
+                description = R.string.violent_temperament_description
+            ),
+            Ploy(
+                id = "fellgor_ambush",
+                name = "AMBUSH",
+                type = PloyType.STRATEGY,
+                lore = R.string.fellgor_ambush_lore,
+                description = R.string.fellgor_ambush_description
+            ),
+            Ploy(
+                id = "pelting_firepower",
+                name = "PELTING FIREPOWER",
+                type = PloyType.STRATEGY,
+                lore = R.string.pelting_firepower_lore,
+                description = R.string.pelting_firepower_description
+            ),
+            Ploy(
+                id = "reckless_determination",
+                name = "RECKLESS DETERMINATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.reckless_determination_lore,
+                description = R.string.reckless_determination_description
+            ),
+
+
+            // ── fellgor FIREFIGHT ──
+            Ploy(
+                id = "ruthless_rampage",
+                name = "RUTHLESS RAMPAGE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.ruthless_rampage_lore,
+                description = R.string.ruthless_rampage_description
+            ),
+            Ploy(
+                id = "wild_rage",
+                name = "WILD RAGE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wild_rage_lore,
+                description = R.string.wild_rage_description
+            ),
+            Ploy(
+                id = "animalistic_fury",
+                name = "ANIMALISTIC FURY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.animalistic_fury_lore,
+                description = R.string.animalistic_fury_description
+            ),
+            Ploy(
+                id = "bloodsense",
+                name = "BLOODSENSE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.bloodsense_lore,
+                description = R.string.bloodsense_description
+            )
+        ),
+
+
+
+
+        "gellepox_infected" to listOf(
+            // ── Gellerpox  STRATEGY ──
+            Ploy(
+                id = "plagueridden_determination",
+                name = "PLAGUERIDDEN DETERMINATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.plagueridden_determination_lore,
+                description = R.string.plagueridden_determination_description
+            ),
+            Ploy(
+                id = "blessings_of_infection",
+                name = "BLESSINGS OF INFECTION",
+                type = PloyType.STRATEGY,
+                lore = R.string.blessings_of_infection_lore,
+                description = R.string.blessings_of_infection_description
+            ),
+            Ploy(
+                id = "drawn_to_the_hum",
+                name = "DRAWN TO THE HUM",
+                type = PloyType.STRATEGY,
+                lore = R.string.drawn_to_the_hum_lore,
+                description = R.string.drawn_to_the_hum_description
+            ),
+            Ploy(
+                id = "rust_emanations",
+                name = "RUST EMANATIONS",
+                type = PloyType.STRATEGY,
+                lore = R.string.rust_emanations_lore,
+                description = R.string.rust_emanations_description
+            ),
+
+
+            // ── Gellerpox  FIREFIGHT ──
+            Ploy(
+                id = "revolting_technology",
+                name = "REVOLTING TECHNOLOGY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.revolting_technology_lore,
+                description = R.string.revolting_technology_description
+            ),
+            Ploy(
+                id = "barge",
+                name = "BARGE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.barge_lore,
+                description = R.string.barge_description
+            ),
+            Ploy(
+                id = "putrescent_demise",
+                name = "PUTRESCENT DEMISE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.putrescent_demise_lore,
+                description = R.string.putrescent_demise_description
+            ),
+            Ploy(
+                id = "frightening_onslaught",
+                name = "BFRIGHTENING ONSLAUGHT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.frightening_onslaught_lore,
+                description = R.string.frightening_onslaught_description
+            )
+        ),
+
+
+        "goremongers" to listOf(
+            // ── Goremongers STRATEGY ──
+            Ploy(
+                id = "enhance_violence",
+                name = "ENHANCED VIOLENCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.enhance_violence_lore,
+                description = R.string.enhance_violence_description
+            ),
+            Ploy(
+                id = "augmented_endurance",
+                name = "AUGMENTED ENDURANCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.augmented_endurance_lore,
+                description = R.string.augmented_endurance_description
+            ),
+            Ploy(
+                id = "gory_tenacity",
+                name = "GORY TENACITY",
+                type = PloyType.STRATEGY,
+                lore = R.string.gory_tenacity_lore,
+                description = R.string.gory_tenacity_description
+            ),
+            Ploy(
+                id = "hunt_for_blood",
+                name = "HUNT FOR BLOOD",
+                type = PloyType.STRATEGY,
+                lore = R.string.hunt_for_blood_lore,
+                description = R.string.hunt_for_blood_description
+            ),
+
+
+            // ── Goremongers  FIREFIGHT ──
+            Ploy(
+                id = "unbridled_aggression",
+                name = "UNBRIDLED AGGRESSION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.unbridled_aggression_lore,
+                description = R.string.unbridled_aggression_description
+            ),
+            Ploy(
+                id = "gorethirst",
+                name = "GORETHIRST",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.gorethirst_lore,
+                description = R.string.gorethirst_description
+            ),
+            Ploy(
+                id = "destructive_demise",
+                name = "DESTRUCTIVE DEMISE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.destructive_demise_lore,
+                description = R.string.destructive_demise_description
+            ),
+            Ploy(
+                id = "lacerate_flesh",
+                name = "LACERATE FLESH",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.lacerate_flesh_lore,
+                description = R.string.lacerate_flesh_description
+            )
+        ),
+
+
+
+        "legionaries" to listOf(
+            // ── Legionaries STRATEGY ──
+            Ploy(
+                id = "blood_for_the_blood_god",
+                name = "BLOOD FOR THE BLOOD GOD",
+                type = PloyType.STRATEGY,
+                lore = R.string.blood_for_the_blood_god_lore,
+                description = R.string.blood_for_the_blood_god_description
+            ),
+            Ploy(
+                id = "legionarie_implacable",
+                name = "IMPLACABLE",
+                type = PloyType.STRATEGY,
+                lore = R.string.legionarie_implacable_lore,
+                description = R.string.legionarie_implacable_description
+            ),
+            Ploy(
+                id = "quicksilver_speed",
+                name = "QUICKSILVER SPEED",
+                type = PloyType.STRATEGY,
+                lore = R.string.quicksilver_speed_lore,
+                description = R.string.quicksilver_speed_description
+            ),
+            Ploy(
+                id = "fickle_fates",
+                name = "FICKLE FATES",
+                type = PloyType.STRATEGY,
+                lore = R.string.fickle_fates_lore,
+                description = R.string.fickle_fates_description
+            ),
+
+
+            // ── Legionaries  FIREFIGHT ──
+            Ploy(
+                id = "uneding_bloodshed",
+                name = "UNENDING BLOODSHED",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.uneding_bloodshed_lore,
+                description = R.string.uneding_bloodshed_description
+            ),
+            Ploy(
+                id = "mutability_and_change",
+                name = "MUTABILITY AND CHANGE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.mutability_and_change_lore,
+                description = R.string.mutability_and_change_description
+            ),
+            Ploy(
+                id = "malignant_aura",
+                name = "MALIGNANT AURA",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.malignant_aura_lore,
+                description = R.string.malignant_aura_description
+            ),
+            Ploy(
+                id = "sickening_captivation",
+                name = "SICKENING CAPTIVATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.sickening_captivation_lore,
+                description = R.string.sickening_captivation_description
+            )
+        ),
+
+
+
+        "murderwing" to listOf(
+            // ── Murderwing STRATEGY ──
+            Ploy(
+                id = "predators_above",
+                name = "PREDATORS ABOVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.predators_above_lore,
+                description = R.string.predators_above_description
+            ),
+            Ploy(
+                id = "cull_the_weak",
+                name = "CULL THE WEAK",
+                type = PloyType.STRATEGY,
+                lore = R.string.cull_the_weak_lore,
+                description = R.string.cull_the_weak_description
+            ),
+            Ploy(
+                id = "nightmare_on_high",
+                name = "NIGHTMARE ON HIGH",
+                type = PloyType.STRATEGY,
+                lore = R.string.nightmare_on_high_lore,
+                description = R.string.nightmare_on_high_description
+            ),
+            Ploy(
+                id = "instil_fear",
+                name = "INSTIL FEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.instil_fear_lore,
+                description = R.string.instil_fear_description
+            ),
+
+
+            // ── Murderwing  FIREFIGHT ──
+            Ploy(
+                id = "malicious_narcissism",
+                name = "MALICIOUS NARCISSISM",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.malicious_narcissism_lore,
+                description = R.string.malicious_narcissism_description
+            ),
+            Ploy(
+                id = "murderous_descent",
+                name = "MURDEROUS DESCENT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.murderous_descent_lore,
+                description = R.string.murderous_descent_description
+            ),
+            Ploy(
+                id = "long_forgotten_honour",
+                name = "LONG FORGOTTEN HONOUR",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.long_forgotten_honour_lore,
+                description = R.string.long_forgotten_honour_description
+            ),
+            Ploy(
+                id = "wings_of_darkness",
+                name = "WINGS OF DARKNESS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wings_of_darkness_lore,
+                description = R.string.wings_of_darkness_description
+            )
+        ),
+
+
+        "nemesis_claw" to listOf(
+            // ── Nemesis STRATEGY ──
+            Ploy(
+                id = "we_have_come_for_you",
+                name = "WE HAVE COME FOR YOU",
+                type = PloyType.STRATEGY,
+                lore = R.string.we_have_come_for_you_lore,
+                description = R.string.we_have_come_for_you_description
+            ),
+            Ploy(
+                id = "the_black_hunt",
+                name = "THE BLACK HUNT",
+                type = PloyType.STRATEGY,
+                lore = R.string.the_black_hunt_lore,
+                description = R.string.the_black_hunt_description
+            ),
+            Ploy(
+                id = "preysight",
+                name = "PREYSIGHT",
+                type = PloyType.STRATEGY,
+                lore = R.string.preysight_lore,
+                description = R.string.preysight_description
+            ),
+            Ploy(
+                id = "return_to_darkness",
+                name = "RETURN TO DARKNESS",
+                type = PloyType.STRATEGY,
+                lore = R.string.return_to_darkness_lore,
+                description = R.string.return_to_darkness_description
+            ),
+
+
+            // ── Nemesis FIREFIGHT ──
+            Ploy(
+                id = "nemesis_vox_scream",
+                name = "VOX SCREAM",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.nemesis_vox_scream_lore,
+                description = R.string.nemesis_vox_scream_description
+            ),
+            Ploy(
+                id = "death_to_the_false_emperor",
+                name = "DEATH TO THE FALSE EMPEROR",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.death_to_the_false_emperor_lore,
+                description = R.string.death_to_the_false_emperor_description
+            ),
+            Ploy(
+                id = "proclivity_for_murder",
+                name = "PROCLIVITY FOR MURDER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.proclivity_for_murder_lore,
+                description = R.string.proclivity_for_murder_description
+            ),
+            Ploy(
+                id = "dirty_fighter",
+                name = "DIRTY FIGHTER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.dirty_fighter_lore,
+                description = R.string.dirty_fighter_description
+            )
+        ),
+
+
+
+        "warpcoven" to listOf(
+            // ── Warpcoven STRATEGY ──
+            Ploy(
+                id = "aetherial_warding",
+                name = "AETHERIAL WARDING",
+                type = PloyType.STRATEGY,
+                lore = R.string.aetherial_warding_lore,
+                description = R.string.aetherial_warding_description
+            ),
+            Ploy(
+                id = "fate_weapon",
+                name = "FATE ITSELF IS MY WEAPON",
+                type = PloyType.STRATEGY,
+                lore = R.string.fate_weapon_lore,
+                description = R.string.fate_weapon_description
+            ),
+            Ploy(
+                id = "brotherhood_sorcerers",
+                name = "BROTHERHOOD OF SORCERERS",
+                type = PloyType.STRATEGY,
+                lore = R.string.brotherhood_sorcerers_lore,
+                description = R.string.brotherhood_sorcerers_description
+            ),
+            Ploy(
+                id = "savage_herd",
+                name = "SAVAGE HERD",
+                type = PloyType.STRATEGY,
+                lore = R.string.savage_herd_lore,
+                description = R.string.savage_herd_description
+            ),
+
+
+            // ── Warpcoven FIREFIGHT ──
+            Ploy(
+                id = "all_is_dust",
+                name = "ALL IS DUST",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.all_is_dust_lore,
+                description = R.string.all_is_dust_description
+            ),
+            Ploy(
+                id = "capricious_plan",
+                name = "CAPRICIOUS PLAN",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.capricious_plan_lore,
+                description = R.string.capricious_plan_description
+            ),
+            Ploy(
+                id = "psychic_cabal",
+                name = "PSYCHIC CABAL",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.psychic_cabal_lore,
+                description = R.string.psychic_cabal_description
+            ),
+            Ploy(
+                id = "mutant_herd",
+                name = "MUTANT HERD",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.mutant_herd_lore,
+                description = R.string.mutant_herd_description
+            )
+        ),
+
+
+
         "plague_marines" to listOf(
             // ── PLAGUE MARINES STRATEGY ──
             Ploy(

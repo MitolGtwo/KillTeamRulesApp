@@ -73,7 +73,7 @@
 
     <string name="battleclade_omniscanner_description"><![CDATA[
         Seleciona un Operativo visible o a 8\" de este Operativo; ese Operativo gana uno de tus marcadores Omniscanner. Siempre que un aliado **BATTLECLADE**
-        este disparando, peleando o retaleando contra un enemigo con un marcador de Omniscanner, las armas de ese Operativo aliado ganan la regla Ceaseless.
+        este disparando, combatiendo o retaleando contra un enemigo con un marcador de Omniscanner, las armas de ese Operativo aliado ganan la regla Ceaseless.
         \n\n
          Este Operativo no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
 ]]></string>
@@ -316,7 +316,7 @@ con su cuerpo a sus maestros al momento de ser amenazados. MR PRESIDENT GET DOWN
 
     <string name="servile_surrogacy_description"><![CDATA[
 Usa esta Firefight ploy cuando un Operativo **BATTLECLADE TECH-PRIEST** aliado sea seleccionado
-como objetivo valido de una accion de **Disparo** o como objetivo de pelea durante una accion de
+como objetivo valido de una accion de **Disparo** o como objetivo de un combate durante una accion de
 **Combatir**. Selecciona un aliado **BATTLECLADE SERVITOR** aliado a 3\" de ese primer Operativo para ser
 un objetivo valido o para ser objetivo de un combate (incluso si normalmente no seria un objetivo valido para
 esto). If es una accion de **Combate** trata ese **SERVITOR** como estando en rango de control durante esa accion.

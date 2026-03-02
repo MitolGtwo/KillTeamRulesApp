@@ -367,7 +367,7 @@ object TeamRepository {
             alliance = Alliance.CHAOS,
             type = TeamType.ELITE,
             difficulty = "Easy",
-            archetypes = listOf(Archetypes.RECON, Archetypes.SEEK_AND_DESTROY),
+            archetypes = listOf(Archetypes.SECURITY, Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.plague_faction_bg,
             backgroundRes = R.drawable.plague_bg,
             assemblyPdfAsset = "pdfs/plague_assembly.pdf",

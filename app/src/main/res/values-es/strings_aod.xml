@@ -137,7 +137,7 @@
             Cuando ese Operativo esté disparando durante una activación en la que no se ha realizado acciones de **Charge, Fall Back** o **Reposition**, el arma bolt
             tiene las reglas Accurate 1 y Severe\n.
                         ---8.SIEGE SPECIALIST\n
-            Las armas de rango de este Operativo tienen la regla Saturate. Cuando este Operativo este peleando o retaleando, Operativos enemigos no pueden asistir.
+            Las armas de rango de este Operativo tienen la regla Saturate. Cuando este Operativo este combatiendo o retaleando, Operativos enemigos no pueden asistir.
 ]]></string>
 
 
@@ -148,7 +148,7 @@
 ]]></string>
 
     <string name="purity_seals_description"><![CDATA[
-        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado esté disparando, peleando o retaleando, si lanzas 2 o más fallos, puedes descartar uno de ellos
+        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado esté disparando, combatiendo o retaleando, si lanzas 2 o más fallos, puedes descartar uno de ellos
         para tener un éxito normal en su lugar.
 ]]></string>
 
@@ -166,7 +166,7 @@
 ]]></string>
 
     <string name="tilting_shields_description"><![CDATA[
-        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado este peleando o retaleando, despues de que tu oponente lanza sus dados de ataque, pero antes
+        Una vez por turno, cuando un Operativo **ANGEL OF DEATH** aliado este combatiendo o retaleando, despues de que tu oponente lanza sus dados de ataque, pero antes
         de que haga re-rolls, puedes usar esta regla. Si lo haces, tu oponente no puede retener dados de ataque menores de 6 como exitos criticos (Lethal, rending o Severe).
 ]]></string>
 
@@ -192,7 +192,7 @@
         Balanced. x distancia es la **COMBAT DOCTRINE** que seleccionaste.\n\n
     - **DEVASTATOR DOCTRINE:** Disparar un Operativo a más de 6\" de este Operativo.\n
     - **TACTICAL DOCTRINE:** Disparar un Operativo a 6\" de este Operativo.\n
-    - **ASSAULT DOCTRINE:** Pelear o retalear.
+    - **ASSAULT DOCTRINE:** Combatir o retalear.
 ]]></string>
 
     <string name="no_fear_lore"><![CDATA[
@@ -251,7 +251,7 @@
 ]]></string>
 
     <string name="shock_assault_description"><![CDATA[
-Usa esta Firefight ploy cuando un Operativo **ANGEL OF DEATH** aliado esté haciendo una acción de **Pelea** en una activación en la cual haya realizado una accion de
+Usa esta Firefight ploy cuando un Operativo **ANGEL OF DEATH** aliado esté haciendo una acción de **Combate** en una activación en la cual haya realizado una accion de
         **Carga**, al inicio de la fase de resolver dados de ataque. Hasta el final de esta acción:\n\n
 
         -Sus armas a melee tienen la regla Shock.
