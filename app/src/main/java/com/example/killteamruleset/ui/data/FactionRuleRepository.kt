@@ -1,6 +1,6 @@
 package com.example.killteamruleset.ui.data
 
-import androidx.annotation.Nullable
+
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.FactionRule
@@ -8,8 +8,12 @@ import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Piercing
 import com.example.killteamruleset.ui.model.Piercing_Crits
+import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Seek_light
 import com.example.killteamruleset.ui.model.Silent
+import com.example.killteamruleset.ui.model.Stun
 import com.example.killteamruleset.ui.model.Torrent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
@@ -570,7 +574,173 @@ object FactionRuleRepository {
             ),
         ),
 
-        
+
+
+
+        "blades_of_khaine" to listOf(
+            FactionRule(
+                id = "aspect_techniques",
+                title = "ASPECT TECHNIQUES",
+                lore = R.string.aspect_techniques_lore,
+                ruleText = R.string.aspect_techniques_description,
+                ),
+            FactionRule(
+                id = "the_woe",
+                imageRes = R.drawable.howling_banshee,
+                title = "THE WOE",
+                lore = R.string.the_woe_lore,
+                ruleText = R.string.the_woe_description,
+                ),
+            FactionRule(
+                id = "rain_of_tears",
+                imageRes = R.drawable.howling_banshee,
+                title = "RAIN OF TEARS",
+                lore = R.string.rain_of_tears_lore,
+                ruleText = R.string.rain_of_tears_description,
+            ),
+            FactionRule(
+                id = "acrobatic",
+                imageRes = R.drawable.howling_banshee,
+                title = "ACROBATIC",
+                lore = R.string.acrobatic_lore,
+                ruleText = R.string.acrobatic_description,
+            ),
+            FactionRule(
+                id = "scream_that_steals",
+                imageRes = R.drawable.howling_banshee,
+                title = "SCREAM-THAT-STEALS",
+                lore = R.string.scream_that_steals_lore,
+                ruleText = R.string.scream_that_steals_description,
+            ),
+            FactionRule(
+                id = "shriek_that_kills",
+                imageRes = R.drawable.howling_banshee,
+                title = "SHRIEK-THAT-KILLS",
+                lore = R.string.shriek_that_kills_lore,
+                ruleText = R.string.shriek_that_kills_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Shriek-that-kills",
+                        type = WeaponType.RANGED,
+                        attacks = 5,
+                        hit = "3+",
+                        damage = "1/2",
+                        keywords = listOf(
+                            Range(6),
+                            Saturate,
+                            Seek_light,
+                            Stun,
+                            Torrent(1)
+                        )
+                    )
+                )
+            ),
+            FactionRule(
+                id = "the_slicing_hurricane",
+                imageRes = R.drawable.dire_avenger,
+                title = "THE SLICING HURRICANE",
+                lore = R.string.the_slicing_hurricane_lore,
+                ruleText = R.string.the_slicing_hurricane_description,
+            ),
+            FactionRule(
+                id = "death_thousand_blades",
+                imageRes = R.drawable.dire_avenger,
+                title = "DEATH OF A THOUSAND BLADES",
+                lore = R.string.death_thousand_blades_lore,
+                ruleText = R.string.death_thousand_blades_description,
+            ),
+            FactionRule(
+                id = "vigilance_of_the_avenger",
+                imageRes = R.drawable.dire_avenger,
+                title = "VIGILANCE OF THE AVENGER",
+                lore = R.string.vigilance_of_the_avenger_lore,
+                ruleText = R.string.vigilance_of_the_avenger_description,
+            ),
+            FactionRule(
+                id = "the_slicing_hurricane",
+                imageRes = R.drawable.dire_avenger,
+                title = "THE SLICING HURRICANE",
+                lore = R.string.the_slicing_hurricane_lore,
+                ruleText = R.string.the_slicing_hurricane_description,
+            ),
+            FactionRule(
+                id = "unstinting_immovable",
+                imageRes = R.drawable.dire_avenger,
+                title = "UNSTINTING, IMMOVABLE",
+                lore = R.string.unstinting_immovable_lore,
+                ruleText = R.string.unstinting_immovable_description,
+            ),
+            FactionRule(
+                id = "raging_heat",
+                imageRes = R.drawable.dire_avenger,
+                title = "RAGING HEAT OF THE DYING FLAME",
+                lore = R.string.raging_heat_lore,
+                ruleText = R.string.raging_heat_description,
+            ),
+
+            FactionRule(
+                id = "patient_blow",
+                imageRes = R.drawable.striking_scorpion,
+                title = "PATIENT STALK, SUDDEN BLOW",
+                lore = R.string.patient_blow_lore,
+                ruleText = R.string.patient_blow_description,
+            ),
+            FactionRule(
+                id = "strike_and_fade",
+                imageRes = R.drawable.striking_scorpion,
+                title = "STRIKE AND FADE",
+                lore = R.string.strike_and_fade_lore,
+                ruleText = R.string.strike_and_fade_description,
+            ),
+            FactionRule(
+                id = "scorpion_eye",
+                imageRes = R.drawable.striking_scorpion,
+                title = "SCORPION’S EYE",
+                lore = R.string.scorpion_eye_lore,
+                ruleText = R.string.scorpion_eye_description,
+            ),
+            FactionRule(
+                id = "merciless_strikes",
+                imageRes = R.drawable.striking_scorpion,
+                title = "MERCILESS STRIKES",
+                lore = R.string.merciless_strikes_lore,
+                ruleText = R.string.merciless_strikes_description,
+            ),
+            FactionRule(
+                id = "one_with_gloom",
+                imageRes = R.drawable.striking_scorpion,
+                title = "ONE WITH THE GLOOM",
+                lore = R.string.one_with_gloom_lore,
+                ruleText = R.string.one_with_gloom_description,
+            ),
+            FactionRule(
+                id = "blades_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.blades_tokens
+            ),
+        ),
+
+
+
+        "brood_brothers" to listOf(
+            FactionRule(
+                id = "brood_crossfire",
+                title = "CROSSFIRE",
+                lore = R.string.brood_crossfire_lore,
+                ruleText = R.string.brood_crossfire_description,
+            ),
+            FactionRule(
+                id = "brood_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.brood_tokens
+            ),
+        ),
+
+
         //Wrecka Krew
         "wrecka_krew" to listOf(
             FactionRule(
@@ -1000,8 +1170,12 @@ object FactionRuleRepository {
                 ruleText = R.string.plague_disgustingly_resilent_description,
 
                 )
-            )
-            )
+            ),
+
+
+
+
+        )
 
     fun getForTeam(teamId: String): List<FactionRule> {
         return rulesByTeam[teamId].orEmpty()

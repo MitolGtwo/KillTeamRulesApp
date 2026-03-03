@@ -618,6 +618,76 @@ object EquipmentRepository {
 
 
 
+        "blades_of_khaine" to listOf(
+
+            Equipment(
+                id = "rune_prophecy",
+                name = "RUNE OF PROPHECY",
+                lore =R.string.rune_prophecy_lore,
+                description = R.string.rune_prophecy_description
+            ),
+            Equipment(
+                id = "rune_shielding",
+                name = "RUNE OF SHIELDING",
+                lore =R.string.rune_shielding_lore,
+                description = R.string.rune_shielding_description
+            ),
+            Equipment(
+                id = "rune_foresight",
+                name = "RUNE OF FORESIGHT",
+                lore =R.string.rune_foresight_lore,
+                description = R.string.rune_foresight_description
+            ),
+            Equipment(
+                id = "wraithbone_talisman",
+                name = "WRAITHBONE TALISMAN",
+                lore =R.string.wraithbone_talisman_lore,
+                description = R.string.wraithbone_talisman_description
+            )
+        ),
+
+
+        "brood_brothers" to listOf(
+
+            Equipment(
+                id = "brood_cult_talisman",
+                name = "CULT TALISMAN",
+                lore =R.string.brood_cult_talisman_lore,
+                description = R.string.brood_cult_talisman_description
+            ),
+            Equipment(
+                id = "brood_covert_guises",
+                name = "COVERT GUISES",
+                lore =R.string.brood_covert_guises_lore,
+                description = R.string.brood_covert_guises_description
+            ),
+            Equipment(
+                id = "cult_knives",
+                name = "CULT KNIVES",
+                lore =R.string.cult_knives_lore,
+                description = R.string.cult_knives_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Cult Knife",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "lookout",
+                name = "LOOKOUT",
+                lore =R.string.lookout_lore,
+                description = R.string.lookout_description
+            )
+        ),
+
+
+
 
         "wrecka_krew" to listOf(
 

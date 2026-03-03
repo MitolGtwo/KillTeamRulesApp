@@ -1156,6 +1156,142 @@ object PloyRepository {
         ),
 
 
+        "blades_of_khaine" to listOf(
+            // ── Blades STRATEGY ──
+            Ploy(
+                id = "forewarned",
+                name ="FOREWARNED",
+                type = PloyType.STRATEGY,
+                lore = R.string.forewarned_lore,
+                description = R.string.forewarned_description
+            ),
+            Ploy(
+                id = "ruthless_poise",
+                name = "RUTHLESS POISE",
+                type = PloyType.STRATEGY,
+                lore = R.string.ruthless_poise_lore,
+                description = R.string.ruthless_poise_description
+            ),
+            Ploy(
+                id = "khaine_vengeance",
+                name = "KHAINE’S VENGEANCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.khaine_vengeance_lore,
+                description = R.string.khaine_vengeance_description
+            ),
+            Ploy(
+                id = "dance_of_death",
+                name = "DANCE OF DEATH",
+                type = PloyType.STRATEGY,
+                lore = R.string.dance_of_death_lore,
+                description = R.string.dance_of_death_description
+            ),
+
+
+            // ── Blades FIREFIGHT ──
+            Ploy(
+                id = "bladewind",
+                name = "BLADEWIND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.bladewind_lore,
+                description = R.string.bladewind_description
+            ),
+            Ploy(
+                id = "starfall",
+                name = "STARFALL",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.starfall_lore,
+                description = R.string.starfall_description
+            ),
+            Ploy(
+                id = "fading_light",
+                name = "FADING LIGHT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.fading_light_lore,
+                description = R.string.fading_light_description
+            ),
+            Ploy(
+                id = "blades_contempt",
+                name = "CONTEMPT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.blades_contempt_lore,
+                description = R.string.blades_contempt_description
+            )
+        ),
+
+
+
+        "brood_brothers" to listOf(
+            // ── Brood STRATEGY ──
+            Ploy(
+                id = "pervasive",
+                name ="PERVASIVE",
+                type = PloyType.STRATEGY,
+                lore = R.string.pervasive_lore,
+                description = R.string.pervasive_description
+            ),
+            Ploy(
+                id = "uprising",
+                name = "UPRISING",
+                type = PloyType.STRATEGY,
+                lore = R.string.uprising_lore,
+                description = R.string.uprising_description
+            ),
+            Ploy(
+                id = "embedded",
+                name = "EMBEDDED",
+                type = PloyType.STRATEGY,
+                lore = R.string.embedded_lore,
+                description = R.string.embedded_description
+            ),
+            Ploy(
+                id = "cult_devotion",
+                name = "CULT DEVOTION",
+                type = PloyType.STRATEGY,
+                lore = R.string.cult_devotion_lore,
+                description = R.string.cult_devotion_description
+            ),
+
+
+            // ── Brood FIREFIGHT ──
+            Ploy(
+                id = "ruthless_coordination",
+                name = "RUTHLESS COORDINATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.ruthless_coordination_lore,
+                description = R.string.ruthless_coordination_description,
+                abilities = listOf(
+                    Ability(
+                        title = "RUTHLESS COORDINATION",
+                        usage = null,
+                        description = null,
+                        imageRes = R.drawable.ruthless_coordination
+                    )
+                )
+            ),
+            Ploy(
+                id = "unquestioning_loyalty",
+                name = "UNQUESTIONING LOYALTY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.unquestioning_loyalty_lore,
+                description = R.string.unquestioning_loyalty_description
+            ),
+            Ploy(
+                id = "idolisation",
+                name = "IDOLISATION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.idolisation_lore,
+                description = R.string.idolisation_description
+            ),
+            Ploy(
+                id = "insidious",
+                name = "INSIDIOUS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.insidious_lore,
+                description = R.string.insidious_description
+            )
+        ),
+
 
         "wrecka_krew" to listOf(
             // ── WRECKAS STRATEGY ──
@@ -1801,7 +1937,6 @@ object PloyRepository {
                 description = R.string.mutant_herd_description
             )
         ),
-
 
 
         "plague_marines" to listOf(

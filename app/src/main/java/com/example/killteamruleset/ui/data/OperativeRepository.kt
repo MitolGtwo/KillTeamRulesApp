@@ -28,6 +28,8 @@ import com.example.killteamruleset.ui.data.Empire.list.Sanctifiers.SanctifiersOp
 import com.example.killteamruleset.ui.data.Empire.list.ScoutSquad.ScoutOperatives
 import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.AquilonOperatives
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.Wolfperatives
+import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperatives
+import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -37,7 +39,9 @@ object OperativeRepository {
         return when (teamId) {
             "angels_of_death" -> aodOperatives
             "battle_clade" -> BattlecladeOperatives
+            "blades_of_khaine" -> BladesOperatives
             "blooded" -> BlooodedOperatives
+            "brood_brothers" -> BroodOperatives
             "celestian_insidiants" -> CelestianOperatives
             "chaos_cult" -> ChaosCultOperatives
             "death_Korps" -> DeathKorpsOperatives

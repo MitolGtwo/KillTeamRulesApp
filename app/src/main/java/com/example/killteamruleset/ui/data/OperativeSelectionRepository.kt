@@ -28,6 +28,8 @@ import com.example.killteamruleset.ui.data.Empire.list.Sanctifiers.SanctifiersOp
 import com.example.killteamruleset.ui.data.Empire.list.ScoutSquad.ScoutOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.AquilonOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.WolfOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
@@ -36,7 +38,9 @@ object OperativeSelectionRepository {
     private val rulesByTeam: Map<String, List<OperativeSelectionRule>> = mapOf(
         "angels_of_death" to AngelsOfDeathOperativeSelection,
         "battle_clade" to BattlecladeOperativeSelection,
+        "blades_of_khaine" to BladesOperativeSelection,
         "blooded" to BloodedOperativeSelection,
+        "brood_brothers" to BroodOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
         "chaos_cult" to ChaosCultOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,

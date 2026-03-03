@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Blades-->
+
+    <string name="defence_tactics_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="defence_tactics_description"><![CDATA[
+Whenever this operative contests an objective
+marker or one of your mission markers, or whenever it is shooting
+an enemy operative that does, this operatives weapons have the Balanced weapon rule.
+    ]]></string>
+
+    <string name="exarch_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="exarch_description"><![CDATA[
+This operative can perform two **Shoot** or two **Fight** actions during its activation.
+    ]]></string>
+
+    <string name="shimmershield_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="shimmershield_description"><![CDATA[
+Whenever an operative is shooting a friendly **BLADES OF KHAINE** operative that is visible to and within
+2\" of this operative, ignore the Piercing weapon rule. This
+operative only has this rule if you select the shimmershield weapon option.
+    ]]></string>
+
+    <string name="banshee_mask_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="banshee_mask_description"><![CDATA[
+Whenever this operative is fighting, worsen the
+Hit stat of the enemy operatives melee weapons by 1. This is not cumulative with being injured.
+    ]]></string>
+
+    <string name="mandiblasters_usage"><![CDATA[
+           Passive
+    ]]></string>
+
+    <string name="mandiblasters_description"><![CDATA[
+Whenever this operative performs the **Fight**
+action, at the start of the Roll Attack Dice step, you can use
+this rule. If you do, inflict 2 damage on the enemy operative in that sequence.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="aspect_techniques_lore"><![CDATA[
+Aspect Warriors are trained in myriad killing techniques,
+parrying blows and acrobatic movements. These are as
+breathtaking to behold as they are lethal to their foes.
+]]></string>
+
+    <string name="aspect_techniques_description"><![CDATA[
+Each **ASPECT TECHNIQUE** is in a category: Dire
+Avenger, Howling Banshee and Striking Scorpion.
+Each **ASPECT TECHNIQUE** can only be used with
+a friendly operative that has the matching Aspect
+keyword, and each will specify when it can be
+used and what its effects are. In addition:\n
+\n
+• You cannot use more than one **ASPECT TECHNIQUE** per activation or counteraction.\n
+\n
+• You cannot use each **ASPECT TECHNIQUE** more than once per turning point.\n
+\n
+• If every friendly **BLADES OF KHAINE** operative selected for deployment has the same Aspect
+keyword (e.g. **STRIKING SCORPION**), you cannot use each **ASPECT TECHNIQUE** more than twice per turning point (instead of once).
+]]></string>
+
+    <string name="the_woe_lore"><![CDATA[
+Howling Banshees are woe given form. Emitting sonic
+screeches from their helms, they hurl themselves into
+the stunned foe, the lightning speed of their swordplay
+cutting through the enemy before a blow can be landed in return.
+]]></string>
+
+    <string name="the_woe_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** during a friendly
+**HOWLING BANSHEE** operatives activation,
+after it is performed the **Charge** action and
+incapacitated an enemy operative during the
+**Fight** action, and is no longer within control range
+of enemy operatives. That friendly operative can
+immediately perform a free **Charge** action using
+any remaining move distance it had from that
+first **Charge** action. That operative can perform
+two **Charge** actions during its activation to do so.
+The operative cannot have performed any other
+actions during this activation (but can do so after
+resolving this **ASPECT TECHNIQUE**).
+]]></string>
+
+    <string name="rain_of_tears_lore"><![CDATA[
+Howling Banshees dive in and out of combat with
+infuriating speed and agility, making it almost
+impossible for those few who survive their most brutal
+attacks to strike in return.
+]]></string>
+
+    <string name="rain_of_tears_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**HOWLING BANSHEE** operative is fighting, after
+you strike with a critical success, if the enemy
+operative is not incapacitated. End that sequence
+(any remaining attack dice are discarded) and
+immediately perform a free **Fall Back** action
+up to 3\" with that operative (then the **Fight**
+action ends). That operative can do so even if
+it is performed an action that prevents it from
+performing the **Fall Back** action.
+]]></string>
+
+    <string name="acrobatic_lore"><![CDATA[
+When Howling Banshees traverse the battlefield, little
+slows them down. With effortless grace they leap and
+flip over intervening obstacles, landing with peerless
+poise and balance to drive their blades into the foe.
+]]></string>
+
+    <string name="acrobatic_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**HOWLING BANSHEE** operative performs an action
+in which it moves. Until the end of the action, that operative:\n
+\n
+• Can ignore all vertical distances whenever it drops and climbs.\n
+\n
+• Can move through enemy operatives, move within control range of them, and during
+the **Charge** action can leave their control range (it must still end the move following all
+requirements for that move).\n
+\n
+• Cannot move more than its Move stat if it is the **Charge** action.\n
+\n
+]]></string>
+
+    <string name="scream_that_steals_lore"><![CDATA[
+Any hope the foe has of retaining the upper hand over a
+Howling Banshee is lost the moment the leaping Aspect
+Warrior activates their Banshee mask. Their senses
+overwhelmed, the enemy are all but helpless against the
+merciless melee attacks that follow.
+]]></string>
+
+    <string name="scream_that_steals_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**HOWLING BANSHEE** operative is fighting or
+retaliating, at the start of the Resolve Attack
+Dice step. You can resolve one of your successes
+before the normal order. If you do, that success must be used to block.
+]]></string>
+
+    <string name="shriek_that_kills_lore"><![CDATA[
+Those Howling Banshees who have learned how to focus
+their vocal chords correctly can emit a shriek so piercing
+and deafening that it can not only stun a foe, but liquefy their brain.
+]]></string>
+
+    <string name="shriek_that_kills_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**HOWLING BANSHEE** operative is performing the
+**Shoot** action. Until the end of that action, that operative can use the following ranged weapon:
+]]></string>
+
+    <string name="the_slicing_hurricane_lore"><![CDATA[
+Trained to embrace supreme tactical flexibility,
+Dire Avengers are capable of unleashing clouds of
+razor-sharp shuriken while moving to secure ground or
+slipping out of reach of the foe.
+]]></string>
+
+    <string name="the_slicing_hurricane_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**DIRE AVENGER** operative is performing the
+**Reposition** action. That operative can perform
+the **Shoot** action during that action (it must do so
+in a location it can be placed, and any remaining
+move distance it had from that **Reposition** action
+can be used after it does so). You must select its
+shuriken catapult, shuriken pistol or twin shuriken
+catapult for that **Shoot** action.
+]]></string>
+
+    <string name="death_thousand_blades_lore"><![CDATA[
+Dire Avengers can unleash great deluges of
+monomolecular shuriken from their weapons. These
+lethal volleys echo the Death of a Thousand Blades –
+the punishment that Khaine meted out upon traitors,
+cheats and others he deemed unworthy of a clean kill.
+]]></string>
+
+    <string name="death_thousand_blades_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**DIRE AVENGER** operative is performing the
+**Shoot** action and you select a shuriken catapult
+or twin shuriken catapult. Until the end of that
+action, that weapon has the Torrent 2\" weapon
+rule, but you cannot select more than one secondary target.
+]]></string>
+
+    <string name="vigilance_of_the_avenger_lore"><![CDATA[
+The noble warrior who is tasked with punishing the
+unjust and the criminal must be ever vigilant. Their eyes
+must be keen and their aim must be true.
+]]></string>
+
+    <string name="vigilance_of_the_avenger_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**DIRE AVENGER** operative is performing the **Shoot**
+action and you select a shuriken catapult or twin
+shuriken catapult. Until the end of that action,
+that weapon has the Lethal 5+ weapon rule.
+]]></string>
+
+    <string name="unstinting_immovable_lore"><![CDATA[
+Dire Avengers wear armour fashioned from
+psycho-sensitive thermoplas scales that are reactive
+to impact. When suffering a blow, the armour stiffens
+to spread the energy across the wearer. On top of this
+flexible suit, these Aspect Warriors wear bone-like
+plates over the most vulnerable areas of their body.
+]]></string>
+
+    <string name="unstinting_immovable_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when an operative
+is shooting a friendly **DIRE AVENGER** operative,
+and you have rolled two or more fails. You can
+discard one of them to retain the other as a normal success instead.
+]]></string>
+
+    <string name="raging_heat_lore"><![CDATA[
+The flames upon shrines of Asuryan possess a searing
+heat and never burn out, even if they dwindle. Thus
+does the Dire Avenger strive to imitate these flames,
+equally dangerous to the foe regardless of the injuries they sustain.
+]]></string>
+
+    <string name="raging_heat_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** during a friendly
+**DIRE AVENGER** operatives activation. Until the
+start of that operatives next activation, you can
+ignore any changes to its stats from being injured (including its weapons stats).
+]]></string>
+
+    <string name="patient_blow_lore"><![CDATA[
+Carefully concealed in cover or in shadows, Striking
+Scorpions stalk their oblivious prey, manoeuvring
+around their targets in complete silence to select the
+optimum position to launch their killing strike.
+]]></string>
+
+    <string name="patient_blow_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**STRIKING SCORPION** operative that has a
+**Conceal** order performs the **Reposition** action.
+During that action, that operative can move
+within control range of enemy operatives (it
+cannot end the move there), and you can inflict
+D3+2 damage on one enemy operative it moved
+within control range of after it is moved.
+]]></string>
+
+    <string name="strike_and_fade_lore"><![CDATA[
+Masters of the hit and run attack, Striking Scorpions
+withdraw from combat as suddenly as they strike,
+disappearing into shadow like murderous spirits.
+]]></string>
+
+    <string name="strike_and_fade_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**STRIKING SCORPION** operative incapacitates
+an enemy operative while fighting or retaliating,
+and is no longer within 3\" of enemy operatives.
+**Change** that friendly operatives order to **Conceal**
+and it can immediately perform a free **Dash**
+action, even if it is performed an action that
+prevents it from performing the **Dash** action.
+]]></string>
+
+    <string name="scorpion_eye_lore"><![CDATA[
+A Striking Scorpion’s shuriken pistol has a viewfinder
+psychically linked to its bearer. With it, the Aspect
+Warrior can see through multiple spectra as well as
+swiftly identify friend from foe.
+]]></string>
+
+    <string name="scorpion_eye_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**STRIKING SCORPION** operative is performing the
+**Shoot** action and you select a shuriken pistol.
+Until the end of that action, that weapon has the Seek Light weapon rule.
+]]></string>
+
+    <string name="merciless_strikes_lore"><![CDATA[
+When Striking Scorpions launch their assault, they
+attack with relentless ferocity, landing blow after blow
+to grant the enemy no moment or reprieve.
+]]></string>
+
+    <string name="merciless_strikes_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** when a friendly
+**STRIKING SCORPION** operative is fighting, the
+first time you strike with a critical success during
+that sequence. Until the end of that sequence,
+that operatives melee weapon has the Shock weapon rule.
+]]></string>
+
+    <string name="one_with_gloom_lore"><![CDATA[
+Years of strict training render Striking Scorpions capable
+of blending uncannily with the shadows, waiting for the
+perfect moment to attack their unsuspecting foes with
+terrifying accuracy.
+]]></string>
+
+    <string name="one_with_gloom_description"><![CDATA[
+Use this **ASPECT TECHNIQUE** during a friendly
+**STRIKING SCORPION** operatives activation. Until
+the start of its next activation, while that operative
+has a **Conceal** order and is in cover, it cannot be
+selected as a valid target, taking precedence over
+all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="rune_prophecy_lore"><![CDATA[
+Affixed to an Aspect Warriors armour by a powerful
+seer, this warp-charged rune provides the bearer with a
+sliver of its creator’s prophetic vision.
+]]></string>
+
+    <string name="rune_prophecy_description"><![CDATA[
+Once per battle, after rolling off to decide
+initiative, you can add D3 to, or subtract D3 from, your result.
+]]></string>
+
+    <string name="rune_shielding_lore"><![CDATA[
+Shimmering with empyric energy, this rune flares
+brightly when it suffers impact from an enemy weapon, turning aside bullet, bolt or blade.
+]]></string>
+
+    <string name="rune_shielding_description"><![CDATA[
+Once per battle, when an attack dice inflicts
+Normal Dmg on a friendly **BLADES OF KHAINE**
+operative, you can ignore that inflicted damage.
+]]></string>
+
+    <string name="rune_foresight_lore"><![CDATA[
+The bearer foresees the battle to come, anticipating the
+movements of the foe and positioning their warriors with uncanny guile.
+]]></string>
+
+    <string name="rune_foresight_description"><![CDATA[
+When this equipment is revealed, roll one D3. In
+the Strategy phase of the turning point equal to the result, you gain 1 additional CP.
+]]></string>
+
+    <string name="wraithbone_talisman_lore"><![CDATA[
+Grown from living wraithbone material, this talisman
+lends the bearer strength and determination in the midst of battle
+]]></string>
+
+    <string name="wraithbone_talisman_description"><![CDATA[
+Once per turning point, when a friendly **BLADES OF KHAINE** operative is shooting, fighting or
+retaliating, if you roll two or more fails, you can
+discard one of them to retain another as a normal success instead.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="forewarned_lore"><![CDATA[
+Aspect Warriors go to battle armed with the foresight of their Craftworlds seers.
+]]></string>
+
+    <string name="forewarned_description"><![CDATA[
+Whenever an operative is shooting a ready
+friendly **BLADES OF KHAINE** operative, you can
+re-roll any of your defence dice results of one result (e.g. results of 2).
+]]></string>
+
+    <string name="ruthless_poise_lore"><![CDATA[
+Centuries of combat experience coupled with lightning
+reactions and exceptional grace render Aspect Warriors utterly lethal.
+]]></string>
+
+    <string name="ruthless_poise_description"><![CDATA[
+Whenever a friendly **BLADES OF KHAINE**
+operative is fighting a ready enemy operative,
+that friendly operatives melee weapons have the Ceaseless weapon rule
+]]></string>
+
+    <string name="khaine_vengeance_lore"><![CDATA[
+The Aspect Warriors draw upon the Bloody-Handed Gods merciless example to dispatch their foes.
+]]></string>
+
+    <string name="khaine_vengeance_description"><![CDATA[
+Whenever a friendly **BLADES OF KHAINE** operative is shooting an expended enemy
+operative, that friendly operative’s ranged weapons have the Ceaseless weapon rule.
+]]></string>
+
+    <string name="dance_of_death_lore"><![CDATA[
+Lithe, acrobatic and utterly deadly, Aeldari Aspect
+Warriors exchange tactical positions with flawless grace.
+]]></string>
+
+    <string name="dance_of_death_description"><![CDATA[
+Select two friendly **BLADES OF KHAINE** operatives visible to and within 6\" of each other.
+Remove them both from the killzone and set them back up in each other’s previous locations
+(in other words, swap their positions).
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="bladewind_lore"><![CDATA[
+Aspect Warriors strike with speed and precision, their
+shining blades scything through the foe in a storm of steel.
+]]></string>
+
+    <string name="bladewind_description"><![CDATA[
+Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation. During
+that activation, that operative can perform two **Fight** actions.
+]]></string>
+
+    <string name="starfall_lore"><![CDATA[
+With punishing fusillades of accurate shuriken fire do the Aspect Warriors fell their enemies.
+]]></string>
+
+    <string name="starfall_description"><![CDATA[
+Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation. During
+that activation, that operative can perform two **Shoot** actions.
+]]></string>
+
+    <string name="fading_light_lore"><![CDATA[
+The Aspect Warrior slips away into darkness, leaving their foe striking at nothing but shadow.
+]]></string>
+
+    <string name="fading_light_description"><![CDATA[
+Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation, before or
+after it performs an action. During that activation,
+that operative can perform the **Fall Back** action for 1 less AP.
+]]></string>
+
+    <string name="blades_contempt_lore"><![CDATA[
+The martial superiority of the Aeldari species is
+expressed by their Aspect Warriors, who dance
+through incoming fire and heavy strikes with contemptuous ease.
+]]></string>
+
+    <string name="blades_contempt_description"><![CDATA[
+Use this firefight ploy when a friendly **BLADES OF KHAINE** operative is retaliating or an enemy
+operative is shooting it, after your opponent rolls their attack dice, but before re-rolls. Until the end
+of the sequence, your opponent cannot re-roll their attack dice (if your opponent declared the
+use of any firefight ploys during that sequence that would allow them to re-roll, that ploy is
+cancelled and the CP spent on it is refunded).
+]]></string>
+
+</resources>
