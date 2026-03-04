@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Canoptek-->
+
+    <string name="obelisk_node_control_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="obelisk_node_control_description"><![CDATA[
+Whenever this operative would perform a mission action (excluding **Retrieve**, Approved Ops 2025), if it
+requires this operative to control an objective marker, you can instead determine control from one of
+your **OBELISK NODE** markers (see Obelisk Node Matrix faction rule). Whenever this operative would
+perform the **Operate Hatch** action, you can open or close a hatchway thats access point is within 1\"
+of one of your **OBELISK NODE** markers instead. Note that you must still fulfil the **Operate
+Hatch** actions conditions.
+    ]]></string>
+
+    <string name="geomantic_disturbance_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="geomantic_disturbance_description"><![CDATA[
+Select a point on a terrain feature; that point must be visible
+to and within 8\" of this operative. Separately roll 2D6 for
+each operative within 2\" of that point. If the result is higher
+than that operatives remaining wounds, inflict damage on it equal to the difference.\n\n
+
+This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="canoptek_control_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="canoptek_control_description"><![CDATA[
+**SUPPORT**. Select one friendly **CANOPTEK CIRCLE
+CANOPTEK** operative visible to and within 6\" of this
+operative. Alternatively, you can select one friendly
+**CANOPTEK CIRCLE CANOPTEK** operative that is
+visible to this operative and within your **OBELISK NODE
+MATRIX** (**SUPPORT** does not apply to this selection). That
+selected operative can immediately perform a 1AP action
+for free; it cannot move more than or be removed and set up
+more than 2\" during that action.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative, or while counteracting.
+    ]]></string>
+
+    <string name="molecular_breach_usage"><![CDATA[
+            1AP
+    ]]></string>
+
+    <string name="molecular_breach_description"><![CDATA[
+**SUPPORT**. Select one friendly **CANOPTEK CIRCLE**
+operative visible to and within 6\" of this operative.
+Alternatively, you can select one friendly **CANOPTEK CIRCLE** operative visible to this operative
+and within your **OBELISK NODE MATRIX** (**SUPPORT** does not apply to this selection).\n
+\n
+-The next time the selected operative performs an action in
+which it moves, do not move it. Instead, remove it from the
+killzone and set it back up wholly within a distance equal
+to its Move stat (or 3\" if it was a **Dash**) horizontally of its
+original location (in a killzone that uses the close quarters
+rules, e.g. Killzone: Tomb World, this distance can be
+measured over and through Wall terrain and the operative
+can be set up on the other side). Note that it gains no
+additional distance when performing the **Charge** action. It
+must be set up in a location it can be placed, and unless it is
+the **Charge** action, it cannot be set up within control range
+of an enemy operative\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="overcharge_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="overcharge_description"><![CDATA[
+Select one other friendly **CANOPTEK CIRCLE CANOPTEK** operative visible to and within 3\" of this
+operative. Alternatively, if this operative is within your
+**OBELISK NODE MATRIX**, you can select one other
+friendly **CANOPTEK CIRCLE CANOPTEK** operative
+within your **OBELISK NODE MATRIX**. Until the end
+of that selected operative’s next activation, add 1 to its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="cranial_overload_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="cranial_overload_description"><![CDATA[
+Select one enemy operative visible to and within 3\" of
+this operative. Alternatively, if this operative is within your
+**OBELISK NODE MATRIX**, you can select one enemy
+operative within your **OBELISK NODE MATRIX**. Until
+the end of that enemy operative’s next activation, subtract 1 from its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="reanimate_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="reanimate_description"><![CDATA[
+Once per turning point, when another friendly **CANOPTEK CIRCLE** operative would be incapacitated,
+if that operative is visible to and within 6\" of this operative, or
+if this and that operative are within your **OBELISK NODE MATRIX**, you can use this rule, providing
+neither this nor that operative is within control range of an enemy operative. If you
+do, that friendly operative is not incapacitated, has 1 wound
+remaining and cannot be incapacitated for the remainder of the
+action. After that action, that friendly operative can immediately
+perform a free **Dash** action, but must end that action within
+this operatives control range or within your **OBELISK NODE MATRIX**.
+Subtract 1 from this and that operatives APL stats until the end of their next activations respectively, and if this
+rule was used during that friendly operatives activation, that
+activation ends. You cannot use this rule if this operative is
+incapacitated, or if it is a **Shoot** action and this operative would
+be a primary or secondary target.
+    ]]></string>
+
+    <string name="nanoscarab_beam_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="nanoscarab_beam_description"><![CDATA[
+Select one friendly **CANOPTEK CIRCLE** operative
+visible to and within 6\" of this operative. Alternatively, if this
+operative is within your **OBELISK NODE MATRIX**, you
+can select one other friendly **CANOPTEK CIRCLE**
+operative within your **OBELISK NODE MATRIX**. The
+selected operative regains up to 3D3 lost wounds. It cannot
+be an operative that the Reanimate rule was used on during
+this turning point.\n\n
+
+This operative cannot perform this action while within
+control range of an enemy operative, or more than once per turning point.
+    ]]></string>
+
+
+    <string name="aggressive_defence_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="aggressive_defence_description"><![CDATA[
+If this operative is incapacitated by an enemy operative within 2\" of it, before this operative is removed
+from the killzone, roll one D3: on a 2+, inflict 1 damage on that enemy operative.
+    ]]></string>
+
+    <string name="expendable_construct_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="expendable_construct_description"><![CDATA[
+This operative is ignored for your opponents kill/elimination op (when it’s incapacitated, and when
+determining your starting number of operatives). It is also ignored
+for victory conditions and scoring VPs if either require operatives
+to \‘escape\’, \‘survive\’ or be incapacitated by enemy operatives
+(if it escapes/survives/is incapacitated, determining how many
+operatives must escape/survive/be incapacitated, etc.).
+    ]]></string>
+
+
+    <string name="a_ceaseless_scuttling_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="a_ceaseless_scuttling_description"><![CDATA[
+As a **STRATEGIC GAMBIT** in each turning point after the first, if you have less than three
+non-incapacitated friendly **CANOPTEK CIRCLE WARRIOR**
+operatives, you can set up another one ready and with a Conceal
+order wholly within your drop zone (you can select its weapon options as normal).
+    ]]></string>
+
+    <string name="dimensional_banishment_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="dimensional_banishment_description"><![CDATA[
+After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the
+target was not incapacitated, roll 2D6: if the result is higher than the targets remaining wounds, the target is incapacitated (taking
+precedence over rules that prevent incapacitation, e.g. Medic!, **FELLGOR RAVAGER** Frenzy) and your opponent cannot place a
+Reanimation marker (**HIEROTEK CIRCLE**) for that operative, if relevant.
+    ]]></string>
+
+    <string name="weapon_sentinel_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="weapon_sentinel_description"><![CDATA[
+Whenever your opponent is selecting a
+valid target, if this operative has a Conceal order, it cannot use
+Light terrain for cover. While this can allow this operative to be
+targeted (assuming it is visible), it does not remove its cover save (if any).
+    ]]></string>
+
+    <string name="canoptek_steadfast_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="canoptek_steadfast_description"><![CDATA[
+Whenever determining control of a marker, you
+can treat this operative’s APL stat as 3. If you do, this takes
+precedence over all other rules, meaning any changes to its APL
+stat are ignored for this
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="obelisk_node_matrix_lore"><![CDATA[
+Obelisk nodes are concentrations of Necron technology,
+hubs of energy and data streams. Whether raised
+up from their sites of ancient burial, formed from
+restructured local matter or phased into place from a
+pocket dimension, these angular nodes can empower
+a Cryptek and their servants. Impelled into positions
+where they can connect in a matrix of power, they aid
+the Crypteks ambitions whilst hampering their foes.
+]]></string>
+
+    <string name="obelisk_node_matrix_description"><![CDATA[
+As a **STRATEGIC GAMBIT** in the first turning point,
+place your three **OBELISK NODE** markers wholly
+within your territory. As a **STRATEGIC GAMBIT**
+in each turning point after the first, you can
+move each of your **OBELISK NODE** markers up to 3\" horizontally.\n
+\n
+Your **OBELISK NODE** markers control other
+markers within 1\" of them that no enemy
+operatives contest (treat your **OBELISK NODE**
+markers as friendly operatives for this purpose).
+If more than one player would use their **OBELISK NODE** markers to control the same marker, no
+**OBELISK NODE** markers control it.\n
+\n
+Whenever one of your **OBELISK NODE** markers is
+within 6\" horizontally of another of your **OBELISK NODE** markers, those markers and the area
+between them create an **OBELISK NODE MATRIX**
+above and below (in other words, their height
+in the killzone is irrelevant). If all three of your
+**OBELISK NODE** markers fulfil this, it creates a larger combined **OBELISK NODE MATRIX**.\n
+\n
+Whenever a friendly **CANOPTEK CIRCLE** operative is within your **OBELISK NODE MATRIX**:\n
+\n
+• Weapons on its datacard have the Accurate 1 weapon rule.\n
+\n
+• Add 1 to its APL stat (to a maximum of 3).
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="matrix_manipulator_lore"><![CDATA[
+With a flick of their digits, a skilled Geomancer can use
+this enhanced geomantic manipulator as a surrogate obelisk node to extend the matrix.
+]]></string>
+
+    <string name="matrix_manipulator_description"><![CDATA[
+Once per battle, during a friendly **CANOPTEK CIRCLE** operatives activation or counteraction,
+you can use this rule. If you do, until the end of that activation/counteraction, a friendly
+**CANOPTEK CIRCLE GEOMANCER** operative is treated as your fourth **OBELISK NODE** marker.
+]]></string>
+
+    <string name="awakened_obelisk_nodes_lore"><![CDATA[
+Seeded into place and activated long ago, these obelisk
+nodes have absorbed huge stores of local data, ready to
+gift their controller with a superior edge when the time is right.
+]]></string>
+
+    <string name="awakened_obelisk_nodes_description"><![CDATA[
+After revealing this equipment option, roll one D3.
+You can use the Animate Obelisk Nodes firefight
+ploy for 0CP a number of times during the battle
+equal to the result.
+]]></string>
+
+    <string name="nanoscarab_caskets_lore"><![CDATA[
+These small devices appear to release wisps of spectral
+vapour. In truth, they are clouds of tiny repair constructs
+that seal rents in living metal.
+]]></string>
+
+    <string name="nanoscarab_caskets_description"><![CDATA[
+Whenever a friendly **CANOPTEK CIRCLE** operative is activated, it regains up to D3 lost wounds.
+]]></string>
+
+    <string name="phase_shifter_lore"><![CDATA[
+The bearers form flits between dimensions like a
+phantom, rendering it exceedingly difficult to land a telling blow upon them.
+]]></string>
+
+    <string name="phase_shifter_description"><![CDATA[
+Once per turning point, when an operative is shooting a friendly **CANOPTEK CIRCLE GEOMANCER **operative, at the start of the Roll
+Defence Dice step, you can use this rule. If you
+do, worsen the x of the Piercing weapon rule by 1
+(if any) until the end of that sequence. Note that
+Piercing 1 would therefore be ignored.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="hypershielding_lore"><![CDATA[
+Quantum energies radiate from the matrix, triggered
+by warding protocols. The haze consumes solid shot in
+bursts of viridian light and refracts energy blasts, while
+its wavering veil confounds targeters.
+]]></string>
+
+    <string name="hypershielding_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**CANOPTEK CIRCLE** operative, if your **OBELISK NODE MATRIX** is intervening, or that friendly
+operative is within your **OBELISK NODE MATRIX**,
+you can re-roll any of your defence dice results of
+one result (e.g. results of 2).
+]]></string>
+
+    <string name="transdynamic_amplification_lore"><![CDATA[
+Curving into arcane lenses that compress slivers of
+reality, the shimmering matrix magnifies the potency of
+the Necrons horrifying energistic technologies.
+]]></string>
+
+    <string name="transdynamic_amplification_description"><![CDATA[
+Whenever a friendly **CANOPTEK CIRCLE**
+operative is shooting, if your **OBELISK NODE MATRIX** is intervening, or the target is within your
+**OBELISK NODE MATRIX**, that friendly operatives weapons have the Ceaseless weapon rule.
+]]></string>
+
+    <string name="cryptogravitic_repulsion_lore"><![CDATA[
+The universes fundamental forces have long been
+mastered by the Necrons. As their foes advance,
+thudding waves and twisting eddies of gravity amongst
+the obelisk nodes repel potential trespassers.
+]]></string>
+
+    <string name="cryptogravitic_repulsion_description"><![CDATA[
+Once per action, the first time an enemy
+operative would move within your **OBELISK NODE MATRIX**, the distance is treated as an additional
+1\". Note this means if that enemy operative
+does not have sufficient move distance (e.g. it’s at the end of its move), that operative cannot move
+within your **OBELISK NODE MATRIX.**
+]]></string>
+
+    <string name="souldrain_lore"><![CDATA[
+A lifeless chill creeps into the hearts of those who would
+dare to breach the Necrons realm – an enervating
+leeching of strength and vitality that leaves them easy prey.
+]]></string>
+
+    <string name="souldrain_description"><![CDATA[
+Whenever an enemy operative is within your
+**OBELISK NODE MATRIX**, or whenever it is fighting
+or retaliating against a friendly **CANOPTEK CIRCLE** operative that’s within your **OBELISK NODE MATRIX**, subtract 1 from both Dmg stats
+of that enemy operatives melee weapons (to a minimum of 2) until the end of the activation/counteraction. Note this means if the enemy
+operative moves through your **OBELISK NODE MATRIX**, apply this change at the end of that
+move action until the end of the activation/counteraction.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="shield_flare_lore"><![CDATA[
+With a flash, snipers bullets are swallowed in
+microdimensions; blades pass through suddenly phased
+matter; slivers of time are erased and rewritten, the
+strike never connecting after all. The matrix’s energies
+deny the Necrons verminous foes of the smallest victory over their betters.
+]]></string>
+
+    <string name="shield_flare_description"><![CDATA[
+Use this firefight ploy when an attack dice inflicts
+Normal Dmg on a friendly **CANOPTEK CIRCLE**
+operative. If your **OBELISK NODE MATRIX** is
+intervening, or that friendly operative is within
+your **OBELISK NODE MATRIX**, ignore that inflicted
+damage. Note your opponent determines
+intervening (i.e. where on their operative’s base to draw the targeting lines from).
+]]></string>
+
+    <string name="animate_obelisk_nodes_lore"><![CDATA[
+Heeding some hidden command, looming obelisk nodes
+surge into new positions of cosmic conjunction.
+]]></string>
+
+    <string name="animate_obelisk_nodes_description"><![CDATA[
+Use this firefight ploy when it is your turn to
+activate or counteract with a friendly operative.
+Move any number of your **OBELISK NODE**
+markers instead. They can move up to 6\"
+horizontally combined, and distances are always
+rounded up to the nearest inch (so if you move
+a marker 1.5\", it’s treated as moving it 2\"). For
+example, you could move one marker 6\", three
+markers 1\" each, or any combination that does not
+exceed 6\" in total. You can also move them 0\" (to
+effectively skip an activation). In any case, your
+opponent activates as normal afterwards.
+]]></string>
+
+    <string name="nodal_response_lore"><![CDATA[
+Eldritch pulses of artificial thought thrum through the
+obelisk nodes as they adjust the flow of energies and
+data in response to rapidly changing situations.
+]]></string>
+
+    <string name="nodal_response_description"><![CDATA[
+Use this firefight ploy during a friendly **CANOPTEK CIRCLE** operatives activation, before or after it
+performs an action. You can either change one of the strategy ploys you used during this turning
+point (only pay additional CP if that ploy costs more), or use a strategy ploy now (pay its CP cost
+as normal).
+]]></string>
+
+    <string name="sacrificial_thrall_lore"><![CDATA[
+Canoptek constructs are programmed to shield their master at all costs.
+]]></string>
+
+    <string name="sacrificial_thrall_description"><![CDATA[
+Use this firefight ploy when a friendly **CANOPTEK CIRCLE GEOMANCER** operative is selected
+as the valid target of a **Shoot** action or to fight
+against during the **Fight** action. Select one
+other friendly **CANOPTEK CIRCLE CANOPTEK**
+operative visible to and within 3\" of that first
+friendly operative to become the valid target or to
+be fought against (as appropriate) instead (even
+if it would not normally be valid for this). If it is the
+**Fight** action, treat that other operative as being
+within the fighting operatives control range for
+the duration of that action. If it is the **Shoot** action,
+that other operative is only in cover or obscured if
+the original target was.\n
+\n
+This ploy has no effect if it is the **Shoot** action
+and the ranged weapon has the Blast or Torrent weapon rule.
+]]></string>
+
+</resources>

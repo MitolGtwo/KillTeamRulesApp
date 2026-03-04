@@ -741,6 +741,26 @@ object FactionRuleRepository {
         ),
 
 
+        "canoptek_circle" to listOf(
+            FactionRule(
+                id = "obelisk_node_matrix",
+                title = "OBELISK NODE MATRIX",
+                lore = R.string.obelisk_node_matrix_lore,
+                ruleText = R.string.obelisk_node_matrix_description,
+                imageRes = R.drawable.canoptek_node
+
+                ),
+            FactionRule(
+                id = "canoptek_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.canoptek_tokens
+            ),
+
+            ),
+
+
         //Wrecka Krew
         "wrecka_krew" to listOf(
             FactionRule(

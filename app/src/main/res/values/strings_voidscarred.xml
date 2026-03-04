@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Voidscarred-->
+
+    <string name="veteran_rider_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="veteran_rider_description"><![CDATA[
+This operative can perform a 1AP action for
+free during their activation as a result of the Aeldari Raiders rule (instead of the Dash action).
+    ]]></string>
+
+    <string name="one_step_ahead_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="one_step_ahead_description"><![CDATA[
+Once per battle, after an enemy operative performs an action, if this operative is
+ready, you can use this rule. If you do, roll one D6: if the result is higher than that enemy operatives
+APL stat, you can interrupt and immediately perform either a free **Shoot** or a free **Fight** action with
+this operative, but you cannot select any other enemy operative as a valid target or to fight against
+during that action (note that secondary targets from the Blast weapon rule can still be targeted). After
+you perform that action, subtract 1 from this operatives APL stat until the end of its next activation.
+    ]]></string>
+
+    <string name="corsair_blademaster_usage"><![CDATA[
+            Passive
+    ]]></string>
+
+    <string name="corsair_blademaster_description"><![CDATA[
+This operative can perform the **Dash** action
+during an activation in which it performed the **Charge** action,
+but can only use any remaining move distance it had from that **Charge** action (to a maximum of 3\").
+    ]]></string>
+
+    <string name="corsair_blade_stance_usage"><![CDATA[
+            Passive
+    ]]></string>
+
+    <string name="corsair_blade_stance_description"><![CDATA[
+Whenever this operative is fighting or retaliating,
+you can resolve one of your successes before the normal order. If
+you do, that success must be used to block.
+    ]]></string>
+
+
+    <string name="faolchu_bond_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="faolchu_bond_description"><![CDATA[
+The first time during each turning point that this operative is retaliating, if it is ready,
+in the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e. defender instead of attacker).
+    ]]></string>
+
+    <string name="erudite_hunter_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="erudite_hunter_description"><![CDATA[
+**STRATEGIC GAMBIT**. Select one enemy operative within 9\" of this operative. Once during this
+turning point, after that enemy operative performs an action in which it moves, you can interrupt to
+use this rule. If you do, this operative can immediately perform either a free **Reposition**
+action (it cannot end that move further away from that enemy operative), or a free **Charge** action
+(you can change its order to do so, and it must end that move within control range of that enemy operative).
+In a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), ignore Wall terrain when determining further away.
+    ]]></string>
+
+
+    <string name="blink_pack_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="blink_pack_description"><![CDATA[
+Whenever this operative performs the **Charge, Fall Back** or **Reposition** action, it can warp jump.
+If it does, do not move it. Instead, remove it from the killzone and set it back up wholly within 7\"
+horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone:
+Tomb World, this distance can be measured through Wall terrain). It must be set up in a
+location it can be placed, and unless it is the Charge action, it cannot be set up within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="slicing_attack_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="slicing_attack_description"><![CDATA[
+Whenever this operative performs the **Reposition** action with a warp jump (see other side of card),
+you can use this rule. If you do, after it moves, draw an imaginary
+line 1mm in diameter and up to 7\" long between it and its
+previous location. Note this does not have to be a straight line.
+Inflict D3+2 damage on one enemy operative that line crosses.
+You cannot inflict damage on an enemy operative that was not
+visible to this operative at the start of that action. A 28mm round
+marker can be temporarily placed underneath this operative
+before it moves to help determine this.
+    ]]></string>
+
+
+    <string name="soul_channel_usage"><![CDATA[
+            1AP
+    ]]></string>
+
+    <string name="soul_channel_description"><![CDATA[
+**PSYCHIC**. Select one other friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
+operative. Until the end of that operatives next activation, add 1 to its APL stat.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="soul_heal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="soul_heal_description"><![CDATA[
+**PSYCHIC**. Select one friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
+operative. That operative regains up to 2D3 lost wounds.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+
+    <string name="quick_trigger_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="quick_trigger_description"><![CDATA[
+This operative can perform the **Shoot** action while within control range of an enemy operative. If it
+does, when selecting a valid target, you can only select an enemy operative within this operatives control range, and can
+do so even if other friendly operatives are within that enemy operatives control range.
+    ]]></string>
+
+    <string name="corsair_pistol_barrage_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="corsair_pistol_barrage_description"><![CDATA[
+Perform two free **Shoot** actions with this operative (this
+takes precedence over action restrictions). You must select
+its fusion pistol for one action and its shuriken pistol for the
+other (in any order).\n\n
+
+This operative cannot perform this action while it has a
+Conceal order, or during an activation in which it performed the **Shoot** action (or vice versa).
+    ]]></string>
+
+    <string name="prowling_raiders_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="prowling_raiders_description"><![CDATA[
+You can use the Capricious Flight and Light Fingers firefight ploys for 0CP each if a friendly
+**WARRIOR** operative is the specified **CORSAIR VOIDSCARRED** operative.
+    ]]></string>
+
+    <string name="warp_fold_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="warp_fold_description"><![CDATA[
+**PSYCHIC.** Select two friendly **CORSAIR VOIDSCARRED** operatives visible to and within 5\" of this
+operative. Remove them both from the killzone and set them
+back up in each others previous locations (in other words,
+swap their positions). If one of them performed the **Charge,
+Fall Back** or **Reposition** action during this turning point
+and the other is ready, the other cannot perform any of those
+actions in its activation during this turning point.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="warding_shield_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="warding_shield_description"><![CDATA[
+**PSYCHIC**. Select one friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
+operative. Until the start of this operatives next activation,
+until it is incapacitated or until it performs this action
+again (whichever comes first), the first time an attack dice
+inflicts Normal Dmg on that friendly operative, ignore that inflicted damage.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+
+
+
+    <!--Faction Rules-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+</resources>

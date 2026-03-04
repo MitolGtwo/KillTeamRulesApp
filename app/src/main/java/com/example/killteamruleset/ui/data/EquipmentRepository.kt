@@ -689,6 +689,35 @@ object EquipmentRepository {
 
 
 
+        "canoptek_circle" to listOf(
+
+            Equipment(
+                id = "matrix_manipulator",
+                name = "MATRIX MANIPULATOR",
+                lore =R.string.matrix_manipulator_lore,
+                description = R.string.matrix_manipulator_description
+            ),
+            Equipment(
+                id = "awakened_obelisk_nodes",
+                name = "AWAKENED OBELISK NODES",
+                lore =R.string.awakened_obelisk_nodes_lore,
+                description = R.string.awakened_obelisk_nodes_description
+            ),
+            Equipment(
+                id = "nanoscarab_caskets",
+                name = "NANOSCARAB CASKETS",
+                lore =R.string.nanoscarab_caskets_lore,
+                description = R.string.nanoscarab_caskets_description
+            ),
+            Equipment(
+                id = "phase_shifter",
+                name = "PHASE SHIFTER",
+                lore =R.string.phase_shifter_lore,
+                description = R.string.phase_shifter_description
+            )
+        ),
+
+
         "wrecka_krew" to listOf(
 
             Equipment(

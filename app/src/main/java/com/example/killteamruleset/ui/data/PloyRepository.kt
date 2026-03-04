@@ -1293,6 +1293,70 @@ object PloyRepository {
         ),
 
 
+        "canoptek_circle" to listOf(
+            // ── Canoptek STRATEGY ──
+            Ploy(
+                id = "hypershielding",
+                name ="HYPERSHIELDING",
+                type = PloyType.STRATEGY,
+                lore = R.string.hypershielding_lore,
+                description = R.string.hypershielding_description
+            ),
+            Ploy(
+                id = "transdynamic_amplification",
+                name = "TRANSDYNAMIC AMPLIFICATION",
+                type = PloyType.STRATEGY,
+                lore = R.string.transdynamic_amplification_lore,
+                description = R.string.transdynamic_amplification_description
+            ),
+            Ploy(
+                id = "cryptogravitic_repulsion",
+                name = "CRYPTOGRAVITIC REPULSION",
+                type = PloyType.STRATEGY,
+                lore = R.string.cryptogravitic_repulsion_lore,
+                description = R.string.cryptogravitic_repulsion_description
+            ),
+            Ploy(
+                id = "souldrain",
+                name = "SOULDRAIN",
+                type = PloyType.STRATEGY,
+                lore = R.string.souldrain_lore,
+                description = R.string.souldrain_description
+            ),
+
+
+            // ── Canoptek FIREFIGHT ──
+            Ploy(
+                id = "shield_flare",
+                name = "SHIELD FLARE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.shield_flare_lore,
+                description = R.string.shield_flare_description
+            ),
+            Ploy(
+                id = "animate_obelisk_nodes",
+                name = "ANIMATE OBELISK NODES",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.animate_obelisk_nodes_lore,
+                description = R.string.animate_obelisk_nodes_description
+            ),
+            Ploy(
+                id = "nodal_response",
+                name = "NODAL RESPONSE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.nodal_response_lore,
+                description = R.string.nodal_response_description
+            ),
+            Ploy(
+                id = "sacrificial_thrall",
+                name = "SACRIFICIAL THRALL",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.sacrificial_thrall_lore,
+                description = R.string.sacrificial_thrall_description
+            )
+        ),
+
+
         "wrecka_krew" to listOf(
             // ── WRECKAS STRATEGY ──
             Ploy(

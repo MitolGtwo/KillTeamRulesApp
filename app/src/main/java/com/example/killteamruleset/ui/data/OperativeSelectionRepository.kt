@@ -30,6 +30,8 @@ import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.Aquilon
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.WolfOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
@@ -41,8 +43,10 @@ object OperativeSelectionRepository {
         "blades_of_khaine" to BladesOperativeSelection,
         "blooded" to BloodedOperativeSelection,
         "brood_brothers" to BroodOperativeSelection,
+        "canoptek_circle" to CanoptekOperativeSelection,
         "celestian_insidiants" to CelestianOperativeSelection,
         "chaos_cult" to ChaosCultOperativeSelection,
+        "corsair_voidscarred" to VoidscarredOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,
         "fellgor_ravagers" to FellgorOperativeSelection,

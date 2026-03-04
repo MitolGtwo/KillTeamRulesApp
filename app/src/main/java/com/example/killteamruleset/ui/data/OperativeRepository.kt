@@ -30,6 +30,8 @@ import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.Aquilon
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.Wolfperatives
 import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperatives
 import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperatives
+import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperatives
+import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -42,8 +44,10 @@ object OperativeRepository {
             "blades_of_khaine" -> BladesOperatives
             "blooded" -> BlooodedOperatives
             "brood_brothers" -> BroodOperatives
+            "canoptek_circle" -> CanoptekOperatives
             "celestian_insidiants" -> CelestianOperatives
             "chaos_cult" -> ChaosCultOperatives
+            "corsair_voidscarred" -> VoidscarredOperatives
             "death_Korps" -> DeathKorpsOperatives
             "deathwatch" -> DeathWatchOperatives
             "fellgor_ravagers" -> FellgorOperatives
