@@ -9,6 +9,8 @@
     ]]></string>
 
     <string name="tactical_command_description"><![CDATA[
+
+        
 Select one friendly **KASRKIN** operative, then select one
 **SKILL AT ARMS** for that operative to have until the Ready
 step of the next Strategy phase. This can be in addition to
@@ -22,7 +24,7 @@ range of an enemy operative.
     ]]></string>
 
     <string name="veteran_leadership_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="veteran_leadership_description"><![CDATA[
@@ -33,7 +35,7 @@ you can select one additional **SKILL AT ARMS**.
 
     <string name="kasrkin_medic_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -61,7 +63,7 @@ This operative cannot perform this action while within control range of an enemy
 
     <string name="melta_mine_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -77,7 +79,7 @@ that marker cannot be placed, its removed with this operative).
 
     <string name="proximity_mine_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -93,7 +95,7 @@ off or take damage from that marker).
 
     <string name="blast_padding_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -108,7 +110,7 @@ distance) unless they are the target during that sequence.
 
     <string name="reconnoitre_killzone_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -129,7 +131,7 @@ This operative cannot perform this action while within control range of an enemy
 
     <string name="camo_cloak_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -142,7 +144,7 @@ instead. This is not cumulative with improved cover saves from Vantage terrain
 
     <string name="kasrkin_adaptive_equipment_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
