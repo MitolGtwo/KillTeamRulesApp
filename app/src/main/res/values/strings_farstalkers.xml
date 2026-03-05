@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--farstalker-->
+
+    <string name="call_the_kill_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="call_the_kill_description"><![CDATA[
+**STRATEGIC GAMBIT** if this operative is
+in the killzone. Select one enemy operative to be your mark
+for the turning point. Whenever a friendly **FARSTALKER KINBAND** operative is shooting against, fighting against or
+retaliating against your mark, that friendly operatives weapons
+have the Balanced weapon rule. Whenever your mark is
+incapacitated, you can select a new enemy operative to be your
+mark for the turning point (and can continue to do so during this
+turning point).
+    ]]></string>
+
+    <string name="victory_shriek_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="victory_shriek_description"><![CDATA[
+Whenever your mark is incapacitated, you can
+select one friendly **FARSTALKER KINBAND** operative
+within 6\" of this operative. Until the end of the battle, that
+operatives weapons have the Balanced weapon rule. Each
+friendly operative can only be selected for this rule once per battle.
+    ]]></string>
+
+    <string name="energise_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="energise_description"><![CDATA[
+Until the end of the turning point or until this operative
+has shot with its accelerator bow (whichever comes first),
+all profiles of its accelerator bow have the Lethal 5+
+weapon rule.\n\n
+
+This operative cannot perform this action while within control
+range of an enemy operative.
+    ]]></string>
+
+    <string name="kroot_hardy_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="kroot_hardy_description"><![CDATA[
+Whenever an attack dice would inflict Critical Dmg on this
+operative, you can choose for that attack dice to inflict Normal Dmg instead.
+    ]]></string>
+
+
+    <string name="cold_blooded_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="cold_blooded_description"><![CDATA[
+Whenever this operative is shooting against,
+fighting against or retaliating against a wounded enemy
+operative, this operatives weapons have the Lethal 5+ weapon
+rule; if that enemy operative is also injured, this operatives
+weapons also have the Rending weapon rule.
+    ]]></string>
+
+    <string name="vicious_duellist_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="vicious_duellist_description"><![CDATA[
+Whenever this operative is fighting or
+retaliating, for each attack dice your opponent discards as a fail,
+inflict 1 damage on the enemy operative in that sequence.
+    ]]></string>
+
+
+    <string name="savage_assault_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="savage_assault_description"><![CDATA[
+The first time this operative performs the **Fight**
+action during each of its activations, if neither it nor the enemy
+operative in that sequence is incapacitated, this operative can
+immediately perform a free **Fight** action afterwards, but you
+cannot select any other enemy operative to fight against during
+that action (and only if it is still valid to fight against). This takes
+precedence over action restrictions.
+    ]]></string>
+
+    <string name="kroot_beast_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="kroot_beast_description"><![CDATA[
+This operative cannot perform any actions other than **Charge, Dash,
+Fall Back, Fight, Gather, Guard, Reposition, Pick Up Marker** and
+**Place Marker**. It cannot use any weapons that are not on its datacard.
+    ]]></string>
+
+
+    <string name="bad_tempered_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="bad_tempered_description"><![CDATA[
+Whenever an enemy operative performs the **Fight** action, if
+this operative is a valid operative to fight against, you can force them to select
+this operative to fight against instead. Whenever an enemy operative ends
+the **Charge** action within control range of another friendly **FARSTALKER
+KINBAND** operative within 3\" of this operative, if this operative is not within
+control range of enemy operatives, this operative can immediately perform a
+free **Charge** action (you can change its order to **Engage** to do so), but must
+end that move within control range of that enemy operative.
+    ]]></string>
+
+    <string name="kroot_gather_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="kroot_gather_description"><![CDATA[
+Perform a free **Dash** or **Reposition** action
+with this operative. During that move, it can perform a free **Pick Up Marker** or
+**Place Marker** action (you can determine control during that action to do so), and any
+remaining move distance it had from the Dash or **Reposition** action can be used after it does so.
+    ]]></string>
+
+
+    <string name="long_sight_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="long_sight_description"><![CDATA[
+Until the start of this operative’s next activation:\n
+\n
+• The concealed and stationary profiles of its Kroot hunting rifle have the Lethal 5+ weapon rule.\n
+\n
+• Whenever it is shooting with its Kroot hunting rifle, enemy operatives cannot be obscured.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="quick_draw_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="quick_draw_description"><![CDATA[
+Once per turning point, when an enemy operative is performing the **Shoot**
+action and this operative is selected as the valid target (or if it will be a secondary target
+from the Blast weapon rule), if this operative is ready, you can interrupt that action to
+use this rule. If you do, this operative can immediately perform a free **Shoot** action with
+its dual Kroot pistols (focused) against that enemy operative (you can change its order
+to **Engage** to do so), but that enemy operative must be a valid target.
+    ]]></string>
+
+    <string name="kroot_salvo_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="kroot_salvo_description"><![CDATA[
+Select up to two different valid targets that are not within control
+range of friendly operatives. Shoot with this weapon against both of them
+in an order of your choice (roll each sequence separately).
+    ]]></string>
+
+
+    <string name="kroot_stalker_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="kroot_stalker_description"><![CDATA[
+This operative can perform the **Charge** action while it has a Conceal order.
+    ]]></string>
+
+
+    <string name="stealth_attack_usage"><![CDATA[
+        2AP
+    ]]></string>
+
+    <string name="stealth_attack_description"><![CDATA[
+Perform a free **Charge** action with this operative, but do not exceed its Move stat (i.e. do not add
+2\"). Then immediately perform a free **Fight** action with this operative. The first time you strike
+during that action, you can immediately resolve another of your successes as a strike (before
+your opponent).\n\n
+
+This operative cannot perform this action while it has an Engage order, while within control
+range of an enemy operative, or if it is not within 1\" of Light or Heavy terrain.
+    ]]></string>
+
+
+    <string name="marked_for_the_hunt_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="marked_for_the_hunt_description"><![CDATA[
+Remove your Pech\’ra marker from the killzone (if any).
+Then place your Pech\’ra marker visible to this operative, or
+on Vantage terrain of a terrain feature that is visible to this
+operative. Whenever a friendly **FARSTALKER KINBAND**
+operative is shooting an enemy operative that has that marker
+within its control range, that friendly operatives ranged
+weapons have the Seek Light weapon rule.\n
+\n
+-At the start of this operatives next activation or if it is
+removed from the killzone (whichever comes first), remove
+your Pech\’ra marker from the killzone.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="from_the_eye_above_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="from_the_eye_above_description"><![CDATA[
+**SUPPORT.** Select one other friendly **FARSTALKER KINBAND** operative visible to and within 6\" of this
+operative. Until the end of that operatives next activation, add 1 to its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="kroot_ready_for_anything_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="kroot_ready_for_anything_description"><![CDATA[
+Once per turning point, during a friendly **WARRIOR** operatives activation, you can use the Meat,
+Piercing Shot or Toxin Shot rule (see faction equipment) for
+that operative. Doing so does not count for its once per turning point limit.
+    ]]></string>
+
+
+
+    <!--Faction Rules-->
+
+    <string name="kroot_farstalker_lore"><![CDATA[
+Farstalker Kindbands move and fight instinctively,
+reacting to developing battlefield conditions with an
+inhuman speed of thought.
+]]></string>
+
+    <string name="kroot_farstalker_description"><![CDATA[
+In the Ready step of each Strategy phase, you
+can change the order of up to three friendly
+**FARSTALKER KINBAND** operatives that are not
+within control range of enemy operatives.\n
+\n
+Whenever it is your turn to counteract, you can
+change the order of one friendly **FARSTALKER
+KINBAND** operative that is not within control
+range of enemy operatives instead. This still
+counts as you counteracting (so activation
+alternates back to your opponent afterwards),
+but doesn’t count as that friendly operatives
+counteraction for this turning point.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="piercing_shot_lore"><![CDATA[
+The Kroot make use of many forms of specially crafted
+ammunition. Bullets tipped with hardened alloys can
+punch through cover and armour alike.
+]]></string>
+
+    <string name="piercing_shot_description"><![CDATA[
+Once per turning point, when a friendly
+**FARSTALKER KINBAND** operative is performing
+the **Shoot** action and you select a Kroot rifle,
+Kroot scattergun or dual Kroot pistols (focused),
+you can use this rule. If you do, until the end
+of that action, that weapon has the Piercing 1
+weapon rule. You cannot use the Piercing Shot
+and Toxin Shot rule during the same action.
+]]></string>
+
+    <string name="toxin_shot_lore"><![CDATA[
+Kroot toxin bullets contain reservoirs of venom
+extracted from various alien fauna, all of which is
+incredibly lethal.
+]]></string>
+
+    <string name="toxin_shot_description"><![CDATA[
+Once per turning point, when a friendly
+**FARSTALKER KINBAND** operative is performing
+the **Shoot** action and you select a Kroot rifle,
+Kroot scattergun or dual Kroot pistols (focused),
+you can use this rule. If you do, until the end of
+that action, that weapon has the Lethal 5+ and
+Stun weapon rules. You cannot use the Piercing
+Shot and Toxin Shot rule during the same action.
+]]></string>
+
+    <string name="meat_lore"><![CDATA[
+Kroot physiologies are far more resilient than their wiry
+frames suggest. The ingestion of raw meat only serves to
+bolster their regenerative abilities.
+]]></string>
+
+    <string name="meat_description"><![CDATA[
+Once per turning point, when a friendly
+**FARSTALKER KINBAND** operative (excluding
+**HOUND**) is activated, if it is not within control
+range of enemy operatives, you can use this rule.
+If you do, that friendly operative regains up to
+D3+1 lost wounds.
+]]></string>
+
+    <string name="trophy_lore"><![CDATA[
+Kroot Farstalkers seek to cut down the most powerful
+of foes. They will aggressively pursue any enemy they
+judge worthy and harvest trophies from the corpse.
+]]></string>
+
+    <string name="trophy_description"><![CDATA[
+Once per battle, during a friendly **FARSTALKER KINBAND** operatives activation (excluding
+**HOUND**), before or after it performs an action, if
+it is not within control range of enemy operatives,
+you can use this rule. If you do, add 1 to that
+friendly operatives APL stat until the end of its activation.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="cut_thoats_lore"><![CDATA[
+Kroot warriors are lethal melee combatants. Their
+bladed weapons are capable of tearing through exposed
+flesh with ease.
+]]></string>
+
+    <string name="cut_thoats_description"><![CDATA[
+Add 1 to the Atk stat of friendly **FARSTALKER KINBAND** operatives melee weapons (to a
+maximum of 5).
+]]></string>
+
+    <string name="rogue_lore"><![CDATA[
+Kroot Farstalkers are naturally gifted hunters, using
+cover and shadow to their advantage as they close in upon their prey.
+]]></string>
+
+    <string name="rogue_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**FARSTALKER KINBAND** operative:\n
+\n
+• Ignore the Saturate weapon rule.\n
+\n
+• If you can retain any cover saves, you can retain one additional cover save, or you can
+retain one cover save as a critical success instead. This is not cumulative with improved
+cover saves from Vantage terrain.
+]]></string>
+
+    <string name="kroot_prey_lore"><![CDATA[
+When a Kroot Farstalker has selected their target, the
+hunters focus is directed fully towards bringing down
+their chosen prey.
+]]></string>
+
+    <string name="kroot_prey_description"><![CDATA[
+Whenever a friendly **FARSTALKER KINBAND**
+operative is shooting during an activation in which
+it has not performed the **Charge, Fall Back** or
+**Reposition** action, its ranged weapons have the
+Balanced and Severe weapon rules; if the weapon
+already has the Balanced weapon rule, it has the
+Ceaseless and Severe weapon rules instead. Note
+that operative is not restricted from performing
+those actions after shooting.
+]]></string>
+
+    <string name="bound_lore"><![CDATA[
+The long, muscular legs of the Kroot allow them to cover
+great distances in a single, bounding leap
+]]></string>
+
+    <string name="bound_description"><![CDATA[
+During each friendly **FARSTALKER KINBAND**
+operatives activation, you can ignore the first
+vertical distance of 2\" they move during one climb up.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="savage_ambush_lore"><![CDATA[
+Kroot Farstalkers are ambush predators, relying upon
+stealth, speed and bursts of savage violence to take
+down their enemies.
+]]></string>
+
+    <string name="savage_ambush_description"><![CDATA[
+Use this firefight ploy during the **Fight** action
+when a ready friendly **FARSTALKER KINBAND**
+operative that has Light or Heavy terrain within its
+control range is selected to fight against. In the
+Resolve Attack Dice step of that sequence, you
+resolve the first attack dice (i.e. defender instead of attacker).
+]]></string>
+
+    <string name="slip_away_lore"><![CDATA[
+Lithe and agile, the Kroot melt away from a fight using
+the same speed with which they strike.
+]]></string>
+
+    <string name="slip_away_description"><![CDATA[
+Use this firefight ploy during a friendly
+**FARSTALKER KINBAND** operatives activation,
+before or after it performs an action. During that
+activation, that operative can perform the **Fall Back** action for 1 less AP.
+]]></string>
+
+    <string name="poach_lore"><![CDATA[
+Farstalker Kindbands avoid protracted fights, using their
+speed and dexterity to advance upon and seize their
+objectives as swiftly as possible.
+]]></string>
+
+    <string name="poach_description"><![CDATA[
+Use this firefight ploy during a friendly
+**FARSTALKER KINBAND** operatives activation.
+Until the end of that activation, that operative
+does not have to control a marker to perform the
+**Pick Up Marker** or mission actions that usually
+require this (this takes precedence over that
+actions conditions – it only needs to contest
+the marker).
+]]></string>
+
+    <string name="vengeance_kinband_lore"><![CDATA[
+Farstalker Kinbands are bonded by blood. The death of
+an ally awakes within the survivors a vengeful fury.
+]]></string>
+
+    <string name="vengeance_kinband_description"><![CDATA[
+Use this firefight ploy when a friendly **FARSTALKER KINBAND** operative is
+incapacitated by an enemy operative. Until the
+end of the battle, whenever another friendly
+**FARSTALKER KINBAND** operative is shooting
+against, fighting against or retaliating against that
+enemy operative, that other friendly operatives
+weapons have the Relentless weapon rule. You
+cannot use this ploy again during the battle until
+that enemy operative is incapacitated.
+]]></string>
+
+</resources>

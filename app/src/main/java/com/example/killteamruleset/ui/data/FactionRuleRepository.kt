@@ -761,6 +761,49 @@ object FactionRuleRepository {
             ),
 
 
+        "corsair_voidscarred" to listOf(
+            FactionRule(
+                id = "rifles",
+                title = "RIFLES",
+                lore = R.string.rifles_lore,
+                ruleText = R.string.rifles_description,
+
+                ),
+            FactionRule(
+                id = "aeldari_raiders",
+                title = "AELDARI RAIDERS",
+                lore = R.string.aeldari_raiders_lore,
+                ruleText = R.string.aeldari_raiders_description,
+
+                ),
+            FactionRule(
+                id = "corsair_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.corsair_tokens
+            ),
+        ),
+
+
+        "farstalker_kinband" to listOf(
+            FactionRule(
+                id = "farstalker",
+                title = "FARSTALKER",
+                lore = R.string.kroot_farstalker_lore,
+                ruleText = R.string.kroot_farstalker_description,
+
+                ),
+            FactionRule(
+                id = "farstalker_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.farstalker_token
+            ),
+        ),
+
+
         //Wrecka Krew
         "wrecka_krew" to listOf(
             FactionRule(

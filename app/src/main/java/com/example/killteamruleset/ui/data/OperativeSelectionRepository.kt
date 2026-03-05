@@ -32,6 +32,7 @@ import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperativeS
 import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
@@ -49,6 +50,7 @@ object OperativeSelectionRepository {
         "corsair_voidscarred" to VoidscarredOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,
+        "farstalker_kinband" to FarstalkerOperativeSelection,
         "fellgor_ravagers" to FellgorOperativeSelection,
         "gellepox_infected" to GellerpoxOperativeSelection,
         "goremongers" to GoremongersOperativeSelection,

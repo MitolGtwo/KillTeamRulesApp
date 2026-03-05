@@ -718,6 +718,67 @@ object EquipmentRepository {
         ),
 
 
+
+        "corsair_voidscarred" to listOf(
+
+            Equipment(
+                id = "diuturnal_mantles",
+                name = "DIUTURNAL MANTLES",
+                lore =R.string.diuturnal_mantles_lore,
+                description = R.string.diuturnal_mantles_description
+            ),
+            Equipment(
+                id = "mistfield",
+                name = "MISTFIELD",
+                lore =R.string.mistfield_lore,
+                description = R.string.mistfield_description
+            ),
+            Equipment(
+                id = "runes_of_guidance",
+                name = "RUNES OF GUIDANCE",
+                lore =R.string.runes_of_guidance_lore,
+                description = R.string.runes_of_guidance_description
+            ),
+            Equipment(
+                id = "star_charts",
+                name = "STAR CHARTS",
+                lore =R.string.star_charts_lore,
+                description = R.string.star_charts_description
+            )
+        ),
+
+
+
+        "farstalker_kinband" to listOf(
+
+            Equipment(
+                id = "piercing_shot",
+                name = "PIERCING SHOT",
+                lore =R.string.piercing_shot_lore,
+                description = R.string.piercing_shot_description
+            ),
+            Equipment(
+                id = "toxin_shot",
+                name = "TOXIN SHOT",
+                lore =R.string.toxin_shot_lore,
+                description = R.string.toxin_shot_description
+            ),
+            Equipment(
+                id = "meat",
+                name = "MEAT",
+                lore =R.string.meat_lore,
+                description = R.string.meat_description
+            ),
+            Equipment(
+                id = "trophy",
+                name = "TROPHY",
+                lore =R.string.trophy_lore,
+                description = R.string.trophy_description
+            )
+        ),
+
+
+
         "wrecka_krew" to listOf(
 
             Equipment(

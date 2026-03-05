@@ -32,6 +32,7 @@ import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperatives
 import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperatives
 import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperatives
 import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperatives
+import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -50,6 +51,7 @@ object OperativeRepository {
             "corsair_voidscarred" -> VoidscarredOperatives
             "death_Korps" -> DeathKorpsOperatives
             "deathwatch" -> DeathWatchOperatives
+            "farstalker_kinband" -> FarstalkerOperatives
             "fellgor_ravagers" -> FellgorOperatives
             "gellepox_infected" -> GellerpoxOperatives
             "goremongers" -> GoremongersOperatives

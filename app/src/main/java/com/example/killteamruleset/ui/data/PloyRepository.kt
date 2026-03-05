@@ -1357,6 +1357,137 @@ object PloyRepository {
         ),
 
 
+
+        "corsair_voidscarred" to listOf(
+            // ── Corsair STRATEGY ──
+            Ploy(
+                id = "plunderers",
+                name ="PLUNDERERS",
+                type = PloyType.STRATEGY,
+                lore = R.string.plunderers_lore,
+                description = R.string.plunderers_description
+            ),
+            Ploy(
+                id = "piratical_profiteers",
+                name = "PIRATICAL PROFITEERS",
+                type = PloyType.STRATEGY,
+                lore = R.string.piratical_profiteers_lore,
+                description = R.string.piratical_profiteers_description
+            ),
+            Ploy(
+                id = "mobile_engagement",
+                name = "MOBILE ENGAGEMENT",
+                type = PloyType.STRATEGY,
+                lore = R.string.mobile_engagement_lore,
+                description = R.string.mobile_engagement_description
+            ),
+            Ploy(
+                id = "outcasts",
+                name = "OUTCASTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.outcasts_lore,
+                description = R.string.outcasts_description
+            ),
+
+
+            // ── Corsair FIREFIGHT ──
+            Ploy(
+                id = "opportunistic_fighters",
+                name = "OPPORTUNISTIC FIGHTERS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.opportunistic_fighters_lore,
+                description = R.string.opportunistic_fighters_description
+            ),
+            Ploy(
+                id = "light_fingers",
+                name = "LIGHT FINGERS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.light_fingers_lore,
+                description = R.string.light_fingers_description
+            ),
+            Ploy(
+                id = "capricious_flight",
+                name = "CAPRICIOUS FLIGHT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.capricious_flight_lore,
+                description = R.string.capricious_flight_description
+            ),
+            Ploy(
+                id = "wrecka_kaboom",
+                name = "CONTEMPTUOUS ADVENTURER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.wrecka_kaboom_lore,
+                description = R.string.wrecka_kaboom_description
+            )
+        ),
+
+
+
+        "farstalker_kinband" to listOf(
+            // ── Farstalker STRATEGY ──
+            Ploy(
+                id = "cut_thoats",
+                name ="CUT-THROATS",
+                type = PloyType.STRATEGY,
+                lore = R.string.cut_thoats_lore,
+                description = R.string.cut_thoats_description
+            ),
+            Ploy(
+                id = "rogue",
+                name = "ROGUE",
+                type = PloyType.STRATEGY,
+                lore = R.string.rogue_lore,
+                description = R.string.rogue_description
+            ),
+            Ploy(
+                id = "kroot_prey",
+                name = "PREY",
+                type = PloyType.STRATEGY,
+                lore = R.string.kroot_prey_lore,
+                description = R.string.kroot_prey_description
+            ),
+            Ploy(
+                id = "bound",
+                name = "BOUND",
+                type = PloyType.STRATEGY,
+                lore = R.string.bound_lore,
+                description = R.string.bound_description
+            ),
+
+
+            // ── Farstalker FIREFIGHT ──
+            Ploy(
+                id = "savage_ambush",
+                name = "SAVAGE AMBUSH",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.savage_ambush_lore,
+                description = R.string.savage_ambush_description
+            ),
+            Ploy(
+                id = "slip_away",
+                name = "SLIP AWAY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.slip_away_lore,
+                description = R.string.slip_away_description
+            ),
+            Ploy(
+                id = "poach",
+                name = "POACH",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.poach_lore,
+                description = R.string.poach_description
+            ),
+            Ploy(
+                id = "vengeance_kinband",
+                name = "VENGEANCE FOR THE KINBAND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.vengeance_kinband_lore,
+                description = R.string.vengeance_kinband_description
+            )
+        ),
+
+
+
         "wrecka_krew" to listOf(
             // ── WRECKAS STRATEGY ──
             Ploy(
