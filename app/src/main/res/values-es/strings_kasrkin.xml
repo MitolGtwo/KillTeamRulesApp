@@ -10,17 +10,12 @@
 
     <string name="tactical_command_description"><![CDATA[
 
-        
-Select one friendly **KASRKIN** operative, then select one
-**SKILL AT ARMS** for that operative to have until the Ready
-step of the next Strategy phase. This can be in addition to
-any **SKILL AT ARMS** it already has, but they cannot be
-the same.\n
-Alternatively, instead of resolving the above effect, if your
-Clearance Sweep marker is in the killzone, you can remove it
-and place it again.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Selecciona un Operativo **KASRKIN** y selecciona una **SKILL AT ARMS**. Ese Operativo tendrá esa regla adicional a las que ya tenga hasta el inicio del siguiente turno.
+No puede seleccionarse una **SKILL AT ARMS** que ya tenga, pues los efectos no se pueden acumular.\n
+\n
+Alternativamente, en lugar de hacer la acción de arriba, si tu token de Clearance Sweep está en el campo, puedes removerlo y ponerlo otra vez en el campo.\n\n
+
+Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="veteran_leadership_usage"><![CDATA[
@@ -28,9 +23,7 @@ range of an enemy operative.
     ]]></string>
 
     <string name="veteran_leadership_description"><![CDATA[
-Whenever this operative is in the killzone
-and you use the **SKILL AT ARMS STRATEGIC GAMBIT**,
-you can select one additional **SKILL AT ARMS**.
+Mientras este Operativo esté en el campo, puedes seleccionar una **SKILL AT ARMS** adicional durante la **STRATEGIC GAMBIT**. No puedes seleccionar la misma dos veces.
     ]]></string>
 
     <string name="kasrkin_medic_usage"><![CDATA[
@@ -40,6 +33,9 @@ you can select one additional **SKILL AT ARMS**.
     ]]></string>
 
     <string name="kasrkin_medic_description"><![CDATA[
+
+
+        
 The first time during each turning point that another friendly **KASRKIN** operative would be incapacitated while visible
 to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy
 operative. If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder
