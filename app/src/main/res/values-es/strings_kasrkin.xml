@@ -35,14 +35,14 @@ Mientras este Operativo esté en el campo, puedes seleccionar una **SKILL AT ARM
     <string name="kasrkin_medic_description"><![CDATA[
 
 
-        
-The first time during each turning point that another friendly **KASRKIN** operative would be incapacitated while visible
-to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy
-operative. If you do, that friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder
-of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must end that move within
-this operatives control range. Subtract 1 from this and that operatives APL stats until the end of their next activations respectively,
-and if this rule was used during that friendly operatives activation, that activation ends. You cannot use this rule if this operative is
-incapacitated, or if its a **Shoot** action and this operative would be a primary or secondary target.
+La primera vez durante cada turno que otro Operativo  **KASRKIN** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
+ni el Operativo con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado; tiene 1 herida restante y no puede ser incapacitado
+por el resto de esa acción.\n
+Después de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
+1 APL de este Operativo y el Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se usa durante la activación de ese otro Operativo aliado,
+Su activación termina inmediatamente.\n\n
+
+No puedes usar esta regla si el Operativo aliado está siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="kasrkin_medikit_usage"><![CDATA[
@@ -50,11 +50,10 @@ incapacitated, or if its a **Shoot** action and this operative would be a primar
     ]]></string>
 
     <string name="kasrkin_medikit_description"><![CDATA[
-Select one friendly **KASRKIN** operative within this
-operatives control range to regain up to 2D3 lost wounds.
-It cannot be an operative that the Medic! rule was used on
-during this turning point.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Seleciona un aliado **KASRKIN** dentro del rango de control de este Operativo, recupera 2D3 heridas perdidas. No puede usarse con un Operativo que se haya beneficiado
+de la regla Medic! durante este turno.\n\n
+
+Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="melta_mine_usage"><![CDATA[
@@ -64,13 +63,9 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="melta_mine_description"><![CDATA[
-This operative is carrying your Melta Mine marker. It
-can perform the **Pick Up Marker** action on that marker, and
-whenever it performs the Place Marker action on that marker,
-it can immediately perform a free **Dash** action. That marker
-cannot be placed within an enemy operatives control range (if
-this operative is incapacitated while carrying that marker and
-that marker cannot be placed, its removed with this operative).
+Este Operativo está cargando tu Melta Mine token. Puede hacer la acción **Pick Up Marker** en ese marcador, y cuando realice la acción **Place Marker** con este Token
+pueden inmediatamente hacer una acción **Dash** gratis. Este token no se puede poner dentro del rango de control de un Operativo enemigo (si este Operativo es incapacitado
+mientras carga este token, el token es removido junto a este Operativo).
     ]]></string>
 
     <string name="proximity_mine_usage"><![CDATA[
@@ -80,6 +75,10 @@ that marker cannot be placed, its removed with this operative).
     ]]></string>
 
     <string name="proximity_mine_description"><![CDATA[
+La primera vez que tu Melta Mine token este dentro del rango de control de otro Operativo, remuevelo e inflige 2D6+3 heridas a ese Operativo; si el Operativo no es incapacitado,
+termina su accion, incluso si esa accion no ha sido completada. Mueve el Operativo la minima distancia posible para acomodarlo si es necesario. (este Operativo es ignorado
+para estos efectos, no recibe daño de este marcador).
+        
 The first time your Melta Mine marker is within
 another operatives control range, remove that marker and inflict
 2D6+3 damage on that operative; if it isnt incapacitated, end
