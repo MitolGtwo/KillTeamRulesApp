@@ -57,7 +57,7 @@ val AngelsOfDeathOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
   OperativeSelectionRule(
-        text = "5 **ANGEL OF DEATH** Operatives selected from the following list:"
+        text = "5 ANGEL OF DEATH Operatives selected from the following list:"
     ),
 
   
