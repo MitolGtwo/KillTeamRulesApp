@@ -9,143 +9,102 @@
     ]]></string>
 
     <string name="defence_tactics_description"><![CDATA[
-Whenever this operative contests an objective
-marker or one of your mission markers, or whenever it is shooting
-an enemy operative that does, this operatives weapons have the Balanced weapon rule.
+Cuando este Operativo contesta un objetivo o marcador de misión, o cuando dispara a un Operativo que lo está haciendo, las armas de este Operativo tienen la regla
+Balanced.
     ]]></string>
 
     <string name="exarch_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="exarch_description"><![CDATA[
-This operative can perform two **Shoot** or two **Fight** actions during its activation.
+Este Operativo puede hacer dos acciones de **Disparo** o dos acciones de **Combate** durante su activación.
     ]]></string>
 
     <string name="shimmershield_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="shimmershield_description"><![CDATA[
-Whenever an operative is shooting a friendly **BLADES OF KHAINE** operative that is visible to and within
-2\" of this operative, ignore the Piercing weapon rule. This
-operative only has this rule if you select the shimmershield weapon option.
+Cuando un Operativo está disparando a un aliado **BLADES OF KHAINE** visible y a 2\" de este Operativo, ignora la regla Piercing. Este Operativo tiene esta regla si
+seleccionas Shimmershield al inicio de la batalla.
     ]]></string>
 
     <string name="banshee_mask_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="banshee_mask_description"><![CDATA[
-Whenever this operative is fighting, worsen the
-Hit stat of the enemy operatives melee weapons by 1. This is not cumulative with being injured.
+Cuando este Operativo está combatiendo, empeora la estadística Hit de las armas de melee de los Operativos enemigos en 1. Esto no se acumula al estar herido.
     ]]></string>
 
     <string name="mandiblasters_usage"><![CDATA[
-           Passive
+           Pasiva
     ]]></string>
 
     <string name="mandiblasters_description"><![CDATA[
-Whenever this operative performs the **Fight**
-action, at the start of the Roll Attack Dice step, you can use
-this rule. If you do, inflict 2 damage on the enemy operative in that sequence.
+Cuando este Operativo hace una acción de **Combate**, al inicio de la fase de dados de ataque, puedes usar esta regla, si lo haces, inflige 2 heridas al Operativo enemigo
+en esa secuencia.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="aspect_techniques_lore"><![CDATA[
-Aspect Warriors are trained in myriad killing techniques,
-parrying blows and acrobatic movements. These are as
-breathtaking to behold as they are lethal to their foes.
+Estos guerreros son entrenados en las técnicas Myriad de asesinato, basadas en el arte de bloquear ataques y ejecutar movimientos acrobáticos. Haciendolas
+increíbles de observar como escalofriantes para sus contrincantes.
 ]]></string>
 
     <string name="aspect_techniques_description"><![CDATA[
-Each **ASPECT TECHNIQUE** is in a category: Dire
-Avenger, Howling Banshee and Striking Scorpion.
-Each **ASPECT TECHNIQUE** can only be used with
-a friendly operative that has the matching Aspect
-keyword, and each will specify when it can be
-used and what its effects are. In addition:\n
+Cada **ASPECT TECHNIQUE** está dentro de una categoría: Dire Avenger, Howling Banshee y Striking Scorpion. Cada una de estos **ASPECT TECHNIQUE** solo pueden ser usados por
+Operativos aliados dentro de estas categorías, cada **ASPECT TECHNIQUE** especifica cuándo puede usarse y cuál es su efecto, en adición a esto:\n
 \n
-• You cannot use more than one **ASPECT TECHNIQUE** per activation or counteraction.\n
+• No puedes usar más de un **ASPECT TECHNIQUE** por activación o counteract\n
 \n
-• You cannot use each **ASPECT TECHNIQUE** more than once per turning point.\n
+• No puedes usar cada **ASPECT TECHNIQUE** mas de una vez por turno.\n
 \n
-• If every friendly **BLADES OF KHAINE** operative selected for deployment has the same Aspect
-keyword (e.g. **STRIKING SCORPION**), you cannot use each **ASPECT TECHNIQUE** more than twice per turning point (instead of once).
+• Si todos los Operativos **BLADES OF KHAINE** pertenecen a la misma categoría o aspecto, puedes usar el mismo **ASPECT TECHNIQUE** dos veces por turno (en lugar de uno).
 ]]></string>
 
     <string name="the_woe_lore"><![CDATA[
-Howling Banshees are woe given form. Emitting sonic
-screeches from their helms, they hurl themselves into
-the stunned foe, the lightning speed of their swordplay
-cutting through the enemy before a blow can be landed in return.
+Howling Banshees son la personificacion del dolor. Emiten alaridos desde sus cascos, se arrojan hacia sus enemigos aturdidos mientras cortan a sus enemigos con una
+velocidad relampageante antes de que el enemigo pueda reaccionar.
 ]]></string>
 
     <string name="the_woe_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** during a friendly
-**HOWLING BANSHEE** operatives activation,
-after it is performed the **Charge** action and
-incapacitated an enemy operative during the
-**Fight** action, and is no longer within control range
-of enemy operatives. That friendly operative can
-immediately perform a free **Charge** action using
-any remaining move distance it had from that
-first **Charge** action. That operative can perform
-two **Charge** actions during its activation to do so.
-The operative cannot have performed any other
-actions during this activation (but can do so after
-resolving this **ASPECT TECHNIQUE**).
+Usa este **ASPECT TECHNIQUE** durante la activación de un aliado **HOWLING BANSHEE**, después de realizar la acción **Cargar** e incapacita al Operativo enemigo durante 
+la acción de **Combatir**, si no sigue en rango de control de un Operativo enemigo. Ese Operativo aliado puede hacer inmediatamente una acción de **Cargar** gratis equivalente
+a la distancia de movimiento restante de su primera acción de **Cargar**. Ese Operativo puede hacer dos acciones de **Cargar** durante su activación. Este Operativo no pudo haber
+realizado ninguna otra acción durante esta activación (pero puede hacerlo después de resolver este **ASPECT TECHNIQUE**).
 ]]></string>
 
     <string name="rain_of_tears_lore"><![CDATA[
-Howling Banshees dive in and out of combat with
-infuriating speed and agility, making it almost
-impossible for those few who survive their most brutal
-attacks to strike in return.
+Howling Banshees se sumergen en el combate con una velocidad imparable, haciendo casi imposible que aquellas víctimas puedan regresar un golpe.
 ]]></string>
 
     <string name="rain_of_tears_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**HOWLING BANSHEE** operative is fighting, after
-you strike with a critical success, if the enemy
-operative is not incapacitated. End that sequence
-(any remaining attack dice are discarded) and
-immediately perform a free **Fall Back** action
-up to 3\" with that operative (then the **Fight**
-action ends). That operative can do so even if
-it is performed an action that prevents it from
-performing the **Fall Back** action.
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **HOWLING BANSHEE** aliado esté combatiendo, después de golpear con un resultado crítico, si el Operativo enemigo no fue 
+incapacitado. Termina esa secuencia (Todo dado restante es descartado) e inmediatamente realiza una acción **Fall Back** hasta 3\" de ese Operativo (la acción de **Combatir**
+entonces termina). Este Operativo puede hacerlo incluso si hace una acción que previene realizar la acción de **Fall Back**.
 ]]></string>
 
     <string name="acrobatic_lore"><![CDATA[
-When Howling Banshees traverse the battlefield, little
-slows them down. With effortless grace they leap and
-flip over intervening obstacles, landing with peerless
-poise and balance to drive their blades into the foe.
+Cuando los Howling Banshees atraviesan el campo de batalla, nada los detiene. con gracia y balance preciso saltan entre obstáculos dirigiendo sus hojas hacia los enemigos.
 ]]></string>
 
     <string name="acrobatic_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**HOWLING BANSHEE** operative performs an action
-in which it moves. Until the end of the action, that operative:\n
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **HOWLING BANSHEE** aliado realiza una accion en la que se mueve. Hasta el final de esa accion, este Operativo:\n
 \n
-• Can ignore all vertical distances whenever it drops and climbs.\n
+• Puede ignorar toda distancia vertical cuando escala o cae.\n
 \n
-• Can move through enemy operatives, move within control range of them, and during
-the **Charge** action can leave their control range (it must still end the move following all
-requirements for that move).\n
+• Puede moverse a través de Operativos enemigos, moverse dentro de su rango de control, y durante la acción de **Cargar** pueden abandonar la zona de control de un Operativo enemigo
+    pero debe terminar dentro de la zona de control de un Operativo enemigo.\n
 \n
-• Cannot move more than its Move stat if it is the **Charge** action.\n
-\n
+• No puede moverse más de su estadística de Move si está haciendo la acción de **Carga**.
 ]]></string>
 
     <string name="scream_that_steals_lore"><![CDATA[
-Any hope the foe has of retaining the upper hand over a
-Howling Banshee is lost the moment the leaping Aspect
-Warrior activates their Banshee mask. Their senses
-overwhelmed, the enemy are all but helpless against the
-merciless melee attacks that follow.
+Cualquier esperanza de retener una ventaja sobre un Howling Banshee es destruida cuando estos guerreros activan sus máscaras. Saturando los sentidos de sus enemigos, los hace
+vulnerables a los ataques que se aproximan.
 ]]></string>
 
     <string name="scream_that_steals_description"><![CDATA[
