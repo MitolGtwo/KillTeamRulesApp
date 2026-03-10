@@ -108,26 +108,22 @@ vulnerables a los ataques que se aproximan.
 ]]></string>
 
     <string name="scream_that_steals_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**HOWLING BANSHEE** operative is fighting or
-retaliating, at the start of the Resolve Attack
-Dice step. You can resolve one of your successes
-before the normal order. If you do, that success must be used to block.
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **HOWLING BANSHEE** aliado esté combatiendo o retaleando, al inicio de la fase para resolver dados. Puedes resolver
+uno de tus dados antes del orden normal. Si lo haces, ese dado exitoso debe ser usado para bloquear.
 ]]></string>
 
     <string name="shriek_that_kills_lore"><![CDATA[
-Those Howling Banshees who have learned how to focus
-their vocal chords correctly can emit a shriek so piercing
-and deafening that it can not only stun a foe, but liquefy their brain.
+Aquellos Howling Banshees que han aprendido a enfocar sus cuerdas vocales para emitir chillidos penetrantes y ensordecedores no solo inmovilizan a sus oponentes, tambien
+destruyen sus cerebros.
 ]]></string>
 
     <string name="shriek_that_kills_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**HOWLING BANSHEE** operative is performing the
-**Shoot** action. Until the end of that action, that operative can use the following ranged weapon:
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **HOWLING BANSHEE** aliado haga una acción de **Disparo**, hasta el final de esa acción, puede usar la siguiente arma:
 ]]></string>
 
     <string name="the_slicing_hurricane_lore"><![CDATA[
+Entrenados como estrategas flexibles, los Dire Avengers son capaces de liberar shurikens mientras se acercan al objetivo 
+        
 Trained to embrace supreme tactical flexibility,
 Dire Avengers are capable of unleashing clouds of
 razor-sharp shuriken while moving to secure ground or
