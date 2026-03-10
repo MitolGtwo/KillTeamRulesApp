@@ -7,9 +7,9 @@ import com.example.killteamruleset.ui.model.*
 
 val KasrkinGunner = Operative(
     name = "Kasrkin Gunner",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.karskin_gunner,
     stats = OperativeStats(
-        apl = 3,
+        apl = 2,
         move = "6\"",
         save = "4+",
         wounds = 8

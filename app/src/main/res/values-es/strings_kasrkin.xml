@@ -40,8 +40,8 @@ ni el Operativo con el que se use esta regla estén en rango de control de un en
 por el resto de esa acción.\n
 Después de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
 1 APL de este Operativo y el Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se usa durante la activación de ese otro Operativo aliado,
-Su activación termina inmediatamente.\n\n
-
+Su activación termina inmediatamente.\n
+\n
 No puedes usar esta regla si el Operativo aliado está siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
@@ -78,14 +78,7 @@ mientras carga este token, el token es removido junto a este Operativo).
 La primera vez que tu Melta Mine token este dentro del rango de control de otro Operativo, remuevelo e inflige 2D6+3 heridas a ese Operativo; si el Operativo no es incapacitado,
 termina su accion, incluso si esa accion no ha sido completada. Mueve el Operativo la minima distancia posible para acomodarlo si es necesario. (este Operativo es ignorado
 para estos efectos, no recibe daño de este marcador).
-        
-The first time your Melta Mine marker is within
-another operatives control range, remove that marker and inflict
-2D6+3 damage on that operative; if it isnt incapacitated, end
-its action (if any), even if that actions effects arent fulfilled. If
-it cannot be placed, move it the minimum amount to do so. Note
-that this operative is ignored for these effects (i.e. it cannot set it
-off or take damage from that marker).
+
     ]]></string>
 
     <string name="blast_padding_usage"><![CDATA[
@@ -95,12 +88,9 @@ off or take damage from that marker).
     ]]></string>
 
     <string name="blast_padding_description"><![CDATA[
-Whenever an operative is shooting this operative
-with a weapon that has the Blast or Torrent weapon rule
-(excluding weapons that have a sweeping profile), you can re-roll
-one of your defence dice. In addition, this operative isnt affected
-by the x\" Devastating x weapon rule (i.e. Devastating with a
-distance) unless they are the target during that sequence.
+Cuando un Operativo dispara a este Operativo con un arma que tenga la regla Blast o Torrent (a menos que sea un
+arma con el perfil sweeping), puedes re lanzar un dado de defensa, en adicion a esto, este Operativo
+es inmune al x\" Devastating a menos que sea el objetivo principal.
     ]]></string>
 
     <string name="reconnoitre_killzone_usage"><![CDATA[
@@ -110,7 +100,7 @@ distance) unless they are the target during that sequence.
     ]]></string>
 
     <string name="reconnoitre_killzone_description"><![CDATA[
- The Relocate strategy ploy costs you 0CP if this operative is the selected friendly **KASRKIN** operative
+La Strategy plopy Relocate cuesta 0CP si este es el Operativo *KASRKIN** seleccionado.
     ]]></string>
 
     <string name="kasrkin_auspex_scan_usage"><![CDATA[
@@ -118,10 +108,11 @@ distance) unless they are the target during that sequence.
     ]]></string>
 
     <string name="kasrkin_auspex_scan_description"><![CDATA[
-Until the start of this operatives next activation or until its incapacitated (whichever comes first), whenever an enemy operative
-is within 8\" of this operative, that enemy operative is being scanned. Whenever a friendly **KASRKIN** operative is shooting an
-enemy operative that is being scanned, that enemy operative cannot be obscured.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Hasta el inicio de la proxima activacion de ese Operativo, o cuando sea incapacitado, siempre que un
+Operativo enemigo este a 8\" de este Operativo, ese Operativo estaria siendo escaneado. Cuando un aliado
+*KASRKIN** este disparando a un enemigo escaneado, ese enemigo no puede estar **Obscured**.\n\n
+
+Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="camo_cloak_usage"><![CDATA[
@@ -131,10 +122,10 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="camo_cloak_description"><![CDATA[
-Whenever an operative is shooting this operative:\n
-• Ignore the Saturate weapon rule.\n
-• If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success
-instead. This is not cumulative with improved cover saves from Vantage terrain
+Cuando un Operativo este disparando a este Operativo:\n
+• Ignora la regla Saturate.\n
+•Si puedes retener una salvacion por cobertura, puedes retener otra o puedes retener una salvacion
+critica. Esto no se acumula con salvacion mejorada por terreno aventajado.
     ]]></string>
 
     <string name="kasrkin_adaptive_equipment_usage"><![CDATA[
@@ -144,11 +135,11 @@ instead. This is not cumulative with improved cover saves from Vantage terrain
     ]]></string>
 
     <string name="kasrkin_adaptive_equipment_description"><![CDATA[
-You can do each of the following once per turning point:\n
-• One friendly **KASRKIN TROOPER** operative can perform the Smoke Grenade action.\n
-• One friendly **KASRKIN TROOPER** operative can perform the Stun Grenade action.\n
-The rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their
-action limits (i.e. if you also select those grenades from equipment).
+Puedes hacer cada una de las siguientes acciones una vez por turno:\n
+• Un Operativo **KASRKIN TROOPER** puede hacar la accion Smoke Grenade.\n
+• Un Operativo **KASRKIN TROOPER** puede hacar la accion Stun Grenade.\n
+\n
+Realizar esta accion no afecta a tu limite de granadas por seleccion de equipamiento universal.
     ]]></string>
 
     <string name="battle_comms_usage"><![CDATA[
@@ -156,142 +147,116 @@ action limits (i.e. if you also select those grenades from equipment).
     ]]></string>
 
     <string name="battle_comms_description"><![CDATA[
-Select one other friendly **KASRKIN** operative. Until the end of that operatives next activation, add 1 to its APL stat (to a
-maximum of 3 after all APL stat changes have been totalled).\n\n
-This operative can perform this action twice during its activation, but cannot perform this action while within control range of an
-enemy operative.
+Selecciona otro Operativo **KASRKIN**  aliado. Hasta el final de su proxima activacion, añade 1
+al maximo de sus APLs (hasta un maximo de 3 despues de haber realizado los cambios). \n\n
+
+Este Operativo puede hacer esta accion dos veces durante su activacion, pero no puede hacerlo mientras
+este en rango de control de un Operativo enemigo.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="skill_at_arms_lore"><![CDATA[
-The Kasrkin go where they are needed. Battle-hardened,
-uncompromising and equipped with the best weapons
-available, these elites pursue their objectives
-with professionalism, hard-won experience and
-rigid determination.
+Los Karskin estan donde son necesitados. adaptados a la batalla, y equipados con las mejores armas disponibles, estas fuerzas de elite persiguen su siguiente objetivo con tacticas, experiencia y determinacion
+obtenidas de sobrevivir las mas duras guerras.
 ]]></string>
 
     <string name="skill_at_arms_description"><![CDATA[
-**STRATEGIC GAMBIT.** Select a **SKILL AT ARMS** for
-friendly **KASRKIN** operatives to have until the
-Ready step of the next Strategy phase.
+**STRATEGIC GAMBIT.** Selecciona una  **SKILL AT ARMS** para que los Operativos **KASRKIN** tengas
+hasta el inicio de la proxima fase estrategica.
 ]]></string>
 
     <string name="light_em_up_lore"><![CDATA[
-Establishing overlapping fields of fire as they advance,
-the Kasrkin react to any enemy movement with a lethal
-volley of fire.
+Abatiendo al enemigo con interminables andanadas de disparos mientras avanzan, los Kasrkin reaccionan
+al movimiento enemigo con disparos letales.
 ]]></string>
 
     <string name="light_em_up_description"><![CDATA[
-Friendly **KASRKIN** operatives ranged weapons have the Severe weapon rule.
+Aliados **KASRKIN** tienen la regla Severe con sus armas de rango.
 ]]></string>
 
     <string name="strike_fast_lore"><![CDATA[
-Kasrkin pride themselves upon their physical fitness
-and can cover ground swiftly, even when carrying heavy
-combat gear.
+Los Kasrkin se enorgullecen de sus aptitudes fisicas, pueden cubrir campos rapidamente, includo
+cargando equipamentos pesados.
 ]]></string>
 
     <string name="strike_fast_description"><![CDATA[
-Whenever a friendly **KASRKIN** operative is
-performing the Reposition action, add 1\" to its
-Move stat.
+Cuando un aliado **KASRKIN** hace la accion **Reposition** añade 1\" a su Move stat.
 ]]></string>
 
     <string name="ice_in_your_veins_lore"><![CDATA[
-All Cadians are subjected to a lifetime of war. Those
-chosen to join the ranks of the elite Kasrkin are amongst
-the hardiest.
+Todos los Cadianos son sujetos a una vida de interminable guerra. Aquellos que deciden unirse a la
+elite Kasrkin son entre todos los mas duros.
 ]]></string>
 
     <string name="ice_in_your_veins_description"><![CDATA[
-Whenever a friendly **KASRKIN** operative is
-fighting or retaliating, or an operative is shooting
-it, the first time an attack dice inflicts Normal
-Dmg of 3 or more on this operative during that
-sequence, that dice inflicts 1 less damage on it.
+Cuando un aliado **KASRKIN** este peleando, retaleando o un Operativo le este disparando, el primer
+dado de ataque normal que vaya a infligirle daño de 3 o mas, hace 1 menos de daño.
 ]]></string>
 
     <string name="for_cadia_lore"><![CDATA[
-All Kasrkin strive to uphold the honour of their
-dead homeworld.
+Todos los Kasrkin sobrepasan sus limites para honrar su hogar caido.
 ]]></string>
 
     <string name="for_cadia_description"><![CDATA[
-Add 1 to the Atk stat of friendly **KASRKIN**
-operatives melee weapons (to a maximum of
-4). Whenever a friendly **KASRKIN** operative
-is fighting, the first time you strike during that
-sequence, inflict 1 additional damage.
+Añade 1 al ATK stat de las armas de melee de aliados **KASRKIN** (hasta un maximo de 4).
+Cuando un aliado **KASRKIN** este peleando, la primera vez que vayas a golpear con un dado de ataque
+en esa secuencia, inflige 1 mas de daño.
 ]]></string>
 
     <string name="rapid_fire_lore"><![CDATA[
-Ruthlessly drilled and murderously efficient, Kasrkin lay
-down hails of high-powered fire against the foe.
+Con un entrenamiento intensivo y mortalmente eficientes, los Karskin hacen llover oleadas de
+poderosos disparos contra sus enemigos.
 ]]></string>
 
     <string name="rapid_fire_description"><![CDATA[
-Each friendly **KASRKIN** operative that does not
-perform an action in which it moves during
-its activation can perform two **Shoot** actions
-(excluding Guard) during that activation, but a
-bolt pistol, hot-shot lasgun or hot-shot laspistol
-must be selected for both of those actions.
+Cada aliado **KASRKIN** que no haga una accion en donde se mueva durante su activacion puede hacer
+dos acciones de **Disparo** (excluyendo Guard), pero debe usar un Bolt Pistol, Hot-shot Lasgun o
+Hot-shot Laspistol para ambos disparos.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="foregrip_lore"><![CDATA[
-Fitted under the barrel of the gun, this foregrip helps
-stabilise the bearers weapon, improving its handling at
-close range.
+Acomodados debajo del barril del arma, estas agarraderas ayudas a estabilizar la punteria en corto
+alcance.
 ]]></string>
 
     <string name="foregrip_description"><![CDATA[
-Whenever a friendly **KASRKIN** operative is
-shooting an operative within 3\" of it, ranged
-weapons on its datacard (excluding weapons
-that include pistol in their name, e.g. hot-shot
-laspistol, all profiles of a plasma pistol, etc.) have
-the Accurate 1 weapon rule.
+Cuando un aliado **KASRKIN** este disparando a un enemigo a 3\" de este, las armas de rango en su
+datacard (excluyendo armas que incluyan el nombre Pistol) tienen la regla Acurrate 1.
+
 ]]></string>
 
     <string name="long_range_scope_lore"><![CDATA[
-This weapon is fitted with a marksmans scope, enabling great accuracy even at long range.
+Estas armar son modificadas con miras de francotirados, brindando mucha precision a largas distancias.
+
 ]]></string>
 
     <string name="long_range_scope_description"><![CDATA[
-Whenever a friendly **KASRKIN** operative is
-shooting an operative more than 6\" from it, that
-friendly operatives hot-shot weapons have the
-Saturate weapon rule.
+Cuando un aliado **KASRKIN** dispara a un Operativo a mas de 6\" de este, las armas Hot-shot tienen
+la regla Saturate.
 ]]></string>
 
     <string name="relics_of_cadia_lore"><![CDATA[
-Small personal effects remind the Kasrkin of their
-homeworld, those they have lost, and that which they
-fight for.
+Pequeños recordatiros de su tierra natal, rememorando los caidos, los Kasrkin recuerdan por que estan
+luchando.
 ]]></string>
 
     <string name="relics_of_cadia_description"><![CDATA[
-Once per turning point, when a friendly
-**KASRKIN** operative is shooting, fighting or
-retaliating, if you roll two or more fails, you can
-discard one of them to retain another as a normal
+Una vez por turno, cuandon un aliado **KASRKIN** esta disparando, peleando o retaleando, si lanzas
+dos o mas fallos, puedes descartar 1 para retener otro fallo como un exito normal en su lugar.
 success instead.
 ]]></string>
 
     <string name="kasrkin_combat_daggers_lore"><![CDATA[
-When close combat is required, the Kasrkin turn to their
-combat daggers in order to silence the enemy.
+Cuando el combate cercano es inminente, los Kasrkin desenvainan sus dagas de combate para silenciar
+al enemigo.
 ]]></string>
 
     <string name="kasrkin_combat_daggers_description"><![CDATA[
-Friendly **KASRKIN** operatives have the following
-melee weapon:
+Los aliados **KASRKIN** obtienen la siguiente arma a melee.
 ]]></string>
 
 
@@ -299,129 +264,98 @@ melee weapon:
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="elimination_pattern_lore"><![CDATA[
-Having already outmanoeuvred the foe, the Kasrkin
-attempt to fell their target in a single volley.
+Despues de haber sobrepasado a sus enemigos, los Kasrkin intentan hacerlos caer con un solo disparo mortal.
 ]]></string>
 
     <string name="elimination_pattern_description"><![CDATA[
-Whenever a friendly **KASRKIN** operative is
-shooting with a hot-shot weapon against an
-operative that cannot retain any cover saves or
-is being scanned (see **RECON-TROOPER**), that
-weapon has the Piercing Crits 1 weapon rule, or
-Piercing 1 instead if it is a hot-shot volley gun.
+Siempre que un aliado **KASRKIN** este disparando con un arma Hot-shot contra un Operativo que no
+pueda retener salvaciones por cobertura o que este siendo escaneado (ver **RECON-TROOPER**), esta
+arma tiene la regla Piercing Crits 1, o Piercing 1 si es un Hot-Shot Volley Gun.
 ]]></string>
 
     <string name="engage_from_cover_lore"><![CDATA[
-Kasrkin are used to being outnumbered and outgunned,
-using cover to avoid incoming fire as they engage.
+Kasrkin estan acostumbrados a estar superados en numero y en armamento, usan coberturas eficazmente para
+evitar el fuego enemigo.
 ]]></string>
 
     <string name="engage_from_cover_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**KASRKIN** operative thats in cover, you can
-re-roll one of your defence dice.
+Siempre que un Operativo este disparando a un aliado **KASRKIN** que este en cobertura, puedes
+re lanzar uno de tus dados de defensa.
 ]]></string>
 
     <string name="clearance_sweep_lore"><![CDATA[
-The Kasrkin advance steadily towards their objectives,
-clearing the battlefield of enemies quadrant
-by quadrant.
+Los Kasrkin avancen incesatemente hacia sus objetivos, limpiando el campo de batalla kilometro por
+kilometro.
 ]]></string>
 
     <string name="clearance_sweep_description"><![CDATA[
-Place your Clearance Sweep marker in the
-killzone. Whenever a friendly **KASRKIN**
-operative within 5\" horizontally of that marker is
-shooting an operative also within 5\" horizontally
-of that marker, that friendly operatives weapons
-have the Ceaseless weapon rule. In the Ready
-step of the next Strategy phase, remove
-that marker.
+Pon tu token Clearance Sweep en el campo de batalla. Cuando un aliado **KASRKIN** este a 5\" horizontalmente
+de ese token, y este disparando a un enemigo que tambien este a 5\" de ese token horizontalmente, las
+armas de tu Operativo **KASRKIN** disparando obtiene la regla Ceaseless, al inicio del proximo turno,
+remueve ese token.
 ]]></string>
 
     <string name="relocate_lore"><![CDATA[
-The Kasrkin are always on the move, advancing swiftly
-across the battlefield to take up new firing positions.
+Kasrkin estan en constante movimiento, avanzando velozmente atravez del campo de batalla para reacomodarse.
+
 ]]></string>
 
     <string name="relocate_description"><![CDATA[
-Select one friendly **KASRKIN** operative that is
-more than 3\" from enemy operatives. That
-operative, and each other friendly **KASRKIN**
-operative that is both within 3\" of that operative
-and more than 3\" from enemy operatives, can
-immediately perform a free **Dash** action in an
-order of your choice. You cannot use this ploy
-during the first turning point.
+Selecciona un aliado **KASRKIN** que este a mas de 3\" de enemigo Operativos. ese Operativo y todo
+Operativo aliado **KASRKIN** a 3\" de ese Operativo aliado y a mas de 3\" de enemigos, pueden realizar
+un **Dash** gratis en el orden de tu eleccion.\n
+\n
+No puedes usar esta ploy durante el primer turno.
+
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="seize_the_initiative_lore"><![CDATA[
-Kasrkin squads are bold and decisive, acting with speed
-and clarity even in the confusion of battle.
+Los escuadrones Kasrkin son osados y decididos, actuando con velocidad y claridad en la confusion de la
+batalla.
 ]]></string>
 
     <string name="seize_the_initiative_description"><![CDATA[
-Use this firefight ploy at the start of the Firefight
-phase. One friendly **KASRKIN** operative can
-immediately perform a 1AP action for free, but it
-cannot move during that action. You cannot use
-this ploy if you are the player with initiative.
+Usa esta Firefight ploy al inicio de la firefight fase. Un aliado **KASRKIN** puede inmediatamente hacer
+una 1AP accion gratis, pero no se puede mover durante esta accion. No puedes usar esta ploy si eres
+el jugador con iniciativa.
 ]]></string>
 
     <string name="cover_retreat_lore"><![CDATA[
-Should a Kasrkin soldier need to retreat, their allies may
-lay down a withering barrage of covering fire.
+Si un soldado Kasrkin necesita retirarse, sus aliados cubriran su escape con amenazante fuego y disparos.
 ]]></string>
 
     <string name="cover_retreat_description"><![CDATA[
-Use this firefight ploy when a friendly **KASRKIN**
-operative performs the **Fall Back** action while
-visible to and within 6\" of another friendly
-**KASRKIN** operative that is not within control
-range of enemy operatives. After that friendly
-operative has finished moving, but before
-that **Fall Back** action ends, that other friendly
-operative can immediately perform a free **Shoot**
-action (you can change its order to **Engage** to
-do so).
+Usa esta Firefight ploy cuando un aliado **KASRKIN** hace la accion de **Fall Back** mientras esta visible y a 6\"
+de otro **KASRKIN** aliado que no este en rango de control con un enemigo. Despues de que este
+Operativo termine el movimiento pero antes de que la accion **Fall Back** termine, ese otro
+aliado puede hacer una accion de **Disparo** gratis (puedes cambiar su orden a **Engage** para hacerlo).
 ]]></string>
 
     <string name="neutralise_target_lore"><![CDATA[
-Designating an exposed enemy operative as a priority
-target, this operative levels their weapon and fires a
-volley of rounds.
+Aprovechando la debilidad de un enemigo expuesto, los Karskin priorizan sus disparos contra los
+enemigos peor posicionados.
 ]]></string>
 
     <string name="neutralise_target_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice
-for a friendly **KASRKIN** operative, if it is shooting
-an operative that either cannot retain any cover
-saves or is being scanned (see **RECON-TROOPER**).
-You can re-roll any of your attack dice.
+Usa esta Firefight ploy despues de lanzar tus dados de ataque para un **KASRKIN** aliado,
+si es un disparo y el Operativo no puede retener salvaciones por cobertura, o si esta siendo
+escaneado (ver **RECON-TROOPER**). Puedes re lanzar cualquiera de tus dados de ataque.
 ]]></string>
 
     <string name="give_no_ground_lore"><![CDATA[
-Hardened by a lifetime spent defending the Imperium
-from the horrific denizens of the Eye of Terror, the
-Kasrkin demonstrate unwavering discipline in the face
-of the enemy.
+Endurecidos por una vida entera defendiendo el Imperium de los horrores del Ojo del Terror,
+los Kasrkin demuestran su disciplina inalterable encarando a sus enemigos.
 ]]></string>
 
     <string name="give_no_ground_description"><![CDATA[
-Use this firefight ploy during a friendly **KASRKIN**
-operatives activation, or at the end of the
-Firefight phase. Select one of your mission
-markers or an objective marker. Until the end of
-that activation or until the start of the next turning
-point respectively, if the total APL of friendly
-**KASRKIN** operatives that contest that marker
-is 2, and the total APL of enemy operatives
-that contest it is the same, friendly **KASRKIN**
-operatives control that marker.
+Usa esta Firefight ploy durante la activacion de un aliado **KASRKIN**, o al final de la
+Firefight fase. Selecciona un marcador de mision o marcador de objetivo. Hasta el final de la activacion
+o hasta el inicio de del proximo turno, si el total de APL de aliados **KASRKIN** contesteando ese
+marcador es 2, y el total de APL de enemigos Operativos contesteando el marcador es tambien 2, tu **KASRKIN**
+controla ese objetivo.
 ]]></string>
 
 </resources>

@@ -28,7 +28,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             KillTeamRuleSetTheme {
                 val navController = rememberNavController()
-                MainScaffold(navController = navController)
+
+                MainScaffold(navController)
             }
         }
     }

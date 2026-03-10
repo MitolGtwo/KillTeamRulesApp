@@ -40,7 +40,8 @@
     Al igual que una accion de **Reposicion**, solo que el Operativo no puede moverse
     mas que su estadistica de Move - 2\" y no puede escalar, caer, saltar, o usar
     cualquier habilidad de teletrasportacion o vuelo
-    (Necrones, Murderwing, Vespids, Mandrakes, etc).\n
+    (Necrones, Murderwing, Vespids, Mandrakes, etc).\n}
+    \n
     -Antes de que este Operativo se mueva, remueve la Barricada Portatil que este conectada.
     Despues de que termine el movimiento, pon la Barricada de tal forma que este conectada
     otra vez, pero la Barricada Portatil no puede ser puesta a 2\" de otro equipamiento de terreno,
@@ -104,14 +105,14 @@
     <string name="smoke_grenade_ability_description">
         <![CDATA[
 Pon un marcador de granada de humo a 6\" de este Operativo, tiene que ser visible para este Operativo, o en terreno aventajado que sea visible para este Operativo.\n
-
+\n
 Este marcador crea un area de Humo de 1\" horizontal e ilimitadamente vertical (no aplica abajo del token).
 Mientras este Operativo este completamente dentro del area del Humo, esta **Obscured** para
 Operativos que esten a mas de 2\" de el, y viceversa\n
-
+\n
 En adicion, siempre que un Operativo este disparando a otro Operativo dentro del Humo, efectos
 Piercing 2 o similares se reducen a Piercing 1, siempre y cuando el disparo se dispare a mas de 2\".\n
-
+\n
 En la Ready Step de la siguiente fase Estrategica, lanza un D3. El marcador de humo es
 removido despues de un numero activacion terminadas equivalentes al resultado del D3.
 
@@ -225,7 +226,8 @@ enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
 
     Antes de la batalla, puedes poner tu marcador Vox Comunicador completamente dentro de
     tu territorio. Mientras un Operativo aliado lo controle, añade 3\" de distancia al
-    requerimiento de su abilidad **SOPORTE** que se refiere a un Operativo aliado.
+    requerimiento de su abilidad **SOPORTE** que se refiere a un Operativo aliado.\n
+    \n
     No te puedes beneficiar de un marcador Vox Comunicador que no sea tuyo.
 
 ]]></string>
@@ -247,15 +249,11 @@ enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
 
 ]]></string>
 
-    <string name="light_barricades"><![CDATA[
-
-    2X BARRICADAS LIGERAS
-
-]]></string>
 
     <string name="light_barricades_description"><![CDATA[
     Una Barricada ligera es terreno ligero, excepto los pies, los cuales son Insignificantes y
-    Expuestos.\n
+    Expuestos.
+\n
 \n
     Antes de la batalla, puedes poner tus Barricadas Ligeras completamente dentro de tu
     territorio, en el piso de killzone, y a mas de 2\" de otros marcadores y puntos de acceso.
@@ -278,21 +276,17 @@ enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
 
 ]]></string>
 
-    <string name="ladder"><![CDATA[
 
-    2X Escaleras
-
-]]></string>
 
     <string name="ladder_description"><![CDATA[
-    Escaleras son terreno Insignificante y Expuesto, antes de la batalla, puedes ponerlas
-    de la siguiente forma:\n
+Escaleras son terreno Insignificante y Expuesto, antes de la batalla, puedes ponerlas
+    de la siguiente forma:
     \n
-    Completamente dentro de tu territorio.\n
+    -Completamente dentro de tu territorio.\n
     \n
-    Apoyada a un terreno que sea al menos 2" de alto.
+    -Apoyada a un terreno que sea al menos 2" de alto.
     \n
-    A mas de 2\" de otros equipamientos y puntos de acceso.\n
+  -A mas de 2\" de otros equipamientos y puntos de acceso.\n
 
     Una vez por accion, cuando un Operativo este escalando un terreno con una Escalera apoyada
     en ese terreno, trata la distancia vertical como 1\" si la Escalera esta dentro del area
@@ -300,12 +294,6 @@ enemigo, o si se alcanzo el numero maximo de usos de granadas de Humo.
 
 ]]></string>
 
-
-    <string name="breaching_charge"><![CDATA[
-
-    BOMBA DE BRECHA
-
-]]></string>
 
     <string name="breaching_charge_description"><![CDATA[
 

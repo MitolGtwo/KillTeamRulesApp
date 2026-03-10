@@ -6,6 +6,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.model.Ability
@@ -39,15 +40,21 @@ fun AbilitiesSection(
         ) {
             Column(modifier = Modifier.padding(12.dp)) {
 
-                abilities.forEach { ability ->
-                    AbilityCard(
-                        ability = ability,
-                        onKeywordClick = onKeywordClick
-                    )
+                abilities.forEachIndexed { index, ability ->
 
-                    Spacer(Modifier.height(12.dp))
+                    AbilityCard(ability = ability,
+                        onKeywordClick = onKeywordClick)
+
+                    if (index < abilities.lastIndex) {
+                        Divider(
+                            color = Color(0x33FF6A00),
+                            thickness = 1.dp,
+                            modifier = Modifier.padding(vertical = 12.dp)
+                        )
+                    }
                 }
-            }
         }
     }
-}
+        }
+
+        }

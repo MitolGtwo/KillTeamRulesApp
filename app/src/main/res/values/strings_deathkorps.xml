@@ -71,7 +71,9 @@
                  inmediately perfrom a free **Dash** action, but must end that move within this Operatives control range
                 . Substract 1 from this and the other Operatives APL stats until the end of their next activations
                 , if this rule is used during that other Operative activation, its activation ends.\n
-                You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this
+                \n
+\n
+You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this
                  Operative would be a primary or secondary target.
 
 ]]></string>

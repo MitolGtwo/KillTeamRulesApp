@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.screens
 
+import com.example.killteamruleset.ui.util.LocaleManager
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.*

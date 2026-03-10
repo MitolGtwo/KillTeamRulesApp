@@ -37,6 +37,7 @@ fun MainScreen(
 ) {
     val drawerState = rememberDrawerState(DrawerValue.Closed)
     val scope = rememberCoroutineScope()
+    val context = LocalContext.current
 
     ModalNavigationDrawer(
         drawerState = drawerState,

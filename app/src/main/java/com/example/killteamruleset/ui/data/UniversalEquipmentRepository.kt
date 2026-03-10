@@ -111,17 +111,17 @@ object UniversalEquipmentRepository {
         ),
         Equipment(
             id = "light_barricades",
-            name = "LIGHT BARRICADES",
+            name = "2x LIGHT BARRICADES",
             description = R.string.light_barricades_description
         ),
         Equipment(
             id = "heavy_barricade",
-            name = "HEAVY BARRICADES",
+            name = "1x HEAVY BARRICADES",
             description = R.string.heavy_barricade_description
         ),
         Equipment(
             id = "ladder",
-            name = "LADDERS",
+            name = "2x LADDERS",
             description = R.string.ladder_description
         ),
         Equipment(

@@ -6,9 +6,9 @@ import com.example.killteamruleset.ui.model.*
 
 val KasrkinSharpshooter = Operative(
     name = "Kasrkin Sharpshooter",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.karskin_sniper,
     stats = OperativeStats(
-        apl = 3,
+        apl = 2,
         move = "6\"",
         save = "4+",
         wounds = 8
@@ -64,11 +64,6 @@ val KasrkinSharpshooter = Operative(
             title = "Camo Cloak",
             usage = R.string.camo_cloak_usage,
             description = R.string.camo_cloak_description
-        ),
-        Ability(
-            title = "Auspex Scan",
-            usage = R.string.kasrkin_auspex_scan_usage,
-            description = R.string.kasrkin_auspex_scan_description
         )
     ),
 

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "angels_of_death",
+    "name": "Angels Of Death",
+    "alliance": "IMPERIUM",
+    "type": "ELITE",
+    "difficulty": "Easy",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "battle_clade",
+    "name": "Battle Clade",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "RECON",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "celestian_insidiants",
+    "name": "Celestian Insidiants",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "death_Korps",
+    "name": "Death Korps",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "deathwatch",
+    "name": "DeathWatch",
+    "alliance": "IMPERIUM",
+    "type": "ELITE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "elucidian_star",
+    "name": "Elucidian Starstriders",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SECURITY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "exaction_squad",
+    "name": "Exaction Squad",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "hunter_clade",
+    "name": "Hunter Clade",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "RECON",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "imperial_navy_breachers",
+    "name": "Imperial Navy Breachers",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "inquisitorial_agents",
+    "name": "Inquisitorial Agents",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY",
+      "RECON",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "kasrkin",
+    "name": "Kasrkin",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "novitiates",
+    "name": "Novitiates",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SECURITY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "phobos_strike_team",
+    "name": "Phobos Strike Team",
+    "alliance": "IMPERIUM",
+    "type": "ELITE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "ratlings",
+    "name": "Ratlings",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "sanctifiers",
+    "name": "Sanctifiers",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "scout_squat",
+    "name": "Scout Squat",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "INFILTRATION",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "tempestus_aquilon",
+    "name": "Tempestus Aquilons",
+    "alliance": "IMPERIUM",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "wolf_scout",
+    "name": "Wolf Scouts",
+    "alliance": "IMPERIUM",
+    "type": "ELITE",
+    "difficulty": "Easy",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  }
+]

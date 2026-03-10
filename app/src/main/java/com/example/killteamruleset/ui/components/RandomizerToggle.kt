@@ -5,6 +5,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
@@ -24,13 +25,27 @@ fun RandomizerToggle(
     modifier: Modifier = Modifier,
     onClick: () -> Unit
 ) {
+
+    val backgroundColor =
+        if (selected)
+            Color(0xFFFF6A00)   // orange
+        else
+            Color.Black
+
+    val textColor =
+        if (selected)
+            Color.Black
+        else
+            Color.White
+
     Card(
         modifier = modifier
             .height(40.dp)
             .clickable { onClick() },
         colors = CardDefaults.cardColors(
-            containerColor = Color.Black
-        )
+            containerColor = backgroundColor
+        ),
+        shape = RoundedCornerShape(8.dp)
     ) {
         Box(
             modifier = Modifier.fillMaxSize(),
@@ -38,9 +53,8 @@ fun RandomizerToggle(
         ) {
             Text(
                 text = label.uppercase(),
-                color = Color.White,
-                fontWeight = FontWeight.Bold,
-
+                color = textColor,
+                fontWeight = FontWeight.Bold
             )
         }
     }

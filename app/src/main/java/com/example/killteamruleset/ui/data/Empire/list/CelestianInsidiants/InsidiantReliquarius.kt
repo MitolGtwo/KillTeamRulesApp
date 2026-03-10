@@ -56,8 +56,6 @@ val InsidiatReliquarius: Operative
                 hit = "3+",
                 damage = "2/3",
                 keywords = listOf(
-                    Lethal(5),
-                    Brutal
                 )
            )
         ),

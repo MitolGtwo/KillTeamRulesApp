@@ -337,7 +337,7 @@ object TeamRepository {
         ),
         Team(
             id = "nemesis_claw",
-            name = "Nemesis_Claw",
+            name = "Nemesis Claw",
             alliance = Alliance.CHAOS,
             type = TeamType.ELITE,
             difficulty = "Medium",

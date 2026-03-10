@@ -4,6 +4,7 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.Equipment
+import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Poison
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Saturate
@@ -777,6 +778,118 @@ object EquipmentRepository {
             )
         ),
 
+
+
+        "hand_ofthe_archon" to listOf(
+
+            Equipment(
+                id = "hand_chain_snare",
+                name = "CHAIN SNARE",
+                lore =R.string.hand_chain_snare_lore,
+                description = R.string.hand_chain_snare_description
+            ),
+            Equipment(
+                id = "hand_wicked_blades",
+                name = "WICKED BLADES",
+                lore =R.string.hand_wicked_blades_lore,
+                description = R.string.hand_wicked_blades_description
+            ),
+            Equipment(
+                id = "toxin_coating",
+                name = "TOXIN COATING",
+                lore =R.string.toxin_coating_lore,
+                description = R.string.toxin_coating_description
+            ),
+            Equipment(
+                id = "refined_poison",
+                name = "REFINED POISON",
+                lore =R.string.refined_poison_lore,
+                description = R.string.refined_poison_description
+            )
+        ),
+
+
+
+        "hearthkyn_salvager" to listOf(
+
+            Equipment(
+                id = "plasma_knives",
+                name = "PLASMA KNIVES",
+                lore =R.string.plasma_knives_lore,
+                description = R.string.plasma_knives_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Plasma Knife",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/5",
+                        keywords = listOf(
+                            Lethal(5)
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "climbing_rigs",
+                name = "CLIMBING RIGS",
+                lore =R.string.climbing_rigs_lore,
+                description = R.string.climbing_rigs_description
+            ),
+            Equipment(
+                id = "excavation_tools",
+                name = "EXCAVATION TOOLS",
+                lore =R.string.excavation_tools_lore,
+                description = R.string.excavation_tools_description
+            ),
+            Equipment(
+                id = "writ_of_claim",
+                name = "WRIT OF CLAIM",
+                lore =R.string.writ_of_claim_lore,
+                description = R.string.writ_of_claim_description
+            )
+        ),
+
+
+        "hernkyn_yaegirs" to listOf(
+
+            Equipment(
+                id = "yaegirs_plasma_knives",
+                name = "PLASMA KNIVES",
+                lore =R.string.yaegirs_plasma_knives_lore,
+                description = R.string.yaegirs_plasma_knives_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Plasma Knife",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/5",
+                        keywords = listOf(
+                            Lethal(5)
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "yaegirs_bolt_shells",
+                name = "STABILISED BOLT SHELLS",
+                lore =R.string.yaegirs_bolt_shells_lore,
+                description = R.string.yaegirs_bolt_shells_description
+            ),
+            Equipment(
+                id = "firestorm_bolt_shells",
+                name = "FIRESTORM BOLT SHELLS",
+                lore =R.string.firestorm_bolt_shells_lore,
+                description = R.string.firestorm_bolt_shells_description
+            ),
+            Equipment(
+                id = "kv_ceramide_undersuit",
+                name = "KV-CERAMIDE UNDERSUIT",
+                lore =R.string.kv_ceramide_undersuit_lore,
+                description = R.string.kv_ceramide_undersuit_description
+            )
+        ),
 
 
         "wrecka_krew" to listOf(

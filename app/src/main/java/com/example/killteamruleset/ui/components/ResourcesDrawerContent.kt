@@ -4,6 +4,7 @@ import android.app.Activity
 import com.example.killteamruleset.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Divider
 import androidx.compose.material3.DrawerState
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.Icon
@@ -25,6 +27,7 @@ import androidx.compose.material3.rememberDrawerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -39,7 +42,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.killteamruleset.ui.localization.LocaleUtils
-import com.example.killteamruleset.ui.localization.setAppLocale
+import com.example.killteamruleset.ui.util.LocaleManager
 import com.example.killteamruleset.ui.model.AppLanguage
 import com.example.killteamruleset.ui.model.ResourceMenuItem
 import com.example.killteamruleset.ui.navigation.AppNavigation
@@ -52,8 +55,9 @@ fun ResourcesDrawerContent(
 ) {
     val context = LocalContext.current
 
-    // 🔁 THIS makes Compose re-read after recreation
-    val currentLang = LocaleUtils.getSavedLanguage(context)
+    var currentLang by remember {
+        mutableStateOf(LocaleUtils.getSavedLanguage(context))
+    }
 
     val flagRes = if (currentLang == "es")
         R.drawable.colombia_flag
@@ -88,50 +92,62 @@ fun ResourcesDrawerContent(
         )
 
         items.forEach { item ->
-            if (item.id == "language") {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { onItemClick(item) }
+                    .padding(vertical = 12.dp)
+            ) {
+
+                Divider(
+                    color = Color.White.copy(alpha = 0.25f),
+                    thickness = 1.dp
+                )
+
                 Row(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clickable { onItemClick(item) }
-                        .padding(vertical = 12.dp),
+                        .padding(vertical = 10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    Icon(
-                        painter = painterResource(flagRes),
-                        contentDescription = null,
-                        tint = Color.Unspecified,
-                        modifier = Modifier.size(20.dp)
-                    )
 
-                    Spacer(Modifier.width(8.dp))
+                    if (item.id == "language") {
 
-                    Text(
-                        color = Color.White,
-                        text = stringResource(R.string.language),
-                        style = MaterialTheme.typography.bodyLarge
-                    )
+                        Icon(
+                            painter = painterResource(flagRes),
+                            contentDescription = null,
+                            tint = Color.Unspecified,
+                            modifier = Modifier.size(20.dp)
+                        )
+
+                        Spacer(Modifier.width(10.dp))
+
+                        Text(
+                            text = stringResource(R.string.language),
+                            color = Color.White,
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+
+                    } else {
+
+                        Text(
+                            text = item.title,
+                            color = Color.White,
+                            style = MaterialTheme.typography.bodyLarge
+                        )
+                    }
                 }
-            } else {
-                Text(
-                    text = item.title,
-                    color = Color.White ,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 12.dp)
-                        .clickable { onItemClick(item) },
-                    style = MaterialTheme.typography.bodyLarge
-                )
             }
         }
     }
-}
+    }
 
 @Composable
 fun MainScaffold(navController: NavHostController) {
     val drawerState = rememberDrawerState(DrawerValue.Closed)
     val scope = rememberCoroutineScope()
     val context = LocalContext.current
-    var isSpanish by rememberSaveable { mutableStateOf(false) }
+
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -153,12 +169,11 @@ fun MainScaffold(navController: NavHostController) {
                             val next = if (current == "es") "en" else "es"
 
                             LocaleUtils.saveLanguage(context, next)
-                            setAppLocale(context, next)
 
-                            // 🔁 Recreate ONLY HERE
-                            (context as Activity).recreate()
-
-
+                            LocaleManager.setLocale(
+                                context = context,
+                                languageCode = next
+                            )
                         }
                     }
                 }

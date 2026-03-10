@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Hand of the Archon-->
+
+    <string name="hand_cunning_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="hand_cunning_description"><![CDATA[
+In the Gambit step of each Strategy phase, if this operative is in the killzone and you pass at the first opportunity, you gain
+1CP. Ignore each STRATEGIC GAMBIT from the mission pack (if any) when determining this.
+    ]]></string>
+
+    <string name="tortorous_vision_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="tortorous_vision_description"><![CDATA[
+Once during each of this operatives activations, if it does not have any of your Pain tokens when it
+performs either the **Fight** or **Shoot** action, it can gain one of
+your Pain tokens when you select a valid target or an enemy operative to fight against.
+    ]]></string>
+
+    <string name="sadistic_competition_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="sadistic_competition_description"><![CDATA[
+Once per turning point, when a friendly **HAND OF THE ARCHON** operative gains one of your Pain
+tokens, one friendly **HAND OF THE ARCHON AGENT**
+operative that does not have one of your Pain tokens can also gain one.
+    ]]></string>
+
+    <string name="brutal_display_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="brutal_display_description"><![CDATA[
+Once per turning point, when this operative incapacitates an enemy operative within its control range, you can select
+one other enemy operative visible to and within 6\" of either this operative or the incapacitated enemy operative. Until the start of the
+next turning point, that other enemy operative cannot control markers or perform the **Pick Up Marker** or mission actions.
+    ]]></string>
+
+
+    <string name="crimson_duellist_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="crimson_duellist_description"><![CDATA[
+This operative can perform two **Fight** actions during its activation.
+    ]]></string>
+
+    <string name="tangle_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="tangle_description"><![CDATA[
+Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two
+unresolved successes (instead of one).
+    ]]></string>
+
+
+    <string name="stinger_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="stinger_description"><![CDATA[
+Whenever an enemy operative is incapacitated by this weapon, before it is removed from the killzone,
+inflict D3 damage on each other operative visible to and within 2\" of it (roll separately for each).
+Each operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.
+    ]]></string>
+
+    <string name="torment_grenade_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="torment_grenade_description"><![CDATA[
+Select one enemy operative visible to and within 6\" of this
+operative. That operative and each other operative within 1\" of it takes a poison test.\n
+\n
+-For an operative to take a poison test, roll one D6, adding 1
+to the result if that operative has a Save stat of 4+ or worse:
+on a 3+, inflict D3 damage on that operative and it gains
+one of your Poison tokens (if it does not already have one).
+Whenever an operative that has one of your Poison tokens is
+activated, inflict D3 damage on it.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="combat_drugs_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="combat_drugs_description"><![CDATA[
+At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following
+**COMBAT DRUG** rules for friendly **HAND OF THE ARCHON** operatives to have for the battle:\n
+\n
+• **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that
+inflicted damage.\n
+\n
+• **Adrenalight:** In the Ready step of each Strategy phase, you can select one friendly operative that has this **COMBAT DRUG** to gain
+one of your Pain tokens.\n
+\n
+• **Hypex:** You can ignore any changes to this operatives Move stat from being injured.
+    ]]></string>
+
+    <string name="administre_drugs_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="administre_drugs_description"><![CDATA[
+Select one friendly **HAND OF THE ARCHON** operative
+visible to and within 3\" of this operative, then select one of
+the following for that friendly operative:\n
+\n
+• It regains up to 2D3 lost wounds.\n
+\n
+• Select a different **COMBAT DRUG** rule for it to have for the battle (this replaces its previous one)\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="insensible_to_pain_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="insensible_to_pain_description"><![CDATA[
+Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative.
+    ]]></string>
+
+    <string name="hand_flay_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="hand_flay_description"><![CDATA[
+Whenever this operative is using this weapon, the first
+time you strike with a critical success during that sequence, you
+can select one friendly **HAND OF THE ARCHON** operative
+within 6\" of it to gain one of your Pain tokens.
+    ]]></string>
+
+    <string name="merciless_hunter_usage"><![CDATA[
+              Passive
+    ]]></string>
+
+    <string name="merciless_hunter_description"><![CDATA[
+If this operative does not perform the Mark unique action (see other side of card) during its activation,
+it can perform two **Shoot** actions during its activation, but a razorwing
+must be selected for one (and only one) of those actions.
+    ]]></string>
+
+    <string name="omen_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="omen_description"><![CDATA[
+In the Select Operatives step, when you are selecting
+equipment, you can select one enemy operative or one other
+friendly **HAND OF THE ARCHON** operative (reveal your
+selection when you reveal equipment). Whenever attack or
+defence dice are rolled for that operative:\n
+\n
+• If it is an enemy operative, your opponent must re-roll their
+dice results of 6.\n
+\n
+• If it is a friendly operative, you can re-roll any of your dice
+results of 1.
+    ]]></string>
+
+    <string name="hand_mark_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="hand_mark_description"><![CDATA[
+Select one enemy operative visible to this operative. Until the
+end of the turning point, whenever this operative is shooting
+that enemy operative you can use this effect. If you do:\n
+\n
+• This operatives ranged weapons have the Seek Light
+weapon rule.\n
+\n
+• That enemy operative cannot be obscured.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="power_from_pain_lore"><![CDATA[
+The Drukhari feed on the souls of their slain and
+tortured victims, drawing sustenance from the terrible
+agonies they inflict.
+]]></string>
+
+    <string name="power_from_pain_description"><![CDATA[
+After a friendly **HAND OF THE ARCHON** operative
+performs an action, it gains one of your Pain tokens if:\n
+\n
+• An enemy operative was injured during that action, but was not incapacitated.\n
+\n
+• An enemy operative was incapacitated during that action. If that enemy operative had a
+Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n
+\n
+You can spend friendly operatives Pain tokens on invigorations when the \‘when\’ condition is met.
+You cannot use more than one invigoration per activation or counteraction, except Stimulated
+Senses, which can be used once per activation or counteraction in addition to another invigoration.
+]]></string>
+
+
+    <string name="invigorations_description"><![CDATA[
+**Dark Animus**\n
+\n
+**When:** During the operatives activation, before or after it performs an action.\n
+\n
+**Effect:** Until the start of the operatives next activation, add 1 to its APL stat.\n
+\n
+**Accelerated Rejuvenation**\n
+\n
+**When:** During the operatives activation or counteraction, before or after it performs an action.\n
+\n
+**Effect:** The operative regains up to D3+1 lost wounds.\n
+\n
+**Vitalised Surge**\n
+\n
+**When:** After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n
+\n
+**Effect:** The operative can immediately perform a
+free **Dash** action, even if it is performed an action that prevents it from performing the **Dash** action\n
+\n
+**Stimulated Senses**\n
+\n
+**When:** After rolling your attack or defence dice for the operative.\n
+\n
+**Effect:** You can re-roll any of your dice results of one result (e.g. results of 2).
+]]></string>
+
+    <string name="hand_rifle_lore"><![CDATA[
+The long-barrelled splinter rifles carried by Kabalite
+Warriors are incredibly accurate in the hands of a skilled user.
+]]></string>
+
+    <string name="hand_rifle_description"><![CDATA[
+Whenever a friendly **HAND OF THE ARCHON** operative is shooting with a splinter rifle during
+an activation in which it has not performed the **Charge, Fall Back** or **Reposition** action, that
+weapon has the Accurate 1 weapon rule. Note that operative is not restricted from performing
+those actions after shooting.
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="hand_chain_snare_lore"><![CDATA[
+Composed of hooked blades attached to a length of
+chain, this weapon bites into the flesh or armour of the
+wielder’s target, preventing them from fleeing.
+]]></string>
+
+    <string name="hand_chain_snare_description"><![CDATA[
+Whenever an enemy operative would perform the **Fall Back** action while within control range of a
+friendly **HAND OF THE ARCHON** operative, if no other enemy operatives are within that friendly
+operatives control range, you can use this rule. If you do, roll two D6, or one D6 if that enemy
+operative has a higher Wounds stat than that friendly operative. If any result is a 4+, that enemy
+operative cannot perform that action during that activation/counteraction (no AP are spent on it),
+and you cannot use this rule again during this turning point.
+]]></string>
+
+    <string name="hand_wicked_blades_lore"><![CDATA[
+Light yet deadly, the jagged edge of this blade has been
+crafted to ensure maximum agony as it is plunged into the flesh of a victim.
+]]></string>
+
+    <string name="hand_wicked_blades_description"><![CDATA[
+Add 1 to the Atk stat of friendly **HAND OF THE ARCHON** operatives array of blades.
+]]></string>
+
+    <string name="toxin_coating_lore"><![CDATA[
+Drukhari raiders are known to coat their blades in
+venom, ensuring that even the slightest nick of blade against flesh is fatal.
+]]></string>
+
+    <string name="toxin_coating_description"><![CDATA[
+Up to twice per turning point, whenever a friendly
+**HAND OF THE ARCHON** operative is fighting or
+retaliating and you are selecting a melee weapon,
+you can use this rule. If you do, until the end of
+that sequence, that operatives melee weapon has the Lethal 5+ weapon rule.
+]]></string>
+
+    <string name="refined_poison_lore"><![CDATA[
+Splinter rounds are infused with exquisitely lethal
+concoctions distilled from the potent venoms and toxins of deadly flora and fauna.
+]]></string>
+
+    <string name="refined_poison_description"><![CDATA[
+Up to twice per turning point, whenever a friendly **HAND OF THE ARCHON** operative is performing
+the **Shoot** action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or
+stinger pistol, you can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="blade_artists_lore"><![CDATA[
+The Drukhari have made a macabre art form of melee
+combat, slaughtering their victims with flensing strikes and heart-piercing thrusts
+]]></string>
+
+    <string name="blade_artists_description"><![CDATA[
+Friendly **HAND OF THE ARCHON** operatives melee weapons have the Rending weapon rule.
+]]></string>
+
+    <string name="merciless_sadists_lore"><![CDATA[
+The Drukhari are sustained by the agony of others and
+are devoid of pity. There is no act of depraved torture to which they will not stoop
+]]></string>
+
+    <string name="merciless_sadists_description"><![CDATA[
+Whenever a friendly **HAND OF THE ARCHON** operative is shooting against or fighting against
+a wounded enemy operative, that friendly operatives weapons have the Balanced weapon rule.
+]]></string>
+
+    <string name="from_darkness_death_lore"><![CDATA[
+Honour is an alien concept to the Drukhari. They
+make use of distraction and misdirection to butcher unsuspecting foes from the shadows.
+]]></string>
+
+    <string name="from_darkness_death_description"><![CDATA[
+Whenever a friendly **HAND OF THE ARCHON** operative is activated, before you determine its
+order, you can select one enemy operative that friendly operative is not a valid target for. Until the
+end of that activation, the first time that friendly operative is shooting against or fighting against
+that enemy operative, you can retain one of your normal successes as a critical success instead.
+]]></string>
+
+    <string name="denizens_of_night_lore"><![CDATA[
+Hailing from Commorragh – the Dark City – the Drukhari
+are born and raised in shadow, and use it to conceal their movements.
+]]></string>
+
+    <string name="denizens_of_night_description"><![CDATA[
+Whenever an enemy operative is shooting a friendly **HAND OF THE ARCHON** operative that is
+more than 2\" from enemy operatives, if Heavy or Light terrain is intervening, or any part of that
+friendly operatives base is underneath Vantage terrain, you can re-roll one of your defence dice.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="cruel_deception_lore"><![CDATA[
+The denizens of the Dark City are well versed in deceit
+and betrayal. In battle, they put these talents to good
+use, hitting their foes hard before melting away into the shadows.
+]]></string>
+
+    <string name="cruel_deception_description"><![CDATA[
+Use this firefight ploy during a friendly **HAND OF THE ARCHON** operatives activation, before or
+after it performs an action. During that activation,
+that operative can perform the **Fall Back** action for 1 less AP.
+]]></string>
+
+    <string name="devious_scheme_lore"><![CDATA[
+Schemers all, the Drukhari are used to staying one
+step ahead of their opponents and confounding their every move.
+]]></string>
+
+    <string name="devious_scheme_description"><![CDATA[
+Use this firefight ploy after an opponent uses a firefight ploy (excluding one that costs 0CP). The
+next time they would use that ploy, they must spend 1 additional CP to do so (at which point
+this effect ends). You cannot use this ploy again during the battle until its effect has ended.
+]]></string>
+
+    <string name="heinous_arrogance_lore"><![CDATA[
+To the conceited Drukhari, all opponents are little more
+than vermin – to be ignored or exterminated.
+]]></string>
+
+    <string name="heinous_arrogance_description"><![CDATA[
+Use this firefight ploy when it is your turn to
+activate a friendly operative. You can skip that activation
+]]></string>
+
+    <string name="prey_on_the_wounded_lore"><![CDATA[
+Drukhari are drawn to agony, seeking out the injured to land a killing blow.
+]]></string>
+
+    <string name="prey_on_the_wounded_description"><![CDATA[
+Use this firefight ploy after rolling your attack dice for a friendly **HAND OF THE ARCHON** operative,
+if it is shooting against or fighting against a
+wounded enemy operative. You can re-roll any of your attack dice.
+]]></string>
+
+</resources>

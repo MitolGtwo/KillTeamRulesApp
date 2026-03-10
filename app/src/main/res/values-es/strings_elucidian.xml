@@ -180,8 +180,9 @@ and cannot be incapacitated for the remainder of the action.
 After that action, that friendly operative can immediately
 perform a free **Dash** action, but must end that move within
 this operatives control range.\nIf this rule was used during that
-friendly operatives activation, that activation ends. You cannot
-use this rule if this operative is incapacitated, or if its a **Shoot**
+friendly operatives activation, that activation ends.\n
+\n
+You cannot use this rule if this operative is incapacitated, or if its a **Shoot**
 action and this operative would be a primary or secondary target.
 ]]></string>
 

@@ -1488,6 +1488,199 @@ object PloyRepository {
 
 
 
+        "hand_ofthe_archon" to listOf(
+            // ── Hand of the Archon STRATEGY ──
+            Ploy(
+                id = "blade_artists",
+                name ="BLADE ARTISTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.blade_artists_lore,
+                description = R.string.blade_artists_description
+            ),
+            Ploy(
+                id = "merciless_sadists",
+                name = "MERCILESS SADISTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.merciless_sadists_lore,
+                description = R.string.merciless_sadists_description
+            ),
+            Ploy(
+                id = "from_darkness_death",
+                name = "FROM DARKNESS, DEATH",
+                type = PloyType.STRATEGY,
+                lore = R.string.from_darkness_death_lore,
+                description = R.string.from_darkness_death_description
+            ),
+            Ploy(
+                id = "denizens_of_night",
+                name = "DENIZENS OF NIGHT",
+                type = PloyType.STRATEGY,
+                lore = R.string.denizens_of_night_lore,
+                description = R.string.denizens_of_night_description
+            ),
+
+
+            // ── Hand of the Archon FIREFIGHT ──
+            Ploy(
+                id = "cruel_deception",
+                name = "CRUEL DECEPTION",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.cruel_deception_lore,
+                description = R.string.cruel_deception_description
+            ),
+            Ploy(
+                id = "devious_scheme",
+                name = "DEVIOUS SCHEME",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.devious_scheme_lore,
+                description = R.string.devious_scheme_description
+            ),
+            Ploy(
+                id = "heinous_arrogance",
+                name = "HEINOUS ARROGANCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.heinous_arrogance_lore,
+                description = R.string.heinous_arrogance_description
+            ),
+            Ploy(
+                id = "prey_on_the_wounded",
+                name = "PREY ON THE WOUNDED",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.prey_on_the_wounded_lore,
+                description = R.string.prey_on_the_wounded_description
+            )
+        ),
+
+
+
+        "hearthkyn_salvager" to listOf(
+            // ── Savagers STRATEGY ──
+            Ploy(
+                id = "need_keeps",
+                name ="NEED KEEPS",
+                type = PloyType.STRATEGY,
+                lore = R.string.need_keeps_lore,
+                description = R.string.need_keeps_description
+            ),
+            Ploy(
+                id = "toil_earns",
+                name = "TOIL EARNS",
+                type = PloyType.STRATEGY,
+                lore = R.string.toil_earns_lore,
+                description = R.string.toil_earns_description
+            ),
+            Ploy(
+                id = "wrought_defence",
+                name = "WROUGHT DEFENCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.wrought_defence_lore,
+                description = R.string.wrought_defence_description
+            ),
+            Ploy(
+                id = "proximate_firepower",
+                name = "PROXIMATE FIREPOWER",
+                type = PloyType.STRATEGY,
+                lore = R.string.proximate_firepower_lore,
+                description = R.string.proximate_firepower_description
+            ),
+
+
+            // ── Savagers FIREFIGHT ──
+            Ploy(
+                id = "the_ancestors_are_watching",
+                name = "THE ANCESTORS ARE WATCHING",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.the_ancestors_are_watching_lore,
+                description = R.string.the_ancestors_are_watching_description
+            ),
+            Ploy(
+                id = "worth_it",
+                name = "WORTH IT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.worth_it_lore,
+                description = R.string.worth_it_description
+            ),
+            Ploy(
+                id = "salvagers_sturdy",
+                name = "STURDY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.salvagers_sturdy_lore,
+                description = R.string.salvagers_sturdy_description
+            ),
+            Ploy(
+                id = "engage_to_acquire",
+                name = "ENGAGE TO ACQUIRE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.engage_to_acquire_lore,
+                description = R.string.engage_to_acquire_description
+            )
+        ),
+
+
+        "hernkyn_yaegirs" to listOf(
+            // ── Yaegirs STRATEGY ──
+            Ploy(
+                id = "hidden_engagement",
+                name ="HIDDEN ENGAGEMENT",
+                type = PloyType.STRATEGY,
+                lore = R.string.hidden_engagement_lore,
+                description = R.string.hidden_engagement_description
+            ),
+            Ploy(
+                id = "yaegir_masterbladework",
+                name = "MASTERFUL BLADEWORK",
+                type = PloyType.STRATEGY,
+                lore = R.string.yaegir_masterbladework_lore,
+                description = R.string.yaegir_masterbladework_description
+            ),
+            Ploy(
+                id = "tough_survivalists",
+                name = "TOUGH SURVIVALISTS",
+                type = PloyType.STRATEGY,
+                lore = R.string.tough_survivalists_lore,
+                description = R.string.tough_survivalists_description
+            ),
+            Ploy(
+                id = "yaegir_in_position",
+                name = "IN POSITION",
+                type = PloyType.STRATEGY,
+                lore = R.string.yaegir_in_position_lore,
+                description = R.string.yaegir_in_position_description
+            ),
+
+
+            // ── Yaegirs FIREFIGHT ──
+            Ploy(
+                id = "yaegir_sturdy",
+                name = "STURDY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.yaegir_sturdy_lore,
+                description = R.string.yaegir_sturdy_description
+            ),
+            Ploy(
+                id = "bonds_that_bind",
+                name = "BONDS THAT BIND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.bonds_that_bind_lore,
+                description = R.string.bonds_that_bind_description
+            ),
+            Ploy(
+                id = "no_kin_behind",
+                name = "NO KIN LEFT BEHIND",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.no_kin_behind_lore,
+                description = R.string.no_kin_behind_description
+            ),
+            Ploy(
+                id = "engage_to_acquire",
+                name = "ENGAGE TO ACQUIRE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.engage_to_acquire_lore,
+                description = R.string.engage_to_acquire_description
+            )
+        ),
+
+
         "wrecka_krew" to listOf(
             // ── WRECKAS STRATEGY ──
             Ploy(

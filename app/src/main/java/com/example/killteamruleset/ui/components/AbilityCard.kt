@@ -48,8 +48,9 @@ fun AbilityCard(
             ability.usage?.let {
                 Text(
                     text = stringResource(it),
-                    style = MaterialTheme.typography.labelSmall,
-                    color = MaterialTheme.colorScheme.primary
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold
                 )
             }
 

@@ -6,5 +6,6 @@ data class Operative(
     val stats: OperativeStats,
     val weapons: List<WeaponProfile>,
     val abilities: List<Ability>,
+    val portraitRes: Int? = null,
     val keywords: List<String>
 )

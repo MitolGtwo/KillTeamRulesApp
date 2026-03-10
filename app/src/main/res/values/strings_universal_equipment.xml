@@ -11,11 +11,11 @@
 A portable barricade is light cover, Protective and Portable terrain,
 except the feet which are Insignificant and Exposed. Before the battle,
 you can set it up wholly within your territory, on the killzone floor and more
-than 2" from other equipment terrain features, access points and Accessible terrain.\n
-\n
+than 2" from other equipment terrain features, access points and Accessible terrain.
+
 **Protective:**While an Operative is in cover from this terrain feature, improve
-its Save stat by 1 (to a Maximum of 2+).\n
-\n
+its Save stat by 1 (to a Maximum of 2+).
+
 **Portable:**This terrain feature only provides cover while an Operative is connected
 to it and if the shield is intervening (ignore its feet).\n
 Operatives connected to the inside of it can perform the following unique action during the battle.
@@ -31,8 +31,8 @@ Operatives connected to the inside of it can perform the following unique action
         <![CDATA[
         The same as **Reposition** action, except the active Operative can move
          no more than its Move stat minus 2\" and cannot climb, drop, jump, or use any
-         kill teams rules that remove it and set it back up again (Ex Fly, Teleportation).\n
-
+         kill teams rules that remove it and set it back up again (Ex Fly, Teleportation).
+\n
         Before this operative moves, remove the portable barricade its connected to.
          After it moves, set up the portable barricade so its connected again, but
          the portable barricade cannot be set up within 2\" of other equipment terrain
@@ -81,7 +81,7 @@ Operatives connected to the inside of it can perform the following unique action
     <string name="smoke_grenade_ability_description">
         <![CDATA[
 Place one of your Smoke Grenade markers within 6\" of this Operative.\n
-
+\n
 It must be visible to this Operative, or on Vantage terrain of a terrain feature
 thats visible to this Operative. The marker creates an area of smoke 1\"
 horizontally and unlimited height vertically from (but not below) it.\n
@@ -91,7 +91,7 @@ more than 2\" from it, and vice versa. In addition, whenever an Operative is
 shooting an enemy Operative wholly within an area of smoke, weapons with the
 Piercing 2 or Piercing Crits 2 weapon rule will have Piercing 1
 or Piercing Crits 1 instead, unless they are within 2\" of each other.\n
-
+\n
 In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke
 Grenade marker after a number of activations equal to the result have been
 completed or at the end of the turning point (whichever comes first).
@@ -122,7 +122,7 @@ can perform it.
     <string name="stun_grenade_ability_description">
         <![CDATA[
         Select one enemy Operative visible and within 6\" of this Operative. \n
-        }
+
         That operative and each other Operative within 1\" of it takes a stun test.
          For an Operative to take a stun test, roll one D6: on a 3+, subtract 1 from
          its APL stat until the end of its next activation.
@@ -171,7 +171,7 @@ An operative cannot perform this action while within control range of an
         Razor wire is Exposed and Obstructing terrain. Before the battle, you can
                      set it up wholly within your territory, on the killzone floor and more than 2\"
                      from other equipment terrain features, access points and Accessible terrain.\n
-
+\n
                    **Obstructing:** Whenever an Operative would cross over this terrain feature
                      within 1\" of it, treat the distance as an additional 1\".
 ]]>
@@ -185,8 +185,9 @@ An operative cannot perform this action while within control range of an
         <![CDATA[Before the battle, you can set up one of your Comms Device markers wholly
                      within your territory. While a friendly operative controls this marker, add 3\"
                      to the distance requirements of its **SUPPORT** rules that refer to friendly
-                     Operatives, improving the distance. Note that you cannot benefit from your
-                     opponents Comms Device markers.
+                     Operatives, improving the distance.\n
+                     \n
+                     Note that you cannot benefit from your opponents Comms Device markers.
 ]]>
     </string>
 
@@ -202,16 +203,12 @@ An operative cannot perform this action while within control range of an
                      range, remove that marker and inflict D3+3 damage on that Operative.]]>
     </string>
 
-    <string name="light_barricades">
-        2X LIGHT BARRICADES
-    </string>
+
     <string name="light_barricades_description">
         <![CDATA[
-        Light barricades are Light terrain, except the feet, which are Insignificant
-                     and Exposed. \n
-                     Before the battle, you can set up one of your Light Barricades wholly
-                     within your territory and more than 2\n" from other markers, access points and
-                     Accessible terrain.
+Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. \n
+Before the battle, you can set up one of your Light Barricades wholly
+within your territory and more than 2\" from other markers, access points and Accessible terrain.
 ]]>
     </string>
 
@@ -220,10 +217,9 @@ An operative cannot perform this action while within control range of an
     </string>
     <string name="heavy_barricade_description">
         <![CDATA[
-        A heavy barricade is Heavy terrain.\n
-         Before the battle, you can set it up"
-                     wholly within 4\" of your drop zone, on the kill zone floor and more than 2\"
-                    from other markers, access points and Accessible terrain.
+A heavy barricade is Heavy terrain.\n
+Before the battle, you can set it up wholly within 4\" of your drop zone, on the kill zone floor and more than 2\"
+from other markers, access points and Accessible terrain.
 ]]>
     </string>
 

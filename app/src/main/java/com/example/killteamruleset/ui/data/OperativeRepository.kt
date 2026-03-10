@@ -33,6 +33,9 @@ import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperatives
 import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperatives
 import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperatives
 import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOperatives
+import com.example.killteamruleset.ui.data.Xenos.HandOfTheArchon.HandOperatives
+import com.example.killteamruleset.ui.data.Xenos.HearthkynSalvagers.SalvagersOperatives
+import com.example.killteamruleset.ui.data.Xenos.HernkynYaegirs.YaegirsOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -57,6 +60,9 @@ object OperativeRepository {
             "goremongers" -> GoremongersOperatives
             "elucidian_star" -> ElucidianOperatives
             "exaction_squad" -> ExactionOperatives
+            "hand_ofthe_archon" -> HandOperatives
+            "hearthkyn_salvager" -> SalvagersOperatives
+            "hernkyn_yaegirs" -> YaegirsOperatives
             "hunter_clade" -> HunterCladeOperatives
             "imperial_navy_breachers" -> NavybreachersOperatives
             "inquisitorial_agents" -> InquisitorialOperatives

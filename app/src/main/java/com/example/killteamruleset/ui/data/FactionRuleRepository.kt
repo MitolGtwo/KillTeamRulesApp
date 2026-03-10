@@ -395,11 +395,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "kasrkin_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.karskin_tokens
             ),
 
             ),
@@ -800,6 +800,82 @@ object FactionRuleRepository {
                 lore = null,
                 ruleText = null,
                 imageRes = R.drawable.farstalker_token
+            ),
+        ),
+
+
+        "hand_ofthe_archon" to listOf(
+            FactionRule(
+                id = "power_from_pain",
+                title = "POWER FROM PAIN",
+                lore = R.string.power_from_pain_lore,
+                ruleText = R.string.power_from_pain_description,
+
+                ),
+            FactionRule(
+                id = "invigorations",
+                title = "INVIGORATIONS",
+                lore = null,
+                ruleText = R.string.invigorations_description,
+
+                ),
+            FactionRule(
+                id = "hand_rifle",
+                title = "RIFLES",
+                lore = R.string.hand_rifle_lore,
+                ruleText = R.string.hand_rifle_description,
+
+                ),
+            FactionRule(
+                id = "hand_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.hand_tokens
+            ),
+        ),
+
+
+
+        "hearthkyn_salvager" to listOf(
+            FactionRule(
+                id = "grudge",
+                title = "GRUDGE",
+                lore = R.string.grudge_lore,
+                ruleText = R.string.grudge_description,
+
+                ),
+            FactionRule(
+                id = "salvagers_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.salvagers_tokens
+            ),
+        ),
+
+        "hernkyn_yaegirs" to listOf(
+            FactionRule(
+                id = "resourceful",
+                title = "RESOURCEFUL",
+                lore = R.string.resourceful_lore,
+                ruleText = R.string.resourceful_description,
+                imageRes = R.drawable.resource_points
+
+                ),
+            FactionRule(
+                id = "dauntless_explorers",
+                title = "DAUNTLESS EXPLORERS",
+                lore = R.string.dauntless_explorers_lore,
+                ruleText = R.string.dauntless_explorers_description,
+
+                ),
+            FactionRule(
+                id = "yaegirs_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.yaegirs_token
             ),
         ),
 

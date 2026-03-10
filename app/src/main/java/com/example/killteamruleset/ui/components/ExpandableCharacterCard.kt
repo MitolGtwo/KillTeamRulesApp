@@ -17,9 +17,10 @@ import com.example.killteamruleset.ui.model.Operative
 @Composable
 fun ExpandableCharacterCard(
     operative: Operative,
+    alwaysExpanded: Boolean = false,
     onKeywordClick: (KeywordInfo) -> Unit
 ) {
-    var expanded by remember { mutableStateOf(false) }
+    var expanded by remember { mutableStateOf(alwaysExpanded) }
 
     Card(
         modifier = Modifier.fillMaxWidth(),

@@ -23,7 +23,7 @@ Siempre que este Operativo esté combatiendo o retaleando con este perfil, cada 
     <string name="holy_defender_description"><![CDATA[
 Una vez por turno, cuando un Operativo **CELESTIAN INSIDIANT** aliado visible y a 2\" de este Operativo es seleccionado como objetivo válido para una acción de
 **Disparo** o como objetivo de una acción de **Combate** , puedes usar esta regla. Si lo haces, este Operativo se vuelve objetivo válido o es el objetivo del combate en
-su lugar (incluso si normalmente no sería posible). Si una acción de **Combate**, trata este Operativo como estando dentro del rango de control del Operativo enemigo. Si es
+su lugar (incluso si normalmente no sería posible). Si es una acción de **Combate**, trata este Operativo como estando dentro del rango de control del Operativo enemigo. Si es
 una acción de **Disparo**, este Operativo tiene Obscure o Cover si el objetivo original lo estaba.\n
 \n
 Esta regla no tiene efecto si la acción de **Disparo** tiene la regla Blast o Torrent.
@@ -62,8 +62,6 @@ Este Operativo no puede hacer esta acción mientras esté en rango de control co
     <string name="virge_admonition_icon_bearer_description"><![CDATA[
 Siempre que determines el control sobre un marcador, trata el APL de este Operativo si tuviera 1 más. Esto no es un cambio de APL, así que cualquier cambio es 
         acumulable con esto.
-with this
-
 ]]></string>
 
 
@@ -74,7 +72,7 @@ with this
 
     <string name="null_field_description"><![CDATA[
 Este Operativo empieza la batalla con un área de efecto de su Null Field de 1\". Siempre que un Operativo enemigo esté dentro de este rango,
-Subtrae 2 al Stat de movimiento de esos Operativos enemigos y empeora su Hit stat por 1 (Esto no es acumulable con estar herido).
+Sustrae 2\" al Stat de movimiento de esos Operativos enemigos y empeora su Hit stat por 1 (Esto no es acumulable con estar herido).
         
     ]]></string>
 
@@ -133,7 +131,9 @@ Cuando este Operativo está **INSPIRING**, la strategy ploy Suspect & Eliminate 
     <string name="speak_of_her_deeds_description"><![CDATA[
 **SUPPORT.** Selecciona un Operativo aliado con **INSPIRING** visible y a 6\" de este Operativo. Ese Operativo deja de tener **INSPIRING**. Despues
 , selecciona otro Operativo **CELESTIAN INSIDIANT** aliado visible y a 6\" de este Operativo, puedes otorgarle a ese Operativo una **BENEDICTION** de la regla Martyrdom de esta
-faccion a ese Operativo (excluyendo Exigence).
+faccion a ese Operativo (excluyendo Exigence).\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control con un Operativo enemigo.
     ]]></string>
 
     <string name="zealous_ultimatum_usage"><![CDATA[
@@ -184,7 +184,7 @@ Siempre que determines el control de un marcador, trata el total de APL de enemi
     ]]></string>
 
     <string name="devotion_description"><![CDATA[
-Al final de cada activación de este Operativo, si está **INSPIRING** y controlé un Marcador de Objetivo o Marcador de misión, un Operativo **CELESTIAN INSIDIANT** 
+Al final de cada activación de este Operativo, si está **INSPIRING** y controla un Marcador de Objetivo o Marcador de misión, un Operativo **CELESTIAN INSIDIANT**
 aliado visible y a 6\" gana **INSPIRING**.
 
     ]]></string>
@@ -214,13 +214,13 @@ Luego, esa Operativa seleccionada gana una **BENEDICTION** (ningún Operativo in
 \n
 BENEDICTION   //  EFFECT\n
 \n
-Ardour        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.\n
+**Ardour**        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.\n
 \n
-Wrath         //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.\n
+**Wrath **        //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.\n
 \n
-Restoration   //    Este Operativo recupera D3+2 Heridas perdidas.\n
+**Restoration**   //    Este Operativo recupera D3+2 Heridas perdidas.\n
 \n
-Exigence      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.\n
+**Exigence**      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.\n
 ]]></string>
 
 
@@ -235,9 +235,9 @@ no pueden ser seleccionadas y no pueden ser tratadas como estando dentro de la d
 \n\n
 • Ese Operativo no puede realizar acciones **Psychic** o usar reglas **Psychic** adicionales.\n
 \n
-• Ese Operativo no puede usar armas *Psychic** de rango.\n
+• Ese Operativo no puede usar armas **Psychic** de rango.\n
 \n
-• Armas de melee *Psychic** no tiene reglas especiales, y no puede hacer daño mayor a 3/4.\n
+• Armas de melee **Psychic** no tiene reglas especiales, y no puede hacer daño mayor a 3/4.\n
 \n
 Algunas armas de este equipo tienen la regla **Anti-PSYKER**.\n
 \n
@@ -251,8 +251,9 @@ Veteranas Celestian de la orden Militante dirigen dando el ejemplo a sus hermana
     <string name="inspiration_description"><![CDATA[
 Siempre que una **CELESTIAN INSIDIANT** aliada:\n
 \n
-• Incapacita un Operativo enemigo con una 6 o heridas, ese Operativo aliado se vuelve **INSPIRING**\n
-• Cuando realiza la acción **Carga**, antes de moverse, esta unidad está **INSPIRING**\n  
+• Incapacita un Operativo enemigo con un total de 6 heridas o mas, ese Operativo aliado esta **INSPIRING**\n
+\n
+• Cuando realiza la acción **Carga**, antes de moverse, esta unidad está **INSPIRING**\n
 \n
 Cuando una Operativa **CELESTIAN INSIDIANT** está **INSPIRING**, sus armas ganan la regla Severe.
     ]]></string>
@@ -332,7 +333,7 @@ Las veteranas del campo de batalla son casi inmunes al dolor. Las heridas solo s
 ]]></string>
 
     <string name="suffering_sacrifice_description"><![CDATA[
-Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, combatiendo o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced.
+Cuando una Operativa **CELESTIAN INSIDIANT** con almenos 1 herida esté disparando, combatiendo o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced.
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[
@@ -341,7 +342,7 @@ en una pelea.
 ]]></string>
 
     <string name="holy_resilience_description"><![CDATA[
-Cuando una aliada **CELESTIAN INSIDIANT** estando **INSPIRING** esta combatiendo o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
+Cuando una aliada **CELESTIAN INSIDIANT** esta **INSPIRING** y esta combatiendo o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
         Operativo aliado.
 ]]></string>
 

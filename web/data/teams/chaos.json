@@ -1,0 +1,162 @@
+[
+  {
+    "id": "blooded",
+    "name": "Blooded",
+    "alliance": "CHAOS",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "chaos_cult",
+    "name": "Chaos Cult",
+    "alliance": "CHAOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "fellgor_ravagers",
+    "name": "Fellgors Ravagers",
+    "alliance": "CHAOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "gellepox_infected",
+    "name": "Gellepox Infected",
+    "alliance": "CHAOS",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "goremongers",
+    "name": "Goremongers",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "legionaries",
+    "name": "Legionaries",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "murderwing",
+    "name": "Murderwing",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "nemesis_claw",
+    "name": "Nemesis Claw",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "SEEK_AND_DESTROY",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "warpcoven",
+    "name": "WarpCoven",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "RECON",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "plague_marines",
+    "name": "Plague Marines",
+    "alliance": "CHAOS",
+    "type": "ELITE",
+    "difficulty": "Easy",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  }
+]

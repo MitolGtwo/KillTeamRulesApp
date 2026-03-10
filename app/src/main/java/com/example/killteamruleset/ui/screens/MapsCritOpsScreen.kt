@@ -1,5 +1,9 @@
 package com.example.killteamruleset.ui.screens
 
+
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
 import com.example.killteamruleset.R
@@ -14,6 +18,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -35,6 +40,7 @@ import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.CritOpCard
 import com.example.killteamruleset.ui.components.KillTeamWhiteBackground
 import com.example.killteamruleset.ui.components.MapCard
+import com.example.killteamruleset.ui.components.MapViewer
 import com.example.killteamruleset.ui.components.RandomizerToggle
 import com.example.killteamruleset.ui.data.CritOpsRepository
 import com.example.killteamruleset.ui.data.MapsRepository
@@ -53,14 +59,23 @@ fun MapsCritOpsScreen(
     var randomizedMap by remember { mutableStateOf<GameMap?>(null) }
     var randomizedCritOp by remember { mutableStateOf<CritOp?>(null) }
 
+    var showMapViewer by remember { mutableStateOf(false) }
+    var viewerImages by remember { mutableStateOf<List<Int>>(emptyList()) }
+
+    val listState = rememberLazyListState()
+    val scope = rememberCoroutineScope()
+
     KillTeamWhiteBackground{
     LazyColumn(
+        state = listState,
         modifier = Modifier
             .fillMaxSize()
             .padding(16.dp)
             .navigationBarsPadding(),
         verticalArrangement = Arrangement.spacedBy(16.dp)
-    ) {
+    )
+
+    {
 
         item {
             Text(
@@ -94,13 +109,19 @@ fun MapsCritOpsScreen(
                 else
                     "RANDOMIZER",
                 enabled = selectedCategory != null,
-                highlightColor = Color(0xFFFF6A00),
+                selected = selectedCategory != null,   // ⭐ highlight when active
+                highlightColor = Color.Black,
                 onClick = {
-                    val maps = MapsRepository.
-                    byCategory(selectedCategory!!)
+                    val maps = MapsRepository
+                        .byCategory(selectedCategory!!)
                         .filter { it.randomizable }
+
                     randomizedMap = maps.randomOrNull()
                     randomizedCritOp = CritOpsRepository.allCritOps.randomOrNull()
+
+                    scope.launch {
+                        listState.animateScrollToItem(6)
+                    }
                 }
             )
         }
@@ -153,14 +174,6 @@ fun MapsCritOpsScreen(
         }
 
         // ── RESULT OUTPUT ────────
-        randomizedMap?.let { map ->
-            item {
-                MapCard(
-                    map = map,
-                    onClick = { /* fullscreen later */ }
-                )
-            }
-        }
 
 
         selectedCategory?.let { category ->
@@ -168,64 +181,43 @@ fun MapsCritOpsScreen(
 
                 Spacer(Modifier.height(12.dp))
 
-                when (category) {
+                ActionCard(
+                    title = "VIEW MAP LAYOUT",
+                    highlightColor = Color(0xFF3A3A3A),
+                    onClick = {
 
-                    MapCategory.VOLKUS -> {
-                        Image(
-                            painter = painterResource(R.drawable.vk_comp),
-                            contentDescription = null,
-                            contentScale = ContentScale.Fit,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(320.dp)
-                                .clip(RoundedCornerShape(12.dp))
-                        )
-                    }
+                        viewerImages = when (category) {
 
-                    MapCategory.INTO_THE_DARK -> {
-                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                            Image(
-                                painter = painterResource(R.drawable.itd_comp1),
-                                contentDescription = null,
-                                contentScale = ContentScale.Fit,
-                                modifier =
-                                    Modifier.fillMaxWidth()
-                                        .height(320.dp)
-                            )
-                            Image(
-                                painter = painterResource(R.drawable.itd_comp2),
-                                contentDescription = null,
-                                contentScale = ContentScale.Fit,
-                                modifier =
-                                    Modifier.fillMaxWidth()
-                                        .height(320.dp)
-                            )
+                            MapCategory.VOLKUS ->
+                                listOf(R.drawable.vk_comp)
+
+                            MapCategory.INTO_THE_DARK ->
+                                listOf(
+                                    R.drawable.itd_comp1,
+                                    R.drawable.itd_comp2
+                                )
+
+                            MapCategory.TOMB_WORLD ->
+                                listOf(
+                                    R.drawable.tw_comp1,
+                                    R.drawable.tw_comp2
+                                )
                         }
-                    }
 
-                    MapCategory.TOMB_WORLD -> {
-                        Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                            Image(
-                                painter = painterResource(R.drawable.tw_comp1),
-                                contentDescription = null,
-                                contentScale = ContentScale.Fit,
-                                modifier =
-                                    Modifier.fillMaxWidth()
-                                    .height(320.dp)
-                            )
-                            Image(
-                                painter = painterResource(R.drawable.tw_comp2),
-                                contentDescription = null,
-                                contentScale = ContentScale.Fit,
-                                modifier =
-                                    Modifier.fillMaxWidth()
-                                    .height(320.dp)
-                            )
-                        }
+                        showMapViewer = true
                     }
-                }
+                )
             }
         }
+        randomizedMap?.let { map ->
+            item {
+                MapCard(
+                    map = map,
+                    onClick = { }
+                )
+            }
+        }
+
 
 
         randomizedCritOp?.let { critOp ->
@@ -237,25 +229,37 @@ fun MapsCritOpsScreen(
             }
         }
     }
-}
+        if (showMapViewer) {
+            MapViewer(
+                images = viewerImages,
+                onClose = { showMapViewer = false }
+            )
+        }
+    }
 }
 @Composable
 fun ActionCard(
     title: String,
     enabled: Boolean = true,
-    highlightColor: Color = Color.Black, // ✅ default
+    selected: Boolean = false,
+    highlightColor: Color = Color.Black,
     onClick: () -> Unit
 ) {
+    val backgroundColor =
+        if (!enabled)
+            Color(0xFF2B2B2B)
+        else if (selected)
+            Color(0xFFFF6A00) // orange highlight
+        else
+            highlightColor
+
     Card(
         modifier = Modifier
             .fillMaxWidth()
             .height(80.dp)
             .clickable(enabled = enabled) { onClick() },
         colors = CardDefaults.cardColors(
-            containerColor = if (enabled)
-                highlightColor
-            else
-                Color(0xFF2B2B2B)
+            containerColor = backgroundColor
         )
     ) {
         Box(

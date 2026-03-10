@@ -1,0 +1,276 @@
+[
+  {
+    "id": "blades_of_khaine",
+    "name": "Blades of Khaine",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "RECON",
+      "SEEK_AND_DESTROY",
+      "INFILTRATION",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "brood_brothers",
+    "name": "Brood Brothers",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "canoptek_circle",
+    "name": "Canoptek Circle",
+    "alliance": "XENOS",
+    "type": "ELITE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "RECON",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "corsair_voidscarred",
+    "name": "Corsair Voidscarred",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "RECON",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "farstalker_kinband",
+    "name": "Farstalker Kinband",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "RECON",
+      "INFILTRATION"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "hand_ofthe_archon",
+    "name": "Hand of the Archon",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "RECON",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "hearthkyn_salvager",
+    "name": "Hearthkyn Salvagers",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "RECON",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "hernkyn_yaegirs",
+    "name": "Hernkyn Yaegirs",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "INFILTRATION",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "hierotek_circle",
+    "name": "Hierotek Circle",
+    "alliance": "XENOS",
+    "type": "ELITE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "RECON",
+      "SECURITY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "kommandos",
+    "name": "Kommandos",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "INFILTRATION",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "mandrakes",
+    "name": "Mandrakes",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "pathfinders",
+    "name": "Pathfinders",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Medium",
+    "archetypes": [
+      "INFILTRATION",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "raveners",
+    "name": "Raveners",
+    "alliance": "XENOS",
+    "type": "ELITE",
+    "difficulty": "Very Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "vespids",
+    "name": "Vespid Stingwings",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Easy",
+    "archetypes": [
+      "RECON",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "wyrmblade",
+    "name": "Wyrmblade",
+    "alliance": "XENOS",
+    "type": "HORDE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "xv26",
+    "name": "XV26 Stealth Battlesuits",
+    "alliance": "XENOS",
+    "type": "ELITE",
+    "difficulty": "Hard",
+    "archetypes": [
+      "INFILTRATION",
+      "RECON"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  },
+  {
+    "id": "wrecka_krew",
+    "name": "Wrecka Krew",
+    "alliance": "XENOS",
+    "type": "ELITE",
+    "difficulty": "Easy",
+    "archetypes": [
+      "SECURITY",
+      "SEEK_AND_DESTROY"
+    ],
+    "factionRulesBackgroundRes": null,
+    "backgroundRes": null,
+    "assemblyPdfAsset": null,
+    "iconRes": null,
+    "quote": null
+  }
+]

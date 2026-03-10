@@ -34,11 +34,11 @@ val SanctifierMiraculist = Operative(
             )
         ),
         WeaponProfile(
-            name = "Hand Flamer",
+            name = "Wreathe in Fire",
             type = WeaponType.RANGED,
             attacks = 4,
-            hit = "3+",
-            damage = "3/3",
+            hit = "2+",
+            damage = "4/4",
             keywords = listOf(
                 Blast(1),
                 Limited(1)

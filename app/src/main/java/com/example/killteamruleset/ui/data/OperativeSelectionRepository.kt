@@ -33,6 +33,9 @@ import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperativeSel
 import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.HandOfTheArchon.HandOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.HearthkynSalvagers.SalvagersOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.HernkynYaegirs.YaegirsOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
@@ -56,7 +59,10 @@ object OperativeSelectionRepository {
         "goremongers" to GoremongersOperativeSelection,
         "elucidian_star" to ElucidianOperativeSelection,
         "exaction_squad" to ExactionOperativeSelection,
+        "hand_ofthe_archon" to HandOperativeSelection,
          "hunter_clade" to HunterCladeOperativeSelection,
+        "hearthkyn_salvager" to SalvagersOperativeSelection,
+        "hernkyn_yaegirs" to YaegirsOperativeSelection,
         "imperial_navy_breachers" to NavisOperativeSelection,
         "inquisitorial_agents" to InquisitorialOperativeSelection,
         "kasrkin" to KasrkinOperativeSelection,

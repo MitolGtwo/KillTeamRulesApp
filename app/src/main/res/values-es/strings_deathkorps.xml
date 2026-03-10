@@ -55,6 +55,7 @@ por el resto de esa accion.\n
 Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
 1 APL de este Operativo y el Operativo con el que se uso esta regla hasta el final de sus proximas activaciones, si esta regla se usa durante la activacion de ese otro Operativo aliado,
         su activacion termina inmediatamente.\n
+\n
 
         No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
 ]]></string>
