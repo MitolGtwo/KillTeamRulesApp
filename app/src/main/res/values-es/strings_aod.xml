@@ -116,27 +116,27 @@
         Si estas jugando una serie de partidas (Liga o Torneo), debes seleccionar las mismas **CHAPTER TACTICS** para cada batalla, aun puedes cambiar la secundaria con
         tu Adaptive Tactics strategy ploy.
 
-                        ---1.AGGRESIVE\n
+                        ---**1.AGGRESIVE**\n
             Las armas a melee de este Operativo tienen la regla Rending.\n
-                        ---2.DUELLER\n
+                        ---**2.DUELLER**\n
             Cuando este Operativo esté peleando o retaleando, cada uno de tus éxitos normales puede ser usado para bloquear un resultado critico sin resolver (a menos de que
          el enemigo tenga la regla Brutal).\n
-                        ---3.RESOLUTE\n
+                        ---**3.RESOLUTE**\n
             Puedes ignorar cualquier cambio a las APL de este Operativo, y no es afectado por la regla Shock de Operativos enemigos.\n
-                        ---4.STEALTHY\n
+                        ---**4.STEALTHY**\n
             Cuando un Operativos dispare a este Operativo, si puedes retener salvaciones por cobertura, puedes retener una salvacion adicional, o puedes retener una salvacion
             critica en su lugar. Esto no es acumulable con salvación mejorada por Vantage terrain.\n
-                        ---5.MOBILE\n
+                        ---**5.MOBILE**\n
             *Este Operativo puede realizar la acción **Fall Back** por 1AP menos.\n
             *Este Operativo puede realizar la acción **Charge** estando en rango de control de Operativos enemigos, y puede dejar el rango de control de ese Operativo para
             hacer esto, pero aún debe terminar en rango de control de un Operativo enemigo.\n
-                        ---6.HARDY\n
+                        ---**6.HARDY**\n
             Cuando un Operativo esté disparando a este Operativo, los resultados en dados de defensa de 5+ son resultados críticos. Cuando este operativo esta retaleando,
             el primer dado que inflinja daño normal de 3 o más a este Operativo durante esa secuencia, ese dado hace 1 menos de daño.\n
-                        ---7.SHARPSHOOTER\n
+                        ---**7.SHARPSHOOTER**\n
             Cuando ese Operativo esté disparando durante una activación en la que no se ha realizado acciones de **Charge, Fall Back** o **Reposition**, el arma bolt
             tiene las reglas Accurate 1 y Severe\n.
-                        ---8.SIEGE SPECIALIST\n
+                        ---**8.SIEGE SPECIALIST**\n
             Las armas de rango de este Operativo tienen la regla Saturate. Cuando este Operativo este combatiendo o retaleando, Operativos enemigos no pueden asistir.
 ]]></string>
 
@@ -254,7 +254,8 @@
 Usa esta Firefight ploy cuando un Operativo **ANGEL OF DEATH** aliado esté haciendo una acción de **Combate** en una activación en la cual haya realizado una accion de
         **Carga**, al inicio de la fase de resolver dados de ataque. Hasta el final de esta acción:\n\n
 
-        -Sus armas a melee tienen la regla Shock.
+        -Sus armas a melee tienen la regla Shock.\n
+    \n
         -La primera vez que uses un dado para atacar, infliges 1 daño adicional (hasta un máximo de 7).
 ]]></string>
 
