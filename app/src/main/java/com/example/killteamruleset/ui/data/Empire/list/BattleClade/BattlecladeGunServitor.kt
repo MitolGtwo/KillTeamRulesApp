@@ -29,7 +29,7 @@ val BattlecladeGunServitor = Operative(
             name = "Heavy Arc Rifle",
             type = WeaponType.RANGED,
             attacks = 5,
-            hit = "3+",
+            hit = "4+",
             damage = "4/6",
             keywords = listOf(
                 Heavy("Dash only"),
