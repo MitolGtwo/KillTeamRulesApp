@@ -220,46 +220,36 @@ ser seleccionado como objetivo válido; esto toma precedencia sobre todas las de
     <!--Equipment-->
 
     <string name="rune_prophecy_lore"><![CDATA[
-Affixed to an Aspect Warriors armour by a powerful
-seer, this warp-charged rune provides the bearer with a
-sliver of its creator’s prophetic vision.
+Estas armaduras imbuidas por un poderoso Seer contienen runas empoderadas por runas, dándole al portador visiones proféticas.
 ]]></string>
 
     <string name="rune_prophecy_description"><![CDATA[
-Once per battle, after rolling off to decide
-initiative, you can add D3 to, or subtract D3 from, your result.
+Una vez por batalla, después de lanzar dados por iniciativa. Puedes añadir o sustraer D3 de tu resultado.
 ]]></string>
 
     <string name="rune_shielding_lore"><![CDATA[
-Shimmering with empyric energy, this rune flares
-brightly when it suffers impact from an enemy weapon, turning aside bullet, bolt or blade.
+Destellando con energía empírica, estas runas brillan fuertemente cuando sufren daño, desviando balas o cortes letales.
 ]]></string>
 
     <string name="rune_shielding_description"><![CDATA[
-Once per battle, when an attack dice inflicts
-Normal Dmg on a friendly **BLADES OF KHAINE**
-operative, you can ignore that inflicted damage.
+Una vez por batalla, cuando un dado de ataque inflinja daño normal a un Operativo **BLADES OF KHAINE** aliado, puedes ignorar ese daño.
 ]]></string>
 
     <string name="rune_foresight_lore"><![CDATA[
-The bearer foresees the battle to come, anticipating the
-movements of the foe and positioning their warriors with uncanny guile.
+El portador profetiza la batalla por venir, anticipando los momentos del enemigo y posicionando efectivamente a sus aliados.
 ]]></string>
 
     <string name="rune_foresight_description"><![CDATA[
-When this equipment is revealed, roll one D3. In
-the Strategy phase of the turning point equal to the result, you gain 1 additional CP.
+Cuando este equipamiento se revela, lanza un D3. En la fase estratégica del turno equivalente al resultado, gana 1 CP adicional.
 ]]></string>
 
     <string name="wraithbone_talisman_lore"><![CDATA[
-Grown from living wraithbone material, this talisman
-lends the bearer strength and determination in the midst of battle
+La energía de estos talismanes presta fuerza y determinación a su portador en el furor de la batalla.
 ]]></string>
 
     <string name="wraithbone_talisman_description"><![CDATA[
-Once per turning point, when a friendly **BLADES OF KHAINE** operative is shooting, fighting or
-retaliating, if you roll two or more fails, you can
-discard one of them to retain another as a normal success instead.
+Una vez por turno, cuando un aliado **BLADES OF KHAINE** esté disparando, peleando o retaleando, si lanzas dos o más fallos, puedes descartar uno y retener otro
+como un resultado normal.
 ]]></string>
 
 
@@ -267,16 +257,15 @@ discard one of them to retain another as a normal success instead.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="forewarned_lore"><![CDATA[
-Aspect Warriors go to battle armed with the foresight of their Craftworlds seers.
+Los aspectos guerreros van a batallas armados con previsión de los Seers de sus mundos.
 ]]></string>
 
     <string name="forewarned_description"><![CDATA[
-Whenever an operative is shooting a ready
-friendly **BLADES OF KHAINE** operative, you can
-re-roll any of your defence dice results of one result (e.g. results of 2).
+Cuando un Operativo esté disparando a un **BLADES OF KHAINE* Ready, puedes relanzar cualquiera de tus dados del mismo resultado.
 ]]></string>
 
     <string name="ruthless_poise_lore"><![CDATA[
+        
 Centuries of combat experience coupled with lightning
 reactions and exceptional grace render Aspect Warriors utterly lethal.
 ]]></string>
