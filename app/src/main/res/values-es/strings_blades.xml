@@ -146,120 +146,74 @@ Los nobles guerreros encargados de castigar al injusto y al criminal tienen que 
 ]]></string>
 
     <string name="vigilance_of_the_avenger_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**DIRE AVENGER** operative is performing the **Shoot**
-action and you select a shuriken catapult or twin
-shuriken catapult. Until the end of that action,
-that weapon has the Lethal 5+ weapon rule.
+Usa este **ASPECT TECHNIQUE** cuando un aliado **DIRE AVENGER** haga la accion de **Disparo** y seleccione Shuriken Catapult o Twin Shuriken Catapult.
+Hasta el final de esa acción, esa arma tiene la regla Lethal 5+.
 ]]></string>
 
     <string name="unstinting_immovable_lore"><![CDATA[
-Dire Avengers wear armour fashioned from
-psycho-sensitive thermoplas scales that are reactive
-to impact. When suffering a blow, the armour stiffens
-to spread the energy across the wearer. On top of this
-flexible suit, these Aspect Warriors wear bone-like
-plates over the most vulnerable areas of their body.
+Dire Avengers visten armaduras compuestas por escalas psycho-sensitivas que reaccionan a impactos. Cuando recibe un golpe, la armadura se endurece y 
+expande la energía del impacto a través de todo el traje. Además de ser flexibles, estos guerreros visten armaduras casi óseas en sus partes más vulnerables.
 ]]></string>
 
     <string name="unstinting_immovable_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when an operative
-is shooting a friendly **DIRE AVENGER** operative,
-and you have rolled two or more fails. You can
-discard one of them to retain the other as a normal success instead.
+Usa este **ASPECT TECHNIQUE** cuando un Operativo esté disparando a un aliado **DIRE AVENGER** si obtienes dos o más fallos. Puedes descartar uno para retener un fallo
+como un éxito en su lugar.
 ]]></string>
 
     <string name="raging_heat_lore"><![CDATA[
-The flames upon shrines of Asuryan possess a searing
-heat and never burn out, even if they dwindle. Thus
-does the Dire Avenger strive to imitate these flames,
-equally dangerous to the foe regardless of the injuries they sustain.
+Las llamas en los santuarios de Asurian poseen una llama que nunca se extingue, de la misma forma como un Dire Avenger trata de imitar estas flamas, estos guerreros
+prueban seguir siendo una amenaza aunque estén gravemente heridos.
 ]]></string>
 
     <string name="raging_heat_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** during a friendly
-**DIRE AVENGER** operatives activation. Until the
-start of that operatives next activation, you can
-ignore any changes to its stats from being injured (including its weapons stats).
+Usa este **ASPECT TECHNIQUE** durante la activación de un **DIRE AVENGER** aliado. Hasta el inicio de su próxima activación, puedes ignorar cambios a sus estadisticas
+por estar herido (incluyendo estadísticas de armas).
 ]]></string>
 
     <string name="patient_blow_lore"><![CDATA[
-Carefully concealed in cover or in shadows, Striking
-Scorpions stalk their oblivious prey, manoeuvring
-around their targets in complete silence to select the
-optimum position to launch their killing strike.
+Ocultos en las sombras, Striking Scorpions acechan a su incauta presa maniobrando en completo silencio, buscando la mejor posición para lanzar un ataque mortal.
 ]]></string>
 
     <string name="patient_blow_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**STRIKING SCORPION** operative that has a
-**Conceal** order performs the **Reposition** action.
-During that action, that operative can move
-within control range of enemy operatives (it
-cannot end the move there), and you can inflict
-D3+2 damage on one enemy operative it moved
-within control range of after it is moved.
+Usa este **ASPECT TECHNIQUE** cuando un aliado **STRIKING SCORPION** con una orden de **Conceal** hace una acción de **Reposición**, durante esta accion
+, este Operativo puede moverse dentro de rango de control de Operativos enemigos (no puede terminar su movimiento dentro de rango de control enemigo),
+Y puedes infligir D3+2 heridas a un enemigo Operativo que haya pasado por su rango de control.
 ]]></string>
 
     <string name="strike_and_fade_lore"><![CDATA[
-Masters of the hit and run attack, Striking Scorpions
-withdraw from combat as suddenly as they strike,
-disappearing into shadow like murderous spirits.
+Expertos en golpear y retroceder, Striking Scorpions se retiran de combate tan pronto como golpean, desvaneciéndose en las sombras como espíritus asesinos.
 ]]></string>
 
     <string name="strike_and_fade_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**STRIKING SCORPION** operative incapacitates
-an enemy operative while fighting or retaliating,
-and is no longer within 3\" of enemy operatives.
-**Change** that friendly operatives order to **Conceal**
-and it can immediately perform a free **Dash**
-action, even if it is performed an action that
-prevents it from performing the **Dash** action.
+Usa este **ASPECT TECHNIQUE** cuando un aliado **STRIKING SCORPION** incapacita a un Operativo enemigo mientras pelea o retalea, si deja de estar a 3\" de Operativos
+enemigos. Cambia esa orden a **Conceal** y puede inmediatamente hacer una acción de **Dash** gratis, incluso si hizo una acción que previene hacer **Dash**.
 ]]></string>
 
     <string name="scorpion_eye_lore"><![CDATA[
-A Striking Scorpion’s shuriken pistol has a viewfinder
-psychically linked to its bearer. With it, the Aspect
-Warrior can see through multiple spectra as well as
-swiftly identify friend from foe.
+Las pistolas shuriken de un Striking Scorpion tienen una mira enlazada con su portador. Con este enlace pueden identificar aliados, enemigos y múltiples espectros visuales.
 ]]></string>
 
     <string name="scorpion_eye_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**STRIKING SCORPION** operative is performing the
-**Shoot** action and you select a shuriken pistol.
-Until the end of that action, that weapon has the Seek Light weapon rule.
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **STRIKING SCORPION** aliado está haciendo una acción de **Disparo** y seleccionas un Shuriken Pistol. 
+Hasta el final de esa acción, esa arma tiene la regla Seek Light.
 ]]></string>
 
     <string name="merciless_strikes_lore"><![CDATA[
-When Striking Scorpions launch their assault, they
-attack with relentless ferocity, landing blow after blow
-to grant the enemy no moment or reprieve.
+Cuando un Striking Scorpion lanza su asalto, ataca con una ferocidad imparable, dirigiendo golpe tras golpe antes de que el enemigo pueda reaccionar.
 ]]></string>
 
     <string name="merciless_strikes_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**STRIKING SCORPION** operative is fighting, the
-first time you strike with a critical success during
-that sequence. Until the end of that sequence,
-that operatives melee weapon has the Shock weapon rule.
+Usa este **ASPECT TECHNIQUE** cuando un aliado **STRIKING SCORPION** esté combatiendo, la primera vez que golpea con un resultado crítico durante esa secuencia.
+Hasta el final de esa secuencia, las armas melee de este Operativo tienen la regla Shock.
 ]]></string>
 
     <string name="one_with_gloom_lore"><![CDATA[
-Years of strict training render Striking Scorpions capable
-of blending uncannily with the shadows, waiting for the
-perfect moment to attack their unsuspecting foes with
-terrifying accuracy.
+Años de entrenamiento estricto forjan a los Striking Scorpions capaces de ser uno con las sombras, esperando por el perfecto momento para atacar.
 ]]></string>
 
     <string name="one_with_gloom_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** during a friendly
-**STRIKING SCORPION** operatives activation. Until
-the start of its next activation, while that operative
-has a **Conceal** order and is in cover, it cannot be
-selected as a valid target, taking precedence over
-all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+Usa este **ASPECT TECHNIQUE** cuando un aliado **STRIKING SCORPION** es activado, mientras ese Operativo tenga una orden de **Conceal** y esté en cobertura, no puede
+ser seleccionado como objetivo válido; esto toma precedencia sobre todas las demás reglas, excepto estar a 2\".
 ]]></string>
 
 
