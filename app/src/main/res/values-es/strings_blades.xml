@@ -122,47 +122,27 @@ Usa este **ASPECT TECHNIQUE** cuando un Operativo **HOWLING BANSHEE** aliado hag
 ]]></string>
 
     <string name="the_slicing_hurricane_lore"><![CDATA[
-Entrenados como estrategas flexibles, los Dire Avengers son capaces de liberar shurikens mientras se acercan al objetivo 
-        
-Trained to embrace supreme tactical flexibility,
-Dire Avengers are capable of unleashing clouds of
-razor-sharp shuriken while moving to secure ground or
-slipping out of reach of the foe.
+Entrenados como estrategas flexibles, los Dire Avengers son capaces de liberar shurikens mientras se acercan al objetivo.
 ]]></string>
 
     <string name="the_slicing_hurricane_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**DIRE AVENGER** operative is performing the
-**Reposition** action. That operative can perform
-the **Shoot** action during that action (it must do so
-in a location it can be placed, and any remaining
-move distance it had from that **Reposition** action
-can be used after it does so). You must select its
-shuriken catapult, shuriken pistol or twin shuriken
-catapult for that **Shoot** action.
+Usa este **ASPECT TECHNIQUE** cuando un Operativo **DIRE AVENGER** aliado hace una acción de **Reposicion**. Ese Operativo puede hacer una acción de **Disparo**
+durante la accion de **Reposicion** (debe ser en un lugar donde pueda ser colocado, y cualquier cantidad de movimiento restante de la **Reposicion** puede usarse
+despues). Debes seleccionar un Shuriken Catapult, Shuriken Pistol o Twin Shuriken Catapult para realizar esa acción de **Disparo**.
 ]]></string>
 
     <string name="death_thousand_blades_lore"><![CDATA[
-Dire Avengers can unleash great deluges of
-monomolecular shuriken from their weapons. These
-lethal volleys echo the Death of a Thousand Blades –
-the punishment that Khaine meted out upon traitors,
-cheats and others he deemed unworthy of a clean kill.
+Dire Avengers pueden liberar diluvios de shurikens monomoleculares de sus armas. Estos proyectiles cantan ecos de una muerte por mil espadas. El castigo que Khaine
+libera contra los traidores, impostores y otros no merecedores de una muerte rápida.
 ]]></string>
 
     <string name="death_thousand_blades_description"><![CDATA[
-Use this **ASPECT TECHNIQUE** when a friendly
-**DIRE AVENGER** operative is performing the
-**Shoot** action and you select a shuriken catapult
-or twin shuriken catapult. Until the end of that
-action, that weapon has the Torrent 2\" weapon
-rule, but you cannot select more than one secondary target.
+Usa este **ASPECT TECHNIQUE** cuando un aliado **DIRE AVENGER** realice la acción de **Disparo** y seleccione un Shuriken Catapult o Twin Shuriken Catapult.
+Hasta el final de esa acción, esta arma tiene la regla Torrent 2\", pero no puede seleccionar más de un objetivo secundario.
 ]]></string>
 
     <string name="vigilance_of_the_avenger_lore"><![CDATA[
-The noble warrior who is tasked with punishing the
-unjust and the criminal must be ever vigilant. Their eyes
-must be keen and their aim must be true.
+Los nobles guerreros encargados de castigar al injusto y al criminal tienen que mantener una guardia perpetua. Sus ojos deben permanecer abiertos y su puntería precisa.
 ]]></string>
 
     <string name="vigilance_of_the_avenger_description"><![CDATA[
