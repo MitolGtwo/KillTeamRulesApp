@@ -55,7 +55,7 @@ val EliminatorSniper = Operative(
             name = "Bolt Sniper Rifle (Hyperfrag)",
             type = WeaponType.RANGED,
             attacks = 4,
-            hit = "3+",
+            hit = "2+",
             damage = "3/4",
             keywords = listOf(
                 Blast(1),
@@ -67,7 +67,7 @@ val EliminatorSniper = Operative(
             name = "Bolt Sniper Rifle (Mortis)",
             type = WeaponType.RANGED,
             attacks = 4,
-            hit = "3+",
+            hit = "2+",
             damage = "3/4",
             keywords = listOf(
                 Devastating(3),

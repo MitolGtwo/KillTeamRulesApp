@@ -42,7 +42,7 @@ val HeavyIntercessorGunner = Operative(
             )
         ),
         WeaponProfile(
-            name = "Heavy Bolter (Focused)",
+            name = "Heavy Bolter (sweeping)",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",

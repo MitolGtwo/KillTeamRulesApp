@@ -114,26 +114,26 @@
             If you are playing a series of games or a tournament, you must select the same **CHAPTER TACTIC** for every battle, you can still change the secondary with the Adaptive
             Tactics strategy ploy.\n\n
 
-                        ---1.AGGRESIVE\n
+                        ---**1.AGGRESIVE**\n
             This operatives melee weapons have the Rending weapon rule.\n
-                        ---2.DUELLER\n
+                        ---**2.DUELLER**\n
             Whenever this Operative is fighting or retaliating, each of your normal successes can block one unresolved critical success (unless the enemy has the Brutal weapon rule).\n
-                        ---3.RESOLUTE\n
+                        ---**3.RESOLUTE**\n
             You can ignore any changes to this Operatives APL stat and it isnt affected by enemy Operatives Shock weapon rule.\n
-                        ---4.STEALTHY\n
+                        ---**4.STEALTHY**\n
             Whenever an Operative is shooting this Operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save
             as critical success instead. This isnt cumulative with improved cover saves from Vantage terrain.\n
-                        ---5.MOBILE\n
+                        ---**5.MOBILE**\n
             *This operative can perform the **Fall Back** action for 1 less AP.\n
             *This operative can perform the **Charge** action while within control range of an enemy Operative, and can leave that Operatives control range to do so 
             (but then normal requirements for that move apply).\n
-                        ---6.HARDY\n
+                        ---**6.HARDY**\n
             Whenever an Operative is shooting this Operative, defence dice results of 5+ are critical successes. Whenever this Operative is retaliating, the first
             time an attack dice inflicts Normal Dmg of 3 or more on this Operative during that sequence, that dice inflicts 1 less damage on it.\n
-                        ---7.SHARPSHOOTER\n
+                        ---**7.SHARPSHOOTER**\n
             Whenever this Operative is shooting during an activation in which it hasnt performed the **Charge, Fall Back** or **Reposition** action, its bolt weapon has the Acurrate 1
             and Severe weapons rules.\n
-                        ---8.SIEGE SPECIALIST\n
+                        ---**8.SIEGE SPECIALIST**\n
             This Operatives ranged weapons have the Saturate weapon rule. Whenever this Operative is fighting or retaliating, enemy Operatives cannot assist.\n
 ]]></string>
 
@@ -250,7 +250,8 @@
     Use this Firefight ploy when a friendly **ANGEL OF DEATH** Operative is performing the **Fight** action during an activation in which it performed the **Charge** action,
     at the start of the Resolve Attack Dice step. Until the end of that action:\n\n
 
-    -Its melee weapon has the Shock weapon rule.
+    -Its melee weapon has the Shock weapon rule.\n
+    \n
     -The first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).
 ]]></string>
 
