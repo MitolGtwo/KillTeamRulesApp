@@ -265,81 +265,65 @@ Cuando un Operativo esté disparando a un **BLADES OF KHAINE* Ready, puedes rela
 ]]></string>
 
     <string name="ruthless_poise_lore"><![CDATA[
-        
-Centuries of combat experience coupled with lightning
-reactions and exceptional grace render Aspect Warriors utterly lethal.
+Centenares de años combatiendo crean años de experiencia peleando con gracia y reflejos letales.
 ]]></string>
 
     <string name="ruthless_poise_description"><![CDATA[
-Whenever a friendly **BLADES OF KHAINE**
-operative is fighting a ready enemy operative,
-that friendly operatives melee weapons have the Ceaseless weapon rule
+Cuando un Operative **BLADES OF KHAINE** esta combatiendo contra un Operativo enemigo Ready, las armas de melee de este Operativo ganan la regla Ceaseless.
 ]]></string>
 
     <string name="khaine_vengeance_lore"><![CDATA[
-The Aspect Warriors draw upon the Bloody-Handed Gods merciless example to dispatch their foes.
+Los Aspectos Guerreros usan los ejemplos de sus sanguinarios dioses para despachar a sus enemigos.
 ]]></string>
 
     <string name="khaine_vengeance_description"><![CDATA[
-Whenever a friendly **BLADES OF KHAINE** operative is shooting an expended enemy
-operative, that friendly operative’s ranged weapons have the Ceaseless weapon rule.
+Cuando un aliado **BLADES OF KHAINE** esté disparando a un enemigo Expended, las armas de rango de este Operativo ganan la regla Ceaseless.
 ]]></string>
 
     <string name="dance_of_death_lore"><![CDATA[
-Lithe, acrobatic and utterly deadly, Aeldari Aspect
-Warriors exchange tactical positions with flawless grace.
+Agiles, acrobacias y mortales, los aspectos Aeldari alternan posiciones tácticas con gracia impecable.
 ]]></string>
 
     <string name="dance_of_death_description"><![CDATA[
-Select two friendly **BLADES OF KHAINE** operatives visible to and within 6\" of each other.
-Remove them both from the killzone and set them back up in each other’s previous locations
-(in other words, swap their positions).
+Selecciona dos aliados **BLADES OF KHAINE** visibles y a 6\" entre ellos, remuévelos del campo de batalla e invierte sus posiciones.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="bladewind_lore"><![CDATA[
-Aspect Warriors strike with speed and precision, their
-shining blades scything through the foe in a storm of steel.
+Aspectos Guerreros golpean con velocidad y precisión; sus espadas destellantes cortan a través de enemigos en una tormenta de acero.
 ]]></string>
 
     <string name="bladewind_description"><![CDATA[
-Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation. During
-that activation, that operative can perform two **Fight** actions.
+Usa esta Firefight ploy durante la activación de un **BLADES OF KHAINE** aliado. Durante esta activación, ese Operativo puede hacer dos acciones de **Combate**.
 ]]></string>
 
     <string name="starfall_lore"><![CDATA[
-With punishing fusillades of accurate shuriken fire do the Aspect Warriors fell their enemies.
+Los Aspectos Guerreros fusilan a sus enemigos con precisos shurikens.
 ]]></string>
 
     <string name="starfall_description"><![CDATA[
-Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation. During
-that activation, that operative can perform two **Shoot** actions.
+Usa esta Firefight ploy durante la activación de un **BLADES OF KHAINE** aliado. Durante esta activación, ese Operativo puede hacer dos acciones de **Disparo**.
 ]]></string>
 
     <string name="fading_light_lore"><![CDATA[
-The Aspect Warrior slips away into darkness, leaving their foe striking at nothing but shadow.
+Los Aspectos Guerreros se deslizan en la oscuridad, dejando a sus enemigos golpeando la nada.
 ]]></string>
 
     <string name="fading_light_description"><![CDATA[
-Use this firefight ploy during a friendly **BLADES OF KHAINE** operatives activation, before or
-after it performs an action. During that activation,
-that operative can perform the **Fall Back** action for 1 less AP.
+Usa esta Firefight ploy durante la activación de un **BLADES OF KHAINE** aliado, antes o después de que haga una acción. Durante esa activación, ese Operativo
+Puede hacer la acción **Fall Back** por 1 AP menos.
 ]]></string>
 
     <string name="blades_contempt_lore"><![CDATA[
-The martial superiority of the Aeldari species is
-expressed by their Aspect Warriors, who dance
-through incoming fire and heavy strikes with contemptuous ease.
+La superioridad marcial de los Aeldari es expresada por sus Aspectos Guerreros; danzan a través del fuego y los golpes enemigos con facilidad.
 ]]></string>
 
     <string name="blades_contempt_description"><![CDATA[
-Use this firefight ploy when a friendly **BLADES OF KHAINE** operative is retaliating or an enemy
-operative is shooting it, after your opponent rolls their attack dice, but before re-rolls. Until the end
-of the sequence, your opponent cannot re-roll their attack dice (if your opponent declared the
-use of any firefight ploys during that sequence that would allow them to re-roll, that ploy is
-cancelled and the CP spent on it is refunded).
+Usa esta Firefight ploy cuando un aliado **BLADES OF KHAINE** está retaleando o un enemigo está disparando a este Operativo, después de que tu oponente
+lanza sus dados de ataque, pero antes de que haga re-rolls. Hasta el final de esa secuencia, tu oponente no puede re-rollear sus dados de ataque (si tu oponente usa una
+ploy para re-rollear sus dados, esa ploy es cancelada y el costo es reembolsado).
 ]]></string>
 
 </resources>
