@@ -1,2 +1,99 @@
 package com.example.killteamruleset.ui.data.Xenos.Pathfinders
 
+import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.Blast
+import com.example.killteamruleset.ui.model.Brutal
+import com.example.killteamruleset.ui.model.Ceaseless
+import com.example.killteamruleset.ui.model.Devastating
+import com.example.killteamruleset.ui.model.Heavy
+import com.example.killteamruleset.ui.model.Hot
+import com.example.killteamruleset.ui.model.Lethal
+import com.example.killteamruleset.ui.model.Limited
+import com.example.killteamruleset.ui.model.Operative
+import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing
+import com.example.killteamruleset.ui.model.Piercing_Crits
+import com.example.killteamruleset.ui.model.Punishing
+import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Severe
+import com.example.killteamruleset.ui.model.Shock
+import com.example.killteamruleset.ui.model.Torrent
+import com.example.killteamruleset.ui.model.WeaponProfile
+import com.example.killteamruleset.ui.model.WeaponType
+
+
+val Mb3ReconDrone = Operative(
+    name = "Mb3 Recon Drone",
+    imageRes = R.drawable.dk_watch,
+    stats = OperativeStats(
+        apl = 3,
+        move = "6\"",
+        save = "4+",
+        wounds = 12
+    ),
+    weapons = listOf(
+        WeaponProfile(
+            name = "Burst Cannon (focused)",
+            type = WeaponType.RANGED,
+            attacks = 5,
+            hit = "4+",
+            damage = "3/4",
+            keywords = listOf(
+                Ceaseless,
+                Heavy("Reposition Only"),
+                Punishing
+            )
+        ),
+        WeaponProfile(
+            name = "Burst Cannon (sweeping)",
+            type = WeaponType.RANGED,
+            attacks = 4,
+            hit = "4+",
+            damage = "3/4",
+            keywords = listOf(
+                Ceaseless,
+                Heavy("Reposition Only"),
+                Punishing,
+                Torrent(1)
+            )
+        ),
+        WeaponProfile(
+            name = "Ram",
+            type = WeaponType.MELEE,
+            attacks = 3,
+            hit = "5+",
+            damage = "2/3",
+            keywords = listOf(
+            )
+        ),
+    ),
+
+    abilities = listOf(
+        Ability(
+            title = "Analyse",
+            usage = R.string.drone_analyse_usage,
+            description = R.string.drone_analyse_description
+        ),
+        Ability(
+            title = "Drone",
+            usage = R.string.path_drone_usage,
+            description = R.string.path_drone_description
+        ),
+        Ability(
+            title = "Markerlight",
+            usage = R.string.markerlight_usage,
+            description = R.string.markerlight_description
+        ),
+    ),
+
+
+    keywords = listOf(
+        "PATHFINDER",
+        "T'AU EMPIRE",
+        "MB3 RECON",
+        "DRONE",
+        "32MM"
+    )
+)

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Vespid-->
+
+    <string name="communion_helm_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="communion_helm_description"><![CDATA[
+Once during each of this operatives activations, you can spend 1 Communion point for free.
+    ]]></string>
+
+    <string name="vespid_commune_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="vespid_commune_description"><![CDATA[
+When selecting your operatives for the battle, also
+select one **VESPID STINGWING** strategy ploy. Whenever
+this operative is in the killzone and is not within control range of
+enemy operatives, that ploy costs you 0CP.
+    ]]></string>
+
+    <string name="evasive_drone_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="evasive_drone_description"><![CDATA[
+• This operative cannot perform any actions other than **Aerial Guidance, Charge, Dash, Fall Back, Fight**
+and Reposition**.\n
+\n
+• Whenever determining control of an objective marker, treat
+this operatives APL stat as 1 lower. Note this is not a change to
+its APL stat, so any changes are cumulative with this.\n
+\n
+• Whenever determining what is visible to this operative, the
+round disc at the top of the miniature is its head.\n
+\n
+• Whenever this operative has a **Conceal** order and is in cover, it
+cannot be selected as a valid target, taking precedence over all
+other rules (e.g. Seek, Vantage terrain) except being within 2\".\n
+\n
+• Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+    ]]></string>
+
+    <string name="aerial_guidance_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="aerial_guidance_description"><![CDATA[
+**SUPPORT**. Until the start of this operatives next
+activation, whenever another friendly **VESPID
+STINGWING** operative within 6\" of this operative is
+shooting an enemy operative visible to this operative, that
+friendly operatives ranged weapons have the Lethal 5+ and
+Saturate weapon rules. This has no effect while this operative
+is within control range of an enemy operative.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="neutron_fragment_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="neutron_fragment_description"><![CDATA[
+If the target of this weapon is not incapacitated but you resolve any attack dice, the target gains
+one of your Neutron Fragment tokens. Whenever an operative
+that has one of your Neutron Fragment tokens is activated, inflict
+D3 damage on it for each Neutron Fragment token it has (roll
+separately for each).
+    ]]></string>
+
+    <string name="ghost_rig_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="ghost_rig_description"><![CDATA[
+While this operative has a **Conceal** order, your
+opponent cannot select it as a valid target unless it is within 6\" of
+the operative trying to target it. Note that this rule has no effect
+if this operative is not selected as the valid target, e.g. if it is a
+secondary target from the Blast weapon rule.
+    ]]></string>
+
+
+    <string name="camouflaged_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="camouflaged_description"><![CDATA[
+Whenever an operative is shooting this operative,
+ignore the Piercing weapon rule and all cover saves are retained
+as critical successes. This rule has no effect if this operative is not
+selected as the valid target, e.g. if it’s a secondary target from
+the Blast weapon rule.
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+
+    <string name="_usage"><![CDATA[
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+
+    <string name="_usage"><![CDATA[
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+    <string name="_usage"><![CDATA[
+
+    ]]></string>
+
+    <string name="_description"><![CDATA[
+
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+    <string name="_lore"><![CDATA[
+
+]]></string>
+
+    <string name="_description"><![CDATA[
+
+]]></string>
+
+</resources>

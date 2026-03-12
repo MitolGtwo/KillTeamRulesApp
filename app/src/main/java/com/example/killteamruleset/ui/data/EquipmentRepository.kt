@@ -4,11 +4,15 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.Equipment
+import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Poison
 import com.example.killteamruleset.ui.model.Range
+import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Saturate
 import com.example.killteamruleset.ui.model.Severe
+import com.example.killteamruleset.ui.model.Silent
+import com.example.killteamruleset.ui.model.Stun
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -888,6 +892,245 @@ object EquipmentRepository {
                 name = "KV-CERAMIDE UNDERSUIT",
                 lore =R.string.kv_ceramide_undersuit_lore,
                 description = R.string.kv_ceramide_undersuit_description
+            )
+        ),
+
+
+
+        "hierotek_circle" to listOf(
+
+            Equipment(
+                id = "magnification_conduits",
+                name = "MAGNIFICATION CONDUITS",
+                lore =R.string.magnification_conduits_lore,
+                description = R.string.magnification_conduits_description
+            ),
+            Equipment(
+                id = "phase_swifter",
+                name = "PHASE SHIFTER",
+                lore =R.string.phase_swifter_lore,
+                description = R.string.phase_swifter_description
+            ),
+            Equipment(
+                id = "tesseract_cube",
+                name = "TESSERACT CUBE",
+                lore =R.string.tesseract_cube_lore,
+                description = R.string.tesseract_cube_description
+            ),
+            Equipment(
+                id = "tesla_weave",
+                name = "TESLA WEAVE",
+                lore =R.string.tesla_weave_lore,
+                description = R.string.tesla_weave_description
+            )
+        ),
+
+
+        "kommandos" to listOf(
+
+            Equipment(
+                id = "choppas",
+                name = "CHOPPAS",
+                lore =R.string.choppas_lore,
+                description = R.string.choppas_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Choppa",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "3+",
+                        damage = "4/5",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "dynamite",
+                name = "DYNAMITE",
+                lore =R.string.dynamite_lore,
+                description = R.string.dynamite_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Dynamite",
+                        type = WeaponType.RANGED,
+                        attacks = 5,
+                        hit = "4+",
+                        damage = "4/5",
+                        keywords = listOf(
+                            Range(4),
+                            Blast(1),
+                            Heavy("Reposition Only"),
+                            Saturate
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "harpoon",
+                name = "HARPOON",
+                lore =R.string.harpoon_lore,
+                description = R.string.harpoon_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Harpoon",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "4+",
+                        damage = "4/5",
+                        keywords = listOf(
+                            Range(8),
+                            Lethal(5),
+                            Stun
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "collapsible_stocks",
+                name = "COLLAPSIBLE STOCKS",
+                lore =R.string.collapsible_stocks_lore,
+                description = R.string.collapsible_stocks_description
+            )
+        ),
+
+
+        "mandrakes" to listOf(
+
+            Equipment(
+                id = "mandrake_chain_snare",
+                name = "CHAIN SNARE",
+                lore =R.string.mandrake_chain_snare_lore,
+                description = R.string.mandrake_chain_snare_description
+            ),
+            Equipment(
+                id = "shadow_glyph",
+                name = "SHADOW GLYPH",
+                lore =R.string.shadow_glyph_lore,
+                description = R.string.shadow_glyph_description
+            ),
+            Equipment(
+                id = "soul_gem",
+                name = "SOUL GEM",
+                lore =R.string.soul_gem_lore,
+                description = R.string.soul_gem_description
+            ),
+            Equipment(
+                id = "bone_dart",
+                name = "BONE DARTS",
+                lore =R.string.bone_dart_lore,
+                description = R.string.bone_dart_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Bone Dart",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "3+",
+                        damage = "2/4",
+                        keywords = listOf(
+                            Range(6),
+                            Rending,
+                            Silent
+                        )
+                    )
+                )
+            )
+        ),
+
+
+
+        "pathfinders" to listOf(
+
+            Equipment(
+                id = "target_optics",
+                name = "TARGET ANALYSIS OPTIC",
+                lore =R.string.target_optics_lore,
+                description = R.string.target_optics_description
+            ),
+            Equipment(
+                id = "high_intensity_markerlight",
+                name = "HIGH-INTENSITY MARKERLIGHT",
+                lore =R.string.high_intensity_markerlight_lore,
+                description = R.string.high_intensity_markerlight_description
+            ),
+            Equipment(
+                id = "photon_grenade",
+                name = "PHOTON GRENADE",
+                lore =R.string.photon_grenade_lore,
+                description = R.string.photon_grenade_description,
+                abilities = listOf(
+                    Ability(
+                        title = "Photon Grenade",
+                        usage = R.string.photon_grenade_usage,
+                        description = R.string.photon_grenade_description2
+                    )
+                )
+
+            ),
+            Equipment(
+                id = "orbital_uplink",
+                name = "ORBITAL SURVEY UPLINK",
+                lore =R.string.orbital_uplink_lore,
+                description = R.string.orbital_uplink_description
+            )
+        ),
+
+
+        "raveners" to listOf(
+
+            Equipment(
+                id = "chromatospore",
+                name = "CHROMATOSPORE CAMOUFLAGE",
+                lore =R.string.chromatospore_lore,
+                description = R.string.chromatospore_description
+            ),
+            Equipment(
+                id = "acid_blood",
+                name = "ACID BLOOD",
+                lore =R.string.acid_blood_lore,
+                description = R.string.acid_blood_description
+            ),
+            Equipment(
+                id = "metamorphic_flesh",
+                name = "METAMORPHIC FLESH",
+                lore =R.string.metamorphic_flesh_lore,
+                description = R.string.metamorphic_flesh_description
+            ),
+            Equipment(
+                id = "heightened_senses",
+                name = "HEIGHTENED SENSES",
+                lore =R.string.heightened_senses_lore,
+                description = R.string.heightened_senses_description
+            )
+        ),
+
+
+
+        "vespids" to listOf(
+
+            Equipment(
+                id = "chromatospore",
+                name = "CHROMATOSPORE CAMOUFLAGE",
+                lore =R.string.chromatospore_lore,
+                description = R.string.chromatospore_description
+            ),
+            Equipment(
+                id = "acid_blood",
+                name = "ACID BLOOD",
+                lore =R.string.acid_blood_lore,
+                description = R.string.acid_blood_description
+            ),
+            Equipment(
+                id = "metamorphic_flesh",
+                name = "METAMORPHIC FLESH",
+                lore =R.string.metamorphic_flesh_lore,
+                description = R.string.metamorphic_flesh_description
+            ),
+            Equipment(
+                id = "heightened_senses",
+                name = "HEIGHTENED SENSES",
+                lore =R.string.heightened_senses_lore,
+                description = R.string.heightened_senses_description
             )
         ),
 

@@ -36,6 +36,11 @@ import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOpe
 import com.example.killteamruleset.ui.data.Xenos.HandOfTheArchon.HandOperatives
 import com.example.killteamruleset.ui.data.Xenos.HearthkynSalvagers.SalvagersOperatives
 import com.example.killteamruleset.ui.data.Xenos.HernkynYaegirs.YaegirsOperatives
+import com.example.killteamruleset.ui.data.Xenos.HierotekCircle.HierotekOperatives
+import com.example.killteamruleset.ui.data.Xenos.Kommandos.KommandosOperatives
+import com.example.killteamruleset.ui.data.Xenos.Mandrakes.MandrakesOperatives
+import com.example.killteamruleset.ui.data.Xenos.Pathfinders.PathfindersOperatives
+import com.example.killteamruleset.ui.data.Xenos.Raveners.RavenersOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
 import com.example.killteamruleset.ui.model.Operative
 
@@ -63,16 +68,21 @@ object OperativeRepository {
             "hand_ofthe_archon" -> HandOperatives
             "hearthkyn_salvager" -> SalvagersOperatives
             "hernkyn_yaegirs" -> YaegirsOperatives
+            "hierotek_circle" -> HierotekOperatives
             "hunter_clade" -> HunterCladeOperatives
             "imperial_navy_breachers" -> NavybreachersOperatives
             "inquisitorial_agents" -> InquisitorialOperatives
             "kasrkin"-> KasrkinOperatives
+            "kommandos" -> KommandosOperatives
             "legionaries" -> LegionariesOperatives
+            "mandrakes" -> MandrakesOperatives
             "murderwing" -> MurdewingOperatives
             "nemesis_claw" -> NemesisOperatives
             "novitiates" -> NovitiatesOperatives
+            "pathfinders" -> PathfindersOperatives
             "phobos_strike_team" -> PhobosOperatives
             "ratlings" -> RatlingsOperatives
+            "raveners" -> RavenersOperatives
             "sanctifiers" -> SanctifiersOperatives
             "scout_squat" -> ScoutOperatives
             "tempestus_aquilon" -> AquilonOperatives

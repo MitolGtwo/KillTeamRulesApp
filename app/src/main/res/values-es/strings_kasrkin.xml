@@ -100,7 +100,7 @@ es inmune al x\" Devastating a menos que sea el objetivo principal.
     ]]></string>
 
     <string name="reconnoitre_killzone_description"><![CDATA[
-La Strategy plopy Relocate cuesta 0CP si este es el Operativo *KASRKIN** seleccionado.
+La Strategy plopy Relocate cuesta 0CP si este es el Operativo **KASRKIN** seleccionado.
     ]]></string>
 
     <string name="kasrkin_auspex_scan_usage"><![CDATA[
@@ -110,7 +110,7 @@ La Strategy plopy Relocate cuesta 0CP si este es el Operativo *KASRKIN** selecci
     <string name="kasrkin_auspex_scan_description"><![CDATA[
 Hasta el inicio de la proxima activacion de ese Operativo, o cuando sea incapacitado, siempre que un
 Operativo enemigo este a 8\" de este Operativo, ese Operativo estaria siendo escaneado. Cuando un aliado
-*KASRKIN** este disparando a un enemigo escaneado, ese enemigo no puede estar **Obscured**.\n\n
+**KASRKIN** este disparando a un enemigo escaneado, ese enemigo no puede estar **Obscured**.\n\n
 
 Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
     ]]></string>
@@ -136,8 +136,8 @@ critica. Esto no se acumula con salvacion mejorada por terreno aventajado.
 
     <string name="kasrkin_adaptive_equipment_description"><![CDATA[
 Puedes hacer cada una de las siguientes acciones una vez por turno:\n
-• Un Operativo **KASRKIN TROOPER** puede hacar la accion Smoke Grenade.\n
-• Un Operativo **KASRKIN TROOPER** puede hacar la accion Stun Grenade.\n
+• Un Operativo **KASRKIN TROOPER** puede hacer la accion Smoke Grenade.\n
+• Un Operativo **KASRKIN TROOPER** puede hacer la accion Stun Grenade.\n
 \n
 Realizar esta accion no afecta a tu limite de granadas por seleccion de equipamiento universal.
     ]]></string>
@@ -247,7 +247,6 @@ luchando.
     <string name="relics_of_cadia_description"><![CDATA[
 Una vez por turno, cuandon un aliado **KASRKIN** esta disparando, peleando o retaleando, si lanzas
 dos o mas fallos, puedes descartar 1 para retener otro fallo como un exito normal en su lugar.
-success instead.
 ]]></string>
 
     <string name="kasrkin_combat_daggers_lore"><![CDATA[

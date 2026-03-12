@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Mandrake-->
+
+    <string name="harrowing_whispers_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="harrowing_whispers_description"><![CDATA[
+Whenever your opponent would activate an enemy operative within 6\" of this operative, you can roll one
+D6 (you cannot do so if you already interrupted that operatives
+activation with this rule or the **DIRGEMAW** operatives Haunting Focus additional rule during this
+turning point): if the result is higher than that enemy operatives APL stat, your
+opponent cannot activate it during this activation. If there are
+no other enemy operatives eligible to be activated, this rule has no effect.
+    ]]></string>
+
+    <string name="oubliex_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="oubliex_description"><![CDATA[
+Whenever this operative is readied, or if this operative
+incapacitates an enemy operative with its huskblade, its oubliex
+becomes active. Whenever its oubliex is active and an attack dice
+would inflict damage on this operative, you can roll one D6: on
+a 5+, ignore the damage inflicted from that attack dice and its
+oubliex is no longer active.
+    ]]></string>
+
+    <string name="balefire_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="balefire_description"><![CDATA[
+Whenever a friendly **MANDRAKE** operative is shooting an enemy operative that has one of your Balefire
+tokens, add 1 to both Dmg stats of that friendly operatives ranged weapons, and those weapons have
+the Saturate weapon rule. Whenever an operative is shooting a friendly **MANDRAKE** operative that
+has one of your Balefire tokens, subtract 1 from both Dmg stats of that operatives ranged weapons
+(to a minimum of 1).
+    ]]></string>
+
+    <string name="wreathe_balefire_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="wreathe_balefire_description"><![CDATA[
+Select one operative visible to this operative that does not
+have one of your Balefire tokens. Until the start of this
+operatives next activation, until it is incapacitated or until
+it performs this action again (whichever comes first), that
+selected operative gains one of your Balefire tokens.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="soul_harvest_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="soul_harvest_description"><![CDATA[
+Whenever an enemy operative is incapacitated as a result of this
+operatives Part Collector rule or baleblade, you gain 1 Soul Harvest point, or two if that
+enemy operative had an APL stat of 3 or more. Whenever a friendly **MANDRAKE**
+operative is activated, you can spend 1 of your Soul Harvest points to either add 1 to its
+APL stat until the end of the battle, or have it regain up to 2D3 lost wounds. Note you
+can spend your Soul Harvest points even if this operative is incapacitated.
+    ]]></string>
+
+    <string name="part_collector_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="part_collector_description"><![CDATA[
+Whenever an enemy operative performs the **Fall Back** action while within control range of this
+operative, you can use this rule. If you do, inflict 2D3 damage on that enemy operative before it moves.
+    ]]></string>
+
+
+    <string name="haunting_focus_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="haunting_focus_description"><![CDATA[
+**STRATEGIC GAMBIT**. Select one enemy operative. Until the Ready step of the next Strategy phase,
+it gains your Haunting Focus token. The next time your opponent would activate an enemy operative
+that has your Haunting Focus token, if this operative is ready, you can activate this operative first
+(you cannot do so if you also rolled to prevent that operative’s activation with the **NIGHTFIEND**
+operatives Harrowing Whispers additional rule during this turning point). If you do, during that
+activation, this operative must shoot against or fight against that enemy operative, and cannot do
+so against any other enemy operatives until it does (if this is not possible, this operatives
+activation is cancelled). After completing this operatives activation, your opponent activates
+that enemy operative (if possible), or activates a different enemy operative if they cannot.
+    ]]></string>
+
+    <string name="pareidolic_projection_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="pareidolic_projection_description"><![CDATA[
+Select one enemy operative that is a valid target for this operative or is **WITHIN SHADOW**.
+Until the start of this operatives next activation, until it is incapacitated or until it performs
+this action again (whichever comes first), worsen the Hit stat of that enemy operatives weapons by 1
+and subtract 2\" from its Move stat (these are not cumulative with being injured).\n\n
+
+This operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it’s
+within control range of is selected for this action.
+    ]]></string>
+
+
+    <string name="shadow_portal_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="shadow_portal_description"><![CDATA[
+Whenever this operative performs the **Reposition** action using a **SHADOW PASSAGE**, you can use this rule.
+If you do, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this
+operatives control range before it is removed and one within its control range after it is set up.\n
+\n
+Each friendly **MANDRAKE** operative can use a **SHADOW PASSAGE** each turning point
+(this takes precedence over one operative once per turning point) if one of your Shadow Portal markers
+is within that operatives control range when it is removed, and the other is when it is set up.
+Note that friendly operatives can do so even if this operative has been incapacitated, and doing so
+does not prevent one operative from using a **SHADOW PASSAGE** in the normal manner.
+    ]]></string>
+
+    <string name="weave_darkness_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="weave_darkness_description"><![CDATA[
+Remove your Weave Darkness marker from the killzone (if any). Then place your Weave Darkness marker
+visible to this operative, or on Vantage terrain of a terrain feature visible to this operative.
+That marker creates an area of smoke with the same size and effects as a smoke grenade (see universal
+equipment), except you do not remove it during the following turning point. If this operative is incapacitated, remove your
+Weave Darkness marker from the killzone.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="shadow_warrior_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="shadow_warrior_description"><![CDATA[
+Whenever this operative is **WITHIN SHADOW**, add 1 to the Critical Dmg stat of its
+glimmersteel blade.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="soulstrike_lore"><![CDATA[
+The balefire hurled by the Mandrakes burns cold and
+fierce, fed by the tinder of their victim’s life force and
+animus. Conventional armour offers little protection
+against this insidious force.
+]]></string>
+
+    <string name="soulstrike_description"><![CDATA[
+Some weapons in this teams rules have the Soulstrike weapon rule below.\n
+\n
+***Soulstrike**: Successful defence dice are determined differently. Each result that is equal
+to or less than the targets APL stat is a success and is retained. Each result that is higher than the
+targets APL stat is a fail and is discarded. Each result of 1 is always a critical success. Each other
+success is a normal success. Each result of 6 is always a fail.\n
+\n
+**Designers Note**: Many of this kill teams rules refer to an enemy operatives APL stat. This would
+be the APL stat at the time the rule takes effect (i.e. including changes).
+
+]]></string>
+
+    <string name="shadow_passage_lore"><![CDATA[
+Mandrakes can slip into the slightest patch of shadow
+as if vanishing into dark waters, only to crawl forth
+from another patch of gloom as though the intervening
+distance does not exist. This sinister ability allows them
+to bypass sentries and defences unseen, and to pounce
+upon their victims from unexpected quarters.
+]]></string>
+
+    <string name="shadow_passage_description"><![CDATA[
+Once per turning point, one friendly **MANDRAKE** operative **WITHIN SHADOW** can use a **SHADOW
+PASSAGE** when it performs the **Reposition** action. If it does, do not move it. Instead, remove it from
+the killzone and set it back up **WITHIN SHADOW** in a location it can be placed. When you set it
+back up, it cannot:\n
+\n
+• Be within control range of an enemy operative.\n
+\n
+• Be a valid target for an enemy operative.\n
+\n
+• Perform the **Shoot** or **Fight** action until the start of the next turning point.
+
+]]></string>
+
+    <string name="umbral_entities_lore"><![CDATA[
+The Mandrakes physical forms shift and shudder like
+shadows smothering the last light of a guttering torch.
+Those rare survivors of their attacks describe the
+Mandrakes blending with the encroaching darkness, or
+even vanishing from sight altogether, confounding the
+increasingly panicked aim of their prey as they flitter
+ever closer.
+]]></string>
+
+    <string name="umbral_entities_description"><![CDATA[
+Whenever an operative is shooting a friendly **MANDRAKE** operative, ignore the Piercing
+weapon rule. Whenever a friendly **MANDRAKE**
+operative is **WITHIN SHADOW**, improve its Save stat by 1.
+]]></string>
+
+    <string name="within_shadow_lore"><![CDATA[
+Mandrakes are creatures of shadow, using the darkness
+to conceal their movements and close in upon their unsuspecting prey.
+]]></string>
+
+    <string name="within_shadow_description"><![CDATA[
+An operative is **WITHIN SHADOW** if any of the following are true:\n
+\n
+• It is within 1\" of Heavy terrain that is not lower than it.\n
+\n
+• Any part of its base is underneath Vantage terrain.\n
+\n
+• A Shadow Portal marker is within its control range (see **SHADEWEAVER**).
+]]></string>
+
+
+    <!--Equipment-->
+
+    <string name="mandrake_chain_snare_lore"><![CDATA[
+Composed of hooked blades attached to a length of
+chain, this weapon bites into the flesh or armour of the
+wielders target, preventing them from fleeing.
+]]></string>
+
+    <string name="mandrake_chain_snare_description"><![CDATA[
+Whenever an enemy operative would perform the **Fall Back** action while within control range
+of a friendly **MANDRAKE** operative, if noother enemy operatives are within that friendly
+operatives control range, you can use this rule. If you do, roll two D6, or one D6 if that enemy
+operative has a higher Wounds stat than that friendly operative. If any result is a 4+, that enemy
+operative cannot perform that action during that activation/counteraction (no AP are spent on it),
+and you cannot use this rule again during this turning point.
+]]></string>
+
+    <string name="shadow_glyph_lore"><![CDATA[
+Etched into the inky skin of the Mandrake, this glyph
+glows when activated, causing the creature to fade
+utterly from sight.
+]]></string>
+
+    <string name="shadow_glyph_description"><![CDATA[
+Once per turning point, when a friendly **MANDRAKE** operative is activated **WITHIN SHADOW**,
+you can use this rule. If you do, until the start of its next activation, while that operative
+has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking precedence over
+all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+]]></string>
+
+    <string name="soul_gem_lore"><![CDATA[
+Containing the life force of a tortured victim, this
+shimmering crystal emits an eerie glow and enhances
+the supernatural might of the bearer.
+]]></string>
+
+    <string name="soul_gem_description"><![CDATA[
+Once per turning point, when a friendly **MANDRAKE** operative is performing the **Shoot**
+action and you select a baleblast, you can use this rule. If you do, until the end of that action,
+that weapon has the Blast 1" weapon rule.
+]]></string>
+
+    <string name="bone_dart_lore"><![CDATA[
+Delicately carved from the bones of the Mandrakes
+victims, these brittle but sharp projectiles are deadly
+when hurled accurately.
+]]></string>
+
+    <string name="bone_dart_description"><![CDATA[
+Once per turning point, a friendly **MANDRAKE** operative can use the following ranged weapon:
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="creeping_horror_lore"><![CDATA[
+Flitting in and out of the shadows, Mandrakes advance
+with unsettling speed.
+]]></string>
+
+    <string name="creeping_horror_description"><![CDATA[
+After each enemy operatives activation, before
+the next operative is activated, one friendly
+**MANDRAKE** operative that has a **Conceal** order
+can perform a free **Dash** action if it starts and
+ends that action **WITHIN SHADOW**. You cannot
+use this ploy during the first turning point, and
+you cannot select each friendly operative for this
+ploy more than once per turning point.
+]]></string>
+
+    <string name="gloaming_shroud_lore"><![CDATA[
+Cloaked in shadows, a Mandrakes form is indistinct,
+rendering it particularly difficult to strike from range
+]]></string>
+
+    <string name="gloaming_shroud_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**MANDRAKE** operative that is **WITHIN SHADOW**, you can retain one of your defence dice as a
+normal success without rolling it (in addition to a cover save, if any).
+]]></string>
+
+    <string name="blade_in_the_dark_lore"><![CDATA[
+Leaping from shadow to shadow, Mandrakes appear beside unsuspecting foes with blades raised to strike
+]]></string>
+
+    <string name="blade_in_the_dark_description"><![CDATA[
+Each friendly **MANDRAKE** operative can perform
+the **Charge** action while it has a **Conceal** order if it
+starts or ends that action **WITHIN SHADOW**.
+]]></string>
+
+    <string name="inescapable_nightmare_lore"><![CDATA[
+The nightmarish appearance of a Mandrake is matched
+by its terrifying speed and accuracy.
+]]></string>
+
+    <string name="inescapable_nightmare_description"><![CDATA[
+Whenever a friendly **MANDRAKE** operative is shooting, fighting or retaliating, if it is **WITHIN
+SHADOW**, you can re-roll one of your attack dice.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="slither_out_of_sight_lore"><![CDATA[
+Beings of umbral malice, Mandrakes may slip
+into shadow to evade the attentions of their confounded foes.
+]]></string>
+
+    <string name="slither_out_of_sight_description"><![CDATA[
+Use this firefight ploy at the end of any operatives activation. Select one friendly
+**MANDRAKE** operative that has an **Engage** order and is WITHIN SHADOW. Change that operatives
+order to **Conceal**.
+]]></string>
+
+    <string name="soul_feast_lore"><![CDATA[
+Mandrakes subsist on the agonies of their victims,
+gaining vigour with each torturous blow inflicted upon
+their prey.
+]]></string>
+
+    <string name="soul_feast_description"><![CDATA[
+Use this firefight ploy when a friendly **MANDRAKE** operative is shooting against,
+fighting against or retaliating against an enemy operative within 6\" of it, at the end of the Resolve
+Attack Dice step. That friendly operative regains a number of lost wounds equal to that enemy
+operatives APL stat, multiplied by the number of your attack dice that inflicted damage during
+that sequence. Excess attack dice are ignored (i.e. if the enemy operative is incapacitated
+before remaining attack dice are resolved). You cannot use this ploy if that friendly **MANDRAKE**
+operative is incapacitated.
+]]></string>
+
+    <string name="nowhere_to_hide_lore"><![CDATA[
+Walls and other obstructions are of no concern to
+Mandrakes, who fade in and out of the physical realm at their own whim.
+]]></string>
+
+    <string name="nowhere_to_hide_description"><![CDATA[
+Use this firefight ploy during a friendly **MANDRAKE** operatives activation, when it
+performs an action in which it moves. Until the end of that activation, that operative can move
+through parts of terrain features as if they were not there, but it cannot move more than its Move
+stat if it is the **Charge** action and must end those moves in a location it can be placed.
+]]></string>
+
+    <string name="shadow_bite_lore"><![CDATA[
+When suffused with shadow, a Mandrake moves with
+unnatural speed and grace, lashing out preemptively
+with its glimmersteel blade.
+]]></string>
+
+    <string name="shadow_bite_description"><![CDATA[
+Use this firefight ploy when an enemy operative performs the **Fight** action during an activation
+in which it performed the **Charge** action, and selects a friendly **MANDRAKE** operative
+**WITHIN SHADOW** to fight against. In the Resolve Attack Dice step of that sequence, you resolve the first
+attack dice (i.e. defender instead of attacker).
+]]></string>
+
+
+
+</resources>

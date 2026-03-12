@@ -45,6 +45,10 @@ val KasrkinOperativeSelection: List<OperativeSelectionRule> = listOf(
         indent = 1
     ),
     OperativeSelectionRule(
+        text = "GUNNER  with Hot-shot Volley Gun and Gun Butt*",
+        indent = 1
+    ),
+    OperativeSelectionRule(
         text = "GUNNER Meltagun and Gun Butt*",
         indent = 1
     ),

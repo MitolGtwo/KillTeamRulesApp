@@ -2,6 +2,7 @@ package com.example.killteamruleset.ui.data
 
 
 import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
 import com.example.killteamruleset.ui.model.FactionRule
 import com.example.killteamruleset.ui.model.Heavy
@@ -876,6 +877,193 @@ object FactionRuleRepository {
                 lore = null,
                 ruleText = null,
                 imageRes = R.drawable.yaegirs_token
+            ),
+        ),
+
+
+
+        "hierotek_circle" to listOf(
+            FactionRule(
+                id = "reanimation_protocol",
+                title = "REANIMATION PROTOCOLS",
+                lore = R.string.reanimation_protocol_lore,
+                ruleText = R.string.reanimation_protocol_description,
+
+            ),
+            FactionRule(
+                id = "magnify",
+                title = "MAGNIFY",
+                lore = R.string.magnify_lore,
+                ruleText = R.string.magnify_description,
+
+                ),
+            FactionRule(
+                id = "living_metal",
+                title = "LIVING METAL",
+                lore = R.string.living_metal_lore,
+                ruleText = R.string.living_metal_description,
+
+                ),
+            FactionRule(
+                id = "hierotek_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.hierotek_tokens
+            ),
+        ),
+
+
+        "kommandos" to listOf(
+            FactionRule(
+                id = "throat_slittas",
+                title = "THROAT SLITTAS",
+                lore = R.string.throat_slittas_lore,
+                ruleText = R.string.throat_slittas_description,
+
+                ),
+            FactionRule(
+                id = "kommandos_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.kommandos_token
+            ),
+        ),
+
+
+        "mandrakes" to listOf(
+            FactionRule(
+                id = "soulstrike",
+                title = "SOULSTRIKE",
+                lore = R.string.soulstrike_lore,
+                ruleText = R.string.soulstrike_description,
+
+                ),
+            FactionRule(
+                id = "shadow_passage",
+                title = "SHADOW PASSAGE",
+                lore = R.string.shadow_passage_lore,
+                ruleText = R.string.shadow_passage_description,
+
+                ),
+            FactionRule(
+                id = "umbral_entities",
+                title = "UMBRAL ENTITIES",
+                lore = R.string.umbral_entities_lore,
+                ruleText = R.string.umbral_entities_description,
+                ),
+            FactionRule(
+                id = "within_shadow",
+                title = "WITHIN SHADOW",
+                lore = R.string.within_shadow_lore,
+                ruleText = R.string.within_shadow_description,
+
+                ),
+            FactionRule(
+                id = "mandrakes_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.mandrakes_token
+            ),
+        ),
+
+
+        "pathfinders" to listOf(
+            FactionRule(
+                id = "markerlights_faction",
+                title = "MARKERLIGHTS",
+                lore = R.string.markerlights_faction_lore,
+                ruleText = R.string.markerlights_faction_description,
+                imageRes = R.drawable.markerlight,
+                ability = Ability(
+                    title = "Markerlight",
+                    usage = R.string.markerlights_faction_usage,
+                    description = R.string.markerlights_faction_description2
+                )
+                ),
+
+            FactionRule(
+                id = "path_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.path_tokens
+            ),
+        ),
+
+        "raveners" to listOf(
+            FactionRule(
+                id = "burrow",
+                title = "BURROW",
+                lore = R.string.burrow_lore,
+                ruleText = R.string.burrow_description,
+                ability = Ability(
+                    title = "Burrow",
+                    usage = R.string.burrow_usage,
+                    description = R.string.burrow_description2
+                )
+            ),
+            FactionRule(
+                id = "tunnel",
+                title = "TUNNEL",
+                lore = R.string.tunnel_lore,
+                ruleText = R.string.tunnel_description,
+                imageRes = R.drawable.tunnel,
+
+                ),
+            FactionRule(
+                id = "predatory_insticts",
+                title = "PREDATORY INSTINCTS",
+                lore = R.string.predatory_insticts_lore,
+                ruleText = R.string.predatory_insticts_description,
+
+                ),
+            FactionRule(
+                id = "raveners_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.raveners_tokens
+            ),
+        ),
+
+
+
+        "vespids" to listOf(
+            FactionRule(
+                id = "burrow",
+                title = "BURROW",
+                lore = R.string.burrow_lore,
+                ruleText = R.string.burrow_description,
+                ability = Ability(
+                    title = "Burrow",
+                    usage = R.string.burrow_usage,
+                    description = R.string.burrow_description2
+                )
+            ),
+            FactionRule(
+                id = "tunnel",
+                title = "TUNNEL",
+                lore = R.string.tunnel_lore,
+                ruleText = R.string.tunnel_description,
+                imageRes = R.drawable.tunnel,
+
+                ),
+            FactionRule(
+                id = "predatory_insticts",
+                title = "PREDATORY INSTINCTS",
+                lore = R.string.predatory_insticts_lore,
+                ruleText = R.string.predatory_insticts_description,
+
+                ),
+            FactionRule(
+                id = "raveners_tokens",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.raveners_tokens
             ),
         ),
 

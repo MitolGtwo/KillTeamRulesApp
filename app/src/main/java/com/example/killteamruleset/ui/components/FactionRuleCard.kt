@@ -85,6 +85,17 @@ fun FactionRuleCard(rule: FactionRule) {
                 )
             }
 
+            // ⭐ ABILITY
+            rule.ability?.let { ability ->
+
+                Spacer(Modifier.height(16.dp))
+
+                AbilityCard(
+                    ability = ability,
+                    onKeywordClick = { selectedKeyword = it }
+                )
+            }
+
 
             // 🔫 WEAPON PROFILES (THIS WAS MISSING)
             if (rule.weapons.isNotEmpty()) {

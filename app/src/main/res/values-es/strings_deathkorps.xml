@@ -235,36 +235,36 @@ Los soldados del planeta de Krieg ofrecen su incuestionable lealtad a sus offici
     <string name="guardsman_orders_description"><![CDATA[
 **STRATEGIC GAMBIT** y **SUPPORT**. Un Operativo **DEATHKORPS WATCHMASTER** aliado puede otorgar una **GUARDSMAN ORDER**. Cuando lo hace, selecciona una de las 4 
         **GUARDSMAN ORDER**
-para todos los Operativos **DEATHKORPS** aliados a 6\" la reciba.\n
+para todos los Operativos **DEATHKORPS** aliados a 6\" la reciban.\n
 \n
 Cuando un Operativo aliado recibe una **GUARDSMAN ORDER**, aplica sus reglas hasta el final del turno. Operativos aliados no pueden beneficiarse de mas de una **GUARDSMAN ORDER**
 a la vez, solo reciben los beneficios de la **GUARDSMAN ORDER** mas reciente que hayan recibido.\n
 \n
--TAKE AIM!\n
+-**TAKE AIM!**\n
 Las armas de rango de Operativos con esta orden (excluyendo Mortar Barrage y Remote Detonator) obtienen la regla Ceaseless.\n
 \n
--FIX BAYONETS!\n
+-**FIX BAYONETS!**\n
 Las armas de melee de Operativos con esta orden obtienen la regla Ceaseless.\n
 \n
--DIG IN!\n
+-**DIG IN!**\n
 Cuando un Operativo dispara a un Aliado que haya recibido esta orden, si puedes retener salvacion por cobertura, puedes re lanzar cualquiera de tus dados de defensa de un
         mismo valor (Ej todos los dados con resultado de 2).\n
 \n
--MOVE! MOVE! MOVE!\n
+-**MOVE! MOVE! MOVE!**\n
 Cuando un Operativo recibe esta orden, al momento de hacer una accion de **Reposition** añade 1\" al su movimiento.
 
 ]]></string>
 
     <!--Equipment-->
     <string name="chronometer_lore"><![CDATA[
-Las Operaciones Krieg asignadas con tiempos estrictos. Cronometros sincronizados aseguran que las tropas de adhieran a los tiempos asignados por el sargento. 
+Las Operaciones Krieg son asignadas con cuotas de tiempo estrictas. Cronometros sincronizados aseguran que las tropas de adhieran a los tiempos asignados por el sargento.
 ]]></string>
 
     <string name="chronometer_description"><![CDATA[
 Una vez por batalla como **STRATEGIC GAMBIT** durante el primer o segundo turno. Cada aliado **DEATHKORPS** completamente dentro de tu territorio puede realizar una
         accion **Dash** gratis en el orden de tu eleccion, pero cada Operativo debe quedar mas cerca del borde del campo de tu oponente.\n
 \n
-No puedes usar esto y la strategy ploy Regroup durante el mismo turno.
+No puedes usar esto y la Strategy ploy Regroup durante el mismo turno.
 ]]></string>
 
     <string name="comm_beads_lore"><![CDATA[

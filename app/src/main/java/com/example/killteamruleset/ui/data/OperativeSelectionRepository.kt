@@ -36,6 +36,11 @@ import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOpe
 import com.example.killteamruleset.ui.data.Xenos.HandOfTheArchon.HandOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.HearthkynSalvagers.SalvagersOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.HernkynYaegirs.YaegirsOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.HierotekCircle.HierotekOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Kommandos.KommandosOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Mandrakes.MandrakeOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Pathfinders.PathfindersOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Raveners.RavenersOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
@@ -63,16 +68,21 @@ object OperativeSelectionRepository {
          "hunter_clade" to HunterCladeOperativeSelection,
         "hearthkyn_salvager" to SalvagersOperativeSelection,
         "hernkyn_yaegirs" to YaegirsOperativeSelection,
+        "hierotek_circle" to HierotekOperativeSelection,
         "imperial_navy_breachers" to NavisOperativeSelection,
         "inquisitorial_agents" to InquisitorialOperativeSelection,
         "kasrkin" to KasrkinOperativeSelection,
+        "kommandos" to KommandosOperativeSelection,
         "legionaries" to LegionariesOperativeSelection,
+        "mandrakes" to MandrakeOperativeSelection,
         "murderwing" to MurderwingOperativeSelection,
         "nemesis_claw" to NemesisOperativeSelection,
         "novitiates" to NovitiatesOperativeSelection,
+        "pathfinders" to PathfindersOperativeSelection,
         "plague_marines" to PlagueMarineOperativeSelection,
         "phobos_strike_team" to PhobosOperativeSelection,
         "ratlings" to RatlingsOperativeSelection,
+        "raveners" to RavenersOperativeSelection,
         "sanctifiers" to SanctifiersOperativeSelection,
         "scout_squat" to ScoutOperativeSelection,
         "tempestus_aquilon" to AquilonOperativeSelection,

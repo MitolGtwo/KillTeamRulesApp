@@ -9,5 +9,6 @@ data class FactionRule(
     @StringRes val ruleText: Int? = null,
     val imageRes: Int? = null,
     val ability: Ability? = null,
-    val weapons: List<WeaponProfile> = emptyList()
+    val weapons: List<WeaponProfile> = emptyList(),
+
 )
