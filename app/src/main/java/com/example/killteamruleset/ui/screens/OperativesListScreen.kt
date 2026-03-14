@@ -23,6 +23,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
+import com.example.killteamruleset.state.OperativesUIState
 
 import kotlinx.coroutines.launch
 import com.example.killteamruleset.ui.components.ExpandableCharacterCard
@@ -39,7 +40,7 @@ fun OperativesListScreen(
     KillTeamBackground {
 
         var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
-        var cardView by remember { mutableStateOf(false) }
+        var cardView by OperativesUIState.isCarouselView
 
         Column(
             modifier = Modifier

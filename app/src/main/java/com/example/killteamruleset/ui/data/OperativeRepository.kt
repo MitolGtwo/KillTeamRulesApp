@@ -41,7 +41,11 @@ import com.example.killteamruleset.ui.data.Xenos.Kommandos.KommandosOperatives
 import com.example.killteamruleset.ui.data.Xenos.Mandrakes.MandrakesOperatives
 import com.example.killteamruleset.ui.data.Xenos.Pathfinders.PathfindersOperatives
 import com.example.killteamruleset.ui.data.Xenos.Raveners.RavenersOperatives
+import com.example.killteamruleset.ui.data.Xenos.VespidStingwings.VespidsOperatives
+import com.example.killteamruleset.ui.data.Xenos.VoidDancers.VoidDancersOperatives
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperatives
+import com.example.killteamruleset.ui.data.Xenos.Wyrmblade.WyrmbladeOperatives
+import com.example.killteamruleset.ui.data.Xenos.XV26StealthBattlesuits.XV26Operatives
 import com.example.killteamruleset.ui.model.Operative
 
 object OperativeRepository {
@@ -88,8 +92,12 @@ object OperativeRepository {
             "tempestus_aquilon" -> AquilonOperatives
             "wolf_scout" -> Wolfperatives
             "plague_marines" -> PlagueMarinesOperatives
+            "vespids" -> VespidsOperatives
+            "void_dancer" -> VoidDancersOperatives
             "warpcoven" -> WarpcovenOperatives
+            "wyrmblade" -> WyrmbladeOperatives
             "wrecka_krew" -> WreckaKrewOperatives
+            "xv26" -> XV26Operatives
             else -> emptyList()
         }
     }

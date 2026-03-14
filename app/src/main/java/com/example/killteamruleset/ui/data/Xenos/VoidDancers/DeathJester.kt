@@ -1,4 +1,5 @@
-package com.example.killteamruleset.ui.data.Xenos.Wyrmblade
+package com.example.killteamruleset.ui.data.Xenos.VoidDancers
+
 
 
 import com.example.killteamruleset.R
@@ -12,70 +13,79 @@ import com.example.killteamruleset.ui.model.Limited
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Piercing
-import com.example.killteamruleset.ui.model.Piercing_Crits
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Saturate
-import com.example.killteamruleset.ui.model.Seek_light
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
-import com.example.killteamruleset.ui.model.Silent
 import com.example.killteamruleset.ui.model.Stun
+import com.example.killteamruleset.ui.model.Torrent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
 
-val SanctusTalon = Operative(
-    name = "Sanctus Talon",
+val DeathJester = Operative(
+    name = "Death Jester",
     imageRes = R.drawable.dk_watch,
     stats = OperativeStats(
         apl = 3,
-        move = "6\"",
+        move = "7\"",
         save = "4+",
         wounds = 9
     ),
     weapons = listOf(
+        WeaponProfile(
+            name = "Shrieker Cannon (focused)",
+            type = WeaponType.RANGED,
+            attacks = 5,
+            hit = "3+",
+            damage = "4/5",
+            keywords = listOf(
+                Rending,
+                Heavy("Reposition Only"),
+            ),
+            extraRules = listOf("*Humbling Cruelty")
+        ),
+        WeaponProfile(
+            name = "Shrieker Cannon (sweeping)",
+            type = WeaponType.RANGED,
+            attacks = 4,
+            hit = "3+",
+            damage = "4/5",
+            keywords = listOf(
+                Rending,
+                Heavy("Dash Only"),
+                Torrent(2)
+            ),
+            extraRules = listOf("*Humbling Cruelty")
+        ),
 
         WeaponProfile(
-            name = "Sanctus bio-dagger",
+            name = "Shrieker Blade",
             type = WeaponType.MELEE,
             attacks = 4,
             hit = "3+",
-            damage = "3/6",
+            damage = "3/4",
             keywords = listOf(
-                Lethal(4),
-                Shock
+                Rending
             )
         ),
     ),
 
     abilities = listOf(
         Ability(
-            title = "Creeping Shadow",
-            usage = R.string.creeping_shadow_usage,
-            description = R.string.creeping_shadow_description
-        ),
-        Ability(
-            title = "Assassinate",
-            usage = R.string.mesatsu_usage,
-            description = R.string.mesatsu_description
-        ),
-        Ability(
-            title = "Familias´s Soulsight",
-            usage = R.string.familiar_melee_usage,
-            description = R.string.familiar_melee_description
-        ),
-
-        ),
+            title = "Humbling Cruelty",
+            usage = R.string.humbling_cruelty_usage,
+            description = R.string.humbling_cruelty_description
+        )
+    ),
 
 
     keywords = listOf(
-        "WYRMBLADE",
-        "TYRANID",
-        "GENESTEALER CULT",
-        "CULT AGENT",
-        "SANCTUS",
-        "SNIPER",
-        "32MM"
+        "VOID-DANCER TROUPE",
+        "AELDARI",
+        "HARLEQUIN",
+        "DEATH JESTER",
+        "25MM"
     )
 )

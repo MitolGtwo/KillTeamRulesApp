@@ -21,39 +21,26 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 
 val VespidSkyblast = Operative(
-    name = "Vespid Shadestrain",
+    name = "Vespid Skyblast",
     imageRes = R.drawable.dk_watch,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
-        save = "3+",
+        save = "5+",
         wounds = 9
     ),
     weapons = listOf(
         WeaponProfile(
-            name = "Neutron Sting",
+            name = "Neutron Grenade Launcher",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "4+",
             damage = "3/3",
             keywords = listOf(
-                Range(8),
-                Devastating(2)
-            )
-        ),
-        WeaponProfile(
-            name = "Neutron Grenade",
-            type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "4+",
-            damage = "3/3",
-            keywords = listOf(
-                Range(6),
                 Blast(2),
-                Devastating(2),
-                Limited(1),
-                Saturate
-            )
+                Devastating(2)
+            ),
+            extraRules = listOf("*Neutron Bombardment")
         ),
         WeaponProfile(
             name = "Claws",
@@ -68,14 +55,14 @@ val VespidSkyblast = Operative(
 
     abilities = listOf(
         Ability(
-            title = "Ghost Rig",
-            usage = R.string.ghost_rig_usage,
-            description = R.string.ghost_rig_description
+            title = "Neutron Bombardment",
+            usage = R.string.neutron_bombardment_usage,
+            description = R.string.neutron_bombardment_description
         ),
         Ability(
-            title = "Camouflaged",
-            usage = R.string.camouflaged_usage,
-            description = R.string.camouflaged_description
+            title = "Neutron Fallout",
+            usage = R.string.neutron_fallout_usage,
+            description = R.string.neutron_fallout_description
         ),
     ),
 

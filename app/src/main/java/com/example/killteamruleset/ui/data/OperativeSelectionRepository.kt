@@ -41,7 +41,12 @@ import com.example.killteamruleset.ui.data.Xenos.Kommandos.KommandosOperativeSel
 import com.example.killteamruleset.ui.data.Xenos.Mandrakes.MandrakeOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.Pathfinders.PathfindersOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.Raveners.RavenersOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.VespidStingwings.VespidsOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.VespidStingwings.VespidsOperatives
+import com.example.killteamruleset.ui.data.Xenos.VoidDancers.VoidDancersOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.WreckaKrew.WreckaKrewOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Wyrmblade.WyrmbladeOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.XV26StealthBattlesuits.XV26OperativeSelection
 import com.example.killteamruleset.ui.model.OperativeSelectionRule
 
 object OperativeSelectionRepository {
@@ -86,9 +91,13 @@ object OperativeSelectionRepository {
         "sanctifiers" to SanctifiersOperativeSelection,
         "scout_squat" to ScoutOperativeSelection,
         "tempestus_aquilon" to AquilonOperativeSelection,
+        "vespids" to VespidsOperativeSelection,
+        "void_dancer" to VoidDancersOperativeSelection,
         "wolf_scout" to WolfOperativeSelection,
         "warpcoven" to WarpcovenOperativeSelection,
+        "wyrmblade" to WyrmbladeOperativeSelection,
         "wrecka_krew" to WreckaKrewOperativeSelection,
+        "xv26" to XV26OperativeSelection
 
     )
 

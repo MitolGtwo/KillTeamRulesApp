@@ -99,7 +99,7 @@ enemigo, o mas de una vez por turno.
 
     <string name="plaguemarine_iconbearer_description"><![CDATA[
 
-       Cuando vayas a determinar el control en un objetivo de mision, trata la estadistica APL de este Operativo
+       Cuando vayas a determinar el control en un objetivo, trata la estadistica APL de este Operativo
          como +1 a su valor actual, esto no cambia la estadistica de APL de este Operativo, cualquier cambio a este valor es acumulativo.
 
      ]]></string>

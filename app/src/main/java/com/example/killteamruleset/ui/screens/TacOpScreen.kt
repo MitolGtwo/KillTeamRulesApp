@@ -18,6 +18,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.ArchetypeDropdown
 import com.example.killteamruleset.ui.components.KillTeamBackground
+import com.example.killteamruleset.ui.components.KillTeamBackground2
 import com.example.killteamruleset.ui.components.KillTeamWhiteBackground
 import com.example.killteamruleset.ui.components.TacOpCard
 import com.example.killteamruleset.ui.components.TacOpsSection
@@ -28,6 +29,8 @@ import com.example.killteamruleset.ui.theme.Black
 
 @Composable
 fun TacOpScreen(
+
+
     initialArchetype: Archetypes? = null,
     onBack: () -> Unit
 ) {
@@ -42,7 +45,7 @@ fun TacOpScreen(
             TacOpRepository.getByArchetype(selectedArchetype!!)
     }
 
-    KillTeamWhiteBackground {
+    KillTeamBackground2 {
         Column(
             modifier = Modifier
                 .fillMaxSize()

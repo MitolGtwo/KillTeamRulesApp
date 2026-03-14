@@ -1033,39 +1033,96 @@ object FactionRuleRepository {
 
         "vespids" to listOf(
             FactionRule(
-                id = "burrow",
-                title = "BURROW",
-                lore = R.string.burrow_lore,
-                ruleText = R.string.burrow_description,
-                ability = Ability(
-                    title = "Burrow",
-                    usage = R.string.burrow_usage,
-                    description = R.string.burrow_description2
-                )
+                id = "vespid_communion",
+                title = "COMMUNION",
+                lore = R.string.vespid_communion_lore,
+                ruleText = R.string.vespid_communion_description
             ),
             FactionRule(
-                id = "tunnel",
-                title = "TUNNEL",
-                lore = R.string.tunnel_lore,
-                ruleText = R.string.tunnel_description,
-                imageRes = R.drawable.tunnel,
+                id = "neutron_charge",
+                title = "NEUTRON CHARGE",
+                lore = R.string.neutron_charge_lore,
+                ruleText = R.string.neutron_charge_description
 
                 ),
             FactionRule(
-                id = "predatory_insticts",
-                title = "PREDATORY INSTINCTS",
-                lore = R.string.predatory_insticts_lore,
-                ruleText = R.string.predatory_insticts_description,
+                id = "vespid_fly",
+                title = "FLY",
+                lore = R.string.vespid_fly_lore,
+                ruleText = R.string.vespid_fly_description,
 
                 ),
             FactionRule(
-                id = "raveners_tokens",
+                id = "vespids_tokens",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.raveners_tokens
+                imageRes = R.drawable.vespid_tokens
             ),
         ),
+
+
+        "void_dancer" to listOf(
+            FactionRule(
+                id = "saedath",
+                title = "SAEDATH",
+                lore = R.string.saedath_lore,
+                ruleText = R.string.saedath_description
+            ),
+            FactionRule(
+                id = "harlequin_panoply",
+                title = "HARLEQUIN’S PANOPLY",
+                lore = R.string.harlequin_panoply_lore,
+                ruleText = R.string.harlequin_panoply_description
+            ),
+        ),
+
+
+        "wyrmblade" to listOf(
+            FactionRule(
+                id = "familiar_territory",
+                title = "FAMILIAR TERRITORY",
+                lore = R.string.familiar_territory_lore,
+                ruleText = R.string.familiar_territory_description
+            ),
+            FactionRule(
+                id = "cult_agent",
+                title = "CULT AGENT",
+                lore = R.string.cult_agent_lore,
+                ruleText = R.string.cult_agent_description
+            ),
+            FactionRule(
+                id = "cult_ambush",
+                title = "CULT AMBUSH",
+                lore = R.string.cult_ambush_lore,
+                ruleText = R.string.cult_ambush_description
+            ),
+        ),
+
+
+        "xv26" to listOf(
+            FactionRule(
+                id = "kauyonxv",
+                title = "KAUYON",
+                lore = R.string.kauyonxv_lore,
+                ruleText = R.string.kauyonxv_description,
+                imageRes = R.drawable.kayuon
+            ),
+            FactionRule(
+                id = "stealth_suits",
+                title = "STEALTH FIELDS",
+                lore = R.string.stealth_suits_lore,
+                ruleText = R.string.stealth_suits_description
+            ),
+            FactionRule(
+                id = "xv25_markers",
+                title =null,
+                lore = null,
+                ruleText = null,
+                imageRes = R.drawable.xvtoken
+            ),
+        ),
+
 
 
         //Wrecka Krew

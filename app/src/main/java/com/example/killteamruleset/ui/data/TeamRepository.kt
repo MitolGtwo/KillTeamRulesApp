@@ -568,6 +568,19 @@ object TeamRepository {
             quote = "bzzzzzzzzzzzz"
         ),
         Team(
+            id = "void_dancer",
+            name = "Void-Dancer Troupé",
+            alliance = Alliance.XENOS,
+            type = TeamType.ELITE,
+            difficulty = "Easy",
+            archetypes = listOf(Archetypes.INFILTRATION,Archetypes.RECON),
+            factionRulesBackgroundRes = R.drawable.dancer_faction_bg,
+            backgroundRes = R.drawable.dancer_faction,
+            assemblyPdfAsset = "pdfs/dancer_assembly.pdf",
+            iconRes = R.drawable.dancer_logo,
+            quote = "What about another joke? Murray"
+        ),
+        Team(
             id = "wyrmblade",
             name = "Wyrmblade",
             alliance = Alliance.XENOS,

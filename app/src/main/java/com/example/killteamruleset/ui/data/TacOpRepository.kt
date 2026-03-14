@@ -110,7 +110,7 @@ object TacOpRepository {
             id = "infiltration_01",
             title ="TRACK ENEMY",
             archetype = Archetypes.INFILTRATION,
-            reveal = R.string.infiltration_02_reveal,
+            reveal = R.string.infiltration_01_reveal,
             additionalRules = R.string.infiltration_01_additional,
             victoryPoints = R.string.infiltration_01_victory
         ),

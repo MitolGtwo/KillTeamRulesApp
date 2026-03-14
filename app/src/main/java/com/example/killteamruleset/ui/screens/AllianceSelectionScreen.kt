@@ -1,6 +1,6 @@
 package com.example.killteamruleset.ui.screens
 
-import com.example.killteamruleset.ui.util.LocaleManager
+
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material3.*
@@ -14,23 +14,27 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.example.killteamruleset.ui.components.AllianceHeader
 import com.example.killteamruleset.ui.model.Alliance
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import com.example.killteamruleset.state.AllianceUIState
 import com.example.killteamruleset.ui.components.AllianceSection
 import com.example.killteamruleset.ui.components.KillTeamBackground
-/*import com.example.killteamruleset.ui.components.TeamListSection*/
 import com.example.killteamruleset.ui.data.FavoritesRepository
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Team
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 
 
 @Composable
 fun AllianceSelectionScreen(
     onTeamSelected: (Team) -> Unit
 ) {
-    var expandedAlliance by remember { mutableStateOf<Alliance?>(null) }
+    var expandedAlliance by AllianceUIState.expandedAlliance
 
     val context = LocalContext.current
     val favorites by FavoritesRepository

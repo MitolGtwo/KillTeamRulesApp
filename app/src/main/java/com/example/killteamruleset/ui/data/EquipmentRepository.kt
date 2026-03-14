@@ -1109,30 +1109,142 @@ object EquipmentRepository {
         "vespids" to listOf(
 
             Equipment(
-                id = "chromatospore",
-                name = "CHROMATOSPORE CAMOUFLAGE",
-                lore =R.string.chromatospore_lore,
-                description = R.string.chromatospore_description
+                id = "neurostimulant",
+                name = "NEUROSTIMULANT",
+                lore =R.string.neurostimulant_lore,
+                description = R.string.neurostimulant_description
             ),
             Equipment(
-                id = "acid_blood",
-                name = "ACID BLOOD",
-                lore =R.string.acid_blood_lore,
-                description = R.string.acid_blood_description
+                id = "convergence_stimulant",
+                name = "CONVERGENCE STIMULANT",
+                lore =R.string.convergence_stimulant_lore,
+                description = R.string.convergence_stimulant_description
             ),
             Equipment(
-                id = "metamorphic_flesh",
-                name = "METAMORPHIC FLESH",
-                lore =R.string.metamorphic_flesh_lore,
-                description = R.string.metamorphic_flesh_description
+                id = "accelerant_stimulant",
+                name = "ACCELERANT STIMULANT",
+                lore =R.string.accelerant_stimulant_lore,
+                description = R.string.accelerant_stimulant_description
             ),
             Equipment(
-                id = "heightened_senses",
-                name = "HEIGHTENED SENSES",
-                lore =R.string.heightened_senses_lore,
-                description = R.string.heightened_senses_description
+                id = "aggression_stimulant",
+                name = "AGGRESSION STIMULANT",
+                lore =R.string.aggression_stimulant_lore,
+                description = R.string.aggression_stimulant_description
             )
         ),
+
+
+        "void_dancer" to listOf(
+
+            Equipment(
+                id = "dancer_talisman",
+                name = "WRAITHBONE TALISMAN",
+                lore =R.string.dancer_talisman_lore,
+                description = R.string.dancer_talisman_description
+            ),
+            Equipment(
+                id = "shrieker_rounds",
+                name = "SHRIEKER TOXIN ROUNDS",
+                lore =R.string.shrieker_rounds_lore,
+                description = R.string.shrieker_rounds_description
+            ),
+            Equipment(
+                id = "death_mask",
+                name = "DEATH MASK",
+                lore =R.string.death_mask_lore,
+                description = R.string.death_mask_description
+            ),
+            Equipment(
+                id = "under_mask",
+                name = "UNDERSTUDY’S MASKT",
+                lore =R.string.under_mask_lore,
+                description = R.string.under_mask_description
+            )
+        ),
+
+        "wyrmblade" to listOf(
+
+            Equipment(
+                id = "blast_charges",
+                name = "BLASTING CHARGES",
+                lore =R.string.blast_charges_lore,
+                description = R.string.blast_charges_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Blasting Charge",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "4+",
+                        damage = "3/5",
+                        keywords = listOf(
+                            Range(4),
+                            Blast(1),
+                            Saturate
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "w_cult_knives",
+                name = "CULT KNIVES",
+                lore =R.string.w_cult_knives_lore,
+                description = R.string.w_cult_knives_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Cult knife",
+                        type = WeaponType.MELEE,
+                        attacks = 3,
+                        hit = "4+",
+                        damage = "3/4",
+                        keywords = listOf(
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "explosive_traps",
+                name = "EXPLOSIVE TRAPS",
+                lore =R.string.explosive_traps_lore,
+                description = R.string.explosive_traps_description
+            ),
+            Equipment(
+                id = "w_spotlights",
+                name = "SPOTLIGHTS",
+                lore =R.string.w_spotlights_lore,
+                description = R.string.w_spotlights_description
+            )
+        ),
+
+
+        "xv26" to listOf(
+
+            Equipment(
+                id = "xv26_multi",
+                name = "XV26 MULTITRACKERS",
+                lore =R.string.xv26_multi_lore,
+                description = R.string.xv26_multi_description
+            ),
+            Equipment(
+                id = "counter_network",
+                name = "COUNTER-NETWORK JAMMERS",
+                lore =R.string.counter_network_lore,
+                description = R.string.counter_network_description
+            ),
+            Equipment(
+                id = "advance_sunglasses",
+                name = "ADVANCED BLACKSUN FILTERS",
+                lore =R.string.advance_sunglasses_lore,
+                description = R.string.advance_sunglasses_description
+            ),
+            Equipment(
+                id = "hardwire_target",
+                name = "HARDWIRED TARGET LOCKS",
+                lore =R.string.hardwire_target_lore,
+                description = R.string.hardwire_target_description
+            )
+        ),
+
 
 
         "wrecka_krew" to listOf(

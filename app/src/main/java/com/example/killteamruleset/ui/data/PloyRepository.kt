@@ -2008,66 +2008,257 @@ object PloyRepository {
         "vespids" to listOf(
             // ── Vespids STRATEGY ──
             Ploy(
-                id = "death_from_below",
-                name ="DEATH FROM BELOW",
+                id = "hardened_exoskeleton",
+                name ="HARDENED EXOSKELETON",
                 type = PloyType.STRATEGY,
-                lore = R.string.death_from_below_lore,
-                description = R.string.death_from_below_description
+                lore = R.string.hardened_exoskeleton_lore,
+                description = R.string.hardened_exoskeleton_description
             ),
             Ploy(
-                id = "whipcord_emergence",
-                name = "WHIPCORD EMERGENCE",
+                id = "aerial_agility",
+                name = "AERIAL AGILITY",
                 type = PloyType.STRATEGY,
-                lore = R.string.whipcord_emergence_lore,
-                description = R.string.whipcord_emergence_description
+                lore = R.string.aerial_agility_lore,
+                description = R.string.aerial_agility_description
             ),
             Ploy(
-                id = "writhe_out_sight",
-                name = "WRITHE OUT OF SIGHT",
+                id = "airbone_predators",
+                name = "AIRBORNE PREDATORS",
                 type = PloyType.STRATEGY,
-                lore = R.string.writhe_out_sight_lore,
-                description = R.string.writhe_out_sight_description
+                lore = R.string.airbone_predators_lore,
+                description = R.string.airbone_predators_description
             ),
             Ploy(
-                id = "tunnel_lurkers",
-                name = "TUNNEL LURKERS",
+                id = "sting",
+                name = "STING",
                 type = PloyType.STRATEGY,
-                lore = R.string.tunnel_lurkers_lore,
-                description = R.string.tunnel_lurkers_description
+                lore = R.string.sting_lore,
+                description = R.string.sting_description
             ),
 
 
             // ── Vespids  FIREFIGHT ──
             Ploy(
-                id = "slithering_evasion",
-                name = "SLITHERING EVASION",
+                id = "ocelli",
+                name = "OCELLI",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.slithering_evasion_lore,
-                description = R.string.slithering_evasion_description
+                lore = R.string.ocelli_lore,
+                description = R.string.ocelli_description
             ),
             Ploy(
-                id = "subterrean_horror",
-                name = "SUBTERRANEAN HORROR",
+                id = "darting_flight",
+                name = "DARTING FLIGHT",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.subterrean_horror_lore,
-                description = R.string.subterrean_horror_description
+                lore = R.string.darting_flight_lore,
+                description = R.string.darting_flight_description
             ),
             Ploy(
-                id = "burrowing_strike",
-                name = "BURROWING STRIKE",
+                id = "neutron_overload",
+                name = "NEUTRON OVERLOAD",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.burrowing_strike_lore,
-                description = R.string.burrowing_strike_description
+                lore = R.string.neutron_overload_lore,
+                description = R.string.neutron_overload_description
             ),
             Ploy(
-                id = "death_frenzy",
-                name = "DEATH FRENZY",
+                id = "vicious_venom",
+                name = "VICIOUS VENOM",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.death_frenzy_lore,
-                description = R.string.death_frenzy_description
+                lore = R.string.vicious_venom_lore,
+                description = R.string.vicious_venom_description
             )
         ),
 
+
+        "void_dancer" to listOf(
+            // ── Vespids STRATEGY ──
+            Ploy(
+                id = "darting_salvo",
+                name ="DARTING SALVO",
+                type = PloyType.STRATEGY,
+                lore = R.string.darting_salvo_lore,
+                description = R.string.darting_salvo_description
+            ),
+            Ploy(
+                id = "rising_crescendo",
+                name = "RISING CRESCENDO",
+                type = PloyType.STRATEGY,
+                lore = R.string.rising_crescendo_lore,
+                description = R.string.rising_crescendo_description
+            ),
+            Ploy(
+                id = "prismatic_blur",
+                name = "PRISMATIC BLUR",
+                type = PloyType.STRATEGY,
+                lore = R.string.prismatic_blur_lore,
+                description = R.string.prismatic_blur_description
+            ),
+            Ploy(
+                id = "cego_jest",
+                name = "CEGORACH’S JEST",
+                type = PloyType.STRATEGY,
+                lore = R.string.cego_jest_lore,
+                description = R.string.cego_jest_description
+            ),
+
+
+            // ── Vespids  FIREFIGHT ──
+            Ploy(
+                id = "m_entrance",
+                name = "MURDEROUS ENTRANCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.m_entrance_lore,
+                description = R.string.m_entrance_description
+            ),
+            Ploy(
+                id = "curtain_falls",
+                name = "THE CURTAIN FALLS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.curtain_falls_lore,
+                description = R.string.curtain_falls_description
+            ),
+            Ploy(
+                id = "elusive_t",
+                name = "ELUSIVE TARGET",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.elusive_t_lore,
+                description = R.string.elusive_t_description
+            ),
+            Ploy(
+                id = "vicious_venom",
+                name = "DOMINO FIELD",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.vicious_venom_lore,
+                description = R.string.vicious_venom_description
+            )
+        ),
+
+
+        "wyrmblade" to listOf(
+            // ── wyrmblade STRATEGY ──
+            Ploy(
+                id = "the_day",
+                name = "THE DAY IS AT HAND",
+                type = PloyType.STRATEGY,
+                lore = R.string.the_day_lore,
+                description = R.string.the_day_description
+            ),
+            Ploy(
+                id = "w_crossfire",
+                name = "CROSSFIRE",
+                type = PloyType.STRATEGY,
+                lore = R.string.w_crossfire_lore,
+                description = R.string.w_crossfire_description
+            ),
+            Ploy(
+                id = "one_with_shadows",
+                name = "ONE WITH THE SHADOWS",
+                type = PloyType.STRATEGY,
+                lore = R.string.one_with_shadows_lore,
+                description = R.string.one_with_shadows_description
+            ),
+            Ploy(
+                id = "divert_and_disappear",
+                name = "DIVERT AND DISAPPEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.divert_and_disappear_lore,
+                description = R.string.divert_and_disappear_description
+            ),
+
+
+            // ── wyrmblade  FIREFIGHT ──
+            Ploy(
+                id = "slink_darkness",
+                name = "SLINK INTO DARKNESS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.slink_darkness_lore,
+                description = R.string.slink_darkness_description
+            ),
+            Ploy(
+                id = "coiled_serpent",
+                name = "COILED SERPENT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.coiled_serpent_lore,
+                description = R.string.coiled_serpent_description
+            ),
+            Ploy(
+                id = "w_loyalty",
+                name = "UNQUESTIONING LOYALTY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.w_loyalty_lore,
+                description = R.string.w_loyalty_description
+            ),
+            Ploy(
+                id = "a_plan_in_the_making",
+                name = "A PLAN GENERATIONS IN THE MAKING",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.a_plan_in_the_making_lore,
+                description = R.string.a_plan_in_the_making_description
+            )
+        ),
+
+
+        "xv26" to listOf(
+            // ── xv26 STRATEGY ──
+            Ploy(
+                id = "patient_hunters",
+                name = "PATIENT HUNTERS",
+                type = PloyType.STRATEGY,
+                lore = R.string.patient_hunters_lore,
+                description = R.string.patient_hunters_description
+            ),
+            Ploy(
+                id = "xv_bonds",
+                name = "BONDS OF UNITY",
+                type = PloyType.STRATEGY,
+                lore = R.string.xv_bonds_lore,
+                description = R.string.xv_bonds_description
+            ),
+            Ploy(
+                id = "prepare_ambush",
+                name = "PREPARE AMBUSH",
+                type = PloyType.STRATEGY,
+                lore = R.string.prepare_ambush_lore,
+                description = R.string.prepare_ambush_description
+            ),
+            Ploy(
+                id = "hololive",
+                name = "HOLOWAVE COUNTERMEASURES",
+                type = PloyType.STRATEGY,
+                lore = R.string.hololive_lore,
+                description = R.string.hololive_description
+            ),
+
+
+            // ── xv26  FIREFIGHT ──
+            Ploy(
+                id = "vectored_retro",
+                name = "VECTORED RETRO-THRUSTERS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.vectored_retro_lore,
+                description = R.string.vectored_retro_description
+            ),
+            Ploy(
+                id = "ghostshroud",
+                name = "GHOSTSHROUD",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.ghostshroud_lore,
+                description = R.string.ghostshroud_description
+            ),
+            Ploy(
+                id = "engage_jet",
+                name = "ENGAGE JET PACK",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.engage_jet_lore,
+                description = R.string.engage_jet_description
+            ),
+            Ploy(
+                id = "xv_saviour",
+                name = "SAVIOUR PROTOCOLS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.xv_saviour_lore,
+                description = R.string.xv_saviour_description
+            )
+        ),
 
 
         "wrecka_krew" to listOf(

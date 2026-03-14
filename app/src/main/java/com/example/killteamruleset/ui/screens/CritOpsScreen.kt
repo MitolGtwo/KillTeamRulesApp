@@ -16,6 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.CritOpCard
+import com.example.killteamruleset.ui.components.KillTeamBackground2
 import com.example.killteamruleset.ui.data.CritOpsRepository
 import com.example.killteamruleset.ui.model.KeywordInfo
 
@@ -25,7 +26,7 @@ fun CritOpsScreen(
     onKeywordClick: (KeywordInfo) -> Unit
 ) {
     val critOps = CritOpsRepository.allCritOps
-
+    KillTeamBackground2 {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -50,5 +51,5 @@ fun CritOpsScreen(
                 )
             }
         }
-    }
+    } }
 }

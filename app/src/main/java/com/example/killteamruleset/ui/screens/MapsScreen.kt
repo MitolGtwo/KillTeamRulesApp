@@ -14,6 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.FullscreenMapOverlay
+import com.example.killteamruleset.ui.components.KillTeamBackground2
 import com.example.killteamruleset.ui.components.MapsCategorySection
 import com.example.killteamruleset.ui.model.GameMap
 import com.example.killteamruleset.ui.model.MapCategory
@@ -24,6 +25,8 @@ fun MapsScreen(
 ) {
     var expandedCategory by remember { mutableStateOf<MapCategory?>(null) }
     var expandedMap by remember { mutableStateOf<GameMap?>(null) }
+
+    KillTeamBackground2{
 
     Box(modifier = Modifier.fillMaxSize()) {
 
@@ -96,4 +99,5 @@ fun MapsScreen(
             )
         }
     }
+}
 }

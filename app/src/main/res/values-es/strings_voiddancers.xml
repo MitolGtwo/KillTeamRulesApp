@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Void Dancer-->
+
+    <string name="lead_performance_usage"><![CDATA[
+            Passive
+    ]]></string>
+
+    <string name="lead_performance_description"><![CDATA[
+        Once per battle **STRATEGIC GAMBIT**. If this operative is in the killzone, change the
+**ALLEGORY** you selected for your kill team. Note that the
+**ACCOLADE** rule friendly operatives have will also change.
+    ]]></string>
+
+    <string name="luck_laugh_god_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="luck_laugh_god_description"><![CDATA[
+Once per turning point, you can use this rule. If you do, you can use a firefight ploy for 0CP if this is
+the specified **VOID-DANCER TROUPE** operative (including Command Re-roll if the attack or defence dice was rolled for this
+operative). You cannot select the same firefight ploy for this rule more than once per battle.
+    ]]></string>
+
+    <string name="humbling_cruelty_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="humbling_cruelty_description"><![CDATA[
+If the target of this weapon is not incapacitated but any of your attack dice inflict damage,
+the target gains one of your Humbling Cruelty tokens (if it does not already have one).
+Whenever an enemy operative has one of your Humbling Cruelty tokens, subtract 2\" from its Move stat
+and worsen the Hit stat of its weapons by 1. This is not cumulative with being injured. At the end of that
+enemy operatives next activation, remove its Humbling Cruelty token.
+    ]]></string>
+
+    <string name="mirror_minds_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="mirror_minds_description"><![CDATA[
+**PSYCHIC**. Select one enemy operative that is a valid target
+for and within 8\" of this operative. Both players roll five D6.
+Pair your dice with your opponents dice based on matching
+results. For each matching pair, inflict D3 damage on that
+enemy operative (to a maximum of 8). For example, if you
+rolled 6, 5, 5, 2, 1 and your opponent rolled 6, 5, 4, 3, 1,
+you would inflict 3D3 damage on that enemy operative.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <string name="fog_dreams_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="fog_dreams_description"><![CDATA[
+**PSYCHIC**. Select one ready enemy operative visible to this
+operative and roll one D6. Until the end of the turning point,
+that enemy operative cannot be activated or perform actions
+until it is the last enemy operative to be activated, or until
+your opponent has activated a number of enemy operatives
+after this action equal to the result of the D6 (whichever
+comes first).\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="saedath_lore"><![CDATA[
+Void-dancer Troupes put on a performance as they attack
+from the Webway. A single player begins in the pivotal
+role, then the rest of the troupe progressively join in.
+]]></string>
+
+    <string name="saedath_description"><![CDATA[
+As a **STRATEGIC GAMBIT** in the first turning point,
+you must select an **ALLEGORY** (Epic or Melodrama
+below) for your kill team for the battle, and one
+friendly **VOID-DANCER TROUPE** operative to
+have the **PIVOTAL ROLE** for the battle. Whenever a
+friendly operative has the **PIVOTAL ROLE**, it has the
+**ACCOLADE** rule of your **ALLEGORY** for the battle.\n
+\n
+As a **STRATEGIC GAMBIT** in each subsequent
+turning point, you can select one friendly
+**VOID-DANCER TROUPE** operative to gain the
+**ACCOLADE** rule of your **ALLEGORY** for the battle..\n
+\n
+Once per turning point, when a friendly operative
+that has the **PIVOTAL ROLE** completes the
+performance of your **ALLEGORY**, you can select
+one friendly **VOID-DANCER TROUPE** operative
+to gain the **ACCOLADE** rule of your **ALLEGORY** for the battle.\n
+\n
+**EPIC**\n
+**Performance**: The operative incapacitates an enemy operative while fighting.\n
+\n
+**Accolade**: Whenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n
+\n
+**MELODRAMA**\n
+**Performance**:The operative incapacitates an enemy operative while shooting.\n
+\n
+**Accolade**: The operatives ranged weapons have the Balanced weapon rule.
+]]></string>
+
+    <string name="harlequin_panoply_lore"><![CDATA[
+The tools of the Harlequins trade afford them additional
+mobility and make them highly difficult to target,
+enabling them to dodge away from piercing shots of
+plasma and melta fire.
+]]></string>
+
+    <string name="harlequin_panoply_description"><![CDATA[
+Whenever an operative is shooting a friendly
+**VOID-DANCER TROUPE** operative, and no attack
+dice are retained as critical successes, worsen
+the x of the Piercing weapon rule by 1 (if any).
+Note that Piercing 1 would therefore be ignored.\n
+\n
+Whenever a friendly **VOID-DANCER TROUPE** operative is climbing up, you can treat
+the vertical distance as 2\" (regardless of how far the operative actually moves vertically).\n
+\n
+Friendly **VOID-DANCER TROUPE** operatives can
+move within control range of enemy operatives
+(they must still start and end the move following all requirements for that move).
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="dancer_talisman_lore"><![CDATA[
+Charged with psychic power, this item provides fleeting
+insight to the bearer, enabling them to strike their opponents with unerring accuracy.
+]]></string>
+
+    <string name="dancer_talisman_description"><![CDATA[
+Once per turning point, when a friendly **VOID-DANCER TROUPE** operative is shooting,
+fighting or retaliating, if you roll two or more fails,
+you can discard one of them to retain another as a normal success instead.
+]]></string>
+
+    <string name="shrieker_rounds_lore"><![CDATA[
+Coated with virulent genetic toxins, these rounds cause
+the flesh of the target to twist, distort and rupture to
+devastating effect.
+]]></string>
+
+    <string name="shrieker_rounds_description"><![CDATA[
+Once per turning point, when a friendly **VOID-DANCER TROUPE** operative is performing
+the **Shoot** action and you select a shuriken pistol or shrieker cannon (focused), you can use this
+rule. If you do, until the end of that action, that
+weapon has the Devastating 1 weapon rule.
+]]></string>
+
+    <string name="death_mask_lore"><![CDATA[
+On occasion, a Harlequin must perish in order to fulfil
+their role in the saedath. Such dedication emboldens
+those in their troupe that survive.
+]]></string>
+
+    <string name="death_mask_description"><![CDATA[
+Keep a Tragedy tally. Whenever a friendly **VOID-DANCER TROUPE** operative that has an
+**ACCOLADE** rule is incapacitated, add 1 to your
+Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.
+]]></string>
+
+    <string name="under_mask_lore"><![CDATA[
+This item allows Harlequins to change roles during the
+saedath. Should one who holds a pivotal role be slain,
+another will swiftly take their place.
+]]></string>
+
+    <string name="under_mask_description"><![CDATA[
+Once per battle, when you activate a friendly **VOID-DANCER TROUPE** operative, if the friendly
+operative that has the **PIVOTAL ROLE** has been
+incapacitated, you can use this rule. If you do,
+that activated operative has the **PIVOTAL ROLE** for the battle.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="darting_salvo_lore"><![CDATA[
+Advancing in a dazzling blurr of vibrant colour,
+Harlequins fire on the move, leaping away before their
+opponents can return fire.
+]]></string>
+
+    <string name="darting_salvo_description"><![CDATA[
+Whenever a friendly **VOID-DANCER TROUPE**
+operative performs the **Reposition** action during
+its activation, it can perform the **Shoot** action
+during that action (it must do so in a location it
+can be placed, and any remaining move distance
+it had from that **Reposition** action can be used
+after it does so).
+]]></string>
+
+    <string name="rising_crescendo_lore"><![CDATA[
+With each darting advance and lethal flourish, the
+tempo of the troupes performance increases, building
+towards a violent crescendo.
+]]></string>
+
+    <string name="rising_crescendo_description"><![CDATA[
+Friendly **VOID-DANCER TROUPE** operatives can perform the **Dash** action during the
+same activation in which they performed the **Charge** action, but not vice versa (i.e. not **Dash**
+then **Charge**).
+]]></string>
+
+    <string name="prismatic_blur_lore"><![CDATA[
+So swift and dazzling are the Harlequins that even
+veteran marksmen struggle to draw a bead upon their lithe forms.
+]]></string>
+
+    <string name="prismatic_blur_description"><![CDATA[
+Whenever an operative is shooting a friendly **VOID-DANCER TROUPE** operative that
+performed an action in which it moved during this turning point, you can re-roll one of your
+defence dice.
+]]></string>
+
+    <string name="cego_jest_lore"><![CDATA[
+Attempts to engage the troupe in melee combat meet
+with little success. Luckless assailants find their wellaimed strikes meeting only thin air
+]]></string>
+
+    <string name="cego_jest_description"><![CDATA[
+Whenever a friendly **VOID-DANCER TROUPE** operative is fighting or retaliating and
+your opponent strikes with a normal success, you can roll one D6: if the result is less than the
+Hit stat of your opponents selected weapon, that strike is allocated to block one of your
+dice instead (ignore the Brutal weapon rule, if relevant) and you cannot use this rule for the rest
+of the sequence.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="m_entrance_lore"><![CDATA[
+The Harlequin assault materialises with terrifying speed,
+a flurry of deadly blows landing before the foe can raise a blade in response.
+]]></string>
+
+    <string name="m_entrance_description"><![CDATA[
+Use this firefight ploy when a friendly **VOID-DANCER TROUPE** operative is fighting
+during an activation in which it performed the **Charge** action, after you strike. You can
+immediately resolve another of your normal successes as a strike (before your opponent),
+or one of your critical successes if there are none.
+]]></string>
+
+    <string name="curtain_falls_lore"><![CDATA[
+Upon landing a devastating blow, the Harlequin
+disengages, leaving their wounded opponent flailing
+desperately in response.
+]]></string>
+
+    <string name="curtain_falls_description"><![CDATA[
+Use this firefight ploy when a friendly **VOID-DANCER TROUPE** operative is fighting,
+after you strike with a critical success, if the enemy operative is not incapacitated. End
+that sequence (any remaining attack dice are discarded) and immediately perform a free **Fall
+Back** action up to 3\" with that operative (then the **Fight** action ends). That operative can do so even
+if it is performed an action that prevents it from performing the **Fall Back** action.
+]]></string>
+
+    <string name="elusive_t_lore"><![CDATA[
+Swift, agile and graceful, Harlequins dart from cover to cover, evading their opponents with contemptuous ease.
+]]></string>
+
+    <string name="elusive_t_description"><![CDATA[
+Use this firefight ploy during a friendly **VOID-DANCER TROUPE** operatives activation.
+Until the start of its next activation, while that operative has a **Conceal** order and is in cover,
+it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek,
+Vantage terrain) except being within 2\".
+]]></string>
+
+    <string name="domino_field_lore"><![CDATA[
+Harlequins bear a variety of esoteric equipment,
+including the ubiquitous Domino Field, which breaks up
+their outline and renders them difficult to target.
+]]></string>
+
+    <string name="domino_field_description"><![CDATA[
+Use this firefight ploy when an operative is shooting a friendly **VOID-DANCER TROUPE**
+operative, during the Resolve Defence Dice step. You can allocate one of your rolled successful
+dice to block all of your opponents attack dice with matching results (e.g. one of your successful
+defence dice results of 5 can be used to block all successful attack dice results of 5).
+]]></string>
+
+</resources>

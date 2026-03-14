@@ -1,4 +1,4 @@
-package com.example.killteamruleset.ui.data.Xenos.Wyrmblade
+package com.example.killteamruleset.ui.data.Xenos.VoidDancers
 
 
 import com.example.killteamruleset.R
@@ -22,127 +22,115 @@ import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
 
-val NeophyteLeader = Operative(
-    name = "Neophyte Leader ",
+val Player = Operative(
+    name = "Player",
     imageRes = R.drawable.dk_watch,
     stats = OperativeStats(
-        apl = 2,
-        move = "6\"",
-        save = "5+",
+        apl = 3,
+        move = "7\"",
+        save = "4+",
         wounds = 8
     ),
     weapons = listOf(
         WeaponProfile(
-            name = "Autogun",
+            name = "Fusion pistol",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
-            damage = "2/3",
+            damage = "5/3",
             keywords = listOf(
+                Range(3),
+                Devastating(3),
+                Piercing(2)
             )
         ),
-
         WeaponProfile(
-            name = "Bolt pistol",
+            name = "Neuro disruptor",
             type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "3+",
-            damage = "3/4",
-            keywords = listOf(
-                Range(8)
-            )
-        ),
-
-        WeaponProfile(
-            name = "Master-crafted Autopistol",
-            type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "3+",
-            damage = "2/4",
-            keywords = listOf(
-                Range(8),
-                Lethal(5)
-            )
-        ),
-
-        WeaponProfile(
-            name = "Shotgun",
-            type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "2+",
-            damage = "3/3",
-            keywords = listOf(
-                Range(6),
-            )
-        ),
-
-        WeaponProfile(
-            name = "Web pistol",
-            type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "3+",
-            damage = "3/4",
-            keywords = listOf(
-                Range(6),
-                Severe,
-                Stun
-            )
-        ),
-        WeaponProfile(
-            name = "Chainsword",
-            type = WeaponType.MELEE,
             attacks = 4,
             hit = "3+",
             damage = "4/5",
             keywords = listOf(
+                Range(8),
+                Piercing(2),
+                Stun
             )
         ),
         WeaponProfile(
-            name = "Gun butt",
-            type = WeaponType.MELEE,
-            attacks = 3,
-            hit = "4+",
-            damage = "2/3",
-            keywords = listOf(
-            )
-        ),
-        WeaponProfile(
-            name = "Power Maul",
-            type = WeaponType.MELEE,
+            name = "Shuriken pistol",
+            type = WeaponType.RANGED,
             attacks = 4,
+            hit = "3+",
+            damage = "3/4",
+            keywords = listOf(
+                Range(8),
+                Rending
+            )
+        ),
+        WeaponProfile(
+            name = "Blade",
+            type = WeaponType.MELEE,
+            attacks = 5,
             hit = "3+",
             damage = "4/6",
             keywords = listOf(
-                Shock
             )
         ),
         WeaponProfile(
-            name = "Power pick",
+            name = "Caress",
             type = WeaponType.MELEE,
-            attacks = 4,
+            attacks = 5,
             hit = "3+",
             damage = "4/5",
             keywords = listOf(
                 Rending
             )
         ),
+        WeaponProfile(
+            name = "Embrace",
+            type = WeaponType.MELEE,
+            attacks = 5,
+            hit = "3+",
+            damage = "4/5",
+            keywords = listOf(
+                Brutal
+            )
+        ),
+        WeaponProfile(
+            name = "Kiss",
+            type = WeaponType.MELEE,
+            attacks = 5,
+            hit = "3+",
+            damage = "3/7",
+            keywords = listOf(
+            )
+        ),
+        WeaponProfile(
+            name = "Power Weapon",
+            type = WeaponType.MELEE,
+            attacks = 5,
+            hit = "3+",
+            damage = "4/6",
+            keywords = listOf(
+                Lethal(5)
+            )
+        ),
     ),
 
     abilities = listOf(
         Ability(
-            title = "Shadow Vector",
-            usage = R.string.shadow_vector_usage,
-            description = R.string.shadow_vector_description
+            title = "Luck of the Laughing God",
+            usage = R.string.luck_laugh_god_usage,
+            description = R.string.luck_laugh_god_description
         )
     ),
 
 
     keywords = listOf(
-        "WYRMBLADE ",
-        "TYRANID",
-        "GENESTEALER CULT",
-        "NEOPHYTE",
-        "LEADER",
+        "VOID-DANCER TROUPE",
+        "AELDARI",
+        "HARLEQUIN",
+        "PLAYER",
         "25MM"
     )
 )

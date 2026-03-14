@@ -6,6 +6,7 @@ val VespidsOperatives = listOf(
     VespidLongsting,
     VespidShadestrain,
     VespidSkyblast,
-
+    VespidSwarmguard,
+    VespidWarrior
 
 )
