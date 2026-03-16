@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val Geomancer = Operative(
     name = "Geomancer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.canoptek_leader,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

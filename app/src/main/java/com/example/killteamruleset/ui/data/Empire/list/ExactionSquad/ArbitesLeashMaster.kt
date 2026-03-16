@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterLeashmaster: Operative
     get() = Operative(
         name = "Arbiter Leashmaster",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_leash,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

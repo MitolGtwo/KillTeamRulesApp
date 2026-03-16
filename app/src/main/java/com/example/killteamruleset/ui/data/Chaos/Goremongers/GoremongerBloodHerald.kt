@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val GoremongerBloodHerald: Operative
     get() = Operative(
         name = "Goremonger Blood Herald",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.bloodherald_gm,
         stats = OperativeStats(
             apl = 2,
             move = "7\"",

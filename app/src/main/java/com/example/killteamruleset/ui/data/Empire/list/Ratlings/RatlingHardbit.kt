@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val RatlingHardbit = Operative(
     name = "Ratling Hardbit",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.ratlings_hardbit,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

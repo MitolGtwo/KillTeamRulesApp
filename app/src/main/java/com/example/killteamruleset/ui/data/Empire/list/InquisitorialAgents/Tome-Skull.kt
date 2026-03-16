@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val TomeSkull = Operative(
     name = "Tome-Skull ",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_tomeskull,
     stats = OperativeStats(
         apl = 2,
         move = "8\"",

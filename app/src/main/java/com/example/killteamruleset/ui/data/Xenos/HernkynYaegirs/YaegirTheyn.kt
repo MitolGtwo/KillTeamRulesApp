@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val YaegirTheyn = Operative(
     name = "Yaegir Theyn",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.yaegir_theyn,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

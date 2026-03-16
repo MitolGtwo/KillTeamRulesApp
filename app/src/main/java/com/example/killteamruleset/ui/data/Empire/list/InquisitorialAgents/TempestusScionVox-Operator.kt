@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val TempestusScionVoxOperator = Operative(
     name = "Tempestus Scion Vox-Operator",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_vox,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

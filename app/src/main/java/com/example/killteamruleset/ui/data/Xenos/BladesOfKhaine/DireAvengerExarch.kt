@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val DireAvengerExarch = Operative(
     name = "Dire Avenger Exarch ",
-    imageRes = R.drawable.bossnob,
+    imageRes = R.drawable.blades_direexarch,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

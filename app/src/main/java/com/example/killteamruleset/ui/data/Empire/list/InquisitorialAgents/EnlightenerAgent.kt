@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val ElightenerAgent = Operative(
     name = "Elightener Agent",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_elighter,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

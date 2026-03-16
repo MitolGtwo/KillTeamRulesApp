@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val RequisionedGunServitor = Operative(
     name = "Requisioned Gun Servitor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_gunservitor,
     stats = OperativeStats(
         apl = 1,
         move = "5\"",

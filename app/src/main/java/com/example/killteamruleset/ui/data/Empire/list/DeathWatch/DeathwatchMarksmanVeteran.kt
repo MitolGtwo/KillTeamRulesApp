@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val DeathwatchMarksmanVeteran = Operative(
     name = "Deathwatch Marksman Veteran",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.dw_marksman,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val InterrogatorAgent = Operative(
     name = "Interrogator Agent",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_interrogator,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

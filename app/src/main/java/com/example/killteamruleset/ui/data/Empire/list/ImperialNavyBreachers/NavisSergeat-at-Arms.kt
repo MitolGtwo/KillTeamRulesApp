@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val NavisSergeantAtArms = Operative(
     name = "Navis Sergeant-At-Arms",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.navy_sergeant,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

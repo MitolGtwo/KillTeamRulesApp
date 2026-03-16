@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val Ogryn = Operative(
     name = "Ogryn",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.ratling_ogryn,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val Patriarch = Operative(
     name = "Patriarch",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.brood_patriarch,
     stats = OperativeStats(
         apl = 4,
         move = "6\"",

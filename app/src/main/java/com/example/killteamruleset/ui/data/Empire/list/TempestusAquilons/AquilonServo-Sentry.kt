@@ -8,7 +8,7 @@ import kotlin.collections.listOf
 
 val AquilonServoSentry = Operative(
     name = "Aquilon Servo-Sentry",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.tempestus_torret,
     stats = OperativeStats(
         apl = 2,
         move = "4\"",

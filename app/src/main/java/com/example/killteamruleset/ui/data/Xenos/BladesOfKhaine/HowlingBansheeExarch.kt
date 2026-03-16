@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HowlingBansheeExarch = Operative(
     name = "Howling Banshee Exarch",
-    imageRes = R.drawable.bossnob,
+    imageRes = R.drawable.blades_howlingleader,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

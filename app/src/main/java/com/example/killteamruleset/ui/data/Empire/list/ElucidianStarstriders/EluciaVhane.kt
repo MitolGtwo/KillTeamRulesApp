@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val EluciaVhane = Operative(
     name = "Elucia Vhane",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.elucian_vhane,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

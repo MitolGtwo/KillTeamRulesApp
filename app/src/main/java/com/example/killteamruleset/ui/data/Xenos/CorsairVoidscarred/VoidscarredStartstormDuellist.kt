@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredStarstormDuellist = Operative(
     name = "Voidscarred Starstorm Duellist",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_starstorm,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

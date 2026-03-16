@@ -8,7 +8,7 @@ import kotlin.collections.listOf
 
 val SanctifierDeathCultAssassin = Operative(
     name = "Sanctifier DeathCult Assassin ",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.sanctifier_deathcult,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

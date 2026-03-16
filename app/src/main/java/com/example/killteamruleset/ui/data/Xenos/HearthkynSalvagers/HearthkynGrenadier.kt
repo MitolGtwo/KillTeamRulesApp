@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HearthkynGrenadier = Operative(
     name = "Hearthkyn Grenadier",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.salvager_grenadier,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

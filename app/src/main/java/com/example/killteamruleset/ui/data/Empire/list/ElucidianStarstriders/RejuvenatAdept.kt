@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val RejuvenatAdept = Operative(
     name = "Rejuvenat Adept",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.elucian_rejuvenant,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val IncursorWarrior = Operative(
     name = "Incursor Warrior",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.phobos_incuwarrior,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

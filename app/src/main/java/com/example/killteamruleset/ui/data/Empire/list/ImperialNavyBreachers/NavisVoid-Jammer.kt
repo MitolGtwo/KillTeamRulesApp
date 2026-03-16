@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val NavisVoidjammer = Operative(
     name = "Navis Void-Jammer",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.navy_void,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

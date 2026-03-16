@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val SanctifierCherub = Operative(
     name = "Sanctifier Cherub",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.sanctifiers_cherub,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

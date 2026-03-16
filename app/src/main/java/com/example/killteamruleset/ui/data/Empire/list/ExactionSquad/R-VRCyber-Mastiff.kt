@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val RvrCybermastiff: Operative
     get() = Operative(
         name = "R-VR Cyber-Mastiff",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_k9,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

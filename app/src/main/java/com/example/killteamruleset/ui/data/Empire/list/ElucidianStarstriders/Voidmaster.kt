@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val VoidMaster = Operative(
     name = "Void Master",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.elucian_voidmaster,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

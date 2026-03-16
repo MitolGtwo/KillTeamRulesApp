@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiatePenitent: Operative
     get() = Operative(
         name = "Novitiate Penitent",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiate_redemptia,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

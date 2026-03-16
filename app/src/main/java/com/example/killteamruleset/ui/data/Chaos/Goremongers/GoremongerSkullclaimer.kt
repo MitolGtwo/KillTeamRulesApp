@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val GoremongerSkullclaimer : Operative
     get() = Operative(
         name = "Goremonger Skullclaimer",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.skullclaimer_bg,
         stats = OperativeStats(
             apl = 2,
             move = "7\"",

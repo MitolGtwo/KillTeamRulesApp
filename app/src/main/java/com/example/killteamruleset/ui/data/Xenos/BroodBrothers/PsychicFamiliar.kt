@@ -8,7 +8,7 @@ import com.example.killteamruleset.ui.model.*
 
 val PsychicFamiliar = Operative(
     name = "Psychic Familiar",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.brood_familiar,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

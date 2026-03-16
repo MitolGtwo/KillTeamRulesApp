@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val GoremongerStalker : Operative
     get() = Operative(
         name = "Goremonger Stalker",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.stalker_bg,
         stats = OperativeStats(
             apl = 2,
             move = "7\"",

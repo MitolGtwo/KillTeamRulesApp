@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val StrikingScorpionWarrior = Operative(
     name = "Striking Scorpion Warrior",
-    imageRes = R.drawable.bossnob,
+    imageRes = R.drawable.blades_scorpionwarrior,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

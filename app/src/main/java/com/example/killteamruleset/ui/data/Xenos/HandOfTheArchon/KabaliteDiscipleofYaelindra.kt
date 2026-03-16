@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteDiscipleOfYaelindra = Operative(
     name = "Kabalite Disciple Of Yaelindra",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_discipline,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

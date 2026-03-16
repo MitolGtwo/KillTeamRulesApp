@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val HexorcistAgent = Operative(
     name = "Hexorcist Agent",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_hexorcist,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

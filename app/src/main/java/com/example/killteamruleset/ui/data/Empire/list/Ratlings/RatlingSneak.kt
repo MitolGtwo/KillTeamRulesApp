@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val RatlingSneak = Operative(
     name = "Ratling Sneak",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.ratling_sneak,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

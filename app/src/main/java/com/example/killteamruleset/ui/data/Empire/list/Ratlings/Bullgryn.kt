@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val Bullgryn = Operative(
     name = "Bullgryn",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.ratling_bullgryn,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

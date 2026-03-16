@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val GoremongerInciter : Operative
     get() = Operative(
         name = "Goremonger Inciter",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.inciter_gm,
         stats = OperativeStats(
             apl = 2,
             move = "7\"",

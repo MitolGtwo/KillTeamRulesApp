@@ -8,7 +8,7 @@ import kotlin.collections.listOf
 
 val AquilonGrenadier = Operative(
     name = "Aquilon Grenadier",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.tempestus_grenadier,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

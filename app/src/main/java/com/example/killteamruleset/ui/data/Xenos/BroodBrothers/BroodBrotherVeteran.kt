@@ -8,7 +8,7 @@ import com.example.killteamruleset.ui.model.*
 
 val BroodBrotherVeteran = Operative(
     name = "Brood Brother Veteran",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.brood_veteran,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

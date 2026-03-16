@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiateSuperior: Operative
     get() = Operative(
         name = "Novitiate Superior",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiate_superior,
         stats = OperativeStats(
             apl = 3,
             move = "6\"",

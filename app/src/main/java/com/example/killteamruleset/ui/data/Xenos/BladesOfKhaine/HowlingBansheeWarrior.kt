@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HowlingBansheeWarrior = Operative(
     name = "Howling Banshee Warrior",
-    imageRes = R.drawable.bossnob,
+    imageRes = R.drawable.blades_howlingwarrior,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

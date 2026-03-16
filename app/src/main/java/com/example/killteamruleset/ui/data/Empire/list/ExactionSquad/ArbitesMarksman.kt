@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterMarksman: Operative
     get() = Operative(
         name = "Arbiter Marksman",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_marskman,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

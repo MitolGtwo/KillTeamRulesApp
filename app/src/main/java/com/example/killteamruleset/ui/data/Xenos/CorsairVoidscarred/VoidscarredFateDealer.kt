@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredFateDealer = Operative(
     name = "Voidscarred Fate Dealer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_fatedealer,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

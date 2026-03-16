@@ -18,6 +18,14 @@ object TalentReferenceRepository {
                     imageRes = R.drawable.wreckaart1
                 )
             )
+
+            "goremongers" -> listOf(
+                TalentReference(
+                    id = "gore_talent1",
+                    imageRes = R.drawable.goremonger_justin1
+                ),
+            )
+
             else -> emptyList()
         }
 }

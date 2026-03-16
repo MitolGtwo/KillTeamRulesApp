@@ -9,7 +9,7 @@ import com.example.killteamruleset.ui.model.*
 
 val SkitariiRangerSurveyor = Operative(
     name = "Skitarii Ranger Surveyor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.hunterclade_surveyor,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

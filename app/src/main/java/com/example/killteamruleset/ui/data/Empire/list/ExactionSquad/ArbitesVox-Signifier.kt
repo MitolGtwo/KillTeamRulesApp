@@ -14,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterVoxSignifier: Operative
     get() = Operative(
         name = "Arbiter Vox-Signifier",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_vox,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

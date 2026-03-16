@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KrootStalker = Operative(
     name = "Kroot Stalker",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.farstalker_stalker,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

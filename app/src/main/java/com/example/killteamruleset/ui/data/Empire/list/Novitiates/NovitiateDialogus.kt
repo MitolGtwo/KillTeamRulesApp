@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiateDialogus: Operative
     get() = Operative(
         name = "Novitiate Dialogus",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiate_dialogus,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

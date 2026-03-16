@@ -13,7 +13,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KrootColdBlood = Operative(
     name = "Kroot Cold-Blood ",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.farstalker_coldblood,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

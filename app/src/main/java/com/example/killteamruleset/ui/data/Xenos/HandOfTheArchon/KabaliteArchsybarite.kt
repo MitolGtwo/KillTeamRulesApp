@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteArchsybarite = Operative(
     name = "Kabalite Archsybarite",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_leader,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

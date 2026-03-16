@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiateMilitant: Operative
     get() = Operative(
         name = "Novitiate Militant",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiate_militant,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

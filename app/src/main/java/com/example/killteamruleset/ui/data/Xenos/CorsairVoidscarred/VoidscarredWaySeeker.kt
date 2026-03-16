@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredWaySeeker = Operative(
     name = "Voidscarred Way Seeker",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_wayseeker,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

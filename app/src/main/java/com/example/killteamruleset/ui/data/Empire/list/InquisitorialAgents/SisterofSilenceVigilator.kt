@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val SisterOfSilenceVigilator = Operative(
     name = "Sister Of Silence Prosecutor",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_silenvigi,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

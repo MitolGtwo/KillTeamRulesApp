@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val DeathCultExecutioner = Operative(
     name = "Death Cult Executioner",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.elucian_deathcult,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

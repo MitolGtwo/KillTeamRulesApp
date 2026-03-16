@@ -240,7 +240,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.SEEK_AND_DESTROY,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.wolfscouts_faction_bg,
             backgroundRes = R.drawable.wolfscouts_bg2,
-            assemblyPdfAsset = "pdfs/tempestus_assembly.pdf",
+            assemblyPdfAsset = "pdfs/wc_assembly.pdf",
             iconRes = R.drawable.wolfscouts_logo,
             quote = "Aaaauuuuuuu!!"
         ),
@@ -546,7 +546,7 @@ object TeamRepository {
             name = "Raveners",
             alliance = Alliance.XENOS,
             type = TeamType.ELITE,
-            difficulty = "Very Hard",
+            difficulty = "Hard",
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.SEEK_AND_DESTROY),
             factionRulesBackgroundRes = R.drawable.raveners_faction_bg,
             backgroundRes = R.drawable.raveners_bg,
@@ -578,7 +578,8 @@ object TeamRepository {
             backgroundRes = R.drawable.dancer_faction,
             assemblyPdfAsset = "pdfs/dancer_assembly.pdf",
             iconRes = R.drawable.dancer_logo,
-            quote = "What about another joke? Murray"
+            quote = "We live in a Society" +
+                    ""
         ),
         Team(
             id = "wyrmblade",

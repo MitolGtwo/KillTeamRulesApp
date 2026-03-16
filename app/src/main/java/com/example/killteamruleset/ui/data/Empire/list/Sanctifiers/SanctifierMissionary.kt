@@ -9,7 +9,7 @@ import kotlin.collections.listOf
 
 val SanctifierMissionary = Operative(
     name = "Sanctifier Missionary",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.sanctifiers_missionary,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

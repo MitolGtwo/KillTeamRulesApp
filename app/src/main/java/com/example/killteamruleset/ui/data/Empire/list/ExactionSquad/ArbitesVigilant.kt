@@ -13,7 +13,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterVigilant: Operative
     get() = Operative(
         name = "Arbiter Vigilant",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_vigilant,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

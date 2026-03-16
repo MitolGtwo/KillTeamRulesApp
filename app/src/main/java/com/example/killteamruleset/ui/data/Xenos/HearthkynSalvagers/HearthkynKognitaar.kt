@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HearthkynKognitaar = Operative(
     name = "Hearthkyn Kognitaar",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.salvager_kognitar,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

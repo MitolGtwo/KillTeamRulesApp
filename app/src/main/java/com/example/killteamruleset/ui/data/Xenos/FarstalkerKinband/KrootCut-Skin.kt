@@ -12,7 +12,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KrootCutSkin = Operative(
     name = "Kroot Cut-Skin",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.farstalker_cutskin,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

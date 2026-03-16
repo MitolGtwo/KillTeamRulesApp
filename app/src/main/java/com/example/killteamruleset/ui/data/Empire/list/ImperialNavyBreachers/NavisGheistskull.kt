@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val NavisGheistskull = Operative(
     name = "Navis Gheistskull",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.navy_skull,
     stats = OperativeStats(
         apl = 2,
         move = "8\"",

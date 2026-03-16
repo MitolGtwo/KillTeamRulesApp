@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteSkysplinterAssassin = Operative(
     name = "Kabalite Skysplinter Assassin",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_skyassassin,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

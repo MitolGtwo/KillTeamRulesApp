@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterRevelatum: Operative
     get() = Operative(
         name = "Arbiter Revelatum",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_revelatum,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

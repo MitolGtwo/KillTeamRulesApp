@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val BroodBrotherSniper = Operative(
     name = "Brood Brother Sniper",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.brood_sniper,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

@@ -8,7 +8,7 @@ import com.example.killteamruleset.ui.model.*
 
 val CanoptekMacrocyteWarrior = Operative(
     name = "Canoptek Macrocyte Warrior",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.canoptek_warrior,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

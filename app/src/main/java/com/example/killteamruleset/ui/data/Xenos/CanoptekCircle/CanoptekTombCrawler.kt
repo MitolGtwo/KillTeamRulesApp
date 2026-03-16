@@ -14,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val CanoptekTombCrawler = Operative(
     name = "Canoptek Tomb Crawler",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.canoptek_crawler,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

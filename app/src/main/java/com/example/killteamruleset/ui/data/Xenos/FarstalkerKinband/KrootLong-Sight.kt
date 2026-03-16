@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KrootLongSight = Operative(
     name = "Kroot Long-Sight",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.farstalker_sniper,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

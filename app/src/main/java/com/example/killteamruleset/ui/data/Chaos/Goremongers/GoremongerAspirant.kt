@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val GoremongerAspirant: Operative
     get() = Operative(
         name = "Goremonger Aspirant",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.aspirant_gm,
         stats = OperativeStats(
             apl = 2,
             move = "7\"",

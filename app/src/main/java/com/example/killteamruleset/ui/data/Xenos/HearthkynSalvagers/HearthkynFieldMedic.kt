@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val HearthkynFieldMedic = Operative(
     name = "Hearthkyn Field Medic",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.salvager_medic,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

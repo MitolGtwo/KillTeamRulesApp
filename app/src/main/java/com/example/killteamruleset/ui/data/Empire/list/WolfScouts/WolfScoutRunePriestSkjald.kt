@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val WolfScoutRunePriestSkjald= Operative(
     name = "Wolf Scout Rune Priest Skjald",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.wolf_runepriest,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

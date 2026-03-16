@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val SkitariiVanguardWarrior = Operative(
     name = "Skitarii Vanguard Warrior",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.hunterclade_alphawarrior,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

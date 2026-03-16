@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteCrimsonDuellist = Operative(
     name = "Kabalite Crimson Duellist",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_crisom,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

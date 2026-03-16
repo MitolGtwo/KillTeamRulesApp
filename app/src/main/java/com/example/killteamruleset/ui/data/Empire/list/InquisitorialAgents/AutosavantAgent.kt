@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val AutosavantAgent = Operative(
     name = "Autosavant Agent",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_autosavant,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

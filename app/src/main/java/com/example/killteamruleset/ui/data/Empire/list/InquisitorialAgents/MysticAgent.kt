@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val MysticAgent = Operative(
     name = "Mystic Agent",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_mystic,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

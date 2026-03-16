@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredHeavyGunner = Operative(
     name = "Voidscarred Heavy Gunner",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_heavygunner,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

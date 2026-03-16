@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteAgent = Operative(
     name = "Kabalite Agent",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_agent,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

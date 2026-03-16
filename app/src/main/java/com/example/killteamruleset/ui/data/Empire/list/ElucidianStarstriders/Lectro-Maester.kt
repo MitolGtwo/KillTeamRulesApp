@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val LectroMaester = Operative(
     name = "Lectro-Maester",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.dw_lectro,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

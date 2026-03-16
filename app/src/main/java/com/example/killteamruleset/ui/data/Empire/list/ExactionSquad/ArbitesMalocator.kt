@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterMalocator: Operative
     get() = Operative(
         name = "Arbiter Malocator",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_malocator,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

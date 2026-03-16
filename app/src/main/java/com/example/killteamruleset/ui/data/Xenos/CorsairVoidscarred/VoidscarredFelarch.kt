@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredFelarch = Operative(
     name = "Voidscarred Felarch",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_leader,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

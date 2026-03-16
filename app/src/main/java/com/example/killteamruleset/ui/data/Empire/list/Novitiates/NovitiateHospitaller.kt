@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiateHospitaller: Operative
     get() = Operative(
         name = "Novitiate Exactor",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiates_hospitallier,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

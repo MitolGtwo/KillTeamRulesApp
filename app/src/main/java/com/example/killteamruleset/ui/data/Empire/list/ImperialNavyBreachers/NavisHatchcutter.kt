@@ -5,7 +5,7 @@ import com.example.killteamruleset.ui.model.*
 
 val NavisHatchcutter = Operative(
     name = "Navis Hatchcutter",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.navy_hatch,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

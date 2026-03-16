@@ -133,11 +133,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "dw_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.dw_tokens
                 ),
 
         ),
@@ -226,13 +226,6 @@ object FactionRuleRepository {
                 )
 
                 ),
-            FactionRule(
-                id = "wrecka_markers",
-                title =null,
-                lore = null,
-                ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
-                ),
 
         ),
 
@@ -259,11 +252,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "exaction_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.exaction_token
             ),
 
             ),
@@ -276,13 +269,6 @@ object FactionRuleRepository {
                 ruleText = R.string.doctrina_imperatives_description,
 
                 ),
-            FactionRule(
-                id = "wrecka_markers",
-                title =null,
-                lore = null,
-                ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
-            ),
         ),
 
         //Imperial Navy breachers
@@ -300,11 +286,11 @@ object FactionRuleRepository {
                 ruleText = R.string.breach_and_clear_description,
             ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "navy_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.navy_tokens
             ),
         ),
 
@@ -347,11 +333,11 @@ object FactionRuleRepository {
                 ruleText = R.string.inquisitorial_tempestus_scions_description,
             ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "inquisitorial_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.inquisitores_token
             ),
         ),
 
@@ -416,11 +402,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "novitiate_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.novitiate_tokens
             ),
         ),
 
@@ -455,11 +441,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "phobos_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.phobos_tokens
             ),
         ),
 
@@ -474,11 +460,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "ratling_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.ratling_tokens
             ),
 
             ),
@@ -500,11 +486,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "sanctifiers_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.sanctifier_token
             ),
         ),
 
@@ -519,11 +505,11 @@ object FactionRuleRepository {
                 ),
 
             FactionRule(
-                id = "wrecka_markers",
+                id = "scout_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.scout_token
             ),
         ),
 
@@ -543,11 +529,11 @@ object FactionRuleRepository {
 
                 ),
         FactionRule(
-            id = "wrecka_markers",
+            id = "tempestus_markers",
             title =null,
             lore = null,
             ruleText = null,
-            imageRes = R.drawable.wrecka_krew_tokens
+            imageRes = R.drawable.tempestus_token
         ),
     ),
 
@@ -567,11 +553,11 @@ object FactionRuleRepository {
 
                 ),
             FactionRule(
-                id = "wrecka_markers",
+                id = "wolf_markers",
                 title =null,
                 lore = null,
                 ruleText = null,
-                imageRes = R.drawable.wrecka_krew_tokens
+                imageRes = R.drawable.wolf_token
             ),
         ),
 

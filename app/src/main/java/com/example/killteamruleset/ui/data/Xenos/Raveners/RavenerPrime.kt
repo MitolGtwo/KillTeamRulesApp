@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val RavenerPrime = Operative(
     name = "Ravener Prime",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.ravener_prime,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

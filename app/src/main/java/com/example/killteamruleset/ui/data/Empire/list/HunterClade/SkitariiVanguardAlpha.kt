@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val SkitariiVanguardAlpha = Operative(
     name = "Skitarii Vanguard Alpha",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.hunterclade_alphavanguard,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

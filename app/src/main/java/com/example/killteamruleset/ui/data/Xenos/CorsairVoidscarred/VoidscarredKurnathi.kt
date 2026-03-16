@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VoidscarredKurnathi = Operative(
     name = "Voidscarred Kurnathi",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.corsair_kurnithe,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

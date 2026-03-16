@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val TempestusScionGunner = Operative(
     name = "Tempestus Scion Gunner",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.inqui_sciongunner,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

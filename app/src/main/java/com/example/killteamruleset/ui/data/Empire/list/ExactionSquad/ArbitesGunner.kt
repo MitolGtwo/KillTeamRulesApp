@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ArbiterGunner: Operative
     get() = Operative(
         name = "Arbiter Gunner",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.exaction_gunner,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

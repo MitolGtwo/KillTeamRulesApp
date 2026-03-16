@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val Primus = Operative(
     name = "Primus",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.brood_primus,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KabaliteElixicant = Operative(
     name = "Kabalite Elixicant",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hand_medic,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

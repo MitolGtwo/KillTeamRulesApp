@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val NovitiateDuellist: Operative
     get() = Operative(
         name = "Novitiate Duellist",
-        imageRes = R.drawable.alpharanger,
+        imageRes = R.drawable.novitiate_duellist,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",
