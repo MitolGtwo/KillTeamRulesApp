@@ -5,35 +5,30 @@
     <!--Goremonger-->
 
     <string name="khorne_favour_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="khorne_favour_description"><![CDATA[
-Once during each of this operatives activations, before or after it performs an action, if its **GORE
-TANK** is empty, you can increase its **GORE TANK**.
+Una vez durante cada activación de este Operativo, antes o después de que haga una acción, si su **GORE TANK** está vacío, puedes incrementarlo.
     ]]></string>
 
     <string name="impending_apotheosis_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="impending_apotheosis_description"><![CDATA[
-Once per battle, when an attack dice inflicts Normal Dmg on this operative, you can ignore that
-inflicted damage.
+Una vez por batalla, cuando un dado de ataque inflija daño normal a este Operativo, puedes ignorar ese daño.
     ]]></string>
 
     <string name="obsessive_bloodlust_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="obsessive_bloodlust_description"><![CDATA[
-Once during each of this operatives activations, when this operative ends the **Fight** action, if it is no
-longer within control range of enemy operatives, you can use this rule. If you do,
-it can immediately perform a free **Charge** action
-(even if it is already performed the **Charge** action during that
-activation), but it cannot move more than 2\" during that action.
-Doing so does not prevent it from performing the **Charge, Dash**
-or **Reposition** action afterwards during that activation.
+Una vez durante cada activación de este Operativo, cuando este Operativo termina una acción de **Combate**, si deja de estar en rango de control de un Operativo enemigo,
+puedes usar esta regla. Si lo haces, puedes inmediatamente hacer una acción de **Cargar** gratis (aunque ya haya hecho una durante esta activación), pero no puede mover mas 
+de 2\" durante esa accion.\n
+Hacerlo no previene que el Operativo haga la acción de **Carga, Dash** o **Reposición** después durante esa activación.
     ]]></string>
 
     <string name="ritual_usage"><![CDATA[
@@ -41,12 +36,9 @@ or **Reposition** action afterwards during that activation.
     ]]></string>
 
     <string name="ritual_description"><![CDATA[
-Whenever this operative is using this weapon, the
-first time you inflict damage on an operative within its control
-range during that sequence, you can increase this operatives
-**GORE TANK**. Note this is cumulative with the normal rules for
-increasing its **GORE TANK** (i.e. if it incapacitates an operative
-within its control range).
+Cuando este Operativo este usando esta arma, la primera vez que inflijas daño a un operativo dentro de su rango de control en esa secuencia, puedes incrementar el
+**GORE TANK** de este Operativo.\n
+\nEsto es acumulable con las reglas normales para incrementar tu **GORE TANK** (incapacitar enemigos dentro de tu rango de control).
     ]]></string>
 
 
@@ -55,11 +47,10 @@ within its control range).
     ]]></string>
 
     <string name="transfusion_ritual_description"><![CDATA[
-Decrease this operatives **GORE TANK**. Instead of using a **SANGUAVITAE** rule, you can increase
-the **GORE TANK** of one other friendly **GOREMONGER** operative within 8\" of this operative.\n\n
+Reduce el **GORE TANK** de este Operativo. En lugar de usar una regla de **SANGUAVITAE**, puedes incrementar el **GORE TANK** de otro Operativo aliado **GOREMONGER**
+a 8\" de este Operativo.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if its **GORE TANK** is empty.
+Este Operativo no puede hacer esta acción mientras esté en rango de control de un Operativo enemigo, o si su **GORE TANK** está vacío.
     ]]></string>
 
     <string name="drag_usage"><![CDATA[
@@ -67,6 +58,7 @@ range of an enemy operative, or if its **GORE TANK** is empty.
     ]]></string>
 
     <string name="drag_description"><![CDATA[
+        
 Whenever this operative is shooting with this weapon, at the start of the Resolve
 Attack Dice step (before inflicting damage), you can move the target up to x\". X is your
 total number of successful unblocked attack dice, multiplied by 2. The target must be
@@ -103,7 +95,7 @@ a Conceal order, or while within control range of an enemy operative.
 
 
     <string name="incite_the_hunt_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="incite_the_hunt_description"><![CDATA[
@@ -122,7 +114,7 @@ that token and increase that friendly operatives **GORE TANK**.
     ]]></string>
 
     <string name="brutish_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brutish_description"><![CDATA[
@@ -132,7 +124,7 @@ on this operative, you can choose for that attack dice to inflict Normal Dmg ins
 
 
     <string name="claim_skull_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="claim_skull_description"><![CDATA[
@@ -141,7 +133,7 @@ incapacitates an enemy operative with its great chainaxe, you gain 1CP.
     ]]></string>
 
     <string name="climbing_pick_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="climbing_pick_description"><![CDATA[
@@ -152,7 +144,7 @@ operative actually moves vertically).
 
 
     <string name="rooftop_stalker_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="rooftop_stalker_description"><![CDATA[
