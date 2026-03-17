@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val LegionaryShrivetalon = Operative(
     name = "Legionary Shrivetalon",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.legionarie_shivertalon,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

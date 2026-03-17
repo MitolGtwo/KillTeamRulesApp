@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val LegionaryGunner = Operative(
     name = "Legionary Gunner",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.legionarie_gunner,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

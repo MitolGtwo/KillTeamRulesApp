@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KommandoBurnaBoy = Operative(
     name = "Kommando Burna Boy",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.kommandos_burna,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

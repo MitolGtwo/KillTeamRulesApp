@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Glitching : Operative
     get() = Operative(
         name = "Glitching",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_glitching,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MandrakeNightfiend = Operative(
     name = "Mandrake Nightfiend",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.mandrake_leader,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

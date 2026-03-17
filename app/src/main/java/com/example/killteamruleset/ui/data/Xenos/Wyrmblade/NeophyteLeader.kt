@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NeophyteLeader = Operative(
     name = "Neophyte Leader ",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrm_leader,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

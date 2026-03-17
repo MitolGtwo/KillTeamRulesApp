@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Player = Operative(
     name = "Player",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.dancer_warrior,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

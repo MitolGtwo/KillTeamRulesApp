@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Locus = Operative(
     name = "Locus",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrm_locus,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

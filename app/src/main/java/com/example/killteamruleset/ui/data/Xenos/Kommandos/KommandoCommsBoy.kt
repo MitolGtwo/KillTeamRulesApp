@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KommandoCommsBoy = Operative(
     name = "Kommando Comms Boy",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.kommandos_vox,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

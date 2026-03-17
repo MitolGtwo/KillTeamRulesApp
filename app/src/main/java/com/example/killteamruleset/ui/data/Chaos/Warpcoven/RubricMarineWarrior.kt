@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val RubricMarineWarrior = Operative(
     name = "Rubric Marine Warrior",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warpcoven_warrior,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

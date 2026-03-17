@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Iconarch: Operative
     get() = Operative(
         name = "Iconarch",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.chaos_icon,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

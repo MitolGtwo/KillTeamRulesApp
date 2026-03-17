@@ -25,7 +25,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val SorcererOfWarpfire = Operative(
     name = "Sorcerer Of Warpfire",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warp_socerrer,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

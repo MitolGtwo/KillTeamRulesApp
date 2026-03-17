@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val ShasuiPathfinder = Operative(
     name = "Shas´ui Pathfinder",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_leader,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

@@ -14,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Deathmark = Operative(
     name = "Deathmark",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_deathmark,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

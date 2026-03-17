@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MandrakeAbyssal = Operative(
     name = "Mandrake Abyssal",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.mandrake_abyssal,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

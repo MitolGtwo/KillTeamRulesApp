@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Mindwitch: Operative
     get() = Operative(
         name = "Mindwitch",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.chaos_mind,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

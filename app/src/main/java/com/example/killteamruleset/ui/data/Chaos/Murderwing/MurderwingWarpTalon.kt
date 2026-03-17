@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MurderwingWarpTalon = Operative(
     name = "Murderwing Warp Talon",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.murderwing_warp,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

@@ -16,7 +16,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val CultDemagogue: Operative
     get() = Operative(
         name = "Cult Demagogue",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.chaos_demagogue,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

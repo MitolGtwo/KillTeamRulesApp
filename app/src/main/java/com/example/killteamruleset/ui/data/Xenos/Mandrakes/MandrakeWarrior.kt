@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MandrakeWarrior = Operative(
     name = "Mandrake Warrior",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.mandrake_warrior,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

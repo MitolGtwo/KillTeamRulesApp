@@ -30,7 +30,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val XV26Neutraliser = Operative(
     name = "XV26 Neutraliser",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.xv26_neutraliser,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

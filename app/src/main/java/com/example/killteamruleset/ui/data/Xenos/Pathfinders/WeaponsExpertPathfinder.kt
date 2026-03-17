@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val WeaponsExpertPathfinder = Operative(
     name = "Weapons Expert Pathfinder",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_weaponexpert,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

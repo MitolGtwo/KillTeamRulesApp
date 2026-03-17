@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VespidStrainLeader = Operative(
     name = "Vespid Strain Leader",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.vespid_leader,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

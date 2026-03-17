@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val ImmortalDespotek = Operative(
     name = "Immortal Despotek",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_despotek,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

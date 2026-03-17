@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VespidLongsting = Operative(
     name = "Vespid Longsting",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.vespid_longsting,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

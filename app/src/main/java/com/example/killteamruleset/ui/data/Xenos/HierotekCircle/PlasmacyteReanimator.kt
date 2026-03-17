@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val PlasmacyteReanimator = Operative(
     name = "Plasmacyte Reanimator",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_reanimator,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

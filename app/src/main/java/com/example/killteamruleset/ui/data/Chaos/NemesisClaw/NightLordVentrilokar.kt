@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NightLordVentrilokar = Operative(
     name = "Night Lord Ventrilokar",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.nemesis_ventrilokar,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

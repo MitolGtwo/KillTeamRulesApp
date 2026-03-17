@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val CommsSpecialistPathfinder = Operative(
     name = "Comms Specialist Pathfinder",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_comms,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

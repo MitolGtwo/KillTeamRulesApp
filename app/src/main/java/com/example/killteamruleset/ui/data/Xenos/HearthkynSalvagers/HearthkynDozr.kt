@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 
 val HearthkynDozr = Operative(
-    name = "Hearthkyn Theyn",
+    name = "Hearthkyn Dozr",
     imageRes = R.drawable.salvager_dozr,
     stats = OperativeStats(
         apl = 2,

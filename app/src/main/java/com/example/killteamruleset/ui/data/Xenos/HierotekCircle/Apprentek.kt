@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Apprentek = Operative(
     name = "Apprentek",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_apprentek,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

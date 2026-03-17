@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val SanctusSniper = Operative(
     name = "Sanctus Sniper",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrm_sanctussniper,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

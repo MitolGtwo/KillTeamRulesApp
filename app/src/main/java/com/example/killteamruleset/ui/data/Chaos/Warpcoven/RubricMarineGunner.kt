@@ -1,23 +1,13 @@
 package com.example.killteamruleset.ui.data.Chaos.Warpcoven
 
 
-import com.example.killteamruleset.ui.model.Poison
-import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
-import com.example.killteamruleset.ui.model.Blast
-import com.example.killteamruleset.ui.model.Devastating
-import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Piercing
-import com.example.killteamruleset.ui.model.Psychic
 import com.example.killteamruleset.ui.model.Range
-import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Saturate
-import com.example.killteamruleset.ui.model.Seek_light
-import com.example.killteamruleset.ui.model.Shock
-import com.example.killteamruleset.ui.model.Stun
 import com.example.killteamruleset.ui.model.Torrent
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
@@ -25,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val RubricMarineGunner = Operative(
     name = "Rubric Marine Gunner",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warp_gunner,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

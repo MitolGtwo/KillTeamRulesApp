@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val TraitorThug = Operative(
     name = "Traitor Thug",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.blooded_thug,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

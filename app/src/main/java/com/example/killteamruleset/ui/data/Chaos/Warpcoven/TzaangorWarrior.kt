@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val TzaangorWarrior = Operative(
     name = "Tzaangor Warrior",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warp_tzagorwarrior,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

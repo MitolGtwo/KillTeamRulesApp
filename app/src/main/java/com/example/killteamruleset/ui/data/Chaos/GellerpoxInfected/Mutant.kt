@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Mutant : Operative
     get() = Operative(
         name = "Mutant",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_mutant,
         stats = OperativeStats(
             apl = 2,
             move = "5\"",

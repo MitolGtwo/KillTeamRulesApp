@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val FellgorVandal : Operative
     get() = Operative(
         name = "Fellgor Vandal",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.fellgor_vandal,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

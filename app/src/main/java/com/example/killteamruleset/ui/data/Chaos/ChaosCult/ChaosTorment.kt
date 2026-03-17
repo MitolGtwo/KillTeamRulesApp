@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val ChaosTorment: Operative
     get() = Operative(
         name = "Chaos Torment",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.chaos_torment,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

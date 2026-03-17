@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NightLordFearmonger = Operative(
     name = "Night Lord Fearmonger",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.nemesis_fearmonger,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

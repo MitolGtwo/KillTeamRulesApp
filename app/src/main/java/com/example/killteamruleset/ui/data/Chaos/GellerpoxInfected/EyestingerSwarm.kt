@@ -26,7 +26,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val EyestingerSwarm : Operative
     get() = Operative(
         name = "Eyestinger Swarm",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_eyestinger,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

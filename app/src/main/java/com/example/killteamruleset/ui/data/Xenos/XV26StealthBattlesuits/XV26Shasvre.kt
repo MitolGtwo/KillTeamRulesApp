@@ -30,7 +30,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val XV26Shasvre = Operative(
     name = "XV26 Shas´vre",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.xv26_shas,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

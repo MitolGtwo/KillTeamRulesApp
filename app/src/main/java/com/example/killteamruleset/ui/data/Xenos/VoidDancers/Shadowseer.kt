@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Shadowseer = Operative(
     name = "Shadowseer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.dancer_seer,
     stats = OperativeStats(
         apl = 3,
         move = "7\"",

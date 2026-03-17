@@ -17,7 +17,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val BlessedBlade: Operative
     get() = Operative(
         name = "Blessed Blade",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.chaos_blessed,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

@@ -28,7 +28,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Mv33GravInhibitorDrone = Operative(
     name = "Mv33 Grav-Inhibitor Drone",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.drone_grav,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

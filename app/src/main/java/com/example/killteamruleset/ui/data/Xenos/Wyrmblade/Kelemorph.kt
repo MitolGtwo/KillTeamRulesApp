@@ -26,7 +26,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Kelemorph = Operative(
     name = "Kelemorph",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrm_kelemorhp,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

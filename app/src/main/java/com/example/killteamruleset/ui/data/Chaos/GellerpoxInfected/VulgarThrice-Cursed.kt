@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val VulgrarThricecursed: Operative
     get() = Operative(
         name = "Vulgrar Thrice-Cursed",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_vulgar,
         stats = OperativeStats(
             apl = 2,
             move = "5\"",

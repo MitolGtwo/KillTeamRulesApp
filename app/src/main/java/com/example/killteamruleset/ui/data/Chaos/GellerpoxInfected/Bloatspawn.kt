@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Bloatspawn : Operative
     get() = Operative(
         name = "Bloatspawn",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_bloat,
         stats = OperativeStats(
             apl = 2,
             move = "5\"",

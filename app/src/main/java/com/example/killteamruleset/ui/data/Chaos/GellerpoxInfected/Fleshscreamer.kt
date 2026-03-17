@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Fleshscreamer : Operative
     get() = Operative(
         name = "Fleshscreamer",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_flesh,
         stats = OperativeStats(
             apl = 2,
             move = "5\"",

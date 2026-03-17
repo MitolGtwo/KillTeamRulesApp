@@ -19,7 +19,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val LegionaryIconBearer = Operative(
     name = "Legionary Anointed",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.legionarie_icon,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

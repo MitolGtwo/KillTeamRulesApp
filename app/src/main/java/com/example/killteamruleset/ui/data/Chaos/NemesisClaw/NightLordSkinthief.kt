@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NightLordSkinthief = Operative(
     name = "Night Lord Skinthief ",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.nemesis_skinthief,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

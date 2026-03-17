@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val FellgorDeathknell: Operative
     get() = Operative(
         name = "Fellgor Deathknell",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.fellgor_deathknell,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

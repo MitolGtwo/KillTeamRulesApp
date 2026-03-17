@@ -5,34 +5,33 @@
     <!--Salvages-->
 
     <string name="eye_of_the_ancestors_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="eye_of_the_ancestors_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is in the killzone. Select one enemy operative, or up to two
-enemy operatives if three or more friendly **HEARTHKYN SALVAGER** operatives are incapacitated. Each of those
-enemy operatives gains one of your Grudge tokens.
+**STRATEGIC GAMBIT** si este Operativo esta en el campo. selecciona un Operativo enemigo, o hasta dos Operativos enemigos si tres o mas
+aliados **HEARTHKYN SALVAGER** han sido incapacitados. Cada enemigo seleccionado gana un Grudge token.
     ]]></string>
 
     <string name="weavefield_crest_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="weavefield_crest_description"><![CDATA[
-Once per battle, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage.
+Una vez por batalla, cuando un dado de ataque inflija daño normal a este Operativo, puedes ignorar ese daño.
+
     ]]></string>
 
     <string name="salvagers_brawler_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_brawler_description"><![CDATA[
-Whenever this operative is fighting or retaliating:\n
+Cuando este Operativo combata o retalee:\n
 \n
-• Enemy operatives cannot assist.\n
+• Operativos enemigos no pueden asistir.\n
 \n
-• If it is incapacitated, you can strike the enemy operative in that sequence
-with one of your unresolved successes before it is removed from the killzone.
+• Si es incapacitado, puedes golpear al enemigo en esa secuencia con uno de tus dados sin resolver, antes de ser removido del campo.
     ]]></string>
 
     <string name="knux_smash_usage"><![CDATA[
@@ -40,32 +39,27 @@ with one of your unresolved successes before it is removed from the killzone.
     ]]></string>
 
     <string name="knux_smash_description"><![CDATA[
-Select one enemy operative within this operatives control range. You can move that
-enemy operative up to 3\" to a location it can be placed. Then inflict D3+1 damage on
-it (even if you do not move it); if the D3 result is a 3, also subtract 1 from that enemy
-operatives APL stat until the end of its next activation. This operative can then
-immediately perform a free **Charge** action (even if it is already performed the **Charge**
-action during that activation), but cannot move more than 3\" during that action.\n\n
+Selecciona un Operativo enemigo dentro del rango de control de este Operativo. Puedes mover a ese Operativo hasta 3\" en un punto donde pueda ser puesto.
+Luego inflige D3+1 heridas (incluso si no lo moviste); si el resultado del D3 es 3, tambien sustrae 1 del valor de APL de ese Operativo enemigo hasta el final
+de su proxima activacion.\n
+\nEste Operativo puede inmediatamente hacer una accion **Carga** gratis (incluso aunque haya realizado una accion de **Carga* previamente durante la misma activacion)
+, pero no puede moverse mas de 3\" durante esa accion.\n\n
 
-This operative cannot perform this action unless an enemy operative is within its control range.
+Este Operativo no puede hacer esta accion a menos que un Operativo enemigo este dentro de su rango de control.
     ]]></string>
 
 
     <string name="salvagers_medic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_medic_description"><![CDATA[
-The first time during each turning point that another friendly **HEARTHKYN SALVAGER** operative
-would be incapacitated while visible to and within 3\" of this operative, you can use this rule,
-providing neither this nor that operative is within control range of an enemy operative.
-If you do, that friendly operative is not incapacitated, has 1 wound remaining and cannot be
-incapacitated for the remainder of the action. After that action, that friendly operative can
-immediately perform a free **Dash** action, but must end that move within this operatives control range.
-Subtract 1 from this and that operatives APL stats until the end of their next activations
-respectively, and if this rule was used during that friendly operative’s activation, that activation ends.\n
-\n
-You cannot use this rule if this operative is incapacitated, or if it is a **Shoot** action and this operative would be a primary or secondary target.
+La primera vez durante cada turno, cuando un aliado **HEARTHKYN SALVAGER** vaya a ser incapacitado mientras es visible y a 3\" de este Operativo,
+puedes usar esta regla, siempre y cuando ninguno de los dos Operativos esten en rango de control de un enemigo.\n
+\nSi lo haces, ese Operativo no es incapacitdado, tiene 1 herida restante y no puede ser incapacitado por el resto de la accion, los dados son descartados.\n
+\nDespues de esa accion, el Operativo seleccionado puede hacer un **Dash** gratis, pero debe terminar en rango de control de este Operativo. Sustrae 1 APL a los
+dos Operativos hasta el final de su proxima activacion.\n
+\nNo puedes usar esta regla si este operativo es incapacitado, o si la accion de **Disparo** marca a este Operativo como objetivo primario o secundario.
     ]]></string>
 
     <string name="salvagers_medikit_usage"><![CDATA[
@@ -73,23 +67,20 @@ You cannot use this rule if this operative is incapacitated, or if it is a **Sho
     ]]></string>
 
     <string name="salvagers_medikit_description"><![CDATA[
-Select one friendly **HEARTHKYN SALVAGER** operative
-within this operatives control range to regain up to 2D3 lost
-wounds. It cannot be an operative that the Medic! rule was
-used on during this turning point.\n\n
+Selecciona un aliado **HEARTHKYN SALVAGER** dentro del rango de control de este Operativo para recuperar 2D3 heridas perdidas.\n
+\nNo puede usarse con alguien que se haya beneficiado de la regla Medic! durante este turno.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
     ]]></string>
 
 
     <string name="salvagers_grenadier_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_grenadier_description"><![CDATA[
-This operative can use frag, krak, smoke and stun grenades (see universal equipment). Doing so does not count towards any
-limited uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever this operative is using a
-frag or krak grenade, improve the Hit stat of that weapon by 1.
+Este Operativo puede usar granadas Frag, Krak, Stun y Smoke (equipamiento universal). Al hacerlo no cuenta sobre el limite de usos que tengas si seleccionas
+alguno de estos equipamientos. Cuando este Operativo usa una granada Krak o Frag, mejora su Hit a 1.
     ]]></string>
 
     <string name="vayr3_usage"><![CDATA[
@@ -97,14 +88,13 @@ frag or krak grenade, improve the Hit stat of that weapon by 1.
     ]]></string>
 
     <string name="vayr3_description"><![CDATA[
-Place one of your Utility Grenade markers within 6\" of this operative. It must be visible to this operative, or on Vantage terrain of
-a terrain feature that is visible to this operative. Whenever an operative is within 3\" of that Utility Grenade marker, its controlling
-player must spend 1 additional AP for that operative to perform the **Pick Up Marker** and mission actions.\n
-\n
--In the Ready step of the next Strategy phase, roll one D3. Remove that Utility Grenade marker after a number of activations equal
-to the result have been completed or at the end of the turning point (whichever comes first)\n\n
+Pon uno de tus marcadores de **Granada de Utilidad** a 6\" de este Operativo. Tiene que ser visible para este Operativo, o
+en terreno aventajado que sea visible para este Operativo.\n
+\nCuando un Operativo esta a 3\" de tu **Granada de Utilidad**, debe gastar 1 AP adicional para hacer acciones **Pick Up** o acciones de mission.\n
+\nEn la Ready step de la siguiente Strategy Phase, lanza un D3. Remueve tu **Granada de Utilidad** despues de un numero de activaciones
+equivalentes al resultado de dado, o hasta que sea cabe el turno (lo que ocurra primero)\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
     ]]></string>
 
 
@@ -113,31 +103,25 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="salvagers_beam_description"><![CDATA[
-Whenever this operative is shooting with this weapon,
-each retained critical success immediately inflicts D3 damage
-on each other operative along one (and only one) beam line (roll
-separately for each operative), but the target is not affected. An
-operative is along a beam line if a targeting line can be drawn
-from this operative to its base, and that line crosses the base of
-the original target but doesn’t cross Heavy terrain\n
+Cuando este Operativo esta disparando con esta arma, cada exito critico retenido inflige inmediatamente D3 heridas
+a cada otro Operativo a traves de una unica linea de enegia (lanza el dados por cada Operativo), el objetivo principal no es afectado.\n
+\nUn operativo esta en la lidea de energia si una linea recta puede ser dibujada desde este operativo, a la base del objetivo, y si esta linea
+cruza el objetivo primario pero no pasa por terreno pesado.\n
 \n
-In this example, Operative A is the target. Operatives B and C are
-along the beam line, but Operative D isn’t
+En este ejemplo, el Operativo A es el objetivo primario. los Operativos B y C estan en la linea de energia, pero el Operativo D no lo esta.
     ]]></string>
 
     <string name="salvagers_jumpack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_jumpack_description"><![CDATA[
-Whenever this operative performs an action in which it moves, it can **FLY**. If it does, do not move it.
-Instead, remove it from the killzone and set it back up wholly within a distance equal to its
-Move stat (or 3\" if it was a **Dash**) horizontally of its original location (in a killzone that
-uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through
-Wall terrain, and that operative cannot be set up on the other side of an access point – in other words
-it cannot **FLY** through an open hatchway). Note that it gains no additional distance when performing
-the **Charge** action. It must be set up in a location it can be placed, and unless it is the **Charge**
- action, it cannot be set up within control range of an enemy operative.
+Cuando este Operativo hace una accion en la que se mueve, puede **Volar**. Si lo hace, no lo muevas.
+En su lugar, remuevelo del campo y ponlo otra vez completamente dentro de la distancia equivalente a su estadistica
+de movimiento (o 3\" si fue una accion de **Dash**) horizontalmente de su posicion original (En zonas como gallowdark o tombworld, esto
+no puede ser medido a traves de paredes, y no puede medirce a traves de puertas abiertas).\n
+\nNotese que no gana movimiento adicional cuando realiza la accion **Cargar**. La mini debe ser puesta en una locacion valida, y a menos que sea la accion de
+**Carga**, no puede terminar en rango de control de un enemigo.
     ]]></string>
 
 
@@ -146,8 +130,7 @@ the **Charge** action. It must be set up in a location it can be placed, and unl
     ]]></string>
 
     <string name="force_impact_description"><![CDATA[
-Whenever this operative is fighting with this weapon, if it is performed the **Charge** action during the activation, this
-weapon has the Brutal weapon rule.
+Cuando este Operativo esta combatiendo con esta arma, si realizo la accion de **Carga** durante la activacion, esta arma gana la regla Brutal.
     ]]></string>
 
     <string name="salvagers_signal_usage"><![CDATA[
@@ -155,10 +138,10 @@ weapon has the Brutal weapon rule.
     ]]></string>
 
     <string name="salvagers_signal_description"><![CDATA[
-**SUPPORT**. Select one other friendly **HEARTHKYN SALVAGER** operative in the killzone. Until the end of that
-operatives next activation, add 1 to its APL stat.\n\n
+**SUPPORT**. Selecciona otro aliado **HEARTHKYN SALVAGER** en el campo. Hasta el final de su siguiente activacion, añade 1 a sus APLs.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
+
     ]]></string>
 
     <string name="salvagers_system_jam_usage"><![CDATA[
@@ -166,25 +149,24 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="salvagers_system_jam_description"><![CDATA[
-Select one enemy operative that is a valid target for this operative and that does not have one of
-your System Jam tokens; it gains one. Until the end of the battle, whenever an enemy operative has
-one of your System Jam tokens, it cannot be activated until each enemy operative without one
-is expended. When an enemy operative that has one of your System Jam tokens is activated, remove that token.\n\n
+Selecciona un Operativo enemigo que sea un objetivo valido para este Operativo y que no tenga uno de tus System jam tokens;
+gana uno. Hasta el final de la batalla, cuando un Operativo enemigo tiene uno de tus System Jam tokens, no puede ser activado hasta que cada enemigo
+sin uno es activado (expended).\n
+\nCuando un Operativo con uno de tus System Jam tokens es activado, remueve ese token.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
     ]]></string>
 
     <string name="salvagers_tactician_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_tactician_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is in the killzone. Place either your Attack or Defence marker
-in the killzone. Whenever a friendly **HEARTHKYN SALVAGER** operative is shooting against,
-fighting against or retaliating against an enemy operative that’s within 3\" of your Attack marker,
-that friendly operatives weapons have the Balanced weapon rule. Whenever an enemy operative is shooting
-a friendly **HEARTHKYN SALVAGER** operative that is within 3\" of your Defence marker, you can
-re-roll one of your defence dice. In the Ready step of the next Strategy phase, remove that marker.
+**STRATEGIC GAMBIT** si este Operativo esta en el campo. Pon un marcador de ataque o defensa en el campo.
+Cuando un aliado **HEARTHKYN SALVAGER** esta disparando, combatiendo o retaleando contra un enemigo que este a 3\" de tu
+marcador de ataque, las armas de ese aliado ganan la regla Balanced.\n
+\nCuando un enemigo dispara a un aliado **HEARTHKYN SALVAGER** mientras esta a 3\" de tu marcador de defensa, puedes re-rollear un dado de defensa.\n
+\nEn la Ready step siguiente, remueve el marcador.
     ]]></string>
 
     <string name="accelerated_appraisal_usage"><![CDATA[
@@ -192,12 +174,10 @@ re-roll one of your defence dice. In the Ready step of the next Strategy phase, 
     ]]></string>
 
     <string name="accelerated_appraisal_description"><![CDATA[
-If your Attack or Defence marker is in the killzone, remove it. \n
-\n
--Place your Attack or Defence marker in the killzone\n\n
+Si tu marcador de ataque o defensa estan en el campo, remuevelo.\n
+\n- Pon tu marcador de ataque o defensa en el campo.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
     ]]></string>
 
     <string name="salvagers_spot_usage"><![CDATA[
@@ -205,14 +185,12 @@ range of an enemy operative.
     ]]></string>
 
     <string name="salvagers_spot_description"><![CDATA[
-**SUPPORT.** Select one enemy operative visible to this operative. Until the end of the turning point, whenever a
-friendly **HEARTHKYN SALVAGER** operative within 3\" of this operative is shooting that enemy operative, you can
-use this effect. If you do:\n
-\n
-• That friendly operatives ranged weapons have the Seek Light weapon rule.\n
-\n
-• That enemy operative cannot be obscured.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+**SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de este turno, cuando un aliado
+**HEARTHKYN SALVAGER** a 3\" de este Operativo dispare a ese Operativo enemigo, puedes usar este efecto:\n
+\n• Las armas de ese aliado ganan la regla Seek Light\n
+\n• Ese enemigo no puede estas Obscurecido.\n\n
+
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
     ]]></string>
 
     <string name="pan_spectral_scan_usage"><![CDATA[
@@ -220,40 +198,37 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="pan_spectral_scan_description"><![CDATA[
-Place your Pan Spectral Scan marker in the killzone. Whenever a friendly **HEARTHKYN SALVAGER**
-operative is shooting an enemy operative that is within 3\"
-of that marker, that friendly operatives ranged weapons
-have the Accurate 1 and Saturate weapon rules. When this
-operative is next activated, is incapacitated or performs this
-action again (whichever comes first), remove that marker.\n\n
+Pon tu Escáner espectral panorámico en el campo. Cuando un aliado **HEARTHKYN SALVAGER** esta disparando
+a un Operativo enemigo que este a 3\" de ese marcador, las armas de rango de tu aliado ganan la regla Accurate 1 y Saturate.\n
+\n
+Cuando este Operativo es activado otra vez, es incapacitado, o realiza esta accion otra vez (lo que pase primero), remueve el marcador.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion si esta en rango de control de un enemigo.
     ]]></string>
 
     <string name="salvagers_well_supplied_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="salvagers_well_supplied_description"><![CDATA[
-You can select one additional equipment option.
+Puedes seleccionar un equipo adicional.
     ]]></string>
 
     <string name="got_it_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="got_it_description"><![CDATA[
-Once during each of this operatives activations, it can perform a mission action for 1 less AP.
+Una vez durante la activacion de este Operativo, puedes hacer una accion de mision por 1 AP menos.
     ]]></string>
 
     <string name="secure_salvage_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="secure_salvage_description"><![CDATA[
-Whenever an enemy operative is shooting against, fighting against or retaliating against this operative,
-if this operative contests an objective marker or one of your mission markers, in the Resolve Attack Dice step, you can
-subtract 1 from the damage inflicted on it from one success.
+Cuando un enemigo este disparande, combatiendo o retaleando contra este Operativo, si este Operativo controla un Objetivo o un
+marcador de mision, en la fase de resolver dados de ataque, puedes sustraer 1 al daño recibido de un exito.
     ]]></string>
 
     <!--Faction Rules-->
@@ -266,62 +241,58 @@ lengths, even if it is to their own detriment.
 ]]></string>
 
     <string name="grudge_description"><![CDATA[
-Whenever an enemy operative incapacitates a friendly **HEARTHKYN SALVAGER** operative, that
-enemy operative gains one of your Grudge tokens for the battle.\n
+Cuando un Operativo enemigo incapacita a un aliado **HEARTHKYN SALVAGER**, ese enemigo gana un token
+de **Rencor** por el resto de la batalla.\n
 \n
-Whenever a friendly **HEARTHKYN SALVAGER** operative is shooting against, fighting against or
-retaliating against an enemy operative, for each of your Grudge tokens that enemy operative has,
-you can retain one of your normal successes as a critical success instead (including any normal
-successes already retained as a result of the Accurate weapon rule). Note that Grudge tokens
-are not removed when you do this.
+Cuando un aliado **HEARTHKYN SALVAGER** esta disparando, combatiendo o retaleando contra un enemigo,
+por cada token de **Rencor** qie ese Operativo enemigo tenga, puedes retener uno de tus exitos normales
+como resultados criticos en su lugar (incluyendo cualquier resultado de la regla Accurate).\n
+\nLos tokens de **Rencor** no son removidos cuando haces esto.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="plasma_knives_lore"><![CDATA[
-The superheated edge of a plasma knife can slice
-through several inches of solid metal. Armour and bone are no match for such a cutting edge.
+El filo flamante de un cuchillos plasma puede cortar capas gruesas de metal solido. Haciendo parecer el
+metal y los huesos como papel.
 ]]></string>
 
     <string name="plasma_knives_description"><![CDATA[
-Friendly **HEARTHKYN SALVAGER** operatives have the following melee weapon. Note that the
-**FIELD MEDIC** operative already has this weapon but with better stats; in that instance, use the
-better version.
+Aliados **HEARTHKYN SALVAGER** tienen la siguiente arma a melee. tu Operativo **FIELD MEDIC** ya tiene
+esta arma pero con mejores estadisticas; en ese caso, usa la mejor version.
 ]]></string>
 
     <string name="climbing_rigs_lore"><![CDATA[
-This climbing gear allows pioneering Hearthkyn
-Salvagers to traverse any difficult terrain they may encounter during the course of their duty.
+Este equipamiento de escalada permite a los Hearthkyn Salvagers atravesar cualquier terreno complicado
+que puedan encontrarse.
 ]]></string>
 
     <string name="climbing_rigs_description"><![CDATA[
-During each friendly **HEARTHKYN SALVAGER** operatives activation, you can do one of the following:\n
-\n
-• When that operative is climbing up, you can
-treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).\n
-\n
-• When that operative is dropping, ignore the vertical distance.
+Durante cada activacion de tus **HEARTHKYN SALVAGER**, puedes beneficiarte de una de estas reglas:\n
+\n• Cuando el Operativo este escalando, puedes tratar la distancia vertical como 2\" (independientemente de la cantidad de distancia vertical recorrida)\n
+\n• Cuando ese Operativo este cayendo, ignora la distancia vertical.
 ]]></string>
 
     <string name="excavation_tools_lore"><![CDATA[
-Powered picks, plasma cutters and pneumatic drills are
-items of equipment that allow the Hearthkyn Salvagers to extract treasures buried deep.
+Picos energizados, sierras de plasma y taladros neumaticos son equipamientos que permiten a los
+Hearthkyn Savagers extraer tesoros enterrados en las profundidades de la tierra.
 ]]></string>
 
     <string name="excavation_tools_description"><![CDATA[
-Friendly **HEARTHKYN SALVAGER** operatives can
-perform the **Pick Up Marker** action for 1 less AP, and do not have to control the marker to do so (this
-takes precedence over that actions conditions – they only need to contest the marker).
+Aliados **HEARTHKYN SALVAGER** pueden hacer la accion **Pick Up Marker** por 1 AP menos, y no necesitan
+estar controlando el marcador para hacerlo (esto precede todas las demas condiciones, solo tienen que
+contestear el marcador).
 ]]></string>
 
     <string name="writ_of_claim_lore"><![CDATA[
-When the Salvagers of a League have staked their claim, they will defend their due with steadfast determination.
+Cuando los Salvagers de la liga quieren apropiarse de algo, ellos lucharan con uñas y dientes para
+obtener su recompensa.
 ]]></string>
 
     <string name="writ_of_claim_description"><![CDATA[
-Once per battle, if friendly **HEARTHKYN SALVAGER** operatives contest two or more
-objective markers, after rolling off to decide initiative, you can use this rule. If you do, you can re-roll your dice.
+Una vez por batalla, si aliados **HEARTHKYN SALVAGER** contestan dos o mas objetivos, despues de lanzar
+dados para decidir iniciativa, puedes usar esta regla. Si lo haces, puedes re-rollear tu dado.
 ]]></string>
 
 
@@ -329,92 +300,89 @@ objective markers, after rolling off to decide initiative, you can use this rule
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="need_keeps_lore"><![CDATA[
-Those whose need is greatest shall fight hardest for their prize.
+Aquellos cuya necesidad sea mayor lucharan fuertemente por su objetivo.
+
 ]]></string>
 
     <string name="need_keeps_description"><![CDATA[
-Select one objective marker or one of your mission markers.\n
-\n
-• Whenever determining control of that marker, treat the total APL stat of friendly **HEARTHKYN
-SALVAGER** operatives that contest it as 1 higher if at least one friendly **HEARTHKYN
-SALVAGER** operative contests that marker. Note this is not a change to the APL stat, so any
-changes are cumulative with this.\n
-\n
-• Whenever a friendly **HEARTHKYN SALVAGER** operative is within 3\" of that marker, add
-1 to the Atk stat of its melee weapons (to a maximum of 4); if the weapon already has an
-Atk stat of 4, it has the Balanced weapon rule.
+Selecciona un objetivo o un marcador de mision.\n
+\n• Cuando vayas a determinar el control de un marcador, trata el total de APLs de aliados **HEARTHKYN
+SALVAGER** como si tuvieran 1 mas si al menos un aliado **HEARTHKYN SALVAGER** contesta ese marcador. Esto\n
+no es un cambio en las estadisticas de APL, asi que cualquier cambio es acumulable con esto.
+\n•Cuando un aliado **HEARTHKYN SALVAGER** este a 3\" de ese marcador, añade 1 al ATK de sus armas de melee
+(hasta un maximo de 4); si el arma ya tiene 4 de ATK, gana la regla Balanced.
 ]]></string>
 
     <string name="toil_earns_lore"><![CDATA[
-The harder the prize is won, the greater the reward.
+Mientras mas dificil sea conseguir el tesoro, mayor sera la recompensa.
 ]]></string>
 
     <string name="toil_earns_description"><![CDATA[
-Select one objective marker or one of your mission markers. Whenever an enemy operative
-is within 3\" of that marker, treat it as having one additional Grudge token.
+Seleciona un objetivo o un marcador de mision. Cuando un enemigo este a 3\" de ese marcador
+tratatalo como si tuviera un token de **Rencor** adicional.
 ]]></string>
 
     <string name="wrought_defence_lore"><![CDATA[
-Artificers of consummate skill, the Kin forge armour of great quality and resilience.
+Ingenieros de renombre y de suma habilidad forjan las armaduras de la hermandad con gran calidad y
+resistencia.
 ]]></string>
 
     <string name="wrought_defence_description"><![CDATA[
-Whenever an operative is shooting a friendly **HEARTHKYN SALVAGER** operative, if you rolled
-one or less successes (including any re-rolls), you
-can retain one of your fails as a normal success instead of discarding it.
+Cuando un Operativo este disparando a un aliado **HEARTHKYN SALVAGER**, si obtienes uno o menos exitos (
+incluyendo re-rolls), puedes retener uno de tus fallos como un exito normal en su lugar.
 ]]></string>
 
     <string name="proximate_firepower_lore"><![CDATA[
-Hearthkyn Salvagers are supremely effective in close-quarters environments.
+Hearthkyn Salvagers son sumamente efectivos en espacios cerrados.
 ]]></string>
 
     <string name="proximate_firepower_description"><![CDATA[
-Whenever a friendly **HEARTHKYN SALVAGER** operative is shooting an enemy operative within
-6\" of it, improve the Hit stat of that friendly operative’s ranged weapons by 1 (to a maximum
-of 3+). This can allow you to apply or remove the Hit stat change during an action (this takes precedence over the core rules).
+Cuando un aliado **HEARTHKYN SALVAGER** este disparando a un Operativo enemigo a 6\" de el, mejora su
+estadistica de HIT de sus armas de rango a 1 (hasta un maximo de 3+). Esto te permite aplicar o remover
+el cambio a la estadistica de Hit durante la accion (esto toma precedencia sobre las reglas principales).
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="the_ancestors_are_watching_lore"><![CDATA[
-The Kin revere their Ancestors and are guided by the lessons of their forebears.
+La hermandad venera a sus ancestros y son guias de lecciones de sus antepasados.
 ]]></string>
 
     <string name="the_ancestors_are_watching_description"><![CDATA[
-Use this firefight ploy during a friendly **HEARTHKYN SALVAGER** operatives activation.
-Until the end of that activation, that operative can perform either a free **Shoot** or a free **Fight** action.
+Usa esta Firefight ploy durante la activacion de un aliado **HEARTHKYN SALVAGER**.
+Hasta el final de la activacion, ese Operativo puede hacer ya sea una accion gratis de **Disparo**
+o una accion gratis de **Combate**.
 ]]></string>
 
     <string name="worth_it_lore"><![CDATA[
-Kin will gladly risk death if the rewards to their kindred are justified.
+La hermandad arriesgara su vida con honor si la recompensa a su gente es justificada.
 ]]></string>
 
     <string name="worth_it_description"><![CDATA[
-Use this firefight ploy when a friendly **HEARTHKYN SALVAGER** operative is
-incapacitated. It can perform a free mission action before it is removed from the killzone.
+Usa esta Firefight ploy cuando un aliado **HEARTHKYN SALVAGER** es incapacitado. Puede entonces realizar
+una accion de mision gratis antes de ser removido del campo.
 ]]></string>
 
     <string name="salvagers_sturdy_lore"><![CDATA[
-Stocky and stalwart, Hearthkyn Salvagers grit their teeth and shrug off wounds that would fell a Human.
+Rechonchos y fornidos, los Hearthkyn Salvager aprietan sus dientes e ignoran heridas que harian caer a un Humano.
 ]]></string>
 
     <string name="salvagers_sturdy_description"><![CDATA[
-Use this firefight ploy when an operative is shooting a friendly **HEARTHKYN SALVAGER**
-operative, when you collect your defence dice.
-Change the attackers retained critical successes to normal successes (any weapon rules
-they’ve already resolved aren’t affected, e.g. Piercing Crits).
+Usa esta Firefight ploy cuando un Operativo este disparando a un aliado **HEARTHKYN SALVAGER**, cuando
+recojas tus dados para defenderte. Cambia los resultados criticos del atacante a resultados normales
+(cualquier regla que ya hayan resuelto no es afectada como Piercing Crits, Rending, etc)
 ]]></string>
 
     <string name="engage_to_acquire_lore"><![CDATA[
-Some prizes must be wrested from the foe by force. The
-necessity of violent acquisition incites within the Kin a ruthless determination.
+Algunos objetivos deben ser arrebatados de sus enemigos usando la fuerza. La necesidad por adquirir
+violentamente llena de determinacion a la hermandad.
 ]]></string>
 
     <string name="engage_to_acquire_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice for a friendly **HEARTHKYN SALVAGER** operative,
-if it is shooting against or fighting against an enemy operative that controls an objective
-marker or one of your mission markers. You can re-roll any of your attack dice.
+Usa esta Firefight ploy despues de lanzar tus dados de ataque por un **HEARTHKYN SALVAGER** aliado,
+Si esta disparando o combatiendo contra un enemigo que controla un objetivo o un marcador de mision.
+Puedes re-rollear todos tus dados de ataque.
 ]]></string>
 
 </resources>

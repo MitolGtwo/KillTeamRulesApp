@@ -41,7 +41,7 @@ val HearthkynTheyn = Operative(
             name = "Autoch-pattern Bolter",
             type = WeaponType.RANGED,
             attacks = 4,
-            hit = "3+",
+            hit = "4+",
             damage = "3/4",
             keywords = listOf(
                 Accurate(1)
@@ -83,7 +83,7 @@ val HearthkynTheyn = Operative(
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
-            damage = "3/5",
+            damage = "3/4",
             keywords = listOf(
                 Range(8),
                 Piercing_Crits(1)

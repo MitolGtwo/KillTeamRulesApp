@@ -14,7 +14,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val RubricMarineIconBearer = Operative(
     name = "Rubric Marine Icon Bearer",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warpcoven_marineicon,
     stats = OperativeStats(
         apl = 3,
         move = "5\"",

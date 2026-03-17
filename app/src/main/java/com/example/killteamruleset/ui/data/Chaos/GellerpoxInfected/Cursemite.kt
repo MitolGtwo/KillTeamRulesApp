@@ -25,7 +25,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Cursemite : Operative
     get() = Operative(
         name = "Cursemite",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_cursermite,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

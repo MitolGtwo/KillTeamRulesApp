@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MandrakeChooserOfTheFlesh = Operative(
     name = "Mandrake Chooser Of The Flesh",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.mandrake_thechosen,
     stats = OperativeStats(
         apl = 2,
         move = "7\"",

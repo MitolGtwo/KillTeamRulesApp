@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val SorcererOfTempyrion = Operative(
     name = "Sorcerer Of Tempyrion",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warp_socerrer,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

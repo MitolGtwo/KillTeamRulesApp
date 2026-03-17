@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Mv7MarkerDrone = Operative(
     name = "Mv7 Marker Drone",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.drone_marker,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

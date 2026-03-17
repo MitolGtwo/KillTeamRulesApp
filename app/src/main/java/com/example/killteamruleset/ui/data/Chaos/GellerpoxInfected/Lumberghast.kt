@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val Lumberghast : Operative
     get() = Operative(
         name = "Lumberghast",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.gellepox_lumber,
         stats = OperativeStats(
             apl = 2,
             move = "5\"",

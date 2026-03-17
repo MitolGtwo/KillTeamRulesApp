@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val TranspectralInterferencePathfinder = Operative(
     name = "Transpectral Interference Pathfinder",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_interfere,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

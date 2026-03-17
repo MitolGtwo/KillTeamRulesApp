@@ -26,7 +26,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Mb3ReconDrone = Operative(
     name = "Mb3 Recon Drone",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_recondrone,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

@@ -27,7 +27,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Mv31PulseAcceleratorDrone = Operative(
     name = "Mv31 Pulse Accelerator Drone",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.drone_pulse_accelerator,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

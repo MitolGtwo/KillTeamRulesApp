@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Technomancer = Operative(
     name = "Technomancer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_tecnomancer,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

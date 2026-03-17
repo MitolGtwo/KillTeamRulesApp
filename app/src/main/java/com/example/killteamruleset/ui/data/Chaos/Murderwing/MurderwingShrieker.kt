@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MurderwingShrieker = Operative(
     name = "Murderwing Shrieker",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.murderwing_shieker,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

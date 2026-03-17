@@ -7,7 +7,7 @@ import com.example.killteamruleset.ui.model.*
 
 val TraitorTrenchSweeper = Operative(
     name = "Traitor Trench Sweeper",
-    imageRes = R.drawable.alpharanger,
+    imageRes = R.drawable.blooded_trench,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

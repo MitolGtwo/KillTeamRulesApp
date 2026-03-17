@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val VespidSwarmguard = Operative(
     name = "Vespid Swarmguard",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.vespid_swarmguard,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

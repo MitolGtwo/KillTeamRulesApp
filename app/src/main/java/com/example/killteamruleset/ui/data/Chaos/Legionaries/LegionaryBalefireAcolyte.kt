@@ -24,7 +24,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val LegionaryBalefireAcolyte = Operative(
     name = "Legionary Balefire Acolyte",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.legionarie_acolyte,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

@@ -22,7 +22,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val DroneControllerPathfinder = Operative(
     name = "Drone Controller Pathfinder",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.path_dronecontroler,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

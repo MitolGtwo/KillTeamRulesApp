@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val KommandoDakkaBoy = Operative(
     name = "Kommando Dakka Boy",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.kommandos_dakka,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

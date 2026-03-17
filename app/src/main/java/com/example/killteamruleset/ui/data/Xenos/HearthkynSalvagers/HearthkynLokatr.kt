@@ -72,9 +72,9 @@ val HearthkynLokatr = Operative(
             description = R.string.salvagers_spot_description
         ),
         Ability(
-            title = "Accelerated Appraisal",
-            usage = R.string.accelerated_appraisal_usage,
-            description = R.string.accelerated_appraisal_description
+            title = "Pan Espectral Scan",
+            usage = R.string.pan_spectral_scan_usage,
+            description = R.string.pan_spectral_scan_description
         ),
     ),
 

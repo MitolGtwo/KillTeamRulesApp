@@ -25,7 +25,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NightLordGunner = Operative(
     name = "Night Lord Gunner",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.nemesis_gunner,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

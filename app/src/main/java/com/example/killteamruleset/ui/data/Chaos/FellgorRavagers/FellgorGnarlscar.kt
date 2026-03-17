@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 val FellgorGnarlscar : Operative
     get() = Operative(
         name = "Fellgor Gnarlscar",
-        imageRes = R.drawable.technoarqueologist,
+        imageRes = R.drawable.fellgor_gnar,
         stats = OperativeStats(
             apl = 2,
             move = "6\"",

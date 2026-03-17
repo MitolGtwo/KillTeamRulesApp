@@ -15,7 +15,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val ImmortalGuardian = Operative(
     name = "Immortal Guardian",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_guardian,
     stats = OperativeStats(
         apl = 2,
         move = "5\"",

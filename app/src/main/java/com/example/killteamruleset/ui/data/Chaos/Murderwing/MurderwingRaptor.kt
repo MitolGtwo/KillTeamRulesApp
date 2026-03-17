@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val MurderwingRaptor = Operative(
     name = "Murderwing Raptor",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.murderwing_raptor,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

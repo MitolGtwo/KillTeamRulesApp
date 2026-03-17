@@ -20,7 +20,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NightLordVisionary = Operative(
     name = "Night Lord Visionary",
-    imageRes = R.drawable.aod_captain,
+    imageRes = R.drawable.nemesis_visionary,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

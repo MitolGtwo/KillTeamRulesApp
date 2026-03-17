@@ -18,7 +18,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val TzaangorIconBearer = Operative(
     name = "Tzaangor Icon Bearer",
-    imageRes = R.drawable.plague_plaguecaster,
+    imageRes = R.drawable.warp_icontza,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

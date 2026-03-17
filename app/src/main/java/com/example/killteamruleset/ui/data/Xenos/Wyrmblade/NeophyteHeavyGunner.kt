@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NeophyteHeavyGunner = Operative(
     name = "Neophyte Heavy Gunner",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrm_heavygunner,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",

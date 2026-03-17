@@ -21,7 +21,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val Chronomancer = Operative(
     name = "Chronomancer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.hierotek_chronomancer,
     stats = OperativeStats(
         apl = 3,
         move = "6\"",

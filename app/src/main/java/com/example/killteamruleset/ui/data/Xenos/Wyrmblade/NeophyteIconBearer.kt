@@ -23,7 +23,7 @@ import com.example.killteamruleset.ui.model.WeaponType
 
 val NeophyteIconBearer = Operative(
     name = "Neophyte Icon Bearer",
-    imageRes = R.drawable.dk_watch,
+    imageRes = R.drawable.wyrn_icon,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
