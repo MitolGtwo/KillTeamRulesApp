@@ -51,7 +51,7 @@ efectos de **GAZE OF THE GODS**.
 
     <string name="unholy_sustenance_description"><![CDATA[
 Cuando este Operativo esté combatiendo o retaleando, si incapacita un Operativo enemigo en esa secuencia, recupera D3 heridas perdidas. Esto es acumulable con
-el equipamiento **Symblos of Bloody Worship**.
+el equipamiento **Symbols of Bloody Worship**.
     ]]></string>
 
     <string name="blood_offering_usage"><![CDATA[
@@ -89,8 +89,8 @@ la batalla (excluyendo Rejuvenated).\n
     ]]></string>
 
     <string name="stimms_description"><![CDATA[
-Selecciona un aliado **BLOODED** dentro del rango de control de este Operativo, luego selecciona la regla Rejuvenated o otra regla **STIMM** para
-que este Operativo la tenga durante la batalla. No puedes seleccionar cada regla **STIMM** para cada Operativo más de una vez por batalla.\n\n
+Selecciona un aliado **BLOODED** dentro del rango de control de este Operativo, luego selecciona la regla Rejuvenated u otra regla **STIMM** para
+que ese Operativo la tenga durante la batalla. No puedes seleccionar cada regla **STIMM** para cada Operativo más de una vez por batalla.\n\n
 
 Este Operativo no puede hacer esta acción mientras está dentro del rango de control de un Operativo enemigo.
     ]]></string>
@@ -329,7 +329,7 @@ Ningun cobarde puede merecer la gloria. Los Blooded están dispuestos a arriesga
 ]]></string>
 
     <string name="reckless_aspirant_description"><![CDATA[
-Cuando un aliado **BLOODED** está disparando, combatiendo o retaleando, mientras está completamente dentro de territorio enemigo y no tiene un Blooded tokenm sus armas
+Cuando un aliado **BLOODED** está disparando, combatiendo o retaleando, mientras está completamente dentro de territorio enemigo y no tiene un Blooded token sus armas
 ganan la regla Accurate 1.\n
 \n
 Si ese Operativo tiene un Blooded token y está completamente dentro del territorio enemigo, sus armas ganan la regla Punishing.
