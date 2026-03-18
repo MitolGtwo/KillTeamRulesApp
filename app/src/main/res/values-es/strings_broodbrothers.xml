@@ -5,52 +5,50 @@
     <!--Brood-->
 
     <string name="coordinate_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="coordinate_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is in the killzone. Select one enemy operative to gain one of your Crossfire tokens.
+**STRATEGIC GAMBIT** si este Operativo está en el campo. Selecciona un enemigo para que gane uno de tus Crossfire tokens.
     ]]></string>
 
     <string name="devoted_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="devoted_description"><![CDATA[
-Once per turning point, when this operative is fighting
-or retaliating, in the Resolve Attack Dice step, you can ignore the
-damage inflicted on it from one normal success.
+Una vez por turno, cuando este Operativo esté combatiendo o retaleando, en la fase de resolver dados de ataque, puedes ignorar el daño recibido de un resultado normal.
+
     ]]></string>
 
     <string name="psiren_caster_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="psiren_caster_description"><![CDATA[
-Whenever a friendly **BROOD BROTHER**
-operative is shooting against, fighting against or retaliating
-against an enemy operative within 6\" of this operative, you can
-re-roll one of your attack dice.
+Cuando un aliado **BROOD BROTHER** está disparando, combatiendo o retaleando contra un enemigo a 6\" de este Operativo, puedes re-rollear uno de tus dados de ataque.
     ]]></string>
 
     <string name="brood_cult_icon_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_cult_icon_description"><![CDATA[
-Whenever determining control of a marker within 4\"
-of this operative, treat the total APL stat of friendly **BROOD BROTHER**
-operatives that contest it as 1 higher if at least one
-friendly **BROOD BROTHER** operative contests that marker.
-Note this is not a change to the APL stat, so any changes are cumulative with this
+Cuando determines el control de un marcador o objetivo a 4\" de este objetivo, trata el total de APL de aliados **BROOD BROTHER** contestando ese objetivo como si tuvieran
+1 APL mas.\n
+\nEsto no es un cambio a las estadísticas de APL, cualquier cambio es acumulativo con esto.
     ]]></string>
 
 
     <string name="broodmind_devotion_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="broodmind_devotion_description"><![CDATA[
+Una vez por turno, cuando un Operativo **BROOD BROTHER** Ready es incapacitado mientras sea visible y a 6\" de este Operativo, puedes usar esta regla. Si lo haces,
+antes de que ese Operativo sea removido del campo, puedes hacer una acción de 1AP gratis (excluyendo **Combate** o **Explosivos), y puedes cambiar su orden para hacerlo.\n
+\nNo puedes usar esta regla y la regla **Medic** en el mismo Operativo al mismo tiempo.
+        
 Once per turning point, when a ready friendly **BROOD BROTHER BROODGUARD** operative
 is incapacitated while visible to and within 6\" of this operative,
 you can use this rule. If you do, before that operative is removed
@@ -61,7 +59,7 @@ this rule and the Medic! rule (see **MEDIC**) on the same operative at the same 
     ]]></string>
 
     <string name="brood_assassin_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_assassin_description"><![CDATA[
@@ -70,7 +68,7 @@ This operative can perform the **Charge** action while it has a Conceal order.
 
 
     <string name="brood_counterattack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_counterattack_description"><![CDATA[
@@ -80,7 +78,7 @@ damage on the enemy operative in that sequence.
     ]]></string>
 
     <string name="brood_medic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_medic_description"><![CDATA[
@@ -111,7 +109,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="final_defiance_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="final_defiance_description"><![CDATA[
@@ -121,7 +119,7 @@ a free **Explosives** unique action before its removed from the killzone.
 
 
     <string name="brood_grenadier_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_grenadier_description"><![CDATA[
@@ -146,7 +144,7 @@ wholly intervening between that operative and that marker.
     ]]></string>
 
     <string name="brood_group_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_group_description"><![CDATA[
@@ -156,7 +154,7 @@ opponent then activates as normal (in other words, you cannot activate more than
     ]]></string>
 
     <string name="resilient_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="resilient_description"><![CDATA[
@@ -164,7 +162,7 @@ Normal Dmg of 3 or more inflicts 1 less damage on this operative.
     ]]></string>
 
     <string name="brood_bodyguard_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_bodyguard_description"><![CDATA[
@@ -200,7 +198,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="spiritual_leader_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="spiritual_leader_description"><![CDATA[
@@ -244,7 +242,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="alpha_predator_usage"><![CDATA[
-           Passive
+           Pasiva
     ]]></string>
 
     <string name="alpha_predator_description"><![CDATA[
@@ -256,7 +254,7 @@ more than 4AP in total for it.
     ]]></string>
 
     <string name="brood_monster_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_monster_description"><![CDATA[
@@ -296,7 +294,7 @@ enemy operative it is within control range of is selected for this action.
     ]]></string>
 
     <string name="brood_small_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_small_description"><![CDATA[
@@ -307,7 +305,7 @@ Vantage terrain) except being within 2\". This operative can perform the **Fall 
     ]]></string>
 
     <string name="brood_familiar_group_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_familiar_group_description"><![CDATA[
@@ -317,7 +315,7 @@ your opponent activates. When that other operative is expended, your opponent th
     ]]></string>
 
     <string name="brood_elusive_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brood_elusive_description"><![CDATA[
@@ -327,7 +325,7 @@ those actions normal conditions). It can move through enemy operatives, move wit
     ]]></string>
 
     <string name="first_of_the_patriarch_usage"><![CDATA[
-        Passive
+       Pasiva
     ]]></string>
 
     <string name="first_of_the_patriarch_description"><![CDATA[
@@ -335,7 +333,7 @@ This operative can either perform two **Shoot** or two **Fight** actions during 
     ]]></string>
 
     <string name="mastermind_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="mastermind_description"><![CDATA[
