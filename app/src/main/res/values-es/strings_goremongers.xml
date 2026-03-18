@@ -227,47 +227,36 @@ a un enemigo dentro de su rango de control.\n
     <!--Equipment-->
 
     <string name="gory_totem_lore"><![CDATA[
-Gore and peeled skulls mark the limits of the Goremongers territory.
+Entrañas y cráneos despellejados marcan los límites del terreno de los Goremonges.        
 ]]></string>
 
     <string name="gory_totem_description"><![CDATA[
-Before the battle, you can set up one of your Gory
-Totem markers wholly within your territory and
-more than 2\" from other markers (excluding your
-Bloody Cadaver marker). Whenever an enemy
-operative within 3\" of your Gory Totem marker is
-shooting, fighting or retaliating, your opponent
-cannot re-roll their attack dice.
+Antes de la batalla, puedes poner un marcador Gory Totem completamente dentro de tu territorio y a más de 2\" de otros marcadores (excluyendo tu Bloody Cadaver).
+Cuando un enemigo a 3\" de tu Gory Totem esté disparando, combatiendo o retaleando, tu oponente no puede re-rollear sus dados de ataque.
 ]]></string>
 
     <string name="bloody_cadaver_lore"><![CDATA[
-Goremongers will often stash corpses for later
-consumption and refuelling.
+Los Goremongers suelen apilar cadáveres para consumirlos luego. 
 ]]></string>
 
     <string name="bloody_cadaver_description"><![CDATA[
-Before the battle, you can set up one of your Bloody Cadaver markers wholly within your
-territory and more than 2\" from other markers (excluding your Gory Totem marker). Friendly
-**GOREMONGER** operatives can perform the **Pick Up Marker** action on that marker. In the Ready
-step of each Strategy phase, you can increase the **GORE TANK** of one friendly **GOREMONGER**
-operative that controls that marker, unless that friendly operative is within control range of an
-enemy operative.
+Antes de la batalla, puedes poner un token Bloody Cadaver completamente dentro de tu territorio y a más de 2\" de otros marcadores (excluyendo Gory Totem).
+Aliados **GOREMONGER** pueden hacer la acción **Pick Up Marker** a tu Bloody Cadaver. En la Ready step de cada Strategy Phase, puedes incrementar el **GORE TANK**
+de un aliado **GOREMONGER** que controle ese marcador, a menos que ese aliado esté en rango de control de un enemigo.
 ]]></string>
 
     <string name="gore_chaos_sigil_lore"><![CDATA[
-The runes of the Ruinous Powers are carved into flesh
-and borne upon armour and clothing, providing their
-bearers with malefic might.
+Las runas de los poderes oscuros son marcadas en la piel y los huesos de sus portadores, brindándoles capacidades maléficas y poderosas.
 ]]></string>
 
     <string name="gore_chaos_sigil_description"><![CDATA[
-Once per turning point, when an operative is shooting a friendly **GOREMONGER** operative,
-at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the
-Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would
-therefore be ignored.
+Una vez por turno, cuando un Operativo esté disparando a un aliado **GOREMONGER**, al inicio de la fase de lanzamiento de dados de defensa, puedes usar esta regla.
+Si lo haces, empeora el valor de piercing por 1 hasta el final de la secuencia.\n
+\nPiercing 1 sería ignorado por ejemplo.
 ]]></string>
 
     <string name="wrist_chains_lore"><![CDATA[
+Los Goremongers aseguran sus armas con una extens        
 The Goremongers secure their weapons with lengths of
 chain, enabling them to be hurled towards an opponent.
 ]]></string>
