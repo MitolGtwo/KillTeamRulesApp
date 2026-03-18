@@ -1780,32 +1780,32 @@ object PloyRepository {
 
             // ── Kommandos FIREFIGHT ──
             Ploy(
-                id = "cortical_control",
+                id = "kommando_jas",
                 name = "JUST A SCRATCH",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.cortical_control_lore,
-                description = R.string.cortical_control_description
+                lore = R.string.kommando_jas_lore,
+                description = R.string.kommando_jas_description
             ),
             Ploy(
-                id = "reanimated_function",
+                id = "krumpem",
                 name = "KRUMP ’EM!",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.reanimated_function_lore,
-                description = R.string.reanimated_function_description
+                lore = R.string.krumpem_lore,
+                description = R.string.krumpem_description
             ),
             Ploy(
-                id = "living_lighting",
+                id = "kunnin_brutal",
                 name = "KUNNIN’ BUT BRUTAL",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.living_lighting_lore,
-                description = R.string.living_lighting_description
+                lore = R.string.kunnin_brutal_lore,
+                description = R.string.kunnin_brutal_description
             ),
             Ploy(
-                id = "dimensional_ambush",
+                id = "shake_it_off",
                 name = "SHAKE IT OFF",
                 type = PloyType.FIREFIGHT,
-                lore = R.string.dimensional_ambush_lore,
-                description = R.string.dimensional_ambush_description
+                lore = R.string.shake_it_off_lore,
+                description = R.string.shake_it_off_description
             )
         ),
 

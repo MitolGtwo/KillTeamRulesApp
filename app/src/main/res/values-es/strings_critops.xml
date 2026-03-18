@@ -7,8 +7,8 @@
 ]]></string>
 
     <string name="crit_op_1_usage"><![CDATA[
-Un marcador de objetivo controlado por el Operativo activo es **SECURED** por tu kill team hasta que el kill team enemigo realice la acción **SECURE** sobre
-ese mismo marcador de objetivo\n\n
+Un objetivo controlado por el Operativo activo es asegurado por tu kill team hasta que el kill team enemigo realice la acción **SECURE** sobre
+ese mismo objetivo.\n\n
 
 Un Operativo no puede hacer esta accion durante el primer turno, o estando en rango de control de un Operativo enemigo.
 ]]></string>
@@ -16,9 +16,9 @@ Un Operativo no puede hacer esta accion durante el primer turno, o estando en ra
     <string name="crit_op_1_victory"><![CDATA[
 Al final de cada turno despues del primero:\n
 \n 
-* Si un marcador de objetivo esta **SECURED** por tu kill team, ganas 1VP.\n
+* Si un objetivo esta asegurado por tu kill team, ganas 1VP.\n
 \n 
-* Si tienes mas marcadores de objetivos **SECURED** que tu oponente, ganas 1VP.
+* Si tienes mas objetivos asegurado que tu oponente, ganas 1VP.
 ]]></string>
 
 
@@ -27,10 +27,10 @@ Al final de cada turno despues del primero:\n
 ]]></string>
 
     <string name="crit_op_2_usage"><![CDATA[
-Un marcador de objetivo controlado por el Operativo activo esta **LOOTED**\n\n
+Un marcador de objetivo controlado por el Operativo activo esta **Loteado**\n\n
 
 Un Operativo no puede realizar esta accion durante el primer turno, mientras el Operativo esta en rango de control de un Enemigo, o si ese marcador de objetivo
-ya ha sido **LOOTED** durante este turno.
+ya ha sido **Loteado** durante este turno.
 ]]></string>
 
     <string name="crit_op_2_victory"><![CDATA[
@@ -43,7 +43,7 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_3_usage"><![CDATA[
-   El marcador de objetivo controlando por el Operativo esta transmitiendo hasta el inicio del siguiente
+   El objetivo controlando por el Operativo esta transmitiendo hasta el inicio del siguiente
    turno\n\n
    Un Operativo no puede hacer esta accion durante el primer turno, o estando en rango de control
    de un Operativo enemigo.
@@ -52,9 +52,9 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     <string name="crit_op_3_victory"><![CDATA[
     Al final de cada turno despues del primero:\n
 
-    *Si controlas un marcador de objetivo que este transmitiendo, ganas 1VP.\n
+    *Si controlas un objetivo que este transmitiendo, ganas 1VP.\n
 
-    *Si controlas mas marcadores de objetivos que esten transmitiendo que el oponente,
+    *Si controlas mas objetivos que esten transmitiendo que el oponente,
     ganas 1VP.
 ]]></string>
 
@@ -94,25 +94,25 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     , cada jugador debe seleccionar un marcador de objetivo y una de las siguientes apuestas para
     este turno:\n
     \n
-    *Operativos aliados van a controlar ese marcador de objetivo al final de este turno.\n
+    *Operativos aliados van a controlar ese objetivo al final de este turno.\n
     \n
-    *Operativos enemigos no contestaran ese marcador de objetivo al final de este turno.\n
+    *Operativos enemigos no contestaran ese objetivo al final de este turno.\n
     \n
-    Cada jugador, no puede seleccionar el mismo marcador de mision mas de una vez por batalla
-    (de esta forma se debe seleccionar cada marcador de objetivo durante la batalla).
+    Cada jugador, no puede seleccionar el mismo objetivo mas de una vez por batalla
+    (de esta forma se debe seleccionar cada objetivo durante la batalla).
 ]]></string>
 
     <string name="crit_op_5_victory"><![CDATA[
     Al final del cada turno despues del primero:\n
     \n
-    *Si Operativos aliados controlan mas marcadores de objetivo que el enemigo, ganas 1VP.\n
+    *Si Operativos aliados controlan mas de objetivo que el enemigo, ganas 1VP.\n
     \n
     *Si cumples tu apuesta seleccionada, ganas 1VP.
 ]]></string>
 
 
     <string name="crit_op_6_aditional"><![CDATA[
-    Los Operativos pueden hacer la accion **Pick Up Marker** en cada marcador de objetivo en los
+    Los Operativos pueden hacer la accion **Pick Up Marker** en cada objetivo en los
     siguientes turnos:\n
     \n
         * **Turno 2** Pero debes gastar 2 APL (esta accion no puede ser gratis ni puede reducirse el costo de APL).\n
@@ -122,15 +122,15 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
         * **Turno 4** Como una accion normal.\n
         \n
 
-    Cuando un Operativo esta cargado un marcador de objetivo, ese Operativo no puede removerse, ponerse otra vez
+    Cuando un Operativo esta cargado un objetivo, ese Operativo no puede removerse, ponerse otra vez
     en el campo mas de 6\" de distancia (Ej Vuelo, Boost, Teleport).
 ]]></string>
 
     <string name="crit_op_6_victory"><![CDATA[
-    Al final de cada turno despues del primero, si Operativos aliados controlan mas marcadores de Objetivo
+    Al final de cada turno despues del primero, si Operativos aliados controlan mas objetivos
     que el enemigo, ganas 1VP.\n
     \n
-    Al final de la batalla, por cada marcador de objetivo que este siendo cargado por Operativos aliados
+    Al final de la batalla, por cada objetivo que este siendo cargado por Operativos aliados
     , ganas 1VP.
 ]]></string>
 
@@ -142,20 +142,20 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_7_usage"><![CDATA[
-    El marcador de objetivo central, o el marcador de objetivo de tu Oponente es **Downloaded**\n\n
+    El objetivo central, o el objetivo de tu Oponente es **Descargado**\n\n
 
     Un Operativo no puede realizar esta accion durante el primer o segundo turno, mientras este en
-    rango de control de un agente Operativo, o si el marcador de Objetivo esta **Downloaded** durante
+    rango de control de un agente Operativo, o si el marcador de Objetivo esta **Descargado** durante
     la batalla.
 ]]></string>
 
     <string name="crit_op_7_victory"><![CDATA[
-    Al final de cada turno despues del primero, si Operativos aliados controlan mas marcadores de
-    objetivo que el enemigo, ganas 1VP. Ignora marcadores **Downloaded** al determinar esto.\n
+    Al final de cada turno despues del primero, si Operativos aliados controlan mas
+    objetivos que el enemigo, ganas 1VP. Ignora marcadores **Descargado** al determinar esto.\n
 \n
-    Cuando un Operativo realiza la accion **Download** durante el tercer turno, ganas 1VP.\n
+    Cuando un Operativo realiza la accion **Descargar** durante el tercer turno, ganas 1VP.\n
 \n
-    Cuando un Operativo realiza la accion **Download** durante el tercer cuarto, ganas 2VP.
+    Cuando un Operativo realiza la accion **Descargar** durante el tercer cuarto, ganas 2VP.
 ]]></string>
 
 
@@ -166,7 +166,7 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_8_usage"><![CDATA[
-    Un marcador de objetivo controlado por Operativo aliado gana 1 punto de **Data**. Usa un dado
+    Un objetivo controlado por Operativo aliado gana 1 punto de **Data**. Usa un dado
     para llevar la cuenta en ese marcador de objetivo.\n\n
 
     Un Operativo no puede realizar esta accion durante el primer turno, mientras este en rango
@@ -179,7 +179,7 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_8_usage2"><![CDATA[
-    Remueve todos los puntos **Data** de un marcador de objetivo que el Operativo controle.\n\n
+    Remueve todos los puntos **Data** de un objetivo que el Operativo controle.\n\n
 
     Un Operativo no puede hacer esta accion durante el primer, segundo o tercer turno,
     mientras este en rango de control de un Operativo enemigo, o si ese marcador de objetivo
@@ -187,7 +187,7 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_8_victory"><![CDATA[
-    Al final del segundo y tercer turno, si Operativo aliados han realizado mas acciones **Compile Data**
+    Al final del segundo y tercer turno, si Operativos aliados han realizado mas acciones **Compile Data**
     durante este turno que tu oponente, ganas 1VP.\n
 
     Cuando un Operativo aliado realiza la accion **Send Data**, ganas un numero de VP equivalente
@@ -201,10 +201,10 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
 ]]></string>
 
     <string name="crit_op_9_usage"><![CDATA[
-    Un marcador de objetivo **inerte** que el Operativo controle deja de ser un **inerte**.\n\n
+    Un objetivo **Apagado** que el Operativo controle deja de estar **Apagado**.\n\n
 
-    Un Operativo no puede hacer esta accion durante el primer y segundo turno, o mientras este
-    en rango de control de un Operativo enemigo.
+    Un Operativo no puede hacer esta accion durante el primer turno, o mientras este en rango de control
+    de un Operativo enemigo.
 ]]></string>
 
     <string name="crit_op_9_aditional"><![CDATA[
@@ -216,14 +216,14 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     de objetivo, entonces ambos jugadores revelan simultaneamente:\n
     \n
     *Si ambos jugadores seleccionan el mismo objetivo, ese marcador de objetivo pasa a estar
-    **Inerte** durante este turno.\n
+    **Apagado** durante este turno.\n
     *Si cada jugador escoge uno marcador de objetivo distinto, el marcador que ningun jugador
-    selecciono pasa a ser **Inerte**.
+    selecciono pasa a estar **Apagado**.
 ]]></string>
 
     <string name="crit_op_9_victory"><![CDATA[
     Al final de cada turno despues del primero, por cada marcador de objetivo controlado por
-    Operativos aliados, ganas 1VP (ignoras marcadores de objetivos **Inertes** al momento de determinar esto).
+    Operativos aliados que no este **Apagado**, ganas 1VP.
 ]]></string>
 
 </resources>
