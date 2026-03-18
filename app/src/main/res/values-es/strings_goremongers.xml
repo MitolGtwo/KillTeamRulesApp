@@ -99,7 +99,7 @@ Cuando este Operativo incapacita a un enemigo a mas de 2\", antes de que ese ene
 puedes incrementar el **GORE TANK** de un aliado **GOREMONGER** a 8\" de ese Operativo enemigo.\n
 \n
 Cuando este Operativo inflige daño a un enemigo con cualquier perfil de sus Dual Autopistol pero no lo
-incapacitam ese Operativo enemigo gana uno de tus Bleeding tokens (si no tiene uno). Durante la activacion
+incapacita ese Operativo enemigo gana uno de tus Bleeding tokens (si no tiene uno). Durante la activacion
 o Counteract de un aliado **GOREMONGER**, antes o despues de que haga una accion, si esta a 8\" de un enemigo
 con uno de tus Bleeding tokens, puedes remover ese token e incrementar el **GORE TANK** de ese aliado.
     ]]></string>
@@ -137,8 +137,8 @@ verticalmente).
     ]]></string>
 
     <string name="rooftop_stalker_description"><![CDATA[
-Cuando este Operativo este peleando durante una activacion en la que cayo de terreno aventajado, o cuando
-este Operativo pelea durante un enemigo que esta en terreno aventajado, las armas de melee de este Operativo
+Cuando este Operativo esté peleando durante una activación en la que cayó de terreno aventajado, o cuando
+este Operativo pelea durante un enemigo que está en terreno aventajado, las armas de melee de este Operativo
 ganan la regla Relentless.
     ]]></string>
 
@@ -146,12 +146,12 @@ ganan la regla Relentless.
     <!--Faction Rules-->
 
     <string name="runes_of_khorne_lore"><![CDATA[
-Las runas de Khorne son grabadas en la piel de Goremongers, para darles una resistencia infernal contra
+Las runas de Khorne son grabadas en la piel de Goremongers para darles una resistencia infernal contra
 ataques a distancia.
 ]]></string>
 
     <string name="runes_of_khorne_description"><![CDATA[
-Cada **GOREMONGER** aliado no puede perder mas de 8 heridas durante una accion de **Disparo**
+Cada **GOREMONGER** aliado no puede perder más de 8 heridas durante una acción de **Disparo**
 ]]></string>
 
     <string name="gore_tanks_lore"><![CDATA[
@@ -273,115 +273,83 @@ rule: chainblade, chainglaive, great chainaxe (ignore its Brutal weapon rule), p
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="enhance_violence_lore"><![CDATA[
-When powered by sanguavitae, Goremongers
-fight with far greater ferocity and skill than any
-unaugmented Human.
+Cuando están potenciados por el Sanguavitae, los Goremongers pelean con aun más ferocidad y habilidad que cualquier humano normal.
 ]]></string>
 
     <string name="enhance_violence_description"><![CDATA[
-Whenever a friendly **GOREMONGER** operatives **GORE TANK** is:\n
-\n
-• Half, its melee weapons have the Balanced weapon rule.\n
-\n
-• Full, its melee weapons have the Relentless weapon rule.
+Cuando el **GORE TANK** de un aliado **GOREMONGER** esta:\n
+\n• A la mitad, las armas de melee ganan la regla Balanced.\n
+\n• Lleno, las armas de melee ganan la regla Relentless.
 ]]></string>
 
     <string name="augmented_endurance_lore"><![CDATA[
-An infusion of sanguavitae serves to harden the
-subject’s mind, body and soul, rendering them supremely resilient.
+Las mezclas de Sanguavitae sirven para endurecer la mente, el cuerpo y el alma del que las consume, haciéndolos extremadamente resistentes.
 ]]></string>
 
     <string name="augmented_endurance_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**GOREMONGER** operative, if that friendly operatives **GORE TANK** is:\n
-\n
-• Half, you can re-roll one of your defence dice.\n
-\n
-• Full, you can re-roll any of your defence dice.
+Cuando un Operativo está disparando a un aliado **GOREMONGER**, si el **GORE TANK** de ese aliado esta:\n
+\n• A la mitad, puedes re-rollear uno de tus dados de defensa\n
+\n• Lleno, puedes re-rollear cualquier dado de defensa.
 ]]></string>
 
     <string name="gory_tenacity_lore"><![CDATA[
-The prospect of carnage drives Goremongers into
-a maniacal fury. Enraged thus, they are capable of shrugging off terrible wounds.
+La expectativa de una carnicería empuja a los Goremongers con una furia maníaca, haciéndolos capaces de ignorar heridas terribles.
 ]]></string>
 
     <string name="gory_tenacity_description"><![CDATA[
-Whenever a friendly **GOREMONGER** operative is
-fighting or retaliating, the first time your opponent
-strikes it during that sequence, halve the damage
-inflicted (rounding up and to a minimum of 2)
+Cuando un aliado  **GOREMONGER** está combatiendo o retaleando, la primera vez que tu oponente te golpee durante esa secuencia, reduce el daño recibido a la mitad 
+(redondealo hacia arriba, y hasta un mínimo de 2)
 ]]></string>
 
     <string name="hunt_for_blood_lore"><![CDATA[
-As blood is spilled, its copper scent fills the air, driving
-the Goremongers into a thirsting frenzy.
+Mientras la sangre se derrama y el aroma de hierro llena el aire, los Goremongers se llenan de un insaciable frenesí.
 ]]></string>
 
     <string name="hunt_for_blood_description"><![CDATA[
-Select one friendly **GOREMONGER** operative. If
-it has a **Conceal** order, change it to **Engage**. Then
-it can immediately perform a free **Charge** action,
-but cannot move more than 3\" during that action.
+Selecciona un aliado **GOREMONGER**. Si tiene una orden de **Conceal** cámbiela a **Engage**. Luego puede inmediatamente hacer una acción de **Carga** gratis,
+pero no puede moverse más de 3\" durante esa acción.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="unbridled_aggression_lore"><![CDATA[
-When they close with the enemy, Goremongers fight
-with all the savage fury and martial prowess of the
-Bloodletters they so idolise
+Cuando están cerca del enemigo, los Goremongers pelean con furia salvaje y habilidad marcial de los Bloodletters que tanto adoran.
 ]]></string>
 
     <string name="unbridled_aggression_description"><![CDATA[
-Use this firefight ploy when a friendly
-**GOREMONGER** operative is fighting during
-an activation in which it performed the **Charge**
-action, at the end of the Roll Attack Dice step.
-Until the end of that sequence, that operative’s
-melee weapons have the Severe weapon rule.
+Usa esta Firefight ploy cuando un aliado **GOREMONGER** esté combatiendo durante una activación en la que haya hecho una **Carga**, al final de la fase de
+lanzar dados de ataque. Hasta el final de esa secuencia, las armas de melee de ese Operativo ganan la regla Severe.
 ]]></string>
 
     <string name="gorethirst_lore"><![CDATA[
-Goremongers are drawn to violence like insects
-to blazing lumen, unable to control their thirst to spill viscera.
+Los Goremongers son atraídos a la violencia como insectos a la luz, incapaces de controlar su sed de destruir y derramar vísceras.
 ]]></string>
 
     <string name="gorethirst_description"><![CDATA[
-Use this firefight ploy when you would counteract.
-You can do so with one friendly **GOREMONGER**
-operative that has a **Conceal** order, but you must
-change its order to **Engage** and it cannot perform
-any actions other than **Charge**, **Shoot** or **Fight**
-during that counteraction.
+Usa esta Firefight ploy cuando vayas a hacer un Counteract. Puedes hacerlo con un aliado **GOREMONGER** que tenga una orden de **Conceal**,
+pero debes cambiar su orden a **Engage** y no puede hacer otra acción que no sea **Cargar, Disparar** o **Combatir** durante esa Counteract.
 ]]></string>
 
     <string name="destructive_demise_lore"><![CDATA[
-Empowered by the blood of their foes, mortally wounded
-Goremongers expend the last of their might in a vengeful frenzy.
+Empoderado por la sangre de sus enemigos, un Goremonger mortalmente herido usa su último aliento en un frenesí vengativo.
 ]]></string>
 
     <string name="destructive_demise_description"><![CDATA[
-Use this firefight ploy when a friendly **GOREMONGER** operative is incapacitated,
-before it is removed from the killzone. Inflict damage determined by that friendly operatives
-**GORE TANK** on one enemy operative within that friendly operative’s control range. Inflict:\n
-\n
-• D3 if empty.\n
-• D3+1 if half.\n
-• D3+2 if full.
+Usa esta Firefight ploy cuando un aliado **GOREMONGER** sea incapacitado, antes de que sea removido del campo. Inflige daño determinado por el
+**GORE TANK** a un enemigo Operativo dentro del rango de control de este aliado:\n
+\n• D3 si esta vacio.\n
+• D3+1 si esta a la mitad.\n
+• D3+2 si esta lleno.
 ]]></string>
 
     <string name="lacerate_flesh_lore"><![CDATA[
-Goremongers may resort to topping up their blood tanks
-with their own crimson fluid. Doing so is a last resort,
-undertaken only in a desperate frenzy.
+Goremongers pueden terminar llenando sus tanques sanguíneos con sus propios fluidos escarlatas. Haciéndolo como un último recurso cuando están saturados de desesperación.
 ]]></string>
 
     <string name="lacerate_flesh_description"><![CDATA[
-Use this firefight ploy when a friendly **GOREMONGER** operative with an empty **GORE
-TANK** is activated or counteracts. Increase that operatives **GORE TANK**. At the end of that
-activation/counteraction, decrease its **GORE TANK** (you cannot use this decrease to use a
-**SANGUAVITAE** rule); if you cannot decrease its **GORE TANK**, inflict D3 damage on it.
+Usa esta Firefight ploy cuando un aliado **GOREMONGER** con un **GORE TANK** es activado o hace un Counteract. Incrementa el **GORE TANK** de ese Operativo. Al final de 
+esa activación o Counteract, reduce su **GORE TANK** (no puedes usar esta reducción para usar una regla **SANGUAVITAE**); si no puedes reducir su **GORE TANK**, inflige D3 heridas a este Operativo.
 ]]></string>
 
 </resources>
