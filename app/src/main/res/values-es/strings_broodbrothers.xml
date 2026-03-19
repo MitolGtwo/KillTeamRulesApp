@@ -46,16 +46,8 @@ Cuando determines el control de un marcador o objetivo a 4\" de este objetivo, t
 
     <string name="broodmind_devotion_description"><![CDATA[
 Una vez por turno, cuando un Operativo **BROOD BROTHER** Ready es incapacitado mientras sea visible y a 6\" de este Operativo, puedes usar esta regla. Si lo haces,
-antes de que ese Operativo sea removido del campo, puedes hacer una acción de 1AP gratis (excluyendo **Combate** o **Explosivos), y puedes cambiar su orden para hacerlo.\n
+antes de que ese Operativo sea removido del campo, puedes hacer una acción de 1AP gratis (excluyendo **Combate** o **Explosivos**), y puedes cambiar su orden para hacerlo.\n
 \nNo puedes usar esta regla y la regla **Medic** en el mismo Operativo al mismo tiempo.
-        
-Once per turning point, when a ready friendly **BROOD BROTHER BROODGUARD** operative
-is incapacitated while visible to and within 6\" of this operative,
-you can use this rule. If you do, before that operative is removed
-from the killzone, it can perform a 1AP action for free (excluding
-**Fight** and **Explosives**), and you can change its order to do so.
-It is then removed from the killzone as normal. You cannot use
-this rule and the Medic! rule (see **MEDIC**) on the same operative at the same time.
     ]]></string>
 
     <string name="brood_assassin_usage"><![CDATA[
@@ -63,7 +55,7 @@ this rule and the Medic! rule (see **MEDIC**) on the same operative at the same 
     ]]></string>
 
     <string name="brood_assassin_description"><![CDATA[
-This operative can perform the **Charge** action while it has a Conceal order.
+Este Operativo puede **Cargar** mientras tiene una orden de Conceal.
     ]]></string>
 
 
@@ -72,9 +64,7 @@ This operative can perform the **Charge** action while it has a Conceal order.
     ]]></string>
 
     <string name="brood_counterattack_description"><![CDATA[
-Whenever this operative is fighting or retaliating,
-whenever your opponent resolves a normal success, inflict 1
-damage on the enemy operative in that sequence.
+Cuando este Operativo está combatiendo o retaleando, cuando tu oponente resuelve un dado normal, inflige 1 daño a ese enemigo Operativo en esa secuencia.
     ]]></string>
 
     <string name="brood_medic_usage"><![CDATA[
@@ -82,16 +72,12 @@ damage on the enemy operative in that sequence.
     ]]></string>
 
     <string name="brood_medic_description"><![CDATA[
-The first time during each turning point that another friendly **BROOD BROTHER** operative
-(excluding **PATRIARCH**) would be incapacitated while visible to and within 3\" of this operative,
-you can use this rule, providing neither this nor that operative is within control range of an enemy
-operative. If you do, that friendly operative is not incapacitated, has 1 wound remaining and cannot be
-incapacitated for the remainder of the action. After that action, that friendly operative can
-immediately perform a free **Dash** action, but must end that move within this operatives control range.
-Subtract 1 from this and that operatives APL stats until the end of their next activations respectively,
-and if this rule was used during that friendly operatives activation, that activation ends.\n
-\n
-You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this operative would be a primary or secondary target
+La primera vez durante cada turno cuando un aliado **BROOD BROTHER** (excluyendo**PATRIARCH**) vaya a ser incapacitado mientras sea visible y a 3\" de este Operativo,
+puedes usar esta regla, asumiendo que ni ese aliado ni este Operativo están en rango de control de un enemigo.\n
+\nSi lo haces, ese aliado no es incapacitado, tiene 1 herida restando y no puede ser incapactidado por el resto de la accion. Despues de esa accion, ese aliado puede
+inmediatamente hacer un **Dash** pero debe terminar en rango de control de este Operativo.\n
+Sustrae 1 APL a ese y este Operativo hasta el final de sus siguientes activaciones; si esta regla fue usada durante la activación de ese aliado, su activación termina.\n
+\nNo puedes usar esta regla si este Operativo es incapacitado, o si es un **Disparo** y este Operativo es seleccionado como objetivo primario o secundario.
     ]]></string>
 
 
