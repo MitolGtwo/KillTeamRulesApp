@@ -1,5 +1,6 @@
 package com.example.killteamruleset.ui.screens
 
+import android.app.Activity
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -11,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -28,6 +30,8 @@ import com.example.killteamruleset.ui.components.ResourcesDrawerContent
 import com.example.killteamruleset.ui.localization.setAppLocale
 import com.example.killteamruleset.ui.navigation.AppNavigation
 import kotlinx.coroutines.launch
+import com.example.killteamruleset.R
+import com.example.killteamruleset.ui.localization.LocaleUtils
 
 @Composable
 fun MainScreen(
@@ -52,7 +56,15 @@ fun MainScreen(
                         "tacops" -> navController.navigate("tacops")
                         "keywords" -> navController.navigate("keywords")
                         "general_rules" -> navController.navigate("general_rules")
+                        "profile" -> navController.navigate("profile")
+                        "language" -> {
+                            val current = LocaleUtils.getSavedLanguage(context)
+                            val next = if (current == "es") "en" else "es"
 
+                            LocaleUtils.saveLanguage(context, next)
+                            setAppLocale(context, next)
+                            (context as? Activity)?.recreate()
+                        }
                     }
                 }
             )
@@ -64,9 +76,11 @@ fun MainScreen(
                     onResourcesClick = {
                         scope.launch { drawerState.open() }
                     },
-                    onBattleClick = { },
+                    onBattleClick = {
+                        navController.navigate("battleTracker")
+                    },
                     onKillTeamsClick = {
-                        navController.navigate("alliances")
+                        navController.navigate("alliances") // ✅ NORMAL FLOW
                     }
                 )
             }
@@ -89,7 +103,9 @@ fun MainScaffold(navController: NavHostController) {
     val context = LocalContext.current
 
     // 🔁 language state (kept here)
-    var isSpanish by rememberSaveable { mutableStateOf(false) }
+    var currentLang by remember {
+        mutableStateOf(LocaleUtils.getSavedLanguage(context))
+    }
 
     ModalNavigationDrawer(
         drawerState = drawerState,
@@ -105,16 +121,23 @@ fun MainScaffold(navController: NavHostController) {
                         "tacops" -> navController.navigate("tacops")
                         "keywords" -> navController.navigate("keywords")
                         "battleflow" -> navController.navigate("battleflow")
-                        "profile" -> navController.navigate("profile")
+                        "profile" -> {
+                            navController.navigate("profile")
+                        }
 
                         // ✅ 👇 THIS IS WHERE IT GOES
                         "language" -> {
-                            isSpanish = !isSpanish
+                            val newLang = if (currentLang == "es") "en" else "es"
+
+                            LocaleUtils.saveLanguage(context, newLang)
+
+                            currentLang = newLang
 
                             setAppLocale(
                                 context = context,
-                                language = if (isSpanish) "es" else "en"
+                                language = newLang
                             )
+                            (context as? Activity)?.recreate()
                         }
                     }
                 }

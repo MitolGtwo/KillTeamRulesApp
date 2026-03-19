@@ -5,12 +5,14 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.killteamruleset.state.BattleUIState
 import com.example.killteamruleset.ui.components.MainDashboard
 import com.example.killteamruleset.ui.screens.MapsScreen
 import com.example.killteamruleset.ui.data.OperativeRepository
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Alliance
 import com.example.killteamruleset.ui.model.Archetypes
+import com.example.killteamruleset.ui.model.TeamScreen
 import com.example.killteamruleset.ui.screens.AllianceSelectionScreen
 import com.example.killteamruleset.ui.screens.ColorSchemesScreen
 import com.example.killteamruleset.ui.screens.EquipmentScreen
@@ -24,11 +26,14 @@ import com.example.killteamruleset.ui.screens.TeamDetailScreen
 import com.example.killteamruleset.ui.screens.TeamsScreen
 import com.example.killteamruleset.ui.screens.ColorSchemesScreen
 import com.example.killteamruleset.ui.screens.AssemblyGuideScreen
+import com.example.killteamruleset.ui.screens.BattleSetupStep2Screen
+import com.example.killteamruleset.ui.screens.BattleTrackerScreen
 import com.example.killteamruleset.ui.screens.CritOpsScreen
 import com.example.killteamruleset.ui.screens.GeneralRulesScreen
 import com.example.killteamruleset.ui.screens.KeywordsScreen
 import com.example.killteamruleset.ui.screens.MainScreen
 import com.example.killteamruleset.ui.screens.MapsCritOpsScreen
+import com.example.killteamruleset.ui.screens.ProfileScreen
 
 @Composable
 fun AppNavigation(navController: NavHostController) {
@@ -72,6 +77,25 @@ fun AppNavigation(navController: NavHostController) {
         // ─────────────────────────────
         // 🧬 ALLIANCES & TEAMS
         // ─────────────────────────────
+        composable("alliances/{isPlayer}") { backStack ->
+
+            val isPlayer = backStack.arguments
+                ?.getString("isPlayer")
+                ?.toBoolean() ?: true
+
+            AllianceSelectionScreen(
+                onTeamSelected = { team ->
+
+                    if (isPlayer) {
+                        BattleUIState.playerTeam.value = team
+                    } else {
+                        BattleUIState.opponentTeam.value = team
+                    }
+
+                    navController.popBackStack()
+                }
+            )
+        }
         composable("alliances") {
             AllianceSelectionScreen(
                 onTeamSelected = { team ->
@@ -132,8 +156,29 @@ fun AppNavigation(navController: NavHostController) {
             val operatives = OperativeRepository.getOperativesForTeam(teamId)
 
             OperativesListScreen(
+                teamId = teamId,
                 operatives = operatives,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+
+                    when (screen) {
+                        TeamScreen.OPERATIVES -> {
+                            navController.navigate("operatives/$teamId")
+                        }
+                        TeamScreen.SELECTION -> {
+                            navController.navigate("operativeSelection/$teamId")
+                        }
+                        TeamScreen.RULES -> {
+                            navController.navigate("factionRules/$teamId")
+                        }
+                        TeamScreen.EQUIPMENT -> {
+                            navController.navigate("equipment/$teamId")
+                        }
+                        TeamScreen.PLOYS -> {
+                            navController.navigate("ploys/$teamId")
+                        }
+                    }
+                }
             )
         }
 
@@ -143,7 +188,45 @@ fun AppNavigation(navController: NavHostController) {
             OperativeSelectionScreen(
                 teamId = teamId,
                 navController = navController,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+                    when (screen) {
+                        TeamScreen.OPERATIVES -> {
+                            navController.navigate("operatives/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+
+                        TeamScreen.SELECTION -> {
+                            navController.navigate("operativeSelection/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+
+                        TeamScreen.RULES -> {
+                            navController.navigate("factionRules/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+
+                        TeamScreen.EQUIPMENT -> {
+                            navController.navigate("equipment/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+
+                        TeamScreen.PLOYS -> {
+                            navController.navigate("ploys/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                    }
+                }
             )
         }
 
@@ -178,7 +261,41 @@ fun AppNavigation(navController: NavHostController) {
 
             FactionRulesScreen(
                 teamId = teamId,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+                    when (screen) {
+                        TeamScreen.OPERATIVES -> {
+                            navController.navigate("operatives/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.SELECTION -> {
+                            navController.navigate("operativeSelection/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.RULES -> {
+                            navController.navigate("factionRules/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.EQUIPMENT -> {
+                            navController.navigate("equipment/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.PLOYS -> {
+                            navController.navigate("ploys/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                    }
+                }
             )
         }
 
@@ -187,7 +304,41 @@ fun AppNavigation(navController: NavHostController) {
 
             EquipmentScreen(
                 teamId = teamId,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+                    when (screen) {
+                        TeamScreen.OPERATIVES -> {
+                            navController.navigate("operatives/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.SELECTION -> {
+                            navController.navigate("operativeSelection/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.RULES -> {
+                            navController.navigate("factionRules/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.EQUIPMENT -> {
+                            navController.navigate("equipment/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.PLOYS -> {
+                            navController.navigate("ploys/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                    }
+                }
             )
         }
 
@@ -196,7 +347,41 @@ fun AppNavigation(navController: NavHostController) {
 
             PloysScreen(
                 teamId = teamId,
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+                    when (screen) {
+                        TeamScreen.OPERATIVES -> {
+                            navController.navigate("operatives/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.SELECTION -> {
+                            navController.navigate("operativeSelection/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.RULES -> {
+                            navController.navigate("factionRules/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.EQUIPMENT -> {
+                            navController.navigate("equipment/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                        TeamScreen.PLOYS -> {
+                            navController.navigate("ploys/$teamId") {
+                                popUpTo("team/$teamId")
+                                launchSingleTop = true
+                            }
+                        }
+                    }
+                }
             )
         }
 
@@ -247,5 +432,29 @@ fun AppNavigation(navController: NavHostController) {
                 onBack = { navController.popBackStack() }
             )
         }
+
+        composable("profile") {
+            ProfileScreen()
+        }
+
+        composable("battleTracker") {
+            BattleTrackerScreen(
+                onSelectTeam = { isPlayer ->
+                    navController.navigate("alliances/$isPlayer")
+                },
+                onNext = {
+                    navController.navigate("battleSetupStep2")
+                }
+            )
+
+        }
+
+        composable("battleSetupStep2") {
+            BattleSetupStep2Screen(
+                onBack = { navController.popBackStack() }
+            )
+        }
+
     }
+
 }

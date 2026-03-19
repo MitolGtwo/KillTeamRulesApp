@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-<resources>
-
-    <string name="mission_action">MISSION ACTION</string>
+<resources>    <string name="mission_action">MISSION ACTION</string>
     <string name="additional_rules">ADDITIONAL RULES</string>
     <string name="victory_points">VICTORY POINTS</string>
     <string name="resources">Resources</string>
@@ -11,5 +7,14 @@
     <string name="app_name">Kill Team Rule Set</string>
     <string name="maps">Mapas</string>
     <string name="crit_ops">Operaciones Críticas</string>
+
+    <string name="profile_title">PROFILE</string>
+    <string name="your_name">Your Name</string>
+    <string name="save">Save</string>
+    <string name="saved_name">Saved name: %1$s</string>
+
+    <string name="team_mastery">MAESTRÍA DEL EQUIPO</string>
+    <string name="battle_history">HISTORIAL DE BATALLA</string>
+    <string name="content_coming">Contenido próximamente</string>
 
 </resources>

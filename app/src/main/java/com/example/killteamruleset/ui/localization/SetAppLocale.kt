@@ -17,4 +17,5 @@ fun setAppLocale(context: Context, language: String) {
         config,
         context.resources.displayMetrics
     )
+
 }

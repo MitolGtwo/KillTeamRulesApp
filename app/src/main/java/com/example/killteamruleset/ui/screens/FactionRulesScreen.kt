@@ -1,8 +1,8 @@
 package com.example.killteamruleset.ui.screens
 
+import com.example.killteamruleset.R
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -16,63 +16,84 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.FactionRuleCard
-import com.example.killteamruleset.ui.components.FactionRulesBackground
-import com.example.killteamruleset.ui.components.KillTeamBackground
+import com.example.killteamruleset.ui.components.TeamBottomBar
 import com.example.killteamruleset.ui.data.FactionRuleRepository
 import com.example.killteamruleset.ui.data.TeamRepository
+
+import com.example.killteamruleset.ui.model.TeamScreen
 
 @Composable
 fun FactionRulesScreen(
     teamId: String,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigate: (TeamScreen) -> Unit
 ) {
-    val team = TeamRepository.getTeamById(teamId)
+    val team = TeamRepository.getTeamById(teamId) ?: return
     val rules = FactionRuleRepository.getForTeam(teamId).orEmpty()
 
-    // 🔥 Background ONLY here
-    Box(modifier = Modifier.fillMaxSize
-        ()
-        .statusBarsPadding()
-        .navigationBarsPadding()) {
 
-        Image(
-            painter = painterResource(team.factionRulesBackgroundRes),
-            contentDescription = null,
-            contentScale = ContentScale.Crop,
-            modifier = Modifier.fillMaxSize()
-        )
+    Scaffold(
+        bottomBar = {
+            TeamBottomBar(
+                currentScreen = TeamScreen.RULES,
+                onNavigate = onNavigate,
+                teamIconRes = team.iconRes
+            )
+        }
+    ) { padding ->
 
-        // Optional readability wash
+        val backgroundRes = team.factionRulesBackgroundRes ?: R.drawable.default_bg
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.White.copy(alpha = 0.15f))
-        )
-
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
+                .padding(padding) // ✅ ONLY HERE
                 .statusBarsPadding()
-                .verticalScroll(rememberScrollState())
-                .padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
 
-            TextButton(onClick = onBack) {
-                Text("← Back", color = Color.Black)
-            }
-
-            Text(
-                text = "FACTION RULES",
-                style = MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
-                color = Color.Black,
-                modifier = Modifier.align(Alignment.CenterHorizontally)
+            // 🔥 Background
+            Image(
+                painter = painterResource(backgroundRes),
+                contentDescription = null,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.fillMaxSize()
             )
 
-            rules.forEach { rule ->
-                FactionRuleCard(rule)
+            // 🔥 Overlay
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(Color.White.copy(alpha = 0.15f))
+            )
+
+            // 🔥 Content
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(rememberScrollState())
+                    .padding(16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+
+                TextButton(onClick = onBack) {
+                    Text("← Back", color = Color.Black)
+                }
+
+                Text(
+                    text = "FACTION RULES",
+                    style = MaterialTheme.typography.headlineMedium,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.Black,
+                    modifier = Modifier.align(Alignment.CenterHorizontally)
+                )
+
+                rules.forEach { rule ->
+                    FactionRuleCard(rule)
+                }
             }
         }
     }
-}
+    }
+
+
+

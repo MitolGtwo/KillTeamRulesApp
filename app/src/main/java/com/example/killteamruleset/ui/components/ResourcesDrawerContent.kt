@@ -163,7 +163,9 @@ fun MainScaffold(navController: NavHostController) {
                         "tacops" -> navController.navigate("tacops")
                         "keywords" -> navController.navigate("keywords")
                         "general_rules" -> navController.navigate("general_rules")
-                        "profile" -> navController.navigate("profile")
+                        "profile" -> {
+                            navController.navigate("profile")
+                        }
                         "language" -> {
                             val current = LocaleUtils.getSavedLanguage(context)
                             val next = if (current == "es") "en" else "es"

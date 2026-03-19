@@ -8,4 +8,14 @@
     <string name="app_name">Kill Team Rule Set</string>
     <string name="maps">Maps</string>
     <string name="crit_ops">Crit Ops</string>
+
+    <string name="profile_title">PROFILE</string>
+    <string name="your_name">Your Name</string>
+    <string name="save">Save</string>
+    <string name="saved_name">Saved name: %1$s</string>
+
+    <string name="team_mastery">TEAM MASTERY</string>
+    <string name="battle_history">BATTLE HISTORY</string>
+    <string name="content_coming">Content coming later</string>
+
 </resources>

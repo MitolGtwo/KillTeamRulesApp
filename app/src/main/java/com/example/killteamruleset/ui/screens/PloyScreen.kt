@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
@@ -19,6 +20,7 @@ import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Divider
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -36,25 +38,40 @@ import com.example.killteamruleset.ui.components.AbilitiesSection
 import com.example.killteamruleset.ui.data.PloyRepository
 import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.components.RichText
+import com.example.killteamruleset.ui.components.TeamBottomBar
+import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Ploy
 import com.example.killteamruleset.ui.model.PloyType
+import com.example.killteamruleset.ui.model.TeamScreen
 
 @Composable
 fun PloysScreen(
     teamId: String,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigate: (TeamScreen) -> Unit
 ) {
     val ploys = PloyRepository.getForTeam(teamId)
+    val team = TeamRepository.getTeamById(teamId)
 
     val strategy = ploys.filter { it.type == PloyType.STRATEGY }
     val firefight = ploys.filter { it.type == PloyType.FIREFIGHT }
 
+    Scaffold(
+        bottomBar = {
+            TeamBottomBar(
+                currentScreen = TeamScreen.PLOYS,
+                onNavigate = onNavigate,
+                teamIconRes = team.iconRes
+            )
+        }
+    ) { padding ->
     KillTeamBackground {
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .padding(padding) // ✅ THIS IS THE FIX
+                .statusBarsPadding()
                 .verticalScroll(rememberScrollState())
-                .navigationBarsPadding()
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(20.dp)
         ) {
@@ -78,6 +95,7 @@ fun PloysScreen(
                 ploys = firefight,
                 titleColor = Color(0xFFFF6A00)
             )
+        }
         }
     }
 }

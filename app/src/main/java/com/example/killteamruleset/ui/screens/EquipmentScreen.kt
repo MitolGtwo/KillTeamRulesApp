@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -27,15 +29,28 @@ import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.ui.components.EquipmentSection
 import com.example.killteamruleset.ui.components.KeywordPopup
 import com.example.killteamruleset.ui.components.KillTeamBackground
+import com.example.killteamruleset.ui.components.TeamBottomBar
 import com.example.killteamruleset.ui.data.EquipmentRepository
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.data.UniversalEquipmentRepository
 import com.example.killteamruleset.ui.model.KeywordInfo
+import com.example.killteamruleset.ui.model.TeamScreen
+
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.foundation.layout.RowScope
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.material3.Icon
+
 
 @Composable
 fun EquipmentScreen(
     teamId: String,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigate: (TeamScreen) -> Unit
 ) {
     val team = TeamRepository.getTeamById(teamId)
     val factionEquipment = EquipmentRepository.getForTeam(teamId)
@@ -43,13 +58,23 @@ fun EquipmentScreen(
 
     var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
 
+    Scaffold(
+        bottomBar = {
+            TeamBottomBar(
+                currentScreen = TeamScreen.EQUIPMENT,
+                onNavigate = onNavigate,
+                teamIconRes = team.iconRes
+            )
+        }
+    ) { padding ->
+
     KillTeamBackground {
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .padding(padding) // ✅ THIS IS THE FIX
                 .statusBarsPadding()
                 .verticalScroll(rememberScrollState())
-                .navigationBarsPadding()
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(20.dp)
         ) {
@@ -88,4 +113,5 @@ fun EquipmentScreen(
             onDismiss = { selectedKeyword = null }
         )
     }
+}
 }

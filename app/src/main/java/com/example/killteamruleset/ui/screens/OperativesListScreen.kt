@@ -29,64 +29,81 @@ import kotlinx.coroutines.launch
 import com.example.killteamruleset.ui.components.ExpandableCharacterCard
 import com.example.killteamruleset.ui.components.KeywordPopup
 import com.example.killteamruleset.ui.components.KillTeamBackground
+import com.example.killteamruleset.ui.components.TeamBottomBar
+import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.KeywordInfo
 import com.example.killteamruleset.ui.model.Operative
+import com.example.killteamruleset.ui.model.TeamScreen
 
 @Composable
 fun OperativesListScreen(
+    teamId: String,
     operatives: List<Operative>,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigate: (TeamScreen) -> Unit
 ) {
-    KillTeamBackground {
+    val team = TeamRepository.getTeamById(teamId)
 
-        var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
-        var cardView by OperativesUIState.isCarouselView
 
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .navigationBarsPadding()
-        ) {
+    Scaffold(
+        bottomBar = {
+            TeamBottomBar(
+                currentScreen = TeamScreen.OPERATIVES,
+                onNavigate = onNavigate,
+                teamIconRes = team.iconRes
 
-            // header row
-            Row(
+            )
+        }
+    ) { padding ->
+
+        KillTeamBackground {
+
+            var selectedKeyword by remember { mutableStateOf<KeywordInfo?>(null) }
+            var cardView by OperativesUIState.isCarouselView
+
+            LazyColumn(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(16.dp),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
+                    .fillMaxSize()
+                    .padding(padding), // ✅ ONLY THIS
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
 
-                TextButton(onClick = onBack) {
-                    Text("← Back")
+                // 🔹 HEADER
+                item {
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp),
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+
+                        TextButton(onClick = onBack) {
+                            Text("← Back")
+                        }
+
+                        IconButton(
+                            onClick = { cardView = !cardView },
+                            modifier = Modifier.size(48.dp)
+                        ) {
+                            Icon(
+                                imageVector =
+                                    if (cardView)
+                                        Icons.Default.ViewList
+                                    else
+                                        Icons.Default.ViewCarousel,
+                                contentDescription = null,
+                                tint = Color.White
+                            )
+                        }
+                    }
                 }
 
-                IconButton(
-                    onClick = { cardView = !cardView },
-                    modifier = Modifier.size(48.dp)
-                ) {
-
-                    Icon(
-                        imageVector =
-                            if (cardView)
-                                Icons.Default.ViewList
-                            else
-                                Icons.Default.ViewCarousel,
-                        contentDescription = null,
-                        tint = Color.White
-                    )
-                }
-            }
-
-            if (!cardView) {
-
-                LazyColumn(
-                    contentPadding = PaddingValues(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(12.dp)
-                ) {
+                // 🔹 CONTENT SWITCH
+                if (!cardView) {
 
                     items(operatives) { operative ->
-
                         ExpandableCharacterCard(
                             operative = operative,
                             onKeywordClick = { keyword ->
@@ -94,24 +111,22 @@ fun OperativesListScreen(
                             }
                         )
                     }
-                }
 
-            } else {
+                } else {
 
-                OperativesCarouselView(
-                    operatives = operatives,
-
-                    onKeywordClick = { keyword ->
-                        selectedKeyword = keyword
+                    item {
+                        OperativesCarouselView(
+                            operatives = operatives,
+                            onKeywordClick = { keyword ->
+                                selectedKeyword = keyword
+                            }
+                        )
                     }
-
-                )
-
+                }
             }
 
-            // popup stays INSIDE the screen
+            // 🔹 POPUP (outside LazyColumn = correct)
             selectedKeyword?.let { keyword ->
-
                 KeywordPopup(
                     keyword = keyword,
                     onDismiss = { selectedKeyword = null }
@@ -119,7 +134,6 @@ fun OperativesListScreen(
             }
         }
     }
-
 }
 
 @OptIn(ExperimentalFoundationApi::class)
@@ -167,7 +181,9 @@ fun OperativesCarouselView(
 
         HorizontalPager(
             state = pagerState,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(600.dp)
         ) { page ->
 
             LazyColumn(

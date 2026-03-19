@@ -15,9 +15,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-
+import com.example.killteamruleset.R
 @Composable
 fun MainDashboard() {
     Column(
@@ -27,20 +28,14 @@ fun MainDashboard() {
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
 
-        // 🟢 ADEPTUS MECHANICUS MOVING TEXT
-
-
-        // 🧬 TEAM MASTERY
         SectionBox(
-            title = "TEAM MASTERY",
+            title = stringResource(R.string.team_mastery),
             modifier = Modifier.height(140.dp)
         )
 
-        // ⚔️ BATTLE HISTORY
         SectionBox(
-            title = "BATTLE HISTORY",
-            modifier = Modifier
-                .weight(1f)
+            title = stringResource(R.string.battle_history),
+            modifier = Modifier.weight(1f)
         )
     }
 }
@@ -65,13 +60,13 @@ fun SectionBox(
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = title,
+                text = title, // ✅ FIXED
                 color = Color.White,
                 fontWeight = FontWeight.Bold
             )
         }
 
-        // 📦 PLACEHOLDER CONTENT
+        // 📦 CONTENT
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -79,7 +74,7 @@ fun SectionBox(
             contentAlignment = Alignment.Center
         ) {
             Text(
-                text = "Content coming later",
+                text = stringResource(R.string.content_coming),
                 color = Color.DarkGray
             )
         }

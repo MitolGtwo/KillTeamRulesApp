@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -25,24 +26,37 @@ import androidx.navigation.NavController
 import com.example.killteamruleset.ui.components.BulletItem
 import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.components.OperativeSelectionHeader
+import com.example.killteamruleset.ui.components.TeamBottomBar
 import com.example.killteamruleset.ui.data.OperativeSelectionRepository
 import com.example.killteamruleset.ui.data.TeamRepository
+import com.example.killteamruleset.ui.model.TeamScreen
 
 @Composable
 fun OperativeSelectionScreen(
     teamId: String,
     navController: NavController,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onNavigate: (TeamScreen) -> Unit
 ) {
     val team = TeamRepository.getTeamById(teamId)
     val rules = OperativeSelectionRepository.getRulesForTeam(teamId)
+
+    Scaffold(
+        bottomBar = {
+            TeamBottomBar(
+                currentScreen = TeamScreen.SELECTION,
+                onNavigate = onNavigate,
+                teamIconRes = team.iconRes
+            )
+        }
+    ) { padding ->
 
     KillTeamBackground {
         Column(
             modifier = Modifier
                 .fillMaxSize()
+                .padding(padding) // ✅ THIS IS THE FIX
                 .statusBarsPadding()
-                .navigationBarsPadding()
                 .verticalScroll(rememberScrollState())
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
@@ -70,6 +84,7 @@ fun OperativeSelectionScreen(
                 )
             }
         }
+    }
     }
 }
 
