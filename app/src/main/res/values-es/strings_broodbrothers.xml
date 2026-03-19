@@ -86,12 +86,10 @@ Sustrae 1 APL a ese y este Operativo hasta el final de sus siguientes activacion
     ]]></string>
 
     <string name="brood_medikit_description"><![CDATA[
-Select one friendly **BROOD BROTHER** operative
-(excluding **PATRIARCH**) within this operatives control
-range to regain up to 2D3 lost wounds. It cannot be an
-operative that the Medic! rule was used on during this turning point.\n\n
+Selecciona un Operativo **BROOD BROTHER** aliado (excluyendo **PATRIARCH**) dentro del rango de control de este Operativo para que recupere 2D3 heridas perdidas. No 
+puede ser un Operativo que se haya beneficiado de la regla Medic! durante este turno.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.       
     ]]></string>
 
     <string name="final_defiance_usage"><![CDATA[
