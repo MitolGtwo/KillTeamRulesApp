@@ -4,8 +4,17 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Archetypes
 import com.example.killteamruleset.ui.model.TacOp
+import com.example.killteamruleset.ui.model.Team
 
 object TacOpRepository {
+
+    fun getTacOpsForTeam(team: Team?): List<TacOp> {
+        if (team == null) return emptyList()
+
+        return allTacOps.filter { tacOp ->
+            tacOp.archetype in team.archetypes
+        }
+    }
 
     val allTacOps = listOf(
         // RECON

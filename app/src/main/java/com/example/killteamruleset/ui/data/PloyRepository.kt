@@ -6,7 +6,9 @@ import com.example.killteamruleset.ui.model.Ploy
 import com.example.killteamruleset.ui.model.PloyType
 
 object PloyRepository {
-
+    fun getPloysForTeam(teamId: String): List<Ploy> {
+        return ploysByTeam[teamId] ?: emptyList()
+    }
     private val ploysByTeam = mapOf(
         "angels_of_death" to listOf(
             // ── Aod STRATEGY ──

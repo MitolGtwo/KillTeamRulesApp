@@ -462,19 +462,13 @@ object TeamRepository {
             name = "Hearthkyn Salvagers",
             alliance = Alliance.XENOS,
             type = TeamType.HORDE,
-            difficulty = "Medium",
+            difficulty = "Hard",
             archetypes = listOf(Archetypes.RECON,Archetypes.SECURITY),
             factionRulesBackgroundRes = R.drawable.salvagers_faction_bg,
             backgroundRes = R.drawable.salvagers_bg,
             assemblyPdfAsset = "pdfs/hand_assembly.pdf",
             iconRes = R.drawable.salvagers_logo,
-            quote = "Kin is Kin\n" +
-                    "\n" +
-                    "Luck has, need keeps, toil earns\n" +
-                    "\n" +
-                    "Like Kin\n" +
-                    "\n" +
-                    "The Ancestors are Watching"
+            quote = "Todos los agravios deben ser saldados, ya sea con recursos o con sangre"
         ),
         Team(
             id = "hernkyn_yaegirs",

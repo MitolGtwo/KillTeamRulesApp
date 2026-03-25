@@ -1,14 +1,19 @@
 package com.example.killteamruleset.ui.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.killteamruleset.state.BattleRepository
 import com.example.killteamruleset.state.BattleUIState
 import com.example.killteamruleset.ui.components.MainDashboard
 import com.example.killteamruleset.ui.screens.MapsScreen
 import com.example.killteamruleset.ui.data.OperativeRepository
+import com.example.killteamruleset.ui.data.ProfileRepository
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Alliance
 import com.example.killteamruleset.ui.model.Archetypes
@@ -27,7 +32,10 @@ import com.example.killteamruleset.ui.screens.TeamsScreen
 import com.example.killteamruleset.ui.screens.ColorSchemesScreen
 import com.example.killteamruleset.ui.screens.AssemblyGuideScreen
 import com.example.killteamruleset.ui.screens.BattleSetupStep2Screen
+import com.example.killteamruleset.ui.screens.BattleSummaryScreen
+
 import com.example.killteamruleset.ui.screens.BattleTrackerScreen
+import com.example.killteamruleset.ui.screens.BattleTrackerScreenV2
 import com.example.killteamruleset.ui.screens.CritOpsScreen
 import com.example.killteamruleset.ui.screens.GeneralRulesScreen
 import com.example.killteamruleset.ui.screens.KeywordsScreen
@@ -451,9 +459,79 @@ fun AppNavigation(navController: NavHostController) {
 
         composable("battleSetupStep2") {
             BattleSetupStep2Screen(
-                onBack = { navController.popBackStack() }
+                onBack = { navController.popBackStack() },
+                onNext = {
+                    navController.navigate("battleSetupStep3") // 👈 next step
+                }
             )
         }
+
+        composable("battleSetupStep3") {
+
+            val context = LocalContext.current
+
+            val playerName by ProfileRepository
+                .getNameFlow(context)
+                .collectAsState(initial = "")
+
+            val opponentName by BattleUIState.opponentName
+            val playerTeam by BattleUIState.playerTeam
+            val opponentTeam by BattleUIState.opponentTeam
+
+            BattleTrackerScreenV2(
+                navController = navController,
+                playerName = playerName,
+                opponentName = opponentName,
+                playerTeam = playerTeam,
+                opponentTeam = opponentTeam
+            )
+        }
+
+        composable("teamPloys/{teamId}") { backStackEntry ->
+
+            val teamId = backStackEntry.arguments?.getString("teamId") ?: return@composable
+
+            PloysScreen(
+                teamId = teamId,
+                onBack = { navController.popBackStack() },
+                onNavigate = { screen ->
+                    navController.navigate("team/${teamId}") // fallback if needed
+                }
+            )
+        }
+
+        composable("battle_summary") {
+
+            val context = LocalContext.current
+            val battle by BattleRepository.loadCurrentBattle(context)
+                .collectAsState(initial = null)
+
+            battle?.let {
+
+                val playerVP = it.turns.sumOf { t ->
+                    t.playerCrit + t.playerTac + t.playerKill
+                }
+
+                val opponentVP = it.turns.sumOf { t ->
+                    t.opponentCrit + t.opponentTac + t.opponentKill
+                }
+
+                val playerIcon =
+                    TeamRepository.getTeamById(it.playerTeamId)?.iconRes ?: 0
+
+                val opponentIcon =
+                    TeamRepository.getTeamById(it.opponentTeamId)?.iconRes ?: 0
+
+                BattleSummaryScreen(
+                    playerVP = playerVP,
+                    opponentVP = opponentVP,
+                    playerTeamIcon = playerIcon,
+                    opponentTeamIcon = opponentIcon
+                )
+            }
+        }
+
+
 
     }
 

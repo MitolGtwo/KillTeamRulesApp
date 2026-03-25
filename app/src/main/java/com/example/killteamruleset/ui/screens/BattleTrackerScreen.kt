@@ -13,9 +13,11 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
@@ -26,9 +28,14 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.killteamruleset.state.BattleRepository
 import com.example.killteamruleset.state.BattleUIState
+import com.example.killteamruleset.state.BattleUIState.opponentName
+import com.example.killteamruleset.state.BattleUIState.opponentTeam
+import com.example.killteamruleset.state.BattleUIState.playerTeam
 import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.data.ProfileRepository
+import com.example.killteamruleset.ui.model.BattleState
 
 @Composable
 fun BattleTrackerScreen(
@@ -45,6 +52,22 @@ fun BattleTrackerScreen(
     var opponentName by BattleUIState.opponentName
     var playerTeam by BattleUIState.playerTeam
     var opponentTeam by BattleUIState.opponentTeam
+
+// ✅ NOW it works
+    val isValid = playerTeam != null &&
+            opponentTeam != null &&
+            opponentName.isNotBlank()
+
+    LaunchedEffect(playerTeam, opponentTeam, opponentName) {
+        BattleRepository.saveState(
+            context,
+            BattleState(
+                playerTeamId = playerTeam?.id ?: "",
+                opponentTeamId = opponentTeam?.id ?: "",
+                opponentName = opponentName
+            )
+        )
+    }
 
     KillTeamBackground {
         Box(
@@ -71,9 +94,13 @@ fun BattleTrackerScreen(
                 OutlinedTextField(
                     value = opponentName,
                     onValueChange = {
-                        if (it.length <= 15) opponentName = it
+                        if (it.length <= 15) {
+                            opponentName = it.replace("\n", "")
+                        }
                     },
                     label = { Text("Opponent Name") },
+                    singleLine = true, // ✅ prevents multiple lines
+                    maxLines = 1,      // ✅ extra safety
                     modifier = Modifier.fillMaxWidth()
                 )
 
@@ -88,6 +115,10 @@ fun BattleTrackerScreen(
             // ✅ FLOATING BUTTON (NOW VALID)
             Button(
                 onClick = { onNext() },
+                enabled = isValid,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (isValid) Color(0xFFFF6A00) else Color.Gray
+                ),
                 modifier = Modifier
                     .align(Alignment.BottomEnd)
                     .padding(16.dp)

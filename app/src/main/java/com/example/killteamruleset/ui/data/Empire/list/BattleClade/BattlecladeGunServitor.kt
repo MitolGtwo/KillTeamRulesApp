@@ -4,12 +4,10 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Brutal
 import com.example.killteamruleset.ui.model.Heavy
-import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Piercing
 import com.example.killteamruleset.ui.model.Piercing_Crits
-import com.example.killteamruleset.ui.model.Shock
 import com.example.killteamruleset.ui.model.Stun
 import com.example.killteamruleset.ui.model.Torrent
 import com.example.killteamruleset.ui.model.WeaponProfile
