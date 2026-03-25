@@ -117,7 +117,8 @@ del campo.
     ]]></string>
 
     <string name="brood_explosives_description"><![CDATA[
-La primera vez que este
+La primera vez que este Operativo hace esta acción durante la batalla, pon tu marcador de explosivos dentro de su rango de control.\n
+\nLa segunda vez 
 
 The first time this operative performs this action during the
 battle, place your Explosives marker within its control range.
