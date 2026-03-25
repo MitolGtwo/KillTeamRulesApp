@@ -11,7 +11,8 @@
 
     <string name="battleclade_autoproxy_eye_description"><![CDATA[
         Siempre que un Operativo **BATTLECLADE** aliado esté disparando a un enemigo Operativo visible para este Operativo, las armas de rango de esos Operativos aliados
-        tienen la regla Saturate. Esta regla no tiene efecto si este Operativo está en rango de control de un Operativo enemigo.
+        tienen la regla Saturate.\n
+        \nEsta regla no tiene efecto si este Operativo está en rango de control de un Operativo enemigo.
 ]]></string>
 
     <string name="battleclade_autoproxy_gaze_usage"><![CDATA[
@@ -26,7 +27,7 @@
         \n
         -Ese Operativo no puede estar Obscure.\n
         -El Operativo aliado tiene la regla Seek Light.\n\n
-        Este Operativo no puede realizar esta acción estando en rango de control de un Operativo enemigo.
+        Este Operativo no puede realizar esta acción mientras esté en rango de control de un Operativo enemigo.
 ]]></string>
 
 
