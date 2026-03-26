@@ -11,7 +11,12 @@ data class BattleSession(
     val turns: List<TurnData>,
     val initiativeHistory: List<Boolean>,
 
-    // 🔥 ADD THESE
     val playerCP: Int = 0,
-    val opponentCP: Int = 0
+    val opponentCP: Int = 0,
+
+    // 🔥 NEW FIELDS
+    val mapType: String = "",          // "Volkus" or "Tombworld"
+    val mapNumber: Int = 0,
+    val critOpNumber: Int = 0,
+    val critOpName: String = ""
 )

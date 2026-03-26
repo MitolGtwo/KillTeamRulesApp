@@ -172,7 +172,11 @@ object BattleRepository {
         playerName: String,
         opponentName: String,
         playerTeamId: String,
-        opponentTeamId: String
+        opponentTeamId: String,
+        mapType: String,
+        mapNumber: Int,
+        critOpNumber: Int,
+        critOpName: String
     ) {
         CoroutineScope(Dispatchers.IO).launch {
 
@@ -186,9 +190,14 @@ object BattleRepository {
                 turns = emptyList(),
                 initiativeHistory = emptyList(),
 
-                // 🔥 ADD
                 playerCP = 0,
-                opponentCP = 0
+                opponentCP = 0,
+
+                // 🔥 NEW
+                mapType = mapType,
+                mapNumber = mapNumber,
+                critOpNumber = critOpNumber,
+                critOpName = critOpName
             )
 
             context.dataStore.edit {

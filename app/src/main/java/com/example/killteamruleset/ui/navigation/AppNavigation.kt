@@ -10,10 +10,16 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.killteamruleset.state.BattleRepository
 import com.example.killteamruleset.state.BattleUIState
+import com.example.killteamruleset.state.OpponentPrimaryOpState
+import com.example.killteamruleset.state.OpponentScoreState
+import com.example.killteamruleset.state.PlayerPrimaryOpState
+import com.example.killteamruleset.state.PlayerScoreState
 import com.example.killteamruleset.ui.components.MainDashboard
+import com.example.killteamruleset.ui.components.applyPrimaryOpBonus
 import com.example.killteamruleset.ui.screens.MapsScreen
 import com.example.killteamruleset.ui.data.OperativeRepository
 import com.example.killteamruleset.ui.data.ProfileRepository
+import com.example.killteamruleset.ui.data.TacOpRepository.getTacOpTitle
 import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.model.Alliance
 import com.example.killteamruleset.ui.model.Archetypes
@@ -502,32 +508,112 @@ fun AppNavigation(navController: NavHostController) {
 
         composable("battle_summary") {
 
+
+
             val context = LocalContext.current
             val battle by BattleRepository.loadCurrentBattle(context)
                 .collectAsState(initial = null)
 
-            battle?.let {
+            battle?.let { currentBattle ->
 
-                val playerVP = it.turns.sumOf { t ->
-                    t.playerCrit + t.playerTac + t.playerKill
-                }
+                val playerName by ProfileRepository
+                    .getNameFlow(context)
+                    .collectAsState(initial = "")
+                val opponentName = currentBattle.opponentName
 
-                val opponentVP = it.turns.sumOf { t ->
-                    t.opponentCrit + t.opponentTac + t.opponentKill
-                }
+                val playerTeam =
+                    TeamRepository.getTeamById(currentBattle.playerTeamId)
 
-                val playerIcon =
-                    TeamRepository.getTeamById(it.playerTeamId)?.iconRes ?: 0
+                val opponentTeam =
+                    TeamRepository.getTeamById(currentBattle.opponentTeamId)
 
-                val opponentIcon =
-                    TeamRepository.getTeamById(it.opponentTeamId)?.iconRes ?: 0
+
+
+                val baseCrit = PlayerScoreState.critOp.value
+                val baseTac = PlayerScoreState.tacOp.value
+                val baseKill = PlayerScoreState.killOp.value
+
+                val (finalCrit, finalTac, finalKill) =
+                    applyPrimaryOpBonus(
+                        baseCrit,
+                        baseTac,
+                        baseKill,
+                        PlayerPrimaryOpState.selectedOp.value
+                    )
+
+                val playerVP = finalCrit + finalTac + finalKill
+
+                val baseCritO = OpponentScoreState.critOp.value
+                val baseTacO = OpponentScoreState.tacOp.value
+                val baseKillO = OpponentScoreState.killOp.value
+
+                val (finalCritO, finalTacO, finalKillO) =
+                    applyPrimaryOpBonus(
+                        baseCritO,
+                        baseTacO,
+                        baseKillO,
+                        OpponentPrimaryOpState.selectedOp.value
+                    )
+
+                val opponentVP = finalCritO + finalTacO + finalKillO
+
+                val playerIcon: Int =
+                    TeamRepository.getTeamById(currentBattle.playerTeamId)?.iconRes ?: 0
+
+                val opponentIcon: Int =
+                    TeamRepository.getTeamById(currentBattle.opponentTeamId)?.iconRes ?: 0
+
+
+                val lastTurn = currentBattle.turns.lastOrNull()
+
+                val playerCrit = lastTurn?.playerCrit ?: 0
+                val playerTac = lastTurn?.playerTac ?: 0
+                val playerKill = lastTurn?.playerKill ?: 0
+
+                val opponentCrit = lastTurn?.opponentCrit ?: 0
+                val opponentTac = lastTurn?.opponentTac ?: 0
+                val opponentKill = lastTurn?.opponentKill ?: 0
+
+                val playerTacOpName = getTacOpTitle(lastTurn?.playerTacOp)
+                val opponentTacOpName = getTacOpTitle(lastTurn?.opponentTacOp)
+
+                val playerPrimaryOp =
+                    PlayerPrimaryOpState.selectedOp.value?.type?.name
+
+                val opponentPrimaryOp =
+                    OpponentPrimaryOpState.selectedOp.value?.type?.name
 
                 BattleSummaryScreen(
+                    mapType = currentBattle.mapType,
+                    mapNumber = currentBattle.mapNumber,
+                    critOpNumber = currentBattle.critOpNumber,
+                    critOpName = currentBattle.critOpName,
+
+                    playerName = playerName,
+                    opponentName = currentBattle.opponentName,
+                    playerTeamName = playerTeam?.name ?: "Unknown",
+                    opponentTeamName = opponentTeam?.name ?: "Unknown",
+
                     playerVP = playerVP,
                     opponentVP = opponentVP,
                     playerTeamIcon = playerIcon,
-                    opponentTeamIcon = opponentIcon
+                    opponentTeamIcon = opponentIcon,
+
+                    // 🔥 NEW
+                    playerCrit = playerCrit,
+                    playerTac = playerTac,
+                    playerKill = playerKill,
+                    opponentCrit = opponentCrit,
+                    opponentTac = opponentTac,
+                    opponentKill = opponentKill,
+
+                    playerTacOpName = playerTacOpName,
+                    opponentTacOpName = opponentTacOpName,
+                    playerPrimaryOp = playerPrimaryOp,
+                    opponentPrimaryOp = opponentPrimaryOp
                 )
+
+
             }
         }
 

@@ -8,6 +8,7 @@ import com.example.killteamruleset.ui.model.Team
 
 object TacOpRepository {
 
+
     fun getTacOpsForTeam(team: Team?): List<TacOp> {
         if (team == null) return emptyList()
 
@@ -15,6 +16,7 @@ object TacOpRepository {
             tacOp.archetype in team.archetypes
         }
     }
+
 
     val allTacOps = listOf(
         // RECON
@@ -26,20 +28,22 @@ object TacOpRepository {
             missionAction = Ability(
                 title = "SCOUT",
                 usage = R.string.recon_01_usage,
-                description =R.string.recon_01_description),
+                description = R.string.recon_01_description
+            ),
             additionalRules = null,
 
             victoryPoints = R.string.recon_01_victory,
         ),
         TacOp(
             id = "recon_02",
-            title ="RETRIEVAL",
+            title = "RETRIEVAL",
             archetype = Archetypes.RECON,
-            reveal =R.string.recon_02_reveal,
+            reveal = R.string.recon_02_reveal,
             missionAction = Ability(
                 title = "RETRIEVE",
                 usage = R.string.recon_02_usage,
-                description =R.string.recon_02_description),
+                description = R.string.recon_02_description
+            ),
             additionalRules = null,
 
             victoryPoints = R.string.recon_02_victory
@@ -64,7 +68,8 @@ object TacOpRepository {
             missionAction = Ability(
                 title = "PLANT BANNER",
                 usage = R.string.security_01_reveal,
-                description =R.string.security_01_description),
+                description = R.string.security_01_description
+            ),
             additionalRules = null,
 
             victoryPoints = R.string.security_01_victory
@@ -95,7 +100,8 @@ object TacOpRepository {
             missionAction = Ability(
                 title = "CLEAR",
                 usage = R.string.seek_and_destroy_01_usage,
-                description =R.string.seek_and_destroy_01_description),
+                description = R.string.seek_and_destroy_01_description
+            ),
             additionalRules = R.string.seek_and_destroy_01_additional,
             victoryPoints = R.string.seek_and_destroy_01_victory
         ),
@@ -109,7 +115,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "seek_and_destroy_03",
-            title ="DOMINATE",
+            title = "DOMINATE",
             archetype = Archetypes.SEEK_AND_DESTROY,
             reveal = R.string.seek_and_destroy_03_reveal,
             additionalRules = R.string.seek_and_destroy_03_additional,
@@ -117,7 +123,7 @@ object TacOpRepository {
         ),
         TacOp(
             id = "infiltration_01",
-            title ="TRACK ENEMY",
+            title = "TRACK ENEMY",
             archetype = Archetypes.INFILTRATION,
             reveal = R.string.infiltration_01_reveal,
             additionalRules = R.string.infiltration_01_additional,
@@ -139,21 +145,24 @@ object TacOpRepository {
             missionAction = Ability(
                 title = "PLANT DEVICE",
                 usage = R.string.infiltration_03_usage,
-                description =R.string.infiltration_03_description),
+                description = R.string.infiltration_03_description
+            ),
             additionalRules = null,
             victoryPoints = R.string.infiltration_03_victory
         ),
     )
 
+    fun getTacOpTitle(id: String?): String {
+        if (id == null) return "None"
 
-
-
-
-
-
-        fun getAll(): List<TacOp> = allTacOps
-
-        fun getByArchetype(archetype: Archetypes): List<TacOp> =
-            allTacOps.filter { it.archetype == archetype }
+        return allTacOps
+            .find { it.id == id }
+            ?.title
+            ?: "Unknown"
     }
 
+    fun getAll(): List<TacOp> = allTacOps
+
+    fun getByArchetype(archetype: Archetypes): List<TacOp> =
+        allTacOps.filter { it.archetype == archetype }
+}

@@ -70,18 +70,15 @@ import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.rememberCoroutineScope
-import androidx.datastore.preferences.core.edit
-import com.example.killteamruleset.dataStore
+import androidx.compose.runtime.getValue
 
 import com.example.killteamruleset.state.BattleSetupState
 import com.example.killteamruleset.state.OpponentPloyState
 import com.example.killteamruleset.state.PlayerPloyState
 import com.example.killteamruleset.ui.components.CritOpCard
 import com.example.killteamruleset.ui.components.InfoIcon
-import com.example.killteamruleset.ui.data.BattleScoreCalculator
 import com.example.killteamruleset.ui.model.BattleSession
 import com.example.killteamruleset.ui.model.TurnData
-import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -105,17 +102,31 @@ fun BattleTrackerScreenV2(
     var battleInitialized by remember { mutableStateOf(false) }
     val isOpLocked = currentTurn > 1
 
+    val selectedCategory by BattleSetupState.selectedCategory
+    val selectedMap by BattleSetupState.selectedMap
+    val selectedCritOp by BattleSetupState.selectedCritOp
 
     LaunchedEffect(Unit) {
         if (!battleInitialized) {
-            BattleRepository.startNewBattle(
-                context = context,
-                playerName = playerName,
-                opponentName = opponentName,
-                playerTeamId = playerTeam?.id ?: "",
-                opponentTeamId = opponentTeam?.id ?: ""
-            )
-            battleInitialized = true
+
+            val critOp = selectedCritOp
+
+            if (critOp != null) {
+                BattleRepository.startNewBattle(
+                    context = context,
+                    playerName = playerName,
+                    opponentName = opponentName,
+                    playerTeamId = playerTeam?.id ?: "",
+                    opponentTeamId = opponentTeam?.id ?: "",
+
+                    mapType = selectedCategory?.name ?: "",
+                    mapNumber = selectedMap?.number ?: 0,
+                    critOpNumber = critOp.number,
+                    critOpName = critOp.title
+                )
+
+                battleInitialized = true
+            }
         }
     }
 
