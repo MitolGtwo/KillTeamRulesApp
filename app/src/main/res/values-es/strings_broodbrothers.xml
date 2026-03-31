@@ -97,7 +97,7 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="final_defiance_description"><![CDATA[
-Si este Operativo es incapacitado, puede hacer la accion unica **Explosives** antes de ser removido
+Si este Operativo es incapacitado, puede hacer la acción única **Explosives** antes de ser removido
 del campo.
     ]]></string>
 
@@ -109,7 +109,7 @@ del campo.
     <string name="brood_grenadier_description"><![CDATA[
    Este Operativo puede usar granadas Frag y Krak (ubicadas en el equipamiento universal). Al hacerlo,
    no cuenta sobre el límite de granadas que hayas
-   seleccionado. Cuando use estas granadas, mejora el Hit de esa arma en 1.
+   seleccionado. Cuando uses estas granadas, mejora el Hit de esa arma en 1.
     ]]></string>
 
     <string name="brood_explosives_usage"><![CDATA[
@@ -118,14 +118,8 @@ del campo.
 
     <string name="brood_explosives_description"><![CDATA[
 La primera vez que este Operativo hace esta acción durante la batalla, pon tu marcador de explosivos dentro de su rango de control.\n
-\nLa segunda vez 
-
-The first time this operative performs this action during the
-battle, place your Explosives marker within its control range.
-The second time this operative performs this action during
-the battle, inflict 2D6 damage on each operative within 2\" of
-that marker (roll separately for each) unless Heavy terrain is
-wholly intervening between that operative and that marker.
+\nLa segunda vez que este Operativo haga esta acción durante la batalla, inflige 2D6 heridas a cada Operativo a 2\" del marcador (Lanza dados por cada Operativo)
+a menos que terreno pesado esté interviniendo completamente entre el Operativo y el marcador.
     ]]></string>
 
     <string name="brood_group_usage"><![CDATA[
@@ -133,9 +127,8 @@ wholly intervening between that operative and that marker.
     ]]></string>
 
     <string name="brood_group_description"><![CDATA[
-Whenever this operative is expended, you must then activate one other ready friendly **BROOD BROTHER TROOPER**
-operative (if able) before your opponent activates. When that other operative is expended, your
-opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).
+Cuando este Operativo termine de activar (expended), debes activar otro Operativo **BROOD BROTHER TROOPER** aliado (si es posible). Cuando ese
+Operativo termine de activar, tu oponente activa normalmente (en otras palabras, no puedes activar más de dos Operativos en sucesión con esta regla).
     ]]></string>
 
     <string name="resilient_usage"><![CDATA[
@@ -143,7 +136,7 @@ opponent then activates as normal (in other words, you cannot activate more than
     ]]></string>
 
     <string name="resilient_description"><![CDATA[
-Normal Dmg of 3 or more inflicts 1 less damage on this operative.
+Daño normal de 3 o más inflige 1 menos a este Operativo.
     ]]></string>
 
     <string name="brood_bodyguard_usage"><![CDATA[
@@ -151,8 +144,7 @@ Normal Dmg of 3 or more inflicts 1 less damage on this operative.
     ]]></string>
 
     <string name="brood_bodyguard_description"><![CDATA[
-You can use the Unquestioning Loyalty
-firefight ploy for 0CP if this is the specified friendly **BROODGUARD** operative.
+Puedes usar la Firefight Ploy Unquestioning Loyalty por 0CP si este es el Operativo **BROODGUARD** seleccionado.
     ]]></string>
 
     <string name="brood_signal_usage"><![CDATA[
@@ -160,10 +152,10 @@ firefight ploy for 0CP if this is the specified friendly **BROODGUARD** operativ
     ]]></string>
 
     <string name="brood_signal_description"><![CDATA[
-**SUPPORT**. Select one other friendly **BROOD BROTHER BROODGUARD** operative visible to and
-within 6\" of this operative. Until the end of that operatives next activation, add 1 to its APL stat.\n\n
+**SUPPORT**. Selecciona otro Operativo **BROOD BROTHER BROODGUARD** aliado visible y a 6\" de este Operativo. Hasta el final de su proxima activacion, añade
+1 a su estadística de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.  
     ]]></string>
 
     <string name="brood_jam_usage"><![CDATA[
@@ -171,15 +163,11 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="brood_jam_description"><![CDATA[
-Select one ready enemy operative that’s a valid target for this
-operative, or visible to this operative instead if you spend 1
-additional AP. Roll one D6. Until the end of the turning point,
-that enemy operative cannot be activated or perform actions
-until it is the last enemy operative to be activated, or until
-your opponent has activated a number of enemy operatives
-after this action equal to the result of the D6 (whichever comes first).\n\n
+Selecciona un Operativo enemigo que no haya activado (Ready) que sea un objetivo válido para este Operativo, o visible si gastas 1 AP adicional.\n
+Lanza un D6. Hasta el final del turno, ese enemigo no puede ser activado ni hacer acciones hasta que el último Operativo haya activado, o cuando tu oponente haya
+activado un número de Operativos enemigos equivalentes al resultado del D6 (lo que pase primero).\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.  
     ]]></string>
 
     <string name="spiritual_leader_usage"><![CDATA[
@@ -187,15 +175,11 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="spiritual_leader_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is in the killzone. Select one of the following for friendly
-** BROOD BROTHER** operatives to have until the end of the turning point or until this operative is incapacitated
-(whichever comes first):\n
-\n
-• Whenever an operative is shooting a friendly **BROOD BROTHER** operative, ignore the Piercing weapon rule.\n
-\n
-• You can ignore any changes to friendly **BROOD BROTHER** operatives stats from being injured (including their weapons stats).\n
-\n
-• You can ignore any changes to the APL stat of friendly **BROOD BROTHER** operatives.
+**STRATEGIC GAMBIT** si este Operativo está en el campo. Selecciona uno de los siguientes efectos para beneficiar aliados **BROOD BROTHER** hasta el final del turno
+o hasta que este Operativo sea incapacitado (lo que ocurra primero):\n
+\n• Cuando un Operativo dispare a un aliado **BROOD BROTHER**, ignora la regla Piercing.\n
+\n• Puedes ignorar cambios a las estadísticas de aliados **BROOD BROTHER** al estar heridos (incluyendo armas).\n
+\n• Puedes ignorar cualquier cambio a las estadísticas de APL de aliados **BROOD BROTHER**.
     ]]></string>
 
     <string name="telepathic_overload_usage"><![CDATA[
@@ -203,9 +187,9 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="telepathic_overload_description"><![CDATA[
-**PSYCHIC.** Select one enemy operative visible to this
-operative. Until the end of that operatives next activation, subtract 1 from its APL stat.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+**PSYCHIC.** Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de la siguiente activación de ese Operativo, sustrae 1 a su estadística de
+APL.\n\n
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="brood_mental_onslaught_usage"><![CDATA[
@@ -213,17 +197,12 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="brood_mental_onslaught_description"><![CDATA[
-**PSYCHIC.** Select one enemy operative that is a valid target
-for this operative. Inflict 2 damage on it, or 4 damage instead
-if it is within 6\" of this operative. Then roll one D6: if the
-result is higher than that enemy operatives APL stat, inflict
-an additional 2 damage on it, or 4 damage instead if it is
-within 6\" of this operative. Keep rolling one D6 in this manner
-until you roll equal to or less than that enemy operatives APL
-stat, until it is incapacitated, or until you inflict 8 damage on
-it during this action (whichever comes first).\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+**PSYCHIC.** Selecciona un Operativo enemigo que sea un objetivo válido para este Operativo. Inflige 2 heridas a ese Operativo, o 4 heridas si está a 6\" de este Operativo.
+Depues lanza un D6:\n
+\nSi el resultado es mayor que la estadística de APL de ese enemigo, inflige nuevamente 2/4 heridas dependiendo de la distancia, sigue repitiendo esto hasta que tu resultado
+sea menor al APL del enemigo seleccionado, hasta que sea incapacitado, o hasta que inflinjas 8 heridas en total (lo que pase primero).\n\n
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="alpha_predator_usage"><![CDATA[
@@ -231,11 +210,9 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="alpha_predator_description"><![CDATA[
-Whenever an operative is shooting this operative, ignore the
-Piercing weapon rule. You can activate this operative twice during the turning
-point as long as it has AP to spend (it stays ready while it can still be activated a
-second time). Per turning point, it cannot move more than 9\" and you cannot spend
-more than 4AP in total for it.
+Cuando un Operativo dispare a este Operativo, ignora la regla Piercing.\n
+\nPuedes activar este Operativo dos veces durante el turno, siempre y cuando tenga AP para gastar (sigue estando ready hasta que sea activado una segunda vez).
+No puede mover más de 9\" en total por turno, y no puedes usar más de 4AP en total para hacerlo.
     ]]></string>
 
     <string name="brood_monster_usage"><![CDATA[
@@ -243,11 +220,9 @@ more than 4AP in total for it.
     ]]></string>
 
     <string name="brood_monster_description"><![CDATA[
-This operative cannot use any weapons that aren’t on its datacard,
-or perform unique actions (excluding **Into Shadow** and **Mind Control**).
-Whenever your opponent is selecting a valid target, if this operative has a Conceal
-order, it cannot use Light terrain for cover. While this can allow this operative to be
-targeted (assuming it is visible), it does not remove its cover save (if any).
+Este Operativo no puede usar armas que no estén en su tarjeta de personaje o hacer acciones únicas (excluyendo **Into Shadow** y **Mind Control**).\n
+\nCuando tu oponente esté seleccionando un Operativo como objetivo válido, si este Operativo tiene una orden de Conceal, no puede usar cobertura ligera para ocultarse.
+Esto no remueve salvaciones por cobertura (si hay alguna).
     ]]></string>
 
     <string name="into_shadow_usage"><![CDATA[
@@ -255,9 +230,9 @@ targeted (assuming it is visible), it does not remove its cover save (if any).
     ]]></string>
 
     <string name="into_shadow_description"><![CDATA[
-Change this operatives order.\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+Cambia la orden de este Operativo.\n\n
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="brood_mind_control_usage"><![CDATA[
@@ -265,17 +240,14 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="brood_mind_control_description"><![CDATA[
-**PSYCHIC.** Select one enemy operative visible to and within 2\" of this operative. Both players roll
-one D6 and add their respective operatives APL stat to their result.
-If your total is higher than your opponents, you can resolve this actions second effect.\n
-\n
--Until the end of the activation, that enemy operative is a friendly operative (an enemy operative for
-your opponent), you can change its order, and it can immediately perform one free action. It cannot perform an
-action in which it moves other than **Dash** (in which case specify the location for your opponent to move
-the operative to). You can only resolve this actions second effect once per battle.\n\n
+**PSYCHIC.** Selecciona un Operativo enemigo visible y a 2\" de este Operativo. Ambos jugadores lanzan un D6 y añaden la estadística de APL respectiva al resultado.
+Si tu resultado es mayor que el de tu oponente, puedes resolver el siguiente efecto.\n
+\n• Hasta el final de la activación, ese Operativo enemigo se convierte en un Operativo aliado (un Operativo enemigo para tu oponente), puedes cambiar si orden, e inmediatamente
+hacer una acción gratis. No puede hacer ninguna acción de movimiento que no sea **Dash** (en este caso, debes especificar a tu oponente la locación para que lo mueva).
+Solo puedes resolver el segundo efecto de esta acción una vez por batalla.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative, unless the only
-enemy operative it is within control range of is selected for this action.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo, a menos que el único Operativo enemigo dentro de tu rango de control es 
+seleccionado para esta acción. 
     ]]></string>
 
     <string name="brood_small_usage"><![CDATA[
@@ -283,10 +255,9 @@ enemy operative it is within control range of is selected for this action.
     ]]></string>
 
     <string name="brood_small_description"><![CDATA[
-This operative cannot use any weapons that are not on its datacard, or perform unique actions.
-Whenever this operative has a Conceal order and is in cover, it cannot be selected as a
-valid target, taking precedence over all other rules (e.g. Seek,
-Vantage terrain) except being within 2\". This operative can perform the **Fall Back** action for 1 less AP.
+Este Operativo no puede usar armas que no estén en su tarjeta de personaje o hacer acciones únicas. Cuando este Operativo tenga una orden de Conceal y este en cobertura,
+no puede ser seleccionado como objetivo válido; esto toma precedencia sobre todas las demás reglas, excepto estar a 2\".\n
+\nEste Operativo puede hacer la acción **Fall Back** por 1 AP menos.
     ]]></string>
 
     <string name="brood_familiar_group_usage"><![CDATA[
@@ -294,9 +265,8 @@ Vantage terrain) except being within 2\". This operative can perform the **Fall 
     ]]></string>
 
     <string name="brood_familiar_group_description"><![CDATA[
-Whenever this operative is expended, you must
-then activate one other ready friendly **BROOD BROTHER PSYCHIC FAMILIAR** operative (if able) before
-your opponent activates. When that other operative is expended, your opponent then activates as normal.
+Cuando este Operativo termine de activar (expended), debes activar otro Operativo **BROOD BROTHER PSYCHIC FAMILIAR** aliado (si es posible). Cuando ese
+Operativo termine de activar, tu oponente activa normalmente.
     ]]></string>
 
     <string name="brood_elusive_usage"><![CDATA[
@@ -304,9 +274,9 @@ your opponent activates. When that other operative is expended, your opponent th
     ]]></string>
 
     <string name="brood_elusive_description"><![CDATA[
-This operative can perform mission actions while within control range of an enemy operative (this takes precedence over
-those actions normal conditions). It can move through enemy operatives, move within control range of them, and during the
-**Charge** action can leave their control range (it must still end the move following all requirements for that move).
+Este Operativo puede hacer acciones de misión mientras esté en rango de control de un enemigo (esto toma precedencia sobre las condiciones normales).
+Puede moverse a través de operativos enemigos, moverse estando en rango de control de ellos, y durante una acción de **Cargar** pueden abandonar
+el área de control de un enemigo (debe seguir el resto de requerimientos para ese movimiento).
     ]]></string>
 
     <string name="first_of_the_patriarch_usage"><![CDATA[
@@ -314,7 +284,7 @@ those actions normal conditions). It can move through enemy operatives, move wit
     ]]></string>
 
     <string name="first_of_the_patriarch_description"><![CDATA[
-This operative can either perform two **Shoot** or two **Fight** actions during its activation.
+Este Operativo puede hacer dos acciones de **Disparo** o dos acciones de **Combate** durante su activación.
     ]]></string>
 
     <string name="mastermind_usage"><![CDATA[
@@ -322,13 +292,10 @@ This operative can either perform two **Shoot** or two **Fight** actions during 
     ]]></string>
 
     <string name="mastermind_description"><![CDATA[
-Once per turning point, after rolling off to determine initiative, if this
-operative is in the killzone, you can do one of the following (you cannot select each
-option more than once per battle):\n
-\n
-• Add 1 to your dice result.\n
-\n
-• If you did not have initiative in the previous turning point, re-roll your dice.
+Una vez por turno, después de lanzar dados para determinar iniciativa, si este Operativo esta en el campo, puedes hacer uno de los siguientes efectos (
+no puedes seleccionar cada efecto más de una vez por batalla):\n
+\n• Añade 1 al resultado de tu dado.\n
+\n• Si no tuviste iniciativa en el turno pasado, re-rollea tu dado.
     ]]></string>
 
     <string name="conspire_usage"><![CDATA[
@@ -336,10 +303,9 @@ option more than once per battle):\n
     ]]></string>
 
     <string name="conspire_description"><![CDATA[
-You gain 1CP\n\n
+Ganas 1CP.\n\n
 
-This operative cannot perform this action while within control range of an
-enemy operative, or more than once per turning point
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo o más de una vez por turno. 
     ]]></string>
 
 
