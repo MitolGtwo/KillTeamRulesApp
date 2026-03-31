@@ -312,74 +312,51 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     <!--Faction Rules-->
 
     <string name="brood_crossfire_lore"><![CDATA[
-Combined with their advanced coordination skills, the
-professional training and high-grade weapons of Brood
-Brothers make them a deadly threat. With a sinister
-synchronicity born of the alien Broodmind that worms
-through their psyche, these soldiers are capable of a
-concentration of firepower or a harmonising of blows
-that is ferociously effective.
+Entrenamiento profesional, manejo de armas de alto calibre y una coordinación inhumana. Los Brood Brothers son una amenaza letal.
+Conectados a través de las modificaciones genéticas alienígenas, estos soldados son capaces de concentrar poder de fuego con una eficacia feroz.
 ]]></string>
 
     <string name="brood_crossfire_description"><![CDATA[
-Whenever a friendly **BROOD BROTHER** operative
-is shooting against or fighting against an enemy
-operative, after resolving all of your attack dice, if
-that enemy operative is not incapacitated it gains
-one of your Crossfire tokens.\n
-\n
-Whenever a friendly **BROOD BROTHER** operative
-is shooting against, fighting against or retaliating
-against an enemy operative that has any of your
-Crossfire tokens, you can remove any of those
-tokens. For each that you do, you can re-roll one
-of your attack dice.
+Cuando un aliado **BROOD BROTHER** esté disparando o peleando contra un Operativo enemigo, después de resolver tus dados de ataque, si ese enemigo no fue
+incapacitado, gana uno de tus Crossfire tokens.\n
+\nCuando un aliado **BROOD BROTHER** esté disparando, combatiendo o retaleando contra un enemigo que tenga cualquier cantidad de Crossfire tokens, puedes remover
+cualquiera de esos tokens. Por cada vez que lo hagas, puedes re-rollear uno de tus dados de ataque.
 ]]></string>
 
     <!--Equipment-->
 
     <string name="brood_cult_talisman_lore"><![CDATA[
-The Cult places great importance on trinkets and
-talismans infused with the Patriarchs power. These
-items are believed to offer protection to the bearer.
+El culto impone gran importancia a sus reliquias y talismanes imbuidos del poder de los patriarcas. Existe la creencia en el culto que los portadores
+son bendecidos con protecciones contra el mal.
 ]]></string>
 
     <string name="brood_cult_talisman_description"><![CDATA[
-Once per turning point, when an operative is
-shooting a friendly **BROOD BROTHER** operative
-(excluding **PATRIARCH**), in the Roll Defence Dice
-step, you can retain one of your normal successes as a critical success instead.
+Una vez por turno, cuando un Operativo esté disparando a un aliado **BROOD BROTHER** (excluyendo **PATRIARCH**), en la fase de lanzar dados de defensa, puedes retener
+un éxito normal como un éxito crítico en su lugar.
 ]]></string>
 
     <string name="brood_covert_guises_lore"><![CDATA[
-Brood Brothers are able to pass as Human long enough
-to close upon their unsuspecting enemies.
+Los Brood Brothers son capaces de hacerse percibir como humanos lo suficiente para acercarse a sus enemigos tiranos.
 ]]></string>
 
     <string name="brood_covert_guises_description"><![CDATA[
-After revealing this equipment option, roll one
-D3. As a **STRATEGIC GAMBIT** in the first turning
-point, a number of friendly **BROOD BROTHER BROODGUARD** operatives equal to the result that
-are wholly within your drop zone can immediately
-perform a free **Reposition*** action, but must end that move wholly within 3\" of your drop zone.
+Después de revelar este equipamiento, lanza un D3. Como **STRATEGIC GAMBIT** en el primer turno, un número de aliados **BROOD BROTHER BROODGUARD** en el campo equivalente al resultado
+de ese dado puede realizar inmediatamente una **Reposicion** gratis, pero debe terminar completamente a 3\" de tu zona de deployment.
 ]]></string>
 
     <string name="cult_knives_lore"><![CDATA[
-Brood Brothers wield an array of nonstandard
-weapons, including various knives decorated with xenocult iconography.
-]]></string>
+Los Brood Brothers se arman con series de armas particulares, incluyendo cuchillos y dagas decoradas con iconos del Culto alienígena.
 
     <string name="cult_knives_description"><![CDATA[
-Friendly **BROOD BROTHER BROODGUARD** operatives have the following melee weapon:
+Aliados **BROOD BROTHER BROODGUARD** tienen la siguiente arma de melee:
 ]]></string>
 
     <string name="lookout_lore"><![CDATA[
-The Brood Brothers keen eyes pick out encroaching foes and mark them for annihilation.
+Los ojos entrenados de los Brood Brothers pueden marcar enemigos incautos para planear su eliminación.
 ]]></string>
 
     <string name="lookout_description"><![CDATA[
-**STRATEGIC GAMBIT**. Select one enemy operative
-visible to a friendly **BROOD BROTHER** operative to gain one of your Crossfire tokens.
+**STRATEGIC GAMBIT**. Selecciona un enemigo visible para un aliado **BROOD BROTHER**; este enemigo gana uno de tus Crossfire tokens.
 ]]></string>
 
 
@@ -387,96 +364,64 @@ visible to a friendly **BROOD BROTHER** operative to gain one of your Crossfire 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="pervasive_lore"><![CDATA[
-The Genestealer Cult is omnipresent and all-pervading,
-infiltrating and attacking from dozens of locations at once.
+El culto del Genestealer es omnipresente, atacando desde todos los ángulos al mismo tiempo.
 ]]></string>
 
     <string name="pervasive_description"><![CDATA[
-During each friendly **BROOD BROTHER**
-operatives activation, you can ignore the first
-vertical distance of 2\" they move during one climb up.
+Durante cada activación de aliados **BROOD BROTHER**, puedes ignorar los primeros 2\" cuando estés escalando.
 ]]></string>
 
     <string name="uprising_lore"><![CDATA[
-Appearing at first to be allied troops, the Brood Brothers
-close in on their foes before revealing their treachery.
+Aparentando ser tropas aliadas, los Brood Brothers acortan distancia con sus enemigos antes de traicionarlos.
 ]]></string>
 
     <string name="uprising_description"><![CDATA[
-The first time each friendly **BROOD BROTHER**
-operative performs either the **Shoot** or **Fight**
-action during each of its activations, if its order
-was changed from Conceal to Engage at the start
-of that activation, the enemy operative selected
-as the valid target or to fight against gains one
-of your Crossfire tokens as soon as it is selected
-(instead of after resolving your attack dice).
-This ploy has no effect if that friendly operative
-was activated within control range of an enemy
-operative. Note this ploy cannot come into effect
-more than once per activation (you cannot use
-it during both the Shoot and **Fight** action in the same activation).
+La primera vez que un aliado **BROOD BROTHER** hace una acción de **Disparo** o **Combate** durante su activación, si su orden cambió de Conceal a Engage al inicio de esa
+activacion, el Operativo enemigo seleccionado para disparar o combatir gana uno de tus Crossfire Tokens al momento de ser seleccionado (en vez de ganarlo despues del ataque).\n
+\nEsta ploy no tiene efecto si ese aliado fue activado dentro del rango de control de un Operativo enemigo.\n
+\nNotese que esta ploy no puede aplicar más de una vez por activación (en caso de **Disparar** o **Combatir** dos veces por activación).
 ]]></string>
 
     <string name="embedded_lore"><![CDATA[
-Brood Brothers are intimately familiar with the
-battlefields upon which they fight, taking up positions
-that offer greatest protection from incoming fire.
+Los Brood Brothers conocen el campo de batalla como la palma de su mutante mano, con este conocimiento pueden tomar las mejores coberturas contra los disparos enemigos.
 ]]></string>
 
     <string name="embedded_description"><![CDATA[
-Whenever an enemy operative is shooting a friendly **BROOD BROTHER** operative, if you
-can retain any cover saves as a result of Heavy terrain, you can retain one additional cover save.
+Cuando un enemigo esté disparando a un aliado **BROOD BROTHER**, si puedes retener cualquier salvación por cobertura de terreno pesado, puedes retener otro dado de salvación por
+cobertura.
 ]]></string>
 
     <string name="cult_devotion_lore"><![CDATA[
-Such is their devotion to the Cults cause that Brood
-Brothers will gladly trade their lives to land a telling blow
-upon their oppressors.
+Una devoción tan fanática como la del culto causa que los Brood Brothers den su vida gustosamente para poder dar un golpe decisivo contra sus opresores.
 ]]></string>
 
     <string name="cult_devotion_description"><![CDATA[
-Whenever a friendly **BROOD BROTHER** operative (excluding **PATRIARCH**) is incapacitated while
-fighting or retaliating, if you have any unresolved successes, you can roll one D6: if the result is
-a success as if it were the Roll Attack Dice step of that sequence (i.e. using the same weapon,
-but with no re-rolls), you can strike the enemy operative in that sequence with one of your
-unresolved normal successes, or any of your successes instead if the D6 result is a critical
-success. In either case, that friendly operative is removed from the killzone afterwards.
+Cuando un aliado **BROOD BROTHER** (excluyendo **PATRIACH**) es incapacitado mientras combate o retalea, si tienes un éxito sin resolver, puedes lanzar un D6:
+si el resultado es equivalente a un ataque exitoso de esa secuencia, puedes golpear al enemigo en esa secuencia con un éxito normal sin resolver, o cualquier resultado si
+el resultado del D6 es un resultado crítico. En cualquier caso, el Operativo es removido del campo de batalla después de esto.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="ruthless_coordination_lore"><![CDATA[
-The Broodmind allows for incredibly precise
-communication and coordinated fire between the members of a Brood Brothers kill team.
+La Gran mente les permite comunicarse con increíble precisión para coordinar ataques de los miembros del kill team.
 ]]></string>
 
     <string name="ruthless_coordination_description"><![CDATA[
-Use this firefight ploy when selecting a valid
-target for a friendly **BROOD BROTHER** operative.
-Until the end of the action, determine visibility
-as normal, but you can instead determine
-intervening (for cover and obscured) from
-another friendly **BROOD BROTHER** operative
-that both that friendly operative and the potential
-valid target are visible to, but that is not itself
-within control range of enemy operatives.\n
-\n
-Note the friendly operative does not gain the
-additional benefits of Vantage terrain if the other
-friendly operative is on it (e.g. to target an enemy
-operative that has a Conceal order that is in cover
-provided only by Light terrain)
+Usa esta Firefight ploy cuando selecciones un objetivo válido para un aliado **BROOD BROTHER**.\n
+\nHasta el final de esa acción, determina la visibilidad normalmente, pero al momento de determinar terreno interviniendo puedes hacerlo desde otro aliado **BROOD BROTHER**,
+ambos aliados deben estar visibles, y ambos deben poder ver al objetivo que intentan disparar, pero que no esté dentro del rango de control de enemigos operativos.\n
+\nNotese que el aliado no gana beneficios de terreno aventajado si el otro aliado está en este.
 ]]></string>
 
     <string name="unquestioning_loyalty_lore"><![CDATA[
-The Cults rigid hierarchy is reinforced by military
-training. Lower ranking Brood Brothers will stand in the
-way of bullets or blades to protect their leaders.
+La jerarquía del culto es reforzada con entrenamiento militar. Los cabos o miembros de bajo nivel se pondrán en medio de disparos para defender a los líderes.
 ]]></string>
 
     <string name="unquestioning_loyalty_description"><![CDATA[
+
+        
 Use this firefight ploy when a friendly **BROOD BROTHER LEADER** operative is selected as the
 valid target of a **Shoot** action or to fight against during the **Fight** action. Select one other friendly
 **BROOD BROTHER BROODGUARD** operative (excluding **LEADER**) visible to and within 3\" of
