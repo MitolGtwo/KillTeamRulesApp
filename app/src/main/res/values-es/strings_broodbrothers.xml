@@ -420,44 +420,35 @@ La jerarquía del culto es reforzada con entrenamiento militar. Los cabos o miem
 ]]></string>
 
     <string name="unquestioning_loyalty_description"><![CDATA[
-
         
-Use this firefight ploy when a friendly **BROOD BROTHER LEADER** operative is selected as the
-valid target of a **Shoot** action or to fight against during the **Fight** action. Select one other friendly
-**BROOD BROTHER BROODGUARD** operative (excluding **LEADER**) visible to and within 3\" of
-that **LEADER** operative to become the valid target or to be fought against (as appropriate) instead
-(even if it would not normally be valid for this). If it is the **Fight** action, treat that other operative as
-being within the fighting operatives control range
-for the duration of that action. If it is the **Shoot**
-action, that other operative is only in cover or obscured if the original target was.\n
-\n
-This ploy has no effect if it is the **Shoot** action
-and the ranged weapon has the Blast or Torrent weapon rule.
+Usa esta Firefight ploy cuando un Operativo **BROOD BROTHER LEADER** aliado sea seleccionado
+como objetivo valido de una accion de **Disparo** o como objetivo de un combate durante una accion de
+**Combatir**. Selecciona un aliado **BROOD BROTHER BROODGUARD** (excluyendo **LEADER**) aliado a 3\" de ese primer Operativo para ser
+un objetivo valido o para ser objetivo de un combate (incluso si normalmente no seria un objetivo valido para
+esto). If es una accion de **Combate** trata ese **SERVITOR** como estando en rango de control durante esa accion.
+Si es una ccion de **Disparo**, el Operativo **SERVITOR** esta Obscure o en Cover si el objetivo
+principal lo era.\n
 
+Esta ploy no tiene efecto si la accion de **Disparo** tiene la regla Blast o Torrent.
 ]]></string>
 
     <string name="idolisation_lore"><![CDATA[
-The Cults leaders use the psionic power of the
-Broodmind to provide powerful inspiration to their followers.
+Los líderes del culto usan sus poderes psíquicos para otorgar inspiración a sus seguidores.
 ]]></string>
 
     <string name="idolisation_description"><![CDATA[
-Use this firefight ploy when a friendly **BROOD BROTHER** operative (excluding **LEADER**) within
-6\" of a friendly **BROOD BROTHER LEADER** or **BROOD BROTHER ICONWARD** operative
-is shooting, fighting or retaliating, in the Roll Attack Dice step. You can retain one of your fails
-as a normal success instead of discarding it, or retain one of your normal successes as a critical
-success instead.
+Usa esta Firefight ploy cuando un aliado **BROOD BROTHER** (excluyendo **LEADER**) a 6\" de un aliado **BROOD BROTHER LEADER** o **BROOD BROTHER ICONWARD** esté disparando,
+combatiendo o retaleando, en la fase de lanzar dados de ataque. Puedes retener uno de tus fallos como un éxito normal en lugar de descartarlo, o puedes retener 
+un éxito normal como un resultado crítico en su lugar.
 ]]></string>
 
     <string name="insidious_lore"><![CDATA[
-Brood Brothers rely upon ambush and surprise to defeat
-their enemies, retreating and repositioning as required
+Los Brood Brothers se apoyan en su habilidad para emboscar y asaltar enemigos, retirándose para reposicionarse si es necesario.
 ]]></string>
 
     <string name="insidious_description"><![CDATA[
-Use this firefight ploy after an activation. Before the next activation, one friendly **BROOD BROTHER**
-operative can perform a free **Dash** action, as long as it is not a valid target for
-enemy operatives when it starts and ends that action. You cannot use this ploy during the first turning point.
+Usa esta Firefight ploy después de una activación. Antes de la siguiente activación, un aliado **BROOD BROTHER** puede hacer una acción **Dash** gratis, siempre y cuando
+no sea un objetivo válido para Operativos enemigos cuando inicie y termine esa acción. No puedes usar esta ploy durante el primer turno.
 ]]></string>
 
 </resources>
