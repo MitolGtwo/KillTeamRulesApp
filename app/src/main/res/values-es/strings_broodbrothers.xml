@@ -420,16 +420,15 @@ La jerarquía del culto es reforzada con entrenamiento militar. Los cabos o miem
 ]]></string>
 
     <string name="unquestioning_loyalty_description"><![CDATA[
-        
-Usa esta Firefight ploy cuando un Operativo **BROOD BROTHER LEADER** aliado sea seleccionado
-como objetivo valido de una accion de **Disparo** o como objetivo de un combate durante una accion de
-**Combatir**. Selecciona un aliado **BROOD BROTHER BROODGUARD** (excluyendo **LEADER**) aliado a 3\" de ese primer Operativo para ser
-un objetivo valido o para ser objetivo de un combate (incluso si normalmente no seria un objetivo valido para
-esto). If es una accion de **Combate** trata ese **SERVITOR** como estando en rango de control durante esa accion.
-Si es una ccion de **Disparo**, el Operativo **SERVITOR** esta Obscure o en Cover si el objetivo
-principal lo era.\n
 
-Esta ploy no tiene efecto si la accion de **Disparo** tiene la regla Blast o Torrent.
+Usa esta Firefight ploy cuando un Operativo **BROOD BROTHER LEADER** aliado sea seleccionado
+como objetivo válido de una acción de **Disparo** o como objetivo de un combate durante una acción de
+**Combatir**. Selecciona un aliado **BROOD BROTHER BROODGUARD** (excluyendo **LEADER**) aliado a 3\" de ese primer Operativo para ser
+un objetivo válido o para ser objetivo de un combate (incluso si normalmente no sería un objetivo válido para
+esto). Si es una acción de **Combate**, trata ese Operativo como si estuviera en rango de control durante esa acción.
+Si es una acción de **Disparo**, el Operativo está Obscure o en Cover si el objetivo
+principal lo era.\n
+\nEsta ploy no tiene efecto si la acción de **Disparo** tiene la regla Blast o Torrent.
 ]]></string>
 
     <string name="idolisation_lore"><![CDATA[
