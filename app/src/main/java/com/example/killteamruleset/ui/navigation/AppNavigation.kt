@@ -61,7 +61,7 @@ fun AppNavigation(navController: NavHostController) {
         // ─────────────────────────────
         composable(route = "main") {
             MainScreen(navController = navController) {
-                MainDashboard()
+                MainDashboard(navController)
             }
         }
 
@@ -508,6 +508,28 @@ fun AppNavigation(navController: NavHostController) {
 
         composable("battle_summary") {
 
+            fun calculatePrimaryBonus(base: Int): Pair<Int, Int> {
+                val bonus = kotlin.math.ceil(base / 2.0).toInt()
+                val total = base + bonus
+                return Pair(bonus, total)
+            }
+
+
+            fun getPrimaryBaseValue(
+                primary: String?,
+                crit: Int,
+                tac: Int,
+                kill: Int
+            ): Int {
+                return when (primary) {
+                    "CRIT" -> crit
+                    "TAC" -> tac
+                    "KILL" -> kill
+                    else -> 0
+                }
+            }
+
+
 
 
             val context = LocalContext.current
@@ -583,7 +605,35 @@ fun AppNavigation(navController: NavHostController) {
                 val opponentPrimaryOp =
                     OpponentPrimaryOpState.selectedOp.value?.type?.name
 
+
+                val playerPrimaryBase = getPrimaryBaseValue(
+                    playerPrimaryOp,
+                    playerCrit,
+                    playerTac,
+                    playerKill
+                )
+
+                val (playerBonus, playerTotalPrimary) =
+                    calculatePrimaryBonus(playerPrimaryBase)
+
+
+                val opponentPrimaryBase = getPrimaryBaseValue(
+                    opponentPrimaryOp,
+                    opponentCrit,
+                    opponentTac,
+                    opponentKill
+                )
+
+                val (opponentBonus, opponentTotalPrimary) =
+                    calculatePrimaryBonus(opponentPrimaryBase)
+
+
                 BattleSummaryScreen(
+
+
+                    playerPrimaryBonus = playerBonus,
+                    opponentPrimaryBonus = opponentBonus,
+
                     mapType = currentBattle.mapType,
                     mapNumber = currentBattle.mapNumber,
                     critOpNumber = currentBattle.critOpNumber,
@@ -599,7 +649,7 @@ fun AppNavigation(navController: NavHostController) {
                     playerTeamIcon = playerIcon,
                     opponentTeamIcon = opponentIcon,
 
-                    // 🔥 NEW
+
                     playerCrit = playerCrit,
                     playerTac = playerTac,
                     playerKill = playerKill,
@@ -610,7 +660,8 @@ fun AppNavigation(navController: NavHostController) {
                     playerTacOpName = playerTacOpName,
                     opponentTacOpName = opponentTacOpName,
                     playerPrimaryOp = playerPrimaryOp,
-                    opponentPrimaryOp = opponentPrimaryOp
+                    opponentPrimaryOp = opponentPrimaryOp,
+                    navController = navController,
                 )
 
 

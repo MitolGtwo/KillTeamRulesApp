@@ -77,7 +77,7 @@ fun MainScreen(
                         scope.launch { drawerState.open() }
                     },
                     onBattleClick = {
-                        navController.navigate("battleTracker")
+
                     },
                     onKillTeamsClick = {
                         navController.navigate("alliances") // ✅ NORMAL FLOW

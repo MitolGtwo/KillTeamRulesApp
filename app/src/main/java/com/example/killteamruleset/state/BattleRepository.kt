@@ -24,6 +24,8 @@ object BattleRepository {
     private val OPPONENT_NAME = stringPreferencesKey("opponent_name")
 
     private val CURRENT_BATTLE = stringPreferencesKey("current_battle")
+
+    private val BATTLE_HISTORY = stringPreferencesKey("battle_history")
     fun saveState(context: Context, state: BattleState) {
         CoroutineScope(Dispatchers.IO).launch {
             context.dataStore.edit {
@@ -31,6 +33,18 @@ object BattleRepository {
                 it[OPPONENT_TEAM] = state.opponentTeamId
                 it[OPPONENT_NAME] = state.opponentName
             }
+        }
+    }
+
+
+    fun loadHistory(context: Context): Flow<List<BattleSession>> {
+        return context.dataStore.data.map { prefs ->
+            val json = prefs[BATTLE_HISTORY] ?: return@map emptyList()
+
+            Gson().fromJson(
+                json,
+                Array<BattleSession>::class.java
+            )?.toList() ?: emptyList()
         }
     }
 
@@ -126,18 +140,35 @@ object BattleRepository {
     fun finishBattle(context: Context) {
         CoroutineScope(Dispatchers.IO).launch {
 
-            val key = stringPreferencesKey("current_battle")
+            val gson = Gson()
 
-            val current = context.dataStore.data.first()[key] ?: return@launch
+            context.dataStore.edit { prefs ->
 
-            val battle = Gson().fromJson(current, BattleSession::class.java)
+                val currentJson = prefs[CURRENT_BATTLE] ?: return@edit
+                val currentBattle = gson.fromJson(currentJson, BattleSession::class.java)
 
-            val updated = battle.copy(
-                isFinished = true
-            )
+                // 🔥 Mark finished
+                val finishedBattle = currentBattle.copy(isFinished = true)
 
-            context.dataStore.edit {
-                it[key] = Gson().toJson(updated)
+                // 🔥 Load history
+                val historyJson = prefs[BATTLE_HISTORY]
+                val historyList = if (historyJson != null) {
+                    gson.fromJson(historyJson, Array<BattleSession>::class.java).toMutableList()
+                } else {
+                    mutableListOf()
+                }
+
+                // 🔥 Add new battle at top
+                historyList.add(0, finishedBattle)
+
+                // 🔥 LIMIT TO 8
+                val trimmed = historyList.take(8)
+
+                // 🔥 Save history
+                prefs[BATTLE_HISTORY] = gson.toJson(trimmed)
+
+                // 🔥 CLEAR CURRENT BATTLE
+                prefs.remove(CURRENT_BATTLE)
             }
         }
     }
@@ -205,5 +236,9 @@ object BattleRepository {
             }
         }
     }
+
+
+
+
 
 }

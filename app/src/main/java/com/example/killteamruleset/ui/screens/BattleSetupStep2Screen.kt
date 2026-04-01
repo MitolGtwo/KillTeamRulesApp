@@ -87,6 +87,7 @@ import com.example.killteamruleset.ui.components.MapViewer
                     .padding(16.dp)
                     .statusBarsPadding()
                     .navigationBarsPadding()
+                    .navigationBarsPadding()
                     .padding(bottom = 80.dp), // space for button
                 verticalArrangement = Arrangement.spacedBy(16.dp)
             ) {
@@ -259,6 +260,7 @@ import com.example.killteamruleset.ui.components.MapViewer
                 modifier = Modifier
                     .align(Alignment.BottomEnd)
                     .padding(16.dp)
+                    .navigationBarsPadding()
             ) {
                 Text("NEXT")
             }

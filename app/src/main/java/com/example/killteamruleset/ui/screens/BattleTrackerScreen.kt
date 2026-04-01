@@ -52,6 +52,7 @@ fun BattleTrackerScreen(
     var opponentName by BattleUIState.opponentName
     var playerTeam by BattleUIState.playerTeam
     var opponentTeam by BattleUIState.opponentTeam
+    val opponentNameValue = BattleUIState.opponentName.value
 
 // ✅ NOW it works
     val isValid = playerTeam != null &&

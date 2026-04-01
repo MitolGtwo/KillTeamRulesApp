@@ -1,7 +1,6 @@
 package com.example.killteamruleset
 
-import android.content.Context
-import android.content.ContextWrapper
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -13,7 +12,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.killteamruleset.ui.components.MainScaffold
 import com.example.killteamruleset.ui.localization.LocaleUtils
 import com.example.killteamruleset.ui.localization.setAppLocale
-import com.example.killteamruleset.ui.navigation.AppNavigation
 import com.example.killteamruleset.ui.theme.KillTeamRuleSetTheme
 
 class MainActivity : ComponentActivity() {

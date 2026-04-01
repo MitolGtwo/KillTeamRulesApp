@@ -10,7 +10,7 @@
 
     <string name="eye_of_the_ancestors_description"><![CDATA[
 **STRATEGIC GAMBIT** si este Operativo esta en el campo. selecciona un Operativo enemigo, o hasta dos Operativos enemigos si tres o mas
-aliados **HEARTHKYN SALVAGER** han sido incapacitados. Cada enemigo seleccionado gana un Grudge token.
+aliados **HEARTHKYN SALVAGER** han sido incapacitados. Cada enemigo seleccionado gana un token de **Agravio**
     ]]></string>
 
     <string name="weavefield_crest_usage"><![CDATA[
@@ -234,20 +234,18 @@ marcador de mision, en la fase de resolver dados de ataque, puedes sustraer 1 al
     <!--Faction Rules-->
 
     <string name="grudge_lore"><![CDATA[
-If a particular foe shames or insults the Kin gravely
-enough, they will become the subject of a Grudge. To
-destroy this most hated enemy, the Kin will go to any
-lengths, even if it is to their own detriment.
+Si un enemigo humilla o insulta a liga, este se volvera sujeto de Agravio, y aquellos individuos marcados serian destruidos
+brutalmente, sin importar que tan escondidos o fuertes sean.
 ]]></string>
 
     <string name="grudge_description"><![CDATA[
 Cuando un Operativo enemigo incapacita a un aliado **HEARTHKYN SALVAGER**, ese enemigo gana un token
-de **Rencor** por el resto de la batalla.\n
+de **Agravio** por el resto de la batalla.\n
 \n
 Cuando un aliado **HEARTHKYN SALVAGER** esta disparando, combatiendo o retaleando contra un enemigo,
-por cada token de **Rencor** qie ese Operativo enemigo tenga, puedes retener uno de tus exitos normales
+por cada token de **Agravio** qie ese Operativo enemigo tenga, puedes retener uno de tus exitos normales
 como resultados criticos en su lugar (incluyendo cualquier resultado de la regla Accurate).\n
-\nLos tokens de **Rencor** no son removidos cuando haces esto.
+\nLos tokens de **Agravio** no son removidos cuando haces esto.
 ]]></string>
 
 
@@ -319,7 +317,7 @@ Mientras mas dificil sea conseguir el tesoro, mayor sera la recompensa.
 
     <string name="toil_earns_description"><![CDATA[
 Seleciona un objetivo o un marcador de mision. Cuando un enemigo este a 3\" de ese marcador
-tratatalo como si tuviera un token de **Rencor** adicional.
+tratatalo como si tuviera un token de **Agravio** adicional.
 ]]></string>
 
     <string name="wrought_defence_lore"><![CDATA[

@@ -12,26 +12,37 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.killteamruleset.ui.components.PlayerBreakdown
+import androidx.navigation.NavHostController
+import com.example.killteamruleset.state.BattleRepository
+import com.example.killteamruleset.ui.theme.CardColor
+
 
 @Composable
 fun BattleSummaryScreen(
+    navController: NavHostController,
+    playerPrimaryBonus: Int,
+    opponentPrimaryBonus: Int,
+
     mapType: String,
     mapNumber: Int,
     critOpNumber: Int,
@@ -51,6 +62,7 @@ fun BattleSummaryScreen(
     playerCrit: Int,
     playerTac: Int,
     playerKill: Int,
+
     opponentCrit: Int,
     opponentTac: Int,
     opponentKill: Int,
@@ -59,10 +71,13 @@ fun BattleSummaryScreen(
     opponentTacOpName: String?,
 
     playerPrimaryOp: String?,
-    opponentPrimaryOp: String?
-) {
+    opponentPrimaryOp: String?,
+
+    ) {
 
 
+
+    val context = LocalContext.current
 
     val resultText = when {
         playerVP > opponentVP -> "VICTORY"
@@ -80,6 +95,8 @@ fun BattleSummaryScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(Color.Black)
+            .navigationBarsPadding()
+            .verticalScroll(rememberScrollState()) // 🔥 THIS LINE
             .padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Top // 🔥 IMPORTANT
@@ -138,64 +155,89 @@ fun BattleSummaryScreen(
         Spacer(modifier = Modifier.height(32.dp))
 
         Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .border(
-                    1.dp,
-                    Color(0xFFFF6A00),
-                    RoundedCornerShape(12.dp)
-                )
-                .background(Color(0xFF0D0D0D))
-                .padding(16.dp)
+            modifier = Modifier.fillMaxWidth()
         ) {
 
-            // 🔥 TITLE
             Text(
-                text = "BATTLE BREAKDOWN",
-                color = Color(0xFFFF6A00),
+                text = "BATTLE REPORT",
+                color = Color.LightGray,
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
-                modifier = Modifier.padding(bottom = 12.dp)
+                modifier = Modifier.padding(bottom = 16.dp)
             )
 
-            Row(
-                modifier = Modifier.fillMaxWidth(),
-                verticalAlignment = Alignment.Top
+            // 🧍 PLAYER CARD
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(CardColor, shape = RoundedCornerShape(12.dp))
+                    .border(1.dp, Color(0x33FFFFFF), RoundedCornerShape(12.dp))
+                    .padding(16.dp)
             ) {
+                PlayerReportSection(
+                    name = playerName,
+                    crit = playerCrit,
+                    kill = playerKill,
+                    tac = playerTac,
+                    tacOp = playerTacOpName,
+                    primaryOp = playerPrimaryOp,
 
-                // 🔥 PLAYER SIDE
-                Column(modifier = Modifier.weight(1f)) {
-                    PlayerBreakdown(
-                        crit = playerCrit,
-                        tac = playerTac,
-                        kill = playerKill,
-                        tacOp = playerTacOpName,
-                        primaryOp = playerPrimaryOp
-                    )
-                }
+                    primaryBonus = playerPrimaryBonus
 
-                // 🔥 DIVIDER
-                Box(
-                    modifier = Modifier
-                        .width(1.dp)
-                        .height(120.dp)
-                        .background(Color(0x33FFFFFF))
                 )
+            }
 
-                // 🔥 OPPONENT SIDE
-                Column(modifier = Modifier.weight(1f)) {
-                    PlayerBreakdown(
-                        crit = opponentCrit,
-                        tac = opponentTac,
-                        kill = opponentKill,
-                        tacOp = opponentTacOpName,
-                        primaryOp = opponentPrimaryOp
-                    )
-                }
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // 👤 OPPONENT CARD
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(CardColor, shape = RoundedCornerShape(12.dp))
+                    .border(1.dp, Color(0x33FFFFFF), RoundedCornerShape(12.dp))
+                    .padding(16.dp)
+            ) {
+                PlayerReportSection(
+                    name = opponentName,
+                    crit = opponentCrit,
+                    kill = opponentKill,
+                    tac = opponentTac,
+                    tacOp = opponentTacOpName,
+                    primaryOp = opponentPrimaryOp,
+                    primaryBonus = opponentPrimaryBonus
+
+                )
             }
         }
 
+        Spacer(modifier = Modifier.height(24.dp))
 
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 16.dp)
+        ) {
+            androidx.compose.material3.Button(
+                onClick = {
+                    BattleRepository.finishBattle(context)
+
+                    navController.navigate("main") {
+                        popUpTo("main") { inclusive = true }
+                    }
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(56.dp),
+                shape = RoundedCornerShape(12.dp)
+            ) {
+                Text(
+                    text = "RETURN TO BASE",
+                    fontSize = 14.sp,
+                    fontWeight = FontWeight.Bold,
+                    letterSpacing = 1.sp
+                )
+            }
+        }
 
     }
 }
@@ -232,9 +274,10 @@ fun SummarySide(
         // 🔥 PLAYER NAME
         Text(
             text = name.uppercase(),
-            color = if (isWinner) Color.White else Color.LightGray,
-            fontSize = 20.sp,
-            fontWeight = FontWeight.Bold
+            color = Color.White,
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = 1.sp
         )
 
         Spacer(modifier = Modifier.height(12.dp))
@@ -296,6 +339,102 @@ fun BattleInfoSection(
             color = Color(0xFFFF6A00),
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold
+        )
+    }
+}
+
+@Composable
+fun PlayerReportSection(
+    name: String,
+    crit: Int,
+    kill: Int,
+    tacOp: String?,
+    tac: Int,
+    primaryOp: String?,
+    primaryBonus: Int,
+) {
+
+    Column(
+        modifier = Modifier.fillMaxWidth()
+    ) {
+
+        // 🔥 NAME (STRONG HEADER)
+        Text(
+            text = name.uppercase(),
+            color = Color.White,
+            fontSize = 18.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = 1.sp
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        BreakdownRow("Crit Op", crit.toString())
+        BreakdownRow("Kill Op", kill.toString())
+        BreakdownRow("Tac Points", tac.toString())
+
+        BreakdownRow(
+            "Tac Op",
+            tacOp ?: "None",
+            isLongText = true
+        )
+
+        Spacer(modifier = Modifier.height(12.dp))
+
+        // 🔥 PRIMARY SECTION LABEL
+        Text(
+            text = "PRIMARY",
+            color = Color(0xFFFF6A00),
+            fontSize = 11.sp,
+            fontWeight = FontWeight.Bold,
+            letterSpacing = 1.sp
+        )
+
+        Spacer(modifier = Modifier.height(6.dp))
+
+        val displayPrimary = if (primaryBonus > 0) {
+            "${primaryOp ?: "None"} (+$primaryBonus)"
+        } else {
+            primaryOp ?: "None"
+        }
+
+        BreakdownRow(
+            "Primary Op",
+            displayPrimary,
+            highlight = true
+        )
+    }
+}
+
+
+@Composable
+fun BreakdownRow(
+    label: String,
+    value: String,
+    highlight: Boolean = false,
+    isLongText: Boolean = false
+) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 6.dp),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+
+        Text(
+            text = label.uppercase(),
+            color = Color(0xFFD0D0D0),
+            fontSize = 11.sp,
+            letterSpacing = 1.sp,
+            modifier = Modifier.shadow(2.dp)
+        )
+
+        Text(
+            text = value.uppercase(),
+            color = if (highlight) Color(0xFFFF6A00) else Color.White,
+            fontWeight = FontWeight.Bold,
+            fontSize = if (highlight) 15.sp else 14.sp,
+            maxLines = if (isLongText) 2 else 1
         )
     }
 }

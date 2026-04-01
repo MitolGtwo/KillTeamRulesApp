@@ -71,6 +71,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.saveable.rememberSaveable
 
 import com.example.killteamruleset.state.BattleSetupState
 import com.example.killteamruleset.state.OpponentPloyState
@@ -99,7 +100,7 @@ fun BattleTrackerScreenV2(
     var isFinished by remember { mutableStateOf(false) }
     var viewedTurnIndex by remember { mutableStateOf<Int?>(null) }
     val isViewingHistory = viewedTurnIndex != null
-    var battleInitialized by remember { mutableStateOf(false) }
+    var battleInitialized by rememberSaveable { mutableStateOf(false) }
     val isOpLocked = currentTurn > 1
 
     val selectedCategory by BattleSetupState.selectedCategory
@@ -610,22 +611,7 @@ fun BattleTrackerScreenV2(
 
 
 
-            if (isFinished) {
-                AlertDialog(
-                    onDismissRequest = { },
-                    confirmButton = {
-                        TextButton(onClick = { }) {
-                            Text("OK")
-                        }
-                    },
-                    title = {
-                        Text("Battle Finished", color = Color.White)
-                    },
-                    text = {
-                        Text("Summary coming next...", color = Color.White)
-                    }
-                )
-            }
+
 
 
         }

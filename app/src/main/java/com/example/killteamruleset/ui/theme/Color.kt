@@ -2,7 +2,10 @@ package com.example.killteamruleset.ui.theme
 
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.ui.graphics.Color
-
+val LabelColor = Color(0xFFB0B0B0) // instead of Gray
+val ValueColor = Color.White
+val AccentColor = Color(0xFFFF6A00)
+val CardColor = Color(0xFF111111)
 val DarkBlueBackground = Color(0xFF2B2C2C)
 val DarkBlueSurface = Color(0xFF1B263B)
 val Black = Color(0xFF020202)

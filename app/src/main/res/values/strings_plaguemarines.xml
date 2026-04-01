@@ -197,9 +197,11 @@
 ]]></string>
 
     <string name="plague_poison_vents_description"><![CDATA[
+Whenever an enemy operative is activated within 3\" of a friendly PLAGUE MARINE operative:\n
+\n• If that enemy operative doesnt have one of your Poison tokens, roll one D3: on a 3, it
+gains one.\n
+\n• If that enemy operative has one of your Poison tokens, inflict D3 damage on it (instead of 1).
 
-        Whenever an enemy Operative that doesnt have one of your Poison tokens is activated within 3\"
-        friendly Operative, roll one D3: on 3, that Operative gains one of your Poison tokens
 
 ]]></string>
 
