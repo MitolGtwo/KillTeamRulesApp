@@ -5,16 +5,14 @@
     <!--Canoptek-->
 
     <string name="obelisk_node_control_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="obelisk_node_control_description"><![CDATA[
-Whenever this operative would perform a mission action (excluding **Retrieve**, Approved Ops 2025), if it
-requires this operative to control an objective marker, you can instead determine control from one of
-your **OBELISK NODE** markers (see Obelisk Node Matrix faction rule). Whenever this operative would
-perform the **Operate Hatch** action, you can open or close a hatchway thats access point is within 1\"
-of one of your **OBELISK NODE** markers instead. Note that you must still fulfil the **Operate
-Hatch** actions conditions.
+Cuando este Operativo vaya a realizar una acción de misión (excluyendo **Retrieve**, Tacop 2025), si requiere que el Operativo controle ese Objetivo, puedes determinar el control
+usando uno de tus **OBELISK NODE** (vease más en las reglas de facción). Cuando este Operativo vaya a realizar la acción **Operate Hatch**, puedes abrir o cerrar esa puerta
+si está a 1\" de tu **OBELISK NODE** en su lugar.\n
+\nNotese que aun tiene cumplir las condiciones de la accion de **Operate Hatch**
     ]]></string>
 
     <string name="geomantic_disturbance_usage"><![CDATA[
@@ -22,12 +20,10 @@ Hatch** actions conditions.
     ]]></string>
 
     <string name="geomantic_disturbance_description"><![CDATA[
-Select a point on a terrain feature; that point must be visible
-to and within 8\" of this operative. Separately roll 2D6 for
-each operative within 2\" of that point. If the result is higher
-than that operatives remaining wounds, inflict damage on it equal to the difference.\n\n
-
-This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative.
+Selecciona un punto en una pieza de terreno; ese punto debe ser visible y a 8\" de ese Operativo. Lanza por separado 2D6 por cada Operativo a 2\" de ese punto. Si el resultado
+es mayor al número de heridas restantes de ese Operativo, inflige daño equivalente a la diferencia.\n\n
+        
+Este Operativo no puede realizar esta acción mientras tenga una orden de Conceal o mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="canoptek_control_usage"><![CDATA[
@@ -35,17 +31,11 @@ This operative cannot perform this action while it has a Conceal order, or while
     ]]></string>
 
     <string name="canoptek_control_description"><![CDATA[
-**SUPPORT**. Select one friendly **CANOPTEK CIRCLE
-CANOPTEK** operative visible to and within 6\" of this
-operative. Alternatively, you can select one friendly
-**CANOPTEK CIRCLE CANOPTEK** operative that is
-visible to this operative and within your **OBELISK NODE
-MATRIX** (**SUPPORT** does not apply to this selection). That
-selected operative can immediately perform a 1AP action
-for free; it cannot move more than or be removed and set up
-more than 2\" during that action.\n\n
+**SUPPORT**. Selecciona un aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 6\" de este Operativo. Alternativamente puedes seleccionar a un **CANOPTEK CIRCLE CANOPTEK**
+que sea visible y que esté dentro de tu **OBELISK NODE MATRIX** (**SUPPORT** no aplica para esta selección). Ese Operativo seleccionado puede inmediatamente hacer una accion
+de 1AP gratis; pero no puede moverse o ser removido a más de 2\" durante esa acción.
 
-This operative cannot perform this action while within control range of an enemy operative, or while counteracting.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo o en un Counteract. 
     ]]></string>
 
     <string name="molecular_breach_usage"><![CDATA[
@@ -53,6 +43,10 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="molecular_breach_description"><![CDATA[
+**SUPPORT**. Selecciona un aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 6\" de este Operativo. Alternativamente puedes seleccionar a un **CANOPTEK CIRCLE CANOPTEK**
+que sea visible y que esté dentro de tu **OBELISK NODE MATRIX** (**SUPPORT** no aplica para esta selección).\n
+\n
+        
 **SUPPORT**. Select one friendly **CANOPTEK CIRCLE**
 operative visible to and within 6\" of this operative.
 Alternatively, you can select one friendly **CANOPTEK CIRCLE** operative visible to this operative
@@ -106,7 +100,7 @@ This operative cannot perform this action while within control range of an enemy
 
 
     <string name="reanimate_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="reanimate_description"><![CDATA[
@@ -146,7 +140,7 @@ control range of an enemy operative, or more than once per turning point.
 
 
     <string name="aggressive_defence_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="aggressive_defence_description"><![CDATA[
@@ -155,7 +149,7 @@ from the killzone, roll one D3: on a 2+, inflict 1 damage on that enemy operativ
     ]]></string>
 
     <string name="expendable_construct_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="expendable_construct_description"><![CDATA[
@@ -169,7 +163,7 @@ operatives must escape/survive/be incapacitated, etc.).
 
 
     <string name="a_ceaseless_scuttling_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="a_ceaseless_scuttling_description"><![CDATA[
@@ -191,7 +185,7 @@ Reanimation marker (**HIEROTEK CIRCLE**) for that operative, if relevant.
     ]]></string>
 
     <string name="weapon_sentinel_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="weapon_sentinel_description"><![CDATA[
@@ -202,7 +196,7 @@ targeted (assuming it is visible), it does not remove its cover save (if any).
     ]]></string>
 
     <string name="canoptek_steadfast_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="canoptek_steadfast_description"><![CDATA[
