@@ -266,77 +266,50 @@ Cuando un enemigo está dentro de tu **OBELISK NODE MATRIX**, o cuando combata o
 
     <!--Firefight ploys-->
     <string name="shield_flare_lore"><![CDATA[
-With a flash, snipers bullets are swallowed in
-microdimensions; blades pass through suddenly phased
-matter; slivers of time are erased and rewritten, the
-strike never connecting after all. The matrix’s energies
-deny the Necrons verminous foes of the smallest victory over their betters.
+Las balas de francotiradores son tragadas por el destello de una dimensión alterna; espadas son pasadas por materia transmutada momentáneamente, el tiempo es
+escrito haciendo que impactos nunca hayan sucedido. La energía de la Matriz niega cualquier victoria por mínima que sea, a la plaga inferior que desafía a los
+Necrones.
 ]]></string>
 
     <string name="shield_flare_description"><![CDATA[
-Use this firefight ploy when an attack dice inflicts
-Normal Dmg on a friendly **CANOPTEK CIRCLE**
-operative. If your **OBELISK NODE MATRIX** is
-intervening, or that friendly operative is within
-your **OBELISK NODE MATRIX**, ignore that inflicted
-damage. Note your opponent determines
-intervening (i.e. where on their operative’s base to draw the targeting lines from).
+Usa esta Firefight Ploy cuando un dado de ataque inflige daño normal a un aliado **CANOPTEK CIRCLE**. Si tu **OBELISK NODE MATRIX** esta interviniendo, o si ese
+Operativo aliado está dentro de tu **OBELISK NODE MATRIX**, ignora ese daño infligido. Notese que tu oponente determina intervención (el lado de la peana con la que se
+está trazando el disparo).
 ]]></string>
 
     <string name="animate_obelisk_nodes_lore"><![CDATA[
-Heeding some hidden command, looming obelisk nodes
-surge into new positions of cosmic conjunction.
+Escuchando comandos sutiles, los obeliscos aparecen en nuevas posiciones de conexión astral.
 ]]></string>
 
     <string name="animate_obelisk_nodes_description"><![CDATA[
-Use this firefight ploy when it is your turn to
-activate or counteract with a friendly operative.
-Move any number of your **OBELISK NODE**
-markers instead. They can move up to 6\"
-horizontally combined, and distances are always
-rounded up to the nearest inch (so if you move
-a marker 1.5\", it’s treated as moving it 2\"). For
-example, you could move one marker 6\", three
-markers 1\" each, or any combination that does not
-exceed 6\" in total. You can also move them 0\" (to
-effectively skip an activation). In any case, your
-opponent activates as normal afterwards.
+Usa esta Firefight ploy cuando sea tu turno de activar o de hacer un Counteract con un Operativo aliado. Mueve cualquier número de marcadores **OBELISK NODE**
+en su lugar. Pueden moverse un total de 6\" en total horizontalmente entre todos los marcadores, y la distancia siempre es redondeada hasta la pulgada más cercana
+(mover un marcador 1.5\" es igual a moverlo 2\"). Por ejemplo, puedes mover un marcador 6\", o los tres 1\" cada uno, o cualquier combinación que no supere 6\" en total.
+Tambien puedes moverlos 0\" (efectivamente saltarías una activación). En cualquier caso, tu oponente activa normalmente después.
 ]]></string>
 
     <string name="nodal_response_lore"><![CDATA[
-Eldritch pulses of artificial thought thrum through the
-obelisk nodes as they adjust the flow of energies and
-data in response to rapidly changing situations.
+Pulsasiones siniestras acomodan el flujo de energía de los Nodos, haciendo que respondan rápidamente cuando la situación toma otro rumbo.
 ]]></string>
 
     <string name="nodal_response_description"><![CDATA[
-Use this firefight ploy during a friendly **CANOPTEK CIRCLE** operatives activation, before or after it
-performs an action. You can either change one of the strategy ploys you used during this turning
-point (only pay additional CP if that ploy costs more), or use a strategy ploy now (pay its CP cost
-as normal).
+Usa esta Firefight ploy durante la activación de un aliado **CANOPTEK CIRCLE**, antes o después de que haga una acción. Puedes cambiar una de tus Strategy ploy que hayas
+usado este turno (solo paga CP si esa Ploy cuesta más), o usa una Strategy ploy en este momento (paga su costo normalmente).
 ]]></string>
 
     <string name="sacrificial_thrall_lore"><![CDATA[
-Canoptek constructs are programmed to shield their master at all costs.
+Los sirvientes Canoptek están programados para defender a su maestro a cualquier costo.
 ]]></string>
 
     <string name="sacrificial_thrall_description"><![CDATA[
-Use this firefight ploy when a friendly **CANOPTEK CIRCLE GEOMANCER** operative is selected
-as the valid target of a **Shoot** action or to fight
-against during the **Fight** action. Select one
-other friendly **CANOPTEK CIRCLE CANOPTEK**
-operative visible to and within 3\" of that first
-friendly operative to become the valid target or to
-be fought against (as appropriate) instead (even
-if it would not normally be valid for this). If it is the
-**Fight** action, treat that other operative as being
-within the fighting operatives control range for
-the duration of that action. If it is the **Shoot** action,
-that other operative is only in cover or obscured if
-the original target was.\n
-\n
-This ploy has no effect if it is the **Shoot** action
-and the ranged weapon has the Blast or Torrent weapon rule.
+Usa esta Firefight ploy cuando un Operativo **CANOPTEK CIRCLE GEOMANCER** aliado sea seleccionado
+como objetivo válido de una acción de **Disparo** o como objetivo de un combate durante una acción de
+**Combatir**. Selecciona un aliado **CANOPTEK CIRCLE CANOPTEK** aliado a 3\" de ese primer Operativo para ser
+un objetivo válido o para ser objetivo de un combate (incluso si normalmente no sería un objetivo válido para
+esto). If es una acción de **Combate** trata ese Operativo como si estuviera en rango de control durante esa acción.
+Si es una acción de **Disparo**, el Operativo está Obscure o en Cover si el objetivo
+principal lo era.\n
+\nEsta ploy no tiene efecto si la acción de **Disparo** tiene la regla Blast o Torrent.
 ]]></string>
 
 </resources>
