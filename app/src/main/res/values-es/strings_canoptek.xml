@@ -129,10 +129,8 @@ condiciones de victoria o puntuar Victory points si requiere que este Operativo 
     ]]></string>
 
     <string name="a_ceaseless_scuttling_description"><![CDATA[
-As a **STRATEGIC GAMBIT** in each turning point after the first, if you have less than three
-non-incapacitated friendly **CANOPTEK CIRCLE WARRIOR**
-operatives, you can set up another one ready and with a Conceal
-order wholly within your drop zone (you can select its weapon options as normal).
+En la **STRATEGIC GAMBIT** de cada turno después del primero, si tienes menos de 3 **CANOPTEK CIRCLE WARRIOR** en el campo, puedes poner uno sin activar (ready) y con una orden
+de Conceal completamente dentro de tu zona de deployment (puedes seleccionar su arma al momento de hacerlo).
     ]]></string>
 
     <string name="dimensional_banishment_usage"><![CDATA[
