@@ -60,7 +60,7 @@ APL, cualquier cambio es acumulable con esto.
 **PSYCHIC**. Selecciona uno de los siguientes efectos para que dure hasta el inicio de la próxima activación de este Operativo, hasta que sea incapacitado o hasta que haga
 esta accion nuevamente (lo que pase primero):\n
 \n• Invigoration: **PSYCHIC.** Cuando un aliado **CHAOS CULT** está a 4\" de este Operativo, daño normal y crítico de 4 o más inflige 1 menos a ese Operativo.\n
-\n• Deterioration: **PSYCHIC**. Cuando un enemigo está a 4\" de este Operativo, daño normal y crítico inflige 1 daño adicional a ese Operativo enemigo.
+\n• Deterioration: **PSYCHIC**. Cuando un enemigo está a 4\" de este Operativo, daño normal y crítico inflige 1 daño adicional a ese Operativo enemigo.\n\n
 
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
@@ -70,10 +70,10 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     ]]></string>
 
     <string name="heinous_deluge_description"><![CDATA[
-**PSYCHIC**. Select one enemy operative that is a valid target for this operative. Until the end of that
-operatives next activation, subtract 1 from its APL stat.\n\n
+**PSYCHIC**. Selecciona un Operativo enemigo que sea un objetivo válido para este Operativo. Hasta el final de la siguiente activación de ese Operativo, sustrae 
+1 a su estadística de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="malefic_vortex_usage"><![CDATA[
@@ -81,13 +81,11 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="malefic_vortex_description"><![CDATA[
-**PSYCHIC.** Remove your Malefic Vortex marker from the killzone (if any). Then
-place your Malefic Vortex marker visible to this operative, or on Vantage terrain of
-a terrain feature that is visible to this operative. Inflict 1 damage on each enemy
-operative within 2\" of that marker. In addition, in the Ready step of each Strategy
-phase, inflict 1 damage on each enemy operative within 2\" of that marker.\n\n
+**PSYCHIC.** Remueve tu Malefic Vortex del campo (si hay alguno). Luego, pon tu marcador Malefic Vortex visible para este Operativo, o en terreno aventajado que sea
+visible para este Operativo. Inflige 1 herida a cada Operativo enemigo que esté a 2" de este marcador, en la Ready step de cada turno, inflige 1 herida a cada enemigo que este
+a 2\" de este marcador.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="chaos_group_activacion_usage"><![CDATA[
@@ -95,11 +93,9 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="chaos_group_activacion_description"><![CDATA[
-Whenever this operative is expended, you must then activate one other ready friendly **CHAOS CULT
-DEVOTEE** operative (if able) before your opponent activates.
-When that other operative is expended, your opponent then
-activates as normal (in other words, you cannot activate more
-than two operatives in succession with this rule).
+Cuando este Operativo termina su activación (expended), debes de activar otro Operativo aliado **CHAOS CULT DEVOTEE** que no haya activado (ready) (si es posible)
+Antes de que tu oponente active, cuando ese otro Operativo termine su activación, tu oponente después activa normalmente (en otras palabras, no puedes activar más de
+2 operativos seguidos con esta regla).
     ]]></string>
 
     <string name="accursed_mutant_usage"><![CDATA[
@@ -116,8 +112,7 @@ perform the **Pick Up Marker** and mission actions (excluding **Operate Hatch**)
     ]]></string>
 
     <string name="unnatural_regeneration_description"><![CDATA[
-Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+,
-subtract 1 from that inflicted damage.
+Cuando un dado de ataque inflige daño de 3 o más a este Operativo, lanza un D6, al 5+ sustrae 1 del daño infligido.
     ]]></string>
 
     <!--Faction Rules-->
