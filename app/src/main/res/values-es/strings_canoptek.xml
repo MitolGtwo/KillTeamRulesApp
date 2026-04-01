@@ -138,10 +138,9 @@ de Conceal completamente dentro de tu zona de deployment (puedes seleccionar su 
     ]]></string>
 
     <string name="dimensional_banishment_description"><![CDATA[
-After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the
-target was not incapacitated, roll 2D6: if the result is higher than the targets remaining wounds, the target is incapacitated (taking
-precedence over rules that prevent incapacitation, e.g. Medic!, **FELLGOR RAVAGER** Frenzy) and your opponent cannot place a
-Reanimation marker (**HIEROTEK CIRCLE**) for that operative, if relevant.
+Después de que este Operativo use esta arma, si lograste infligir daño o retuviste un éxito crítico, si el objetivo no fue incapacitado, lanza 2D6:\n
+\nSi el resultado es mayor a la cantidad restante de heridas del objetivo, el objetivo es incapacitado (tomando precedencia sobre reglas que previenen esto como
+Medic!, Frenzy de **FELLGOR RAVAGER**,etc) y tu oponente no puede poner un token de reanimación en caso de ser posible (**HIEROTEK CIRCLE**).
     ]]></string>
 
     <string name="weapon_sentinel_usage"><![CDATA[
@@ -149,10 +148,8 @@ Reanimation marker (**HIEROTEK CIRCLE**) for that operative, if relevant.
     ]]></string>
 
     <string name="weapon_sentinel_description"><![CDATA[
-Whenever your opponent is selecting a
-valid target, if this operative has a Conceal order, it cannot use
-Light terrain for cover. While this can allow this operative to be
-targeted (assuming it is visible), it does not remove its cover save (if any).
+Cuando tu oponente esté seleccionando un objetivo válido, si este Operativo tiene una orden de Conceal, no puede usar terreno ligero para cubrirse. Mientras esto
+permite seleccionar a este Operativo (asumiendo que sea visible), no remueve salvaciones por cobertura (en caso de que haya alguna).
     ]]></string>
 
     <string name="canoptek_steadfast_usage"><![CDATA[
@@ -160,52 +157,29 @@ targeted (assuming it is visible), it does not remove its cover save (if any).
     ]]></string>
 
     <string name="canoptek_steadfast_description"><![CDATA[
-Whenever determining control of a marker, you
-can treat this operative’s APL stat as 3. If you do, this takes
-precedence over all other rules, meaning any changes to its APL
-stat are ignored for this
+Al momento de determinar el control de un objetivo, puedes tratar la estadística de APL de este Operativo como si fuera 3. Si lo haces, esto toma precedencia sobre todas las
+demás reglas, esto quiere decir que cualquier cambio a los APL de este Operativo es ignorado para aplicar esta regla.
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="obelisk_node_matrix_lore"><![CDATA[
-Obelisk nodes are concentrations of Necron technology,
-hubs of energy and data streams. Whether raised
-up from their sites of ancient burial, formed from
-restructured local matter or phased into place from a
-pocket dimension, these angular nodes can empower
-a Cryptek and their servants. Impelled into positions
-where they can connect in a matrix of power, they aid
-the Crypteks ambitions whilst hampering their foes.
+Los Nodos Obeliscos son concentraciones de la tecnología Necron, centrales de energía y transmisión de información que actúan cuando son levantados de sus
+sepultos ancestrales, creados con materia local o llamados desde las dimensiones de bolsillo, estos nodos pueden ser potenciales al Cryptek y sus sirvientes. impulsadas y posicionadas
+el lugares donde puedan conectarse a la matriz de poder, ayudan a completar los deseos de Crypteks al amenazar a sus enemigos.
 ]]></string>
 
     <string name="obelisk_node_matrix_description"><![CDATA[
-As a **STRATEGIC GAMBIT** in the first turning point,
-place your three **OBELISK NODE** markers wholly
-within your territory. As a **STRATEGIC GAMBIT**
-in each turning point after the first, you can
-move each of your **OBELISK NODE** markers up to 3\" horizontally.\n
-\n
-Your **OBELISK NODE** markers control other
-markers within 1\" of them that no enemy
-operatives contest (treat your **OBELISK NODE**
-markers as friendly operatives for this purpose).
-If more than one player would use their **OBELISK NODE** markers to control the same marker, no
-**OBELISK NODE** markers control it.\n
-\n
-Whenever one of your **OBELISK NODE** markers is
-within 6\" horizontally of another of your **OBELISK NODE** markers, those markers and the area
-between them create an **OBELISK NODE MATRIX**
-above and below (in other words, their height
-in the killzone is irrelevant). If all three of your
-**OBELISK NODE** markers fulfil this, it creates a larger combined **OBELISK NODE MATRIX**.\n
-\n
-Whenever a friendly **CANOPTEK CIRCLE** operative is within your **OBELISK NODE MATRIX**:\n
-\n
-• Weapons on its datacard have the Accurate 1 weapon rule.\n
-\n
-• Add 1 to its APL stat (to a maximum of 3).
+Como **STRATEGIC GAMBIT** en el primer turno, pon tus tres marcadores **OBELISK NODE** completamente dentro de tu territorio. Como **STRATEGIC GAMBIT**
+Después del primer turno, puedes mover cada **OBELISK NODE** hasta 3\" horizontalmente.\n
+\nTus **OBELISK NODE** controlan otros marcadores a 1\" de ellos si ningún enemigo los está contestando (trata tus **OBELISK NODE** como Operativos aliados para determinar
+esto). Si más de un jugador usa **OBELISK NODES** para controlar el mismo marcador, ningún **OBELISK NODE** lo controla.\n
+\nCuando uno de tus **OBELISK NODE** está a 6\" horizontalmente de otro **OBELISK NODE**, esos marcadores y el área superior e inferior entre ellos se consideran
+un **OBELISK NODE MATRIX**. Si tus tres **OBELISK NODES** cumplen esta regla, crea un **OBELISK NODE MATRIX** más grande combinado.\n
+\nCuando un aliado **CANOPTEK CIRCLE** está dentro de tu **OBELISK NODE MATRIX**:\n
+\n• Las armas en tu tarjeta de personaje ganan la regla Accurate 1.\n
+\n• Añade 1 a su estadística de APL (hasta un máximo de 3).
 ]]></string>
 
     <!--Equipment-->
