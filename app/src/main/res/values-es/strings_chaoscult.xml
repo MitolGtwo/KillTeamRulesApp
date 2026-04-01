@@ -9,12 +9,9 @@
     ]]></string>
 
     <string name="incite_slaughter_description"><![CDATA[
-**SUPPORT.** One other friendly **CHAOS CULT** operative
-visible to and within 9\" of this operative can immediately
-perform a free **Fight** action.\n\n
-
-This operative cannot perform this action while within control
-range of an enemy operative.
+**SUPPORT.** Otro aliado **CHAOS CULT** visible y a 9\" de este Operativo, puede inmediatamente hacer una acción de **Combatir**
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="incite_urgency_usage"><![CDATA[
@@ -22,45 +19,37 @@ range of an enemy operative.
     ]]></string>
 
     <string name="incite_urgency_description"><![CDATA[
-**SUPPORT.** One other friendly **CHAOS CULT** operative
-visible to and within 9\" of this operative can immediately
-perform a free **Charge** or **Dash** action (for the former, it
-cannot move more than 3\").
+**SUPPORT.** Otro aliado **CHAOS CULT** visible y a 9\" de este Operativo, puede inmediatamente hacer una acción de **Cargar** o **Dash** (no puede moverse más de 3\").
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
 
     <string name="cut_them_down_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="cut_them_down_description"><![CDATA[
-Whenever an enemy operative performs the
-**Fall Back** action while within control range of this operative,
-you can use this rule. If you do, inflict D3+1 damage on that
-enemy operative before it moves. If that enemy operative is
-within control range of two of these operatives, inflict 2D3+2
-damage instead.
+Cuando un Operativo enemigo haga la acción **Fall Back** mientras esté en rango de control de este Operativo, puedes usar esta regla. Si lo haces, inflige D3+1 heridas
+a ese Operativo enemigo antes de que se mueva. Si este Operativo enemigo está dentro del rango de control de dos Operativos de este tipo, inflige 2D3+2.
     ]]></string>
 
     <string name="attune_in_purpose_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="attune_in_purpose_description"><![CDATA[
-Whenever this operative is activated,
-you can activate another ready friendly **BLESSED BLADE**
-operative within 6\" of it at the same time. Complete their
-activations action by action in any order.
+Cuando este Operativo es activado, puedes activar otro aliado **BLESSED BLADE** a 6\" de este Operativo al mismo tiempo, completa ambas activaciones acción por acción en cualquier
+orden.
     ]]></string>
 
     <string name="chaos_icon_bearer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="chaos_icon_bearer_description"><![CDATA[
-Whenever determining control of a marker, treat
-this operatives APL stat as 1 higher. Note this is not a change to
-its APL stat, so any changes are cumulative with this.
+Cuando determines el control de un objetivo, trata la estadística de APL de este Operativo como si tuviera 1 más. Nótese que eso no es un cambio a la estadística de 
+APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="ruinous_icon_usage"><![CDATA[
@@ -68,20 +57,12 @@ its APL stat, so any changes are cumulative with this.
     ]]></string>
 
     <string name="ruinous_icon_description"><![CDATA[
-**PSYCHIC**. Select one of the following effects to last
-until the start of this operative’s next activation, until
-it’s incapacitated or until it performs this action again
-(whichever comes first):\n
-\n
-• Invigoration: **PSYCHIC.** Whenever a friendly **CHAOS
-CULT** operative is within 4\" of this operative, Normal
-and Critical Dmg of 4 or more inflicts 1 less damage on that operative.\n
-\n
-Deterioration: **PSYCHIC**. Whenever an enemy
-operative is within 4\" of this operative, Normal and Critical
-Dmg inflicts 1 more damage on that operative.\n\n
+**PSYCHIC**. Selecciona uno de los siguientes efectos para que dure hasta el inicio de la próxima activación de este Operativo, hasta que sea incapacitado o hasta que haga
+esta accion nuevamente (lo que pase primero):\n
+\n• Invigoration: **PSYCHIC.** Cuando un aliado **CHAOS CULT** está a 4\" de este Operativo, daño normal y crítico de 4 o más inflige 1 menos a ese Operativo.\n
+\n• Deterioration: **PSYCHIC**. Cuando un enemigo está a 4\" de este Operativo, daño normal y crítico inflige 1 daño adicional a ese Operativo enemigo.
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="heinous_deluge_usage"><![CDATA[
@@ -110,7 +91,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="chaos_group_activacion_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="chaos_group_activacion_description"><![CDATA[
@@ -122,7 +103,7 @@ than two operatives in succession with this rule).
     ]]></string>
 
     <string name="accursed_mutant_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="accursed_mutant_description"><![CDATA[
@@ -131,7 +112,7 @@ perform the **Pick Up Marker** and mission actions (excluding **Operate Hatch**)
     ]]></string>
 
     <string name="unnatural_regeneration_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="unnatural_regeneration_description"><![CDATA[
