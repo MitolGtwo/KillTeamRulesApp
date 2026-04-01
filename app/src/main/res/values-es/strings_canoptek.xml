@@ -185,50 +185,38 @@ un **OBELISK NODE MATRIX**. Si tus tres **OBELISK NODES** cumplen esta regla, cr
     <!--Equipment-->
 
     <string name="matrix_manipulator_lore"><![CDATA[
-With a flick of their digits, a skilled Geomancer can use
-this enhanced geomantic manipulator as a surrogate obelisk node to extend the matrix.
+Con el simple chasquido de sus dígitos, un Geomancer experimentado puede usar esta herramienta geomagnética para forzar un Nodo para extender el uso de la matriz.
 ]]></string>
 
     <string name="matrix_manipulator_description"><![CDATA[
-Once per battle, during a friendly **CANOPTEK CIRCLE** operatives activation or counteraction,
-you can use this rule. If you do, until the end of that activation/counteraction, a friendly
-**CANOPTEK CIRCLE GEOMANCER** operative is treated as your fourth **OBELISK NODE** marker.
+Una vez por batalla, durante la activación o Counteract de un **CANOPTEK CIRCLE** aliado, puedes usar esta regla, si lo haces, hasta el final de esa activación o Counteract,
+un Operativo **CANOPTEK CIRCLE GEOMANCER** aliado es tratado como un cuarto marcador **OBELISK NODE**.
 ]]></string>
 
     <string name="awakened_obelisk_nodes_lore"><![CDATA[
-Seeded into place and activated long ago, these obelisk
-nodes have absorbed huge stores of local data, ready to
-gift their controller with a superior edge when the time is right.
+Puestos y activados desde centenares de años, estos Nodos han absorbido cantidades enormes de información local, dando la ventaja a su amo cuando el tiempo lo requiera.
 ]]></string>
 
     <string name="awakened_obelisk_nodes_description"><![CDATA[
-After revealing this equipment option, roll one D3.
-You can use the Animate Obelisk Nodes firefight
-ploy for 0CP a number of times during the battle
-equal to the result.
+Después de revelar este equipamiento, lanza un D3. Puedes usar la Firefight ploy Animate Obelisk Nodes por 0CP un número de veces equivalente al resultado del dado durante
+la batalla.
 ]]></string>
 
     <string name="nanoscarab_caskets_lore"><![CDATA[
-These small devices appear to release wisps of spectral
-vapour. In truth, they are clouds of tiny repair constructs
-that seal rents in living metal.
+Estos pequeños dispositivos parecen neblinas de vapores espectrales, pero en realidad son pequeños reparadores que sellan aperturas en el metal viviente.
 ]]></string>
 
     <string name="nanoscarab_caskets_description"><![CDATA[
-Whenever a friendly **CANOPTEK CIRCLE** operative is activated, it regains up to D3 lost wounds.
+Cuando un aliado **CANOPTEK CIRCLE** es activado, recupera D3 heridas perdidas.
 ]]></string>
 
     <string name="phase_shifter_lore"><![CDATA[
-The bearers form flits between dimensions like a
-phantom, rendering it exceedingly difficult to land a telling blow upon them.
+La silueta del portador revolotea entre dimensiones como un fantasma, haciendo que sea increíblemente difícil recibir impactos graves.
 ]]></string>
 
     <string name="phase_shifter_description"><![CDATA[
-Once per turning point, when an operative is shooting a friendly **CANOPTEK CIRCLE GEOMANCER **operative, at the start of the Roll
-Defence Dice step, you can use this rule. If you
-do, worsen the x of the Piercing weapon rule by 1
-(if any) until the end of that sequence. Note that
-Piercing 1 would therefore be ignored.
+Una vez por turno, si un operativo esta disparando a un aliado **CANOPTEK CIRCLE GEOMANCER**, al inicio de la fase de lanzar dados de defensa, puedes usar esta regla.
+Si lo haces, empeora el Piercing del enemigo por 1 (si hay alguno) hasta el final de la secuencia. Notese que Piercing 1 sería ignorado al defender usando esta regla.
 ]]></string>
 
 
@@ -236,60 +224,42 @@ Piercing 1 would therefore be ignored.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="hypershielding_lore"><![CDATA[
-Quantum energies radiate from the matrix, triggered
-by warding protocols. The haze consumes solid shot in
-bursts of viridian light and refracts energy blasts, while
-its wavering veil confounds targeters.
+Energía cuántica irradia de la matriz, accionando protocolos de protección capaces de absorber disparos o repeler explosiones de energía, al mismo tiempo que
+Confunde a los enemigos.
 ]]></string>
 
     <string name="hypershielding_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**CANOPTEK CIRCLE** operative, if your **OBELISK NODE MATRIX** is intervening, or that friendly
-operative is within your **OBELISK NODE MATRIX**,
-you can re-roll any of your defence dice results of
-one result (e.g. results of 2).
+Cuando un Operativo esté disparando a un aliado **CANOPTEK CIRCLE**, si tu **OBELISK NODE MATRIX** está interviniendo, o ese aliado está dentro de tu **OBELISK NODE MATRIX**,
+puedes re-rollear cualquier resultado de tus dados de defensa del mismo valor (ejemplo todos los resultados de 2).
 ]]></string>
 
     <string name="transdynamic_amplification_lore"><![CDATA[
-Curving into arcane lenses that compress slivers of
-reality, the shimmering matrix magnifies the potency of
-the Necrons horrifying energistic technologies.
+Usando visores arcanos que comprimen el entendimiento de la realidad, la matriz magnifica la potencia de la horripilante tecnología de los Necrones.
 ]]></string>
 
     <string name="transdynamic_amplification_description"><![CDATA[
-Whenever a friendly **CANOPTEK CIRCLE**
-operative is shooting, if your **OBELISK NODE MATRIX** is intervening, or the target is within your
-**OBELISK NODE MATRIX**, that friendly operatives weapons have the Ceaseless weapon rule.
+Cuando un aliado  **CANOPTEK CIRCLE** esté disparando, si tu **OBELISK NODE MATRIX** está interviniendo, o si el objetivo está dentro de tu **OBELISK NODE MATRIX**,
+Las armas de ese aliado ganan la regla Ceaseless.
 ]]></string>
 
     <string name="cryptogravitic_repulsion_lore"><![CDATA[
-The universes fundamental forces have long been
-mastered by the Necrons. As their foes advance,
-thudding waves and twisting eddies of gravity amongst
-the obelisk nodes repel potential trespassers.
+Las fuerzas fundamentales del universo han sido dominadas por los Necrones hace mucho tiempo. Mientras sus enemigos avanzan, ondas repulsoras gravitatorias repelen agresores
+potenciales.
 ]]></string>
 
     <string name="cryptogravitic_repulsion_description"><![CDATA[
-Once per action, the first time an enemy
-operative would move within your **OBELISK NODE MATRIX**, the distance is treated as an additional
-1\". Note this means if that enemy operative
-does not have sufficient move distance (e.g. it’s at the end of its move), that operative cannot move
-within your **OBELISK NODE MATRIX.**
+Una vez por acción, la primera vez que un enemigo vaya a moverse pasando a través de tu **OBELISK NODE MATRIX**, la distancia es tratada como con 1\" adicional.
+Notese que si el Operativo enemigo no tiene suficiente distancia de movimiento (al finalizar su movimiento), ese Operativo no podrá moverse dentro de tu **OBELISK NODE MATRIX
 ]]></string>
 
     <string name="souldrain_lore"><![CDATA[
-A lifeless chill creeps into the hearts of those who would
-dare to breach the Necrons realm – an enervating
-leeching of strength and vitality that leaves them easy prey.
+Un escalofrío lleno de muerte llena los corazones de aquellos que se atrevan a penetrar dominios Necrones, drenando su energía hasta volverlos presas fáciles.
 ]]></string>
 
     <string name="souldrain_description"><![CDATA[
-Whenever an enemy operative is within your
-**OBELISK NODE MATRIX**, or whenever it is fighting
-or retaliating against a friendly **CANOPTEK CIRCLE** operative that’s within your **OBELISK NODE MATRIX**, subtract 1 from both Dmg stats
-of that enemy operatives melee weapons (to a minimum of 2) until the end of the activation/counteraction. Note this means if the enemy
-operative moves through your **OBELISK NODE MATRIX**, apply this change at the end of that
-move action until the end of the activation/counteraction.
+Cuando un enemigo está dentro de tu **OBELISK NODE MATRIX**, o cuando combata o retalea contra aliados **CANOPTEK CIRCLE** que estén dentro de tu
+**OBELISK NODE MATRIX**, sustrae 1 a ambos valores de Dmg de las armas de melee de ese Operativo enemigo (hasta un mínimo de 2), hasta el final de esa activación o Counteract
+. Notese que si un Operativo se mueve a través de tu **OBELISK NODE MATRIX**, se aplica este cambio hasta el final de esta activación o Counteract.
 ]]></string>
 
 
