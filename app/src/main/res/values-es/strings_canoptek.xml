@@ -45,27 +45,13 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     <string name="molecular_breach_description"><![CDATA[
 **SUPPORT**. Selecciona un aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 6\" de este Operativo. Alternativamente puedes seleccionar a un **CANOPTEK CIRCLE CANOPTEK**
 que sea visible y que esté dentro de tu **OBELISK NODE MATRIX** (**SUPPORT** no aplica para esta selección).\n
-\n
+\n• La próxima vez que el Operativo seleccionado haga una acción en la que se mueva, no lo muevas normalmente. Remuévelo del campo de batalla y vuelvelo a poner en el campo
+una distancia equivalente a su estadística de movimiento (o a 3\" si uso un dash) horizontalmente de su lugar original (en killzones con espacios cerrados como ITD o Tombworld
+, puedes medir esto a través de paredes, el Operativo puede ponerse al otro lado de una pared).\n
+\nNotese que no gana distancia adicional cuando hace la accion de **Cargar**. Debe ser puesto en un lugar donde pueda sostenerse y a menos que se trate de una accion de **Cargar**,
+No puede ser puesto dentro del rango de control de un Operativo enemigo.\n\n
         
-**SUPPORT**. Select one friendly **CANOPTEK CIRCLE**
-operative visible to and within 6\" of this operative.
-Alternatively, you can select one friendly **CANOPTEK CIRCLE** operative visible to this operative
-and within your **OBELISK NODE MATRIX** (**SUPPORT** does not apply to this selection).\n
-\n
--The next time the selected operative performs an action in
-which it moves, do not move it. Instead, remove it from the
-killzone and set it back up wholly within a distance equal
-to its Move stat (or 3\" if it was a **Dash**) horizontally of its
-original location (in a killzone that uses the close quarters
-rules, e.g. Killzone: Tomb World, this distance can be
-measured over and through Wall terrain and the operative
-can be set up on the other side). Note that it gains no
-additional distance when performing the **Charge** action. It
-must be set up in a location it can be placed, and unless it is
-the **Charge** action, it cannot be set up within control range
-of an enemy operative\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
 
@@ -74,14 +60,10 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="overcharge_description"><![CDATA[
-Select one other friendly **CANOPTEK CIRCLE CANOPTEK** operative visible to and within 3\" of this
-operative. Alternatively, if this operative is within your
-**OBELISK NODE MATRIX**, you can select one other
-friendly **CANOPTEK CIRCLE CANOPTEK** operative
-within your **OBELISK NODE MATRIX**. Until the end
-of that selected operative’s next activation, add 1 to its APL stat.\n\n
+Selecciona otro aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 3\" de este Operativo. Alternativamente puedes seleccionar otro aliado **CANOPTEK CIRCLE CANOPTEK**
+que esté dentro de tu **OBELISK NODE MATRIX**. Hasta el final de su siguiente activación, añade 1 a su estadística de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="cranial_overload_usage"><![CDATA[
@@ -89,13 +71,10 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="cranial_overload_description"><![CDATA[
-Select one enemy operative visible to and within 3\" of
-this operative. Alternatively, if this operative is within your
-**OBELISK NODE MATRIX**, you can select one enemy
-operative within your **OBELISK NODE MATRIX**. Until
-the end of that enemy operative’s next activation, subtract 1 from its APL stat.\n\n
+Selecciona un enemigo visible y a 3\" de este Operativo. Alternativamente, si este Operativo está dentro de tu **OBELISK NODE MATRIX**, puedes seleccionar a un Operativo
+enemigo que este dentro de tu **OBELISK NODE MATRIX**. Hasta el final de la siguiente activación de ese Operativo, sustrae 1 a su estadística de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.  
     ]]></string>
 
 
@@ -104,20 +83,14 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="reanimate_description"><![CDATA[
-Once per turning point, when another friendly **CANOPTEK CIRCLE** operative would be incapacitated,
-if that operative is visible to and within 6\" of this operative, or
-if this and that operative are within your **OBELISK NODE MATRIX**, you can use this rule, providing
-neither this nor that operative is within control range of an enemy operative. If you
-do, that friendly operative is not incapacitated, has 1 wound
-remaining and cannot be incapacitated for the remainder of the
-action. After that action, that friendly operative can immediately
-perform a free **Dash** action, but must end that action within
-this operatives control range or within your **OBELISK NODE MATRIX**.
-Subtract 1 from this and that operatives APL stats until the end of their next activations respectively, and if this
-rule was used during that friendly operatives activation, that
-activation ends. You cannot use this rule if this operative is
-incapacitated, or if it is a **Shoot** action and this operative would
-be a primary or secondary target.
+Una vez por turno, cuando otro aliado **CANOPTEK CIRCLE** vaya a ser incapacitado, si ese Operativo es visible y a 6\" de este Operativo, o si este y ese Operativo están dentro
+de tu **OBELISK NODE MATRIX**, puedes usar esta regla, siempre y cuando ninguno de esos Operativos esté en rango de control de un Operativo enemigo.\n
+\nSi lo haces, ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado durante el resto de la acción. Después de esa acción, ese aliado puede inmediatamente
+hacer un **Dash** gratis, pero debes terminar esa acción dentro del rango de control de este Operativo o dentro de tu **OBELISK NODE MATRIX**.\n
+\nSustrae 1 a la estadística de APL de ambos Operativos hasta el fin de sus próximas activaciones, si esta regla fue usada durante la activación de ese Operativo, esa activación
+termina.\n
+\nNo puedes usar esta regla si este Operativo 
+es incapacitado, o si es un **Disparo** y este Operativo es seleccionado como objetivo primario o secundario.
     ]]></string>
 
     <string name="nanoscarab_beam_usage"><![CDATA[
@@ -125,17 +98,11 @@ be a primary or secondary target.
     ]]></string>
 
     <string name="nanoscarab_beam_description"><![CDATA[
-Select one friendly **CANOPTEK CIRCLE** operative
-visible to and within 6\" of this operative. Alternatively, if this
-operative is within your **OBELISK NODE MATRIX**, you
-can select one other friendly **CANOPTEK CIRCLE**
-operative within your **OBELISK NODE MATRIX**. The
-selected operative regains up to 3D3 lost wounds. It cannot
-be an operative that the Reanimate rule was used on during
-this turning point.\n\n
+Selecciona un aliado **CANOPTEK CIRCLE** visible y a 6\" de este Operativo. Alternativamente, si este Operativo está en tu **OBELISK NODE MATRIX** 
+puedes seleccionar a un **CANOPTEK CIRCLE CANOPTEK** que esté dentro de tu **OBELISK NODE MATRIX**. El operativo seleccionado recupera 3D3 heridas
+perdidas. No puede usar esta regla con un Operativo que haya usado la regla **Reanimate** este turno.\n\n
 
-This operative cannot perform this action while within
-control range of an enemy operative, or more than once per turning point.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo o más de una vez por turno. 
     ]]></string>
 
 
@@ -144,8 +111,7 @@ control range of an enemy operative, or more than once per turning point.
     ]]></string>
 
     <string name="aggressive_defence_description"><![CDATA[
-If this operative is incapacitated by an enemy operative within 2\" of it, before this operative is removed
-from the killzone, roll one D3: on a 2+, inflict 1 damage on that enemy operative.
+Si este Operativo es incapacitado por un enemigo que esté a 2\" de este, antes de ser removido del campo, lanza un D3: al 2+, inflige 1 daño a ese Operativo enemigo.
     ]]></string>
 
     <string name="expendable_construct_usage"><![CDATA[
@@ -153,12 +119,8 @@ from the killzone, roll one D3: on a 2+, inflict 1 damage on that enemy operativ
     ]]></string>
 
     <string name="expendable_construct_description"><![CDATA[
-This operative is ignored for your opponents kill/elimination op (when it’s incapacitated, and when
-determining your starting number of operatives). It is also ignored
-for victory conditions and scoring VPs if either require operatives
-to \‘escape\’, \‘survive\’ or be incapacitated by enemy operatives
-(if it escapes/survives/is incapacitated, determining how many
-operatives must escape/survive/be incapacitated, etc.).
+Este Operativo es ignorado para la Kill op de tu oponente (cuando es incapacitado y cuando determinas tu número inicial de Operativos). También es ignorado para 
+condiciones de victoria o puntuar Victory points si requiere que este Operativo \‘escape\’, \‘sobreviva\’ o sea incapacitado por Operativos enemigos.
     ]]></string>
 
 
