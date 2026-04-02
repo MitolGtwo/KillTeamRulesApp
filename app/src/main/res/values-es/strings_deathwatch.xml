@@ -277,33 +277,21 @@ Usa esta Firefight ploy cuando un aliado **DEATHWATCH** está haciendo un Counte
 ]]></string>
 
     <string name="advance_auspex_scan_lore"><![CDATA[
-Between unstinting sweeps of their bioscryer cuffs,
-their inbuilt auspexes warning of hostile threats and the
-augmented instincts of the Deathwatch themselves, no
-lurking threat can long evade their sights.
+Los instintos refinados de la Deathwatch junto con señales de sus Auspexes internos alertan a estos guerreros modificados, haciendo imposible escapar de su vista.
 ]]></string>
 
     <string name="advance_auspex_scan_description"><![CDATA[
-Use this firefight ploy when a friendly
-**DEATHWATCH** operative performs the
-**Shoot** action. Until the end of the activation/
-counteraction, its ranged weapons have the
-Saturate weapon rule and enemy operatives
-cannot be obscured.
+Usa esta Firefight ploy cuando un aliado **DEATHWATCH** hace la acción de **Disparar**. Hasta el final de esa activación/Counteract, sus armas a distancia ganan
+la regla Saturate y el Operativo enemigo no puede estar Obscurecido.
 ]]></string>
 
     <string name="dw_transhuman_physiology_lore"><![CDATA[
-The genetically modified physiology of a Space
-Marine is capable of resisting wounds that would kill a
-lesser being.
+ La fisiología modificada de un Space Marine los hace capaces de soportar heridas que matarían a un ser inferior.
 ]]></string>
 
     <string name="dw_transhuman_physiology_description"><![CDATA[
-Use this firefight ploy when an operative is
-shooting a friendly **DEATHWATCH** operative,
-in the Roll Defence Dice step. You can retain
-one of your normal successes as a critical
-success instead.
+Usa esta Firefight ploy cuando un Operativo esté disparando a un aliado **DEATHWATCH**, en la fase de lanzar dados de defensa. Puedes retener uno de tus éxitos normales como
+un éxito crítico en su lugar.
 ]]></string>
 
 
