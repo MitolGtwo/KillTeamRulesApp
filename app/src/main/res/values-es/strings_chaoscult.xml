@@ -119,13 +119,12 @@ Cuando un dado de ataque inflige daño de 3 o más a este Operativo, lanza un D6
 
     <string name="accursed_gifts_lore"><![CDATA[
 Los seguidores malditos del Caos son bendecidos por los dioses con una serie de mutaciones horripilantes.
-Alas quimericas, cuernos torcidos, garras crueles o tentaculos repugnantes: todos estos regalos diabolicos
-brindan efectos devastadores.
+Alas quiméricas, cuernos torcidos, garras crueles o tentáculos repugnantes: todos estos regalos diabólicos brindan efectos devastadores.
 ]]></string>
 
     <string name="accursed_gifts_description"><![CDATA[
 Los **REGALO MALDITOS** son reglas que aliados **CHAOS CULT** ganan cuando se transforman en otro
-Operativo (vease regla de faccion **MUTACION**). La primera vez que un aliado **DEVOTEE** se transforme
+Operativo (vease regla de facción **MUTACIÓN**). La primera vez que un aliado **DEVOTEE** se transforme
 en un Operativo **MUTANT** durante la batalla, selecciona tu **REGALO MALDITO** primario. La primera vez
 que un aliado **MUTANT** se transforme en un **TORMENT** durante la batalla, selecciona tu **REGALO MALDITO**
 secundario.\n
@@ -135,73 +134,72 @@ mas de una vez por batalla.
 ]]></string>
 
     <string name="gift1_lore"><![CDATA[
-Alas andrajosas estallan desde la piel. estas mutaciones infernales permiten a su portador ascender
+Alas andrajosas estallan desde la piel. Estas mutaciones infernales permiten a su portador ascender
 y caer con agilidad mortal.
 ]]></string>
 
     <string name="gift1_description"><![CDATA[
-Cuando este Operativo este escalando, puedes tratar la distancia vertical como si fuera 2\"
-(sin importar cuanto se mueva verticalmente). Cuando este Operativo este cayendo, ignora la distancia
+Cuando este Operativo esté escalando, puedes tratar la distancia vertical como si fuera 2\"
+(sin importar cuánto se mueva verticalmente). Cuando este Operativo esté cayendo, ignora la distancia
 vertical.
 ]]></string>
 
 
     <string name="gift2_lore"><![CDATA[
-Musculos, miembros y tentaculos extras pueden brotar de los cuerpos malditos de aquellos bendecidos,
+Musculos, miembros y tentáculos extras pueden brotar de los cuerpos malditos de aquellos bendecidos,
 estos miembros nuevos permiten a los cultistas moverse a velocidades espeluznantes en el campo.
 ]]></string>
 
     <string name="gift2_description"><![CDATA[
-Añade 1\" a la estadistica de Movimiento de este Operativo.
+Añade 1\" a la estadística de Movimiento de este Operativo.
 ]]></string>
 
 
     <string name="gift3_lore"><![CDATA[
-Corazas endurecidas brotando de piel hinchada brindan una resistencia insana capaces de repeles balas.
+Corazas endurecidas brotando de piel hinchada brindan una resistencia insana capaz de repeler balas.
 ]]></string>
 
     <string name="gift3_description"><![CDATA[
-Mejora la estadistica de Save a 1.
+Mejora la estadística de Save a 1.
 ]]></string>
 
 
     <string name="gift4_lore"><![CDATA[
 Pares de cuernos afilados nacen en la frente de algunos Mutantes, usados para penetrar e impalar
-sus victimas.
+sus víctimas.
 ]]></string>
 
     <string name="gift4_description"><![CDATA[
-Cuando este Operativo termina su movimiento durante una carga, puedes ifligir 1 herida a un enemigo
-dentro de su rango de contro, o D3 heridas si este Operativo es un **TORMENT**.
+Cuando este Operativo termina su movimiento durante una carga, puedes infligir 1 herida a un enemigo
+dentro de su rango de control, o D3 heridas si este Operativo es un **TORMENT**.
 ]]></string>
 
 
     <string name="gift5_lore"><![CDATA[
-Dentro de las varias formas deformadas de los cultistas, pueden ganar tendones y musculos de acero.
-Regalandoles fuerza mounstroza en cada golpe que hagan.
+Dentro de las varias formas deformadas de los cultistas, pueden ganar tendones y músculos de acero.
+Regalándoles fuerza monstruosa en cada golpe que hagan.
 ]]></string>
 
     <string name="gift5_description"><![CDATA[
-Puedes ignorar cualquier cambio a las estadisticas de Hit de las armas de Melee de este Operativo
+Puedes ignorar cualquier cambio a las estadísticas de Hit de las armas de Melee de este Operativo
 por estar herido. Las armas a Melee de este Operativo ganan la regla Brutal.
 ]]></string>
 
 
     <string name="gift6_lore"><![CDATA[
-Los cuerpos y armas de los cultistas son empapados de espinas afiladas que muerden aquellos que estan
-cerca. despegando la piel y derramando la sangre de sus enemigos.
+Los cuerpos y armas de los cultistas son empapados de espinas afiladas que muerden a aquellos que están cerca. despegando la piel y derramando la sangre de sus enemigos.
 ]]></string>
 
     <string name="gift6_description"><![CDATA[
-Cuando este Operativo este combatiendo o retaleando:\n
-\n• Operativos enemigos no puedes assistir.\n
+Cuando este Operativo esté combatiendo o retaleando:\n
+\n• Operativos enemigos no puedes asistir.\n
 \n• La primera vez que decidas golpear durante esa secuencia, inflige 1 daño a cada otro enemigo dentro
 del rango de control de este Operativo, o D3 si este Operativo es un **TORMENT** (lanza dado por separado).
 ]]></string>
 
     <string name="mutation_lore"><![CDATA[
-A traves de rituales arcanos, los miembros del Culto del Caos llenan sus pieles de simbolos profanos.
-Si se pronuncian las palabras de invocacion correctas, estos iconos tomaran poder oscuros capaz de deformar
+A través de rituales arcanos, los miembros del Culto del Caos llenan sus pieles de símbolos profanos.
+Si se pronuncian las palabras de invocación correctas, estos iconos tomarán poder oscuros capaces de deformar
 y mutar la forma de los devotos. Esto no es suficiente para saciar las ansias de poder de algunos,
 oraciones deprabadas e invocaciones pueden llamar a un Daemon dentro del cuerpo de Tormento para que
 una su existencia con su portado.
@@ -209,18 +207,18 @@ una su existencia con su portado.
 
     <string name="mutation_description"><![CDATA[
 Durante la batalla, aliados **CHAOS CULT** pueden **MUTAR** de la siguiente forma:\n
-\n• Como **STRATEGIC GAMBIT** puedes **MUTAR** un numero de aliados **CHAOS CULT** basados en el
-turno de la siguiente forma: Turno 1 = 2, Turno 2 = 2, Turno 3 = 3, Turno 4 = 4.\n
+\n• Como **STRATEGIC GAMBIT** puedes **MUTAR** un número de aliados **CHAOS CULT** basados en el
+Turno de la siguiente forma: Turno 1 = 2, Turno 2 = 2, Turno 3 = 3, Turno 4 = 4.\n
 \n•Cuando un aliado **DEVOTEE** incapacita a un Operativo enemigo dentro de su rango de control,
 puede **MUTAR**.\n
 \n•Cada Operativo puede **MUTAR** solo una vez por turno.\n
-\n•Cuando un aliado **MUTA*, selecciona uno de los siguientes:\n
+\n•Cuando un aliado **MUTA**, selecciona uno de los siguientes:\n
 \n- Si es un aliado **DEVOTEE**, se transforma en un **MUTANT**.\n
-\n- Si es un aliado **MUTANT**, se transforma en un **TORMENT** (maximo dos veces por turno).\n
+\n- Si es un aliado **MUTANT**, se transforma en un **TORMENT** (máximo dos veces por turno).\n
 \n- Puede recuperar D3+1 heridas perdidas.\n
-\nNo puedes tener mas de 5 Operativos **MUTANT** y 3 **TORMENT** al mismo tiempo. Cuando un aliado se
-convierte en un Operativo nuevo:\n
-\n• Intercambia las miniaturas, asegurando que el centro de la base de esa miniatura nueva este
+\nNo puedes tener más de 5 Operativos **MUTANT** y 3 **TORMENT** al mismo tiempo. Cuando un aliado se
+Convierte en un operativo nuevo:\n
+\n• Intercambia las miniaturas, asegurando que el centro de la base de esa miniatura nueva esté
 tan cerca como sea posible donde estuvo el centro de la miniatura antigua. Esta se puede poner
 dentro de rango de control de un Operativo enemigo, y si la miniatura antigua lo estaba, la nueva
 miniatura debe estarlo si es posible.\n
@@ -234,8 +232,7 @@ es simplemente un tipo de Operativo nuevo y usa nuevas reglas en su tarjeta de p
     <!--Equipment-->
 
     <string name="baleful_script_lore"><![CDATA[
-Estos garabatos infernales escritos en paginas hechas de piel humanas pueden contienten textos maleficos,
-capaces de ser invocados cuando son recitados en lenguage oscuro.
+Estos garabatos infernales escritos en páginas hechas de piel humana pueden contener textos maleficos capaces de ser invocados cuando son recitados en lenguaje oscuro.
 ]]></string>
 
     <string name="baleful_script_description"><![CDATA[
@@ -245,28 +242,28 @@ solo ese Operativo se beneficia de esto.
 ]]></string>
 
     <string name="chaos_covert_guises_lore"><![CDATA[
-Los miembros mas dedicados del Culto del Caos son maestros del espionaje, engaño y traicion.
+Los miembros más dedicados del Culto del Caos son maestros del espionaje, engaño y traición.
 ]]></string>
 
     <string name="chaos_covert_guises_description"><![CDATA[
 Despues de revelar este equipamiento, lanza un D3. Como **STRATEGIC GAMBIT** en el primer turno,
-un numero de ***CHAOS CULT DEVOTEE** aliados equivalentes al resultado del dado que esten completamente
-dentro de tu zona de deploment pueden inmediatamente hacer una accion de **Reposicion** gratis,
-pero debe terminar ese movimineto completamente a 3\" de tu zona de deployment.
+un número de ***CHAOS CULT DEVOTEE** aliados equivalentes al resultado del dado que estén completamente
+dentro de tu zona de deployment pueden inmediatamente hacer una acción de **Reposicion** gratis,
+pero debe terminar ese movimiento completamente a 3\" de tu zona de deployment.
 ]]></string>
 
     <string name="unholy_talisman_lore"><![CDATA[
-Ya sea que se sostenga en alto sobre estandartes andrajosos,o se trazen en la piel de putrefacta,
-estos cultistas portan sus talismanes con la creencia de que sus dioses oscuros los bendeciran.
+Ya sea que se sostenga en alto sobre estandartes andrajosos,o se tracen en la piel de putrefacta,
+estos cultistas portan sus talismanes con la creencia de que sus dioses oscuros los bendecirán.
 ]]></string>
 
     <string name="unholy_talisman_description"><![CDATA[
-Una vez por turno, cuando un Operativo este disparando a un aliado **CHAOS CULT**, en la fase
-de lanzar dados de defensa, puedes retener uno de tus exitos normales como un exito critico.
+Una vez por turno, cuando un Operativo esté disparando a un aliado **CHAOS CULT**, en la fase
+de lanzar dados de defensa, puedes retener uno de tus éxitos normales como un éxito crítico.
 ]]></string>
 
     <string name="vile_blessing_lore"><![CDATA[
-A traves de horripilantes y frecuentemente dolorosas transformaciones, los regalos de los dioses
+A través de horripilantes y frecuentemente dolorosas transformaciones, los regalos de los dioses
 oscuros otorgan gran resistencia a sus portadores.
 ]]></string>
 
@@ -282,52 +279,52 @@ usar uno o el otro.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="exaltation_in_pain_lore"><![CDATA[
-Estimulados por su fervor fanatico, los cultistas abrazan la agonia de las heridas en su piel
-mutante con gusto maniatico.
+Estimulados por su fervor fanático, los cultistas abrazan la agonía de las heridas en su piel
+mutante con gusto maníaco.
 ]]></string>
 
     <string name="exaltation_in_pain_description"><![CDATA[
-Puedes ignorar cualquier cambio a la estadistica de Hit de aliados **CHAOS CULT** por estar heridos.
-Cuando un Operativo esta disparando a un aliado **CHAOS CULT** que recibido heridas, puedes re-rollear un
+Puedes ignorar cualquier cambio a la estadística de Hit de aliados **CHAOS CULT** por estar heridos.
+Cuando un Operativo está disparando a un aliado **CHAOS CULT** que ha recibido heridas, puedes re-rollear un
 dado de defensa.
 ]]></string>
 
     <string name="fervent_onslaught_lore"><![CDATA[
-Los perdidos y los maldecidos pelean con desesperacion fanatica para ganar una pizca de favor
+Los perdidos y los maldecidos pelean con desesperación fanática para ganar una pizca de favor
 de sus oscuros patrones.
 ]]></string>
 
     <string name="fervent_onslaught_description"><![CDATA[
-Las armas de melee aliados **CHAOS CULT** ganan la regla Accurate 1, o Acurrate 2 si ese aliado es
+Las armas de melee aliados **CHAOS CULT** ganan la regla Accurate 1, o Accurate 2 si ese aliado es
 un **MUTANT** o **TORMENT**.
 ]]></string>
 
     <string name="creatures_of_nightmare_lore"><![CDATA[
-Las formas retorcidas de esas mounstrocidades maldecidas son objetos de terror.
+Las formas retorcidas de esas monstruosidades maldecisas son objetos de terror.
 ]]></string>
 
     <string name="creatures_of_nightmare_description"><![CDATA[
 Cuando determines el control de un marcador, trata el total de APL de Operativos enemigos que contestan
-ese marcador como si tuvieran 1 menos si al menos uno de esos enemigos esta a 2\" de un aliado
-**CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**. Notese que esto no es un cambio en la estadistica de
+ese marcador como si tuvieran 1 menos si al menos uno de esos enemigos está a 2\" de un aliado
+**CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**. Nótese que esto no es un cambio en la estadística de
 APL, cualquier cambio es acumulable con esto.
 ]]></string>
 
     <string name="sickening_aura_lore"><![CDATA[
 Corrupcion enfermiza fluye dentro de las formas horripilantes de Mutantes o Tormentos, debilitando
-la sanidad y fuerza de aquellos que se enfrentan a estos mounstros.
+la sanidad y fuerza de aquellos que se enfrentan a estos monstruos.
 ]]></string>
 
     <string name="sickening_aura_description"><![CDATA[
-Cuando un enemigo a 2\" de un **CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**, empeora la estadistica
-de HIT de las armas de ese enemigo por 1. Esto no es acumulable con estar herido.
+Cuando un enemigo a 2\" de un **CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**, empeora la estadística 
+        de HIT de las armas de ese enemigo por 1. Esto no es acumulable con estar herido.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="faithful_follower_lore"><![CDATA[
-Las masas sumisas del culto del caos sacrificarian sus insignificantes vidas para preservar las de sus
+Las masas sumisas del culto del caos sacrificarían sus insignificantes vidas para preservar las de sus
 superiores.
 ]]></string>
 
@@ -343,13 +340,13 @@ principal lo era.\n
 ]]></string>
 
     <string name="abhorrent_mutation_lore"><![CDATA[
-En el furor de la batalla, cuando la violencia y la emocion es rampante, los poderes de la ruina
+En el furor de la batalla, cuando la violencia y la emoción son rampantes, los poderes de la ruina
 otorgan regalos malditos a sus lacayos.
 ]]></string>
 
     <string name="abhorrent_mutation_description"><![CDATA[
 Usa est Firefight ploy cuando un aliado **CHAOS CULT** (excluyendo **DARK COMMUNE**) es activado.
-Selecciona un **REGALO MALDITO** para que ese operativo obtenga. Esto es en adicion a cualquier
+Selecciona un **REGALO MALDITO** para que ese operativo obtenga. Esto es en adición a cualquier
 **REGALO MALDITO** que ya tenga. Cada aliado no puede ser seleccionado para beneficiarse de esta
 ploy mas de una vez por batalla, y si este Operativo se muta en otro tipo de Operativo, aun tiene
 ese **REGALO MALDITO**.
@@ -366,13 +363,13 @@ cada enemigo visible y a 2\" de este aliado.
 ]]></string>
 
     <string name="unleash_the_daemon_lore"><![CDATA[
-Durante la violencia descrontrolada, el velo de la realidad se debilita y la influencia de los daemonios
+Durante la violencia descontrolada, el velo de la realidad se debilita y la influencia de los daemonios
 se fortalece.
 ]]></string>
 
     <string name="unleash_the_daemon_description"><![CDATA[
-Usa esta Firefight ploy durante la activacion de un **CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**,
-antes o despues de que haga una accion. Durante esa activacion, ese Operativo puede hacer dos acciones
+Usa esta Firefight ploy durante la activación de un **CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**,
+antes o después de que haga una acción. Durante esa activación, ese Operativo puede hacer dos acciones
 de **Combatir** y una de ellas puede ser gratis.
 ]]></string>
 
