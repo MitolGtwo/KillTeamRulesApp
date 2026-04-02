@@ -4,7 +4,7 @@
     <!--AOD-->
 
     <string name="brutal_assault_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="brutal_assault_description"><![CDATA[
@@ -16,7 +16,7 @@ the activation/counteraction.
 ]]></string>
 
     <string name="aggresive_force_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="aggresive_force_description"><![CDATA[
@@ -35,7 +35,7 @@ strategy ploy.
 ]]></string>
 
     <string name="strategic_command_usage"><![CDATA[
-        Passive/ Once per battle
+        Pasiva
 ]]></string>
 
     <string name="strategic_command_description"><![CDATA[
@@ -62,7 +62,7 @@ strategy ploy.
 
 
     <string name="gravchute_and_grapnel_launcher_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="gravchute_and_grapnel_launcher_description"><![CDATA[
@@ -73,7 +73,7 @@ is dropping, ignore the vertical distance.
 ]]></string>
 
     <string name="clandestine_headtaker_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="clandestine_headtaker_description"><![CDATA[
@@ -86,7 +86,7 @@ successes as a strike (before your opponent)
 ]]></string>
 
     <string name="advance_omniscrambler_usage"><![CDATA[
-        Passive/ Strategic gambit
+        Pasiva
 ]]></string>
 
     <string name="advance_omniscrambler_description"><![CDATA[
@@ -103,7 +103,7 @@ equal to the result of the D6.
 ]]></string>
 
     <string name="auspex_triangulation_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="auspex_triangulation_description"><![CDATA[
@@ -122,7 +122,7 @@ requirements (or that ploy has no effect on those subsequent
 ]]></string>
 
     <string name="adaptive_swordmanship_usage"><![CDATA[
-       Passive
+       Pasiva
 ]]></string>
 
     <string name="adaptive_swordmanship_description"><![CDATA[
@@ -160,7 +160,7 @@ unresolved successes (instead of one).
 ]]></string>
 
     <string name="storm_shield_usage"><![CDATA[
-       Passive
+       Pasiva
 ]]></string>
 
     <string name="storm_shield_description"><![CDATA[
