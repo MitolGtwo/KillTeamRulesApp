@@ -172,86 +172,49 @@ Melta Bombs.\n
     <!--Equipment-->
 
     <string name="digital_weapons_lore"><![CDATA[
-Various high-powered lasers, toxic needlers, incineration
-projectors and more are concealed as bionic implants or
-in the knuckles of gauntlets. They lack the power to be
-used at range, but can be triggered up close to exploit a
-weakness while the enemy fends off the main attack.
+Varios láseres poderosos, agujas tóxicas, projectores de incineración y más implantes yacen ocultos como implantes biónicos en los nudillos de sus guantes. Estos carecen de
+poder para ser usado a distancia, pero pueden usarse en combate cercano para exponer la debilidad de un oponente.
 ]]></string>
 
     <string name="digital_weapons_description"><![CDATA[
-Once per turning point, when a friendly
-**DEATHWATCH** operative performs the Fight
-action, at the start of the Roll Attack Dice step,
-you can use this rule. If you do, inflict 1 damage
-on the enemy operative in that sequence.
+Una vez por turno, cuando un aliado **DEATHWATCH** haga una acción de **Combatir**, al inicio de la fase de lanzar dados de ataque, puedes usar esta regla.
+Si lo hacer, inflige 1 herida al Operativo enemigo durante esa secuencia.
 ]]></string>
 
     <string name="scrutavore_servothrall_lore"><![CDATA[
-This specialised servo-skull circles a kill teams
-deployment on anti-grav motors, consuming data at
-a voracious rate before dissecting it and feeding the
-resultant analyses to the battle-brothers to provide
-maximum strategic awareness. Many are built upon
-the skulls of loyal serfs, though some are constructed
-around the sanctified craniums of defeated xenos.
+Este Servo-craneo es especializado en rondar las zonas y analizar toda la información posible para dar el resultado a sus hermanos de batalla. Dándoles máximo
+entendimiento del terreno en el cual actúan. Muchos de estos son construidos usando cráneos de sirvientes leales, aunque algunos son construidos
+alrededor de cráneos santificados de Xenos derrotados.
 ]]></string>
 
     <string name="scrutavore_servothrall_description"><![CDATA[
-Once per turning point, during a friendly
-**DEATHWATCH** operatives activation, you can
-use this rule. If you do, during that activation,
-that operative can perform a mission action for 1
-less AP.\n
-\n
-Having an enemy operative within its control
-range doesnt prevent that friendly operative
-from performing that mission action. However,
-in such an instance, after it does so, you and
-your opponent roll-off. If your opponent wins,
-you cannot use this equipment for the rest of
-the battle.
+Una vez por turno, durante la activación de un aliado **DEATHWATCH**, puedes usar esta regla. Si lo haces, durante esa activación, ese Operativo puede hacer
+una acción de misión por 1AP menos\n
+\nTener a un Operativo enemigo en su rango de control no previene que ese aliado haga esta acción de misión. Sin embargo, en esa estancia, después de hacerlo, tú y 
+tu oponente deben lanzar un dado. Si tu oponente gana, no puedes usar este equipamiento por el resto de la batalla.
 ]]></string>
 
     <string name="sanctusv_biooscryer_cuffs_lore"><![CDATA[
-Developed by Techmarines and Apothecaries of the
-Castilos Nullifact watch fortress, these vambracemounted monitron relays offer unparalleled analysis
-and purgation of a range of bio-threats to the wearers
-augmented physiology.
+Creados por Techmarines y Apotecarios del Castilos Nullifact, estos brazaletes analizan y purgan cualquier tipo de amenazas biológicas que puedan afectar a los
+cuerpos modificados de sus portadores.
 ]]></string>
 
     <string name="sanctusv_biooscryer_cuffs_description"><![CDATA[
-Once during each friendly **DEATHWATCH**
-operatives activation, before or after it performs
-an action, if its not within control range of enemy
-operatives, you can use this rule. If you do, select
-one of the following:\n
-\n
-
--That friendly operative regains up to D3
-lost wounds.\n
--Remove any changes to that friendly
-operatives APL stat.\n
--Remove one of the following tokens that
-friendly operative has (before that tokens
-activation effects are resolved, if relevant):
-Neutron Fragment, Poison, Terrorchem.
+Una vez durante cada activación de aliados **DEATHWATCH**, antes o después de que hagan una acción si no está dentro del rango de control de un enemigo, puedes usar
+esta regla. Si lo haces, selecciona uno de los siguientes efectos:\n
+\n• Ese Operativo aliado recupera hasta D3 heridas.\n
+\n• Remueve cualquier cambio a las estadísticas de APL a ese Operativo.\n
+\n• Remueve uno de los siguientes tokens que ese Operativo tenga (antes de que el efecto de ese token se resuelva): Neutron Fragment, Poison/Veneno, Terrorchem.
 ]]></string>
 
     <string name="ammunition_reserve_lore"><![CDATA[
-Awarded to kill teams whose marksmanship is as
-efficient as it is lethal, additional caches of individually
-crafted shells, fuel canisters and ammunition cells serve
-to secure victory during the most dangerous missions.
+Kill teams cuyos francotiradores sean considerados eficientes y letales son armados con cargadores adicionales de
+balas creadas individualmente. Estas sirven para asegurar la victoria durante las misiones más peligrosas.
 ]]></string>
 
     <string name="ammunition_reserve_description"><![CDATA[
-Once per battle, you can use the Special Issue
-Ammunition faction rule for up to two Shoot
-actions during one turning point, but you must
-select different weapon rules for both uses. This
-takes precedence over the normal Special Issue
-Ammunition rules.
+Una vez por batalla, puedes usar la regla **Special Issue Ammunition** hasta para dos acciones de **Disparo** durante un turno, pero debes
+seleccionar una regla distinta para ambos usos. Esto toma precedencia sobre las reglas normales de **Special Issue Ammunition**.
 ]]></string>
 
 
@@ -259,55 +222,37 @@ Ammunition rules.
     <!--Strategy ploys-->
 
     <string name="mission_tactics_lore"><![CDATA[
-Through collated strategic data and hard-won combat
-experience, the Deathwatch possess the tactics to
-combat almost any foe
+A través de información estratégica ganada con esfuerzo, la Deathwatch posee estrategias tácticas para lidiar con casi cualquier enemigo.
 ]]></string>
 
     <string name="mission_tactics_description"><![CDATA[
-Select Conceal or Engage. Whenever a friendly
-**DEATHWATCH** operative is shooting against or
-fighting against an enemy operative that has that
-order, that friendly operative’s weapons have the
-Balanced weapon rule.
+Selecciona una orden de Conceal o Engage. Cuando un aliado **DEATHWATCH** está disparando o combatiendo contra enemigos que tengan esa orden, las armas de
+ese aliado ganan la regla Balanced.
 ]]></string>
 
     <string name="the_long_vigil_lore"><![CDATA[
-The Deathwatch guard some of the most dangerous
-stretches of the Imperium. Their vow to stand firm is
-at the heart of their vigil; they will see their foes dead
-before they abandon the Emperors realm.
+La Deathwatch defiende las partes más peligrosas del imperio. Juraron ser la defensa contra el alien que amenaza el imperio, sus enemigos verán la muerte antes de que puedan
+abandonar territorio del imperio.
 ]]></string>
 
     <string name="the_long_vigil_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**DEATHWATCH** operative thats wholly within
-your territory, you can re-roll one of your
-defence dice
+Cuando un Operativo esté disparando a un aliado **DEATHWATCH** que esté completamente dentro de tu territorio, puedes re-rollear un dado de defensa.
 ]]></string>
 
     <string name="the_shield_that_slays_lore"><![CDATA[
-To enter the infested holds of the xenos is to be assailed
-by the most inhuman of abominations and technology, a
-foulness that the Deathwatch are trained to resist.
+Entrar a las guaridas infestadas de Alien es ser azotado por las abominaciones tecnológicas más inhumanas del universo, una herejía que la Deathwatch está entrenada a resistir.
 ]]></string>
 
     <string name="the_shield_that_slays_description"><![CDATA[
-Whenever a friendly **DEATHWATCH** operative is
-wholly within your opponents territory, Normal
-Dmg of 4 or more inflicts 1 less damage on it.
+Cuando un aliado **DEATHWATCH** está completamente dentro del territorio de tu oponente, daño normal de 4 o más inflige 1 herida menos.
 ]]></string>
 
     <string name="dw_no_fear_lore"><![CDATA[
-Space Marines possess extraordinary courage and are
-utterly unflinching in the face of terrifying horrors and
-overwhelming odds.
+Space Marines poseen coraje extraordinario y son inmunes a los terrores del cosmos y posibilidades desventajadas.
 ]]></string>
 
     <string name="dw_no_fear_description"><![CDATA[
-You can ignore any changes to the stats of
-friendly DEATHWATCH operatives from being
-injured (including their weapons’ stats).
+Puedes ignorar cualquier cambio a las estadísticas de aliados **DEATHWATCH** por estar heridos (incluyendo cambios en las armas).
 ]]></string>
 
 
@@ -315,30 +260,20 @@ injured (including their weapons’ stats).
     <!--Firefight ploys-->
 
     <string name="suffer_not_the_alien_lore"><![CDATA[
-Every tool at their disposal, every scrap of knowledge,
-is sharpened upon the whetstone of the Deathwatchs
-hatred of the alien.
+Toda herramienta en su arsenal, cualquier pizca de conocimiento, es afilada con el odio de la Deathwatch por los aliens.
 ]]></string>
 
     <string name="suffer_not_the_alien_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice
-for a friendly **DEATHWATCH** operative, if its
-shooting against or fighting against an operative
-that doesnt have the CHAOS or IMPERIUM
-keyword. You can re-roll any of your attack dice.
+Usa esta Firefight ploy después de lanzar tus dados de ataque para un aliado **DEATHWATCH**, si está disparando o combatiendo contra un Operativo que no tenga
+la Keyword CHAOS o IMPERIUM. Puedes re-rollear cualquiera de tus dados de ataque.
 ]]></string>
 
     <string name="auspicator_tracking_lore"><![CDATA[
-Neurally connected to a battle-brothers senses,
-auspicator lenses can improve their data prescience to
-almost precognitive levels.
+Conectados neuronalmente con los sentidos de sus hermanos de batalla, los escaners pueden mejorar su percepción a nivel casi precognitivo.
 ]]></string>
 
     <string name="auspicator_tracking_description"><![CDATA[
-Use this firefight ploy when a friendly
-**DEATHWATCH** operative is counteracting,
-before it performs any actions. You can change
-its order
+Usa esta Firefight ploy cuando un aliado **DEATHWATCH** está haciendo un Counteract antes de que haga cualquier acción. Puedes cambiar su orden.
 ]]></string>
 
     <string name="advance_auspex_scan_lore"><![CDATA[
