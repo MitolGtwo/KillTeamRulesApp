@@ -11,7 +11,7 @@
 ]]></string>
 
     <string name="deathkorps_bruiser_description"><![CDATA[
-Una vez por turno, cuando este Operativo este combatiendo o retaleando, al momento de resolver dados de ataque, puedes ignorar el daño de un resultado Normal.\n
+Una vez por turno, cuando este Operativo esté combatiendo o retaleando, al momento de resolver dados de ataque, puedes ignorar el daño de un resultado Normal.\n
 Si este Operativo es incapacitado durante una acción de **Combate**, puedes golpear al Operativo enemigo en esa secuencia con uno de tus dados sin resolver, antes de que
 este Operativo sea removido del campo.
 ]]></string>
@@ -50,11 +50,11 @@ Si un Operativo **WATCHMASTER** es incapacitado, puedes usar esta regla. Si lo h
 
     <string name="deathkorps_medic_description"><![CDATA[
 La primera vez durante cada turno que otro Operativo **DEAHTKORPS** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
-ni el Operativo con el que se use esta regla esten en rango de control de un enemigo. Ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado
-por el resto de esa accion.\n
-Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
-1 APL de este Operativo y el Operativo con el que se uso esta regla hasta el final de sus proximas activaciones, si esta regla se usa durante la activacion de ese otro Operativo aliado,
-        su activacion termina inmediatamente.\n
+ni el Operativo con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado
+por el resto de esa acción.\n
+Despues de esa acción ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
+1 APL de este Operativo y el Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se usa durante la activación de ese otro Operativo aliado,
+        su activación termina inmediatamente.\n
 \n
 
         No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
@@ -70,7 +70,7 @@ Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** grati
     <string name="deathkorps_medikit_description"><![CDATA[
         Selecciona un Operativo **DEATHKORPS** dentro del rango de control de este Operativo para recuperar 2D3 heridas perdidas. No puede usarse sobre un Operativo
         que se haya beneficiado de la regla **Medic!**.\n\n
-        Este Operativo no puede hacer esta accion mientras esta en rango de control de un Operativo enemigo.
+        Este Operativo no puede hacer esta acción mientras está en rango de control de un Operativo enemigo.
 
 ]]></string>
 
@@ -83,8 +83,8 @@ Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** grati
 ]]></string>
 
     <string name="deathkorps_sapper_mine_description"><![CDATA[
-    Este Operativo esta cargando tu marcador **MINE**. Puede haver la accion **Pick Up** en ese marcador, cuando haga la accion **Place marker** con ese marcador **MINE**
-    puede hacer un **Dash** gratis.
+    Este Operativo está cargando tu marcador **MINE**. Puede hacer la acción **Pick Up** en ese marcador, cuando haga la acción **Place marker** con ese marcador **MINE**
+    Puede hacer un **Dash** gratis.
 ]]></string>
 
 
@@ -95,9 +95,9 @@ Despues de esa accion ese Operativo aliado puede hacer una accion **Dash** grati
 ]]></string>
 
     <string name="deathkorps_sapper_detonate_description"><![CDATA[
-No selecciones un objetivo valido, dispara con esta arma a cada Operativo a 2\" de tu marcador **Mine**, a menos que terreno pesado este interviniendo entre el Operativo y el
-        marcador. Cada objetivo valido no puede estar en cobertura ni Obscure. Lanza dados por cada Operativo. \n
-        Esta arma no puede ser seleccionada si tu marcador de **Mine** no esta en el campo de batalla, despues de disparar con esta arma, el marcador es removido del campo
+No selecciones un objetivo válido, dispara con esta arma a cada Operativo a 2\" de tu marcador **Mine**, a menos que terreno pesado esté interviniendo entre el Operativo y el
+        marcador. Cada objetivo válido no puede estar en cobertura ni Obscure. Lanza dados por cada Operativo. \n
+        Esta arma no puede ser seleccionada si tu marcador de **Mine** no está en el campo de batalla, después de disparar con esta arma, el marcador es removido del campo
         de batalla. En caso de usarse en terreno cerrado, esta arma gana Lethal 5+.
 ]]></string>
 
@@ -108,14 +108,12 @@ No selecciones un objetivo valido, dispara con esta arma a cada Operativo a 2\" 
 ]]></string>
 
     <string name="deathkorps_spotter_description"><![CDATA[
-        **SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un Operativo **DEATHKORPS** aliado a 3\" de este Operativo esta
-        disparando este disparando a ese Operativo enemigo, puedes usar estar regla. Si lo haces:\n
-        \n
-        Las armas de distancia de ese Operativo aliado tienen la regla Seek Light.\n
-        \n
-        Ese Operativo enemigo no puede estar Obscure.\n\n
+        **SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un Operativo 
+        **DEATHKORPS** aliado a 3\" de este Operativo está disparando a ese Operativo enemigo, puedes usar esta regla. Si lo haces:\n
+        \n- Las armas de distancia de ese Operativo aliado tienen la regla Seek Light.\n
+        \n- Ese Operativo enemigo no puede estar Obscurecido.\n\n
 
-        Este Operativo no puede hacer esta accion mientras esta en rango de control de un enemigo.
+        Este Operativo no puede hacer esta acción mientras está en rango de control de un enemigo.
 ]]></string>
 
 
@@ -127,7 +125,7 @@ No selecciones un objetivo valido, dispara con esta arma a cada Operativo a 2\" 
 
     <string name="deathkorps_trooper_description"><![CDATA[
     Siempre que este Operativo es expended, **Debes** activar otro Operativo **DEATHKORPS TROOPER** Ready (si es posible) antes de que tu oponente active,
-        despues de que ese segundo Operativo **Trooper** active, tu oponente entonces activa normalmente (no puedes activar mas de dos Operativos antes de que
+        despues de que ese segundo Operativo **Trooper** active, tu oponente entonces activa normalmente (no puedes activar más de dos Operativos antes de que
         tu oponente pueda activar).
 ]]></string>
 
@@ -150,7 +148,7 @@ Cuando este Operativo es activado, puede recibir una **GUARDSMAN ORDER.**
 ]]></string>
 
     <string name="deathkorps_veteran_bionics_description"><![CDATA[
-        Daño normal de 3 o mas, inflige 1 menos de daño a este Operativo.
+        Daño normal de 3 o más, inflige 1 menos de daño a este Operativo.
 ]]></string>
 
 
@@ -161,8 +159,8 @@ Cuando este Operativo es activado, puede recibir una **GUARDSMAN ORDER.**
 ]]></string>
 
     <string name="deathkorps_vox_relayorders_description"><![CDATA[
-Una vez por turno, cuando este Operativo recibe una **GUARDSMAN ORDER**, si no esta en rango de control con un Operativo enemigo, puedes relegar esa orden.
-        Todos los Operativos **DEATHKORPS** aliados reciben esta orden, este Operativo pierde 1APL hasta el final de su proxima activacion.
+Una vez por turno, cuando este Operativo recibe una **GUARDSMAN ORDER**, si no está en rango de control con un Operativo enemigo, puedes relegar esa orden.
+        Todos los Operativos **DEATHKORPS** aliados reciben esta orden, este Operativo pierde 1APL hasta el final de su próxima activación.
 ]]></string>
 
 
@@ -173,10 +171,10 @@ Una vez por turno, cuando este Operativo recibe una **GUARDSMAN ORDER**, si no e
 ]]></string>
 
     <string name="deathkorps_vox_signal_description"><![CDATA[
-        **SUPPORT.** Selecciona otro Operativo **DEATHKORPS** aliado visible y a 6\" de este Operativo. Hasta el final de la proxima activacion de ese Operativo,
+        **SUPPORT.** Selecciona otro Operativo **DEATHKORPS** aliado visible y a 6\" de este Operativo. Hasta el final de la próxima activacion de ese Operativo,
         añade 1 a su total de APLs.\n\n
 
-        Este Operativo no puede hacer esta accion mientras esta en rango de control de un Operativo enemigo.
+        Este Operativo no puede hacer esta acción mientras está en rango de control de un Operativo enemigo.
 ]]></string>
 
 
@@ -198,7 +196,7 @@ Si este Operativo no otorga una **GUARDSMAN ORDER** como **STRATEGIC GAMBIT**, p
 ]]></string>
 
     <string name="deathkorps_watchmaster_bring_description"><![CDATA[
-    **STRATEGIC GAMBIT**. Si este Operativo esta en el campo de batalla. Selecciona un Operativo enemigo. siempre que un Operativo **DEATHKORPS** dispare, pelee o retale contra ese Operativo enemigo,
+    **STRATEGIC GAMBIT**. Si este Operativo está en el campo de batalla. Selecciona un Operativo enemigo. siempre que un Operativo **DEATHKORPS** dispare, pelee o retale contra ese Operativo enemigo,
         ese Operativo aliado **DEATHKORPS** gana la regla Punishing en todas sus armas.
 ]]></string>
 
@@ -222,13 +220,13 @@ Cuando un Operativo esta disparando a este Operativo, puedes re lanzar cualquier
 ]]></string>
 
     <string name="deathkorps_zealot_uplifting_description"><![CDATA[
-    **SUPPORT.** Cuando un Operativo **DEATHKORPS** aliado esta a 3\" de este Operativo, las armas de ese Operativo aliado ganan la regla Severe.
+    **SUPPORT.** Cuando un Operativo **DEATHKORPS** aliado está a 3\" de este Operativo, las armas de ese Operativo aliado ganan la regla Severe.
 ]]></string>
 
     <!--Faction Rules-->
 
     <string name="guardsman_orders_lore"><![CDATA[
-Los soldados del planeta de Krieg ofrecen su incuestionable lealtad a sus officiales, siguiendo ordenes con una velocidad y eficiencia tal, que es la envidia de otros
+Los soldados del planeta de Krieg ofrecen su incuestionable lealtad a sus oficiales, siguiendo órdenes con una velocidad y eficiencia tal, que es la envidia de otros
         regimientos.
 ]]></string>
 
@@ -238,7 +236,7 @@ Los soldados del planeta de Krieg ofrecen su incuestionable lealtad a sus offici
 para todos los Operativos **DEATHKORPS** aliados a 6\" la reciban.\n
 \n
 Cuando un Operativo aliado recibe una **GUARDSMAN ORDER**, aplica sus reglas hasta el final del turno. Operativos aliados no pueden beneficiarse de mas de una **GUARDSMAN ORDER**
-a la vez, solo reciben los beneficios de la **GUARDSMAN ORDER** mas reciente que hayan recibido.\n
+a la vez, solo reciben los beneficios de la **GUARDSMAN ORDER** más reciente que hayan recibido.\n
 \n
 -**TAKE AIM!**\n
 Las armas de rango de Operativos con esta orden (excluyendo Mortar Barrage y Remote Detonator) obtienen la regla Ceaseless.\n
@@ -247,22 +245,22 @@ Las armas de rango de Operativos con esta orden (excluyendo Mortar Barrage y Rem
 Las armas de melee de Operativos con esta orden obtienen la regla Ceaseless.\n
 \n
 -**DIG IN!**\n
-Cuando un Operativo dispara a un Aliado que haya recibido esta orden, si puedes retener salvacion por cobertura, puedes re lanzar cualquiera de tus dados de defensa de un
+Cuando un Operativo dispara a un Aliado que haya recibido esta orden, si puedes retener salvacion por cobertura, puedes re-rollear cualquiera de tus dados de defensa de un
         mismo valor (Ej todos los dados con resultado de 2).\n
 \n
 -**MOVE! MOVE! MOVE!**\n
-Cuando un Operativo recibe esta orden, al momento de hacer una accion de **Reposition** añade 1\" al su movimiento.
+Cuando un Operativo recibe esta orden, al momento de hacer una acción de **Reposition** añade 1\" al su movimiento.
 
 ]]></string>
 
     <!--Equipment-->
     <string name="chronometer_lore"><![CDATA[
-Las Operaciones Krieg son asignadas con cuotas de tiempo estrictas. Cronometros sincronizados aseguran que las tropas de adhieran a los tiempos asignados por el sargento.
+Las Operaciones Krieg son asignadas con cuotas de tiempo estrictas. Cronómetros sincronizados aseguran que las tropas se adhieran a los tiempos asignados por el sargento.
 ]]></string>
 
     <string name="chronometer_description"><![CDATA[
 Una vez por batalla como **STRATEGIC GAMBIT** durante el primer o segundo turno. Cada aliado **DEATHKORPS** completamente dentro de tu territorio puede realizar una
-        accion **Dash** gratis en el orden de tu eleccion, pero cada Operativo debe quedar mas cerca del borde del campo de tu oponente.\n
+        Acción **Dash** gratis en el orden de tu elección, pero cada Operativo debe quedar más cerca del borde del campo de tu oponente.\n
 \n
 No puedes usar esto y la Strategy ploy Regroup durante el mismo turno.
 ]]></string>
@@ -277,7 +275,7 @@ otorgar esa orden a todos los aliados **DEATHKORPS** a 6\", puedes seleccionar u
 ]]></string>
 
     <string name="hand_axes_lore"><![CDATA[
-Creadas primeramente como herramientas mas que como armas, estas hachas o palas pueden ser utilizadas en corta distancia para evitar el uso de bayonetas.
+Creadas primeramente como herramientas más que como armas, estas hachas o palas pueden ser utilizadas en corta distancia para evitar el uso de bayonetas.
 
 ]]></string>
 
@@ -286,18 +284,18 @@ Operativos **DEATHKORPS** aliados obtienen la siguiente arma a melee.
 ]]></string>
 
     <string name="gas_bombardment_lore"><![CDATA[
-Los Death Korps solicitan bombardeos quimicos, sabiendo que incluso sus trajes sellados no los protegera de el desperdicio toxico.
+Los Death Korps solicitan bombardeos químicos, sabiendo que incluso sus trajes sellados no los protegerán del desperdicio tóxico.
 ]]></string>
 
     <string name="gas_bombardment_description"><![CDATA[
 Una vez como **STRATEGIC GAMBIT**. Pon tu **Gas Marker** en el campo, no puede ser puesto debajo de terreno aventajado. Cuando un Operativo a 3\" de este marcado,
-sustrae 1 a sus APLs. Al inicio del proximo turno, remueve ese marcado. Si un Operativo se mueve fuera del marcador, sus APLs regresan a la normalidad.
+sustrae 1 a sus APLs. Al inicio del próximo turno, remueve ese marcado. Si un Operativo se mueve fuera del marcador, sus APLs regresan a la normalidad.
 ]]></string>
     <!--Ploys-->
 
     <!--Stategy ploys-->
     <string name="siege_warfare_lore"><![CDATA[
-La infanteria Death Korps se sienten como en casa durante la guerra, repelen sus adversarios con andanadas de disparos para desgastarlos.
+La infantería Death Korps se siente como en casa durante la guerra, repelen sus adversarios con andanadas de disparos para desgastarlos.
 ]]></string>
 
     <string name="siege_warfare_description"><![CDATA[
@@ -318,12 +316,11 @@ Si los enemigos atraviesan las trincheras, la disciplina de los soldados Krieg l
 
     <string name="clear_the_line_description"><![CDATA[
 Las armas de melee de Operativos **DEATHKORPS** ganan la regla Accurate 1. Cuando un Operativo
-**DEATHKORPS** este combatiendo completamente dentro de tu territorio, o cuando este
-        retaleando, sus armas a melee ganan tambien la regla Severe.
+**DEATHKORPS** está combatiendo completamente dentro de tu territorio, o cuando estéretaleando, sus armas a melee ganan también la regla Severe.
 ]]></string>
 
     <string name="regroup_lore"><![CDATA[
-Incluso en la confusion del combate, los Death Korps de Krieg mantienen su concentracion, retomando su formacion al mismo tiempo que destruyen al enemigo con
+Incluso en la confusión del combate, los Death Korps de Krieg mantienen su concentración, retomando su formación al mismo tiempo que destruyen al enemigo con
         fuego certero.
 ]]></string>
 
@@ -337,11 +334,11 @@ No puedes usar esto y el equipamiento Chronometer durante el mismo turno.
     <!--Firefight ploys-->
 
     <string name="inspirational_leadership_lore"><![CDATA[
-Los mejores oficiales dirigen con ejemplo, gritando ordenes mientras derriban sus enemigos.
+Los mejores oficiales dirigen con ejemplo, gritando órdenes mientras derriban sus enemigos.
 ]]></string>
 
     <string name="inspirational_leadership_description"><![CDATA[
-**SUPPORT**. Usa esta Firefight ploy durante la activacion de un **DEATHKORPS WATCHMASTER** o **DEATHKORPS CONFIDANT**, antes o despues de que se realice una accion.
+**SUPPORT**. Usa esta Firefight ploy durante la activación de un **DEATHKORPS WATCHMASTER** o **DEATHKORPS CONFIDANT**, antes o despues de que se realice una accion.
 Otorga una **GUARDSMAN ORDER**.
 ]]></string>
 
@@ -350,28 +347,28 @@ Fuego coordinado es capaz de saturar y derribar a los enemigos mas duros.
 ]]></string>
 
     <string name="combined_arms_description"><![CDATA[
-Usa esta Firefight ploy despues de lanzar tus dados de ataque cuando un aliado **DEATHKORPS** este disparando a un enemigo que ya haya sido disparado por otro aliado
+Usa esta Firefight ploy después de lanzar tus dados de ataque cuando un aliado **DEATHKORPS** esté disparando a un enemigo que ya haya sido disparado por otro aliado
 **DEATHKORPS** durante este turno. Puedes relanzar cualquiera de tus dados de ataque.
 ]]></string>
 
     <string name="in_life_shame_lore"><![CDATA[
-El culto de Krieg demanda sacrificios en nombre del Emperador, aquellos que aun no han dado sus vidas deben buscar salvacion realizando hazañas cada vez mayores en el
+El culto de Krieg demanda sacrificios en nombre del Emperador, aquellos que aún no han dado sus vidas deben buscar salvación realizando hazañas cada vez mayores en el
         campo de batalla.
 ]]></string>
 
     <string name="in_life_shame_description"><![CDATA[
 Usa esta Firefight ploy cuando un Operativo **DEATHKORPS** es activado con una orden de **Engage**. Este recibe todas las **GUARDSMAN ORDER**. Tomando
-        precedencia sobre la regla que prohibe que pueda beneficiarse de mas de una a la vez.
+        precedencia sobre la regla que prohíbe que pueda beneficiarse de más de una a la vez.
 ]]></string>
 
     <string name="in_death_atonement_lore"><![CDATA[
-Todos los soldados de Krieg estan destinados a morir en la batalla. El culto de Krieg enseña que en la muerte, encontraran el perdon por los pecados de sus
+Todos los soldados de Krieg están destinados a morir en la batalla. El culto de Krieg enseña que en la muerte, encontrarán el perdón por los pecados de sus
 ancestros.
 ]]></string>
 
     <string name="in_death_atonement_description"><![CDATA[
-Usa esta Firefight ploy cuando un aliado **Ready** **DEATHKORPS** es incapacitado, si no esta en rango de control de un Operativo enemigo, puede realizar inmediatamente
-una accion gratis antes de ser removido del campo, y puedes cambiar su orden **Engage/Conceal** para realizar esa accion. Estaras **Herido** durante esa accion.
+Usa esta Firefight ploy cuando un aliado **Ready** **DEATHKORPS** es incapacitado, si no está en rango de control de un Operativo enemigo, puede realizar inmediatamente
+una acción gratis antes de ser removido del campo, y puedes cambiar su orden **Engage/Conceal** para realizar esa acción. Estarás **Herido** durante esa acción.
         
 ]]></string>
 
