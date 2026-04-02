@@ -59,7 +59,7 @@ val Geomancer = Operative(
             description = R.string.obelisk_node_control_description
         ),
         Ability(
-            title = "Geomantic_Disturbance",
+            title = "Geomantic Disturbance",
             usage = R.string.geomantic_disturbance_usage,
             description = R.string.geomantic_disturbance_description
         ),

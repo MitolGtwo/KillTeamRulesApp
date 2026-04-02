@@ -55,7 +55,7 @@ val Magus = Operative(
             description = R.string.spiritual_leader_description
         ),
         Ability(
-            title = "telepathic_overload",
+            title = "Telepathic Overload",
             usage = R.string.telepathic_overload_usage,
             description = R.string.telepathic_overload_description
         ),

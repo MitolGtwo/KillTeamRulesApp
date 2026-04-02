@@ -6,8 +6,8 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.*
 
 
-val CanoptekMacrocyteAccelerator = Operative(
-    name = "Canoptek Macrocyte Accelerator",
+val CanoptekMacrocyteReanimator= Operative(
+    name = "Canoptek Macrocyte Reanimator",
     imageRes = R.drawable.canoptek_accelerator,
     stats = OperativeStats(
         apl = 2,

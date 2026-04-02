@@ -32,8 +32,8 @@ val PlagueMarineFighter = Operative(
                 Brutal,
                 Severe,
                 Shock,
-                Poison
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         )
     ),
 

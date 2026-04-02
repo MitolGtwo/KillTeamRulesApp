@@ -115,21 +115,6 @@
 ]]></string>
 
 
-    <string name="plaguemarinefighter_usage"><![CDATA[
-
-        Passive
-
-]]></string>
-
-    <string name="plaguemarinefighter_description"><![CDATA[
-
-        This operative can use blight and krak grenades ignoring the limit of uses
-                    you have per universal equipment(It doesnt count toward the number of grenades
-                    the rest of the team can use), whenever this operative uses a grenade, improve the
-                     Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
-
-]]></string>
-
 
     <string name="plaguemarinewarrior_usage"><![CDATA[
 
@@ -147,14 +132,7 @@
 
 
 
-
-
-
-
-
-
-
-    <!--/Equipment Wreckas-->
+    <!--/Equipment Plague-->
 
 
     <string name="plague_bell_lore"><![CDATA[

@@ -26,7 +26,7 @@
 
     <string name="malignantplaguecaster_poisonus_miasma_description"><![CDATA[
 **Psychic**. Seleciona un Operativo visible y a 7" de este Operativo, o un Operativo
-que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana uno de tus Poison token. En caso de ya tener uno, recibe 3 heridas en su lugar.
+que sea un objetivo valido para este Operativo. Ese Operativo enemigo gana un token de Veneno. En caso de ya tener uno, recibe 3 heridas en su lugar.
 \n\nEste Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
      ]]></string>
 
@@ -55,10 +55,9 @@ enemigo, o mas de una vez por turno.
      ]]></string>
 
     <string name="plaguemarinebombardier_grenadier_description"><![CDATA[
-
-         Este Operativo puede usar granadas krak y de plaga gratis, ignorando el uso limitado por
-         equipamiento universal, cuando este Operativo usa una granada, mejora el Hit a 1. Granadas
-         de plaga tienen la clave Toxic.
+        Este Operativo puede usar granadas Blight y Krak (vease equipamiento de faccion y universal)
+        usarlo no cuenta sobre el limite seleccionado, cuando este Operativo usa estas granadas, mejora
+        su estadistica de Hit a 1, y las granadas Blight ganan la regla Venenosa.
 
      ]]></string>
 
@@ -84,10 +83,11 @@ enemigo, o mas de una vez por turno.
 
     <string name="plaguemarinefighter_flail_description"><![CDATA[
          Inflinge D3+2 daño a cada Operativo que sea visible y este a 2\" de ese Operativo. Lanza dado por cada Operativo:
-    si es un Operativo enemigo, si el resultado del D3 es 3, ese Operativo tambien gana un marcador de Veneno (en caso de que no tenga uno).
+    si es un Operativo enemigo, si el resultado del D3 es 3, ese Operativo tambien gana un token de Veneno (en caso de que no tenga uno)
+    esta accion es considerada una accion de **Combate**.\n\n
 
 
-    Esta accion es considerada una accion de combate, y no se puede realizar mientras este Operativo tenga una orden de **Conceal**
+    No se puede realizar mientras este Operativo tenga una orden de **Conceal**
      ]]></string>
 
 
@@ -116,23 +116,6 @@ enemigo, o mas de una vez por turno.
          Mientras este Operativo este en el territorio enemigo, la Strategy Ploy Contagion cuesta 0CP.
 
      ]]></string>
-
-
-    <string name="plaguemarinefighter_usage"><![CDATA[
-
-        Passive
-
-]]></string>
-
-    <string name="plaguemarinefighter_description"><![CDATA[
-
-        This operative can use blight and krak grenades ignoring the limit of uses
-                    you have per universal equipment(It doesnt count toward the number of grenades
-                    the rest of the team can use), whenever this operative uses a grenade, improve the
-                     Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule
-
-]]></string>
-
 
 
     <string name="plaguemarinewarrior_usage"><![CDATA[
@@ -170,7 +153,7 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
     <string name="plague_rounds_description"><![CDATA[
-        Los Boltguns y Bolt Pistols de Operativos **PLAGUE MARINES** aliados tienen las claves Poison y Severe.
+        Los Boltguns y Bolt Pistols de Operativos **PLAGUE MARINES** aliados tienen las claves Venenosa y Severe.
 ]]></string>
 
 
@@ -179,8 +162,10 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
     <string name="plague_poison_vents_description"><![CDATA[
-        Cuando un Operativo enemigo no tiene uno de tus tokens de Veneno, es activado a 3\" de Operativos
-        aliados, lanza un D3: en 3+, ese Operativo gana unos de tus Tokens de veneno.
+Cuando un Operativo enemigo es activado a 3\" de un **PLAGUE MARINE** aliado:\n
+\n• Si ese enemigo no tiene un token de Veneno, lanza un D3: si el resultado es 3, ese enemigo
+gana un token de Veneno.n
+\n•Si ese enemigo tiene un token de Veneno, inflige D3 (en vez de 1).
 ]]></string>
 
     <!--/Faction Rules Plague marines-->
@@ -206,9 +191,9 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
     <string name="plague_poison_description"><![CDATA[
-        Algunas armas de este equipo tienen la regla Poison en sus armas.
+        Algunas armas de este equipo tienen la regla Venenosa en sus armas.
 
-        **Poison:** Al momento de resolver dados de ataque, si haces daño con cualquier dado exitoso,
+        **Venenosa:** Al momento de resolver dados de ataque, si haces daño con cualquier dado exitoso,
         el Operativo contra el que se usa esta arma (A menos que sea un aliado **PLAGUE MARINE**) gana
         uno de tus tokens de Veneno (en caso de que no tenga uno).
 

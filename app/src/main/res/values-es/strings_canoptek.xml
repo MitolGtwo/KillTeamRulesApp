@@ -33,7 +33,7 @@ Este Operativo no puede realizar esta acción mientras tenga una orden de Concea
     <string name="canoptek_control_description"><![CDATA[
 **SUPPORT**. Selecciona un aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 6\" de este Operativo. Alternativamente puedes seleccionar a un **CANOPTEK CIRCLE CANOPTEK**
 que sea visible y que esté dentro de tu **OBELISK NODE MATRIX** (**SUPPORT** no aplica para esta selección). Ese Operativo seleccionado puede inmediatamente hacer una accion
-de 1AP gratis; pero no puede moverse o ser removido a más de 2\" durante esa acción.
+de 1AP gratis; pero no puede moverse o ser removido a más de 2\" durante esa acción.\n\n
 
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo o en un Counteract. 
     ]]></string>
@@ -60,7 +60,8 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     ]]></string>
 
     <string name="overcharge_description"><![CDATA[
-Selecciona otro aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 3\" de este Operativo. Alternativamente puedes seleccionar otro aliado **CANOPTEK CIRCLE CANOPTEK**
+Selecciona otro aliado **CANOPTEK CIRCLE CANOPTEK** visible y a 3\" de este Operativo. Alternativamente
+si este Operativo esta en tu **OBELISK NODE MATRIX** puedes seleccionar otro aliado **CANOPTEK CIRCLE CANOPTEK**
 que esté dentro de tu **OBELISK NODE MATRIX**. Hasta el final de su siguiente activación, añade 1 a su estadística de APL.\n\n
 
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.

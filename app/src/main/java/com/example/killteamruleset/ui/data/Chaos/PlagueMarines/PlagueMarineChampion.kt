@@ -58,9 +58,9 @@ val PlagueMarineChampion = Operative(
             damage = "4/5",
             keywords = listOf(
                 Severe,
-                Poison,
                 Toxic
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         )
 
     ),

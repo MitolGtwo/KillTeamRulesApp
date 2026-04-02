@@ -120,6 +120,19 @@ object TalentReferenceRepository {
                 )
             )
 
+            "plague_marines" -> listOf(
+                TalentReference(
+                    id = "plague_talent_miguel1",
+                    imageRes = R.drawable.plague_talent_miguel1
+                ),
+                TalentReference(
+                    id = "plague_talent_miguel2",
+                    imageRes = R.drawable.plague_talent_miguel2
+                )
+            )
+
+
+
 
 
             else -> emptyList()

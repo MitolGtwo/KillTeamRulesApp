@@ -36,9 +36,9 @@ val MalignantPlaguecaster= Operative(
                 Psychic,
                 Range(7),
                 Saturate,
-                Severe,
-                Poison
-            )
+                Severe
+            ),
+            extraRules = listOf("Poison/Venenosa")
         ),
         WeaponProfile(
             name = "Plague Wind",
@@ -51,8 +51,8 @@ val MalignantPlaguecaster= Operative(
                 Saturate,
                 Severe,
                 Torrent(1),
-                Poison
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         ),
 
         WeaponProfile(
@@ -66,8 +66,8 @@ val MalignantPlaguecaster= Operative(
                 Severe,
                 Shock,
                 Stun,
-                Poison
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         ),
 
         ),

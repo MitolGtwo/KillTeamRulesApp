@@ -16,7 +16,7 @@ val SicarianRuststalkerPrinceps = Operative(
         apl = 2,
         move = "6\"",
         save = "4+",
-        wounds = 11
+        wounds = 10
     ),
     weapons = listOf(
         WeaponProfile(

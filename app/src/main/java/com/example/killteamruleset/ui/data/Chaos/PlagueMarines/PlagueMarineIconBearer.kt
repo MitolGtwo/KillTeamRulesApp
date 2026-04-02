@@ -41,8 +41,8 @@ val PlagueMarineIconBearer= Operative(
             damage = "3/4",
             keywords = listOf(
                 Severe,
-                Poison
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         ),
 
         ),

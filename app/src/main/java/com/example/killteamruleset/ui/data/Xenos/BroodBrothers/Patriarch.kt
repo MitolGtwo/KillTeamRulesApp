@@ -11,7 +11,7 @@ val Patriarch = Operative(
     stats = OperativeStats(
         apl = 4,
         move = "6\"",
-        save = "6+",
+        save = "4+",
         wounds = 21
     ),
     weapons = listOf(

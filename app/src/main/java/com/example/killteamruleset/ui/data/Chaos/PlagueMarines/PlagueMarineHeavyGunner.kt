@@ -35,8 +35,8 @@ val PlagueMarineHeavyGunner = Operative(
                 Saturate,
                 Severe,
                 Torrent(2),
-                Poison
-            )
+            ),
+            extraRules = listOf("Poison/Venenosa")
         ),
         WeaponProfile(
             name = "Fists",
