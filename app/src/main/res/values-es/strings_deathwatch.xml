@@ -8,11 +8,8 @@
 ]]></string>
 
     <string name="brutal_assault_description"><![CDATA[
-Whenever this operative is fighting, its heavy
-thunder hammer has the Brutal weapon rule. Whenever this
-operative performs the **Charge** action, its heavy thunder
-hammer has the Ceaseless weapon rule until the end of
-the activation/counteraction.
+Cuando este Operativo esté combatiendo, su Heavy Thunder Hammer tiene la regla Brutal. Cuando este Operativo hace la acción **Cargar**, su Heavy Thunder Hammer
+tiene la regla Ceaseless hasta el final de esa activación/Counteract.
 ]]></string>
 
     <string name="aggresive_force_usage"><![CDATA[
@@ -20,9 +17,8 @@ the activation/counteraction.
 ]]></string>
 
     <string name="aggresive_force_description"><![CDATA[
-Whenever this operative is fighting or
-retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less
-damage on it. This isnt cumulative with the Shield that Slays
+Cuando este Operativo esté Combatiendo o Retaleando, daño normal o crítico de 3 o más inflige 1 menos a este Operativo.\n
+\nEsto no es acumulable con la Ploy Shield that Slays.
 strategy ploy.
 ]]></string>
 
@@ -31,7 +27,7 @@ strategy ploy.
 ]]></string>
 
     <string name="adaptive_armoury_description"><![CDATA[
-        You can select one additional equipment option.
+        Puedes seleccionar un equipamiento adicional.
 ]]></string>
 
     <string name="strategic_command_usage"><![CDATA[
@@ -39,11 +35,9 @@ strategy ploy.
 ]]></string>
 
     <string name="strategic_command_description"><![CDATA[
-       You can do each of the following once per battle if this Operative is in the killzone:
-       \n
-       -use a **DEATHWATCH** strategy ploy for 0CP.
-       \n
-       -use a **DEATHWATCH** firefight ploy for 0CP.
+Puedes resolver cada uno de los siguientes efectos una vez por batalla, si este Operativo esta en el campo:\n
+\n• Usa una **DEATHWATCH** Strategy ploy por 0CP.\n
+\n• Usa una **DEATHWATCH** Firefight ploy por 0CP.
 ]]></string>
 
     <string name="vigilant_marksman_usage"><![CDATA[
@@ -51,13 +45,10 @@ strategy ploy.
 ]]></string>
 
     <string name="vigilant_marksman_description"><![CDATA[
-      This Operative can perform the **Guard** action during its activation regardless of the killzone
-      (see close quarters rule, Kill Team : Tomb World).\n
-      \n
-      When using the close quarters rules, once per turning point, after this Operative performs
-      a free **Shoot** action on guard, it can immediately perform a free **Guard** action.
-      However, if it does, it cannot counteract during that tuning point (nor **Guard** twice if
-      its counteracted).
+Este Operativo puede hacer la acción **Guard** durante su activación sin importar si la killzone lo permite.\n
+\nAl momento de usar las reglas Close Quarters, una vez por turno, después de que este Operativo haga una acción de **Disparo** gratis al estar en
+**Guardia**, puede inmediatamente hacer una acción **Guard** gratis. Sin embargo, si lo hace, no puede hacer un Counteract durante ese turno (ni hacer **Guard**
+dos veces si hizo un Counteract).
 ]]></string>
 
 
@@ -66,10 +57,8 @@ strategy ploy.
 ]]></string>
 
     <string name="gravchute_and_grapnel_launcher_description"><![CDATA[
-       Whenever this operative is
-climbing, treat the vertical distance as 2\" (regardless of how far
-the operative actually moves vertically). Whenever this operative
-is dropping, ignore the vertical distance.
+Cuando este Operativo esté escalando, trata la distancia vertical como si fuera 2\" (sin importar la distancia que escale). Cuando este Operativo esté
+cayendo, ignora la distancia vertical.
 ]]></string>
 
     <string name="clandestine_headtaker_usage"><![CDATA[
@@ -77,12 +66,9 @@ is dropping, ignore the vertical distance.
 ]]></string>
 
     <string name="clandestine_headtaker_description"><![CDATA[
-This operative can perform the Charge
-action while it has a Conceal order. Whenever this operative is
-fighting against an operative it wasnt visible to at the start of
-the activation/counteraction, the first time you strike during
-that sequence, you can immediately resolve another of your
-successes as a strike (before your opponent)
+Este Operativo puede hacer una acción de **Carga** mientras tenga una orden de Conceal. Cuando este Operativo combate contra un Operativo que no 
+era visible al inicio de la activación/Counteract, la primera vez que golpees con un dado de ataque durante esa secuencia, puedes inmediatamente resolver otro
+resultado antes que tu oponente.
 ]]></string>
 
     <string name="advance_omniscrambler_usage"><![CDATA[
@@ -90,16 +76,10 @@ successes as a strike (before your opponent)
 ]]></string>
 
     <string name="advance_omniscrambler_description"><![CDATA[
-**STRATEGIC GAMBIT.** Select
-one enemy operative visible to or within 6\" of this operative,
-then roll one D6. In the Firefight phase of this turning point, that
-enemy operative cannot be activated or perform actions until one
-of the following is true:\n
-\n
--Your opponent has activated a number of enemy operatives
-equal to the result of the D6.
-\n
--Its the last enemy operative to be activated.
+**STRATEGIC GAMBIT.** Selecciona un Operativo enemigo visible o a 6\" de este Operativo, entonces lanza un D6. En la firefight phase de este turno,
+ese enemigo no puede ser activado ni hacer acciones hasta que uno de los siguientes requisitos se cumpla:\n
+\n• Tu oponente ha activado un número de Operativos equivalentes al resultado de ese D6.\n
+\n• Es el último Operativo enemigo por activar.
 ]]></string>
 
     <string name="auspex_triangulation_usage"><![CDATA[
@@ -107,18 +87,11 @@ equal to the result of the D6.
 ]]></string>
 
     <string name="auspex_triangulation_description"><![CDATA[
-        The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n
-        \n
-        -This Operative isnt within control range of enemy Operatives.
-        \n
-        -The target of that **Shoot** action (primary target, if relevant) is
-visible to this operative.\n
-\n
-Note that it doesnt have to be this operative performing
-the **Shoot** action, and that any subsequent **Shoot** actions
-during that activation/counteraction must meet these same
-requirements (or that ploy has no effect on those subsequent
-**Shoot** actions).
+La Firefight ploy Advanced Auspex Scan cuesta 0CP cuando se cumplen estas dos condiciones:\n
+\n• Este Operativo no está en rango de control de Operativos enemigos.\n
+\n• El objetivo que es objetivo para esa acción de **Disparo** (objetivo primario) es visible para este Operativo.\n
+\nNotese que no tiene que ser este el Operativo que haga ese **Disparo**, y cualquier **Disparo** subsecuente durante esa activacion/Counteract debe cumplir 
+También los mismos requisitos (o esa ploy no tiene efecto con esos disparos subsecuentes).
 ]]></string>
 
     <string name="adaptive_swordmanship_usage"><![CDATA[
@@ -126,11 +99,8 @@ requirements (or that ploy has no effect on those subsequent
 ]]></string>
 
     <string name="adaptive_swordmanship_description"><![CDATA[
-You can ignore any changes to the Hit
-stat of this operatives xenophase blade. Whenever this operative
-is fighting or retaliating, you can resolve one of your successes
-before the normal order. If you do, that success must be used
-to block.
+Puedes ignorar cualquier cambio a la estadística HIT del arma Xenophase Blade de este Operativo. Cuando este Operativo esté combatiendo o retaleando, puedes resolver
+un dado exitoso antes del orden normal. Si lo haces, debe ser usado para bloquear.
 ]]></string>
 
     <string name="phase_sweep_usage"><![CDATA[
@@ -138,15 +108,10 @@ to block.
 ]]></string>
 
     <string name="phase_sweep_description"><![CDATA[
-Whenever this operative performs the **Fight**
-action with this weapon profile, if it isnt incapacitated, it can
-immediately perform a free **Fight** action afterwards, but you
-must select this weapon profile and it can only fight against each
-enemy operative within its control range once per activation or
-counteraction using this weapon profile. This takes precedence
-over action restrictions, and you can continue to perform free
-Fight actions until this operative is incapacitated or has fought
-against every enemy operative within its control range.
+Cuando este Operativo hace la acción de **Combate** con este perfil, si no fue incapacitado, puede inmediatamente hacer una acción de **Combatir** gratis,
+pero debes usar este perfil de arma y solo puedes combatir contra cada Operativo enemigo dentro de su rango de control una vez por activación o Counteract usando este
+perfil. Esto toma precedencia sobre restricciones, y puedes continuar haciendo acciones de combate gratis hasta que este Operativo sea incapacitado o haya combatido contra
+todo Operativo enemigo dentro de su rango de control.
 ]]></string>
 
     <string name="deathwatch_shield_usage"><![CDATA[
@@ -154,9 +119,7 @@ against every enemy operative within its control range.
 ]]></string>
 
     <string name="deathwatch_shield_description"><![CDATA[
-Whenever this operative is fighting or retaliating with
-this weapon, each of your blocks can be allocated to block two
-unresolved successes (instead of one).
+Cuando este Operativo esté combatiendo o retaleando con esta arma, cada uno de tus bloqueos puede ser usado para bloquear dos dados sin resolver (en lugar de uno).
 ]]></string>
 
     <string name="storm_shield_usage"><![CDATA[
@@ -164,38 +127,29 @@ unresolved successes (instead of one).
 ]]></string>
 
     <string name="storm_shield_description"><![CDATA[
-Whenever an operative is shooting this operative,
-worsen the x of the Piercing weapon rule by 1 (if any). Note that
-Piercing 1 would therefore be ignored.
+Cuando un Operativo esté disparando a este Operativo, empeora la regla Piercing por 1. Piercing 1 sería ignorado.
 ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="veteran_astartes_lore"><![CDATA[
-These genetically modified superhumans are made to
-wage unending war. Their skills have been honed over
-long years of battle and further refined with specialist
-knowledge through their Long Vigil.
+Estos superhumanos modificados genéticamente están hechos para soportar interminable conflicto. Sus habilidades han sido pulidas a través de muchos años con conocimiento
+ganado durante su Vigia.
 ]]></string>
 
     <string name="veteran_astartes_description"><![CDATA[
-During each friendly DEATHWATCH operatives
-activation, it can perform either two Shoot
-actions or two Fight actions. If its two Shoot
-actions and an auxiliary grenade launcher, frag
-cannon, heavy plasma incinerator, infernus
-heavy bolter, plasma pistol or stalker bolt rifle is
-selected for both, or if a melta bomb is selected
-for either, 1 additional AP must be spent for the
-second action.\n\n
-
-Each friendly DEATHWATCH operative can
-counteract regardless of its order. Whenever it
-does, it can perform an additional 1AP action for
-free during that counteraction, but both actions
-must be different and you cannot perform a Fight
-and Shoot action during the same counteraction.
+Durante cada activación de aliados **DEATHWATCH**, puede hacer ya sea dos acciones de **Disparo** o dos acciones de **Combate**. Si son dos acciones de
+**Disparo** y un\n
+\n• auxiliary grenade launcher\n
+\n• frag cannon\n
+\n• heavy plasma incinerator\n
+\n• infernusheavy bolter\n
+\n• plasma pistol\n
+\n•stalker bolt rifle\n
+\nFue seleccionado para ambos disparos, o si se usó un melta bomb para uno de esos disparos, se debe gastar 1AP adicional para la segunda acción.\n
+\nCada aliado **DEATHWATCH** puede hacer un Counteract independientemente de su orden. Cuando lo haga, puede hacer una acción adicional de 1AP gratis, pero ambas
+acciones deben ser distintas, y no puede hacer una acción de **Combatir** y **Disparar** durante el mismo Counteract.
 ]]></string>
 
     <string name="special_issue_ammunition_lore"><![CDATA[
