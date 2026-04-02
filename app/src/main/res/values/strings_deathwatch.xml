@@ -180,9 +180,9 @@ knowledge through their Long Vigil.
 ]]></string>
 
     <string name="veteran_astartes_description"><![CDATA[
-During each friendly DEATHWATCH operatives
-activation, it can perform either two Shoot
-actions or two Fight actions. If its two Shoot
+During each friendly **DEATHWATCH** operatives
+activation, it can perform either two **Shoot**
+actions or two **Fight** actions. If its two **Shoot**
 actions and an auxiliary grenade launcher, frag
 cannon, heavy plasma incinerator, infernus
 heavy bolter, plasma pistol or stalker bolt rifle is
@@ -190,7 +190,7 @@ selected for both, or if a melta bomb is selected
 for either, 1 additional AP must be spent for the
 second action.\n\n
 
-Each friendly DEATHWATCH operative can
+Each friendly **DEATHWATCH** operative can
 counteract regardless of its order. Whenever it
 does, it can perform an additional 1AP action for
 free during that counteraction, but both actions
