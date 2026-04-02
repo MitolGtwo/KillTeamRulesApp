@@ -153,27 +153,19 @@ acciones deben ser distintas, y no puede hacer una acción de **Combatir** y **D
 ]]></string>
 
     <string name="special_issue_ammunition_lore"><![CDATA[
-The Deathwatch utilise a range of specialised
-ammunition in many of their weapons. Each type is
-designed to eliminate specific xenos foes
+La Deathwatch utiliza un rango especializado y basto de municiones en muchas de sus armas. Cada tipo es designado para eliminar aliens específicos.
 ]]></string>
 
     <string name="special_issue_ammunition_description"><![CDATA[
-Once per turning point, when a friendly
-DEATHWATCH operative is performing the
-Shoot action, in the Select Weapon step, you
-can use this rule. If you do, select one of the
-following weapon rules for that operatives ranged
-weapons to have until the end of the action. This
-rule cannot be used with explosive grenades (see
-universal equipment) or melta bombs.\n
-\n
--Blast 1\" (you cannot select thi if the weapon profile being used has the Torrent weapon rule)
--Devastating 1
--Lethal 5+
--Piercing Crits 1
--Saturate
--Severe
+Una vez por turno, cuando un aliado **DEATHWATCH** haga una acción de **Disparo**, en la fase de selección de armas, puedes usar esta regla. Si lo haces, selecciona
+una de las siguientes reglas para que el Operativo tenga hasta el final de esa acción. Esta regla no puede ser usada con granadas explosivas (equipamiento universal) o
+Melta Bombs.\n
+\n• Blast 1\" (no puedes usar esta regla si el arma con la que se usa tiene la regla Torrent)\n
+\n• Devastating 1\n
+\n• Lethal 5+\n
+\n• Piercing Crits 1\n
+\n• Saturate\n
+\n• Severe\n
 ]]></string>
 
 
