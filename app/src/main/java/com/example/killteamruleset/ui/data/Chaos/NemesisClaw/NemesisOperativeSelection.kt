@@ -26,7 +26,7 @@ val NemesisOperativeSelection: List<OperativeSelectionRule> = listOf(
     ),
 
     OperativeSelectionRule(
-        text = "5 MURDERWING operatives selected from the following list:"
+        text = "5 NEMESIS operatives selected from the following list:"
     ),
 
 

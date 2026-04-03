@@ -5,31 +5,27 @@
 
 
     <string name="elucidian_beast_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="elucidian_beast_description"><![CDATA[
-This operative cannot perform any actions other than
-**Charge, Dash, Fall Back, Fight, Gather, Guard,
-Reposition, Pick Up Marker** and **Place Marker**. It
-cannot use any weapons that arent on its datacard.
+Este Operativo no puede hacer ninguna accion otra que **Carga, Dash, Fall Back, Combatir, Gather,
+Guard, Reposition, Pick up** y **Place Maker**. No puede usar armas que no esten en su tarjeta
+de personaje.
 ]]></string>
 
     <string name="loyal_companion_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="loyal_companion_description"><![CDATA[
-Whenever an enemy operative performs
-the **Fight** action, if this operative is a valid operative to fight
-against, you can force them to select this operative to fight
-against instead. Whenever an enemy operative ends the **Charge**
-action within control range of another friendly **ELUCIDIAN
-STARSTRIDER** operative within 3\" of this operative, if this
-operative isnt within control range of enemy operatives, this
-operative can immediately perform a free **Charge** action (you
-can change its order to **Engage** to do so), but must end that move
-within control range of that enemy operative.
+Cuando un enemigo hace una accion de **Combatir**, si este Operativo es un objetivo valiado para
+combatir en contra, puedes forzarlo a que seleccione este Operativo en su lugar.\n
+\nCuando un enemigo termina su accion de **Cargar** dentro del rango de control de otro Operativo
+aliado  **ELUCIDIAN STARSTRIDER** que este a 3\" de este Operativo, si este Operativo no esta en rango de
+control con un enemigo, ese Operativo puede inmediatamente hacer una accion de **Carga** gratis
+(puedes cambiar su orden a Engage para hacerlo), pero debe terminar ese moviminto dentro del rango
+de control de ese Operativo enemigo.
 ]]></string>
 
     <string name="gather_usage"><![CDATA[
@@ -37,84 +33,72 @@ within control range of that enemy operative.
 ]]></string>
 
     <string name="gather_description"><![CDATA[
-Perform a free **Dash** or **Reposition** action with this
-operative. During that move, it can perform a free **Pick
-Up Marker** or **Place Marker** action (you can determine
-control during that action to do so), and any remaining move
-distance it had from the **Dash** or **Reposition** action can be
-used after it does so.
+Haz una accion de **Dash** o una **Reposicion** gratis con este Operativo. durante ese movimiento puede
+hacer una accion **Pick up Marker** o **Place Marker** gratis (puedes determinar el control durante esa accion),
+y cualquier distancia restante del **Dash** o **Reposicion** puede usarse despues.
 ]]></string>
 
     <string name="digital_lasers_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="digital_lasers_description"><![CDATA[
-Whenever this operative performs the **Fight**
-action, at the start of the Roll Attack Dice step, you can use
-this rule. If you do, inflict 1 damage on the enemy operative in
-that sequence.
+Cuando este Operativo hace una accion de **Combatir**, al inicio de la fase de lanzar dados de combate
+puedes usar esta regla. Si lo haces, inflige 1 herida a ese Operativo enemigo en esa secuencia.
 ]]></string>
 
     <string name="merciless_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="merciless_description"><![CDATA[
-Whenever this operative is shooting against, fighting
-against or retaliating against an enemy operative that was
-already wounded when the action started, this operatives
-weapons have the Balanced weapon rule; if the weapon already
-has that weapon rule, it has the Ceaseless weapon rule instead
-of Balanced.
+Cuando este Operativo este disparando, combatiendo o retaleand contra un Operativo enemigo que ya haya sido
+herido cuando esta accion empezo. las armas de este Operativo ganan la regla Balanced, si el arma ya
+tenia esa regla, gana la reglas Ceaseless en su lugar.
 ]]></string>
 
     <string name="disruption_field_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="disruption_field_description"><![CDATA[
-Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+Cuando un Operativo este disparando a este Operativo, ignora la regla Piercing.
 ]]></string>
 
     <string name="reputation_to_maintain_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="reputation_to_maintain_description"><![CDATA[
-The first time this operative incapacitates an enemy operative during the battle, you can
-either gain 1 additional CP or use an additional **WARRANT OF
-TRADE** rule (up to five uses per battle, instead of four). Note
-that you still cannot use the same **WARRANT OF TRADE** rule
-more than once per battle.
+La primera vez que este Operativo incapacita un enemigo durante la batalla, puedes ganar 1 Cp o usar
+un **WARRANT OF TRADE** adicional (hasta 5 por batalla en lugar de cuatro). Nota que aun no puedes usar la misma
+**WARRANT OF TRADE** mas de una vez por batalla.
 ]]></string>
 
     <string name="rapid_reflexes_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="rapid_reflexes_description"><![CDATA[
-Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+Cuando un Operativo esta disparando a este Operativo, ignora el Piercing.
 ]]></string>
 
     <string name="elucidian_bladed_stance_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="elucidian_bladed_stance_description"><![CDATA[
-Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If
-you do, that success must be used to block.
+Cuando este Operativo este Combatiendo o Retaleando, puedes resolver uno de tus exitos antes del orden normal.
+Si lo haces, ese exito debe ser usado para bloquear.
 ]]></string>
 
     <string name="elucidian_zealot_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="elucidian_zealot_description"><![CDATA[
-If this operative is incapacitated during the **Fight** action,
-you can strike the enemy operative in that sequence with one of
-your unresolved successes before this operative is removed from
-the killzone.
+Si este Operativo es incapacitado durante una accion de **Combate**, puedes golpear a Operativo enemigo
+con uno de tus dados sin resolver en esa secuencia, despues este Operativo es removido del campo.
 ]]></string>
 
     <string name="elucidian_trained_assasin_usage"><![CDATA[
@@ -122,24 +106,27 @@ the killzone.
 ]]></string>
 
     <string name="elucidian_trained_assasin_description"><![CDATA[
-Change this operatives order.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Cambia la orden de este Operativo.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
 ]]></string>
 
     <string name="missionary_martian_creed_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="missionary_martian_creed_description"><![CDATA[
-Once during each of this operatives activations, it can perform the **Pick Up Marker**,
-**Place Marker** or a **mission action** for 1 less AP.
+Una vez durante cada activacion de este Operativo, puede hacer la accion **Pick Up Marker**,
+**Place Marker** o una accion de mission for 1 AP menos.
 ]]></string>
 
     <string name="voltaghiest_array_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="voltaghiest_array_description"><![CDATA[
+
+
 Whenever an operative is shooting a friendly
 **ELUCIDIAN STARSTRIDER** operative thats within 4\" of
 this operative, you can re-roll one of your defence dice.
@@ -166,7 +153,7 @@ range of an enemy operative.
 ]]></string>
 
     <string name="elucidian_medic_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="elucidian_medic_description"><![CDATA[
@@ -187,7 +174,7 @@ action and this operative would be a primary or secondary target.
 ]]></string>
 
     <string name="normaliser_helm_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="normaliser_helm_description"><![CDATA[
@@ -211,7 +198,7 @@ range of an enemy operative
 ]]></string>
 
     <string name="disciplinarian_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="disciplinarian_description"><![CDATA[
@@ -225,7 +212,7 @@ of Balanced.
 ]]></string>
 
     <string name="elucidian_hardy_usage"><![CDATA[
-        Passive/ Once per battle
+        Pasiva
 ]]></string>
 
     <string name="elucidian_hardy_description"><![CDATA[
@@ -247,7 +234,7 @@ the **Shoot** action (or vice versa).
 ]]></string>
 
     <string name="crewmen_usage"><![CDATA[
-        Passive
+        Pasiva
 ]]></string>
 
     <string name="crewmen_description"><![CDATA[
