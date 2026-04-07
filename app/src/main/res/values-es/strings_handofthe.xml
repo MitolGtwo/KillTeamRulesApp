@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Hand of the Archon-->
-
     <string name="hand_cunning_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="hand_cunning_description"><![CDATA[
@@ -14,7 +11,7 @@ In the Gambit step of each Strategy phase, if this operative is in the killzone 
     ]]></string>
 
     <string name="tortorous_vision_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tortorous_vision_description"><![CDATA[
@@ -24,7 +21,7 @@ your Pain tokens when you select a valid target or an enemy operative to fight a
     ]]></string>
 
     <string name="sadistic_competition_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sadistic_competition_description"><![CDATA[
@@ -34,7 +31,7 @@ operative that does not have one of your Pain tokens can also gain one.
     ]]></string>
 
     <string name="brutal_display_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brutal_display_description"><![CDATA[
@@ -45,7 +42,7 @@ next turning point, that other enemy operative cannot control markers or perform
 
 
     <string name="crimson_duellist_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="crimson_duellist_description"><![CDATA[
@@ -92,7 +89,7 @@ This operative cannot perform this action while within control range of an enemy
 
 
     <string name="combat_drugs_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="combat_drugs_description"><![CDATA[
@@ -126,7 +123,7 @@ This operative cannot perform this action while within control range of an enemy
 
 
     <string name="insensible_to_pain_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="insensible_to_pain_description"><![CDATA[
@@ -145,7 +142,7 @@ within 6\" of it to gain one of your Pain tokens.
     ]]></string>
 
     <string name="merciless_hunter_usage"><![CDATA[
-              Passive
+       Pasiva
     ]]></string>
 
     <string name="merciless_hunter_description"><![CDATA[
@@ -155,7 +152,7 @@ must be selected for one (and only one) of those actions.
     ]]></string>
 
     <string name="omen_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="omen_description"><![CDATA[
