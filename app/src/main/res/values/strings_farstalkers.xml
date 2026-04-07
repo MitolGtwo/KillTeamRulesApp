@@ -126,7 +126,7 @@ end that move within control range of that enemy operative.
 Perform a free **Dash** or **Reposition** action
 with this operative. During that move, it can perform a free **Pick Up Marker** or
 **Place Marker** action (you can determine control during that action to do so), and any
-remaining move distance it had from the Dash or **Reposition** action can be used after it does so.
+remaining move distance it had from the **Dash** or **Reposition** action can be used after it does so.
     ]]></string>
 
 

@@ -71,11 +71,11 @@ This operative cannot perform this action while it has a **Conceal** order.
     ]]></string>
 
     <string name="sagacious_usage"><![CDATA[
-At the end of this operatives activation, you can change its order.
+        Passive
     ]]></string>
 
     <string name="sagacious_description"><![CDATA[
-
+At the end of this operatives activation, you can change its order.
     ]]></string>
 
     <string name="uncompromoising_attack_usage"><![CDATA[

@@ -57,7 +57,7 @@ Despues de esa acción ese Operativo aliado puede hacer una acción **Dash** gra
         su activación termina inmediatamente.\n
 \n
 
-        No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
+No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
 ]]></string>
 
 
@@ -368,7 +368,7 @@ ancestros.
 
     <string name="in_death_atonement_description"><![CDATA[
 Usa esta Firefight ploy cuando un aliado **Ready** **DEATHKORPS** es incapacitado, si no está en rango de control de un Operativo enemigo, puede realizar inmediatamente
-una acción gratis antes de ser removido del campo, y puedes cambiar su orden **Engage/Conceal** para realizar esa acción. Estarás **Herido** durante esa acción.
+una acción gratis antes de ser removido del campo, y puedes cambiar su orden **Engage/Conceal** para realizar esa acción. Estarás **Lesionado** durante esa acción.
         
 ]]></string>
 

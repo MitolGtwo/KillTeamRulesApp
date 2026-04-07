@@ -182,7 +182,7 @@ Regalándoles fuerza monstruosa en cada golpe que hagan.
 
     <string name="gift5_description"><![CDATA[
 Puedes ignorar cualquier cambio a las estadísticas de Hit de las armas de Melee de este Operativo
-por estar herido. Las armas a Melee de este Operativo ganan la regla Brutal.
+por estar **Lesionado**. Las armas a Melee de este Operativo ganan la regla Brutal.
 ]]></string>
 
 
@@ -284,7 +284,7 @@ mutante con gusto maníaco.
 ]]></string>
 
     <string name="exaltation_in_pain_description"><![CDATA[
-Puedes ignorar cualquier cambio a la estadística de Hit de aliados **CHAOS CULT** por estar heridos.
+Puedes ignorar cualquier cambio a la estadística de Hit de aliados **CHAOS CULT** por estar **Lesionado**.
 Cuando un Operativo está disparando a un aliado **CHAOS CULT** que ha recibido heridas, puedes re-rollear un
 dado de defensa.
 ]]></string>
@@ -317,7 +317,7 @@ la sanidad y fuerza de aquellos que se enfrentan a estos monstruos.
 
     <string name="sickening_aura_description"><![CDATA[
 Cuando un enemigo a 2\" de un **CHAOS CULT MUTANT** o **CHAOS CULT TORMENT**, empeora la estadística 
-        de HIT de las armas de ese enemigo por 1. Esto no es acumulable con estar herido.
+        de HIT de las armas de ese enemigo por 1. Esto no es acumulable con estar **Lesionado**.
 ]]></string>
 
 

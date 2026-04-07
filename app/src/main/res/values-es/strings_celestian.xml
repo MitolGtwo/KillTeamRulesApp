@@ -72,7 +72,7 @@ Siempre que determines el control sobre un marcador, trata el APL de este Operat
 
     <string name="null_field_description"><![CDATA[
 Este Operativo empieza la batalla con un área de efecto de su Null Field de 1\". Siempre que un Operativo enemigo esté dentro de este rango,
-Sustrae 2\" al Stat de movimiento de esos Operativos enemigos y empeora su Hit stat por 1 (Esto no es acumulable con estar herido).
+Sustrae 2\" al Stat de movimiento de esos Operativos enemigos y empeora su Hit stat por 1 (Esto no es acumulable con estar **Lesionado**).
         
     ]]></string>
 
@@ -333,7 +333,7 @@ Las veteranas del campo de batalla son casi inmunes al dolor. Las heridas solo s
 ]]></string>
 
     <string name="suffering_sacrifice_description"><![CDATA[
-Cuando una Operativa **CELESTIAN INSIDIANT** con almenos 1 herida esté disparando, combatiendo o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced.
+Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, combatiendo o retaleando contra un Operativo enemigo, sus armas tienen la regla Balanced.
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[

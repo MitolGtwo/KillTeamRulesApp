@@ -107,15 +107,15 @@ dice to inflict Normal Dmg instead.
     ]]></string>
 
     <string name="geller_group_activation_glitch_usage"><![CDATA[
+        Passiva
+    ]]></string>
+
+    <string name="geller_group_activation_glitch_description"><![CDATA[
 Whenever this operative is expended, you
 must then activate one other ready friendly **GELLERPOX INFECTED GLITCHLING** operative (if able) before your
 opponent activates. When that other operative is expended, your
 opponent then activates as normal (in other words, you cannot
 activate more than two operatives in succession with this rule)
-    ]]></string>
-
-    <string name="geller_group_activation_glitch_description"><![CDATA[
-
     ]]></string>
 
     <string name="daemonic_usage"><![CDATA[

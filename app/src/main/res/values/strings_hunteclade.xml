@@ -70,11 +70,9 @@
 ]]></string>
 
     <string name="canticle_shroudpsalm_description"><![CDATA[
-
-        Whenever an friendly HUNTER CLADE INFILTRATOR Operative is within 3"
-                    of this operative, has a conceal order and is in cover, that friendly Operative
-                     cannot be selected as a valid target, taking precedence over all other rules
-                    (Ex Seek, Seek light or Vantage terrain) except being withing 2"
+Whenever an friendly HUNTER CLADE INFILTRATOR Operative is within 3" of this operative, has a **conceal**
+order and is in cover, that friendly Operative cannot be selected as a valid target, taking precedence
+over all other rules (Ex Seek, Seek light or Vantage terrain) except being withing 2"
 
 ]]></string>
 
@@ -132,12 +130,14 @@
 
     <string name="hunterclade_spotter_description"><![CDATA[
 
-        **SUPPPORT.** Select one  enemy Operative visible to this Operative. Once
-                           during this turning point, when a friendly HUNTERCLADE Operative within
-                           3\" of this operative is shooting that enemy Operative, you can use this effect
-                          . If you do:\nThat friendly operatives range weapons have the Seek Light weapon rule.
-                          \nThat enemy operative cannot be obscured.\n\nThis Operative CANNOT perform
-                           this action while within control range of an enemy Operative.
+**SUPPPORT.** Select one  enemy Operative visible to this Operative. Once
+during this turning point, when a friendly HUNTERCLADE Operative within
+3\" of this operative is shooting that enemy Operative, you can use this effect
+. If you do:\n
+\nThat friendly operatives range weapons have the Seek Light weapon rule.\n
+\nThat enemy operative cannot be obscured.
+
+\n\nThis Operative CANNOT perform this action while within control range of an enemy Operative.
 
 ]]></string>
 
@@ -188,25 +188,25 @@ your kill teams Primary Mode, you can ignore its
 Deprecation rule.\n
 \n
 
-**PROTECTOR IMPERATIVE**\n
+\n**PROTECTOR IMPERATIVE**\n
 -**Optimisation**: Friendly **HUNTER CLADE** operatives ranged weapons have the Ceaseless weapon rule.\n
 -**Deprecation**: Worsen the Hit stat of friendly **HUNTER CLADE** operatives melee weapons by 1. This isnt cumulative with being injured.\n
 \n
-**CONQUEROR IMPERATIVE**\n
+\n**CONQUEROR IMPERATIVE**\n
 -**Optimisation**: Friendly **HUNTER CLADE** operatives melee weapons have the Ceaseless weapon rule.\n
 -**Deprecation**: Worsen the Hit stat of friendly **HUNTER CLADE** operatives ranged weapons by 1. This isnt cumulative with being injured.\n
 \n
-**BULWARK IMPERATIVE**\n
+\n**BULWARK IMPERATIVE**\n
 -**Optimisation**: Normal Dmg of 3 or more inflicts 1 less damage on friendly **HUNTER CLADE** operatives.\n
 -**Deprecation**: Subtract 1\" from the Move stat of friendly **HUNTER CLADE** operatives.\n
 \n
-**AGGRESSOR IMPERATIVE**\n
+\n**AGGRESSOR IMPERATIVE**\n
 -**Optimisation**: Add 1\" to the Move stat of friendly **HUNTER CLADE** operatives.\n
 -**Deprecation**: Worsen the Save stat of friendly **HUNTER CLADE** operatives by 1.\n
 \n
-**NEUTRAL IMPERATIVE**\n
--Optimisation: None.\n
--Deprecation: None.
+\n**NEUTRAL IMPERATIVE**\n
+-**Optimisation**: None.\n
+-**Deprecation**: None.
 ]]></string>
 
 
@@ -420,15 +420,15 @@ the next Strategy phase, that friendly operative
 has an additional rule determined by its current
 **DOCTRINA IMPERATIVE** as follows:\n
 \n
-• Protector: This operatives ranged weapons have the Severe weapon rule.\n
-• Conqueror: Whenever this operative is fighting, after resolving your first attack dice during
+• **Protector**: This operatives ranged weapons have the Severe weapon rule.\n
+\n• **Conqueror**: Whenever this operative is fighting, after resolving your first attack dice during
 that sequence, you can immediately resolve another (before your opponent).\n
-• Bulwark: Improve this operatives Save stat by 1. In addition, whenever an operative is
+\n• **Bulwark**: Improve this operatives Save stat by 1. In addition, whenever an operative is
 shooting this operative, you can collect and roll one additional defence dice. If you use this
 ploy during a **Shoot** action, this operatives Save stat is changed immediately (this takes
 precedence over the core rules).\n
-• Aggressor: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\n
-• Neutral: None\n
+\n• **Aggressor**: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\n
+\n• **Neutral**: None\n
 \n
 Note that you can use this ploy after rolling attack or defence dice for this operative, or before or
 after retaining or re-rolling those dice.

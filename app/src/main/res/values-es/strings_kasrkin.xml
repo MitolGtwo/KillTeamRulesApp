@@ -269,7 +269,8 @@ Despues de haber sobrepasado a sus enemigos, los Kasrkin intentan hacerlos caer 
     <string name="elimination_pattern_description"><![CDATA[
 Siempre que un aliado **KASRKIN** este disparando con un arma Hot-shot contra un Operativo que no
 pueda retener salvaciones por cobertura o que este siendo escaneado (ver **RECON-TROOPER**), esta
-arma tiene la regla Piercing Crits 1, o Piercing 1 si es un Hot-Shot Volley Gun.
+arma tiene la regla Piercing Crits 1, o Piercing 1 si es un Hot-Shot Volley Gun (Notese que
+Piercing Crits y Piercing son reglas no acumulables, por lo que la Volley gun tendria solo Piercing 1).
 ]]></string>
 
     <string name="engage_from_cover_lore"><![CDATA[

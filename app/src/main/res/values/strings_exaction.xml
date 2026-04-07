@@ -18,14 +18,14 @@ shield, it has a 3+ Save stat
     ]]></string>
 
         <string name="nuncio_aquila_description"><![CDATA[
-• Whenever an enemy operative is within 3\n" of your
+• Whenever an enemy operative is within 3\" of your
 Nuncio-aquila marker (or this operative if your Nuncio-aquila
 marker isnt in the killzone), your opponent must spend 1
 additional AP for that enemy operative to perform the **Pick
 Up Marker** and mission actions.\n
 • Whenever determining control of a marker, treat the total
 APL stat of enemy operatives that contest it as 1 lower if
-at least one of those enemy operatives is within 3\n" of your
+at least one of those enemy operatives is within 3\" of your
 Nuncio-aquila marker (or this operative if your Nuncio-aquila
 marker isnt in the killzone). Note this isnt a change to the APL
 stat, so any changes are cumulative with this.
@@ -383,7 +383,7 @@ one of the following weapon rules for that weapon
 to have until the end of that action:\n
 • Saturate.\n
 • Piercing 1, but only if the target has a Save stat of 3+ or better.\n
-• Torrent 1", but you cannot select more than one secondary target.\n
+• Torrent 1\", but you cannot select more than one secondary target.\n
 ]]></string>
 
 
@@ -485,7 +485,7 @@ Use this firefight ploy when an enemy operative performs a mission action (exclu
 Hatch). Alternatively, use it at the end of the Firefight phase and select one enemy operative
 that controls an objective marker. \n
 
-In either case, the next time your opponent would
+\nIn either case, the next time your opponent would
 activate that enemy operative, you can interrupt
 that activation and activate a ready friendly
 **EXACTION SQUAD** operative. If you do, during

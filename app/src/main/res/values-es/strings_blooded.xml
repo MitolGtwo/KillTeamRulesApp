@@ -123,9 +123,9 @@ Este Operativo no puede hacer esta acción mientras está dentro del rango de co
     ]]></string>
 
     <string name="gruelling_disciplinarian_description"><![CDATA[
-• Cuando un aliado **BLOODED** está a 6\" de este Operativo, puede ignorar cualquier cambio a sus estadísticas por estar herido (incluyendo armas).\n
+• Cuando un aliado **BLOODED** está a 6\" de este Operativo, puede ignorar cualquier cambio a sus estadísticas por estar **Lesionado** (incluyendo armas).\n
 \n
-• Cuando un aliado **BLOODED** es activado a 6\" de este Operativo, puedes ignorar cualquier cambio a sus estadísticas por estar herido hasta el final de su
+• Cuando un aliado **BLOODED** es activado a 6\" de este Operativo, puedes ignorar cualquier cambio a sus estadísticas por estar **Lesionado** hasta el final de su
     activacion (incluyendo armas).
     ]]></string>
 

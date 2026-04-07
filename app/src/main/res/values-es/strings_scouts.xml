@@ -1,52 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Scout-->
-
     <string name="guidance_and_experience_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="guidance_and_experience_description"><![CDATA[
- Once during each of this operatives activations, you can select one other friendly **SCOUT SQUAD**
-operative visible to it. Until the end of that operatives next activation, add 1 to its APL stat.
+Una vez durante cada una de las activaciones de este Operativo, puedes seleccionar a otro aliado
+**SCOUT SQUAD** visible a para este Operativo. Hasta el final de la proxima activacion de ese Operativo,
+añade 1 a su estadistica de APL.
     ]]></string>
 
     <string name="scout_astartes_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="scout_astartes_description"><![CDATA[
-During this operatives activation, it can perform either two **Shoot** actions or two **Fight** actions. If its two **Shoot** actions,
-an Astartes shotgun, bolt pistol or boltgun must be selected for at least one of them. This operative can counteract regardless of
-its order.
+Durante la activacion de este Operativo, puede hacer ya sea dos acciones de **Disparo** o dos acciones de
+**Combate**. Si son dos acciones de **Disparo**, una Astartes Shotgun, Bolt Pistol o Boltgun debe ser
+seleccionado para al menos uno de esos disparos. Este Operativo puede hacer un Counteract sin
+importar su orden.
     ]]></string>
 
     <string name="grapnel_launcher_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="grapnel_launcher_description"><![CDATA[
-Whenever this operative is climbing up, you
-can treat the vertical distance as 2\" (regardless of how far the
-operative actually moves vertically).
+Cuando este Operativo este escalando, puedes tratar esa distancia vertical como si fuera 2\" (sin
+importar que tanto se mueva verticalmente).
     ]]></string>
 
     <string name="grapnel_assault_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="grapnel_assault_description"><![CDATA[
-Whenever this operative performs the **Charge**
-action during its activation, if it climbs, drops, jumps or its
-base moves underneath Vantage terrain during that action, its
-melee weapons have the Lethal 3+ weapon rule until the end of
-that activation.
+Cuando este Operativo hace una **Carga** durante su activacion, si escala, cae, salta o su base
+se mueve debajo de terreno aventajado durante esa accion, su arma de Melee gana la regla Lethal 3+
+hasta el final de su activacion.
     ]]></string>
 
     <string name="track_enemy_usage"><![CDATA[
@@ -54,13 +46,11 @@ that activation.
     ]]></string>
 
     <string name="track_enemy_description"><![CDATA[
-Select one enemy operative within 8\" of this operative. Until
-the end of the turning point, whenever a friendly **SCOUT
-SQUAD** operative is shooting that enemy operative, that
-friendly operatives ranged weapons have the Seek Light
-weapon rule.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Selecciona un Operativo enemigo a 8\" de este Operativo. Hasta el final del turno, cuando un aliado
+**SCOUT SQUAD** este disparando a ese Operativo enemigo, las armas de distancia de ese aliado ganan
+la regla Seek Light.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="scout_auspex_scan_usage"><![CDATA[
@@ -68,207 +58,151 @@ range of an enemy operative.
     ]]></string>
 
     <string name="scout_auspex_scan_description"><![CDATA[
-Until the start of this operatives next activation or until
-it is incapacitated (whichever comes first), whenever a
-friendly **SCOUT SQUAD** operative is shooting an
-enemy operative within 8\" of this operative, that enemy
-operative cannot be obscured; if that friendly operative is a
-**SNIPER** that is currently benefitting from the effects of its
-**Optics** action, its ranged weapons also have the Seek Light
-weapon rule.
+Hasta el inicio de la proxima activacion de este Operativo o hasta que sea incapacitado (lo que pase
+primero), cuando un aliado **SCOUT SQUAD** este disparando a un enemigo a 8\" de este Operativo, ese
+enemigo no puede estas Obscurecido, si ese aliado es un **Sniper** que se este beneficiando del efecto
+de **Optics**, su arma de distancia tambien gana la regla Seek Light.
     ]]></string>
 
     <string name="scout_adaptive_equipment_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="scout_adaptive_equipment_description"><![CDATA[
-You can do each of the following once per turning point:\n
-
-• One friendly **SCOUT SQUAD WARRIOR** operative can perform the Smoke Grenade action.\n
-• One friendly **SCOUT SQUAD WARRIOR** operative can perform the Stun Grenade action.\n
-The rules for these actions are found in universal equipment. Performing these actions using this
-rule does not count towards their action limits (i.e. if you also select those grenades from equipment).
+Puedes hacer cada una de estas acciones una vez por turno:\n
+\n• Un aliado **SCOUT SQUAD WARRIOR** puede hacer una accion de Smoke Grenade.\n
+\n• Un aliado **SCOUT SQUAD WARRIOR** puede hacer una accion de Stun Grenade.\n
+\nLas reglas de estas acciones pueden ser encontradas en el equipamiento universal. Hacer estas
+acciones no cuenta sobre el limite de granadas seleccionadas.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="foward_scouting_lore"><![CDATA[
-Central to the role of Space Marine Scouts is ranging
-ahead of the strike force they are attached to, spending
-extensive periods laying traps for the foe, harassing
-enemy patrols, gathering intelligence and reconnoitring
-the ground in preparation for the Chapters
-assault force.
+Parte central del rol de ser un Space Marine Scout es ir a la delantera de las fuerzas a las que son
+asignados, llenando todo el campo de trampas para el enemigo, amenazando patrullas enemigas, recopilando
+informacion y preparando el terreno para el asalto del capitulo Marine.
 ]]></string>
 
     <string name="foward_scouting_description"><![CDATA[
-At the end of the Set Up Operatives step, you can
-select and resolve up to six Forward Scouting
-options. Each option has a number in brackets,
-which is the maximum number of times you can
-select and resolve it for the battle. For example,
-your six selections could be Reposition (2), Trip
-Alarm (1), Booby Trap (1) and Diversion (1). If
-both players have this rule, alternate resolving
-selection by selection, starting with the player
-with initiative.\n
+Al final de la fase de poner Operativos, puedes seleccionar y resolver hasta 6 de las opciones
+Foeward Scouting. Cada opcion tiene un numero en parentesis, el cual es el numero maximo de veces
+que puedes utilizar esa opcion durante la batalla. Por ejemplo tus 6 opciones pueden ser Reposition (2),
+Trip Alarm (1), Booby Trap (1) y Diversion (1). Si ambos jugadores tienen esta regla, tomen turnos para
+resolver opcion por opcion, empezando por el jugador con iniciativa.\n
 \n
-\n
-**Redeploy** (1)\n
-Change the set up of one third of your operatives (rounding up).\n
-\n
-**Reposition** (2)\n
-Perform a free **Reposition** action with one friendly
-operative that’s wholly within your drop zone.
-It must end that move wholly within 3\" of your drop zone.\n
-\n
-**Trip Alarm** (2)\n
-Place one of your Trip Alarm markers more than
-6\" from your opponents drop zone. During
-the first and second turning point, whenever a
-friendly **SCOUT SQUAD** operative is shooting an
-enemy operative that is within 2\" of that marker,
-that friendly operatives ranged weapons have the
-Seek weapon rule. In the Ready step of the third
-Strategy phase, remove that marker.\n
-\n
-**Booby Trap** (1)\n
-Place one of your Booby Trap markers more than
-6\" from your opponents drop zone and more
-than 2\" from other markers, access points and
-Accessible terrain. The first time your Booby
-Trap marker is within an enemy operatives
-control range, remove that marker and inflict 2D3
-damage on that operative; if it is not incapacitated,
-end its action (if any), even if that actions effects
-are not fulfilled. If it cannot be placed, move it the
-minimum amount to do so.\n
-\n
-**Tactical Manoeuvre** (1)\n
-Twice per battle **STRATEGIC GAMBIT**. Select
-one friendly operative. Until the end of that
-operatives next activation, add 1 to its APL stat.\n
-\n
-**Diversion** (1)\n
-Once per battle **STRATEGIC GAMBIT**. Select one
-enemy operative within 6\" of a killzone edge.
-Until the end of that operative’s next activation,
-subtract 1 from its APL stat.\n
-\n
-**Devise Plan** (1)\n
-You gain 1CP.\n
-\n
-**Designate Target** (1)\n
-Select one enemy operative to gain one of your
-Target tokens. Whenever a friendly **SCOUT
-SQUAD** operative is shooting against, fighting
-against or retaliating against an enemy operative
-that has one of your Target tokens, you can re-roll
-one of your attack dice.\n
-\n
-**Spy** (1)\n
-Approved Ops only. Your opponent must reveal
-their selected tac op.
+\n**Redeploy** (1)\n
+Cambia la posicion de deployment de un tercio de tus Operativos (redondeando hacia arriba).\n
+
+\n**Reposition** (2)\n
+Haz una **Reposicion** gratis con un aliado que este completamente dentro de tu zona de deployment.
+Debe terminar ese movimiento completamente a 3\" de tu zona de deployment.\n
+
+\n**Trip Alarm** (2)\n
+Pon un marcador Trip Alarm a mas de 6\" de la zona de deployment de tu oponente. Durante el primer y segundo
+turno, cuando un aliado *SCOUT SQUAD** esta disparando a un enemigo que este a 2\" de ese marcador,
+las armas de distancia de ese aliado ganan la regla Seek. En la ready step del tercer turno, remueve ese marcador.\n
+
+\n**Booby Trap** (1)\n
+Por tu marcador Booby Trap a mas de 6\" de la zona de deployment de tu oponente y a mas de 2\" de otros
+marcadors, puntos de acceso y terreno accesible. La primera vez que tu Booby Trap esta dentro del rango de control
+de un Operativo enemigo, remueve ese marcado e inflige 2D3 heridas a ese Operativo; si no es incapacitado,
+su accion termina (si hay alguna), incluso si esa accion no fue completada. Si no puede ser puesto es lugar,
+debe moverse la minima cantidad posible para hacerlo.\n
+
+\n**Tactical Manoeuvre** (1)\n
+Dos veces por batalla usa este **STRATEGIC GAMBIT**. Selecciona un Operativo aliado. Hasta el final
+de su siguiente activacion, añade 1 a su estadistica de APL.\n
+
+\n**Diversion** (1)\n
+Una vez por batalla usa este **STRATEGIC GAMBIT**. Selecciona un Operativo enemigo a 6\" de un borde del
+campo. Hasta el final de la proxima activacion de ese Operativo, sustrae 1 de su estadistica de APL.\n
+
+\n**Devise Plan** (1)\n
+Ganas 1 CP.\n
+
+\n**Designate Target** (1)\n
+Selecciona un Operativo enemigo para que gane uno de tus Target tokens. Cuando un aliado **SCOUT SQUAD**
+este disparando, combatiendo o retaleando contra ese Operativo enemigo que tenga uno de tus Target tokens,
+puedes re-rollear uno de tus dados de ataque.
+
+\n**Spy** (1)\n
+Solo Approved Ops. Tu oponente debe revelar su Tac Op.
 ]]></string>
 
     <!--Equipment-->
 
     <string name="camo_cloak_scout_lore"><![CDATA[
-Crafted from light-manipulating materials such as
-cameleoline, camo cloaks help the bearer blend into
-surrounding terrain.
+Creados por manipulacion de materiales reflectores de luz, los Camo Cloaks ayudan al portados a
+mezclarse con el terreno que lo rodea.
 ]]></string>
 
     <string name="camo_cloak_scout_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**SCOUT SQUAD** operative (excluding **SNIPER**),
-if you can retain any cover saves, you can retain
-one additional cover save. This is not cumulative
-with improved cover saves from Vantage terrain.
+Cuando un Operativo este disparando a un aliado **SCOUT SQUAD** (exluyendo **SNIPER**), si puedes retener
+un dado de salvacion, puedes retener otro dado de cobertura adicional. Esto no es acumulabe con cobertura
+mejorada por terreno aventajado.
 ]]></string>
 
     <string name="targeting_oculars_lore"><![CDATA[
-These highly sensitive multispectral targeting visors
-serve to aid the bearers aim, rendering their weapons
-even more lethal.
+Esos visores multiespectrales altamente sensibles sirven para mejorar la punteria del portador, haciendo
+sus armas mas letales.
 ]]></string>
 
     <string name="targeting_oculars_description"><![CDATA[
-Up to twice per turning point, when a friendly
-**SCOUT SQUAD** operative is performing the
-**Shoot** action and you are selecting a valid target,
-you can use this rule. If you do, until the end
-of that action, that friendly operatives ranged
-weapons have the Lethal 5+ and Saturate
-weapon rules.
+Hasta dos veces por turno, cuando un aliado **SCOUT SQUAD** este haciendo la accion de **Disparo**
+y este seleccionando un objetivo valido, puedes usar esta regla. Si lo haces, hasta el fin de esa
+accion, las armas de distancia de ese aliado ganan la regla Lethal 5+ y Saturacion.
 ]]></string>
 
     <string name="scout_combat_blades_lore"><![CDATA[
-Space Marine Neophytes wield a variety of short-bladed
-melee weapons, demonstrating lethal proficiency with
-them all.
+Los Neophitos de Space Marines portan una variedad de cuchillos cortos, demostrando maestria letal con
+todos ellos.
 ]]></string>
 
     <string name="scout_combat_blades_description"><![CDATA[
-Friendly **SCOUT SQUAD** operatives have
-the following melee weapon. Note that some
-operatives already have this weapon but
-with better stats; in that instance, use the
-better version.
+Aliados **SCOUT SQUAD** tienen la siguiente arma de melee. Notese que algunos Operativos ya tienen
+esta arma pero con mejores estadisticas, en ese caso, usa la mejor version.
 ]]></string>
 
     <string name="heavy_weapon_bipod_lore"><![CDATA[
-Deploying a heavy weapon bipod allows the bearer to lay
-down a hail of suppressing fire.
+Desplegando los bipodes de las armas pesadas permiten al portador controlar el retroceso y hacer llover
+fuego al enemigo.
 ]]></string>
 
     <string name="heavy_weapon_bipod_description"><![CDATA[
-Whenever a friendly **SCOUT SQUAD HEAVY
-GUNNER** operative is shooting with a heavy bolter
-or missile launcher, if it has not moved during
-the activation, or if it is a counteraction, that
-weapon has the Ceaseless weapon rule; if the
-weapon already has that weapon rule, it has the
-Relentless weapon rule. Note that operative is not
-restricted from moving after shooting.
+Cuando un aliado **SCOUT SQUAD HEAVY GUNNER** este disparando con un Heavy Bolter o Missile Launcher,
+si no se ha movido durante su activacion, o si es un Counteract, esa arma gana la regla Ceaseless, si
+esa arma ya tiene esa regla, gana la regla Relentless en su lugar. Notese que este Operativo no esta
+restringido de moverse despues de disparar.
 ]]></string>
-
-
-
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="guerrilla_engagement_lore"><![CDATA[
-Space Marine Scouts learn to use terrain to their
-advantage, preventing the enemy from getting a bead on
-them as they move within killing range.
+Los Scouts Space Marines aprenden a usar el terreno en su ventaja, previniendo que el enemigo les tome
+la delantera mientras se mueven para eliminarlos.
 ]]></string>
 
     <string name="guerrilla_engagement_description"><![CDATA[
-Whenever an enemy operative is shooting a
-friendly **SCOUT SQUAD** operative, if that friendly
-operative is in cover and more than 6\" from
-enemy operatives it is visible to, you can re-roll
-one of your defence dice.
+Cuando un enemigo este disparando a un aliado **SCOUT SQUAD**, si ese aliado esta en cobertura y a
+mas de 6\" de el enemigo al que es visible, puedes re-rollear un dado de defensa.
 ]]></string>
 
     <string name="ambush_lore"><![CDATA[
-Scout Squads utilise stealth to close within range
-of their foes, carefully selecting their targets before
-unleashing a devastating assault.
+Los escuadrones Scout usan el sigilo para cortar la distancia contra sus enemigos, seleccionado sus
+objetivos cuidadosamente antes de desatar un asalto letal.
 ]]></string>
 
     <string name="ambush_description"><![CDATA[
-Whenever a friendly **SCOUT SQUAD** operative
-is shooting or fighting during its activation, if its
-order was changed from **Conceal** to **Engage** at
-the start of that activation, or it was not visible to
-enemy operatives at the start of that activation:\n
-• That friendly operatives weapons have the Balanced weapon rule.
-• If the target is expended, that friendly operatives weapons have the Ceaseless weapon rule instead.
+Cuando un aliado **SCOUT SQUAD** este disparando durante su activacion, si su orden fue cambiada
+de **Conceal** a **Engage** al inicio de esa activacion, o si no era visible para Operativos enemigos al inicio
+de esa activacion:\n
+\n• Las armas de ese aliado ganan la regla Balanced.\n
+\n• Si el Operativo enemigo ya activo (expended), ese aliado tiene la regla Ceaseless en su lugar.
 ]]></string>
 
     <string name="adaptable_training_lore"><![CDATA[
+Los neophitos Space Marines y sus sargentos experimentado
+
 Space Marine Neophytes and their experienced
 Sergeants draw upon a host of versatile tactics
 embedded through hypno-indoctrination. Coupled

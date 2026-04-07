@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--farstalker-->
+
+    <string name="call_the_kill_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="call_the_kill_description"><![CDATA[
+**STRATEGIC GAMBIT.** Si este Operativo esta en el campo. Selecciona un Operativo enemigo para que este
+marcado durante el turno. Cuando un aliado **FARSTALKER KINBAND** dispare, combata o retalee contra
+ese enemigo marcado, las armas de ese aliado ganan la regla Balanced. Cuando el enemigo marcado es
+incapacitado, puedes seleccionar un enemigo nuevo para estar marcado durante el turno (puedes seguir
+haciendo esto durante el resto del turno).
+    ]]></string>
+
+    <string name="victory_shriek_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="victory_shriek_description"><![CDATA[
+Cuando tu objetivo marcado es incapacitado, puedes seleccionar a un aliado **FARSTALKER KINBAND**
+a 6\" de ese Operativo. Hasta el final de la batalla, las armas de ese Operativo ganan la regla Balanced.
+Cada aliado solo puede ser seleccionado por esta regla una vez por batalla.
+    ]]></string>
+
+    <string name="energise_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="energise_description"><![CDATA[
+Hasta el final del turno, o hasta que este Operativo dispare con su Accelerator Bow (lo que pase
+primero), todos los perfiles de su Accelerator Bow ganan la regla Lethal 5+.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="kroot_hardy_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="kroot_hardy_description"><![CDATA[
+Cuando un dado de ataque vaya a infligir daño critico a este Operativo, puedes decidir que ese dado de ataque
+haga daño normal en su lugar.
+    ]]></string>
+
+
+    <string name="cold_blooded_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="cold_blooded_description"><![CDATA[
+Cuando este Operativo este disparando, combatiendo o retaleando contra un Operativo enemigo que haya sido herido,
+las armas de este Operativo ganan la regla Lethal 5+, si ese enemigo tambien esta **Lesionado**, las armas de
+este Operativo tambien ganan la regla Rending.
+    ]]></string>
+
+    <string name="vicious_duellist_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="vicious_duellist_description"><![CDATA[
+Cuando este Operativo este combatiendo o retaleando, por cada dado de ataque que tu oponente descarte como
+un fallo, inflige 1 herida a ese Operativo enemigo en esa secuencia.
+    ]]></string>
+
+
+    <string name="savage_assault_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="savage_assault_description"><![CDATA[
+La primera vez que este Operativo hace la accion de **Combatir** durante cada una de sus activaciones,
+si ni este Operativo ni el Operativo enemigo fueron incapacitados durante esa secuencia, ese Operativo
+puede inmediatamente hacer una accion de **Combate** gratis despues, pero no puedes seleccionar
+otro enemigo para combatir durante esa accion (y solo si sigue siendo un objetivo valido para combatir).
+Esto toma precedencia sobre las restricciones de acciones.
+    ]]></string>
+
+    <string name="kroot_beast_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="kroot_beast_description"><![CDATA[
+Este Operativo no puede hacer una accion que no sea **Cargar, Dash, Fall Back, Combatir, Gather,
+Guard, Reposition, Pick Up Marker** y **Place Marker**. No puede usar armas que no esten en su
+tarjeta de personaje.
+    ]]></string>
+
+
+    <string name="bad_tempered_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="bad_tempered_description"><![CDATA[
+Cuando un Operativo enemigo haga una accion de **Combate**, si este Operativo es un objetivo valido
+para ser Combatido, puedes forzarlo a seleccionar este Operativo para Combatir en contra. Cuando un
+enemigo termina una accion de **Cargar** dentro del rango de control de un aliado **FARSTALKER KINBAND**
+a 3\" de este Operativo, si este Operativo no esta dentro del rango de control de un Operativo enemigo,
+puede inmediatamente hacer una accion de **Cargar** gratis, (puede cambiar su orden para hacerlo) pero
+debe terminar dentro del rango de control de ese Operativo enemigo.
+    ]]></string>
+
+    <string name="kroot_gather_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="kroot_gather_description"><![CDATA[
+Puedes hacer una **Reposicion** o **Dash** gratis con este Operativo. Durante ese movimiento, puede
+hacer una accion gratis de **Pick up Marker** o **Place Marker**(puedes determinar el control durante la
+accion para hacerlo) y cualquier distancia restante del movimiento puede ser usada despues.
+    ]]></string>
+
+
+    <string name="long_sight_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="long_sight_description"><![CDATA[
+Hasta el inicio de la proxima activacion de este Operativo:\n
+\n• el perfil Concealed y Stationary del Hunting Rifle de este Operativo gana Lethal 5+\n
+\n• Cuando este Operativo este disparando su Hunting Rifle, Operativos enemigos no puedes
+estar Obscurecidos.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="quick_draw_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="quick_draw_description"><![CDATA[
+Una vez por turno, cuando un enemigo este haciendo la accion de **Disparo** y este Operativo es
+seleccionado como objetivo valido (o como objetivo secundario), si este Operativo no fue activado (Ready)
+, puedes interrumpir esa accion para usar esta regla. Si lo haces.\n
+\nEste Operativo puede hacer inmediatamente una accion gratis de **Disparo** con sus Dual Kroot Pistol
+(Focused) contra ese Operativo enemigo (puedes cambiar su orden para hacerlo), pero ese enemigo debe
+ser un objetivo valido.
+    ]]></string>
+
+    <string name="kroot_salvo_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="kroot_salvo_description"><![CDATA[
+Selecciona hasta dos objetivos validos que no esten dentro del rango de control de Operativos enemigos.
+Dispara esta arma contra ambos en cualquier orden de tu eleccion (lanza dados por separado).
+    ]]></string>
+
+
+    <string name="kroot_stalker_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="kroot_stalker_description"><![CDATA[
+Este Operativo puede hacer una accion de **Cargar** mientras tiene una orden de Conceal.
+    ]]></string>
+
+
+    <string name="stealth_attack_usage"><![CDATA[
+        2AP
+    ]]></string>
+
+    <string name="stealth_attack_description"><![CDATA[
+Haz una accion de **Cargar** gratis con este Operativo, pero no excedas tu estadistica de movimiento
+(no recibes las 2\" extra). Inmediatamente haz una accion gratis de **Combatir** con este Operativo.
+La primera vez que golpess durante esa accion, puedes inmediatamente resolver otro exito como un golpe
+(antes que tu oponente).\n\n
+
+Este Operativo no puede hacer esta accion mientras tenga una orden de Engage, Mientras este en rango
+de control de un Operativo enemigo, o si no esta a 1\" de terreno ligero o pesado.
+    ]]></string>
+
+
+    <string name="marked_for_the_hunt_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="marked_for_the_hunt_description"><![CDATA[
+Remueve tu marcador Pech\’ra del campo (si hay alguno). Luego pon tu Pech\’ra visible para este Operativo,
+o en terreno aventajado que sea visible para este Operativo. Cuando un aliado **FARSTALKER KINBAND**
+este disparando a un enemigo que tenga ese marcador dentro de su rango de control, las armas de distancia
+de ese aliado ganan la regla Seek Light.\n
+\nAl inicio de la proxima activacion de este Operativo o si es incapacitado (lo que pase primero),
+remueve tu marcador Pech\’ra del campo.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="from_the_eye_above_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="from_the_eye_above_description"><![CDATA[
+**SUPPORT.** Selecciona otro aliado **FARSTALKER KINBAND** visible y a 6\" de este Operativo.
+Hasta el fin de la proxima activacion de ese Operativo, añade 1 a su estadistica de APL.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="kroot_ready_for_anything_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="kroot_ready_for_anything_description"><![CDATA[
+Una vez por turno, durante la activacion de un **WARRIOR**, puedes usar las reglas Meat, Piercing Shot o
+Toxic Shot (Vease equipamientos de faccion) para ese Operativo. Hacerlo no cuenta sobre el limite
+para este turno.
+    ]]></string>
+
+
+
+    <!--Faction Rules-->
+
+    <string name="kroot_farstalker_lore"><![CDATA[
+Los Kindband se mueven y pelean por instinto, reaccionando a las condiciones del campo de batalla con
+velocidad de procesamiento inhumana.
+]]></string>
+
+    <string name="kroot_farstalker_description"><![CDATA[
+En la Ready Step de cada Strategy fase, puedes cambiar la orden de hasta tres aliados **FARSTALKER KINBAND**
+que no esten en rango de control de Operativos enemigos.\n
+\nCuando sea tu turno de hacer Counteract, puedes cambiar la orden de un **FARSTALKER KINBAND** que no
+este en rango de control de un enemigo. Esto aun cuenta como tu Counteract (tu oponente activa despues),
+pero no cuenta como el Counteract de ese aliado durante ese turno.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="piercing_shot_lore"><![CDATA[
+Los Kroot crean sus propias municiones y balas para adaptarse a cada tipo de oponente. Balas con
+una punta endurecida permite penetrar a traves de cobertura y armaduras.
+]]></string>
+
+    <string name="piercing_shot_description"><![CDATA[
+Una vez por turno, cuando un aliado **FARSTALKER KINBAND** este haciendo la accion de **Disparo**
+y seleccionas un Kroot Rifle, Kroot Scattergun o Dual Kroot Pistols (Focused), puedes usar esta regla.\n
+\nSi lo haces, hasta el fin de esa accion, esa arma gana la regla Piercing 1. No puedes usar Piercing Shot y
+Toxic Shot durante la misma accion.
+]]></string>
+
+    <string name="toxin_shot_lore"><![CDATA[
+Las balas venenosas de los Kroot contienen veneno extremadamente letal extraido de distinta fauna alienigena.
+]]></string>
+
+    <string name="toxin_shot_description"><![CDATA[
+Una vez por turno, cuando un aliado **FARSTALKER KINBAND** este haciendo la accion de **Disparo**
+y seleccionas un Kroot Rifle, Kroot Scattergun o Dual Kroot Pistols (Focused), puedes usar esta regla.\n
+\nSi lo haces, hasta el final de esa accion, esa arma gana la regla Lethal 5+ y Stun. No puedes usar Piercing Shot y
+Toxic Shot durante la misma accion.
+]]></string>
+
+    <string name="meat_lore"><![CDATA[
+La fisiologia de los Kroot es mas resistente de lo que su forma raquitica hace pensar. La ingestion
+de carne cruda es combustible para usar sus abilidades regenerativas.
+]]></string>
+
+    <string name="meat_description"><![CDATA[
+Una vez por turno, cuando un aliado **FARSTALKER KINBAND** (excluyendo **HOUND**) es activado, si no
+esta dentro del rango de control de un Operativo enemigo, puedes usar esta regla. Si lo haces, ese aliado
+recupera D3+1 heridas perdidas.
+]]></string>
+
+    <string name="trophy_lore"><![CDATA[
+Los Kroot Farstalkers buscan eliminar a los enemigos mas poderosos. Ellos perseguiran agresivamente
+a cualquier enemigo que parezca ser digno de volverse un trofeo con su cadaver.
+]]></string>
+
+    <string name="trophy_description"><![CDATA[
+Una vez por batalla, durante la activacion de un aliado **FARSTALKER KINBAND** (excluyendo **HOUND**),
+antes o despues de que haga una accion, si no esta dentro del rango de control de un Operativo enemigo,
+puedes usar esta regla. Si lo haces, añade 1 a la estadistica de APL de ese aliado hasta el fin
+de su activacion.
+]]></string>
+
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="cut_thoats_lore"><![CDATA[
+Los guerreros Kroot son letales en combates cuerpo a cuerpo. Sus hojas son capaces de despedazar piel
+expuesta con facilidad.
+]]></string>
+
+    <string name="cut_thoats_description"><![CDATA[
+Añade 1 a la estadistica ATK de armas de melee de aliados **FARSTALKER KINBAND** (hasta un maximo de 5).
+]]></string>
+
+    <string name="rogue_lore"><![CDATA[
+Los Kroot son cazadores innatos, usan coberturas para ocultar sus avances mientras se acercan a su presa.
+]]></string>
+
+    <string name="rogue_description"><![CDATA[
+Cuando un Operativo esta disparando a un aliado **FARSTALKER KINBAND**:\n
+\n• Ignora la regla Saturate.\n
+\n• Si puedes retener salvacion por cobertura, puedes retener un dado adiciona, o puedes
+retener una salvacion critica en su lugar. Esto no es acumulable con salvacion mejorada por
+terreno aventajado.
+]]></string>
+
+    <string name="kroot_prey_lore"><![CDATA[
+Cuando un Kroot selecciona su objetivo, los cazadores enfocan todos sus esfuerzos para derribarlo.
+]]></string>
+
+    <string name="kroot_prey_description"><![CDATA[
+Cuando un aliado **FARSTALKER KINBAND** esta disparando en una activacion en la que no haya hecho
+las acciones **Cargar, Fall Back** o **Reposicion**, sus armas a distancia ganan las reglas
+Balances y Severe, si el arma ya tiene la regla Severe, tiene las reglas Ceaseless y Severe en su lugar.
+Notese que este Operativo no esta restringido de realizar esas acciones despues de disparar.
+]]></string>
+
+    <string name="bound_lore"><![CDATA[
+Las largas piernas de los Kroot les permite abarcar grandes distancias de un salto.
+]]></string>
+
+    <string name="bound_description"><![CDATA[
+Durante cada activacion de aliados **FARSTALKER KINBAND**, puedes ignorar las primeras 2\" durante
+la primera vez que este escalando.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="savage_ambush_lore"><![CDATA[
+La especialidad de los Kroot es la emboscada, usan estas habilidades para atacar a sus enemigos
+con extrema violencia.
+]]></string>
+
+    <string name="savage_ambush_description"><![CDATA[
+Usa esta Firefight ploy durante la accion de **Combate** cuando un aliado **FARSTALKER KINBAND**
+que no haya activado (Ready) que tenga terreno ligero o pesado dentro dentro de su rango de control
+es seleccionado para combatir. En la fase de resolver dados de ataque en esa secuencia, tu resuelves
+el primer dado (defensor en lugar del atacante primero).
+]]></string>
+
+    <string name="slip_away_lore"><![CDATA[
+Delgados y agiles, los Kroot se desvanecen de una pelea usando la misma velocidad que usan
+para atacar.
+]]></string>
+
+    <string name="slip_away_description"><![CDATA[
+Usa esta Firefight ploy durante la activacion de un aliado **FARSTALKER KINBAND**, antes o despues
+de que haga una accion. Durante esa activacion, ese Operativo puede hacer una accion de **Fall Back**
+por 1 AP menos.
+]]></string>
+
+    <string name="poach_lore"><![CDATA[
+Los Farstalkers evitan peleas prolongadas, usan su destreza para avanzar y aprovechar la debilidad
+de sus enemigos rapidamente.
+]]></string>
+
+    <string name="poach_description"><![CDATA[
+Usa esta Firefight Ploy durante la activacion de un aliado **FARSTALKER KINBAND**. Hasta el final de
+esa activacion, ese Operativo no tiene que controlar un objetivo para hacer la accion **Pick up Marker**
+o acciones de mision que usualmente requieran control (esto toma precedencia sobre esa restriccion, solo
+es necesario contestear el objetivo).
+]]></string>
+
+    <string name="vengeance_kinband_lore"><![CDATA[
+Los Farstalker Kinbans estan ligados por sangre. La muerte de un aliado despierta sus instintos
+de supervivencia y venganza.
+]]></string>
+
+    <string name="vengeance_kinband_description"><![CDATA[
+Usa esta Firefight ploy cuando un aliado **FARSTALKER KINBAND** sea incapacitado por un enemigo
+Operativo. Hasta el final de la batalla, cuando otro aliado **FARSTALKER KINBAND** este disparando,
+combatiendo o retaleando contra ese enemigo, las armas de ese aliado **FARSTALKER KINBAND** ganan
+la regla Relentless. No puedes usar esta ploy otra vez durante la batalla hasta que ese enemigo
+Operativo sea incapacitado.
+]]></string>
+
+</resources>

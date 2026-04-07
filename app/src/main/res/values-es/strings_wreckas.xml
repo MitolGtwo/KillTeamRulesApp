@@ -12,7 +12,7 @@
     ]]></string>
 
     <string name="wrecka_demolisha_recklesstemperament_description"><![CDATA[
-        Si este Operativo tiene una orden de Conceal, daño normal de 4 o mas inflinje 1 menos.
+        Si este Operativo tiene una orden de Conceal, daño normal de 4 o mas inflige 1 menos.
         Si este Operativo tiene una orden de Engage, esta regla aplica con daño critico tambien.
     ]]></string>
 
@@ -25,9 +25,9 @@
 
     <string name="wrecka_demolisha_detonate_description"><![CDATA[
         La primera vez que hagas daño a un Operativo enemigo con esta arma durante la batalla,
-        si golpeas con un resultado normal, inflinje D6+6 daño a ese Operativo enemigo y a cualquier
+        si golpeas con un resultado normal, inflige D6+6 daño a ese Operativo enemigo y a cualquier
         otro Operativo dentro de tu rango de control (Rollea dados por separado). Si golpeas con un
-        exito critico, inflinje 2D6+6 en su lugar.
+        exito critico, inflige 2D6+6 en su lugar.
 
         La accion despues termina, ganas 1 punto Wrecka, y +1 punto wrecka por cada Operativo que haya
         sido Incapacitado por este ataque, este daño no puede ser reducido o ignorado.
@@ -102,7 +102,7 @@
 
     <string name="wrecka_rokkiteer_shock_description"><![CDATA[
         Siempre que un Operativo este dentro del area de efecto de tu Pulsa, reduce su Move Stat por 2\"
-        y empeora su Hit stat por 1. Esto se acumula con estar herido.\n
+        y empeora su Hit stat por 1. Esto se acumula con estar **Lesionado**.\n
         Al inicio de la fase estrategica, reduce 1 el valor de tu marcador Pulsa, si alcanza los 0
         puntos, remuevelo.
         (En resumen, el area de efecto de tu pulsa es mas pequeña cada turno).
@@ -174,7 +174,7 @@
     <string name="squig_stoopid_description"><![CDATA[
         En la fase Firefight, siempre que determines la orden de este Operativo, no puede estar en Conceal.
         Este Operativo no puede hacer ninguna otra accion que no sea  **CARGAR**, **DASH**, **COMBATIR**,
-        **REPOSITION** and **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
+        **REPOSITION** o **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
     ]]></string>
 
 
@@ -193,7 +193,7 @@
 
     <string name="squig_boom_usage"><![CDATA[
 
-        Pasiva, cuando este Operativo es incapacitado
+        Pasiva
 
     ]]></string>
 
@@ -203,7 +203,7 @@
         lanza un D6 o dos D6 si deseas. Si el resultado de cualquiera es 4+,
         este Operativo puede realizar una accion de **Disparo** con su explosive antes de ser
         incapacitado.
-        (El Operativo cuenta como Herido para el resultado de este disparo).
+        (El Operativo cuenta como **Lesionado** para el resultado de este disparo).
     ]]></string>
 
     <!--/Equipment Wreckas-->
@@ -227,11 +227,7 @@
     ]]></string>
 
 
-    <string name="wrecka_extra_armour"><![CDATA[
 
-        EXTRA ARMADURA
-
-    ]]></string>
 
     <string name="wrecka_extra_armour_lore"><![CDATA[
         Los trozos de metal que cubren a un Orko pueden parecer debiles, pero no son menos
@@ -239,7 +235,7 @@
     ]]></string>
 
     <string name="wrecka_extra_armour_description"><![CDATA[
-        Reduce el movimiento de Opertativos **WRECKA KREW** aliados por 2\", y mejora su Save Stat por 1.
+        Reduce el movimiento de Opertativos **WRECKA KREW** aliados por 1\", y mejora su Save Stat por 1.
         esto excluye Operativos **BOMB SQUIG**.
         Esto no es acumulable con Barricada portatil.
     ]]></string>
@@ -258,7 +254,7 @@
     <string name="wrecka_engine_oil_description"><![CDATA[
         Una vez por turno cuando un aliado **WRECKA KREW** (excluyendo **BOMB SQUIG**) es activado.
         puedes usar esta regla. Si lo haces, hasta el final de la activacion, ese Operativo puede
-        ignorar cualquier cambio a sus estadisticas por estar Herido.
+        ignorar cualquier cambio a sus estadisticas por estar **Lesionado**.
     ]]></string>
 
     <string name="wrecka_glyphs"><![CDATA[
@@ -304,11 +300,7 @@
         no podras ganar mas, en ese caso solo podras gastarlos.
     ]]></string>
 
-    <string name="wrecka_tanked_up"><![CDATA[
 
-        LLENOS DE COMBUSTIBLE
-
-    ]]></string>
 
     <string name="wrecka_tanked_up_lore"><![CDATA[
         Wrecka Krews son animados por la emocion de la batalla, brindandoles impetu para
@@ -316,8 +308,8 @@
     ]]></string>
 
     <string name="wrecka_tanked_up_description"><![CDATA[
-        La primera vez que un Operativo **WRECKA KREW** (excluyendo **BOMB SGUIG**) con una accion
-        de Engage realiza una accion de **Carga**, **Disparo** o **Combate** (excluyendo **Guard**)
+        La primera vez que un Operativo **WRECKA KREW** (excluyendo **BOMB SGUIG**) con una orden
+        de Engage realiza una accion de **Carga**, **Disparar** o **Combatir** (excluyendo **Guard**)
         durante cada activacion o counteract, añade 1 a la estadistica APL de ese operativo hasta el
         inicio de su proxima activacion.
     ]]></string>
@@ -352,7 +344,7 @@
     ]]></string>
 
     <string name="wrecka_destruction_description"><![CDATA[
-        Operativos **WRECKA KREW** ganan la regla Saturate a sus armas de rango.
+        Las armas de distancia de Operativos **WRECKA KREW** ganan la regla Saturate.
     ]]></string>
 
 
@@ -421,7 +413,7 @@
     ]]></string>
 
     <string name="wrecka_jas_description"><![CDATA[
-        Usa esta Firefight ploy, cuando un dado de ataque inflinje daño normal a un aliado **WRECKA KREW**
+        Usa esta Firefight ploy, cuando un dado de ataque inflige daño normal a un aliado **WRECKA KREW**
         (excluyendo **BOMB SQUIG**). Ignora ese daño.
     ]]></string>
 

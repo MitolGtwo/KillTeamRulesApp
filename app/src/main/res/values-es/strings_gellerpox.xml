@@ -5,23 +5,20 @@
     <!--Gellerpox-->
 
     <string name="spread_glorious_gifts_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="spread_glorious_gifts_description"><![CDATA[
-Once per battle **STRATEGIC GAMBIT**. Select one objective marker this operative controls
-to gain one of your Techno-curse tokens. It cannot be an objective marker within control range
-of an enemy operative. Whenever that objective marker is within control range of an
-enemy operative, that operative is affected by your selected **TECHNO-CURSE** rule and an additional
-rule determined by your **TECHNO-CURSE**, as shown opposite. You cannot use this.\n
-\n
-STRATEGIC GAMBIT while this operative is within control range of an enemy operative.\n
-\n
-• Barrelwarp: No additional effect.\n
-\n
-• Screaming Rustspikes: This **TECHNO-CURSE** inflicts 2 damage on that enemy operative (instead of 1).\n
-\n
-• Viral Vox-static: Whenever that enemy operative is activated, subtract 1 from its APL stat until the end of its activation
+Una vez por batalla **STRATEGIC GAMBIT**. Selecciona un objetivo que este Operativo controle para que
+gane uno de tus **TECHNO-CURSE** tokens. No puede ser un objetivo que este dentro del rango de control
+de un Operativo enemigo. Cuando un objetivo esta dentro del rango de control de un Operativo enemigo,
+ese Operativo es afectado por tu **TECHNO-CURSE** seleccionada en adicion a la regla de tu **TECHNO-CURSE**,
+como se muestra abajo. No puedes usar este **STRATEGIC GAMBIT** mientras este Operativo este dentro
+del rango de control de un enemigo.\n
+\n• Barrelwarp: No hay efectos adicionales.\n
+\n• Screaming Rustspikes: Esta **TECHNO-CURSE** inflige 2 heridas a ese Operativo enemigo (en lugar de 1).\n
+\n• Viral Vox-static: Cuando ese Operativo enemigo es activado, sustrae 1 a su estadistica de APL hasta
+el fin de su activacion.
     ]]></string>
 
     <string name="engineered_usage"><![CDATA[
@@ -29,11 +26,14 @@ STRATEGIC GAMBIT while this operative is within control range of an enemy operat
     ]]></string>
 
     <string name="engineered_description"><![CDATA[
-At the end of the Select Operatives step, if this
-operative is selected for deployment, select up to two of the
-following improvements or weapon rules for this weapon to have
-for the battle: Add 1 to the Normal Dmg stat, add 1 to the Critical
-Dmg stat, Balanced, Brutal, Lethal 5+, Rending.
+Al final de la fase de seleccionar Operativos, si este Operativo es seleccionado, selecciona dos de las
+siguientes mejoras o reglas adicionales para esta arma durante el resto de la batalla: \n
+\n• Añade 1 al daño normal.\n
+\n• Añade 1 al daño critico.\n
+\n• Balanced.\n
+\n• Brutal.\n
+\n• Lethal 5+.\n
+\n• Rending.
     ]]></string>
 
     <string name="geller_swipe_usage"><![CDATA[
@@ -41,114 +41,105 @@ Dmg stat, Balanced, Brutal, Lethal 5+, Rending.
     ]]></string>
 
     <string name="geller_swipe_description"><![CDATA[
-Whenever this operative performs the **Fight** action and you select this weapon profile, if it
-is not incapacitated, it can immediately perform a free **Fight** action afterwards, but you must
-select this weapon profile and it can only fight against each enemy operative within its control
-range once per activation or counteraction using this weapon profile. This takes precedence over action
-restrictions, and you can continue to perform free **Fight** actions until this operative is
-incapacitated or has fought against every enemy operative within its control range.
+Cuando este Operativo hace la accion de **Combate** y seleccionas este perfil, si este Operativo no
+es incapacitado, puede inmediatamente hacer una accion de **Combate** gratis despues, pero debes
+seleccionar este perfil y solo puedes pelear contra cada Operativo enemigo dentro de su rango de control
+una vez por activacion o Counteract usando este perfil. Esto toma precedencia sobre las restricciones
+de accion, y puedes continuar haciendo acciones de **Combate** gratis hasta que este Operativo sea
+incapacitado o haya combatido contra cada Operativo en su rango de control.
     ]]></string>
 
     <string name="tentacled_grasp_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tentacled_grasp_description"><![CDATA[
-Whenever an enemy operative would perform
-the **Fall Back** action while within control range of this
-operative, you can use this rule. If you do, roll one D6, adding 1 to
-the result if that enemy operative has a Wounds stat of 8 or less:
-on a 4+, that enemy operative cannot perform that action during
-that activation/counteraction (the AP spent on it is not refunded).
+Cuando un Operativo enemigo vaya a hacer una accion de **Fall Back** mientras este dentro del rango
+de control de este Operativo, puedes utilizar esta regla. Si lo haces, lanza un D6, añade 1 al resultado
+si ese Operativo enemigo tiene 8 heridas o menos: al 4+, ese enemigo no puede hacer esa accion durante
+esa activacion o Counteract (el AP gastado no es reembolsado).
     ]]></string>
 
     <string name="horrifying_shrieking_usage"><![CDATA[
-           Passive
+           Pasiva
     ]]></string>
 
     <string name="horrifying_shrieking_description"><![CDATA[
-Whenever an enemy operative is within 3\" of this operative, your opponent must spend 1 additional AP for that
-enemy operative to perform the **Pick Up Marker** and mission actions.\n
-\n
-Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest
-it as 1 lower if at least one of those enemy operatives is within 3\" of this operative. Note this
-is not a change to the APL stat, so any changes are cumulative with this
+Cuando un Operativo enemigo este a 3\" de este Operativo, tu oponente debe gastar 1AP adicional para
+hacer una accion de mision o **Pick Up Marker**.\n
+\nCuando determines el control de objetivos, trata el total de APL de Operativos enemigos contesteandolo
+como si tuvieran 1 menos si al menos uno de esos enemigos esta a 3\" de este Operativo. Notese que esto
+no es un cambio de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="spiked_charger_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="spiked_charger_description"><![CDATA[
-Whenever this operative finishes moving during
-the Charge action, you can inflict D3 damage on each enemy
-operative within its control range (roll separately for each).
+Cuando este Operativo termine su movimiento durante una accion de **Cargar**, puedes infligir D3
+heridas a cada enemigo dentro de su rango de control (lanza dado por separado).
     ]]></string>
 
     <string name="geller_group_activation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="geller_group_activation_description"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **GELLERPOX INFECTED MUTANT** operative (if able) before your
-opponent activates. When that other operative is expended, your
-opponent then activates as normal (in other words, you cannot
-activate more than two operatives in succession with this rule).
+Cuando este Operativo termine de activar (expended), debes de activar otro Operativo aliado **GELLERPOX INFECTED MUTANT**
+que no haya activado (ready) si es posible, antes que tu oponente active. Cuando ese segundo Operativo
+termine de activar, tu oponente activa normalmente. (no puedes activar mas de 2 Operativos simulateamente de
+esta forma)
     ]]></string>
 
     <string name="gellercaust_masks_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="gellercaust_masks_description"><![CDATA[
-Whenever an attack dice would inflict Critical Dmg on this operative, you can choose for that attack
-dice to inflict Normal Dmg instead.
+Cuando un dado de ataque vaya a infligir daño critico a este Operativo, puedes escoger que
+ese ataque haga daño normal en su lugar.
     ]]></string>
 
     <string name="geller_group_activation_glitch_usage"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **GELLERPOX INFECTED GLITCHLING** operative (if able) before your
-opponent activates. When that other operative is expended, your
-opponent then activates as normal (in other words, you cannot
-activate more than two operatives in succession with this rule)
+        Pasiva
     ]]></string>
 
     <string name="geller_group_activation_glitch_description"><![CDATA[
-
+Cuando este Operativo termine de activar (expended), debes de activar otro Operativo aliado **GELLERPOX INFECTED GLITCHLING**
+que no haya activado (ready) si es posible, antes que tu oponente active. Cuando ese segundo Operativo
+termine de activar, tu oponente activa normalmente. (no puedes activar mas de 2 Operativos simulateamente de
+esta forma)
     ]]></string>
 
     <string name="daemonic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="daemonic_description"><![CDATA[
-Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+Cuando un Operativo este disparando a este Operativo, ignora la regla Piercing.
     ]]></string>
 
     <string name="small_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="small_description"><![CDATA[
-This operative cannot use any weapons that are not on its
-datacard, or perform unique actions. Whenever this operative
-has a **Conceal** order and is in cover, it cannot be selected as a
-valid target, taking precedence over all other rules (e.g. Seek,
-Vantage terrain) except being within 2\”.
+Este Operativo no puede usar ninguna arma que no este en su tarjeta de personaje o hacer acciones
+unicas. Cuando este Operativo tenga una orden de **Conceal** y esta en cobertura, no puede ser seleccionado
+como objetivo valido, tomando precedencia sobre todas las reglas, excepto estar a 2\".
     ]]></string>
 
     <string name="geller_group_activation_vermin_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="geller_group_activation_vermin_description"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **GELLERPOX INFECTED MUTOID VERMIN** operative (if able) before
-your opponent activates. When that other operative is expended,
-your opponent then activates as normal (in other words, you
-cannot activate more than two operatives in succession with
-this rule).
+Cuando este Operativo termine de activar (expended), debes de activar otro Operativo aliado
+**GELLERPOX INFECTED MUTOID VERMIN**
+que no haya activado (ready) si es posible, antes que tu oponente active. Cuando ese segundo Operativo
+termine de activar, tu oponente activa normalmente. (no puedes activar mas de 2 Operativos simulateamente de
+esta forma)
     ]]></string>
 
     <string name="feast_usage"><![CDATA[
@@ -156,194 +147,157 @@ this rule).
     ]]></string>
 
     <string name="feast_description"><![CDATA[
-Whenever this operative is using this weapon against a
-wounded operative, add 1 to the Atk stat of this weapon and it
-has the Lethal 5+ weapon rule.
+Cuando este Operativo este usando esta arma contra un Operativo que este herido, añade 1 a la estadistica
+de Atk de esta arma y gana la regla Lethal 5+.
     ]]></string>
 
     <string name="caustic_demise_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="caustic_demise_description"><![CDATA[
-When this operative is incapacitated, before it is removed from the killzone, roll one D6
-separately for each enemy operative visible to and within 2" of it: on a 4+, inflict 1 damage
-on that operative.
+Cuando este Operativo es incapacitado, antes de ser removido del campo, lanza un D6 por cada enemigo
+visible y a 2\" de este Operativo: al 4+, inflige 1 herida a ese Operativo.
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="techno_curse_lore"><![CDATA[
-The Gellerpox is an insidious techno-curse that
-wends its way into cogitator systems and mechanical
-components, spreading its dubious gifts to the unsuspecting.
+El Gellerpox es una Tecno-Maldicion engañosa que se infiltra en los sistemas mecanicos y componentes,
+esparciendo sus regalos sin ser detectado.
 ]]></string>
 
     <string name="techno_curse_description"><![CDATA[
-At the end of the Select Operatives step, select
-one **TECHNO-CURSE** for friendly **GELLERPOX
-INFECTED** operatives to gain for the battle.
-Whenever an enemy operative is within your
-selected **TECHNO-CURSEs** infection range, that
-enemy operative is affected by the symptom of the
-selected **TECHNO-CURSE**. Each **TECHNO-CURSE**,
-its infection range and its symptom is listed below:
+Al final de la fase de seleccion de Operativos, selecciona una **TECHNO-CURSE** para que aliados
+**GELLERPOX INFECTED** tengan durante la batalla. Cuando un Operativo enemigo esta dentro del rango
+de tu **TECHNO-CURSE** seleccionada, ese Operativo enemigo es afectado por los sintomas de dicha regla.
+Cada rango y efecto de una **TECHNO-CURSE** estan explicadas a continuacion:
 ]]></string>
 
     <string name="barrelwarp_lore"><![CDATA[
-As the Gellerpox infects ranged weapons, it warps
-barrels and corrodes rifling, reducing the effectiveness of such weapons.
+Mientras el Gellerpox infecta armas de fuego, corrompe los barriles oxidandolos, reduciendo su efectividad.
 ]]></string>
 
     <string name="barrelwarp_description"><![CDATA[
-**Infection Range:** Within 2\" of a friendly **GELLERPOX INFECTED** operative (excluding
-**MUTOID VERMIN**), or within 3\" of a friendly **GELLERPOX INFECTED GLITCHLING** operative.\n
-\n
-**Symptom:** Subtract 1 from the Atk stat of that enemy operatives ranged weapons.
+**Infection Range:** A 2\" de un aliado **GELLERPOX INFECTED** (excluyendo **MUTOID VERMIN**),
+o a 3\" de un aliado **GELLERPOX INFECTED GLITCHLING**.\n
+\n**Symptom:** Sustrae 1 al Atk de armas de distancia de Operativos enemigo.
 ]]></string>
 
     <string name="screaming_rustpikes_lore"><![CDATA[
-Blades equipped by the enemy become strange and
-twisted, with spikes bursting from sword grips to pierce
-the flesh of the wielder.
+Las armas equipadas por el enemigo se vuelves extrañas y maldotas, con puas y protuberancia capaces
+de penetrar la piel de su portador.
 ]]></string>
 
     <string name="screaming_rustpikes_description"><![CDATA[
-Infection Range: Within control range of a friendly
-**GELLERPOX INFECTED** operative (excluding **MUTOID VERMIN**).\n
-\n
-**Symptom:** Whenever that enemy operative is fighting or retaliating against a friendly
-**GELLERPOX INFECTED** operative, if your opponent discards any attack dice as a fail, inflict
-1 damage on that enemy operative.
+Infection Range: Dentro del rango de control de un aliado **GELLERPOX INFECTED**
+(excluyendo **MUTOID VERMIN**).\n
+\n**Symptom:** Cuando un Operativo enemigo este combatiendo o retaleando contra un aliado
+**GELLERPOX INFECTED**, si tu oponente descarta dados de ataque, inflige 1 herida a ese Operativo enemigo.
 ]]></string>
 
     <string name="viral_vox_static_lore"><![CDATA[
-Discordant static noise and ear-piercing screams
-blare over vox-channels, disrupting the enemys
-communications, breaking their chain of command and
-sowing fear within their ranks.
+Sonidos estaticos y gritos rompe oidos suenan en los canales vox del enemigo, incomunicandolos y rompiendo
+la cadena de mando, provocando miendo a las tropas.
 ]]></string>
 
     <string name="viral_vox_static_description"><![CDATA[
-**Infection Range:** Within 3\" of a friendly **GELLERPOX INFECTED** operative (excluding
-**MUTOID VERMIN**), or within 4\" of a friendly **GELLERPOX INFECTED GLITCHLING** operative.\n
-\n
-**Symptom:** That enemy operatives APL stat cannot be added to (remove all positive APL stat changes it has).
+
+
+**Infection Range:**  A 3\" de un aliado **GELLERPOX INFECTED** (excluyendo **MUTOID VERMIN**),
+o a 4\" de un aliado **GELLERPOX INFECTED GLITCHLING**.\n
+\n**Symptom:** La estadistica de APL no puede ser aumentada (remueve todo cambio positivo de APL que tenga).
 ]]></string>
 
     <string name="faction_mutoid_vermin_lore"><![CDATA[
-Tiny pests become monstrous threats under the effects
-of the Gellerpox, but are still grubs that can be ignored
-by highly trained warriors.
+Pequeñas plagas se vuelven amenazas bajo los efectos del Gellerpox, pero siguen siendo pequeños por lo que
+pueden ser ignorados por guerreros entrenados.
 ]]></string>
 
     <string name="faction_mutoid_vermin_description"><![CDATA[
-**MUTOID VERMIN** operatives cannot perform any actions other than **Charge, Dash, Fall Back, Fight,
-Reposition** and **Shoot**, or use any weapons that
-are not on their datacard. They can perform the **Fall Back** action for 1 less AP.\n
-\n
-**MUTOID VERMIN** operatives cannot contest
-markers or areas of the killzone, and are ignored
-for your opponents kill/elimination op (when
-they are incapacitated, and when determining
-your starting number of operatives). They are also
-ignored for victory conditions and scoring VPs
-if either require operatives to ‘escape’, ‘survive’
-or be incapacitated by enemy operatives (if they
-escape/survive/are incapacitated, determining
-how many operatives must escape/survive/be
-incapacitated, etc.).\n
-\n
-Operatives can move through **MUTOID VERMIN** operatives, and enemy operatives can move
-within control range of them. Having only **MUTOID VERMIN** operatives within their control
-range does not prevent enemy operatives from performing the **Charge**, **Dash** and **Reposition**
-action, and enemy operatives can leave **MUTOID VERMIN** operatives control range when
-performing the **Charge** action.
+Los Operativos **MUTOID VERMIN** no pueden hacer otra accion que no sea **Cargar, Dash, Fall Back, Combatir,
+Reposicion** o **Disparar**, o usar armas que no este en su tarjeta de personaje. Pueden hacer la accion
+**Fall Back** por 1 AP menos.\n
+\nLos **MUTOID VERMIN** no pueden contestear objetivos o areas en el campo, son ignorados para las
+misiones de tu oponente, Kill ops o ganar VPs si requiere que el Operativo escape, sobreviva o sea incapacitado
+por Operativos enemigos.\n
+\nlos Operativos pueden moverse a traves de **MUTOID VERMINS**, y Operativos enemigos pueden moverse
+dentro de su rango de control. tener solo **MUTOID VERMIN** dentro de su rango de control no previene
+que puedan hacer una accion de **Cargar**, **Dash** o **Reposicion**, y Operativos enemigos pueden
+abandonar el rango de control de un **MUTOID VERMIN** para hacer una accion de **Cargar**.
 ]]></string>
 
     <string name="nightmare_hulks_lore"><![CDATA[
-Several among the infected have had their forms
-bloated and swollen into enormous twisted creatures,
-blessed with the bounteous gifts of Nurgle. Though
-made powerful by such mutations, these monstrosities
-are somewhat clumsy in their movements.
+Varios infectados por el virus Gellerpox sufren deformaciones, hinchando sus cuerpos hasta convertirlos
+en enormes criaturas deformes, llenas de regalos de Nurgle. Ganan poder y fuerza a costo de entorpecer
+su movimiento.
 ]]></string>
 
     <string name="nightmare_hulks_description"><![CDATA[
-Whenever your opponent is selecting a valid target, friendly **GELLERPOX INFECTED NIGHTMARE HULK**
-operatives cannot use Light terrain for cover. While this can allow such operatives to be targeted
-(assuming they’re visible), it does not remove their cover save (if any).\n
-\n
-Friendly **GELLERPOX INFECTED NIGHTMARE HULK** operatives cannot perform unique
-actions. You must spend 1 additional AP for friendly **GELLERPOX INFECTED NIGHTMARE HULK**
-operatives (excluding **VULGRAR THRICECURSED**) to perform the **Pick Up Marker** and
-mission actions (excluding Operate Hatch).
+Cuando tu Oponente este seleccionado un objetivo valido, aliados **GELLERPOX INFECTED NIGHTMARE HULK**
+no puede usar cobertura ligera para cubrirse. Mientras esto permite que pueda ser seleccionado (asumiendo
+que sean visibles), no remueve salvaciones po cobertura (si hay alguna).\n
+\nAliados **GELLERPOX INFECTED NIGHTMARE HULK** no pueden hacer acciones unicas. debes gastar 1 AP
+adicional para que un **GELLERPOX INFECTED NIGHTMARE HULK** (excluyendo **VULGRAR THRICECURSED**) haga
+una accion de **Pick up Marker** o accion de mision (exluyendo Operate Hatch).
 ]]></string>
 
     <string name="revoltingly_resilient_lore"><![CDATA[
-The monstrous transformations wrought upon these
-hulking brutes have rendered their aberrant physiologies incredibly resistant to harm.
+Estas mountrosidades tienen una fisiologia deforme haciendolos increiblemente resistentes al daño.
 ]]></string>
 
     <string name="revoltingly_resilient_description"><![CDATA[
-Whenever an attack dice inflicts damage of 3 or more on a friendly **GELLERPOX INFECTED
-NIGHTMARE HULK** or **GELLERPOX INFECTED MUTANT** operative, roll one D6: on a 4+,
-subtract 1 from that inflicted damage.
+Cuando un dado de ataque inflige daño de 3 o mas a un aliado **GELLERPOX INFECTED NIGHTMARE HULK** o
+**GELLERPOX INFECTED MUTANT**, lanza un D6: al 4+, sustrae 1 al daño infligido.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="mutoid_vermin_lore"><![CDATA[
-Rats, worms, insectile vermin and other foul creatures
-blighted by the Gellerpox swarm to fight at the side of
-their infected masters.
+Ratas, gusanos y plagas son criaturas que el Gellerpox controla para que luchen con sus maestros
+infectados.
 ]]></string>
 
     <string name="mutoid_vermin_description"><![CDATA[
-After revealing this equipment option, add
-four **GELLERPOX INFECTED MUTOID VERMIN**
-operatives to your kill team for the battle.
+Despues de revelar este equipamiento, añade cuatro **GELLERPOX INFECTED MUTOID VERMIN** a tu kill
+team durante la batalla.
 ]]></string>
 
     <string name="pulluted_stockpile_lore"><![CDATA[
-As defenders prepare to repel the infected, they find
-their own weapons and equipment degraded by the
-Gellerpox’s corroding influence.
+Los defensores buscan repeler a los infectados, mientras buscan sus armas y equipamiento se dan cuenta
+que ya han sido infectados y corroidos por el Gellerpox.
 ]]></string>
 
     <string name="pulluted_stockpile_description"><![CDATA[
-After revealing this equipment option, roll 2D6: on a 7+, remove one of your opponent’s selected
-equipment options; otherwise, that player removes one of their own selected equipment
-options. They cannot select that equipment again during the game sequence (e.g. in the
-Scouting step of Approved Ops). You cannot select this equipment option after the Select Operatives step
+Despues de revelar este equipamiento, lanza 2D6: al 7+, remueve uno de los equipamientos seleccionados
+por tu oponente, de otra forma, el oponente decide que equipamiento remover. Ese equipamiento no
+puede ser seleccionado otra vez durante la partida. No puedes seleccionar este equipamiento despues
+de la fase de seleccion de Operativos.
 ]]></string>
 
     <string name="mutated_symptoms_lore"><![CDATA[
-The effects of the Gellerpox are many and varied; some
-infected display multiple mutations, each one more grotesque than the last.
+Los efectos del Gellerpox son variados, algunos infectados muestran multiples infecciones, algunas
+mas grotescas que las otras.
 ]]></string>
 
     <string name="mutated_symptoms_description"><![CDATA[
-Once per battle, when you activate a friendly **GELLERPOX INFECTED** operative, you can select
-one additional **TECHNO-CURSE** for that operative to gain until the end of the turning point (it must
-be different from your existing **TECHNO-CURSE**).
-Note that if a rule refers to an enemy operative
-being affected by your selected **TECHNO-CURSE** rule (e.g. **VULGRAR THRICE-CURSED** operatives
-Spread the Glorious Gifts rule), it is affected by your additional **TECHNO-CURSE** rule too.
+Una vez por batalla, cuando activas un aliado **GELLERPOX INFECTED**, puedes selecciona un
+**TECHNO-CURSE** adicional para que ese Operativo tenga hasta el final del turno (tiene que ser
+diferente a tus **TECHNO-CURSE** existentes). Notese que si la regla se refiere a un enemigo siendo afectado
+por tu **TECHNO-CURSE** (ejemplo **VULGRAR THRICE-CURSED** y su Spread the Glorious Gifts), es afectado por tu
+**TECHNO-CURSE** adicional.
 ]]></string>
 
     <string name="plague_bellows_lore"><![CDATA[
-As fusions of machine and mortal, Nightmare Hulks
-bristle with rusted flumes, belching exhaust pipes
-and wheezing bellows, all of which eject clouds of noxious fumes.
+Como fusiones entre la maquina y lo mortal, los Hulks expulsan gases nosivos y toxicos desde los
+tubos de escape que escapan de su cuerpo.
 ]]></string>
 
     <string name="plague_bellows_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**GELLERPOX INFECTED NIGHTMARE HULK** operative that’s more than 6\" from it, you can
-retain one of your defence dice results of 3 as a normal success instead of discarding it.
+Cuando un Operativo este disparando a un aliado **GELLERPOX INFECTED NIGHTMARE HULK** que este a mas de
+6\" de el, puedes retener uno de tus dados resultados de 3 como un exito normal en lugar de descartarlo.
 ]]></string>
 
 
@@ -351,104 +305,96 @@ retain one of your defence dice results of 3 as a normal success instead of disc
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="plagueridden_determination_lore"><![CDATA[
-Nurgles blessings cause the body to bloat and fester,
-bestowing an unnatural resilience upon the recipient.
+Las bendiciones de Nurgle llenan al cuerpo de granos y peste, dandole resistencia sobrenatural a su
+recipiente.
 ]]></string>
 
     <string name="plagueridden_determination_description"><![CDATA[
-Whenever an operative is shooting a friendly **GELLERPOX INFECTED** operative (excluding
-**MUTOID VERMIN**) that has an **Engage** order, you can re-roll one of your defence dice.
+Cuando un Operativo este disparando a un aliado **GELLERPOX INFECTED** (excluyendo **MUTOID VERMIN**)
+que tenga una orden de **Engage**, puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
     <string name="blessings_of_infection_lore"><![CDATA[
-The mutagenic properties and corrupting influence
-of the Gellerpox lend the infected brutal strength and gleeful determination.
+Las propiedades mutogenas del Gellerpox otorga a sus portadores de fuerza brutal y determinacion solida.
 ]]></string>
 
     <string name="blessings_of_infection_description"><![CDATA[
-Whenever a friendly **GELLERPOX INFECTED**
-operative is fighting or retaliating, you can do one of the following:\n
-\n
-• If you roll three or more fails, you can discard one of them to retain another as a normal success instead.\n
-\n
-• If you roll three or more successes, you can discard one of your fails to retain one of your normal successes as a critical success instead.
+Cuando un aliado **GELLERPOX INFECTED** este combatiendo o retaleando, puedes hacer uno de los siguientes
+efectos:\n
+\n• Si lanzas 3 o mas fallos, puedes descartar uno de ellos para retener un exito normal en su lugar.\n
+\n• Si lanzas 3 o mas exitos, puedes descartar uno de tus fallos para retener un exito normal como un exito critico.
 ]]></string>
 
     <string name="drawn_to_the_hum_lore"><![CDATA[
-The gentle thrum of machinery has an irresistible effect
-upon the infected, pulling them in like insects drawn to a blazing lumen.
+El calido resonar de la maquinaria tiene un efecto irresistible sobre los infectados, atrayendolos
+como insectos a la luz.
 ]]></string>
 
     <string name="drawn_to_the_hum_description"><![CDATA[
-Select one objective marker. Whenever a friendly **GELLERPOX INFECTED** operative performs the
-**Reposition** or **Charge** action during its activation,
-you can use this rule. If you do, add 1\" to its Move stat until the end of that activation, but it must
-end that move within 2\" of that objective marker.
+Selecciona un objetivo, Cuando un aliado **GELLERPOX INFECTED** hace una accion de **Reposicion** o
+**Carga** durante sua activacion, puedes usar esta regla. Si lo haces, añade 1\" a su estadistica de
+movimiento hasta el final de su activacion, pero debe terminar a 2\" de ese objetivo.
 ]]></string>
 
     <string name="rust_emanations_lore"><![CDATA[
-Bloated Nightmare Hulks are redolent with infection,
-surrounded by a halo of foetid energy that corrodes and
-corrupts the weaponry of nearby assailants.
+Los Nightmare hulk rebosan de infecciones, cubriendolos de un halo de energia fetida que corrompe
+las armas de asaltantes cercanos.
 ]]></string>
 
     <string name="rust_emanations_description"><![CDATA[
-Whenever a friendly **GELLERPOX INFECTED NIGHTMARE HULK** operative is fighting, your
-opponent cannot retain results of 3 as successes.
+Cuando un aliado **GELLERPOX INFECTED NIGHTMARE HULK** esta combatiendo, tu oponente no puede retener
+resultado de 3 como exitos.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="revolting_technology_lore"><![CDATA[
-The Gellerpoxs infectious tendrils reach out to corrupt
-the mechanical, rendering weapons and machinery dangerous to their operators.
+Los tentaculos de los Gellerpox se estiran para corromper la tecnologia, haciendo que los aparatos
+se revelen contra sus operadores.
 ]]></string>
 
     <string name="revolting_technology_description"><![CDATA[
-Use this firefight ploy when an enemy operative is shooting a friendly **GELLERPOX INFECTED**
-operative. That operatives ranged weapons have the Hot weapon rule until the end of that
-sequence; if the weapon already has that weapon rule, when your opponent rolls one D6 for that
-weapon rule, you can add or subtract 1 from the result. Note that for the latter you can see the
-result of your opponents roll for the Hot weapon rule before deciding to use this ploy.
+Usa esta Firefight ploy cuando un enemigo dispare a un aliado **GELLERPOX INFECTED**. El arma
+de ese Operativo enemigo gana la regla Hot hasta el final de esa secuencia, si el arma ya tenia esa regla,
+cuando tu oponente lance un D6 por esa regla, puedes añadir o sustrae 1 al resultado. Notese que puedes
+ver el resultado del tiro de Hot de tu oponente antes de decidir usar esta regla.
 ]]></string>
 
     <string name="barge_lore"><![CDATA[
-The enormous bodies of the Nightmare Hulks allow them
-to barge enemies and obstructions aside to achieve their objective.
+Los enormes cuerpos de los Nightmare Hulks les permite sortear enemigos y obstaculos para conseguir
+sus objetivos.
 ]]></string>
 
     <string name="barge_description"><![CDATA[
-Use this firefight ploy during a friendly **GELLERPOX INFECTED NIGHTMARE HULK**
-operatives activation or counteraction, before or
-after it performs an action. During that activation/ counteraction:\n
-\n
-• It can move through enemy operatives and within control range of them.
-• It can perform the **Charge** and **Reposition** actions while within control range of an enemy
-operative, and can leave that operatives control range to do so (but then normal requirements for that move apply).
+Usa esta Firefight ploy durante la activacion o Counteract de un **GELLERPOX INFECTED NIGHTMARE HULK**
+aliado, antes o despues de que haga una accion. durante esa Accion o Counteract:\n
+\n• Puede moverse a traves del Operativos enemigos y su rango de control.\n
+\n• Pueden hacer la accion **Cargar** y **Reposicion** mientras esten en rango de control de un
+Operativo enemigo, y pueden dejar su rango de control para hacerlo (las demas reglas normales
+de movimiento aun aplican).
 ]]></string>
 
     <string name="putrescent_demise_lore"><![CDATA[
-As a Gellerpox Infected perishes, their body explodes
-in a shower of acrid disease and hazardous gore that harms all caught in its blast.
+Cuando un infectado con el virus Gellerpox muere, sus cuerpos explotan, creando una lluvia de organos y
+acido que hiere a todos en su paso.
 ]]></string>
 
     <string name="putrescent_demise_description"><![CDATA[
-Use this firefight ploy when a friendly **GELLERPOX INFECTED** operative (excluding **MUTOID VERMIN**)
-is incapacitated, before it is removed from the killzone. Inflict 1 damage (or D3 damage
-instead if that friendly operative is a **NIGHTMARE HULK**) on each enemy operative visible to and
-within 2\" of that friendly operative.
+Usa esta Firefight ploy cuando un aliado **GELLERPOX INFECTED** (excluyendo **MUTOID VERMIN**) es
+incapacitado, antes de que sea removido del campo. Inflige 1 herida (o D3 Heridas si ese aliado era un
+**NIGHTMARE HULK**) a cada enemigo visible y a 2\" de ese Operativo aliado.
 ]]></string>
 
     <string name="frightening_onslaught_lore"><![CDATA[
-Nightmare Hulks can strike without pause, with terrifying speed
+Nightmare Hulks pueden golpear sin detenerse, a una velocidad escalofriante.
 ]]></string>
 
     <string name="frightening_onslaught_description"><![CDATA[
-Use this firefight ploy after a friendly **GELLERPOX INFECTED NIGHTMARE HULK** operative
-performs the **Fight** action, if it is not incapacitated. It can immediately perform a free **Fight** action
-(you do not have to select the same enemy operative to fight against). This takes precedence
-over action restrictions.
+Usa esta Firefight ploy despues de que un aliado **GELLERPOX INFECTED NIGHTMARE HULK** haga una accion
+de **Combatir**, si no es incapacitado. Puede inmediatamente hacer una accion de **Combatir** gratis
+(no tiene que seleccionar el mismo Operativo para combatir). Esto toma precedencia sobre la restriccion
+de acciones.
 ]]></string>
 
 </resources>

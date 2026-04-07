@@ -4,6 +4,7 @@ package com.example.killteamruleset.ui.data.Xenos.WreckaKrew
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
+import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.WeaponProfile
@@ -27,7 +28,8 @@ val TankbustaGunner= Operative(
             hit = "4+",
             damage = "4/5",
             keywords = listOf(
-                Blast(1)
+                Blast(1),
+                Heavy("Dash Only")
             )
         ),
         WeaponProfile(

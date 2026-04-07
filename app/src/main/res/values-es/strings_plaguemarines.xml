@@ -135,7 +135,7 @@ enemigo, o mas de una vez por turno.
 ]]></string>
 
     <string name="plague_bell_description"><![CDATA[
-        Puedes ignorar cualquier cambio a Stats de Operativos **PLAGUE MARINES** aliados por estar heridos.
+        Puedes ignorar cualquier cambio a Stats de Operativos **PLAGUE MARINES** aliados por estar **Lesionados**.
 ]]></string>
 
 
@@ -225,7 +225,7 @@ gana un token de Veneno.n
 
     <string name="plague_contagion_description"><![CDATA[
         Substrae 2\" al Move Stat y empeora el Hit Stat por 1 a las armas de Operativos enemigos
-        (esto no se acumulativo con estar herido) siempre y cuando una de estas reglas se cumplan:\n\n
+        (esto no se acumulativo con estar **Lesionado**) siempre y cuando una de estas reglas se cumplan:\n\n
 
         *El enemigo tiene uno de tus tokens de Veneno, es visible y esta a 3\" de un **PLAGUE MARINES** aliado.\n
        \n
@@ -238,8 +238,8 @@ gana un token de Veneno.n
 ]]></string>
 
     <string name="plague_lumbering_description"><![CDATA[
-        Siempre que un aliado **PLAGUE MARINE** haga una accion de **Disparo** o una accion de **Pelea** en una
-        activacion en la que no haya movido una distancia mayor a 3\", o cuando este Retaliando, las
+        Siempre que un aliado **PLAGUE MARINE** haga una accion de **Disparo** o una accion de **Combatir** en una
+        activacion en la que no haya movido una distancia mayor a 3\", o cuando este Retaleando, las
         armas obtienen la regla Ceaseless.
 ]]></string>
 

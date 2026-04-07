@@ -3,33 +3,27 @@
     <!--Exation-->
 
     <string name="exaction_assault_shield_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="exaction_assault_shield_description"><![CDATA[
-If this operative has a dominator maul & assault
-shield, it has a 3+ Save stat
+Si este Operativo tiene un Dominator Maul & Assault Shield, tiene una salvacion de 3+.
     ]]></string>
 
     <string name="nuncio_aquila_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="nuncio_aquila_description"><![CDATA[
-• Whenever an enemy operative is within 3\n" of your
-Nuncio-aquila marker (or this operative if your Nuncio-aquila
-marker isnt in the killzone), your opponent must spend 1
-additional AP for that enemy operative to perform the **Pick
-Up Marker** and mission actions.\n
-• Whenever determining control of a marker, treat the total
-APL stat of enemy operatives that contest it as 1 lower if
-at least one of those enemy operatives is within 3\n" of your
-Nuncio-aquila marker (or this operative if your Nuncio-aquila
-marker isnt in the killzone). Note this isnt a change to the APL
-stat, so any changes are cumulative with this.
-
+• Cuando un enemigo esta a 3\" de tu token Nuncio-Aquila (o a 3\" de este Operativo si tu Nuncio-Aquila no
+esta en el campo), tu oponente debe gastar 1 AP adicional para hacer las acciones **Pick up marker**
+y acciones de mision.\n
+\n• Cuando determines el control de un marcador, trata la estadistica total de APL de Operativos enemigos
+contesteando ese marcador como si tuvieran 1 menos si al menos uno de esos Operativos enemigos estan a 3\"
+de tu Nuncio-Aquila (o a 3\" de este Operativo si tu Nuncio-Aquila no esta en el campo). Notese que
+esto no es un camio a las estadisticas de APL, asi que cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="deploy_nuncio_aquila_usage"><![CDATA[
@@ -39,33 +33,27 @@ stat, so any changes are cumulative with this.
     ]]></string>
 
     <string name="deploy_nuncio_aquila_description"><![CDATA[
-If your Nuncio-aquila marker isnt in the killzone, place it
-within 6\" horizontally of this operative; otherwise, move your
-Nuncio-aquila marker up to 6\" horizontally. If this operative
-is removed from the killzone, remove your Nuncio-aquila
-marker from the killzone.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Si tu Token Nuncio-Aquila no esta en el campo, ponlo a 6\" horizontalmente de este Operativo; si ya esta
+en el campo, muevelo 6\" horizontalmente. Si este Operativo es removido del campo, remueve tu Nuncio-Aquila
+del campo.\n\n
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="exaction_medic_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="exaction_medic_description"><![CDATA[
-The first time during each turning point that another friendly **EXACTION SQUAD** operative would be
-incapacitated while visible to and within 3\" of this operative, you can use this rule, providing
-neither this nor that operative is within control range of an enemy operative. If you do, that
-friendly operative isnt incapacitated, has 1 wound remaining and cannot be incapacitated for the
-remainder of the action. After that action, that friendly operative can immediately perform a
-free **Dash** action, but must end that move within this operatives control range. Subtract 1 from
-this and that operatives APL stats until the end of their next activations respectively, and if
-this rule was used during that friendly operatives activation, that activation ends.\n
-\n
-You cannot use this rule if this operative is incapacitated, or if its a **Shoot** action and this
-operative would be a primary or secondary target.
+La primera vez durante cada turno que otro Operativo **EXACTION SQUAD** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
+ni el Operativo con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado, tiene 1 herida restante y no puede ser incapacitado
+por el resto de esa acción.\n
+Despues de esa acción ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
+1 APL de este Operativo y el Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se usa durante la activación de ese otro Operativo aliado,
+su activación termina inmediatamente.\n\n
+
+No puedes usar esta regla si el Operativo aliado esta siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="exaction_medikit_usage"><![CDATA[
@@ -73,128 +61,101 @@ operative would be a primary or secondary target.
     ]]></string>
 
     <string name="exaction_medikit_description"><![CDATA[
-Select one friendly **EXACTION SQUAD** operative
-within this operatives control range to regain up to 2D3 lost
-wounds. It cannot be an operative that the Medic! rule was
-used on during this turning point.\n\n
+Selecciona un aliado **EXACTION SQUAD** dentro del rango de control de este Operativo para recuperar
+2D3 heridas perdidas. No puede ser un Operativo que se haya beneficiado de la regla Medic! este turno.
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="handler_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
     <string name="handler_description"><![CDATA[
-Whenever this operative is
-activated, you can activate a ready
-friendly **EXACTION SQUAD R-VR
-CYBER-MASTIFF** operative at the
-same time. Complete their activations
-action by action in any order.
+Cuando este Operativo es activado, puedes activar a un **EXACTION SQUAD R-VR CYBER-MASTIFF** al mismo tiempo.
+Completa ambas activaciones accion por accion en cualquier orden.
     ]]></string>
 
     <string name="attack_pattern_usage"><![CDATA[
-
-        Passive/ Strategic Gambit
-
+        Pasiva
     ]]></string>
 
     <string name="attack_pattern_description"><![CDATA[
-**STRATEGIC GAMBIT** in the first turning point. Select two
-of the following attack patterns for a friendly **EXACTION SQUAD R-VR
-CYBER-MASTIFF** operative to have for the battle:\n
-\n
-• Aggressive: Its melee weapons have the Relentless weapon rule.\n
-• Swift: Add 2" to its Move stat.\n
-• Defensive: Improve its Save stat by 1.\n
+**STRATEGIC GAMBIT**. en el primer turno. Selecciona dos de los siguientes patrones de ataque para un
+aliado **EXACTION SQUAD R-VR CYBER-MASTIFF** por el resto de la batalla:\n
+\n• **Agresivo**: Las armas de melee ganan la regla Relentless.\n
+\n• **Agil**: añade 2\" a su estadistica de Movimiento.\n
+\n• **Defensivo**: mejora la estadistica de salvacion por 1.
     ]]></string>
 
     <string name="rvr_command_usage"><![CDATA[
-
         0AP
-
     ]]></string>
 
     <string name="rvr_command_description"><![CDATA[
-Select one friendly **EXACTION SQUAD R-VR
-CYBER-MASTIFF** operative and change one of its
-attack patterns.
+Selecciona un aliado **EXACTION SQUAD R-VR CYBER-MASTIFF** y cambia uno de sus patrones de ataque.
     ]]></string>
 
     <string name="exaction_beast_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="exaction_beast_description"><![CDATA[
-This operative cannot perform
-any actions other than **Apprehend,
-Charge, Dash, Fall Back, Fight,
-Guard, Reposition, Pick Up
-Marker** and **Place Marker**. It
-cannot use any weapons that arent on
-its datacard.
+Este Operativo no puede hacer ninguna accion que no sea **Apprehend, Cargar, Dash, Fall Back, Combatir,
+Guardia, Reposicion, Pick up Marker** o **Place Marker** no puede usar armas que no esten en su
+tarjeta de personaje.
     ]]></string>
 
     <string name="apprehend_usage"><![CDATA[
-
         0AP
-
     ]]></string>
 
     <string name="apprehend_description"><![CDATA[
-Select one enemy operative within this operatives control range. Until that enemy
-operative is no longer within this operatives control range, or until this operative
-performs this action again (whichever comes first), worsen the Hit stat of that
-enemy operatives weapons by 1 (this isnt cumulative with being injured); in
-addition, that enemy operative cannot perform the **Fall Back** action.\n\n
-This operative cannot perform this action unless an enemy operative is within its
-control range.
+Selecciona un Operativo enemigo dentro del rango de control de este Operativo. Hasta que ese Operativo
+enemigo deje de estar dentro del rango de control de este Operativo, o hasta que este Operativo
+haga la accion otra vez (lo que pase primero), empeora la estadistica Hit de las armas de ese enemigo
+por 1 (esto no es acumulable al estar **Lesionado**), ademas de esto, el enemigo no puede hacer la accion
+**Fall Back**.\n\n
+
+Este Operativo no puede hacer esta accion a menos de que el enemigo este dentro de su rango de control.
     ]]></string>
 
     <string name="engendered_focus_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="engendered_focus_description"><![CDATA[
-You can ignore any changes to this
-operatives stats (including its weapons’ stats, but excluding its
-Save stat).
+Puedes ignorar cualquier cambio a las estadisticas de este Operativo (incluyendo estadisticas de armas, pero
+excluyendo su estadistica de Salvacion).
     ]]></string>
 
     <string name="zealous_dedication_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="zealous_dedication_description"><![CDATA[
-Whenever an attack dice inflicts damage of
-3 or more on this operative, roll one D6: on a 5+, subtract 1 from
-that inflicted damage.
+Cuando un dado de ataque inflige daño de 3 o mas a este Operativo, lanza un D6: al 5+, sustrae 1 a ese
+daño infligido.
     ]]></string>
 
     <string name="castigator_arrest_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="castigator_arrest_description"><![CDATA[
-Whenever an enemy operative is within
-control range of this operative, if no other enemy operatives
-are within this operatives control range, that enemy operative
-cannot perform the **Fall Back** action.
+Cuando un Operativo enemigo esa dentro del rango de control de este Operativo, si no hay mas enemigos
+dentrol del rango de control, ese enemigo no puede hacer la accion **Fall Back**.
     ]]></string>
 
     <string name="acute_focus_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="acute_focus_description"><![CDATA[
-Once during each of this operatives activations, it can perform the
-**Pick Up Marker, Place Marker, Veriscant** or a mission action for 1 less AP.
+Una vez durante cada activacion de este Operativo, puede hacer la accion **Pick up Marker, Place Marker,
+Veriscant** o una accion de mision por 1 AP menos.
     ]]></string>
 
     <string name="veriscant_usage"><![CDATA[
@@ -202,11 +163,10 @@ Once during each of this operatives activations, it can perform the
     ]]></string>
 
     <string name="veriscant_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the start of this operatives next
-activation, until its incapacitated or until it performs this action again (whichever comes first),
-whenever a friendly **EXACTION SQUAD** operative is shooting against, fighting against or
-retaliating against that enemy operative, that friendly operatives weapons have the Lethal 5+
-and Severe weapon rules.
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el inicio de la proxima activacion
+de este Operativo, hasta que sea incapacitado o hasta que haga la accion otra vez (lo que pase primero),
+cuando un aliado **EXACTION SQUAD** este disparando, combatiendo o retaleando contra un ese enemigo,
+ese Operativo aliado gana las reglas Lethal 5+ y Severe.
     ]]></string>
 
     <string name="exaction_optics_usage"><![CDATA[
@@ -214,20 +174,19 @@ and Severe weapon rules.
     ]]></string>
 
     <string name="exaction_optics_description"><![CDATA[
-Until the start of this operatives next activation:\n
-• The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.\n
-• Whenever its shooting with its executioner shotgun, enemy operatives cannot be obscured.\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+Hasta el inicio de la siguiente activacion de este Operativo:\n
+\n• Los perfiles Concealed y Stationary del arma de este Operativo ganan la regla Lethal 5+.\n
+\n• Cuando estes disparando con tu Executioner Shotgun, los Operativos enemigos no pueden estar
+Oscurecidos.
     ]]></string>
 
     <string name="first_in_the_field_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="first_in_the_field_description"><![CDATA[
-**STRATEGIC GAMBIT** in the first turning point. If this operative is wholly
-within your drop zone, it can immediately perform a free **Reposition** action.
+**STRATEGIC GAMBIT**. En el primer turno. Si este Operativo esta completamente dentro de tu
+zona de deployment, puede hacer inmediatamente una **Reposicion** gratis.
     ]]></string>
 
     <string name="exaction_spot_usage"><![CDATA[
@@ -235,33 +194,31 @@ within your drop zone, it can immediately perform a free **Reposition** action.
     ]]></string>
 
     <string name="exaction_spot_description"><![CDATA[
-Select one enemy operative visible to and within 8\" of this operative. Until the end of the turning
-point, whenever a friendly **EXACTION SQUAD** operative is shooting that enemy operative,
-you can use this effect. If you do:\n
-\n
-• That friendly operatives ranged weapons have the Seek Light weapon rule.\n
-• That enemy operative cannot be obscured.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Selecciona un Operativo visible y a 8\" de este Operativo. Hasta el final del turno, cuando un
+aliado **EXACTION SQUAD** este disparando ese Operativo enemigo, puedes usar estos efectos:\n
+\n• Las armas de distancia de Operativos aliados ganan la regla Seek Light.\n
+\n• Esos Operativos enemigos no pueden estar Obscurecidos.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="stubborn_subjugator_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="stubborn_subjugator_description"><![CDATA[
-You can ignore any changes to the Hit stat of this operatives melee weapons.
+Puedes ignorar cualquier cambio a la estadistica de Hit de armas de melee de este Operativo.
     ]]></string>
 
     <string name="close_quarters_vigilance_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="close_quarters_vigilance_description"><![CDATA[
-This operative can perform the **Shoot** action (excluding **Guard**) while within control range of
-an enemy operative, but only if it hasnt performed the **Charge**
-action during the activation, or if its a counteraction. Note this
-operative isnt restricted from performing the **Charge** action
-after performing the **Shoot** action.
+Este Operativo puede hacer la accion de **Disparo** (excluyendo **Guard**) mientras este en rango
+de un Operativo enemigo, pero solo si no ha hecho la accion de **Cargar** durante esa activacion, o
+si es un Counteract. Notese que ese Operativo no esta restringido de hacer la accion de **Cargar** despues
+de hacer la accion de **Disparar**.
     ]]></string>
 
     <string name="exaction_signal_usage"><![CDATA[
@@ -269,120 +226,98 @@ after performing the **Shoot** action.
     ]]></string>
 
     <string name="exaction_signal_description"><![CDATA[
-**SUPPORT**. Select one other friendly **EXACTION
-SQUAD** operative visible to this operative. Until the end of
-that operatives next activation, add 1 to its APL stat.\n\n
+**SUPPORT**. Selecciona otro aliado **EXACTION SQUAD** visible para este Operativo. Hasta el final
+de su proxima activacion, añade 1 a su estadistica de APL.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="ruthless_efficiency_lore"><![CDATA[
-A target, whether marked to be apprehended or eliminated, stands little chance of escaping the
-attention of an Adeptus Arbites Exaction Squad.
+Un objetivo marcado con la order de reprender o eliminar, no tiene oporunidad de escapar del
+ojo del Adeptus Arbites Exaction Squad.
 ]]></string>
 
     <string name="ruthless_efficiency_description"><![CDATA[
-Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak
-grenades) and you’re selecting a valid target, you can use this rule. If you do, having other friendly
-EXACTION SQUAD operatives within an enemy operatives control range doesn’t prevent that
-enemy operative from being selected.
+Cuando un aliado **EXACTION SQUAD** esta disparando (excluyendo granadas Frag o Krak) y estas seleccionado
+un objetivo valido, puedes usar esta regla. Si lo haces, tener al Operativo enemigo dentro del rango de control
+de un aliado **EXACTION SQUAD** no previene que pueda ser seleccionado.
 ]]></string>
 
     <string name="marked_for_justice_lore"><![CDATA[
-Exaction Squads prioritise their targets, focusing their
-ire on those marked for immediate punishment before
-moving on to the next transgressor.
+el Exaction Squad prioriza sus objetivos al marcarlos para repartir justicia inmediata antes de seguir
+hasta el proximo agresor.
 ]]></string>
 
     <string name="marked_for_justice_description"><![CDATA[
-STRATEGIC GAMBIT. Select one enemy operative
-to be your mark for the turning point. Whenever a
-friendly EXACTION SQUAD operative is shooting
-against, fighting against or retaliating against
-your mark, that friendly operatives weapons
-have the Punishing weapon rule. Whenever your
-mark is incapacitated, you can select a new
-enemy operative to be your mark for the turning
-point (and can continue to do so during this
-turning point).
+**STRATEGIC GAMBIT.** Selecciona un Operativo enemigo para ser marcado durante el turno. Cuando un
+aliado **EXACTION SQUAD** dispare, combata o retalee contra ese enemigo marcado, las armas de ese aliado
+ganan la regla Punishing. Cuando tu el enemigo con tu marca es incapacitado, puedes seleccionar un nuevo
+Operativo enemigo para ser marcado durante el turno (puedes continiuar haciendo esto durante el turno).
 ]]></string>
 
     <string name="repress_lore"><![CDATA[
-Experienced in suppressing riots, rebellions and various
-other kinds of unrest, the Adeptus Arbites are resilient
-in the face of any oncoming foe, no matter their origin.
+Expertos en suprimir protestas, rebeliones y varios tipos de arrestos, el Adeptus Arbites son resilentes
+al encarar enemigos, sin importar su origen.
 ]]></string>
 
     <string name="repress_description"><![CDATA[
-Some weapons in this teams rules have the Repress weapon rule below.\n
-*Repress: Whenever this operative is using this weapon:\n
-• Each of your blocks can be allocated to block two unresolved successes (instead of one).\n
-• If this operative is retaliating, you resolve the first attack dice (i.e. defender instead
-of attacker).
+Alguna armas en este equipo tienen la regla Repress.\n
+\n-**Repress**: Cuando un Operativo usa esta arma:\n
+\n• Cada uno de tus bloqueos puede ser usado para bloquar dos exitos sin resolver (en lugar de uno).\n
+\n• Cuando este Operativo este retaleando, tu resuelves el primer dado de ataque (defensor en lugar del
+atacante).
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="reinforced_mirrovisor_lore"><![CDATA[
-This armoured visor is designed to shield the wearer
-from blinding and disorientating weapons or devices.
+Estos Visores estan designados para defender al portador de luces cegadoras y dispotivos desorientadores.
 ]]></string>
 
     <string name="reinforced_mirrovisor_description"><![CDATA[
-You can ignore any changes to the APL stat of friendly **EXACTION SQUAD** operatives, and
-they arent affected by enemy operatives’ Shock weapon rule.
+Puedes ignorar cualquier cambio a las estadisticas de APL de aliados **EXACTION SQUAD** operativos, y
+no son afectados por los efectos Shock de Operativos enemigos.
 ]]></string>
 
     <string name="manacles_lore"><![CDATA[
-These adamantine manacles prevent captive subjects from escaping custody.
+Estas esposas hechas de Adamantio previenen que el objetivo escape de la custodia.
 ]]></string>
 
     <string name="manacles_description"><![CDATA[
-Whenever an enemy operative would perform
-the **Fall Back** action while within control range
-of a friendly **EXACTION SQUAD** operative, if no
-other enemy operatives are within that friendly
-operatives control range, you can use this rule.
-If you do, roll two D6, or one D6 if that enemy
-operative has a higher Wounds stat than that
-friendly operative. If any result is a 4+, that enemy
-operative cannot perform that action during that
-activation/counteraction (no AP are spent on it),
-and you cannot use this rule again during this
-turning point.
+Cuando un enemigo vaya a realizar la accion **Fall Back** mientras este en rango de control de un aliado
+**EXACTION SQUAD**, si no hay otros Operativos enemigos dentro del rango de control de ese Operativo aliado,
+puedes usar esta regla. Si lo haces, lanza dos D6 o un D6 si ese enemigo tiene una estadistica de heridas
+mayor que la del Operativo aliado, si cualquier resultado es 4+, ese enemigo no puede hacer esa accion durante
+esa activacion/Counteract (no se gasta Ap en ese caso), y no puedes usar esa regla otra vez durante este
+turno.
 ]]></string>
 
     <string name="strobing_phosphorlumen_lore"><![CDATA[
-The brilliant white, flickering light of this rotating lumen
-device has the effect of disorientating foes caught in its beam.
+Las brillantes luces blancas en los dispotivos del Exaction squad tienen el efecto de desorientar al
+enemigo
 ]]></string>
 
     <string name="strobing_phosphorlumen_description"><![CDATA[
-Whenever an enemy operative is shooting against, fighting against or retaliating against a
-friendly **EXACTION SQUAD** operative within 2\" of it, your opponent cannot re-roll their attack dice
-results of 1.
+Cuando un enemigo este disparando, combatiendo o retaleando contra un aliado **EXACTION SQUAD** a 2\"
+de el, tu oponente no puede re-rollear dados resultados de 1.
 ]]></string>
 
     <string name="special_issue_shells_lore"><![CDATA[
-Arbites shotguns can be loaded with a wide range of specialist ammunition, including but not limited to
-incendiary rounds and armour-piercing slugs.
+Las escopetas de los Arbites pueden ser cargad con una gran gama de municion especialm incluyendo pero
+no limitada a municion incendiaria o cartuchos penetrantes.
 ]]></string>
 
     <string name="special_issue_shells_description"><![CDATA[
-Up to twice per turning point, when a friendly
-**EXACTION SQUAD** operative is performing the
-**Shoot** action and you select a combat shotgun,
-executioner shotgun, scoped shotpistol or
-shotpistol, you can use this rule. If you do, select
-one of the following weapon rules for that weapon
-to have until the end of that action:\n
-• Saturate.\n
-• Piercing 1, but only if the target has a Save stat of 3+ or better.\n
-• Torrent 1", but you cannot select more than one secondary target.\n
+Hasta dos veces por turno, cuando un aliado **EXACTION SQUAD** este haciendo la accion de **Disparo**
+y seleccionas un Combat Shotgun, Executioner Shotgun, Scoped Shotpistol o Shotpistol, puedes usar
+esta regla. Si lo haces, selecciona uno de los siguientes efectos para esa arma durante el resto
+de la accion:\n
+\n• Saturate.\n
+\n• Piercing 1, pero solo si el objetivo tiene salvacion de 3+ o mejor.\n
+\n• Torrent 1\", pero no puedes seleccionar a mas de un objetivo secundario.
 ]]></string>
 
 
@@ -435,68 +370,50 @@ friendly operatives ranged weapons have the Balanced weapon rule.
 
     <!--Firefight ploys-->
     <string name="long_arm_emperor_law_lore"><![CDATA[
-No one escapes the merciless judgement of the Adeptus Arbites.
+Nadie escapa el despiadado juico del Adeptus Arbites.
 ]]></string>
 
     <string name="long_arm_emperor_law_description"><![CDATA[
-Use this firefight ploy when a friendly **EXACTION SQUAD** operative is performing the **Shoot**
-action and you select a weapon with the Range x weapon rule (excluding frag or krak grenade).
-Until the end of that action, add 3\" to x.
+Usa esta Firefight ploy cuando un aliado **EXACTION SQUAD** haga una accion de **Disparo** y seleccionas
+un arma con la regla Range x (excluyendo granadas Frag o Krak). Hasta el final de esa accion, aumenta
+el rango a 3\" mas.
 ]]></string>
 
     <string name="exact_punishment_lore"><![CDATA[
-To strike against an Arbitrator is an offence punishable by immediate termination.
+Golpear a un Arbiter es una ofensa castigada con muerte inmediata.
 ]]></string>
 
     <string name="exact_punishment_description"><![CDATA[
-Use this firefight ploy after an enemy operative shoots against or fights against a friendly
-**EXACTION SQUAD** operative within 6\" of it, and that friendly operative isnt incapacitated as a
-result. That friendly operative can immediately perform either a free **Shoot** or a free **Fight** action,
-but you cannot select any other enemy operative as a valid target or to fight against during that
-action (note that secondary targets from the Blast weapon rule can still be targeted).
+Usa esta Firefight ploy cuando un enemigo dispare o combata contra un aliado **EXACTION SQUAD** a 6\" de
+el, si ese aliado no es incapacitado despues de esa accion. Ese aliado puede inmediatamente hacer una
+accion de **Disparo** o **Combate** gratis, pero no puedes seleccionar otro Operativo enemigo como
+objetivo (objetivos secundarios por blast aun pueden ser seleccionados).
 ]]></string>
 
     <string name="brutal_backup_lore"><![CDATA[
-When combating the most belligerent of foes,
-Arbitrators may combine their considerable might to
-bludgeon the guilty with baton and maul.
+Cuando combated contra los enemigos mas belicos, los Arbiters combinan su fuerza para abatirlo.
 ]]></string>
 
     <string name="brutal_backup_description"><![CDATA[
-Use this firefight ploy during a friendly **EXACTION
-SQUAD** operatives activation, before or after it
-performs an action. Select one enemy operative
-within its control range. One other friendly
-**EXACTION SQUAD** operative can immediately
-perform a free **Fight** action, but you cannot select
-any other enemy operative to fight against during
-that action.
+Usa esta Firefight ploy durante la activacion de un aliado **EXACTION SQUAD**, antes o despues de
+que haga una accion. Selecciona un Operativo enemigo dentro de su rango de control. Otro Operativo aliado
+**EXACTION SQUAD** puede inmediatamente hacer una accion de **Combate** gratis, pero no puede seleccionar
+otro enemigo durante esa accion.
 ]]></string>
 
     <string name="execution_order_lore"><![CDATA[
-Those who have earned the ire of the Imperium are
-marked by the Adeptus Arbites for execution, their
-termination prioritised.
+Aquellos que ganan la ira del Imperium son marcados por el Adeptus Arbites para su pronta ejecucion.
 ]]></string>
 
     <string name="execution_order_description"><![CDATA[
-Use this firefight ploy when an enemy operative performs a mission action (excluding Operate
-Hatch). Alternatively, use it at the end of the Firefight phase and select one enemy operative
-that controls an objective marker. \n
-
-In either case, the next time your opponent would
-activate that enemy operative, you can interrupt
-that activation and activate a ready friendly
-**EXACTION SQUAD** operative. If you do, during
-that activation, that friendly operative must shoot
-against or fight against that enemy operative, and
-cannot do so against any other enemy operatives
-until it does (if this isnt possible, that friendly
-operatives activation is cancelled).\n
-After completing that friendly operatives
-activation, continue that enemy operatives
-activation (if possible). You cannot use this ploy
-again until that enemy operative is activated
-or incapacitated.
+Usa esta Firefight ploy cuando un Operativo enemigo este haciendo una accion de mission (excepto Operate
+Hatch). Alternativamente, usalo al final de la Firefight fase y selecciona un Operativo enemigo que
+controle un objetivo.\n
+\nEn cualquier caso, la proxima vez que tu oponente vaya a activar a ese Operativo enemigo, puedes
+interrumpir esa activacion y activar un aliado **EXACTION SQUAD** que no haya activado (Ready). Si lo
+haces, durante esa activacion, ese aliado debe **Disparar** o **Combatir** contra ese enemigo, y no puede
+hacerlo contra otro Operativo enemigo (si esto no es posible, esa activacion aliada es cancelada).\n
+\nDespues de completar esa activacion aliada, continua esa activacion enemiga (si es posible).
+No puedes seleccionar esta Ploy nuevamente hasta que ese Operativo enemigo sea activado o incapacitado.
 ]]></string>
 </resources>

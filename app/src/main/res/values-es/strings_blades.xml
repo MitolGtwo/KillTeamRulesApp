@@ -35,7 +35,7 @@ seleccionas Shimmershield al inicio de la batalla.
     ]]></string>
 
     <string name="banshee_mask_description"><![CDATA[
-Cuando este Operativo está combatiendo, empeora la estadística Hit de las armas de melee de los Operativos enemigos en 1. Esto no se acumula al estar herido.
+Cuando este Operativo está combatiendo, empeora la estadística Hit de las armas de melee de los Operativos enemigos en 1. Esto no se acumula al estar **Lesionado**.
     ]]></string>
 
     <string name="mandiblasters_usage"><![CDATA[
@@ -167,7 +167,7 @@ prueban seguir siendo una amenaza aunque estén gravemente heridos.
 
     <string name="raging_heat_description"><![CDATA[
 Usa este **ASPECT TECHNIQUE** durante la activación de un **DIRE AVENGER** aliado. Hasta el inicio de su próxima activación, puedes ignorar cambios a sus estadisticas
-por estar herido (incluyendo estadísticas de armas).
+por estar **Lesionado** (incluyendo estadísticas de armas).
 ]]></string>
 
     <string name="patient_blow_lore"><![CDATA[

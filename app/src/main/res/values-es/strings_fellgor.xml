@@ -4,35 +4,35 @@
     <!--Fellgor-->
 
     <string name="call_the_attack_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="call_the_attack_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative does not have one of your Frenzy tokens. Select one friendly **FELLGOR
-RAVAGER** operative visible to and within 6\" of this operative. That selected operative, and each other
-friendly **FELLGOR RAVAGER** operative visible to and within 2\" of it, can immediately perform a free
-**Dash** action in an order of your choice.
+**STRATEGIC GAMBIT**. Si este Operativo no tiene uno de tus Frenzy tokens. Selecciona un aliado
+**FELLGOR RAVAGER** visible y a 6\" de este Operativo. Ese operativo seleccionado y cada otro aliado
+**FELLGOR RAVAGER** visible y a 2\" de el, pueden hacer un **Dash** gratis inmediatamente en el orden
+de tu eleccion.
     ]]></string>
 
     <string name="fellgor_icon_bearer_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="fellgor_icon_bearer_description"><![CDATA[
-This operative is not affected by the marker control bullet point of the Frenzy faction rule.
-Whenever determining control of a marker, treat this operatives APL stat as 1 higher.
-Note this is not a change to its APL stat, so any changes are cumulative with this.
+Este Operativo no es afectado por la restriccion de tener solo 1APL de control cuando tiene un
+Frenzy token. Cuando determines el control de un objetivo, trata la estadistica de APL de este Operativo
+como si tuviera 1 mas. Notese que esto no es un cambio de APL, cualquier cambio es acumulativo con
+esto.
     ]]></string>
 
     <string name="war_gong_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="war_gong_description"><![CDATA[
-Whenever an attack dice would inflict Critical Dmg on
-a friendly **FELLGOR RAVAGER** operative within 3\" of this
-operative, if this operative does not have one of your Frenzy tokens,
-you can choose for that attack dice to inflict Normal Dmg instead.
+Cuando un dado de ataque vaya a infligir daño critico a un aliado **FELLGOR RAVAGER** a 3\" de
+este Operativo, si este Operativo no tiene un Frenzy token, puede escoger que ese dado haga daño
+normal en su lugar.
     ]]></string>
 
     <string name="gong_knell_usage"><![CDATA[
@@ -40,21 +40,18 @@ you can choose for that attack dice to inflict Normal Dmg instead.
     ]]></string>
 
     <string name="gong_knell_description"><![CDATA[
-Until the start of this operatives next activation or until
-this operative is incapacitated (whichever comes first),
-whenever an operative is shooting this operative, improve
-this operatives Save stat by 1 and ignore the Piercing
-weapon rule.
+Hasta el inicio de la proxima activacion de este Operativo, o hasta que este Operativo sea incapacitado
+(lo que pase lo primero), cuando un Operativo este disparando a este Operativo, mejora su estadistica
+de Salvacion por 1 e ignora la regla Piercing.
     ]]></string>
 
     <string name="blade_whirl_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="blade_whirl_description"><![CDATA[
-Whenever this operative is fighting or retaliating, if it does not have
-one of your Frenzy tokens, you can resolve one of your successes before the normal
-order. If you do, that success must be used to block.
+Cuando este Operativo este Combatiendo o Retaleando, si no tiene un Frenzy token, puedes resolver uno
+de tus exitos antes que el orden normal. Si lo haces, ese exito debe ser usado para bloquear.
     ]]></string>
 
     <string name="cleaver_flurry_usage"><![CDATA[
@@ -62,20 +59,21 @@ order. If you do, that success must be used to block.
     ]]></string>
 
     <string name="cleaver_flurry_description"><![CDATA[
-Perform a free **Reposition** action with this operative. During that action, it can
-move an additional 2\", and can move within control range of enemy operatives (it
-cannot begin or end the move there). Inflict D3+1 damage on each enemy operative
-it moved within control range of (roll separately for each after it is moved, in the
-order it moved within control range of them).\n\n
-This operative cannot perform this action while it has a **Conceal** order.
+Haz una **Reposicion** gratis con este Operativo. Durante esa accion, puede moverse 2\" adicionales, y
+puede moverse dentro del rango de control de Operativos enemigos (no puede empezar o terminar un movimiento
+en rango de control enemigo). Inflige D3+1 heridas a cada Operativo enemigo en cual este Operativo haya
+pasado por su rango de control (lanza el dado por separado despues de que haya terminado el movimiento,
+en el orden de Operativos que pasaron por el rango de control).\n\n
+
+Este Operativo no puede hacer esta accion si tiene una orden de **Conceal**.
     ]]></string>
 
     <string name="sagacious_usage"><![CDATA[
-At the end of this operatives activation, you can change its order.
+        Pasiva
     ]]></string>
 
     <string name="sagacious_description"><![CDATA[
-
+Al final de la activacion de este Operativo, puedes cambiar su orden.
     ]]></string>
 
     <string name="uncompromoising_attack_usage"><![CDATA[
@@ -83,20 +81,20 @@ At the end of this operatives activation, you can change its order.
     ]]></string>
 
     <string name="uncompromoising_attack_description"><![CDATA[
-Perform a free **Fight** action with this operative, then perform a free **Shoot** action
-with this operative (or vice versa). This operative can perform that **Shoot** action
-while within control range of an enemy operative, but if it does, it can and must
-target an enemy operative within its control range (even if other friendly operatives
-are within that enemy operative’s control range). You can only select an autopistol
-for that **Shoot** action.
+Haz una accion gratis de **Combate** con este Operativo, luego haz una accion gratis de **Disparo**
+con este Operativo (o viceversa). Este Operativo puede hacer esa accion de **Disparo** mientras estes
+en rango de control de un Operativo enemigo, pero si lo hace, puede y debe seleccionar ese Operativo
+enemigo que este dentro de su rango de control (incluso si otros Operativos aliados estan dento del
+rango de control de ese Operativo enemigo). Solo puedes seleccionar un Autopistol para esa accion
+de **Disparo**.
     ]]></string>
 
     <string name="fellgor_champion_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="fellgor_champion_description"><![CDATA[
-This operative can perform two **Fight** actions during its activation.
+Este Operativo puede hacer dos acciones de **Combate** durante su activacion.
     ]]></string>
 
     <string name="headtaker_usage"><![CDATA[
@@ -104,24 +102,22 @@ This operative can perform two **Fight** actions during its activation.
     ]]></string>
 
     <string name="headtaker_description"><![CDATA[
-Whenever this operative incapacitates an operative with this weapon, roll one D3:\n
-\n
-• This operative regains a number of lost wounds equal to the result (unless it has a Frenzy token).\n
-\n
-• Until the end of the battle, add the result to the Critical Dmg stat of this operatives skullcleaver (to a maximum of 8).
+Cuando este Operativo incapacita a un enemigo con esta arma, lanza un D3:\n
+\n• Este Operativo recupera un numero de heridas perdidas igual al resultado (a menos que tenga un
+Frenzy token).\n
+\n• Hasta el final de la batalla, añade el resultado al daño critico de Skullcleaver de este Operativo
+(hasta un maximo de 8).
     ]]></string>
 
     <string name="whip_control_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="whip_control_description"><![CDATA[
-Whenever an enemy operative is visible to and within 3\" of this operative, if this operative is not
-within control range of any other enemy operatives:\n
-\n
-• Subtract 1 from the Atk stat of that enemy operatives melee weapons (to a minimum of 1).\n
-\n
-• Your opponent must spend 1 additional AP for that enemy operative to perform the **Fall Back** action.
+Cuando un enemigo sea visible y este a 3\" de este Operativo, si este Operativo no esta
+dentro del rango de control de cualquier otro Operativo enemigo:\n
+\n• Sustrae 1 de la estadistica de ATK de armas de melee de ese Operativo (hasta un minimo de 1).\n
+\n• Tu oponente debe gastar 1 AP adicional para hacer una accion de **Fall Back**.
     ]]></string>
 
     <string name="incite_fury_usage"><![CDATA[
@@ -129,11 +125,11 @@ within control range of any other enemy operatives:\n
     ]]></string>
 
     <string name="incite_fury_description"><![CDATA[
-**SUPPORT.** Select one other friendly **FELLGOR RAVAGER** operative (excluding **SHAMAN** or
-**IRONHORN**) visible to and within 3\" of this operative. Until the end of that operatives next
-activation, add 1 to its APL stat. \n\n
+**SUPPORT.** Selecciona un aliado **FELLGOR RAVAGER** (excluyendo **SHAMAN** o **IRONHORN**) visible
+y a 3\" de este Operativo. Hasta el final de la proxima activacion de ese Operativo, añade 1 a su
+estadistica de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="tactual_hunter_usage"><![CDATA[
@@ -141,37 +137,30 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="tactual_hunter_description"><![CDATA[
-Whenever this operative is fighting with this
-weapon against an expended operative, the first time you
-strike with a critical success during that sequence, you can
-immediately resolve another of your successes as a strike (before
-your opponent).
+Cuando este Operativo este combatiendo con esta arma contra un Operativo que ya haya activado (expended),
+la primera vez que golpes con un exito critico en esa secuencia, puedes inmediatamente resolver otro exito
+como un golpe (antes que tu oponente).
     ]]></string>
 
     <string name="berserker_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="berserker_description"><![CDATA[
-This operative cannot perform the Shoot action
-(other than **Guard**, but cannot then perform a free **Shoot**
-action during the interruption). You must spend 1 additional AP
-for this operative to perform the Pick Up Marker and mission
-actions (excluding Operate Hatch).
+Este Operativo no puede Disparar (aun puede hacer **Guard**, pero no puede hacer una accion de
+**Disparo** gratis durante esa interrupcion). Debes gastar 1 AP adicional para hacer acciones de
+**Pick Up marker** o acciones de mision (exluyendo Operate Hatch).
     ]]></string>
 
     <string name="savage_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="savage_description"><![CDATA[
-The first time this operative performs the **Fight** action
-during each of its activations, if it is not incapacitated, it can
-immediately perform a free **Fight** action afterwards (you do not
-have to select the same enemy operative to fight against). This
-takes precedence over action restrictions, and you cannot
-use the Ruthless Rampage firefight ploy between those two
-**Fight** actions.
+La primera vez que este Operativo hace una accion de **Combate** durante cada una de sus activaciones,
+si no es incapacitado, puede inmediatamente hacer una accion de **Combate** gratis despues (no tienes
+que seleccionar el mismo enemigo para combatir). Esto toma precedencia sobre las restricciones de accion,
+y no puedes usar la Firefight ploy Ruthless Rampage entre esas dos acciones de **Combate**.
     ]]></string>
 
     <string name="apoplectic_rejuvenation_usage"><![CDATA[
@@ -179,11 +168,11 @@ use the Ruthless Rampage firefight ploy between those two
     ]]></string>
 
     <string name="apoplectic_rejuvenation_description"><![CDATA[
-Select one friendly **FELLGOR RAVAGER** operative that does not have one of your Frenzy tokens and
-is visible to and within 6\" of this operative. That friendly operative regains up to 2D3 lost wounds;
-if that operative has incapacitated an enemy operative while fighting or retaliating during the battle, it regains up to 6 lost wounds instead.
-\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Selecciona un aliado **FELLGOR RAVAGER** que no tenga un Frenzy token, que sea visible y a 6\" de este
+Operativo. Ese aliado recupera 2D3 heridas perdidas. Si ese Operativo ese Operativoha incapacitado
+a un Operativo en un Combate o Retaleo durante la batalla, recuperas 6 Heridas en su lugar.
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="mantle_of_darkness_usage"><![CDATA[
@@ -191,41 +180,33 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="mantle_of_darkness_description"><![CDATA[
-**PSYCHIC.** Until the start of this operatives next activation
-or until it is incapacitated (whichever comes first), whenever
-a friendly **FELLGOR RAVAGER** operative is visible to
-and within 3\" of this operative, has a **Conceal** order and is in
-cover, that friendly operative cannot be selected as a valid
-target, taking precedence over all other rules (e.g. Seek,
-Vantage terrain) except being within 2\"\n\n
+**PSYCHIC.** Hasta el inicio de la proxima activacion de este Operativo, o hasta que sea incapacitado
+(lo que pase primero), cuando un aliado FELLGOR RAVAGER** visible y a 3\" de este este Operativo, tiene
+una orden de **Conceal** y esta en cobertura, ese aliado no puede ser seleccionado como un objetivo
+valido, esto toma precedencia sobre todas las otras reglas, excepto estar a 2\".\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="toxic_blessings_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="toxic_blessings_description"><![CDATA[
-You can ignore any changes to this operatives
-APL stat and it is not affected by enemy operatives Shock
-weapon rule. Whenever an attack dice inflicts Normal Dmg of 3
-or more on this operative, roll one D6: on a 5+, subtract 1 from
-that inflicted damage.
+Puedes ignorar cualquier cambio a las estadisticas de APL para este Operativo, y no es afectado por
+la regla Shock. Cuando un dado de ataque inflige daño normal de 3 o mas a este Operativo, lanza un
+D6: al 5+, sustrae 1 al daño infligido.
     ]]></string>
 
     <string name="pox_bomb_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="pox_bomb_description"><![CDATA[
-This operative can use stun grenades (see universal
-equipment). Doing so does not count towards any limited uses
-you have (i.e. if you also select that grenade from equipment for
-other operatives). Whenever an enemy operative takes a stun
-test as a result of this operative performing the Stun Grenade
-action, if the result is a 3+, also inflict damage on that enemy
-operative equal to the dice result halved (rounding up).
+Este Operativo puede usar granadas de Stun (Vease equipamiento universal). Al hacerlo no cuenta
+sobre el limite que tengas. Cuando un Operativo enemigo toma un Stun test como resultado de una accion
+de Stun de este Operativo, si el resultado es 3+, inflige daño a ese Operativo igual a la mitad del
+resultado de ese dado (redondeando hacia arriba).
     ]]></string>
 
     <string name="vicious_blows_usage"><![CDATA[
@@ -233,7 +214,7 @@ operative equal to the dice result halved (rounding up).
     ]]></string>
 
     <string name="vicious_blows_description"><![CDATA[
-Whenever this operative is fighting, this weapon has the Ceaseless weapon rule.
+Cuando este Operativo esta Combatiendo, esta arma gana la regla Ceaseless.
     ]]></string>
 
     <string name="sweeping_blow_usage"><![CDATA[
@@ -241,119 +222,94 @@ Whenever this operative is fighting, this weapon has the Ceaseless weapon rule.
     ]]></string>
 
     <string name="sweeping_blow_description"><![CDATA[
-Inflict D3+1 damage on each other operative visible to and within 2\" of this operative.\n\n
-This operative cannot perform this action while it has a **Conceal** order
+Inflige D3+1 heridas a cada otro Operativo visible y a 2\" de este Operativo.\n\n
+Este Operativo no puede hacer esta accion si tiene una orden de **Conceal**.
     ]]></string>
 
     <string name="warrior_frenzy_usage"><![CDATA[
-        Passive
+        Pasive
     ]]></string>
 
     <string name="warrior_frenzy_description"><![CDATA[
-Whenever this operative has one of your Frenzy
-tokens, it cannot be injured. This takes precedence over the normal Frenzy rules.
+Cuando este Operativo tiene un Frenzy token, sus estadisticas no pueden ser empeoradas por
+estar **Lesionado**. Esto toma precedencia sobre las reglas normales de Frenzy.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="frenzy_lore"><![CDATA[
-Fellgor Ravagers channel their pain into an animalistic
-frenzy, dismissing wounds and bursting with aggression.
+Los Fellgor Ravagers canalizan su dolor como frenesi salvaje, ignorando heridas e impulsandose por
+mera agresividad.
 ]]></string>
 
     <string name="frenzy_description"><![CDATA[
-Whenever a friendly **FELLGOR RAVAGER**
-operative that does not have one of your Frenzy
-tokens would be incapacitated during the battle,
-it is not incapacitated and it gains one of your
-Frenzy tokens. All remaining attack dice are
-discarded (including yours if this operative is
-fighting or retaliating). If it has a **Conceal** order,
-change it to **Engage**.\n
+Cuando un aliado **FELLGOR RAVAGER** que no tenga un Frenzy token vaya a ser incapacitado durante
+la batalla, no es incapacitado y gana uno de tus tokens Frenzy. Todos los dados restantes son descartados
+(incluyendo los tuyos). Si este Operativo tiene una orden de **Conceal**, cambialo a **Engage**.\n
+\nCuando un aliado **FELLGOR RAVAGER** tiene uno de tus tokens Frenzy:\n
+\n• Solo es incapacitado si cumple las ordenes listadas abajo.\n
+\n• No puede tener una orden de **Conceal**.\n
+\n• Esta **Lesionado** (pierde 2\" de movimiento y la estadistica de Hit se empeora por 1).\n
+\n• No puede hacer la accion **Pick up Marker**, acciones unicas (Excluyendo **Sweeping Blow** del
+**VANDAL**) o acciones de mision (excluyendo Operate Hatch).\n
+\n• Al momento de determinar control en objetivos, trata la estadistica de APL de este Operativo como
+si tuviera 1. Esto toma precedencia sobre cualquier cambio a estadisticas.\n
 \n
-Whenever a friendly **FELLGOR RAVAGER** operative has one of your Frenzy tokens:\n
+\nUn Operativo **FELLGOR RAVAGER** que tenga uno de tus Frenzy tokens es incapacitado cuando
+alguna de las siguientes reglas se cumplen:\n
+\n• Su activacion o Counteract termina.\n
+\n• Un Operativo enemigo esta combatiendo o retaleando, y tu Oponente golpea con un exito critico.\n
+\n• Un Operativo enemigo esta combatiendo o retaleando, y tu oponente golpea por segunda vez
+con un exito normal. Notese que pueden ser golpes de dos acciones de **Combate** distintas.\n
+\n• Un Operativo enemigo esta disparando e inflige daño critico.\n
+\n• La batalla termina (resuelve esto antes de cualquier condicion de victoria al final de la batalla)\n
 \n
-• It is only incapacitated as detailed overleaf.\n
-\n
-• It cannot have a **Conceal** order.\n
-\n
-• It is injured.\n
-\n
-• It cannot perform the **Pick Up Marker**, unique
-(excluding **Sweeping Blow**, see **VANDAL**) or
-mission actions (excluding **Operate Hatch**).\n
-\n
-• For the purpose of determining control of markers, treat its APL stat as 1. This takes
-precedence over any stat changes.\n
-\n
-A friendly **FELLGOR RAVAGER** operative that has
-one of your Frenzy tokens is incapacitated when one of the following is met:\n
-\n
-• Its activation or counteraction ends.\n
-\n
-• An enemy operative is fighting against or retaliating against it and your opponent
-strikes with a critical success.\n
-\n
-• An enemy operative is fighting against or retaliating against it and your opponent strikes
-it for a second time with a normal success. Note this can be strikes from two different
-**Fight** actions.\n
-\n
-• An enemy operative is shooting it and Critical Dmg is inflicted on it.\n
-\n
-• The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n
-\n
-Your opponent treats a **FELLGOR RAVAGER** operative as being incapacitated (instead of when
-it would be incapacitated normally) when it gains one of your Frenzy tokens for the purposes of
-scoring VPs (e.g. kill op) and faction rules that
-require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.).
+\nTu Oponente trata a esos Operativos **FELLGOR RAVAGER** como si estuvieran incapacitados (en vez de una
+incapacitacion normal) cuando gana un frenzy token para resolver reglas que dependan de esto (Kill Ops, TacOps)
+o reglas de faccion que dependan de incapacitar enemigos (Ej Goremongers, Chaos Cult, etc).
 ]]></string>
 
     <!--Equipment-->
 
     <string name="brass_adornments_lore"><![CDATA[
-Brass-plated hooves, horn caps or welded spikes incite
-within the Fellgor Ravagers an even greater lust for
-violence, and provide them with additional weapons
-with which to mete it out.
+Pezuñas reforzada o cuernos con puas soldadas incitan a los Fellgors a perseguir violencia y agresion
+cada vez mayor, brindandoles armas necesarias para cumplir con su lujuria sangrienta.
 ]]></string>
 
     <string name="brass_adornments_description"><![CDATA[
-Once per battle, you can use the Animalistic Fury and Wild Rage firefight ploys for 0CP each.
+Una vez por batalla, puedes usar la ploy Animalistic Fury y Wild rage por 0CP cada una.
 ]]></string>
 
     <string name="gore_marks_lore"><![CDATA[
-Inflicted upon a Fellgor Ravager by their Shamans, these
-wounds continue to bleed as the battle unfolds, the
-stench of fresh blood empowering the Beastmen.
+Los Shamanes de los Fellgor infligen heridas a sus aliados, estas heridas continuan sangrando mientras
+la batalla de desarrola, el olor de la sangre empodera a estas bestias.
 ]]></string>
 
     <string name="gore_marks_description"><![CDATA[
-Once per turning point, when a friendly **FELLGOR RAVAGER** operative is fighting or retaliating,
-you can use this rule. If you do, inflict 1 damage on that friendly operative and re-roll one of
-your attack dice. If the result is a fail, inflict 1 additional damage on that friendly operative.
+Una vez por turno, cuando un aliado **FELLGOR RAVAGER** este Combatiendo o Retaleando, puedes usar
+esta regla. Si lo haces, inflige 1 herida a este Operativo aliado y re-rollea uno de tus
+dados de ataque. Si el resultado es un fallo, inflige 1 daño adicional a ese Operativo aliado.
 ]]></string>
 
     <string name="fellgor_chaos_sigil_lore"><![CDATA[
-Imbued with warp energies and blessed by a Shaman,
-this icon offers protection to a dedicated worshipper of the Dark Gods
+Imbuidos con energias del inmaterium y bendecidos por sus Shamanes, estos iconos ofrecen proteccion
+a sus creyentes de los dioses oscuros.
 ]]></string>
 
     <string name="fellgor_chaos_sigil_description"><![CDATA[
-Once per turning point, when an operative is shooting a friendly **FELLGOR RAVAGER**
-operative, at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x
-of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would
-therefore be ignored.
+Una vez por turno, cuando un Operativo este disparando a un aliado **FELLGOR RAVAGER**, al inicio
+de la fase de lanzar dados de defensa, puedes usar esta regla. Si lo haces, empeora el valor de la
+regla Piercing a 1 menos hasta el fin de esa secuencia. Notese que Piercing 1 seria ignorado en este caso.
 ]]></string>
 
     <string name="war_paint_lore"><![CDATA[
-Applied in ritual fashion prior to battle, war paint
-emboldens the Fellgor Ravagers to shrug off their
-wounds and hurl themselves into the fight.
+Los Fellgor cubren su cuerpo con pinturas ritualisticas antes de la batalla, haciendo que sean mas
+temerarios e ignoren heridas al combatir.
 ]]></string>
 
     <string name="war_paint_description"><![CDATA[
-You can ignore any changes to the Move stat of
-friendly **FELLGOR RAVAGER** operatives from being injured.
+Puedes ignorar cualquier cambio a la estadistica de Movimineto de aliados **FELLGOR RAVAGER** por
+estar **Lesionados**.
 ]]></string>
 
 
@@ -361,114 +317,92 @@ friendly **FELLGOR RAVAGER** operatives from being injured.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="violent_temperament_lore"><![CDATA[
-Fellgor Beastmen are driven by primal savagery, striking
-at their foes with frenzied blow after frenzied blow.
+Las bestias Fellgor son motivadas por agresividas primal, golpeando a sus enemigos con golpe frenetico
+tras golpe frenetico.
 ]]></string>
 
     <string name="violent_temperament_description"><![CDATA[
-Whenever a friendly **FELLGOR RAVAGER** operative is fighting or retaliating, after rolling
-your attack dice, you can use this rule. If you
-do, you must re-roll all of your attack dice (you cannot only re-roll some).
+Cuando un aliado **FELLGOR RAVAGER** esta combatiendo o retaleando, despues de lanzar tus dados de ataque,
+puedes usar esta regla. Si lo haces, debes re-rollear todos tus dados de ataque (ni puedes re-rollear
+solo algunos).
 ]]></string>
 
     <string name="fellgor_ambush_lore"><![CDATA[
-Fellgor Ravagers utilise cover and darkness to strike
-from the shadows and butcher the enemy.
+Los Fellgor usan la oscuridad para golpear desde las sombras y mutilar a sus enemigos.
 ]]></string>
 
     <string name="fellgor_ambush_description"><![CDATA[
-Whenever a friendly **FELLGOR RAVAGER**
-operative is activated, if its order is changed
-from **Conceal** to **Engage**, it is ambushing for
-that activation. Whenever a friendly **FELLGOR
-RAVAGER** operative that is ambushing is fighting,
-you can retain one of your normal successes
-as a critical success instead. Note that an
-operative that has one of your Frenzy tokens
-cannot ambush
+Cuando un aliado **FELLGOR RAVAGER** active, si su orden fue cambiada de **Conceal** a **Engage**, esta
+emboscando durante esa activacion.\n
+\nCuando un aliado **FELLGOR RAVAGER** este emboscando y combate, puedes retener uno de tus exitos
+normales como un exito critico en su lugar. Notese que aliados con un token Frenzy no pueden emboscar.
 ]]></string>
 
     <string name="pelting_firepower_lore"><![CDATA[
-Though it may lack accuracy, the combined firepower
-of a group of Fellgor Ravagers is rendered lethal by its volume.
+Pese a carecer de presicion, el poder de fuego combinado de Fellgors puede ser letal por su volumen.
 ]]></string>
 
     <string name="pelting_firepower_description"><![CDATA[
-Whenever a friendly **FELLGOR RAVAGER**
-operative is shooting an enemy operative that is
-been shot by another friendly **FELLGOR
-RAVAGER** operative during this turning point,
-that first friendly operatives ranged weapons
-have the Ceaseless weapon rule; if the enemy
-operative has been shot by more than one other
-friendly **FELLGOR RAVAGER** operative during
-this turning point, that first friendly operatives
-ranged weapons have the Relentless weapon
-rule instead.
+Cuando un aliado **FELLGOR RAVAGER** este disparando a un enemigo que ya haya sido disparado por otro aliado
+**FELLGOR RAVAGER** durante este turno, este Operativo gana la regla Ceaseless, si el Operativo enemigo
+ha sido disparado mas de una vez por otro aliado **FELLGOR RAVAGER** durante este turno, este Operativo
+gana la regla Relentless en su lugar.
 ]]></string>
 
     <string name="reckless_determination_lore"><![CDATA[
-Such is their determination to slaughter the enemy
-that the Fellgor Ravagers will shrug off volleys of incoming fire.
+La determinacion por asesinar al enemigo es capaz de hacer que los Fellgor ignoren disparos enemigos.
 ]]></string>
 
     <string name="reckless_determination_description"><![CDATA[
-Whenever an enemy operative is shooting an expended friendly **FELLGOR RAVAGER**
-operative, if you cannot retain any cover saves, you can retain one of your defence dice as a
-normal success without rolling it.
+Cuando un Operativo enemigo este disparando a un aliado **FELLGOR RAVAGER** que ya haya activado (expended),
+si no puedes retener dados por cobertura, puedes retener uno de tus dados normales como un exito normal sin
+tener que lanzarlo.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="ruthless_rampage_lore"><![CDATA[
-With each kill they make, so are the Fellgor Ravagers
-driven to new heights of fury with which to chase down their foes.
+Con cada muerte que aseguran, los Fellgor son empujados a nuevas alturas de ira para perseguir a sus enemigos.
 ]]></string>
 
     <string name="ruthless_rampage_description"><![CDATA[
-Use this firefight ploy after a friendly **FELLGOR
-RAVAGER** operative performs the **Fight**
-action, if it is no longer within control range of
-enemy operatives. That friendly operative can
-immediately perform a free **Charge** action (even
-if it is already performed the **Charge** action during
-that activation), but cannot move more than 3\"
-during that action.
+Usa esta Firefight ploy cuando un aliado **FELLGOR RAVAGER** haga la accion de **Combatir**, si deja de estar
+en rango de control de Operativos enemigos. Ese aliado puede hacer inmediatamente una accion de **Cargar**
+gratis (incluso aunque haya hecho una accion de **Carga** durante esa activacion), pero no puede moverse mas de
+3\" durante esa accion.
 ]]></string>
 
     <string name="wild_rage_lore"><![CDATA[
-When Fellgor Ravagers find themselves overcome by
-bestial rage, they are able to move with terrifying speed.
+Cuando un Fellgor se encuentra a si mismo
+
+When Fellgor Ravagers find themselves overcome by superado por ira bestial, se vuelve capaz de moverse
+a una velocidad temible.
 ]]></string>
 
     <string name="wild_rage_description"><![CDATA[
-Use this firefight ploy when a friendly **FELLGOR RAVAGER** operative is activated. Until the
-end of that operatives activation, add 1\" to its Move stat.
+Usa esta Firefight ploy cuando un aliado **FELLGOR RAVAGER** es activado. Hasta el final de esa activacion,
+añade 1\" a la estadistica de Movimiento.
 ]]></string>
 
     <string name="animalistic_fury_lore"><![CDATA[
-When whipped into a frenzy, Fellgor Ravagers strike with
-terrifying strength and brutality.
+Cuando se hunden en locura, los Fellgors golpean con extrema brutalidad.
 ]]></string>
 
     <string name="animalistic_fury_description"><![CDATA[
-Use this firefight ploy when a friendly **FELLGOR RAVAGER** operative is fighting or retaliating
-and you strike with a critical success. Inflict 1 additional damage with that strike.
+Usa esta Firefight ploy cuando un aliado **FELLGOR RAVAGER** este combatiendo o retaleando y golpeas
+con un exito critico. inflige 1 daño adicional con ese golpe.
 ]]></string>
 
     <string name="bloodsense_lore"><![CDATA[
-As the blood flows, a contagious battle-frenzy
-overcomes the Fellgor Ravagers.
+Cuando la sangre fluye, una locura contagiosa acecha a los Fellgors.
 ]]></string>
 
     <string name="bloodsense_description"><![CDATA[
-Use this firefight ploy during a friendly **FELLGOR RAVAGER** operatives activation, when it
-incapacitates an enemy operative within its control range. Select one other ready friendly
-**FELLGOR RAVAGER** operative that is visible
-to and within 3\" of the incapacitated enemy operative. When that first friendly operative is
-expended, you can activate that other friendly operative before your opponent activates. When
-that other operative is expended, your opponent then activates as normal.
+Usa esta Firefight ploy durante la activacion de un **FELLGOR RAVAGER** aliado, cuando incapacita
+a un enemigo dentro de su rango de control. Selecciona otro aliado **FELLGOR RAVAGER** que no haya
+activado (Ready) que sea visible y este a 3\" del enemigo incapacitado. Cuando ese primer aliado
+termina su activacion, puedes activar ese otro aliado antes de que tu Oponente active. Cuando ese
+segundo aliado termine su activacion, tu oponente activa normalmente.
 ]]></string>
-
 </resources>
