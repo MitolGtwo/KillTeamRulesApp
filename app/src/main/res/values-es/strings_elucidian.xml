@@ -9,8 +9,8 @@
 ]]></string>
 
     <string name="elucidian_beast_description"><![CDATA[
-Este Operativo no puede hacer ninguna accion otra que **Carga, Dash, Fall Back, Combatir, Gather,
-Guard, Reposition, Pick up** y **Place Maker**. No puede usar armas que no esten en su tarjeta
+Este Operativo no puede hacer ninguna acción otra que **Carga, Dash, Fall Back, Combatir, Gather,
+Guard, Reposition, Pick up** y **Place Maker**. No puede usar armas que no estén en su tarjeta
 de personaje.
 ]]></string>
 
@@ -19,12 +19,12 @@ de personaje.
 ]]></string>
 
     <string name="loyal_companion_description"><![CDATA[
-Cuando un enemigo hace una accion de **Combatir**, si este Operativo es un objetivo valiado para
-combatir en contra, puedes forzarlo a que seleccione este Operativo en su lugar.\n
-\nCuando un enemigo termina su accion de **Cargar** dentro del rango de control de otro Operativo
-aliado  **ELUCIDIAN STARSTRIDER** que este a 3\" de este Operativo, si este Operativo no esta en rango de
-control con un enemigo, ese Operativo puede inmediatamente hacer una accion de **Carga** gratis
-(puedes cambiar su orden a Engage para hacerlo), pero debe terminar ese moviminto dentro del rango
+Cuando un enemigo hace una acción de **Combatir**, si este Operativo es un objetivo valiado para
+Para combatir en contra, puedes forzarlo a que seleccione este Operativo en su lugar.\n
+\nCuando un enemigo termina su acción de **Cargar** dentro del rango de control de otro Operativo
+aliado  **ELUCIDIAN STARSTRIDER** que esté a 3\" de este Operativo, si este Operativo no está en rango de
+control con un enemigo, ese Operativo puede inmediatamente hacer una acción de **Carga** gratis
+(puedes cambiar su orden a Engage para hacerlo), Pero debe terminar ese movimiento dentro del rango
 de control de ese Operativo enemigo.
 ]]></string>
 
@@ -33,9 +33,9 @@ de control de ese Operativo enemigo.
 ]]></string>
 
     <string name="gather_description"><![CDATA[
-Haz una accion de **Dash** o una **Reposicion** gratis con este Operativo. durante ese movimiento puede
-hacer una accion **Pick up Marker** o **Place Marker** gratis (puedes determinar el control durante esa accion),
-y cualquier distancia restante del **Dash** o **Reposicion** puede usarse despues.
+Haz una acción de **Dash** o una **Reposición** gratis con este Operativo. Durante ese movimiento puede
+hacer una acción **Pick up Marker** o **Place Marker** gratis (puedes determinar el control durante esa acción),
+y cualquier distancia restante del **Dash** o **Reposicion** puede usarse después.
 ]]></string>
 
     <string name="digital_lasers_usage"><![CDATA[
@@ -43,8 +43,8 @@ y cualquier distancia restante del **Dash** o **Reposicion** puede usarse despue
 ]]></string>
 
     <string name="digital_lasers_description"><![CDATA[
-Cuando este Operativo hace una accion de **Combatir**, al inicio de la fase de lanzar dados de combate
-puedes usar esta regla. Si lo haces, inflige 1 herida a ese Operativo enemigo en esa secuencia.
+Cuando este Operativo hace una acción de **Combatir**, al inicio de la fase de lanzar dados de combate
+, puedes usar esta regla. Si lo haces, inflige 1 herida a ese Operativo enemigo en esa secuencia.
 ]]></string>
 
     <string name="merciless_usage"><![CDATA[
@@ -52,9 +52,9 @@ puedes usar esta regla. Si lo haces, inflige 1 herida a ese Operativo enemigo en
 ]]></string>
 
     <string name="merciless_description"><![CDATA[
-Cuando este Operativo este disparando, combatiendo o retaleando contra un Operativo enemigo que ya haya sido
-herido cuando esta accion empezo. las armas de este Operativo ganan la regla Balanced, si el arma ya
-tenia esa regla, gana la reglas Ceaseless en su lugar.
+Cuando este Operativo esté disparando, combatiendo o retaleando contra un Operativo enemigo que ya haya sido
+herido cuando esta acción empezó. las armas de este Operativo ganan la regla Balanced, si el arma ya
+tenia esa regla, gana la regla Ceaseless en su lugar.
 ]]></string>
 
     <string name="disruption_field_usage"><![CDATA[
@@ -62,7 +62,7 @@ tenia esa regla, gana la reglas Ceaseless en su lugar.
 ]]></string>
 
     <string name="disruption_field_description"><![CDATA[
-Cuando un Operativo este disparando a este Operativo, ignora la regla Piercing.
+Cuando un Operativo esté disparando a este Operativo, ignora la regla Piercing.
 ]]></string>
 
     <string name="reputation_to_maintain_usage"><![CDATA[
@@ -72,7 +72,7 @@ Cuando un Operativo este disparando a este Operativo, ignora la regla Piercing.
     <string name="reputation_to_maintain_description"><![CDATA[
 La primera vez que este Operativo incapacita un enemigo durante la batalla, puedes ganar 1 Cp o usar
 un **WARRANT OF TRADE** adicional (hasta 5 por batalla en lugar de cuatro). Nota que aun no puedes usar la misma
-**WARRANT OF TRADE** mas de una vez por batalla.
+**WARRANT OF TRADE** más de una vez por batalla.
 ]]></string>
 
     <string name="rapid_reflexes_usage"><![CDATA[
@@ -80,7 +80,7 @@ un **WARRANT OF TRADE** adicional (hasta 5 por batalla en lugar de cuatro). Nota
 ]]></string>
 
     <string name="rapid_reflexes_description"><![CDATA[
-Cuando un Operativo esta disparando a este Operativo, ignora el Piercing.
+Cuando un Operativo está disparando a este Operativo, ignora el Piercing.
 ]]></string>
 
     <string name="elucidian_bladed_stance_usage"><![CDATA[
@@ -88,8 +88,8 @@ Cuando un Operativo esta disparando a este Operativo, ignora el Piercing.
 ]]></string>
 
     <string name="elucidian_bladed_stance_description"><![CDATA[
-Cuando este Operativo este Combatiendo o Retaleando, puedes resolver uno de tus exitos antes del orden normal.
-Si lo haces, ese exito debe ser usado para bloquear.
+Cuando este Operativo esté combatiendo o retaleando, puedes resolver uno de tus éxitos antes del orden normal.
+Si lo haces, ese éxito debe ser usado para bloquear.
 ]]></string>
 
     <string name="elucidian_zealot_usage"><![CDATA[
@@ -97,8 +97,8 @@ Si lo haces, ese exito debe ser usado para bloquear.
 ]]></string>
 
     <string name="elucidian_zealot_description"><![CDATA[
-Si este Operativo es incapacitado durante una accion de **Combate**, puedes golpear a Operativo enemigo
-con uno de tus dados sin resolver en esa secuencia, despues este Operativo es removido del campo.
+Si este Operativo es incapacitado durante una acción de **Combate**, puedes golpear a Operativo enemigo
+con uno de tus dados sin resolver en esa secuencia, después este Operativo es removido del campo.
 ]]></string>
 
     <string name="elucidian_trained_assasin_usage"><![CDATA[
@@ -108,7 +108,7 @@ con uno de tus dados sin resolver en esa secuencia, despues este Operativo es re
     <string name="elucidian_trained_assasin_description"><![CDATA[
 Cambia la orden de este Operativo.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
 ]]></string>
 
     <string name="missionary_martian_creed_usage"><![CDATA[
@@ -116,8 +116,8 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 ]]></string>
 
     <string name="missionary_martian_creed_description"><![CDATA[
-Una vez durante cada activacion de este Operativo, puede hacer la accion **Pick Up Marker**,
-**Place Marker** o una accion de mission for 1 AP menos.
+Una vez durante cada activación de este Operativo, puede hacer la acción **Pick Up Marker**,
+**Place Marker** o una acción de misión por 1 AP menos.
 ]]></string>
 
     <string name="voltaghiest_array_usage"><![CDATA[
@@ -125,7 +125,7 @@ Una vez durante cada activacion de este Operativo, puede hacer la accion **Pick 
 ]]></string>
 
     <string name="voltaghiest_array_description"><![CDATA[
-Cuando un Operativo este disparando a un aliado **ELUCIDIAN STARSTRIDER** que este a 4\" de
+Cuando un Operativo esté disparando a un aliado **ELUCIDIAN STARSTRIDER** que esté a 4\" de
 este Operativo, puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
@@ -134,14 +134,14 @@ este Operativo, puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
     <string name="calibrate_voltagheist_description"><![CDATA[
-Selecciona uno de los siguientes efectos para que dure hasta el inicio de la siguiente activacion
-de este Operativo, hasta que sea incapacitado, o hasta que haga esta accion otra vez (lo que pase
+Selecciona uno de los siguientes efectos para que dure hasta el inicio de la siguiente activación
+de este Operativo, hasta que sea incapacitado, o hasta que haga esta acción otra vez (lo que pase
 primero):\n
 \n • Sobrecarga: La Voltaic Pistol de este Operativo gana la regla Lethal 4+.\n
-\n • Campo Electrico: Cuando un Operativo enemigo termina una **Carga, Dash, Fall back** o **Reposicion**
+\n • Campo Eléctrico: Cuando un Operativo enemigo termina una **Carga, Dash, Fall back** o **Reposición**
 a 4\" de este Operativo, inflige D6 heridas a ese Operativo.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
 ]]></string>
 
     <string name="elucidian_medic_usage"><![CDATA[
@@ -150,14 +150,14 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 
     <string name="elucidian_medic_description"><![CDATA[
 La primera vez durante cada turno en el que un aliado **ELUCIDIAN STARSTRIDER** vaya a ser incapacitado
-mientras sea visible y a 3\" de este Operativo, puedes usar esta regla, siemple y cuando ni ese o este
-Operativo esten dentro del rango de control de este Operativo.\n
+Mientras sea visible y a 3\" de este Operativo, puedes usar esta regla, siempre y cuando ni ese o este
+Operativo está dentro del rango de control de este Operativo.\n
 \nSi lo haces, ese Operativo no es incapacitado, tiene 3 heridas restantes y no puede ser incapacitado
-por el resto de la accion. Despues de esa accion, ese Operativo aliado puede inmediatamente hacer una
-accion gratis de **Dash**, pero debe terminar ese movimiento dentro del rango de control de este Operativo.\n
-\nSi esta regla fue usada durante la activacion de ese Operativo aliado, su activacion termina.\n\n
+por el resto de la acción. Después de esa acción, ese Operativo aliado puede inmediatamente hacer una
+Acción gratis de **Dash**, pero debe terminar ese movimiento dentro del rango de control de este Operativo.\n
+\nSi esta regla fue usada durante la activación de ese Operativo aliado, su activación termina.\n\n
 
-No puedes usar esta regla si este Operativo es incapacitado, o si la accion de **Disparo** incluye a
+No puedes usar esta regla si este Operativo es incapacitado, o si la acción de **Disparo** incluye a
 este Operativo como objetivo primario o secundario.
 ]]></string>
 
@@ -166,8 +166,8 @@ este Operativo como objetivo primario o secundario.
 ]]></string>
 
     <string name="normaliser_helm_description"><![CDATA[
-Cuando un aliado **ELUCIDIAN STARSTRIDER** esta a 6\" de este Operativo, puedes ignorar cualquier cambio
-a las estadisticas por estar **Lesionado** (incluyendo estadisticas de armas).
+Cuando un aliado **ELUCIDIAN STARSTRIDER** está a 6\" de este Operativo, puedes ignorar cualquier cambio
+a las estadísticas por estar **Lesionado** (incluyendo estadísticas de armas).
 ]]></string>
 
     <string name="healing_serum_usage"><![CDATA[
@@ -175,11 +175,11 @@ a las estadisticas por estar **Lesionado** (incluyendo estadisticas de armas).
 ]]></string>
 
     <string name="healing_serum_description"><![CDATA[
-Selecciona un aliado **ELUCIDIAN STARSTRIDER** que este dentro del rango de control de este Operativo
+Selecciona un aliado **ELUCIDIAN STARSTRIDER** que esté dentro del rango de control de este Operativo
 para que recupere D3+3 heridas perdidas. No puede usarse en un Operativo con el que se haya usado la
-regla Medic! durante este turno.\n\n
+regla Medic! Durante este turno.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
 ]]></string>
 
     <string name="disciplinarian_usage"><![CDATA[
@@ -187,9 +187,9 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 ]]></string>
 
     <string name="disciplinarian_description"><![CDATA[
-**SUPPORT.** Cuando otro aliado **ELUCIDIAN STARSTRIDER NAVIS** esta a 3\" de este Operativo, las
+**SUPPORT.** Cuando otro aliado **ELUCIDIAN STARSTRIDER NAVIS** está a 3\" de este Operativo, las
 armas de distancia de esos Operativos (excluyendo **PRIVATEER SUPPORT ASSET**) ganan la regla Balanced,
-si el arma ya tenia esa regla, gana la regla Ceaseless en lugar de Balanced.
+si el arma ya tenía esa regla, gana la regla Ceaseless en lugar de Balanced.
 ]]></string>
 
     <string name="elucidian_hardy_usage"><![CDATA[
@@ -210,8 +210,8 @@ Haz dos acciones gratis de **Disparo** con este Operativo (esto toma precedencia
 normales). Debes seleccionar su Relic Laspistol para un disparo y su Artificer Shotgun (close range)
 para el otro disparo (en cualquier orden).\n\n
 
-Este Operativo no puede hacer esta accion mientras tenga una orden de Conceal, o durante una activacion
-en la que haya hecho una accion de **Disparo** o viceversa.
+Este Operativo no puede hacer esta acción mientras tenga una orden de Conceal, o durante una activación
+        en la que haya hecho una acción de **Disparo** o viceversa.
 ]]></string>
 
     <string name="crewmen_usage"><![CDATA[
@@ -222,63 +222,62 @@ en la que haya hecho una accion de **Disparo** o viceversa.
 Una vez por turno, cuando vayas a hacer un Counteract, si no has usado un **PRIVATEER SUPPORT ASSET**
 durante este turno, puedes usar esta regla. Si lo haces, puedes hacer un Counteract con un
 aliado **ELUCIDIAN STARSTRIDER VOIDSMAN** que tenga una orden de **Conceal**, pero durante esa
-Counteract no puede hacer ninguna accion que no sea usar un **ELUCIDIAN STARSTRIDER VOIDSMAN**.
+Counteract no puede hacer ninguna acción que no sea usar un **ELUCIDIAN STARSTRIDER VOIDSMAN**.
 ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="warrant_of_trade_lore"><![CDATA[
-El permiso de un Rogue Trader le permite navegar por todo el Imperium. Con mas flexibilidad que cualquier
+El permiso de un Rogue Trader le permite navegar por todo el Imperium. Con más flexibilidad que cualquier
 otro agente del Imperium, comercian, intimidad y toman cualquier objeto que les pueda dar una ventaja.
 ]]></string>
 
     <string name="warrant_of_trade_description"><![CDATA[
-Hasta 4 veces por batalla, puedes usar un **WARRANT OF TRADE** (ver abajo). Cada uno especifica cuando
-puede ser usada, y no puedes usar la misma **WARRANT OF TRADE** mas de una vez por batalla.\n
+Hasta 4 veces por batalla, puedes usar un **WARRANT OF TRADE** (ver abajo). Cada uno especifica cuándo
+puede ser usada, y no puedes usar la misma **WARRANT OF TRADE** más de una vez por batalla.\n
 \n**Consideration**
-\n**Cuando**: En la fase de selecciona Operativos, despues de revelar tus equipamientos.
+\n**Cuando**: En la fase de selección Operativos, después de revelar tus equipamientos.
 \n**Efecto**: Selecciona un equipamiento adicional. No puede ser un equipo que ya hayas seleccionado.\n
 \n**Coordinate**
 \n**Cuando**: Al final de la fase de seleccionar Operativos.
 \n**Efecto**: Ganas 1 Cp adicional.\n
 \n**Coerce**
 \n**Cuando**: Al inicio de la fase de poner Operativos en la mesa.
-\n**Efecto**: Tu Oponentde debe poner todos sus Operativos en la mesa antes de que pongas alguno de tus
-Operativos. Adicionalmente, selecciona una de las siguientes accion:\n
-\n• Tu Oponente debe poner todo su equipamiento en el campo antes de que tu pongas alguno.\n
-\n• Puedes poner todo tu equipamiento antes de que tu Oponente ponga alguna.\n
+\n**Efecto**: Tu Oponente debe poner todos sus Operativos en la mesa antes de que pongas alguno de tus
+Operativos. Adicionalmente, selecciona una de las siguientes acciones:\n
+\n• Tu Oponente debe poner todo su equipamiento en el campo antes de que tú pongas alguno.\n
+\n• Puedes poner todo tu equipamiento antes de que tu Oponente ponga alguno.\n
 \n**Explore**
 \n**Cuando**: **STRATEGIC GAMBIT** en el primer turno.
-\n**Efecto**: Haz una **Reposicion** gratis con D3 aliados **ELUCIDIAN STARSTRIDER** que esten
+\n**Efecto**: Haz una **Reposicion** gratis con D3 aliados **ELUCIDIAN STARSTRIDER** que estén
 completamente en tu zona de deployment. Cada uno debe terminar completamente a 4\" de tu
 zona de deployment.\n
 \n**Bribe**
 \n**Cuando**: Cuando sea tu turno de activar un Operativo.
-\n**Efecto**: Puedes saltar esa activacion.\n
+\n**Efecto**: Puedes saltar esa activación.\n
 \n**Seize**
-\n**Cuando**: En la fase estrategica, despues de lanzar dados por iniciativa.
+\n**Cuando**: En la fase estratégica, después de lanzar dados por iniciativa.
 \n**Efecto**: Puedes re-rollear tu dado.\n
 \n**Adaptable**
 \n**Cuando**: Al final del segundo turno.
 \n**Efecto**: Selecciona una nueva Tac Op o una nueva Primary Op. Si seleccionas una nueva Tac Op, cualquier
-cantidad de puntos de victoria ganados por esa Tac Op previa son descartados.\n
+cantidad de puntos de victoria ganados por esa Tac Op previa son descartados.
 
 ]]></string>
 
     <string name="privateer_support_assets_lore"><![CDATA[
-Los Starstriders nunca estan muy lejos de su nave el New Dawn. encima de ellos yace la artilleria
-lista para explotar a sus enemigos con soporte aereo.
+Los Starstriders nunca están muy lejos de su nave el New Dawn. Encima de ellos yace la artillería lista para explotar a sus enemigos con soporte aéreo.
 ]]></string>
 
     <string name="privateer_support_assets_description"><![CDATA[
 Una vez por Firefight Fase, cuando un aliado **ELUCIDIAN STARSTRIDER NAVIS** o **STARSTRIDER ELUCIA VHANE**
-vaya a hacer una accion de **Disparar**, puedes seleccionar una de las siguientes armas **PRIVATEER SUPPORT ASSET**
-para hacerlos. No puedes seleccionar cada **PRIVATEER SUPPORT ASSET** mas de una vez por batalla.\n
-\nCuando un aliado **ELUCIDIAN STARSTRIDER** esta usando un **PRIVATEER SUPPORT ASSET**, determina
+vaya a hacer una acción de **Disparar**, puedes seleccionar una de las siguientes armas **PRIVATEER SUPPORT ASSET**
+para hacerlos. No puedes seleccionar cada **PRIVATEER SUPPORT ASSET** más de una vez por batalla.\n
+\nCuando un aliado **ELUCIDIAN STARSTRIDER** está usando un **PRIVATEER SUPPORT ASSET**, determina
 cobertura de una forma distinta. El objetivo tiene cobertura si cualquier parte de su base
-esta debajo de terreno aventajado. Notese que esto affecta la salvacion de cobertura, pero
-aun debe ser un objetivo valido normalmente. En otras palabras, el disparo es guiado por un Operativo
+esta debajo de terreno aventajado. Notese que esto afecta la salvación de cobertura, pero
+aun debe ser un objetivo válido normalmente. En otras palabras, el disparo es guiado por un Operativo
 en el campo, pero viene desde arriba.
 ]]></string>
 
@@ -286,45 +285,45 @@ en el campo, pero viene desde arriba.
     <!--Equipment-->
 
     <string name="armoured_undersuit_lore"><![CDATA[
-Placas de metal reenforzadas son ligadas a los uniformes, otorgando una capa adicional de proteccion.
+Placas de metal reforzadas son ligadas a los uniformes, otorgando una capa adicional de protección.
 ]]></string>
 
     <string name="armoured_undersuit_description"><![CDATA[
-Cuando un Operativo este disparando a un aliado **ELUCIDIAN STARSTRIDER** (exluyendo **CANID**) que
-tenga una Salvacion de 5+, puedes retener uno de tus dados de defensa con un resultado de 4 como un exito
+Cuando un Operativo esté disparando a un aliado **ELUCIDIAN STARSTRIDER** (excluyendo **CANID**) que
+tenga una salvación de 5+, puedes retener uno de tus dados de defensa con un resultado de 4 como un éxito
 normal.
 ]]></string>
 
     <string name="hot_shot_capacitor_packs_lore"><![CDATA[
-Modificaciones inestables pero letales para las Lasguns les dan poder de fuerno necesario para
-derribar enemigos mas grandes que ellos, pese al riezgo de accidentes.
+Modificaciones inestables pero letales para las Lasguns les dan poder de fuego necesario para
+derribar enemigos más grandes que ellos, pese al riesgo de accidentes.
 ]]></string>
 
     <string name="hot_shot_capacitor_packs_description"><![CDATA[
-Hasta dos veces por turno, cuando un aliado **ELUCIDIAN STARSTRIDER** este haciendo una accion de
+Hasta dos veces por turno, cuando un aliado **ELUCIDIAN STARSTRIDER** esté haciendo una acción de
 **Disparo** y seleccionas un Laspistol, Lasgun o Relic Laspistol, puedes usar esta regla. Si lo haces,
-hasta el final del turno añade 1 a ambas estadisticas de daño de esa arma, gana las regla Piercing Crits 1 y
+hasta el final del turno añade 1 a ambas estadísticas de daño de esa arma, gana las regla Piercing Crits 1 y
 Hot.
 ]]></string>
 
     <string name="improved_coordinates_uplink_lore"><![CDATA[
-Triangulaciones coorditadas por Navis Imperialis permiten que las armas del New Dawn puedan
-ser mas precisas contra el enemigo.
+Triangulaciones coordinadas por Navis Imperialis permiten que las armas del New Dawn puedan
+ser más precisas contra el enemigo.
 ]]></string>
 
     <string name="improved_coordinates_uplink_description"><![CDATA[
-Cuando un aliado **ELUCIDIAN STARSTRIDER** este usando una **PRIVATEER SUPPORT ASSET**, si el objetivo
-esta a 6\" de un aliado **ELUCIDIAN STARSTRIDER NAVIS**, el objetivo no puede estas Obscurecido y esa arma
+Cuando un aliado **ELUCIDIAN STARSTRIDER** esté usando una **PRIVATEER SUPPORT ASSET**, si el objetivo
+Está a 6" de un aliado **ELUCIDIAN STARSTRIDER NAVIS**, el objetivo no puede estar oscurecido y esa arma
 gana la regla Saturate.
 ]]></string>
 
     <string name="rapid_gunnery_lore"><![CDATA[
-La artilleria colosal del New Dawn son dificiles de recargas. Solo veretanos poseen la velocidad y
+La artillería colosal del New Dawn es difícil de recargar. Solo veretanos poseen la velocidad y
 coordinacion de dispararlas rapidamente.
 ]]></string>
 
     <string name="rapid_gunnery_description"><![CDATA[
-Una vez por batalla, cuando selecciones un **PRIVATEER SUPPORT ASSET**, puedes selecciona una que
+Una vez por batalla, cuando selecciones un **PRIVATEER SUPPORT ASSET**, puedes seleccionar una que
 ya hayas usado durante la batalla. Esto toma precedencia sobre las reglas normales de **PRIVATEER SUPPORT ASSET**.
 ]]></string>
 
@@ -339,54 +338,54 @@ alcance.
 ]]></string>
 
     <string name="lethal_proximity_description"><![CDATA[
-Cuando un aliado **ELUCIDIAN STARSTRIDER** este disparando a un Operativo a 6\" de el, las armas a
+Cuando un aliado **ELUCIDIAN STARSTRIDER** esté disparando a un Operativo a 6\" de él, las armas a
 distancia de ese aliado (excluyendo **PRIVATEER SUPPORT ASSET**) ganan la regla Balanced.
 ]]></string>
 
     <string name="elucidian_stake_claim_lore"><![CDATA[
-Cuando Elucia Vhane marca un objetivo, los Starstriders hacen el maximo esfuerzo para asegurase que
+Cuando Elucia Vhane marca un objetivo, los Starstriders hacen el máximo esfuerzo para asegurarse de que
 el objetivo caiga en sus manos.
 ]]></string>
 
     <string name="elucidian_stake_claim_description"><![CDATA[
-Pon tu token de **Reclamacion** en el campo, cuando un aliado **ELUCIDIAN STARSTRIDER** dispare, combata
+Pon tu token de **Reclamación** en el campo, cuando un aliado **ELUCIDIAN STARSTRIDER** dispare, combata
 o retalee contra un enemigo a 3\" de ese marcador, en la fase de lanzar dados de ataque, puedes retener
-uno de tus fallos como un resultado normal en lugar de descartarlo, o retener un exito normal
-como un exito critico.
+uno de tus fallos como un resultado normal en lugar de descartarlo, o retener un éxito normal
+como un éxito crítico.
 ]]></string>
 
     <string name="undaunted_explorers_lore"><![CDATA[
-Los Starstriders han soportado tormentas terribles durante sus viajes en el vacio, y son capaces de
+Los Starstriders han soportado tormentas terribles durante sus viajes en el vacío, y son capaces de
 soportar heridas capaces de derribar a soldados normales.
 ]]></string>
 
     <string name="undaunted_explorers_description"><![CDATA[
 La primera vez que un dado de ataque inflige daño a cada Operativo **ELUCIDIAN STARSTRIDER** durante
 el turno, en la fase de resolver dados, puedes reducir a la mitad ese daño infligido (redondeando hacia
-arriba, hasta un minimo de 2).
+arriba, hasta un mínimo de 2).
 ]]></string>
 
     <string name="quick_march_lore"><![CDATA[
-Tan temerarios como cualquier elite del Astra Militarum, los Elucian Starstriders avanzan rapidamente
-para flanquear e isolar a sus enemigos.
+Tan temerarios como cualquier elite del Astra Militarum, los Elucian Starstriders avanzan rápidamente 
+        para flanquear e isolar a sus enemigos.
 ]]></string>
 
     <string name="quick_march_description"><![CDATA[
-Cuando un aliado **ELUCIDIAN STARSTRIDER** hace la accion de **Reposicion** durante su activacion,
-puedes usar esta regla. Si lo haces, añade 1\" a su estadistica de Movimiento hasta el final de la
-activacion, pero debe terminar ese movimiento mas cerca de la zona de deployment de tu oponente y no
-puede usar un **PRIVATEER SUPPORT ASSET** durante su activacion.
+Cuando un aliado **ELUCIDIAN STARSTRIDER** hace la acción de **Reposicion** durante su activación,
+puedes usar esta regla. Si lo haces, añade 1\" a su estadística de Movimiento hasta el final de la
+activación, pero debe terminar ese movimiento más cerca de la zona de deployment de tu oponente y no
+puede usar un **PRIVATEER SUPPORT ASSET** durante su activación.
 ]]></string>
 
     <!--Firefight ploys-->
     <string name="elucidian_combined_arms_lore"><![CDATA[
-El entrenamiento estandar del Navis Imperialis permite que los Starstriders disparen incesatemente,
+El entrenamiento estándar del Navis Imperialis permite que los Starstriders disparen incesantemente,
 de tal forma que hasta la humilde Lasgun puede penetrar defensas formidables.
 ]]></string>
 
     <string name="elucidian_combined_arms_description"><![CDATA[
-Usa esta Firefight ploy despues de lanzar tus dados de ataque para un aliado **ELUCIDIAN STARSTRIDER**,
-si esta disparando a un enemigo que ya haya sido disparado por otro aliado **ELUCIDIAN STARSTRIDER**
+Usa esta Firefight ploy después de lanzar tus dados de ataque para un aliado **ELUCIDIAN STARSTRIDER**,
+si está disparando a un enemigo que ya haya sido disparado por otro aliado **ELUCIDIAN STARSTRIDER**
 durante este turno. Puedes re-rollear cualquier dado de ataque. No puedes usar esta ploy mientras disparas
 con un **PRIVATEER SUPPORT ASSET**.
 ]]></string>
@@ -398,29 +397,29 @@ para regresar en la batalla.
 
     <string name="elucidian_survivalist_description"><![CDATA[
 Usa esta Firefight ploy cuando un aliado **ELUCIDIAN STARSTRIDER** es activado. Ese aliado recupera
-D3+2 heridas perdidas y durante esa activacion puede ignorar cualquier cambio a su estadistica de APL.
+D3+2 heridas perdidas y durante esa activación puede ignorar cualquier cambio a su estadística de APL.
 ]]></string>
 
     <string name="great_endurance_lore"><![CDATA[
-Cada miembro de Navis Imperialis asignado al Rogue Trader es la elite de la elite y es preparado
-para soportar los terrenos y batallas mas duras.
+Cada miembro de Navis Imperialis asignado al Rogue Trader es la élite de la élite y es preparado
+para soportar los terrenos y batallas más duras.
 ]]></string>
 
     <string name="great_endurance_description"><![CDATA[
-Usa esta Firefight ploy durante la activacion de un aliado **ELUCIDIAN STARSTRIDER NAVIS**.
-Hasta el final de esa activacion, añade 1 a su estadistica de APL.
+Usa esta Firefight ploy durante la activación de un aliado **ELUCIDIAN STARSTRIDER NAVIS**.
+Hasta el final de esa activación, añade 1 a su estadística de APL.
 ]]></string>
 
     <string name="well_drilled_lore"><![CDATA[
-Entrenados regularmente en el arte de abordar, los miembros del Navis Imperialis estan bajo
+Entrenados regularmente en el arte de abordar, los miembros del Navis Imperialis están bajo
 la expectativa de coordinar golpes precisos para completar la mision.
 ]]></string>
 
     <string name="well_drilled_description"><![CDATA[
 Usa esta Firefight ploy cuando un aliado **ELUCIDIAN STARSTRIDER NAVIS** es activado. Selecciona
 otro aliado **ELUCIDIAN STARSTRIDER NAVIS** que no haya activado (Ready) visible y a 3\" de este
-Operativo. Cuando ese primer Operativo aliado termina su activacion, puedes activar ese otro
-aliado antes de que tu Oponente active, una vez ese segundo Operativo termina su activacion, tu oponente
+Operativo. Cuando ese primer Operativo aliado termina su activación, puedes activar ese otro
+aliado antes de que tu Oponente active, una vez ese segundo Operativo termina su activación, tu oponente
 activa normalmente.
 ]]></string>
 
