@@ -65,8 +65,8 @@ range of an enemy operative.
 
     <string name="storm_eilede_execution_description"><![CDATA[
  Whenever this operative is within your **STORM:**\n
- • It can perform the **Guard** action regardless of the killzone (see close quarters rules, Kill Team Core Book).\n
-• It can perform the **Guard** action while it has a **Conceal** order, but if it does, it cannot perform more than one **Shoot** action for the
+\n• It can perform the **Guard** action regardless of the killzone (see close quarters rules, Kill Team Core Book).\n
+\n• It can perform the **Guard** action while it has a **Conceal** order, but if it does, it cannot perform more than one **Shoot** action for the
 rest of the turning point (i.e. it cannot Shoot both during the interruption and during counteract).
     ]]></string>
 
@@ -78,8 +78,8 @@ rest of the turning point (i.e. it cannot Shoot both during the interruption and
 Select one of the following rules for all profiles of this
 operatives instigator bolt carbine to have until the start of its
 next activation:\n
-• Severe.\n
-• Saturate, and whenever this operative is shooting with that
+\n• Severe.\n
+\n• Saturate, and whenever this operative is shooting with that
 weapon, enemy operatives cannot be obscured.\n\n
 This operative cannot perform this action while within control
 range of an enemy operative.
@@ -93,8 +93,8 @@ range of an enemy operative.
 
     <string name="tempest_fury_description"><![CDATA[
 Whenever this operative is within your **STORM:**\n
-• All profiles of its plasma gun have the Punishing weapon rule.\n
-• Its plasma gun (supercharge) does not have the Hot weapon rule.
+\n• All profiles of its plasma gun have the Punishing weapon rule.\n
+\n• Its plasma gun (supercharge) does not have the Hot weapon rule.
     ]]></string>
 
     <string name="fierce_temperament_usage"><![CDATA[
@@ -130,12 +130,12 @@ you gain 1CP and twice during the second turning point you can use Command Re-ro
     <string name="call_the_storm_description"><![CDATA[
 **PSYCHIC**. Remove your Storm marker from the killzone (if
 any), then place it in the killzone.\n
-PSYCHIC. Alternatively, instead of resolving the above
+\n**PSYCHIC** Alternatively, instead of resolving the above
 effect, select one friendly **WOLF SCOUT** operative.
 Until the start of this operatives next activation, until
 it is incapacitated or until it performs this action again
 (whichever comes first), whenever that friendly operative
-is within your STORM and more than 3\" from the active
+is within your **STORM** and more than 3\" from the active
 operative, it is obscured.\n\n
 This operative cannot perform this action while within control
 range of an enemy operative.
@@ -244,7 +244,7 @@ or two **Fight** actions. If it is two **Shoot** actions:\n
 \n
 • 1 additional AP must be spent for the second action if both actions are using a plasma gun or
 plasma pistol.\n
-• You cannot select two PSYCHIC ranged weapons.\n
+• You cannot select two **PSYCHIC** ranged weapons.\n
 \n
 Each friendly **WOLF SCOUT** operative can
 counteract regardless of its order. Whenever

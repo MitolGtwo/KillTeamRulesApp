@@ -6,8 +6,8 @@
     ]]></string>
 
     <string name="hand_cunning_description"><![CDATA[
-In the Gambit step of each Strategy phase, if this operative is in the killzone and you pass at the first opportunity, you gain
-1CP. Ignore each STRATEGIC GAMBIT from the mission pack (if any) when determining this.
+En el paso de Gambitos de cada Strategy Phase, si este Operativo esta en el campo, y pasas durante tu
+primera oportunidad, ganas 1CP. Ignora cada **STRATEGIC GAMBIT** de misiones cuando determines esto.
     ]]></string>
 
     <string name="tortorous_vision_usage"><![CDATA[
@@ -15,9 +15,8 @@ In the Gambit step of each Strategy phase, if this operative is in the killzone 
     ]]></string>
 
     <string name="tortorous_vision_description"><![CDATA[
-Once during each of this operatives activations, if it does not have any of your Pain tokens when it
-performs either the **Fight** or **Shoot** action, it can gain one of
-your Pain tokens when you select a valid target or an enemy operative to fight against.
+Una vez durante cada activacion, si no tiene uno de tus Pain tokens cuando hagas una accion de
+**Combatir** o **Disparar**, puede ganar uno de tus Pain tokens cuando seleccionas un objetivo valido.
     ]]></string>
 
     <string name="sadistic_competition_usage"><![CDATA[
