@@ -189,9 +189,7 @@ This operative cannot perform this action while within control range of an enemy
     <!--Faction Rules-->
 
     <string name="power_from_pain_lore"><![CDATA[
-The Drukhari feed on the souls of their slain and
-tortured victims, drawing sustenance from the terrible
-agonies they inflict.
+Los Drukhari se alimentan de las almas de sus víctimas asesinadas y torturadas, obteniendo sustento de las terribles agonías que les infligen.
 ]]></string>
 
     <string name="power_from_pain_description"><![CDATA[
@@ -237,8 +235,7 @@ free **Dash** action, even if it is performed an action that prevents it from pe
 ]]></string>
 
     <string name="hand_rifle_lore"><![CDATA[
-The long-barrelled splinter rifles carried by Kabalite
-Warriors are incredibly accurate in the hands of a skilled user.
+Los fusiles de fragmentación de cañón largo que portan los guerreros kabalitas son increíblemente precisos en manos de un usuario hábil.
 ]]></string>
 
     <string name="hand_rifle_description"><![CDATA[
@@ -252,9 +249,7 @@ those actions after shooting.
     <!--Equipment-->
 
     <string name="hand_chain_snare_lore"><![CDATA[
-Composed of hooked blades attached to a length of
-chain, this weapon bites into the flesh or armour of the
-wielder’s target, preventing them from fleeing.
+Compuesta por cuchillas curvas unidas a una cadena, esta arma se clava en la carne o la armadura del objetivo, impidiendo que este huya.
 ]]></string>
 
     <string name="hand_chain_snare_description"><![CDATA[
@@ -267,8 +262,7 @@ and you cannot use this rule again during this turning point.
 ]]></string>
 
     <string name="hand_wicked_blades_lore"><![CDATA[
-Light yet deadly, the jagged edge of this blade has been
-crafted to ensure maximum agony as it is plunged into the flesh of a victim.
+Ligera pero letal, el filo dentado de esta hoja ha sido diseñado para garantizar la máxima agonía al clavarse en la carne de la víctima.
 ]]></string>
 
     <string name="hand_wicked_blades_description"><![CDATA[
@@ -276,8 +270,7 @@ Add 1 to the Atk stat of friendly **HAND OF THE ARCHON** operatives array of bla
 ]]></string>
 
     <string name="toxin_coating_lore"><![CDATA[
-Drukhari raiders are known to coat their blades in
-venom, ensuring that even the slightest nick of blade against flesh is fatal.
+Se sabe que los asaltantes Drukhari recubren sus espadas con veneno, lo que garantiza que incluso el más mínimo roce de la hoja contra la carne sea fatal.
 ]]></string>
 
     <string name="toxin_coating_description"><![CDATA[
@@ -289,8 +282,7 @@ that sequence, that operatives melee weapon has the Lethal 5+ weapon rule.
 ]]></string>
 
     <string name="refined_poison_lore"><![CDATA[
-Splinter rounds are infused with exquisitely lethal
-concoctions distilled from the potent venoms and toxins of deadly flora and fauna.
+Las balas de fragmentación están impregnadas de brebajes exquisitamente letales, destilados a partir de los potentes venenos y toxinas de flora y fauna mortales.
 ]]></string>
 
     <string name="refined_poison_description"><![CDATA[
@@ -304,8 +296,8 @@ stinger pistol, you can use this rule. If you do, until the end of that action, 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="blade_artists_lore"><![CDATA[
-The Drukhari have made a macabre art form of melee
-combat, slaughtering their victims with flensing strikes and heart-piercing thrusts
+Los Drukhari han convertido el combate cuerpo a cuerpo en un arte macabro, masacrando a sus víctimas con golpes desgarradores y estocadas que atraviesan el corazón.
+
 ]]></string>
 
     <string name="blade_artists_description"><![CDATA[
@@ -313,8 +305,8 @@ Friendly **HAND OF THE ARCHON** operatives melee weapons have the Rending weapon
 ]]></string>
 
     <string name="merciless_sadists_lore"><![CDATA[
-The Drukhari are sustained by the agony of others and
-are devoid of pity. There is no act of depraved torture to which they will not stoop
+Los Drukhari se alimentan con la agonía ajena y carecen de piedad. No hay acto de tortura depravada al que no se rebajen.
+
 ]]></string>
 
     <string name="merciless_sadists_description"><![CDATA[
@@ -323,8 +315,7 @@ a wounded enemy operative, that friendly operatives weapons have the Balanced we
 ]]></string>
 
     <string name="from_darkness_death_lore"><![CDATA[
-Honour is an alien concept to the Drukhari. They
-make use of distraction and misdirection to butcher unsuspecting foes from the shadows.
+El honor es un concepto ajeno a los Drukhari. Se valen de la distracción y el engaño para masacrar a enemigos desprevenidos desde las sombras.
 ]]></string>
 
     <string name="from_darkness_death_description"><![CDATA[
@@ -335,8 +326,7 @@ that enemy operative, you can retain one of your normal successes as a critical 
 ]]></string>
 
     <string name="denizens_of_night_lore"><![CDATA[
-Hailing from Commorragh – the Dark City – the Drukhari
-are born and raised in shadow, and use it to conceal their movements.
+Originarios de Commorragh, la Ciudad Oscura, los Drukhari nacen y se crían en las sombras, y las utilizan para ocultar sus movimientos.
 ]]></string>
 
     <string name="denizens_of_night_description"><![CDATA[
@@ -349,9 +339,8 @@ friendly operatives base is underneath Vantage terrain, you can re-roll one of y
 
     <!--Firefight ploys-->
     <string name="cruel_deception_lore"><![CDATA[
-The denizens of the Dark City are well versed in deceit
-and betrayal. In battle, they put these talents to good
-use, hitting their foes hard before melting away into the shadows.
+Los habitantes de la Ciudad Oscura son expertos en el engaño y la traición. 
+En la batalla, hacen buen uso de estas habilidades, asestando duros golpes a sus enemigos antes de desvanecerse entre las sombras.
 ]]></string>
 
     <string name="cruel_deception_description"><![CDATA[
@@ -361,8 +350,7 @@ that operative can perform the **Fall Back** action for 1 less AP.
 ]]></string>
 
     <string name="devious_scheme_lore"><![CDATA[
-Schemers all, the Drukhari are used to staying one
-step ahead of their opponents and confounding their every move.
+Los Drukhari, todos ellos astutos, están acostumbrados a ir un paso por delante de sus oponentes y a desbaratar cada uno de sus movimientos.
 ]]></string>
 
     <string name="devious_scheme_description"><![CDATA[
@@ -372,8 +360,7 @@ this effect ends). You cannot use this ploy again during the battle until its ef
 ]]></string>
 
     <string name="heinous_arrogance_lore"><![CDATA[
-To the conceited Drukhari, all opponents are little more
-than vermin – to be ignored or exterminated.
+Para los engreídos Drukhari, todos los oponentes no son más que alimañas, a las que hay que ignorar o exterminar.
 ]]></string>
 
     <string name="heinous_arrogance_description"><![CDATA[
@@ -382,7 +369,7 @@ activate a friendly operative. You can skip that activation
 ]]></string>
 
     <string name="prey_on_the_wounded_lore"><![CDATA[
-Drukhari are drawn to agony, seeking out the injured to land a killing blow.
+Los Drukhari se sienten atraídos por el sufrimiento y buscan a los heridos para asestarles un golpe mortal.
 ]]></string>
 
     <string name="prey_on_the_wounded_description"><![CDATA[
