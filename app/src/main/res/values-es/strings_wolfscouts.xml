@@ -16,9 +16,9 @@ Una vez por batalla, después de lanzar dados para determinar iniciativa, si est
 
     <string name="grizzled_veteran_description"><![CDATA[
 La primera vez que este Operativo vaya a ser incapacitado durante la batalla, no es incapacitado,
-tiene 1 herida restante y no puede ser incapacitado por el resto de la accion. Todos los dados
+tiene 1 herida restante y no puede ser incapacitado por el resto de la acción. Todos los dados
 restantes son descartados (los tuyos y los de tu oponente). No puedes usar la Firefight ploy Counterattack
-o infligir daño como resultado de la Ploy Savage Fighters al final de esa accion.
+o infligir daño como resultado de la Ploy Savage Fighters al final de esa acción.
     ]]></string>
 
     <string name="spiritual_chirurgy_usage"><![CDATA[
@@ -26,8 +26,8 @@ o infligir daño como resultado de la Ploy Savage Fighters al final de esa accio
     ]]></string>
 
     <string name="spiritual_chirurgy_description"><![CDATA[
-Puedes ignorar cualquier cambio a las estadisticas de aliados **WOLF SCOUT** (excluyendo **FENRISIAN
-WOLF**) por estar **Lesionado** (incluyendo estadisticas de armas). Aliados **WOLF SCOUT** (excluyendo **FENRISIAN
+Puedes ignorar cualquier cambio a las estadísticas de aliados **WOLF SCOUT** (excluyendo **FENRISIAN
+WOLF**) por estar **Lesionado** (incluyendo estadísticas de armas). Aliados **WOLF SCOUT** (excluyendo **FENRISIAN
 WOLF**) no son afectados por las reglas Stun y Shock del enemigo, y puedes ignorar cambios a sus
 estadisticas de APL. Notese que los Operativos tienen esta regla si seleccionas a este Operativo al
 inicio de la batalla (incluso aunque sea incapacitado).
@@ -41,7 +41,7 @@ inicio de la batalla (incluso aunque sea incapacitado).
 Selecciona un aliado **WOLF SCOUT** dentro del rango de control de este Operativo para que recupere
 D3+3 heridas perdidas.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="storm_eilede_execution_usage"><![CDATA[
@@ -49,11 +49,11 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="storm_eilede_execution_description"><![CDATA[
-Cuando este Operativo esta dentro de tu **Tormenta**:\n
-\n• Puede hacer la accion **Guard** sin importar la killzone\n
-\n• Puede hacer la accion de **Guard** mientras tiene una orden de **Conceal**, pero si lo hace, no
-puede hacer mas de una accion de **Disparo** durante el resto del turno (no puede disparar ambas veces,
-durante la interrupcion y el Counteract).
+Cuando este Operativo está dentro de tu **Tormenta**:\n
+\n• Puede hacer la acción **Guard** sin importar la killzone\n
+\n• Puede hacer la acción de **Guard** mientras tiene una orden de **Conceal**, pero si lo hace, no
+puede hacer más de una acción de **Disparo** durante el resto del turno (no puede disparar ambas veces,
+durante la interrupción y el Counteract).
     ]]></string>
 
     <string name="hunter_sense_usage"><![CDATA[
@@ -61,12 +61,12 @@ durante la interrupcion y el Counteract).
     ]]></string>
 
     <string name="hunter_sense_description"><![CDATA[
-Selecciona una de las siguientes reglas para que todos los perfiles de el Instigator Bolt Carbine
-de este Operativo, tendra estas reglas hasta el inicio de su proxima activacion.\n
+Selecciona una de las siguientes reglas para que todos los perfiles del Instigator Bolt Carbine
+de este Operativo, tendrá estas reglas hasta el inicio de su próxima activación.\n
 \n• Severe.\n
-\n• Saturate, cuando dispare a un enemigo, ese Operativo enemigo no puede estas Obscurecido.\n\n
+\n• Saturate, cuando dispare a un enemigo, ese Operativo enemigo no puede estar Obscurecido.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="tempest_fury_usage"><![CDATA[
@@ -74,7 +74,7 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="tempest_fury_description"><![CDATA[
-Cuando este Operativo esta dentro de tu **Tormenta**:\n
+Cuando este Operativo está dentro de tu **Tormenta**:\n
 \n• Todos los perfiles de su Plasma Gun ganan la regla Punishing.\n
 \n• Su Plasma Gun (Supercharge) no tiene la regla Hot.
     ]]></string>
@@ -84,7 +84,7 @@ Cuando este Operativo esta dentro de tu **Tormenta**:\n
     ]]></string>
 
     <string name="fierce_temperament_description"><![CDATA[
-Cuando este Operativo este dentro de tu **Tormenta**, sus armas ganan la regla Severe.
+Cuando este Operativo esté dentro de tu **Tormenta**, sus armas ganan la regla Severe.
     ]]></string>
 
     <string name="cast_the_runes_usage"><![CDATA[
@@ -103,13 +103,13 @@ el segundo turno tienes dos Command Re-rolls gratis.
     ]]></string>
 
     <string name="call_the_storm_description"><![CDATA[
-**PSYCHIC**. Remueve tu marcador de Tormenta del campo, y ponlo en el campo.\n
+**PSYCHIC**. Remueve tu marcador de Tormenta del campo y ponlo en el campo.\n
 \n**PSYCHIC**. Alternativamente, en vez de resolver el efecto de arriba, selecciona un aliado **WOLF SCOUT**.
-Hasta el inicio de la proxima activacion de este Operativo, hasta que sea incapacitado o hasta que haga
-esta accion otra vez (lo que pase primero), siempre que ese Operativo este dentro de tu **Tormenta** y
-a mas de 3\" del Operativo activo, esta Obscurecido.\n\n
+Hasta el inicio de la próxima activación de este Operativo, hasta que sea incapacitado o hasta que haga
+esta acción otra vez (lo que pase primero), siempre que ese Operativo esté dentro de tu **Tormenta** y
+a más de 3\" del Operativo activo, está Obscurecido.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="wolf_haywire_mine_usage"><![CDATA[
@@ -117,7 +117,7 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="wolf_haywire_mine_description"><![CDATA[
-Este Operativo esta cargando tu marcador Haywire Mine. Puede hacer la accion **Pick up Marker** a ese marcador,
+Este Operativo está cargando tu marcador Haywire Mine. Puede hacer la acción **Pick up Marker** a ese marcador,
 pero ese marcador no puede ser puesto dentro del rango de control de otro Operativo (si este Operativo
 es incapacitado mientras carga este marcador, ese marcador es removido con el Operativo).
     ]]></string>
@@ -127,11 +127,11 @@ es incapacitado mientras carga este marcador, ese marcador es removido con el Op
     ]]></string>
 
     <string name="wolf_proximity_mine_description"><![CDATA[
-La primera vez que tu marcador Haywire Mine esta dentro del rango de control de otro Operativo, remuevelo,
-sustrae 1 a la estadistica de APL a ese Operativo hasta el final de su proxima activacion, e inflige 2D3+3 heridas
-a ese Operativo (o D3+6 si ese marcador esta a 6\" horizontalmente de tu marcador de **Tormenta**),
-si no es incapacitado, su accion termina, incluso aunque no la haya completado. Si no puede terminar su
-movimiento ahi, mueve el minimo posible para que pueda ser puesto en el campo. Notese que este Operativo
+La primera vez que tu marcador Haywire Mine está dentro del rango de control de otro Operativo, remuevelo,
+sustrae 1 a la estadística de APL a ese Operativo hasta el final de su próxima activación, e inflige 2D3+3 heridas
+a ese Operativo (o D3+6 si ese marcador está a 6\" horizontalmente de tu marcador de **Tormenta**),
+si no es incapacitado, su acción termina, incluso aunque no la haya completado. Si no puede terminar su
+movimiento ahí, mueve el mínimo posible para que pueda ser puesto en el campo. Notese que este Operativo
 es ignorado para este efecto.
     ]]></string>
 
@@ -140,9 +140,9 @@ es ignorado para este efecto.
     ]]></string>
 
     <string name="instinctive_predato_description"><![CDATA[
-Este Operativo no puede hacer ninguna otra accion que no sea **Cargar, Dash, Fall Back, Combatir,
-Guardia** y Reposicion. No puede usar ninguna arma que no este en su tarjeta de personaje. Este Operativo puede
-hacer una accion de **Cargar** mientras tenga una orden de Conceal.
+Este Operativo no puede hacer ninguna otra acción que no sea **Cargar, Dash, Fall Back, Combatir,
+Guardia** y **Reposición**. No puede usar ninguna arma que no esté en su tarjeta de personaje. Este Operativo puede
+hacer una acción de **Cargar** mientras tenga una orden de Conceal.
     ]]></string>
 
     <string name="pounce_usage"><![CDATA[
@@ -150,9 +150,9 @@ hacer una accion de **Cargar** mientras tenga una orden de Conceal.
     ]]></string>
 
     <string name="pounce_description"><![CDATA[
-Una vez por batalla **STRATEGIC GAMBIT**. Si este Operativo tiene 2 APL o mas, este Operativo puede hacer
-una accion de **Cargar, Fall Back** o **Reposicion** gratis. Si lo hace, hasta el final de su proxima activacion,
-sustrae 1 a su estadistica de APL y no puede hacer ninguna de las acciones previamente mencionadas.
+Una vez por batalla **STRATEGIC GAMBIT**. Si este Operativo tiene 2 APL o más, este Operativo puede hacer
+una acción de **Cargar, Fall Back** o **Reposicion** gratis. Si lo hace, hasta el final de su próxima activación,
+sustrae 1 a su estadística de APL y no puede hacer ninguna de las acciones previamente mencionadas.
     ]]></string>
 
     <!--Faction Rules-->
@@ -170,22 +170,22 @@ los elementos mismos.
 
     <string name="elemental_storm_description"><![CDATA[
 **STRATEGIC GAMBIT**. Remueve tu marcador de **Tormenta** del campo (si hay alguno), luego ponlo
-en el campo. Cuando un Operativo esta a 6\" horizontalmente de tu Tormenta, esta dentro de tu **Tomermenta**   .\n
-\nCada aliado **WOLF SCOUT** puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal**
-si empieza o termina esa activacion dentro de tu **Tormenta**.
+en el campo. Cuando un Operativo está a 6\" horizontalmente de tu Tormenta, está dentro de tu **Tormenta**   .\n
+\nCada aliado **WOLF SCOUT** puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal**
+si empieza o termina esa activación dentro de tu **Tormenta**.
 ]]></string>
 
     <string name="hunting_astartes_lore"><![CDATA[
-Los Wolf Scouts son Spaces Marines experimentados y letales dando caza. estos guerreros modificados
-geneticamente son despiadados capaces de explotar fenomenos climaticos para ocultar sus pasos.
+Los Wolf Scouts son Space Marines experimentados y letales dando caza. Estos guerreros modificados
+genéticamente son despiadados capaces de explotar fenómenos climáticos para ocultar sus pasos.
 ]]></string>
 
     <string name="hunting_astartes_description"><![CDATA[
-Durante cada activacion de aliados **WOLF SCOUT**, puede hacer o dos acciones de **Disparo** o dos
+Durante cada activación de aliados **WOLF SCOUT**, puede hacer o dos acciones de **Disparo** o dos
 acciones de **Combatir**. Si son dos acciones de **Disparo**:\n
 \n• Se debe gastar 1 AP adicional para ese segundo disparo, si ambas acciones fueron hechas con un
 Plasma gun o Plasma Pistol.\n
-\n• No puedes seleccionas dos armas a distancia **PSYCHIC**.\n
+\n• No puedes seleccionar dos armas a distancia **PSYCHIC**.\n
 \nCada Operativo **WOLF SCOUT** puede hacer un Counteract sin importar su orden. Si lo hace estando
 dentro de su **Tormenta**, puedes cambiar su orden primero, o cambiar su orden en vez de hacer una
 accion (hacer esto cuenta como si ese Operativo ya hubiera hecho un Counteract durante el turno).
@@ -194,7 +194,7 @@ accion (hacer esto cuenta como si ese Operativo ya hubiera hecho un Counteract d
     <!--Equipment-->
 
     <string name="frost_weapons_lore"><![CDATA[
-Estas armas gélidas son forjadas por un maestro Sacerdote de Hierro y poseen filos letales.
+Estas armas gélidas son forjadas por un maestro sacerdote de Hierro y poseen filos letales.
 Algunas incorporan colmillos de kraken de hielo,
 mientras que otras son fragmentos de diamante energizado, que parecen forjados con el hielo más puro.
 ]]></string>
@@ -211,9 +211,9 @@ secretos del grabado de estos amuletos más poderosos, que los Lobos Espaciales 
 ]]></string>
 
     <string name="runic_charms_description"><![CDATA[
-Una vez por turno, cuando un Operativo este disparando a un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**),
+Una vez por turno, cuando un Operativo esté disparando a un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**),
 al inicio de la fase de tirar dados de defensa, puedes usar esta regla. Si lo haces, empeora el valor
-de la regla Piercing a 1 hasta el final de esa secuencia. Notese que Piercing 1 por lo tanto seria ignorado.
+de la regla Piercing a 1 hasta el final de esa secuencia. Notese que Piercing 1 por lo tanto sería ignorado.
 ]]></string>
 
     <string name="wolfteeth_necklaces_lore"><![CDATA[
@@ -223,9 +223,9 @@ en el monasterio de los Capítulos: el Colmillo. En ellas se reconoce la destrez
 ]]></string>
 
     <string name="wolfteeth_necklaces_description"><![CDATA[
-Una vez por turno, cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) este disparando,
-combatiendo o retaleando, si lanzas dos o mas fallos, puedes descartar uno de ellos y retener otro
-como un exito normal.
+Una vez por turno, cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) esté disparando,
+combatiendo o retaleando, si lanzas dos o más fallos, puedes descartar uno de ellos y retener otro
+como un éxito normal.
 ]]></string>
 
     <string name="talismanic_trophies_lore"><![CDATA[
@@ -236,8 +236,8 @@ amuletos de buena suerte y protección contra ataques malignos.
 ]]></string>
 
     <string name="talismanic_trophies_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) esta combatiendo o retaleando,
-en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un exito.
+Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) está combatiendo o retaleando,
+en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un éxito.
 ]]></string>
 
 
@@ -250,7 +250,7 @@ asegurándose de que sus presas desesperadas rara vez tengan un tiro limpio.
 ]]></string>
 
     <string name="cloaked_storm_description"><![CDATA[
-Cuando un Operativo este disparando a un aliado **WOLF SCOUT** que este dentro de tu **Tormenta**,
+Cuando un Operativo esté disparando a un aliado **WOLF SCOUT** que esté dentro de tu **Tormenta**,
 puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
@@ -261,8 +261,8 @@ estruendo de los relámpagos de su Temporada de Fuego.
 ]]></string>
 
     <string name="tempestuous_wrath_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** esta combatiendo o retaleando, si esta dentro de tu **Tormenta**
-o estaba en tu **Tormenta** al inicio de la activacion, sus armas de melee ganan la regla Balanced.
+Cuando un aliado **WOLF SCOUT** está combatiendo o retaleando, si está dentro de tu **Tormenta**
+o estaba en tu **Tormenta** al inicio de la activación, sus armas de melee ganan la regla Balanced.
 ]]></string>
 
     <string name="storm_bite_lore"><![CDATA[
@@ -272,8 +272,8 @@ luchan por concentrar su ira y habilidad.
 ]]></string>
 
     <string name="storm_bite_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** esta combatiendo contra un enemigo que este dentro de tu **Tormenta**,
-sustrae 1 a la estadistica de Atk de armas melee de Operativos enemigos (hasta un minimo de 3).
+Cuando un aliado **WOLF SCOUT** está combatiendo contra un enemigo que esté dentro de tu **Tormenta**,
+sustrae 1 a la estadística de Atk de armas melee de Operativos enemigos (hasta un mínimo de 3).
 ]]></string>
 
     <string name="savage_fighters_lore"><![CDATA[
@@ -297,8 +297,8 @@ dónde se esconda.
 ]]></string>
 
     <string name="acute_senses_description"><![CDATA[
-Usa este Firefight Ploy cuando un aliado **WOLF SCOUT** hace una accion de **Disparo** y seleccionar un
-objetivo valido. Hasta el final de esa accion, las armas de distancia de ese Operativo aliado tienen
+Usa este Firefight Ploy cuando un aliado **WOLF SCOUT** hace una acción de **Disparo** y selecciona un
+objetivo válido. Hasta el final de esa acción, las armas de distancia de ese Operativo aliado tienen
 la regla Rango 6\" y Seek Light, Operativos enemigos no pueden estar Obscurecidos.
 ]]></string>
 
@@ -308,9 +308,9 @@ aprovechando el momento más vulnerable de su presa justo cuando atacan.
 ]]></string>
 
     <string name="wolf_counterattack_description"><![CDATA[
-Usa esta Firefight ploy al final de la activacion de un enemigo, o despues de que un enemigo haga la
-accion de **Combatir**. Un aliado **WOLF SCOUT** puede inmediatamente hacer una accion de **Combatir**
-gratis, pero no puedes seleccionar a otro Operativo enemigo durante esa accion.
+Usa esta Firefight ploy al final de la activación de un enemigo, o después de que un enemigo haga la
+accion de **Combatir**. Un aliado **WOLF SCOUT** puede inmediatamente hacer una acción de **Combatir**
+gratis, pero no puedes seleccionar a otro Operativo enemigo durante esa acción.
 ]]></string>
 
     <string name="touched_by_lokyar_lore"><![CDATA[
@@ -319,8 +319,8 @@ los creen vulnerables y aislados pronto se arrepienten de enfrentarse a estos fe
 ]]></string>
 
     <string name="touched_by_lokyar_description"><![CDATA[
-Usa esta Firefight Ploy despues de lanzar tus dados de ataque para un Operativo **WOLF SCOUT** aliado
-(excluyendo **FENRISIAN WOLF**), si esta combatiendo a mas de 5\" de otross aliados. Puedes re-rollear
+Usa esta Firefight Ploy después de lanzar tus dados de ataque para un Operativo **WOLF SCOUT** aliado
+(excluyendo **FENRISIAN WOLF**), si está combatiendo a más de 5\" de otros aliados. Puedes re-rollear
 cualquiera de tus dados de ataque.
 ]]></string>
 
@@ -330,9 +330,9 @@ cualquiera de tus dados de ataque.
 ]]></string>
 
     <string name="wolf_trans_description"><![CDATA[
-Usa esta Firefight ploy cuando un Operativo este disparando a un Operativo **WOLF SCOUT** aliado
+Usa esta Firefight ploy cuando un Operativo esté disparando a un Operativo **WOLF SCOUT** aliado
 (excluyendo **FENRISIAN WOLF**), en la fase de lanzar dados de defensa. Puedes retener uno de tus
-exitos normales como un resultado critico.
+éxitos normales como un resultado crítico.
 ]]></string>
 
 </resources>
