@@ -26,7 +26,7 @@
 
     <string name="rad_saturation_description"><![CDATA[
 
-        Whenever an enemy Operative is within 2\" of friendly HUNTER CLADE VANGUARD
+        Whenever an enemy Operative is within 2\" of friendly **HUNTER CLADE VANGUARD**
                      operatives, worsen the Hit stat of that enemy operatives weapons by 1.
                     This isnt cumulative with being injured
 
