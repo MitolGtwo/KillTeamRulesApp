@@ -49,15 +49,12 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="hierotek_chronometron_description"><![CDATA[
-**SUPPORT**. Select one friendly **HIEROTEK CIRCLE**
-operative visible to and within 6\" of this operative. Until the
-start of this operatives next activation, until this operative
-is incapacitated or until this action is performed again by a
-friendly operative (whichever comes first), subtract 1 from
-the Atk stat of an operatives weapons whenever it is shooting
-that selected operative.\n\n
+**SUPPORT**. Selecciona un aliado **HIEROTEK CIRCLE** visible y a 6\" de este Operativo. Hasta 
+el inicio de la proxima activacion de este Operativo, hasta que este Operativo sea incapacitado o
+hasta que esta accion sea hecha otra vezpor un aliado (lo que pase primero), sustrae 1 a la estadistica 
+de Atk del arma del Operativos cuando disparen al Operativo Seleccionado.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
 
@@ -66,20 +63,17 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="harbinger_of_despair_description"><![CDATA[
-Place your Despair marker visible to this operative, or on Vantage terrain of
-a terrain feature that is visible to this operative. When this operative is next
-activated, is incapacitated or this action is performed again by a friendly
-operative (whichever comes first), remove that marker\n
-\n
--Whenever an enemy operative is within 2\" of your Despair marker, your
-opponent must spend 1 additional AP for that enemy operative to perform
-the **Pick Up Marker** and mission actions. Whenever determining control
-of a marker, treat the total APL stat of enemy operatives that contest it
-as 1 lower if at least one of those enemy operatives is within 2\" of your
-Despair marker. Note this is not a change to the APL stat, so any changes
-are cumulative with this.\n\n
+Pon tu Despair token visible para este Operativo, o sobre terreno aventajado que sea visible para 
+este Operativo. Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
+Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero), remueve
+ese token.\n
+\n• Cuando un Operativo enemigo a 2\" de tu Despair token, tu oponente debe gastar 1AP adicional
+para hacer acciones de mision o **Pick up Marker**. Cuando determines el control de un objetivo,
+trata el total de APL de Operativos enemigos que lo contesten como si tuvieran 1 menos, si al menos uno
+de esos enemigos esta a 2\" de tu Despair token. Notese que esto no es un cambio a la estadistica de APL, asi que cualquier
+cambio es acumulable con esto.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="nightmare_shroud_usage"><![CDATA[
@@ -87,18 +81,12 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="nightmare_shroud_description"><![CDATA[
-Until the start of this operatives next
-activation, until it is incapacitated or until
-this action is performed again by a friendly
-operative (whichever comes first), whenever an
-enemy operative within 4\" of this operative is
-shooting, fighting or retaliating, your opponent
-cannot re-roll their attack dice and cannot
-retain attack dice results of less than 6 as
-critical successes (e.g. as a result of the Lethal,
-Rending or Severe weapon rules).\n\n
+Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
+Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero),
+cuando un Operativo enemigo a 4\" este combatiendo, retaleando o disparando, tu oponente no puede rerollear 
+dados y no puede retener criticos con resultados menos a 6 (como Rending, Punishing o Lethal).\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
 
@@ -107,18 +95,14 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="vision_of_madness_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the start of
-this operatives next activation, until it is incapacitated or until this action
-is performed again by a friendly operative (whichever comes first), that
-selected operative gains one of your Madness tokens.\n
-\n
--Whenever your opponent would activate an enemy operative that has one
-of your Madness tokens, you can roll one D6: if the result is equal to or
-higher than that enemy operatives APL, they cannot activate it during this
-activation. If that operative is successfully activated, or there are no other
-enemy operatives eligible to be activated, remove its Madness token.\n\n
+Selecciona un enemigo visible para este Operativo. Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
+Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero), ese
+Operativo gana uno de tus Madness token.\n
+\n• Cuando tu oponente vaya a activar un Operativo enemigo que tenga uno de tus Madness token, puedes lanzar
+un D6: si el resultado es igual o mayor que la estadistica de APL de este Operativo enemigo, no puede activar durante esta activacion.
+Si ese Operativo logra activarse, o si no hay mas Operativos enemigos validos para activar, remueve su Madness token.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="canoptek_repair_usage"><![CDATA[
@@ -126,9 +110,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="canoptek_repair_description"><![CDATA[
-SUPPORT. Select one friendly **HIEROTEK CIRCLE**
-operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds.
-    ]]></string>
+**SUPPORT**. Selecciona un aliado **HIEROTEK CIRCLE** visible y a 6\" de este Operativo para que
+recupere 2D3 heridas perdidas.
 
 
     <string name="augment_weapon_usage"><![CDATA[
@@ -136,18 +119,18 @@ operative visible to and within 6\" of this operative to regain up to 2D3 lost w
     ]]></string>
 
     <string name="augment_weapon_description"><![CDATA[
-**SUPPORT**. Select one friendly **HIEROTEK CIRCLE**
-operative visible to and within 6\" of this operative. Until
-the start of this operatives next activation, until it is
-incapacitated or until this action is performed again by a
-friendly operative (whichever comes first), select two of the
-following weapon rules for one weapon from that selected
-operatives datacard to have: Lethal 5+, Rending, Saturate,
-Severe. Note that if you select a staff of light or arcane
-conduit, you only select the additional weapon rules for
-either the ranged or melee profile of that weapon.\n\n
+ **SUPPORT**. Selecciona un aliado **HIEROTEK CIRCLE** a 6\" de este Operativo.
+Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
+Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero),
+un arma de ese Operativo seleccionado puede ganar dos de las siguientes reglas:\n
+\n• Lethal 5+.\n
+\n• Rending.\n
+\n• Saturate.\n
+\n• Severe.\n
+\nNotese que  si seleccionas Staff of Light o Arcane Conduit, solo puedes seleccionar
+las reglas adicionales para el perfil de melee o el perfil de rango.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="reinforce_metal_usage"><![CDATA[
@@ -155,15 +138,12 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="reinforce_metal_description"><![CDATA[
-**SUPPORT**. Select one friendly **HIEROTEK CIRCLE**
-operative visible to and within 6\" of this operative. Until
-the start of this operatives next activation, until it is
-incapacitated or until this action is performed again by a
-friendly operative (whichever comes first), whenever an
-attack dice inflicts damage of 3 or more on that operative,
-subtract 1 from that inflicted damage.\n\n
+**SUPPORT**. Selecciona un aliado **HIEROTEK CIRCLE** visible y a 6\" de este Operativo.
+Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
+Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero),
+Cuando un dado de ataque inflige daño de 3 o mas a ese Operativo, sustrae 1 al daño infligido.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
 
@@ -172,13 +152,12 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="hierotek_scuttler_description"><![CDATA[
-• Whenever this operative has a **Conceal** order and is in cover, it
-cannot be selected as a valid target, taking precedence over all
-other rules (e.g. Seek, Vantage terrain) except being within 2\".\n
-\n
-• This operative can perform the **Fall Back** action for 1 less AP.\n
-\n
-• This operative cannot use any weapons that are not on its datacard, or perform unique actions other than Accelerate.
+• Cuando este Operativo tiene una orden de **Conceal** y esta en cobertura, no
+puede ser seleccionado como objetivo valido, esto toma precedencia sobre todas las demas
+reglas, excepto estar a 2\".\n
+\n• Este Operativo puede hacer la accion **Fall Back** por 1 AP menos.\n
+\n• Este Operativo no puede usar armas que no esten en su tarjeta de personaje, o hacer acciones unicas otras 
+que no sean Accelerate.
     ]]></string>
 
     <string name="hierotek_accelerate_usage"><![CDATA[
@@ -186,11 +165,10 @@ other rules (e.g. Seek, Vantage terrain) except being within 2\".\n
     ]]></string>
 
     <string name="hierotek_accelerate_description"><![CDATA[
-Select one friendly **DEATHMARK** or **IMMORTAL**
-operative visible to and within 6\" of this operative. Until the
-end of that operatives next activation, add 1 to its APL stat.\n\n
+Selecciona un aliado **DEATHMARK** o **IMMORTAL** visible y a 6\" de este Operativo. Hasta
+el final de la siguiente activacion Operativo, añade 1 APL a ese Operativo.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="hierotek_reanimate_usage"><![CDATA[
@@ -198,14 +176,12 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="hierotek_reanimate_description"><![CDATA[
-Select one of your Reanimation markers visible to and within
-6\" of this operative. Roll one D6: on a 3+, a friendly operative
-is **REANIMATED**; if you spent 1 additional AP, a friendly
-operative is automatically **REANIMATED** (you do not need
-to roll one D6). An operative that is **REANIMATED** from this
-unique action is set up expended if it was already expended during this turning point.\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+Selecciona un Reanimation token visible y a 6\" de este Operativo. Lanza un D6: al
+3+, ese aliado es **REANIMATED**, si gastas 1 AP adicional, ese Operativo es **REANIMATED**
+automaticamente (no necesitas lanzar el dado). Un Operativo que es **REANIMATED** con esta accion
+es puesto como si ya hubiera activado (expended) si ya fue activado durante este turno.\n\n
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="apprentek_assistance_usage"><![CDATA[
@@ -213,8 +189,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="apprentek_assistance_description"><![CDATA[
-This operative has the same unique actions as your **CRYPTEK** operative selected for the battle,
-but can only perform one **CRYPTEK** unique action per turning point.
+Este Operativo tiene las mismas acciones unicas de tu **CRYPTEK** seleccionado esta batalla, pero
+solo puede hacer una accion unica de **CRYPTEK** por turno.
     ]]></string>
 
     <string name="deathmarked_usage"><![CDATA[
@@ -222,12 +198,10 @@ but can only perform one **CRYPTEK** unique action per turning point.
     ]]></string>
 
     <string name="deathmarked_description"><![CDATA[
-Whenever this operative ends the **Shoot** action,
-the target gains one of your Deathmarked tokens if it was not
-incapacitated (the primary target, if relevant). Whenever a
-friendly **HIEROTEK CIRCLE DEATHMARK** operative is
-shooting an enemy operative that has one of your Deathmarked
-tokens, that friendly operatives ranged weapons have the Seek weapon rule.
+Cuando este Operativo termine su accion de **Disparo**, el objetivo
+gana un Deathmarked token si no fue incapactiado (el Objetivo primario si es relevante).
+Cuando un aliado **HIEROTEK CIRCLE DEATHMARK** este disparando a un enemigo que tenga uno
+de tus Deathmarked tokens, las armas de ese aliado ganan la regla Seek.
     ]]></string>
 
     <string name="multi_dimensional_vision_usage"><![CDATA[
@@ -235,9 +209,10 @@ tokens, that friendly operatives ranged weapons have the Seek weapon rule.
     ]]></string>
 
     <string name="multi_dimensional_vision_description"><![CDATA[
-Until the start of this operatives next activation, whenever it is shooting, enemy operatives cannot be obscured.\n\n
+Hasta el inicio de la proxima activacion de este Operativo, cuando este disparando, Operativos enemigos no pueden
+estar Obscurecidos.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="hierotek_steadfast_usage"><![CDATA[
@@ -245,9 +220,9 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="hierotek_steadfast_description"><![CDATA[
-Whenever determining control of a marker, you
-can treat this operatives APL stat as 3. If you do, this takes
-precedence over all other rules, meaning any changes to its APL stat are ignored for this.
+Cuando determines el control de un objetivo, puedes tratar el APL de este Operativo como si tuviera
+3. Si lo haces, esto toma precedencia sobre todas las demas reglas, por lo que cualquier cambio de APL 
+es ignorado por esto.
     ]]></string>
 
 
@@ -255,102 +230,67 @@ precedence over all other rules, meaning any changes to its APL stat are ignored
     <!--Faction Rules-->
 
     <string name="reanimation_protocol_lore"><![CDATA[
-The body of a slain Necron becomes wreathed in an
-eerie glow. Severed limbs reattach and broken bodies
-reform in a shower of emerald sparks. Eye-lenses flicker
-once more and the Necron rises again to rejoin the fight.
+El cuerpo de un Necrón caído se envuelve en un
+resplandor inquietante. Las extremidades cercenadas se vuelven a unir y los cuerpos destrozados
+se reforman en una lluvia de chispas esmeralda. Las lentes de los ojos parpadean
+una vez más y el Necrón se alza de nuevo para reincorporarse a la lucha.
 ]]></string>
 
     <string name="reanimation_protocol_description"><![CDATA[
-The first time each friendly **HIEROTEK CIRCLE**
-operative is incapacitated, before it is removed
-from the killzone, place one of your Reanimation
-markers within its control range. Then remove
-it as incapacitated, also removing any tokens
-and rules effects it had (e.g. CHRONOMANCER
-operatives Chronometron action, Poison tokens,
-APL stat changes, being implanted, etc.).\n
-\n
-In the Ready step of each Strategy phase, select
-one of your Reanimation markers and roll one D6:
-on a 1-2, leave that Reanimation marker in the
-killzone and repeat this process with a different
-one of your Reanimation markers (if any); on a
-3+, an operative is **REANIMATED**.\n
-\n
-You can only select each of your Reanimation
-markers once per turning point, and once you roll
-a 3+, you do not select any more for that turning
-point. Whenever an operative is **REANIMATED**:\n
-\n
-• Set up the operative that Reanimation marker was placed for (it is no longer incapacitated). It
-must be placed within 3\" of that Reanimation marker and not within control range of enemy
-operatives (if you cannot do so, treat the roll as 1-2 instead).\n
-\n
-• It has 1 wound remaining.\n
-\n
-• It has an order of your choice and is ready.\n
-\n
-• Remove that Reanimation marker.\n
-\n
-For the purposes of the kill op, your opponent
-treats your starting number of **HIEROTEK CIRCLE** operatives as 5 (in other words,
-their kill grade goes up whenever a friendly
-**HIEROTEK CIRCLE** operative is incapacitated,
-to a maximum kill grade of 5, and goes down
-whenever a friendly **HIEROTEK CIRCLE** operative
-is **REANIMATED**). **REANIMATED** operatives don’t retroactively change any other VPs your opponent
-has scored, e.g. from tac ops.
+La primera vez que cada aliado **HIEROTEK CIRCLE** es incapacitado,
+antes de ser removido del campo, pon uno de tus tokens de Reanimation
+dentro de tu rango de control. Luego remueve el Operativo incapacitado, tambien
+remueve cualquier token relacionado a ese Operativo (como Chronometron del CHRONOMANCER, poison tokens, etc).\n
+\nEn la Ready step de cada Strategy phase, selecciona uno de tus Reanimation tokens y lanza un D6: al 1-2, deja ese
+token y repite el proceso con otro token (si hay alguno), al 3+, ese Operativo es **REANIMATED**.\n
+\nPuedes seleccionas cada Reanimation token una vez por turno, y una vez lanzas un 3+, no puedes seleccionar mas tokens
+durante ese turno. Cuando un Operativo es **REANIMATED**:\n
+\n• Pon el Operativo correspondiente a ese Reanimation marker (ya no esta incapacitado). Debe
+ser puesto a 3\" de ese token y no dentro del rango de control de un Operativo enemigo (si no puedes hacerlo,
+trata el lanzamiento de dado como si fuera un 1-2).\n
+\n• Tiene 1 herida restante.\n
+\n• Tiene una orden de tu eleccion y esta Ready (es activable).\n
+\n• Remueve ese Reanimation token.\n
+\nPara el proposito de esta Kill Op, tu oponente trata el numero inicial del **HIEROTEK CIRCLE** como si fuera 
+un equipo de 5 Operativos (Gana VP por kill op cuando es incapacitado, y los pierde cuando el Operativo es **REANIMATED**).
+**REANIMATED** no cambian retroactivamente cualquier otro VP que tu oponente haya ganado, como por Tac Ops.
 
 
 ]]></string>
 
     <string name="magnify_lore"><![CDATA[
-Necron Crypteks may impose their will over their thralls
-and underlings, projecting their consciousness into
-these lesser beings in order to enhance their combat
-ability and ensure the obliteration of the enemy.
+Los Crypteks Necrones pueden imponer su voluntad sobre sus esclavos y subordinados, proyectando 
+su conciencia en estos seres inferiores para mejorar su capacidad de combate y asegurar la aniquilación del enemigo.
 ]]></string>
 
     <string name="magnify_description"><![CDATA[
-Some **HIEROTEK CIRCLE APPRENTEK** and
-**HIEROTEK CIRCLE CRYPTEK** weapons in this teams rules have the Magnify weapon rule below.\n
-\n
-* **Magnify**: Whenever this operative is performing
-the **Shoot** action with this weapon, if the target
-is visible to this operative, and another friendly
-**HIEROTEK CIRCLE APPRENTEK** or **HIEROTEK
-CIRCLE CRYPTEK** operative that has an **Engage**
-order and is not within control range of enemy
-operatives is visible to this operative, you can
-use this rule. If you do, treat that operative as the
-active operative for the purposes of determining
-a valid target, cover and obscured. If you do, this
-weapon has the Ceaseless weapon rule until the
-end of that action.
+Algunos **HIEROTEK CIRCLE APPRENTEK** y **HIEROTEK CIRCLE CRYPTEK** tienen armas con la regla
+**Magnify**, explicada a continuacion:\n
+\n• **Magnify:** Cuando este Operativo este haciendo la accion de **Disparo** con esta arma, si el
+objetivo es visible para este Operativo, y otro aliado **HIEROTEK CIRCLE APPRENTEK** o **HIEROTEK
+CIRCLE CRYPTEK** que tenga una orden de **Engage** y no esta dentro del rango de control de un Operativo
+enemigo, puedes usar esta regla. Si lo haces.\n
+\nTrata ese Operativo como el Operativo activo para determinar un Objetivo valido, cobertura y Obscurecido. Si lo haces
+esta arma gana la regla Ceaseless durante esa accion.
 ]]></string>
 
     <string name="living_metal_lore"><![CDATA[
-The Necrons semi-sentient metal skin enables them to
-heal devastating damage in the midst of battle.
+La piel metálica semi-consciente de los Necrones les permite curar daños devastadores en medio de la batalla.
 ]]></string>
 
     <string name="living_metal_description"><![CDATA[
-In the Ready step of each Strategy phase,
-after resolving all other rules in this step (e.g.
-Reanimation Protocols faction rule), each friendly
-**HIEROTEK CIRCLE** operative regains up to D3+1
-lost wounds (roll separately for each).
+En la Ready step de cada Strategy Phase, despues de resolver todas las reglas (Reanimation Protocols), cada aliado
+**HIEROTEK CIRCLE** recupera D3+1 heridas perdidas (lanza dado por cada uno).
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="magnification_conduits_lore"><![CDATA[
-This device allows any Necron well-versed in arcane
-hypertechnology to peer through the occular lenses of
-a nearby thrall and channel ranged attacks through the
-body of their dominated underling.
+Este dispositivo permite a cualquier Necrón versado en hipertecnología arcana
+mirar a través de las lentes oculares de
+un esclavo cercano y canalizar ataques a distancia a través del
+cuerpo de su subordinado dominado.
 ]]></string>
 
     <string name="magnification_conduits_description"><![CDATA[
