@@ -4,9 +4,7 @@
     <!--Hunter Clade-->
 
     <string name="targeting_protocols_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
 ]]></string>
 
     <string name="targeting_protocols_description"><![CDATA[
@@ -19,9 +17,7 @@
 
 
     <string name="rad_saturation_usage"><![CDATA[
-
-        Passive
-
+Pasiva
 ]]></string>
 
     <string name="rad_saturation_description"><![CDATA[
@@ -35,7 +31,7 @@
 
     <string name="wasteland_stalker_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
 ]]></string>
 
@@ -65,7 +61,7 @@
 
     <string name="canticle_shroudpsalm_usage"><![CDATA[
 
-        Passive"
+        Pasiva
 
 ]]></string>
 
@@ -81,7 +77,7 @@
 
     <string name="canticle_destruction_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
 ]]></string>
 
@@ -96,7 +92,7 @@
 
     <string name="canticle_elimination_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
 ]]></string>
 
@@ -145,7 +141,7 @@
 
     <string name="canticle_glow_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
 ]]></string>
 

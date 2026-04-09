@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Hierotek-->
-
     <string name="interstitial_command_usage"><![CDATA[
         1AP
     ]]></string>
 
     <string name="interstitial_command_description"><![CDATA[
-**SUPPORT.** Select one other friendly **HIEROTEK CIRCLE** operative (excluding **APPRENTEK** and
-**CRYPTEK**) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly
-**DESPOTEK** operative that is visible to this operative. That selected operative can
-immediately perform a 1AP action for free; it cannot move more than or be removed and set up more than 2\"
-during that action, perform an action it is already performed during
-this turning point, or perform that action again during this turning point.\n\n
+**SUPPORT.** Selecciona otro aliado **HIEROTEK CIRCLE** (excluyendo **APPRENTEK** y **CRYPTEK**) visible
+y a 6\" de este Operativo, o visible y a 6\" de un aliado **DESPOTEK** que sea visible para este Operativo.\n
+\nEse Operativo seleccionado puede hacer una accion de 1AP gratis, no puede moverse mas de 2\" durante
+esta accion, o hacer una accion que ya haya hecho durando este turno, o hacer esa accion otra vez
+durante este turno.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative, or while counteracting
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo o en
+un Counteract.
     ]]></string>
 
     <string name="timesplinter_usage"><![CDATA[
@@ -24,15 +21,13 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="timesplinter_description"><![CDATA[
-**SUPPORT**. Select one other expended friendly **HIEROTEK CIRCLE** operative visible to and within 5\"
-of this operative. Remove it from the killzone and set it back up visible to and within 5\"
-horizontally of this operative, in a location it can be placed. Note that a Comms Device
-from universal equipment only affects the first distance of this rule.\n\n
+**SUPPORT**. Selecciona otro aliado **HIEROTEK CIRCLE** que ya haya activado (expended) visible y
+a 5\" de este Operativo. Remuevelo del campo y vuelvelo a poner a 5\" horizontalmente de este
+Operativo, en un lugar donde pueda ser puesto. Notese que el equipamiento Comms Device solo
+afecta la primera distancia de esta regla.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, during the first turning point,
-or if a friendly operative has already performed this action
-during this turning point.
+Este Operativo no puede hacer esta accion si esta dentro del rango de control de un Operativo enemigo,
+durante el primer turno, o si un Operativo aliado ya ha realizado esta accion durante el turno.
     ]]></string>
 
     <string name="countertemporal_nanomine_usage"><![CDATA[
@@ -40,16 +35,13 @@ during this turning point.
     ]]></string>
 
     <string name="countertemporal_nanomine_description"><![CDATA[
-Place your Countertemporal Nanomine marker visible to this
-operative, or on Vantage terrain of a terrain feature that is
-visible to this operative. Whenever an enemy operative
-is within 4\" of your Countertemporal Nanomine marker,
-subtract 2\" from its Move stat. When this operative is next
-activated, is incapacitated or this action is performed again
-by a friendly operative (whichever comes first), remove
-that marker. \n\n
+Pon tu marcador Countertemporal Nanomine visible para este Operativo, o en terreno aventajado que sea
+visible para este Operativo. Cuando un Operativo enemigo esta a 4\" de tu Countertemporal Nanomine,
+sustrae 2\" a su estadistica de Movimiento. Cuando este Operativo sea el siguiente en activar, sea
+incapacitado o esta accion sea hecha otra vez por un Operativo aliado (lo que pase primero),
+remueve ese marcador.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="hierotek_chronometron_usage"><![CDATA[
@@ -176,7 +168,7 @@ This operative cannot perform this action while within control range of an enemy
 
 
     <string name="hierotek_scuttler_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="hierotek_scuttler_description"><![CDATA[
@@ -217,7 +209,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="apprentek_assistance_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="apprentek_assistance_description"><![CDATA[
@@ -226,7 +218,7 @@ but can only perform one **CRYPTEK** unique action per turning point.
     ]]></string>
 
     <string name="deathmarked_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="deathmarked_description"><![CDATA[
@@ -249,7 +241,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="hierotek_steadfast_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="hierotek_steadfast_description"><![CDATA[

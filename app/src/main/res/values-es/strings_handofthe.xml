@@ -24,9 +24,8 @@ Una vez durante cada activacion, si no tiene uno de tus Pain tokens cuando hagas
     ]]></string>
 
     <string name="sadistic_competition_description"><![CDATA[
-Once per turning point, when a friendly **HAND OF THE ARCHON** operative gains one of your Pain
-tokens, one friendly **HAND OF THE ARCHON AGENT**
-operative that does not have one of your Pain tokens can also gain one.
+Una vez por turno, cuando un aliado **HAND OF THE ARCHON** gana unos de tus Pain tokens, un
+aliado **HAND OF THE ARCHON AGENT** que no tenga uno de tus Pain tokens tambien gana uno.
     ]]></string>
 
     <string name="brutal_display_usage"><![CDATA[
@@ -34,9 +33,10 @@ operative that does not have one of your Pain tokens can also gain one.
     ]]></string>
 
     <string name="brutal_display_description"><![CDATA[
-Once per turning point, when this operative incapacitates an enemy operative within its control range, you can select
-one other enemy operative visible to and within 6\" of either this operative or the incapacitated enemy operative. Until the start of the
-next turning point, that other enemy operative cannot control markers or perform the **Pick Up Marker** or mission actions.
+Una vez por turno, cuando este Operativo incapacita a un Operativo enemigo que este dentro de su
+rango de control, puedes seleccionar otro Operativo enemigo visible y a 6\" de este Operativo o del
+Operativo enemigo incapacitado. Hasta el inicio del proximo turno, ese otro enemigo no puede
+controlar objetivos o hacer la accion **Pick up Marker** o acciones de mision.
     ]]></string>
 
 
@@ -45,7 +45,7 @@ next turning point, that other enemy operative cannot control markers or perform
     ]]></string>
 
     <string name="crimson_duellist_description"><![CDATA[
-This operative can perform two **Fight** actions during its activation.
+Este Operativo puede hacer dos acciones de **Combate** durante su activacion.
     ]]></string>
 
     <string name="tangle_usage"><![CDATA[
@@ -53,8 +53,8 @@ This operative can perform two **Fight** actions during its activation.
     ]]></string>
 
     <string name="tangle_description"><![CDATA[
-Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two
-unresolved successes (instead of one).
+Cuando este Operativo este combatiendo o retaleando con esta arma, cada uno de tus bloqueos pueden
+ser usados para bloquear dos resultados in resolver (en lugar de uno).
     ]]></string>
 
 
@@ -63,9 +63,9 @@ unresolved successes (instead of one).
     ]]></string>
 
     <string name="stinger_description"><![CDATA[
-Whenever an enemy operative is incapacitated by this weapon, before it is removed from the killzone,
-inflict D3 damage on each other operative visible to and within 2\" of it (roll separately for each).
-Each operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.
+Cuando un Operativo enemigo es incapacitado con esta arma, antes de ser removido del campo, inflige
+D3 heridas a cada otro Operativo visible y a 2\" de el (lanza separado por cada uno). Cada Operativo
+que sea incapacitado como resultado de esta regla, puede hacer que este efecto se repita.
     ]]></string>
 
     <string name="torment_grenade_usage"><![CDATA[
@@ -73,17 +73,14 @@ Each operative subsequently incapacitated as a result of this weapon rule will c
     ]]></string>
 
     <string name="torment_grenade_description"><![CDATA[
-Select one enemy operative visible to and within 6\" of this
-operative. That operative and each other operative within 1\" of it takes a poison test.\n
-\n
--For an operative to take a poison test, roll one D6, adding 1
-to the result if that operative has a Save stat of 4+ or worse:
-on a 3+, inflict D3 damage on that operative and it gains
-one of your Poison tokens (if it does not already have one).
-Whenever an operative that has one of your Poison tokens is
-activated, inflict D3 damage on it.\n\n
+Selecciona un Operativo enemigo visible y a 6\" de este Operativo. Ese Operativo y cada otro Operativo
+a 1\" de el toma un test de veneno.\n
+\n• Para que un Operativo tome un test de Stun, lanza un D6, añade 1 al resultado si ese Operativo tiene
+una salvacion de 4+ o peor: si el resultado del dado es 3+, inflige D3 a ese Operativo y gana uno de
+tus tokens de Veneno (en caso de que no tenga uno). Cuando un Operativo que tenga uno de tus
+tokens de Veneno activa, infligele D3 heridas.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
@@ -92,16 +89,14 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="combat_drugs_description"><![CDATA[
-At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following
-**COMBAT DRUG** rules for friendly **HAND OF THE ARCHON** operatives to have for the battle:\n
-\n
-• **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that
-inflicted damage.\n
-\n
-• **Adrenalight:** In the Ready step of each Strategy phase, you can select one friendly operative that has this **COMBAT DRUG** to gain
-one of your Pain tokens.\n
-\n
-• **Hypex:** You can ignore any changes to this operatives Move stat from being injured.
+Al final de la fase de seleccionar Operativos, si este Operativo es seleccionado, selecciona uno de las siguientes
+**DROGAS DE COMBATE** para un aliado **HAND OF THE ARCHON** durante el resto de la batalla:\n
+\n• **Painbringer:** Cuando un dado de ataque inflige daño de 3 o mas a este Operativo, lanza un D6:
+al 4+, sustrae 1 a ese daño infligido.\n
+\n• **Adrenalight:** En la Ready step de cada fase Strategica, puedes seleccionar a un aliado con esta
+**DROGA DE COMBATE** para que gane un Pain token.\n
+\n• **Hypex:** Puedes ignorar cualquier cambio a la estadistica de Movimiento de este Operativo por estar
+**Lesionado**.
     ]]></string>
 
     <string name="administre_drugs_usage"><![CDATA[
@@ -109,15 +104,13 @@ one of your Pain tokens.\n
     ]]></string>
 
     <string name="administre_drugs_description"><![CDATA[
-Select one friendly **HAND OF THE ARCHON** operative
-visible to and within 3\" of this operative, then select one of
-the following for that friendly operative:\n
-\n
-• It regains up to 2D3 lost wounds.\n
-\n
-• Select a different **COMBAT DRUG** rule for it to have for the battle (this replaces its previous one)\n\n
+Selecciona un aliado **HAND OF THE ARCHON** visible y a 3\" de este Operativo, luego selecciona uno
+de los siguiente efectos para un aliado:\n
+\n• Recuperar 2D3 heridas perdidas.\n
+\n• Selecciona una **DROGA DE COMBATE** distinta para que ese Operativo tenga durante la batalla (esta
+reemplaza la que tenia previamente).\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
@@ -126,7 +119,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="insensible_to_pain_description"><![CDATA[
-Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative.
+Daño normal y critico de 3 o mas inflige 1 herida menos a este Operativo.
     ]]></string>
 
     <string name="hand_flay_usage"><![CDATA[
@@ -134,10 +127,8 @@ Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative.
     ]]></string>
 
     <string name="hand_flay_description"><![CDATA[
-Whenever this operative is using this weapon, the first
-time you strike with a critical success during that sequence, you
-can select one friendly **HAND OF THE ARCHON** operative
-within 6\" of it to gain one of your Pain tokens.
+Cuando este Operativo este usando esta arma, la primera vez que golpes con un critico durante esa
+secuencia, puedes seleccionar un aliado **HAND OF THE ARCHON** a 6\" para que gane uno de tus Pain Tokens.
     ]]></string>
 
     <string name="merciless_hunter_usage"><![CDATA[
@@ -145,9 +136,9 @@ within 6\" of it to gain one of your Pain tokens.
     ]]></string>
 
     <string name="merciless_hunter_description"><![CDATA[
-If this operative does not perform the Mark unique action (see other side of card) during its activation,
-it can perform two **Shoot** actions during its activation, but a razorwing
-must be selected for one (and only one) of those actions.
+Si este Operativo no hace su accion unica Mark (vease mas abajo) durante su activacion, puede hacer
+dos acciones de **Disparo** durante su activacion, pero un Razorwing debe ser seleccionado para una
+(y solo una) de esas acciones.
     ]]></string>
 
     <string name="omen_usage"><![CDATA[
@@ -155,17 +146,11 @@ must be selected for one (and only one) of those actions.
     ]]></string>
 
     <string name="omen_description"><![CDATA[
-In the Select Operatives step, when you are selecting
-equipment, you can select one enemy operative or one other
-friendly **HAND OF THE ARCHON** operative (reveal your
-selection when you reveal equipment). Whenever attack or
-defence dice are rolled for that operative:\n
-\n
-• If it is an enemy operative, your opponent must re-roll their
-dice results of 6.\n
-\n
-• If it is a friendly operative, you can re-roll any of your dice
-results of 1.
+En la fase de seleccion de Operativos, cuando estes seleccionado equipamientos, puedes seleccionar a
+un Operativo enemigo o a otro aliado **HAND OF THE ARCHON** (revela esto cuando reveles tus equipamientos).
+Cuando un dado de ataque o de defensa es lanzado para ese Operativo:\n
+\n• Si es un Operativo enemigo, tu Oponente debe re-rollear sus resultados de 6.\n
+\n• Si es un aliado, puede re-rollear sus resultados de 6.
     ]]></string>
 
     <string name="hand_mark_usage"><![CDATA[
@@ -173,16 +158,12 @@ results of 1.
     ]]></string>
 
     <string name="hand_mark_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the
-end of the turning point, whenever this operative is shooting
-that enemy operative you can use this effect. If you do:\n
-\n
-• This operatives ranged weapons have the Seek Light
-weapon rule.\n
-\n
-• That enemy operative cannot be obscured.\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el fin de ese turno, cuando ese Operativo
+este disparando a ese enemigo puedes usar esta regla. Si lo haces:\n
+\n• Las armas de este Operativo ganan la regla Seek Light.:\n
+\n• Ese Operativo enemigo no puede estas Obscurecido.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
@@ -193,45 +174,31 @@ Los Drukhari se alimentan de las almas de sus víctimas asesinadas y torturadas,
 ]]></string>
 
     <string name="power_from_pain_description"><![CDATA[
-After a friendly **HAND OF THE ARCHON** operative
-performs an action, it gains one of your Pain tokens if:\n
-\n
-• An enemy operative was injured during that action, but was not incapacitated.\n
-\n
-• An enemy operative was incapacitated during that action. If that enemy operative had a
-Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n
-\n
-You can spend friendly operatives Pain tokens on invigorations when the \‘when\’ condition is met.
-You cannot use more than one invigoration per activation or counteraction, except Stimulated
-Senses, which can be used once per activation or counteraction in addition to another invigoration.
+Desoyes de que un aliado **HAND OF THE ARCHON** hace una accion, este gana uno de tus Pain tokens
+si:\n
+\n• Un Operativo enemigo fue herido durante esa accion, pero no fue incapacitado.\n
+\n•Un Operativo enemigo fue incapacitado durante esa accion. Si ese enemigo tenia 12 heridas o mas,
+ese aliado gana dos Pain tokens en su lugar.\n
+\nPuedes gastar Pain tokens aliados para usar una Vigorización cuando las condiciones de su uso se cumplan.
+No puedes usar mas de una Vigorización por activacion o Counteract, excepto Stimulated Senses, el cual
+puede ser usado una vez por activacion o Counteract en adicion a otra Vigorización.
 ]]></string>
 
 
     <string name="invigorations_description"><![CDATA[
 **Dark Animus**\n
-\n
-**When:** During the operatives activation, before or after it performs an action.\n
-\n
-**Effect:** Until the start of the operatives next activation, add 1 to its APL stat.\n
-\n
-**Accelerated Rejuvenation**\n
-\n
-**When:** During the operatives activation or counteraction, before or after it performs an action.\n
-\n
-**Effect:** The operative regains up to D3+1 lost wounds.\n
-\n
-**Vitalised Surge**\n
-\n
-**When:** After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n
-\n
-**Effect:** The operative can immediately perform a
-free **Dash** action, even if it is performed an action that prevents it from performing the **Dash** action\n
-\n
-**Stimulated Senses**\n
-\n
-**When:** After rolling your attack or defence dice for the operative.\n
-\n
-**Effect:** You can re-roll any of your dice results of one result (e.g. results of 2).
+\n**Cuando:** Durante la activacion del Operativo, antes o despues de que haga una accion.\n
+\n**Efecto:** Hasta el inicio de su proxima activacion, añade 1 a su estadistica de APL.\n
+\n**Accelerated Rejuvenation**\n
+\n**Cuando:** Durante la activacion del Operativo, antes o despues de que haga una accion.\n
+\n**Efecto:** El Operativo recupera D3+1 heridas perdidas.\n
+\n**Vitalised Surge**\n
+\n**Cuando:** Despues de incapacitar un Operativo enemigo y ese enemigo es removido del campo.\n
+\n**Efecto:** El Operativo puede inmediatamente hacer un **Dash** gratism incluso si hizo una accion que
+previene que pueda hacer esa accion.\n
+\n**Stimulated Senses**\n
+\n**Cuando:** Despues de lanzar tus dados de ataque o defensa para el Operativo.\n
+\n**Efecto:** Puedes re-rollear cualquier cantidad de dados del mismo resultado (ejemplo dados de 2).\n
 ]]></string>
 
     <string name="hand_rifle_lore"><![CDATA[
@@ -239,10 +206,9 @@ Los fusiles de fragmentación de cañón largo que portan los guerreros kabalita
 ]]></string>
 
     <string name="hand_rifle_description"><![CDATA[
-Whenever a friendly **HAND OF THE ARCHON** operative is shooting with a splinter rifle during
-an activation in which it has not performed the **Charge, Fall Back** or **Reposition** action, that
-weapon has the Accurate 1 weapon rule. Note that operative is not restricted from performing
-those actions after shooting.
+Cuando un aliado **HAND OF THE ARCHON** esta disparando con su Splinter Rifle durante una activacion en la que
+no hizo la accion de **Cargar, Fall Back** o **Reposicion**, esa arma gana la regla Accurate 1. Notese
+que el Operativo no esta restringido de hacer esas acciones despues de disparar.
 ]]></string>
 
 
@@ -253,12 +219,11 @@ Compuesta por cuchillas curvas unidas a una cadena, esta arma se clava en la car
 ]]></string>
 
     <string name="hand_chain_snare_description"><![CDATA[
-Whenever an enemy operative would perform the **Fall Back** action while within control range of a
-friendly **HAND OF THE ARCHON** operative, if no other enemy operatives are within that friendly
-operatives control range, you can use this rule. If you do, roll two D6, or one D6 if that enemy
-operative has a higher Wounds stat than that friendly operative. If any result is a 4+, that enemy
-operative cannot perform that action during that activation/counteraction (no AP are spent on it),
-and you cannot use this rule again during this turning point.
+Cuando un enemigo vaya a hacer la accion **Fall Back** mientras este en rango de control de un aliado
+**HAND OF THE ARCHON**, si no hay otro Operativo enemigo dentro del rango de control de ese aliado, puedes
+usar esta regla. Si lo haces, lanza dos D6, o un D6 si ese enemigo tiene una estadistica de heridas
+mayores que ese Operativo aliado. Si cualquier resultado es 4+, ese enemigo no puede hacer esa accion
+durante esa activacion o Counteract (los AP no se gastan), y no puedes usar esta regla otra vez durante este turno.
 ]]></string>
 
     <string name="hand_wicked_blades_lore"><![CDATA[
@@ -266,7 +231,7 @@ Ligera pero letal, el filo dentado de esta hoja ha sido diseñado para garantiza
 ]]></string>
 
     <string name="hand_wicked_blades_description"><![CDATA[
-Add 1 to the Atk stat of friendly **HAND OF THE ARCHON** operatives array of blades.
+Añade 1 a la estadistica de Atk de las armas Array of Blades de aliados **HAND OF THE ARCHON**.
 ]]></string>
 
     <string name="toxin_coating_lore"><![CDATA[
@@ -274,11 +239,9 @@ Se sabe que los asaltantes Drukhari recubren sus espadas con veneno, lo que gara
 ]]></string>
 
     <string name="toxin_coating_description"><![CDATA[
-Up to twice per turning point, whenever a friendly
-**HAND OF THE ARCHON** operative is fighting or
-retaliating and you are selecting a melee weapon,
-you can use this rule. If you do, until the end of
-that sequence, that operatives melee weapon has the Lethal 5+ weapon rule.
+Hasta dos veces por turno, cuando un aliado **HAND OF THE ARCHON** este combatiendo o retaleando y estes
+seleccionado un arma de melee, puedes usar esta regla. Si lo haces, hasta el final de esa secuencia,
+las armas a Melee de ese Operativo ganan la regla Lethal 5+.
 ]]></string>
 
     <string name="refined_poison_lore"><![CDATA[
@@ -286,9 +249,9 @@ Las balas de fragmentación están impregnadas de brebajes exquisitamente letale
 ]]></string>
 
     <string name="refined_poison_description"><![CDATA[
-Up to twice per turning point, whenever a friendly **HAND OF THE ARCHON** operative is performing
-the **Shoot** action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or
-stinger pistol, you can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.
+Hasta dos veces por turno, cuando un aliado **HAND OF THE ARCHON** este haciendo una accion de **Disparo**
+y selecciones un Shardcarbine, Splinter Cannon, Splinter Pistol, Splinter Rigle o Stinger Pistol, puedes usar
+esta regla. Si lo haces, hasta el final de esa accion, añade 1 al daño normal de esa arma.
 ]]></string>
 
 
@@ -301,7 +264,7 @@ Los Drukhari han convertido el combate cuerpo a cuerpo en un arte macabro, masac
 ]]></string>
 
     <string name="blade_artists_description"><![CDATA[
-Friendly **HAND OF THE ARCHON** operatives melee weapons have the Rending weapon rule.
+Las armas melee de aliados **HAND OF THE ARCHON** ganan la regla Rending.
 ]]></string>
 
     <string name="merciless_sadists_lore"><![CDATA[
@@ -310,8 +273,8 @@ Los Drukhari se alimentan con la agonía ajena y carecen de piedad. No hay acto 
 ]]></string>
 
     <string name="merciless_sadists_description"><![CDATA[
-Whenever a friendly **HAND OF THE ARCHON** operative is shooting against or fighting against
-a wounded enemy operative, that friendly operatives weapons have the Balanced weapon rule.
+Cuando un aliado **HAND OF THE ARCHON** este disparando o combatiendo contra un enemigo herido, las
+armas de ese aliado ganan la regla Balanced.
 ]]></string>
 
     <string name="from_darkness_death_lore"><![CDATA[
@@ -319,10 +282,10 @@ El honor es un concepto ajeno a los Drukhari. Se valen de la distracción y el e
 ]]></string>
 
     <string name="from_darkness_death_description"><![CDATA[
-Whenever a friendly **HAND OF THE ARCHON** operative is activated, before you determine its
-order, you can select one enemy operative that friendly operative is not a valid target for. Until the
-end of that activation, the first time that friendly operative is shooting against or fighting against
-that enemy operative, you can retain one of your normal successes as a critical success instead.
+Cuando un aliado **HAND OF THE ARCHON** sea activado, antes de determinar su orden, puedes seleccionar
+un Operativo enemigo que no pueda seleccionar a este Operativo como un objetivo valido. Hasta el final
+de esta activacion, la primera vez que este Operativo dispare o combata contra ese Operativo enemigo,
+puedes retener un resultado normal como un resultado critico en su lugar.
 ]]></string>
 
     <string name="denizens_of_night_lore"><![CDATA[
@@ -330,9 +293,9 @@ Originarios de Commorragh, la Ciudad Oscura, los Drukhari nacen y se crían en l
 ]]></string>
 
     <string name="denizens_of_night_description"><![CDATA[
-Whenever an enemy operative is shooting a friendly **HAND OF THE ARCHON** operative that is
-more than 2\" from enemy operatives, if Heavy or Light terrain is intervening, or any part of that
-friendly operatives base is underneath Vantage terrain, you can re-roll one of your defence dice.
+Cuando un enemigo este disparando a un aliado **HAND OF THE ARCHON** que esta a mas de 2\"
+de Operativos enemigo, si terreno pesado o ligero esta interviniendo, o alguna parte de su peana
+esta debajo de terreno aventajado, puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
 
@@ -344,9 +307,9 @@ En la batalla, hacen buen uso de estas habilidades, asestando duros golpes a sus
 ]]></string>
 
     <string name="cruel_deception_description"><![CDATA[
-Use this firefight ploy during a friendly **HAND OF THE ARCHON** operatives activation, before or
-after it performs an action. During that activation,
-that operative can perform the **Fall Back** action for 1 less AP.
+Usa esta Firefight ploy durante la activacion de un aliado **HAND OF THE ARCHON**, antes o
+despues de que haga una accion. Durante esa activacion, puede hacer la accion **Fall Back** por 1 AP
+menos.
 ]]></string>
 
     <string name="devious_scheme_lore"><![CDATA[
@@ -354,9 +317,9 @@ Los Drukhari, todos ellos astutos, están acostumbrados a ir un paso por delante
 ]]></string>
 
     <string name="devious_scheme_description"><![CDATA[
-Use this firefight ploy after an opponent uses a firefight ploy (excluding one that costs 0CP). The
-next time they would use that ploy, they must spend 1 additional CP to do so (at which point
-this effect ends). You cannot use this ploy again during the battle until its effect has ended.
+Usa esta Firefight depues de que tu oponente use una Firefight ploy (excluyendo una que cueste 0CP).
+La proxima vez que vaya a usar esa ploy, debe gastar 1 CP adicional para hacerlo (cuando pase eso, este
+efecto termina). No puedes usar este efecto otra vez durante la batalla hasta que el efecto termine.
 ]]></string>
 
     <string name="heinous_arrogance_lore"><![CDATA[
@@ -364,8 +327,7 @@ Para los engreídos Drukhari, todos los oponentes no son más que alimañas, a l
 ]]></string>
 
     <string name="heinous_arrogance_description"><![CDATA[
-Use this firefight ploy when it is your turn to
-activate a friendly operative. You can skip that activation
+Usa esta Firefight cuando sea tu turno de activar un Operativo aliado. Puedes saltar esa activacion.
 ]]></string>
 
     <string name="prey_on_the_wounded_lore"><![CDATA[
@@ -373,9 +335,8 @@ Los Drukhari se sienten atraídos por el sufrimiento y buscan a los heridos para
 ]]></string>
 
     <string name="prey_on_the_wounded_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice for a friendly **HAND OF THE ARCHON** operative,
-if it is shooting against or fighting against a
-wounded enemy operative. You can re-roll any of your attack dice.
+Usa esta Firefight despues de lanzar dados de ataque para un aliado **HAND OF THE ARCHON**, que este disparando,
+combatiendo o retaleando contra un Operativo herido. Puedes re-rollear cualquiera de tus dados de ataque.
 ]]></string>
 
 </resources>
