@@ -5,11 +5,11 @@
     <!--Kommandos-->
 
     <string name="krumping_time_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="krumping_time_description"><![CDATA[
-This operative can perform two **Fight** actions during its activation
+Este Operativo puede hacer dos acciones de **Combate** durante su activacion.
     ]]></string>
 
     <string name="get_it_dun_usage"><![CDATA[
@@ -17,25 +17,23 @@ This operative can perform two **Fight** actions during its activation
     ]]></string>
 
     <string name="get_it_dun_description"><![CDATA[
-**SUPPORT**. Select one other friendly **KOMMANDO** operative (excluding **BOMB SQUIG**) visible to
-and within 6\" of this operative. Until the end of that operative’s next activation, add 1 to its APL stat.\n\n
+**SUPPORT**. Selecciona otro aliado **KOMMANDO** (excluyendo **BOMB SQUIG**) visible y a 6\" de este
+Operativo. Hasta el fin de la proxima activacion de ese Operativo, añade 1 su estadistica de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative, or while counteracting.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo, o en
+un Counteract.
     ]]></string>
 
     <string name="taktical_wotnotz_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="taktical_wotnotz_description"><![CDATA[
-You can do each of the following once per turning point:\n
-\n
-• One friendly **KOMMANDO BOY** operative can perform the **Smoke Grenade** action.\n
-\n
-• One friendly **KOMMANDO BOY** operative can perform the **Stun Grenade** action.\n
-\n
-The rules for these actions are found in universal equipment. Performing these actions using this
-rule does not count towards their action limits (i.e. if you also select those grenades from equipment).
+Puedes hacer una de las siguientes acciones una vez por turno:\n
+\n• Un aliado **KOMMANDO BOY** puede hacer la accion **Smoke Grenade.\n
+\n• Un aliado **KOMMANDO BOY** puede hacer la accion **Smoke Grenade.\n
+\nEstas acciones son encontradas en el equipamiento universal. Hacer estas acciones no cuenta
+sobre el limite de acciones por equipamiento escogido.
     ]]></string>
 
     <string name="kommando_breach_usage"><![CDATA[
@@ -43,25 +41,21 @@ rule does not count towards their action limits (i.e. if you also select those g
     ]]></string>
 
     <string name="kommando_breach_description"><![CDATA[
-Place one of your Breach markers within this operatives control range as close as possible to a
-terrain feature within control range of it. Whenever an operative is within 1\" of that marker, it
-treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.\n
-\n
-This operative can perform this action during the **Charge** or **Reposition** action, and it can do
-so for 1 less AP during those actions. Any remaining move distance can be used after it does so.\n\n
-
-This operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn’t within its
-control range.
+Pon uno de tus marcadores de Breach dentro del rango de este Operativo y tan cerca como sea posible
+de una pieza de terreno dentro del control de este. Cuando un Operativo esta a 1\" de ese marcador,
+trata esa parte que no sea mas ancha de 1\" como terreno accesible.\n\n
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo, o si
+la pieza de terreno no esta dentro del rango de control de este Operativo.
     ]]></string>
 
 
     <string name="plan_ladz_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="plan_ladz_description"><![CDATA[
-Once during each of this operatives activations, it can perform
-the Pick Up Marker, **Place Marker** or a **mission action** for 1 less AP.
+Una vez durante cada activacion de este Operativo, puede hacer la accion **Pick up Marker**, **Place Marker**
+o una accion de mision, por 1 AP menos.
     ]]></string>
 
     <string name="listen_in_usage"><![CDATA[
@@ -69,11 +63,10 @@ the Pick Up Marker, **Place Marker** or a **mission action** for 1 less AP.
     ]]></string>
 
     <string name="listen_in_description"><![CDATA[
-**SUPPORT**. Select one other friendly **KOMMANDO** operative (excluding
-**BOMB SQUIG**) visible to and within 6\" of this operative. Until the end of that
-operatives next activation, add 1 to its APL stat.\n\n
+**SUPPORT**. Selecciona otro aliado **KOMMANDO** (excluyendo **BOMB SQUIG**) visible y a 6\" de este
+Operativo. Hasta el fin de la proxima activacion de ese Operativo, añade 1 su estadistica de APL.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
@@ -82,30 +75,31 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="dakka_dash_description"><![CDATA[
-Perform a free **Dash** action and a free **Shoot** action with this operative in any order.
-You can only select a dakka shoota for that **Shoot** action.\n\n
+Haz una accion **Dash** gratis y una accion de **Disparo** gratis con este Operativo en cualquier orden.
+Solo puedes seleccionar tu Dakka Shoota para ese **Disparo**.\n\n
 
-This operative cannot perform this action while it has a **Conceal** order, or while within control range of an enemy operative.
+Este Operativo no puede hacer esta accion en **Conceal** o si esta dentro del rango de control de
+un Operativo enemigo.
     ]]></string>
 
     <string name="dat_all_you_got_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="dat_all_you_got_description"><![CDATA[
-After this operative fights or retaliates, if it
-was not incapacitated, you can inflict D3 damage on the enemy operative in that sequence.
+Despues de que este Operativo combata o retale, si no fue incapacitado, puedes infligir D3 heridas a ese
+enemigo en esa secuencia.
     ]]></string>
 
 
     <string name="sneaky_zogger_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sneaky_zogger_description"><![CDATA[
-This operative cannot have an **Engage** order. Whenever this
-operative is in cover, it cannot be selected as a valid target, taking precedence over
-all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+Este Operativo no puede tener una orden de **Engage**. Cuando este Operativo esta en cobertura, no
+puede ser seleccionado como un Operativo valido, esto toma precedencia sobre todas las demas reglas,
+excepto estar a 2\".
     ]]></string>
 
     <string name="kommando_grappling_hook_usage"><![CDATA[
@@ -113,80 +107,69 @@ all other rules (e.g. Seek, Vantage terrain) except being within 2\".
     ]]></string>
 
     <string name="kommando_grappling_hook_description"><![CDATA[
-Select a visible point on a terrain feature for this operative. Remove this operative
-from the killzone and set it back up within 1\" horizontally of that point in a location
-it can be placed, not within control range of enemy operatives, and with that point
-visible to it. This operative cannot perform the **Operate Hatch** action during this action.\n\n
+Selecciona un punto visible en una pieza de terreno para este Operativo. Remueve este Operativo del
+campo y ponlo otra vez a 1\" horizontalmente de ese punto, en un lugar donde pueda ser puesto, no
+dentro del rango de control de enemigos, y con ese punto siendo visible para el. Este operativo no
+puede hacer la accion **Operate Hatch** durante esta accion.\n\n
 
-This action is treated as a **Reposition** action. This operative cannot perform this
-action while within control range of an enemy operative, or during an activation in
-which it performed the **Charge** or **Fall Back** action (or vice versa).
+Esta accion es tratada como una **Reposicion**. este Operativo no puede hacer esta accion mientras
+esta dentro del rango de control de Operativos enemigos, o durante una activacion en la que haya hecho
+la accion de **Cargar** o **Fall Back* (o viceversa).
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="throat_slittas_lore"><![CDATA[
-Unusual amongst Orks, Kommandos utilise stealth and
-misdirection to close in before falling upon the enemy
-with jagged blades drawn.
+A diferencia de otros orkos, los Kommandos utilizan el sigilo y el engaño para acercarse al enemigo
+antes de abalanzarse sobre él con sus afiladas espadas desenvainadas.
 ]]></string>
 
     <string name="throat_slittas_description"><![CDATA[
-Each friendly **KOMMANDO** operative (excluding
-**BOMB SQUIG**) can perform the **Charge** action while it has a **Conceal** order.
+Cada Operativo **KOMMANDO** (excluyendo **BOMB SQUIG**) puede hacer la accion **Cargar** mientras tenga
+una orden de **Conceal**.
 ]]></string>
 
     <!--Equipment-->
 
     <string name="choppas_lore"><![CDATA[
-Ork blades may appear crude and rusty, but this is
-of little comfort to those on the receiving end of a
-choppa blow.
+Las espadas orkas pueden parecer toscas y oxidadas, pero esto no consuela a quienes reciben un golpe de hacha.
 ]]></string>
 
     <string name="choppas_description"><![CDATA[
-Friendly **KOMMANDO** operatives (excluding
-**BOMB SQUIG** and **GROT**) have the following
-melee weapon. Note that some operatives already
-have this weapon but with better stats; in that
-instance, use the better version.
+Aliados **KOMMANDO** (excluyendo **BOMB SQUIG** y **GROT**) tienen la siguiente arma de melee. Notese
+que algunos Operativos tienen esta arma con mejores estadisticas, en esa instancia, usa la mejor
+version.
 ]]></string>
 
     <string name="dynamite_lore"><![CDATA[
-Kommandos are known to utilise a variety of improvised
-explosives, the most common of which are bundles of
-volatile dynamite.
+Se sabe que los Kommandos utilizan una variedad de explosivos improvisados, los más comunes de los
+cuales son paquetes de dinamita volátil.
 ]]></string>
 
     <string name="dynamite_description"><![CDATA[
-Once per battle, a friendly **KOMMANDO** operative (excluding **BOMB SQUIG** and **GROT**) can
-use the following ranged weapon:
+Una vez por batalla, un aliados **KOMMANDO** (excluyendo **BOMB SQUIG** y **GROT**) puede usar la
+siguiente arma de distancia:
 ]]></string>
 
     <string name="harpoon_lore"><![CDATA[
-This weapon fires a sharp, barbed projectile that
-snags any foes it does not kill outright, preventing them
-from moving.
+Esta arma dispara un proyectil afilado y con púas que atrapa a cualquier enemigo que no mate al
+instante, impidiéndole moverse.
 ]]></string>
 
     <string name="harpoon_description"><![CDATA[
-Once per turning point, a friendly **KOMMANDO** operative (excluding **BOMB SQUIG** and **GROT**) can
-use the following ranged weapon:
+Una vez por turno, un aliados **KOMMANDO** (excluyendo **BOMB SQUIG** y **GROT**) puede usar la
+siguiente arma a distancia:
 ]]></string>
 
     <string name="collapsible_stocks_lore"><![CDATA[
-Kommandos often use modified guns with cut down
-or folding shoulder stocks to enhance the impact of
-their firepower.
+Los Kommandos suelen usar armas modificadas con culatas recortadas o plegables para aumentar el
+impacto de su potencia de fuego.
 ]]></string>
 
     <string name="collapsible_stocks_description"><![CDATA[
-Remove the Range weapon rule from the
-following ranged weapons friendly **KOMMANDO** operatives have:\n
-\n
-• Shokka pistol\n
-\n
-• Slugga
+Remueve la regla de Range o el limitante de distancia de las siguientes armas para aliados **KOMMANDO**:\n
+\n• Shokka pistol.\n
+\n• Slugga.
 ]]></string>
 
 
@@ -194,96 +177,87 @@ following ranged weapons friendly **KOMMANDO** operatives have:\n
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="dakka_dakka_lore"><![CDATA[
-Whilst they are more subtle than other Orks,
-Kommandos hold to the same belief that any target can
-be overcome by simply applying a greater volume of fire.
+Si bien son más sutiles que otros Orkos, los Kommandos comparten la misma creencia de que cualquier
+objetivo puede ser vencido simplemente aplicando un mayor volumen de fuego.
 ]]></string>
 
     <string name="dakka_dakka_description"><![CDATA[
-Friendly **KOMMANDO** operatives ranged weapons have the Punishing weapon rule
+Las armas a distancia de aliados **KOMMANDO** ganan la regla Punishing.
 ]]></string>
 
     <string name="komando_wagh_lore"><![CDATA[
-The infamous and dreaded battle cry of the Orks heralds
-a tempest of violence and butchery.
+El infame y temido grito de guerra de los Orkos anuncia
+una tempestad de violencia y matanza.
 ]]></string>
 
     <string name="komando_wagh_description"><![CDATA[
-Friendly **KOMMANDO** operatives melee weapons have the Balanced weapon rule.
+Las armas a melee de aliados **KOMMANDO** ganan la regla Balanced.
 ]]></string>
 
     <string name="skull_about_lore"><![CDATA[
-Kommandos exploit cover and terrain to confound the enemy and confuse their aim.
+Los Kommandos aprovechan la cobertura y el terreno para confundir al enemigo y dificultar su puntería.
 ]]></string>
 
     <string name="skull_about_description"><![CDATA[
-Whenever an enemy operative is shooting a friendly **KOMMANDO** operative that has a
-**Conceal** order, you can retain one of your defence dice as a normal success without rolling it (in
-addition to a cover save, if any).
+Cuando un enemigo este disparando a un aliado **KOMMANDO** que tiene una orden de **Conceal**, puedes
+retener uno de tus dados de defensa como un exito normal sin lanzarlos (en adicion con cualquier salvacion
+por cobertura que tengas).
 ]]></string>
 
     <string name="sssshhhhhhh_lore"><![CDATA[
-Despite their colossal bulk, Ork Kommandos are capable
-of moving surprisingly quietly, should the situation
-demand it.
+A pesar de su colosal tamaño, los Orkos Kommandos son capaces de moverse con sorprendente sigilo,
+si la situación lo requiere.
 ]]></string>
 
     <string name="sssshhhhhhh_description"><![CDATA[
-Each friendly **KOMMANDO** operative that is
-not a valid target for enemy operatives, or has a
-**Conceal** order and is more than 6\" from enemy
-operatives, can immediately perform a free **Dash**
-action. You cannot use this ploy during the first turning point.
+Cada aliado **KOMMANDO** que no sea un objetivo valido para Operativos enemigos, o tenga una orden de
+**Conceal** y a mas de 6\" de Operativos enemigos, pueden inmediatamente hacer una accion de **Dash**
+gratis. No puedes usar esta Ploy durante el primer turno.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="kommando_jas_lore"><![CDATA[
-Orks have a remarkable ability to shrug off grievous
-damage that would incapacitate most other species.
+Los orcos tienen una notable capacidad para resistir daños graves que incapacitarían a la mayoría
+de las demás especies.
 ]]></string>
 
     <string name="kommando_jas_description"><![CDATA[
-Use this firefight ploy when an attack dice inflicts Normal Dmg on a friendly **KOMMANDO**
-operative (excluding **BOMB SQUIG** and **GROT**). Ignore that inflicted damage.
+Usa esta Firefight ploy cuando un dado de ataque inflija daño normal a un aliado **KOMMANDO**
+(excluyendo **BOMB SQUIG** y **GROT**). Ignora ese daño infligido.
 ]]></string>
 
     <string name="krumpem_lore"><![CDATA[
-Whilst they are far more crafty than your average Ork,
-Kommandos are still ultimately driven by a need to fight and kill.
+Si bien son mucho más astutos que un orco promedio, los Kommandos, en última instancia, siguen estando
+impulsados por la necesidad de luchar y matar.
 ]]></string>
 
     <string name="krumpem_description"><![CDATA[
-Use this firefight ploy at the end of the Firefight phase. Select one friendly **KOMMANDO**
-operative. It can immediately perform a free **Fight** action.
+Usa esta Firefight ploy al final de la fase Firefight. Selecciona un aliado **KOMMANDO**. Puede
+inmediatamente hacer una accion de **Combate** gratis.
 ]]></string>
 
     <string name="kunnin_brutal_lore"><![CDATA[
-Whilst they may utilise stealth and cunning to get
-within range of their enemies, Kommandos are no less
-enthusiastic about meting out brutal violence.
+Si bien pueden utilizar el sigilo y la astucia para acercarse a sus enemigos, los Kommandos no son
+menos entusiastas a la hora de infligir violencia brutal.
 ]]></string>
 
     <string name="kunnin_brutal_description"><![CDATA[
-Use this firefight ploy when a friendly **KOMMANDO** operative that has a **Conceal**
-order is fighting during an activation in which it
-performed the **Charge** action, you are resolving the
-first attack dice, and it is a strike with a normal
-success. Treat that normal success as a critical success instead.
+Usa esta Firefight ploy cuando un aliado **KOMMANDO** que tenga una orden de **Conceal** este combatiendo
+en una activacion en la que haya hecho la accion de **Cargar**, si estas resolviendo el primer dado
+de ataque, y es un golpe con un exito normal. trata ese dado normal como un exito critico en su lugar.
 ]]></string>
 
     <string name="shake_it_off_lore"><![CDATA[
-Ork Kommandos bolster their natural resilience with
-makeshift armour and protective equipment, rendering
-their advance almost impossible to slow.
+Los comandos orcos refuerzan su resistencia natural con
+armaduras y equipos de protección improvisados, lo que hace que
+su avance sea prácticamente imposible de frenar.
 ]]></string>
 
     <string name="shake_it_off_description"><![CDATA[
-Use this firefight ploy when a friendly
-**KOMMANDO** operative is activated, or when its
-APL stat is changed. Until the start of the next
-turning point, you can ignore any changes to its APL stat.
+Usa esta Firefight ploy cuando un aliado **KOMMANDO** sea activado, o cuando su APL sea cambiado. Hasta
+el inicio del siguiente turno, ignora cualquier cambio a sus estadisticas de APL.
 ]]></string>
 
 </resources>

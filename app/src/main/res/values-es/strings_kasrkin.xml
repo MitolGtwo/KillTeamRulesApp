@@ -34,7 +34,6 @@ Mientras este Operativo esté en el campo, puedes seleccionar una **SKILL AT ARM
 
     <string name="kasrkin_medic_description"><![CDATA[
 
-
 La primera vez durante cada turno que otro Operativo  **KASRKIN** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
 ni el Operativo con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado; tiene 1 herida restante y no puede ser incapacitado
 por el resto de esa acción.\n

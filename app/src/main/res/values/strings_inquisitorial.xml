@@ -36,7 +36,7 @@ This operative cannot use any weapons that arent on its datacard, or perform uni
     ]]></string>
 
     <string name="inquisitorial_hunter_description"><![CDATA[
-This operative can perform the Charge action while it has a Conceal order.
+This operative can perform the **Charge** action while it has a **Conceal** order.
     ]]></string>
 
     <string name="weathered_usage"><![CDATA[
@@ -77,7 +77,7 @@ Whenever an enemy operative is incapacitated within this operatives control rang
 
     <string name="hexorcise_description"><![CDATA[
 Whenever an enemy operative
-is visible to and within 6\n" of this operative,
+is visible to and within 6\" of this operative,
 your opponent cannot re-roll their attack
 or defence dice for that operative.
     ]]></string>
@@ -115,7 +115,7 @@ didnt select for each operative):\n
 **INQUISITORIAL AGENT** operative
 is shooting against, fighting against or
 retaliating against an enemy operative
-within 2\n" of friendly operatives with
+within 2\" of friendly operatives with
 this rule, add 1 to the Atk stat of that
 friendly operatives weapons.\n
 \n
@@ -260,10 +260,9 @@ operative (excluding **GUN SERVITOR**) or vice versa, add 1 to this operatives A
 **PSYCHIC** ranged weapons cannot inflict damage on this operative. For the effects of **PSYCHIC** actions, this
 operative cannot be selected and is never treated as being within those actions required distances. Whenever an operative is within
 6\" of this operative:\n
-\n
-• That operative cannot perform **PSYCHIC** actions or use **PSYCHIC** additional rules.\n
-• That operative cannot use **PSYCHIC** ranged weapons.\n
-• **PSYCHIC** melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.
+\n• That operative cannot perform **PSYCHIC** actions or use **PSYCHIC** additional rules.\n
+\n• That operative cannot use **PSYCHIC** ranged weapons.\n
+\n• **PSYCHIC** melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.
     ]]></string>
 
     <string name="inquisitorial_medic_usage"><![CDATA[

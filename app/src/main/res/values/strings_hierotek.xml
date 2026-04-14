@@ -134,7 +134,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="canoptek_repair_description"><![CDATA[
-SUPPORT. Select one friendly **HIEROTEK CIRCLE**
+**SUPPORT.** Select one friendly **HIEROTEK CIRCLE**
 operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds.
     ]]></string>
 
@@ -524,7 +524,7 @@ the living.
 Use this firefight ploy when a friendly **HIEROTEK CIRCLE IMMORTAL** operative is performing the
 **Shoot** action and you select a tesla carbine. Until
 the end of that action, that weapon does not have
-the 2\" from its Devastating weapon rule but has the Blast 2" weapon rule.
+the 2\" from its Devastating weapon rule but has the Blast 2\" weapon rule.
 ]]></string>
 
     <string name="dimensional_ambush_lore"><![CDATA[

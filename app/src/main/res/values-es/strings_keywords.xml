@@ -95,7 +95,7 @@
          el valor de Piercing.
 
  ]]></string>
-    <string name="keyword_piercing_crits"><![CDATA[
+    <string name="keyword_piercing_Crits"><![CDATA[
 
            El defensor pierde un dado antes de hacer una tirada de defensa contra un disparo basado
          en el valor de Piercing Crits, siempre y cuando un resultado exitoso del atacante sea
