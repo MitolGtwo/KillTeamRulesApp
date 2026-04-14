@@ -448,54 +448,43 @@ once. Your kill team can only include up to two
     <!--Equipment-->
 
     <string name="inquisitorial_rosette_lore"><![CDATA[
-A symbol of an Inquisitors near-boundless authority,
-the rosette is feared by all.
+Símbolo de la autoridad casi ilimitada del Inquisidor, el rosario es temido por todos.
 ]]></string>
 
     <string name="inquisitorial_rosette_description"><![CDATA[
-Once per battle, when a friendly **INQUISITORIAL
-AGENT** operative is activated, if youve used the
-Quarry strategy ploy during this turning point, you
-can use this rule. If you do, you can select a new
-enemy operative to be your quarry until the end of
-the turning point.
+Una vez por batalla, cuando un aliado **INQUISITORIAL
+AGENT** es activado, si usaste tu Strategy ploy Quarry durante este turno,
+puedes usar esta regla. Si lo haces, puedes seleccionar un nuevo Operativo enemigo para que sea
+tu Quarry hasta el fin del turno.
 ]]></string>
 
     <string name="combat_daggers_lore"><![CDATA[
-In the press of melee combat, a simple dagger can be
-the difference between life and death.
+En el fragor del combate cuerpo a cuerpo, una simple daga puede marcar la diferencia entre la vida y la muerte.
 ]]></string>
 
     <string name="combat_daggers_description"><![CDATA[
-Friendly **INQUISITORIAL AGENT** operatives have
-the following melee weapon. Whenever a friendly
-**SISTER OF SILENCE** operative is using it, add 1 to
-its Atk stat.
+Aliados **INQUISITORIAL AGENT** ganan la siguiente arma a melee. Cuando una aliada **SISTER OF SILENCE** la usa, añade 1 a su estadística de 
+Atk.
 ]]></string>
 
     <string name="armoured_bodysuits_lore"><![CDATA[
-Lightweight yet tough, these form-fitting bodysuits
-provide an extra layer of protection to the wearer.
+Ligeros pero resistentes, estos monos ajustados proporcionan una capa adicional de protección a quien los lleva.
 ]]></string>
 
     <string name="armoured_bodysuits_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**INQUISITORIAL AGENT** operative (excluding
-**TOME-SKULL**) that has a 5+ Save stat, you can
-retain one of your defence dice results of 4 as a
-normal success
+Cuando un Operativo esté disparando a un aliado **INQUISITORIAL AGENT** (excluyendo **TOME-SKULL**)
+que tenga una estadística de salvación de 5+, puedes retener uno de tus resultados de 4 como un éxito normal.
 ]]></string>
 
     <string name="servo_skull_lore"><![CDATA[
-Servo-skulls are diminutive floating servitors that can be
-crafted and programmed to assist their operators with a
-wide range of tasks.
+Los servo-cráneos son diminutos sirvientes flotantes que pueden ser
+fabricados y programados para ayudar a sus operadores con una
+amplia gama de tareas.
 ]]></string>
 
     <string name="servo_skull_description"><![CDATA[
-Once per battle, one friendly **INQUISITORIAL
-AGENT** operative can perform a mission action
-for 1 less AP.
+Una vez por batalla, un aliado **INQUISITORIAL AGENT** puede hacer una acción de 
+misión por 1 AP menos.
 ]]></string>
 
 
@@ -504,78 +493,62 @@ for 1 less AP.
     <!--Strategy ploys-->
 
     <string name="denounce_lore"><![CDATA[
-None escape the long arm of the Inquisition. Those
-denounced and proclaimed guilty quail before its
-vengeful Agents.
+Nadie escapa al largo brazo de la Inquisición. Los denunciados y declarados culpables tiemblan ante sus vengativos agentes.
 ]]></string>
 
     <string name="denounce_description"><![CDATA[
-Select one enemy operative and roll one D3. In
-the Firefight phase of this turning point, that
-enemy operative cannot be activated or perform
-actions until its the last enemy operative to
-be activated, or your opponent has activated a
-number of enemy operatives equal to the result
-of the D3 (whichever comes first). This ploy costs
-you 1 additional CP for each previous time youve
-used it during the battle (e.g. 1CP the first time
-you would use it, 2CP the second time, etc.).
+Selecciona un Operativo enemigo y lanza un D3. En la firefight fase de este turno,
+ese Operativo enemigo no puede ser activado o hacer acciones hasta que el último 
+enemigo haya activado, o tu oponente haya activado un número de Operativos igual
+al resultado del D3 (lo que pase primero). Esta ploy cuesta 1 CP adicional cada vez que la vuelves a usar
+durante la batalla (ejemplo, en turno uno cuesta 1CP, turno dos cuesta 2CP).
 ]]></string>
 
     <string name="intense_scrutiny_lore"><![CDATA[
-There is no hiding from the all-seeing eyes of the Inquisition.
+Es imposible esconderse de la mirada omnipresente de la Inquisición.
 ]]></string>
 
     <string name="intense_scrutiny_description"><![CDATA[
-Whenever you are selecting a valid target for a
-friendly **INQUISITORIAL AGENT** operative,
-enemy operatives within 4\" of it cannot be in
-cover (instead of 2\"). While this can allow such
-operatives to be targeted (assuming they are
-visible), it does not remove their cover save (if
-any), unless the friendly **INQUISITORIAL AGENT**
-operative is within 2\" as normal.
+Cuando estés seleccionando a un objetivo válido para un aliado **INQUISITORIAL AGENT**,
+Operativos enemigos a 4\" no pueden estar en cobertura (en lugar de 2\"). Asumiendo que sean
+visibles, esto no remueve salvaciones por cobertura (si hay alguna), a menos que el aliado
+**INQUISITORIAL AGENT** este a 2\" normalmente.
 ]]></string>
 
     <string name="quarry_lore"><![CDATA[
-For those judged guilty, there is no escape. Once marked for execution, the Inquisitions quarry is doomed.
+Para aquellos declarados culpables, no hay escapatoria. Una vez marcados para la ejecución, los objetivos de la Inquisición están condenados.
 ]]></string>
 
     <string name="quarry_description"><![CDATA[
-Select one enemy operative to be your quarry for the turning point. Whenever a friendly
-**INQUISITORIAL AGENT** operative is shooting
-against, fighting against or retaliating against your
-quarry, that friendly operatives weapons have
-the Ceaseless weapon rule. Whenever your quarry
-is incapacitated, you can select a new enemy
-operative to be your quarry (and can continue to
-do so during this turning point).
+Selecciona un Operativo enemigo para ser tu Quarry durante el turno. Cuando un aliado
+**INQUISITORIAL AGENT** está disparando, combatiendo o retaleando contra tu Quarry,
+las armas de esos Operativos aliados ganan la regla Ceaseless. Cuando tu Quarry
+sea incapacitado, puedes seleccionar un nuevo Operativo enemigo para que sea
+tu Quarry (y puedes continuar haciendo esto durante el turno).
 ]]></string>
 
     <string name="irrefutable_jurisdiction_lore"><![CDATA[
-The Agents of the Inquisition are emboldened by their
-near-limitless authority, and will bow before neither
-traitor nor xenos.
+Los agentes de la Inquisición se sienten envalentonados por su autoridad casi ilimitada y no se doblegarán ante ningún traidor ni xeno.
 ]]></string>
 
     <string name="irrefutable_jurisdiction_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**INQUISITORIAL AGENT** operative thats within
-3\" of an objective marker, you can re-roll one
-of your defence dice. If that friendly operative
-contests that marker, you can re-roll any of your
-defence dice results of one result instead (e.g.
-results of 2).
+Cuando un Operativo esté disparando a un aliado **INQUISITORIAL AGENT**
+que esté a 3\" de un objetivo, puedes re-rollear uno de tus dados de defensa. Si ese
+Operativo está contestando ese marcador, puedes re-rrollear cualquier cantidad de 
+dados de defesa del mismo valor (ejemplo todos los 2).
 ]]></string>
 
     <!--Firefight ploys-->
     <string name="absolute_authority_lore"><![CDATA[
-All who know of the Inquisition fear its limitless reach.
-Those unfortunate enough to draw the ire of its Agents
-are often stricken by fear.
+Todos los que conocen la Inquisición temen su alcance ilimitado.
+Aquellos que tienen la desgracia de provocar la ira de sus agentes
+suelen verse aterrorizados.
 ]]></string>
 
     <string name="absolute_authority_description"><![CDATA[
+Usa esta Firefight ploy durante la batalla, cuando un Oponente usa una Strategy ploy
+o Firefight Ploy (excluyendo Command Re-roll o una que cueste 0CP)
+        
 Use this firefight ploy during the battle, when
 an opponent uses a strategy or firefight ploy
 (excluding Command Re-roll or one that costs
