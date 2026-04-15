@@ -73,7 +73,7 @@ You cannot use this weapon rule more than once per turning point.
 • At the end of each enemy operatives activation or counteraction, you can select one enemy
 operative within 2\" of this operative. This operative can perform a free **Charge**
 action (you can change its order to **Engage** to do so), but it
-cannot move more than 2\n" and must end that move within control range of that selected operative.
+cannot move more than 2\" and must end that move within control range of that selected operative.
     ]]></string>
 
     <string name="legionaries_icon_bearer_usage"><![CDATA[

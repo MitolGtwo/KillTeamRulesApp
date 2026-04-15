@@ -547,66 +547,45 @@ suelen verse aterrorizados.
 
     <string name="absolute_authority_description"><![CDATA[
 Usa esta Firefight ploy durante la batalla, cuando un Oponente usa una Strategy ploy
-o Firefight Ploy (excluyendo Command Re-roll o una que cueste 0CP)
-        
-Use this firefight ploy during the battle, when
-an opponent uses a strategy or firefight ploy
-(excluding Command Re-roll or one that costs
-0CP). Their ploy isnt used, the CP spent on it is
-refunded and they cannot use that ploy again
-during this turning point. This ploy cannot be
-used to stop the same ploy more than once
-per battle.
+o Firefight Ploy (excluyendo Command Re-roll o una que cueste 0CP). Esa ploy no es usada, el CP
+gastado es reembolsado y no puede usar esa ploy otra vez durante este turno. Esta ploy no puede ser
+usada para detener la misma ploy mas de una vez por batalla.
 ]]></string>
 
     <string name="relentless_in_pursuit_lore"><![CDATA[
-The Inquisition pursues its foes with dogged and
-relentless determination.
+La Inquisición persigue a sus enemigos con tenaz e implacable determinación.
 ]]></string>
 
     <string name="relentless_in_pursuit_description"><![CDATA[
-Use this firefight ploy when an enemy operative
-within 2\" of a ready friendly **INQUISITORIAL
-AGENT** operative performs an action in
-which it moves. After it moves, that friendly
-**INQUISITORIAL AGENT** operative can either
-perform a free **Reposition** action, but must end
-that move within 2\" of that enemy operative, or
-a free **Charge** action, but must end that move
-within control range of that enemy operative. If
-neither is possible, that friendly operative cannot
-perform those actions, this ploy is not used and the
-CP spent on it is refunded.
+Usa esta Firefight ploy cuando un Operativo enemigo a 2\" de un aliado **INQUISITORIAL AGENT** que no
+haya activado (Ready) vaya a hacer una accion en la que se mueva. Despues de que se haya movido, ese
+aliado **INQUISITORIAL AGENT** puede hacer una **Reposicion** gratis, pero debe terminar a 2\" de
+ese enemigo, o una **Carga** pero debe terminar ese movimiento dentro del rango de control de ese
+Operativo enemigo. Si ninguna es posible, ese aliado no puede hacer esas acciones, esta ploy no
+es usada y el CP usado es reembolsado.
 ]]></string>
 
     <string name="the_emperor_will_lore"><![CDATA[
-The Agents of the Inquisition enforce the Emperors will.
-This authority emboldens them in their duties
+Los agentes de la Inquisición hacen cumplir la voluntad del Emperador. Esta autoridad los envalentona
+en sus deberes.
 ]]></string>
 
     <string name="the_emperor_will_description"><![CDATA[
-Use this firefight ploy when a friendly
-**INQUISITORIAL AGENT** operative is activated.
-Until the end of that operatives activation, you
-can ignore any changes to its stats (including its
-weapons stats).
+Usa esta Firefight ploy cuando un aliado **INQUISITORIAL AGENT** es activado. Hasta el final de la activacion
+de ese Operativo, puedes ignorar cualquier cambio a sus estadisticas (incluyendo cambios a las
+estadisticas de sus armas).
 ]]></string>
 
     <string name="intimidating_presence_lore"><![CDATA[
-Those that bear the sigils and authority of the Inquisition
-are rightly feared, even by the mightiest of foes.
+Quienes portan los emblemas y la autoridad de la Inquisición son, con razón, temidos, incluso por los
+enemigos más poderosos.
 ]]></string>
 
     <string name="intimidating_presence_description"><![CDATA[
-Use this firefight ploy when an enemy
-operative visible to and within 3\" of a friendly
-**INQUISITORIAL AGENT** operative, or visible to
-and within 6\" of a friendly **MYSTIC** operative,
-performs the **Pick Up Marker** or a mission action
-(excluding **Operate Hatch**). Your opponent must
-spend 1 additional AP for that enemy operative to
-perform that action (if they cannot or choose not
-to, the AP spent on it is refunded).
+Usa esta Firefigth ploy cuando un Operativo enemigo visible y a 3\" de un aliado **INQUISITORIAL AGENT**,
+o visible y a 6\" de una aliada **MYSTIC**, haga una accion **Pick up Marker** o accion de mision (
+excluyendo Operate Hatch). Tu oponente debe gastar 1AP adicional para que ese Operativo enemigo pueda
+hacer esa accion (si no pueden o deciden no hacerla, el Ap gastado es reembolsado).
 ]]></string>
 
 </resources>

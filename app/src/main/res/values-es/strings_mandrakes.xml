@@ -4,40 +4,38 @@
     <!--Mandrake-->
 
     <string name="harrowing_whispers_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="harrowing_whispers_description"><![CDATA[
-Whenever your opponent would activate an enemy operative within 6\" of this operative, you can roll one
-D6 (you cannot do so if you already interrupted that operatives
-activation with this rule or the **DIRGEMAW** operatives Haunting Focus additional rule during this
-turning point): if the result is higher than that enemy operatives APL stat, your
-opponent cannot activate it during this activation. If there are
-no other enemy operatives eligible to be activated, this rule has no effect.
+Cuando tu oponente vaya a activar un Operativo enemigo a 6\" de este Operativo, puedes lanzar un D6
+(no puedes hacerlo si ya interrumpiste la activacion de ese Operativo enemigo con esta regla o con la
+regla de tu **DIRGEMAW** durante este turno): si el resultado de mayor a la estadistica de APL de ese Operativo enemigo,
+tu oponenete no puede activarlo durante esa activacion. Si no hay otros Operativos enemigos elegibles
+para ser activados, esta regla no tiene efecto.
     ]]></string>
 
     <string name="oubliex_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="oubliex_description"><![CDATA[
-Whenever this operative is readied, or if this operative
-incapacitates an enemy operative with its huskblade, its oubliex
-becomes active. Whenever its oubliex is active and an attack dice
-would inflict damage on this operative, you can roll one D6: on
-a 5+, ignore the damage inflicted from that attack dice and its
-oubliex is no longer active.
+Cuando este Operativo este listo para ser activado, o si este Operativo incapacita a un Operativo enemigo
+con su Huskblade, su Oubliex se activa. Mientras el Oubliex este activo y un dado de ataque vaya a
+inflinjir daño a este Operativo, puedes lanzar un D6: al 5+, ignora ese daño y el Oublies deja de
+estar activo.
     ]]></string>
 
     <string name="balefire_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="balefire_description"><![CDATA[
-Whenever a friendly **MANDRAKE** operative is shooting an enemy operative that has one of your Balefire
-tokens, add 1 to both Dmg stats of that friendly operatives ranged weapons, and those weapons have
-the Saturate weapon rule. Whenever an operative is shooting a friendly **MANDRAKE** operative that
-has one of your Balefire tokens, subtract 1 from both Dmg stats of that operatives ranged weapons
+Cuando un aliado **MANDRAKE** esta disparando a un enemigo que tenga uno de tus Balefire tokens, añade
+1 a ambas estadisticas de daño a las armas de distancia de ese aliado, y esas armas ganan las regla
+Saturate. Cuando un Operativo esta disparando a un aliado **MANDRAKE** que tenga uno de tus Balefire
+tokens, sustrae 1 a ambas estadisticas de daño a las armas de rango de ese Operativo enemigo (hasta un
+minimo de 1).
 (to a minimum of 1).
     ]]></string>
 
@@ -46,53 +44,51 @@ has one of your Balefire tokens, subtract 1 from both Dmg stats of that operativ
     ]]></string>
 
     <string name="wreathe_balefire_description"><![CDATA[
-Select one operative visible to this operative that does not
-have one of your Balefire tokens. Until the start of this
-operatives next activation, until it is incapacitated or until
-it performs this action again (whichever comes first), that
-selected operative gains one of your Balefire tokens.\n\n
+Selecciona un Operativo visible para este Operativo que no tenga uno de tus Balefire tokens. Hasta
+el inicio de la proxima activacion de este Operativo, hasta que sea incapacitado o hasta que haga
+esta accion otra vez (lo que pase primero), ese Operativo seleccionado gana uno de tus Balefire tokens.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
     <string name="soul_harvest_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="soul_harvest_description"><![CDATA[
-Whenever an enemy operative is incapacitated as a result of this
-operatives Part Collector rule or baleblade, you gain 1 Soul Harvest point, or two if that
-enemy operative had an APL stat of 3 or more. Whenever a friendly **MANDRAKE**
-operative is activated, you can spend 1 of your Soul Harvest points to either add 1 to its
-APL stat until the end of the battle, or have it regain up to 2D3 lost wounds. Note you
-can spend your Soul Harvest points even if this operative is incapacitated.
+Cuando un Operativo enemigo es incapacitado como resultado de la regla Part Collector o del Baleblade
+de este Operativo, ganas 1 punto de Soul Harvest, o dos si ese Operativo enemigo tenia una estadistica
+de 3 APL o superior. Cuando un aliado **MANDRAKE** es activado, puedes gastar 1 punto de Soul Harvest
+para darle 1 APL a su estadistica de APL hasta el final de la batalla, o para que recupere 2D3 heridas
+perdidas. Notese que puedes usar tus puntos Soul Harvest incluso si este Operativo fue incapacitado.
     ]]></string>
 
     <string name="part_collector_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="part_collector_description"><![CDATA[
-Whenever an enemy operative performs the **Fall Back** action while within control range of this
-operative, you can use this rule. If you do, inflict 2D3 damage on that enemy operative before it moves.
+Cuando un Operativo enemigo hace la accion de **Fall Back** mientras esta dentro del rango de control
+de este Operativo, puedes usar esta regla. Si lo haces, inflige 2D3 heridas a ese Operativo enemigo antes
+de que se mueva.
     ]]></string>
 
 
     <string name="haunting_focus_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="haunting_focus_description"><![CDATA[
-**STRATEGIC GAMBIT**. Select one enemy operative. Until the Ready step of the next Strategy phase,
-it gains your Haunting Focus token. The next time your opponent would activate an enemy operative
-that has your Haunting Focus token, if this operative is ready, you can activate this operative first
-(you cannot do so if you also rolled to prevent that operative’s activation with the **NIGHTFIEND**
-operatives Harrowing Whispers additional rule during this turning point). If you do, during that
-activation, this operative must shoot against or fight against that enemy operative, and cannot do
-so against any other enemy operatives until it does (if this is not possible, this operatives
-activation is cancelled). After completing this operatives activation, your opponent activates
-that enemy operative (if possible), or activates a different enemy operative if they cannot.
+**STRATEGIC GAMBIT**. Selecciona un Operativo enemigo. Hasta el inicio del proximo turno, gana uno
+de tus Haunting Focus tokens. Cuando tu oponente vaya a activar un Operativo enemigo que tenga un
+Haunting Focus tokens, si este Operativo no ha activado (Ready), puedes activar este Operativo primero
+(no puedes hacerlo si tambien lanzaste un D6 para prevenir esa activacion usando la regla de tu **NIGHTFIEND**
+durante este turno). Si lo haces, durante esa activacion, este Operativo debe disparar o combatir contra ese
+Operativo enemigo, y no puede hacerlo contra ningun otro Operativo enemigo hasta que lo haga con el
+seleccionado (si no puede hacerlo, la activacion de este Operativo es cancelada). Despues de completar
+esta activacion, tu Oponente activa ese Operativo enemigo original (si es posible), o activa otro
+Operativo enemigo distinto si no puede.
     ]]></string>
 
     <string name="pareidolic_projection_usage"><![CDATA[
@@ -100,30 +96,32 @@ that enemy operative (if possible), or activates a different enemy operative if 
     ]]></string>
 
     <string name="pareidolic_projection_description"><![CDATA[
-Select one enemy operative that is a valid target for this operative or is **WITHIN SHADOW**.
-Until the start of this operatives next activation, until it is incapacitated or until it performs
-this action again (whichever comes first), worsen the Hit stat of that enemy operatives weapons by 1
-and subtract 2\" from its Move stat (these are not cumulative with being injured).\n\n
+Selecciona un Operativo enemigo que sea un objetivo valido para este Operativo, o que este **WITHIN SHADOW**.
+Hasta la proxima activacion de este Operativo, hasta que sea incapacitado o hasta que vuelva a hacer
+esta accion (lo que pase primero), empeora la estadistica de Hit de ese Operativo enemigo por 1, y
+sustrae 2\" a su estadistica de movimiento (esto no es acumulable al estar **Lesionado**).\n\n
 
-This operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it’s
-within control range of is selected for this action.
+Este Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo
+enemigo, a menos que el unico Operativo enemigo dentro del rango de control sea seleccionado para
+esta accion.
     ]]></string>
 
 
     <string name="shadow_portal_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="shadow_portal_description"><![CDATA[
-Whenever this operative performs the **Reposition** action using a **SHADOW PASSAGE**, you can use this rule.
-If you do, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this
-operatives control range before it is removed and one within its control range after it is set up.\n
-\n
-Each friendly **MANDRAKE** operative can use a **SHADOW PASSAGE** each turning point
-(this takes precedence over one operative once per turning point) if one of your Shadow Portal markers
-is within that operatives control range when it is removed, and the other is when it is set up.
-Note that friendly operatives can do so even if this operative has been incapacitated, and doing so
-does not prevent one operative from using a **SHADOW PASSAGE** in the normal manner.
+Cuando este Operativo hace la accion de **Reposicion** usando un **SHADOW PASSAGE**, puedes usar
+esta regla. Si lo haces, remueve tu Shadow Portal del campo (si hay alguno), y ponlo dentro del
+rango de control de este Operativo antes de ser removido del campo, y otro despues de sea puesto
+otra vez en el campo.\n
+\nCada aliado **MANDRAKE** puede usar un **SHADOW PASSAGE** cada turno (esto toma precedencia sobre
+la regla de solo poder hacer uno por turno) si uno de tus Shadow Portal estan dentro del rango de
+control de ese Operativo cuando sea removido del campo, y el otro esta dentro del rango de control
+cuando sea puesto otra vez en el campo. Notese que Operativos aliados puedes hacerlo incluso si este
+Operativo fue incapacitado, y al hacerlo, no previene que otro aliado pueda usar un **SHADOW PASSAGE**
+de la forma normal.
     ]]></string>
 
     <string name="weave_darkness_usage"><![CDATA[
@@ -131,23 +129,23 @@ does not prevent one operative from using a **SHADOW PASSAGE** in the normal man
     ]]></string>
 
     <string name="weave_darkness_description"><![CDATA[
-Remove your Weave Darkness marker from the killzone (if any). Then place your Weave Darkness marker
-visible to this operative, or on Vantage terrain of a terrain feature visible to this operative.
-That marker creates an area of smoke with the same size and effects as a smoke grenade (see universal
-equipment), except you do not remove it during the following turning point. If this operative is incapacitated, remove your
-Weave Darkness marker from the killzone.\n\n
+Remueve tu token Weave Darkness del campo (si hay alguno). Y ponlo en el campo visible para este Operativo,
+o en terreno aventajado visible para este Operativo. Ese marcador crea una zona de humo del mismo
+tamaño y con el mismo efecto de una Smoke Grenade (vease equipamiento universal), excepto que no lo
+remueves durante el proximo turno. Si este Operativo es incapacitado, remueve tu Weave Darkness del
+campo.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
     <string name="shadow_warrior_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="shadow_warrior_description"><![CDATA[
-Whenever this operative is **WITHIN SHADOW**, add 1 to the Critical Dmg stat of its
-glimmersteel blade.
+Cuando este Operativo esta **WITHIN SHADOW** añade 1 al daño critico del Glimersteel blade de
+este Operativo.
     ]]></string>
 
     <!--Faction Rules-->
