@@ -214,18 +214,18 @@ Luego, esa Operativa seleccionada gana una **BENEDICTION** (ningún Operativo in
 \n
 BENEDICTION   //  EFFECT\n
 \n
-**Ardour**        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.\n
+**Ardorr**        //    Hasta el final de la batalla, añade 1 a la estadística de APL de este Operativo; no puedes usar esto con tu **SUPERIOR**.\n
 \n
-**Wrath **        //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.\n
+**Ira**        //    Hasta el fin de la batalla, las armas de este Operativo ganan la regla Ceaseless.\n
 \n
-**Restoration**   //    Este Operativo recupera D3+2 Heridas perdidas.\n
+**Restauración**   //    Este Operativo recupera D3+2 Heridas perdidas.\n
 \n
-**Exigence**      //    Este Operativo puede hacer una accion de **Carga** o **Dash** gratis (No se puede mover más de 3\"), pero debe quedar mas cerca de esa Operativa incapacitada.\n
+**Exigencia** // Este Operativo puede hacer una acción de **Carga** o **Dash** gratis (no se puede mover más de 3"), pero debe quedar más cerca de esa Operativa incapacitada.\n
 ]]></string>
 
 
     <string name="weapons_of_the_witch_hunters_lore"><![CDATA[
-Celestian Insidiants se equipan con múltiples armas esotéricas, armaduras y armas hechas para defendarlas contra magia e impedir la canalización de estas
+Celestian Insidiants se equipan con múltiples armas esotéricas, armaduras y armas hechas para defenderlas contra magia e impedir la canalización de estas
 energias maléficas.
     ]]></string>
 
@@ -267,13 +267,13 @@ Las granadas Psyk-out son particularmente eficaces contra Psykers.
 
     <string name="psyk_out_grenades_description"><![CDATA[
 Este equipamiento te permite seleccionar dos granadas de utilidad del equipamiento universal, deben ser las dos granadas Stun, si también seleccionas granadas de utilidad
-no pueden ser de Stun (No puedes tener mas de dos granadas de Stun). Cuando un Operativo hace un test de Stun como resultado de una Operativa **CELESTIAN INSIDIANT**
-realizando la acción **Stun Grenade**, si el resultado es 3+, también inflige daño a ese Operativo igual a la mitad del valor del dado (redondeando hacia arriba).
-Si ese Operativo tiene la clave **PSYKER**, inflige daño igual al resultado del dado en su lugar.
+no pueden ser de Stun (No puedes tener más de dos granadas de Stun). Cuando un Operativo hace un test de Stun como resultado de una Operativa **CELESTIAN INSIDIANT**
+realizando la acción **Stun Grenade**, si el resultado es 3+, también inflige daño a ese Operativo igual a la mitad del valor (redondeando hacia arriba).
+Si ese Operativo tiene la clave **PSYKER**, inflige daño igual al resultado dado en su lugar.
 ]]></string>
 
     <string name="vocifera_mortis_lore"><![CDATA[
-Cuando el portador de este dispositivo fallece, transmite un requirem sombrio a traves de los canales vox de sus hermanas, transmitiendo la accion de martirio e inspirando a sus
+Cuando el portador de este dispositivo fallece, transmite un llanto sombrío a través de los canales vox de sus hermanas, transmitiendo la acción de martirio e inspirando a sus
 hermanas de batalla.
 ]]></string>
 
@@ -293,8 +293,8 @@ esta **INSPIRING**: si cualquiera da un resultado de 6, ignora el daño de ese d
 ]]></string>
 
     <string name="auto_flagellator_lore"><![CDATA[
-Las Celestian Insidiants más devotas pueden portar dentro de sus armaduras de poder instrumentos de autoflagelacion. En tiempos de crisis estos dispositivos pueden
-hacerlas sufrir dolor agonizante, haciendo que su cuerpo y mente se enfoquen para realizar actos inspirandores de fanatismo.
+Las Celestian Insidiants más devotas pueden portar dentro de sus armaduras de poder instrumentos de autoflagelación. En tiempos de crisis estos dispositivos pueden
+hacerlas sufrir dolor agonizante, haciendo que su cuerpo y mente se enfoquen para realizar actos inspiradores de fanatismo.
 ]]></string>
 
     <string name="auto_flagellator_description"><![CDATA[
@@ -337,12 +337,12 @@ Cuando una Operativa **CELESTIAN INSIDIANT** herida esté disparando, combatiend
 ]]></string>
 
     <string name="holy_resilience_lore"><![CDATA[
-De todas las armas en el arsenal de Celestian Insidiants, fe es el arma mas poderosa, mientras esta no se rompa, estas guerreras pueden ignorar la mayoría de heridas
+De todas las armas en el arsenal de Celestian Insidiants, fe es el arma más poderosa, mientras esta no se rompa, estas guerreras pueden ignorar la mayoría de heridas
 en una pelea.
 ]]></string>
 
     <string name="holy_resilience_description"><![CDATA[
-Cuando una aliada **CELESTIAN INSIDIANT** esta **INSPIRING** y esta combatiendo o retaleando, daños Normales o Criticos de 4 o mas infligen 1 menos de daño a ese
+Cuando una aliada **CELESTIAN INSIDIANT** está **INSPIRING** y está combatiendo o retaleando, daños normales o críticos de 4 o más infligen 1 menos de daño a ese
         Operativo aliado.
 ]]></string>
 
@@ -354,11 +354,11 @@ No hay mayor fuente de inspiración que la gloriosa muerte de un mártir.
     <string name="glory_to_the_martyrs_description"><![CDATA[
 Usa esta Firefight ploy cuando una Operativa **CELESTIAN INSIDIANT** es incapacitada mientras combate o retalea. Puedes golpear el enemigo en esa secuencia con uno de
 tus resultados sin resolver antes de ser removida del juego, si ese enemigo es incapacitado como resultado de esta regla, ese Operativo aliado es **INSPIRING** antes de
-ser removido del juego, esto con proposito de resolver la regla Martyrdom.
+ser removido del juego, esto con propósito de resolver la regla Martyrdom.
 ]]></string>
 
     <string name="faith_fury_lore"><![CDATA[
-La ira divina potencia a estas guerreras para arrazar múltiples enemigos.
+La ira divina potencia a estas guerreras para arrasar múltiples enemigos.
 ]]></string>
 
     <string name="faith_fury_description"><![CDATA[
@@ -373,7 +373,7 @@ Ni la fatiga ni el terreno pueden mantener a una Celestian Insidiant alejada de 
 
     <string name="unshakeable_pursuit_description"><![CDATA[
 Usa esta Firefight ploy cuando una aliada **CELESTIAN INSIDIANT** active, antes o después de realizar una acción. Hasta el final de esa activación, puedes ignorar cualquier
-cambio a la estadística de movimiento. Si ese operativo está **INSPIRING**. añade 1\" a la estadística de movimiento hasta el final de la activación. Si ese Operativo
+cambio a la estadística de movimiento. Si ese operativo está **INSPIRING**. Añade 1\" a la estadística de movimiento hasta el final de la activación. Si ese Operativo
 esta **INSPIRING** como resultado de una acción de **Carga**, puedes usar esta regla para que gane el movimiento adicional (esto toma precedencia sobre las estadísticas no
         cambiando durante la activación).
 ]]></string>
