@@ -8,7 +8,7 @@
 
     <string name="scrivener_description"><![CDATA[
 Cada vez subsecuente que tu Oponente use cada ploy durante la batalla (excluyendo Command Re-Roll),
-si este Operativo esta en el campo, ganas 1CP (hasta un maximo de 2CP por turno).
+si este Operativo está en el campo, ganas 1CP (hasta un máximo de 2CP por turno).
     ]]></string>
 
     <string name="irrefutable_report_usage"><![CDATA[
@@ -16,8 +16,8 @@ si este Operativo esta en el campo, ganas 1CP (hasta un maximo de 2CP por turno)
     ]]></string>
 
     <string name="irrefutable_report_description"><![CDATA[
-Cuando este Operativo este contesteando un objetivo, siempre lo controla. Esto toma precedencia sobre
-todas las demas reglas.
+Cuando este Operativo esté contestando un objetivo, siempre lo controla. Esto toma precedencia sobre
+todas las demás reglas.
     ]]></string>
 
     <string name="lightly_armed_usage"><![CDATA[
@@ -25,7 +25,7 @@ todas las demas reglas.
     ]]></string>
 
     <string name="lightly_armed_description"><![CDATA[
-Este Operativo no puede usar ninguna arma que no este en su tarjeta de personaje, o hacer acciones
+Este Operativo no puede usar ninguna arma que no esté en su tarjeta de personaje, o hacer acciones
 unicas.
     ]]></string>
 
@@ -34,7 +34,7 @@ unicas.
     ]]></string>
 
     <string name="inquisitorial_hunter_description"><![CDATA[
-Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal**.
+Este Operativo puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal**.
     ]]></string>
 
     <string name="weathered_usage"><![CDATA[
@@ -42,8 +42,8 @@ Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de *
     ]]></string>
 
     <string name="weathered_description"><![CDATA[
-Una vez por turno, cuando este Operativo este combatiendo o retaleando, en la fase de resolver dados
-de ataque, puedes ignorar el daño infligido de un exito normal.
+Una vez por turno, cuando este Operativo esté combatiendo o retaleando, en la fase de resolver dados
+de ataque, puedes ignorar el daño infligido de un éxito normal.
     ]]></string>
 
     <string name="no_escape_usage"><![CDATA[
@@ -51,10 +51,10 @@ de ataque, puedes ignorar el daño infligido de un exito normal.
     ]]></string>
 
     <string name="no_escape_description"><![CDATA[
-Cuando un Operativo enemigo vaya a hacer la accion de **Fall Back** mientras este en rango de control
+Cuando un Operativo enemigo vaya a hacer la acción de **Fall Back** mientras esté en rango de control
 de este Operativo, puedes usar esta regla. Si lo haces, lanza un D6, sustrae 1 al resultado si ese enemigo
-tiene una estadistica de heridas mas grande que la de este Operativo, y añade 1 si ese enemigo esta herido.
-Al 4+, ese enemigo no puede hacer esa accion durante esa accion/counteract (el AP usado no es reembolsado).
+tiene una estadística de heridas más grande que la de este Operativo, y añade 1 si ese enemigo está herido.
+Al 4+, ese enemigo no puede hacer esa acción durante esa acción/counteract (el AP usado no es reembolsado).
     ]]></string>
 
     <string name="extract_usage"><![CDATA[
@@ -71,7 +71,7 @@ Cuando un Operativo enemigo es incapacitado dentro del rango de control de este 
 
     <string name="hexorcise_description"><![CDATA[
 Cuando un Operativo enemigo es visible y a 6\" de este Operativo, tu oponente no puede re-rollear
-sus dados de ataque o defensa para ese Operativo.
+sus dados de ataque o defesa para ese Operativo.
     ]]></string>
 
     <string name="chasten_usage"><![CDATA[
@@ -79,12 +79,12 @@ sus dados de ataque o defensa para ese Operativo.
     ]]></string>
 
     <string name="chasten_description"><![CDATA[
-Selecciona un Operativo enemigo que sea un objetivo valido para este Operativo y a 6\" de este,
-selecciona una regla adicional (incluyendo una accion unica) de ese Operativo enemigo en su tarjeta
-de personaje (excluyendo reglas de armas). Hasta el fin de la siguiente activacion de ese Operativo enemigo,
+Selecciona un Operativo enemigo que sea un objetivo válido para este Operativo y a 6\" de este,
+selecciona una regla adicional (incluyendo una acción única) de ese Operativo enemigo en su tarjeta
+de personaje (excluyendo reglas de armas). Hasta el fin de la siguiente activación de ese Operativo enemigo,
 es tratado como si no tuviera esa regla adicional.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="inquisitorial_tomes_usage"><![CDATA[
@@ -92,13 +92,13 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="inquisitorial_tomes_description"><![CDATA[
-**STRATEGIC GAMBIT** si este Operativo es en el campo y/o cuando este Operativo sea activado. Selecciona
+**STRATEGIC GAMBIT** si este Operativo está en el campo y/o cuando este Operativo sea activado. Selecciona
 uno de los siguientes **TOMOS INQUISIDORES** para este Operativo, y otro para un aliado **INQUISITORIAL AGENT
 TOME-SKULL** (pueden ser el mismo, ignora la regla que no seleccionaste para cada Operativo):\n
-\n• **Denuncia**: Cuando un aliado **INQUISITORIAL AGENT** este disparando, combatiendo o retaleando
-contra un Operativo enemigo a 2\" de un aliado con esta regla, añade 1 a la estadistica de Atk del
-arma de ese Operativo aliado.\n
-\n• **Santificacion**: Cuando un enemigo este disparando, combatiendo o retaleando contra un aliado
+\n• **Denuncia**: Cuando un aliado **INQUISITORIAL AGENT** esté disparando, combatiendo o retaleando
+contra un Operativo enemigo a 2\" de un aliado con esta regla, añade 1 a la estadística de Atk del
+arma de ese operativo aliado.\n
+\n• **Santificación**: Cuando un enemigo esté disparando, combatiendo o retaleando contra un aliado
 **INQUISITORIAL AGENT** a 2\" de un aliado con esta regla, sustrae 1 al Atk de las armas de ese Operativo
 enemigo.
     ]]></string>
@@ -108,8 +108,8 @@ enemigo.
     ]]></string>
 
     <string name="inquisitorial_icon_bearer_description"><![CDATA[
-Cuando determines el control de un objetivo, trata la estadistica de APL de este Operativo como si
-tuviera 1 mas. Notese que esto no es un cambio a su estadistica de APL, cualquier cambio es acumulable con esto.
+Cuando determines el control de un objetivo, trata la estadística de APL de este Operativo como si
+tuviera 1 más. Notese que esto no es un cambio a su estadística de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="consecrated_tome_usage"><![CDATA[
@@ -128,7 +128,7 @@ Notese que mantiene la regla incluso si el aliado **INTERROGATOR** es removido d
     <string name="inquisitorial_group_activation_description"><![CDATA[
 Cuando este Operativo termina de activar (expended), debes activar a un aliado **INQUISITORIAL AGENT
 INTERROGATOR** que no haya activado (si es posible) antes de que tu oponente active. Lo mismo aplica
-al reves (**INTERROGATOR** y luego un **TOME-SKULL**). Cuando ese otro Operativo termina su activacion,
+al reves (**INTERROGATOR** y luego un **TOME-SKULL**). Cuando ese otro Operativo termina su activación,
 tu oponente activa normalmente.
     ]]></string>
 
@@ -138,16 +138,16 @@ tu oponente activa normalmente.
 
     <string name="scry_description"><![CDATA[
 **PSYCHIC.** Selecciona un aliado **INQUISITORIAL AGENT** a 6\" de este Operativo, luego selecciona
-uno de los siguientes efectos hasta el inicio de la proxima activacion de este Operativo, hasta que
-sea incapacitado o hasta que haga esta accion otra vez (lo que pase primero):\n
-\n• **Guia: PSYCHIC.** Cuando el Operativo seleccionado este disparando, combatiendo o retaleando,
-en la fase de lanzar dados de ataque, puedes retener uno de tus fallos como un exito normal en lugar
-de descartarlo, o retener uno de tus exitos normales como un exito critico en su lugar.\n
-\n• **Proteccion: PSYCHIC.** Cuando un Operativo este disparando al Operativo seleccionado, en la
-fase de lanzar dados de defensa, puedes retener uno de tus fallos como un exito normal en lugar de
-descartarlo, o retener uno de tus exitos normales como un exito critico en su lugar.\n\n
+uno de los siguientes efectos hasta el inicio de la próxima activacion de este Operativo, hasta que
+sea incapacitado o hasta que haga esta acción otra vez (lo que pase primero):\n
+\n• **Guía: PSYCHIC.** Cuando el Operativo seleccionado esté disparando, combatiendo o retaleando,
+en la fase de lanzar dados de ataque, puedes retener uno de tus fallos como un éxito normal en lugar
+de descartarlo, o retener uno de tus éxitos normales como un éxito crítico en su lugar.\n
+\n• **Protección: PSYCHIC.** Cuando un Operativo esté disparando al Operativo seleccionado, en la
+fase de lanzar dados de defensa, puedes retener uno de tus fallos como un éxito normal en lugar de
+Descartarlo o retener uno de tus éxitos normales como un éxito crítico en su lugar.
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="chem_mask_usage"><![CDATA[
@@ -155,7 +155,7 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
     ]]></string>
 
     <string name="chem_mask_description"><![CDATA[
-Puedes ignorar cualquier cambio a la estadistica de APL de este Operativo, y cualquier cambio por
+Puedes ignorar cualquier cambio a la estadística de APL de este Operativo, y cualquier cambio por
 estar **Lesionado**. Este Operativo no es afectado por las reglas Stun y Shock de armas enemigas.
     ]]></string>
 
@@ -164,7 +164,7 @@ estar **Lesionado**. Este Operativo no es afectado por las reglas Stun y Shock d
     ]]></string>
 
     <string name="cruel_description"><![CDATA[
-Cuando este Operativo este disparando, combatiendo o retaleando contra un enemigo herido, las armas de
+Cuando este Operativo esté disparando, combatiendo o retaleando contra un enemigo herido, las armas de
 este Operativo ganan la regla Relentless.
     ]]></string>
 
@@ -173,7 +173,7 @@ este Operativo ganan la regla Relentless.
     ]]></string>
 
     <string name="inquisitorial_pistolier_description"><![CDATA[
-Puedes ignorar cualquier cambio a la estadistica de Hit de las armas de distancia de este Operativo.
+Puedes ignorar cualquier cambio a la estadística de Hit de las armas de distancia de este Operativo.
     ]]></string>
 
     <string name="pistol_barrage_usage"><![CDATA[
@@ -182,11 +182,11 @@ Puedes ignorar cualquier cambio a la estadistica de Hit de las armas de distanci
 
     <string name="pistol_barrage_description"><![CDATA[
 Haz dos acciones de **Disparo** gratis con este Operativo (esto toma precedencia sobre las restricciones
-de accion). Debes seleccionar un perfil de su Scoped Plasma Pistol para un disparo y su Suppressed Autopistol
+de acción). Debes seleccionar un perfil de su Scoped Plasma Pistol para un disparo y su Suppressed Autopistol
 para el otro (en cualquier orden).\n\n
 
-Este Operativo no puede hacer esa accion mientras tenga una orden de **Conceal**, o en una activacion
-en la que haya hecho una accion de **Disparo** o viceversa.
+Este Operativo no puede hacer esa acción mientras tenga una orden de **Conceal**, o en una activación
+        en la que haya hecho una acción de **Disparo** o viceversa.
     ]]></string>
 
     <string name="irrepressible_purpose_usage"><![CDATA[
@@ -194,8 +194,8 @@ en la que haya hecho una accion de **Disparo** o viceversa.
     ]]></string>
 
     <string name="irrepressible_purpose_description"><![CDATA[
-Si este Operativo es incapacitado durante una accion de **Combate**, puedes golpear al enemigo en esa
-secuencia con uno tus exitos sin resolver antes de que sea removido del campo.
+Si este Operativo es incapacitado durante una acción de **Combate**, puedes golpear al enemigo en esa
+secuencia con uno de tus éxitos sin resolver antes de que sea removido del campo.
     ]]></string>
 
     <string name="inquisitorial_zealot_usage"><![CDATA[
@@ -203,7 +203,7 @@ secuencia con uno tus exitos sin resolver antes de que sea removido del campo.
     ]]></string>
 
     <string name="inquisitorial_zealot_description"><![CDATA[
-Cuando un dado de ataque inflige daño de 3 o mas a este Operativo, lanza un D6: al 5+, sustrae 1 a ese
+Cuando un dado de ataque inflige daño de 3 o más a este Operativo, lanza un D6: al 5+, sustrae 1 a ese
 daño inflijido.
     ]]></string>
 
@@ -213,8 +213,8 @@ daño inflijido.
 
     <string name="lobotomised_description"><![CDATA[
 Cuando este Operativo  es activado, si es visible y a 3\" de otro aliado **INQUISITORIAL AGENT** (excluyendo
-**Gun Servitor**) o viceversa, añade 1 a la estadistica de APL de ese Operativo hasta el fin de
-esa activacion.
+**Gun Servitor**) o viceversa, añade 1 a la estadística de APL de ese Operativo hasta el fin de
+esa activación.
     ]]></string>
 
     <string name="psychic_null_usage"><![CDATA[
@@ -224,7 +224,7 @@ esa activacion.
     <string name="psychic_null_description"><![CDATA[
 Armas a distancia **PSYCHIC** no pueden infligir daño a este Operativo. Para efectos de acciones **PSYCHIC**,
 este Operativo no puede ser seleccionado y nunca es tratado como estando dentro de la distancia
-requerida para esas acciones. Cuando un Operativo esta a 6\" de este Operativo:\n
+requerida para esas acciones. Cuando un Operativo está a 6\" de este Operativo:\n
 \n• Ese Operativo no puede hacer acciones **PSYCHIC** o usar reglas adicionales **PSYCHIC**\n
 \n• Ese Operativo no puede usar armas de distancia **PSYCHIC**.\n
 \n• Armas melee **PSYCHIC** no tienen reglas de arma y no pueden tener daño superior a 3/4.
@@ -236,7 +236,7 @@ requerida para esas acciones. Cuando un Operativo esta a 6\" de este Operativo:\
 
     <string name="inquisitorial_medic_description"><![CDATA[
 La primera vez durante cada turno que otro Operativo **INQUISITORIAL AGENT** aliado visible y a 3\"
-vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo ni el Operativo
+vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni esté Operativo ni el Operativo
 con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado;
 tiene 1 herida restante y no puede ser incapacitado por el resto de esa acción.\n
 \nDespués de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe
@@ -255,7 +255,7 @@ No puedes usar esta regla si el Operativo aliado está siendo disparado con un a
 Selecciona un **INQUISITORIAL AGENT** dentro del rango de control de este Operativo para recuperar 2D3
 heridas perdidas. No puede ser usado con un Operativo que se haya beneficiado de la regla Medic!.\n\n
 
-Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="adaptive_equipment_usage"><![CDATA[
@@ -264,10 +264,10 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 
     <string name="adaptive_equipment_description"><![CDATA[
 Puedes hacer cada una de las siguientes acciones una vez por turno:\n
-• Un Operativo **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** puede hacer la accion Smoke Grenade.\n
-• Un Operativo **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** puede hacer la accion Stun Grenade.\n
+• Un Operativo **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** puede hacer la acción Smoke Grenade.\n
+• Un Operativo **INQUISITORIAL AGENT TEMPESTUS SCION TROOPER** puede hacer la acción Stun Grenade.\n
 \n
-Realizar esta accion no afecta a tu limite de granadas por seleccion de equipamiento universal.
+Realizar esta acción no afecta a tu límite de granadas por selección de equipamiento universal.
     ]]></string>
 
     <string name="inquisitorial_signal_usage"><![CDATA[
@@ -276,9 +276,9 @@ Realizar esta accion no afecta a tu limite de granadas por seleccion de equipami
 
     <string name="inquisitorial_signal_description"><![CDATA[
 **SUPPORT.** Selecciona otro **INQUISITORIAL AGENT** en el campo. Hasta el final de la siguiente activacion
-dese Operativo, añade 1 a su estadistica de APL.\n\n
+dese Operativo, añade 1 a su estadística de APL.\n\n
 
-Este Operativo puede hacer esta accion dos veces durante su activacion, pero no puede hacerlo mientras
+Este Operativo puede hacer esta acción dos veces durante su activación, pero no puede hacerlo mientras
 este dentro del rango de control de un Operativo enemigo.
     ]]></string>
 
@@ -290,7 +290,7 @@ a su antojo, requisar fuerzas de prácticamente cualquiera de las ramas militare
 
     <string name="inquisitorial_requisition_description"><![CDATA[
 Operativos **Requisionados** pueden ser tomados de los siguientes grupos para suplementar este
-kill team, como esta especificado a continuacion:\n
+kill team, como está especificado a continuación:\n
 \n
 • DEATH KORPS\n
 • EXACTION SQUAD\n
@@ -298,16 +298,16 @@ kill team, como esta especificado a continuacion:\n
 • KASRKIN\n
 • SISTER OF SILENCE\n
 • TEMPESTUS SCION\n
-\nEstos Operativos tienen la keyword de su faccion reemplazada en todas las instancias por la keyword
-**INQUISITORIAL AGENT** (a menos ya lo tengan). No puedes usar ploy y equipamientos asociados con las
-reglas antiguas de Operativos **Requisionados**, y no puedes usar las reglas de facion de Operativos
-**Requisionados** a menos que este en su tarjeta (solo aplicaria con aquellos Operativos **Requisionados**).
-Notese que con su nueva keyword de faccion, Operativos **Requisionados** pueden interactuar con las reglas
+\nEstos Operativos tienen la keyword de su facción reemplazada en todas las instancias por la keyword
+**INQUISITORIAL AGENT** (a menos que ya lo tengan). No puedes usar ploy y equipamientos asociados con las
+reglas antiguas de Operativos **Requisionados**, y no puedes usar las reglas de facción de Operativos
+**Requisionados** a menos que estén en su tarjeta (solo aplicaría con aquellos Operativos **Requisionados**).
+Notese que con su nueva keyword de facción, Operativos **Requisionados** pueden interactuar con las reglas
 **INQUISITORIAL AGENT** .\n
-\nPor ejemplo, un **REQUISIOADO VOX-OPERATOR** de los **DEATH KORPS** tendria su keyword **DEATH KORPS** reemplazada
+\nPor ejemplo, un **REQUISIOADO VOX-OPERATOR** de los **DEATH KORPS** tendría su keyword **DEATH KORPS** reemplazada
 en todas las instancias a **INQUISITORIAL AGENT**. Esto permite seleccionar a cualquier aliado **INQUISITORIAL AGENT**
-para hacer su accion unica Signal. Sin embargo, las Guardsman Orders (regla de faccion antigua) no esta
-permitida, por lo que su accion unica Relay Orders seria ignorada. Ahora seria un Opertivo valido para
+para hacer su acción única Signal. Sin embargo, las Guardsman Orders (regla de facción antigua) no están permitidas, 
+por lo que su acción única Relay Orders sería ignorada. Ahora sería un Operativo válido para
 la regla Scry del **INQUISITORIAL AGENT MYSTIC**.
 ]]></string>
 
@@ -477,9 +477,9 @@ que tenga una estadística de salvación de 5+, puedes retener uno de tus result
 ]]></string>
 
     <string name="servo_skull_lore"><![CDATA[
-Los servo-cráneos son diminutos sirvientes flotantes que pueden ser
+Los servocráneos son diminutos sirvientes flotantes que pueden ser
 fabricados y programados para ayudar a sus operadores con una
-amplia gama de tareas.
+Amplia gama de tareas.
 ]]></string>
 
     <string name="servo_skull_description"><![CDATA[
@@ -501,7 +501,7 @@ Selecciona un Operativo enemigo y lanza un D3. En la firefight fase de este turn
 ese Operativo enemigo no puede ser activado o hacer acciones hasta que el último 
 enemigo haya activado, o tu oponente haya activado un número de Operativos igual
 al resultado del D3 (lo que pase primero). Esta ploy cuesta 1 CP adicional cada vez que la vuelves a usar
-durante la batalla (ejemplo, en turno uno cuesta 1CP, turno dos cuesta 2CP).
+durante la batalla (ejemplo, en turno uno cuesta 1 CP, turno dos cuesta 2 CP).
 ]]></string>
 
     <string name="intense_scrutiny_lore"><![CDATA[
@@ -534,8 +534,8 @@ Los agentes de la Inquisición se sienten envalentonados por su autoridad casi i
     <string name="irrefutable_jurisdiction_description"><![CDATA[
 Cuando un Operativo esté disparando a un aliado **INQUISITORIAL AGENT**
 que esté a 3\" de un objetivo, puedes re-rollear uno de tus dados de defensa. Si ese
-Operativo está contestando ese marcador, puedes re-rrollear cualquier cantidad de 
-dados de defesa del mismo valor (ejemplo todos los 2).
+Operativo está contestando ese marcador, puedes re-rollear cualquier cantidad de 
+dados de defensa del mismo valor (ejemplo todos los 2).
 ]]></string>
 
     <!--Firefight ploys-->
@@ -558,8 +558,8 @@ La Inquisición persigue a sus enemigos con tenaz e implacable determinación.
 
     <string name="relentless_in_pursuit_description"><![CDATA[
 Usa esta Firefight ploy cuando un Operativo enemigo a 2\" de un aliado **INQUISITORIAL AGENT** que no
-haya activado (Ready) vaya a hacer una accion en la que se mueva. Despues de que se haya movido, ese
-aliado **INQUISITORIAL AGENT** puede hacer una **Reposicion** gratis, pero debe terminar a 2\" de
+haya activado (Ready) vaya a hacer una acción en la que se mueva. Después de que se haya movido, ese
+aliado **INQUISITORIAL AGENT** puede hacer una **Reposición** gratis, pero debe terminar a 2\" de
 ese enemigo, o una **Carga** pero debe terminar ese movimiento dentro del rango de control de ese
 Operativo enemigo. Si ninguna es posible, ese aliado no puede hacer esas acciones, esta ploy no
 es usada y el CP usado es reembolsado.
@@ -572,7 +572,7 @@ en sus deberes.
 
     <string name="the_emperor_will_description"><![CDATA[
 Usa esta Firefight ploy cuando un aliado **INQUISITORIAL AGENT** es activado. Hasta el final de la activacion
-de ese Operativo, puedes ignorar cualquier cambio a sus estadisticas (incluyendo cambios a las
+de ese Operativo, puedes ignorar cualquier cambio a sus estadísticas (incluyendo cambios a las
 estadisticas de sus armas).
 ]]></string>
 
@@ -583,9 +583,9 @@ enemigos más poderosos.
 
     <string name="intimidating_presence_description"><![CDATA[
 Usa esta Firefigth ploy cuando un Operativo enemigo visible y a 3\" de un aliado **INQUISITORIAL AGENT**,
-o visible y a 6\" de una aliada **MYSTIC**, haga una accion **Pick up Marker** o accion de mision (
+o visible y a 6\" de una aliada **MYSTIC**, haga una acción **Pick up Marker** o acción de misión (
 excluyendo Operate Hatch). Tu oponente debe gastar 1AP adicional para que ese Operativo enemigo pueda
-hacer esa accion (si no pueden o deciden no hacerla, el Ap gastado es reembolsado).
+hacer esa acción (si no pueden o deciden no hacerla, el Ap gastado es reembolsado).
 ]]></string>
 
 </resources>
