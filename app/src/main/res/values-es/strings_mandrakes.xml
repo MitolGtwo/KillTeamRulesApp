@@ -151,238 +151,210 @@ este Operativo.
     <!--Faction Rules-->
 
     <string name="soulstrike_lore"><![CDATA[
-The balefire hurled by the Mandrakes burns cold and
-fierce, fed by the tinder of their victim’s life force and
-animus. Conventional armour offers little protection
-against this insidious force.
+El fuego devastador que lanzan los Mandrakes arde frío y feroz, alimentado por la yesca de la fuerza
+vital y el animus de sus víctimas. Las armaduras convencionales ofrecen poca protección contra esta fuerza insidiosa.
 ]]></string>
 
     <string name="soulstrike_description"><![CDATA[
-Some weapons in this teams rules have the Soulstrike weapon rule below.\n
-\n
-***Soulstrike**: Successful defence dice are determined differently. Each result that is equal
-to or less than the targets APL stat is a success and is retained. Each result that is higher than the
-targets APL stat is a fail and is discarded. Each result of 1 is always a critical success. Each other
-success is a normal success. Each result of 6 is always a fail.\n
-\n
-**Designers Note**: Many of this kill teams rules refer to an enemy operatives APL stat. This would
-be the APL stat at the time the rule takes effect (i.e. including changes).
+Algunas armas en este equipo tienen la regla Soulstrike, vease acontinuacion.
 
+Some weapons in this teams rules have the Soulstrike weapon rule below.\n
+\n***Soulstrike**: Dados exitosos de defensa son determinados de otra forma. Cada resultado igual o menor
+al APL del objetivo, es un exito, Cada resultado mayor a la estadistica de APL del objetivo, es un fallo
+y es descartado. Cada resultado de 1 siempre es un exito critico. cada otro exito es un exito normal.
+Cada resultado de 6 siempre es un fallo.\n
+\n**Notas de Desarrollador**: Muchas reglas de este Kill team se refieren y basan en la estadistica de
+APL Operativos enemigos. Este podria ser la estadistica de APL al momento en la que esta regla toma
+efecto.
 ]]></string>
 
     <string name="shadow_passage_lore"><![CDATA[
-Mandrakes can slip into the slightest patch of shadow
-as if vanishing into dark waters, only to crawl forth
-from another patch of gloom as though the intervening
-distance does not exist. This sinister ability allows them
-to bypass sentries and defences unseen, and to pounce
-upon their victims from unexpected quarters.
+Los Mandrakes pueden deslizarse hasta el más mínimo resquicio de sombra,
+como si se desvanecieran en aguas oscuras, para luego emerger
+de otro rincón sombrío como si la distancia que las separa
+no existiera. Esta siniestra habilidad les permite
+eludir centinelas y defensas sin ser vistos, y abalanzarse
+sobre sus víctimas desde lugares inesperados.
 ]]></string>
 
     <string name="shadow_passage_description"><![CDATA[
-Once per turning point, one friendly **MANDRAKE** operative **WITHIN SHADOW** can use a **SHADOW
-PASSAGE** when it performs the **Reposition** action. If it does, do not move it. Instead, remove it from
-the killzone and set it back up **WITHIN SHADOW** in a location it can be placed. When you set it
-back up, it cannot:\n
-\n
-• Be within control range of an enemy operative.\n
-\n
-• Be a valid target for an enemy operative.\n
-\n
-• Perform the **Shoot** or **Fight** action until the start of the next turning point.
-
+Una vez por turno, un aliado **MANDRAKE** que este **WITHIN SHADOW** puede usar un **SHADOW PASSAGE**
+cuando este haciendo la accion de **Reposicion**. Si lo hace, no lo muevas. En su lugar, remuevelo del campo
+y vuelvelo a poner **WITHIN SHADOW** en un lugar donde pueda ser puesto. Cuando no lo haces, no puede:\n
+\n• Estar dentro del rango de control de un Operativo enemigo.\n
+\n• Ser un objetivo valido para un Operativo enemigo.\n
+\n• Hacer la accion de **Combatir** o **Disparar** hasta el inicio del siguiente turno.
 ]]></string>
 
     <string name="umbral_entities_lore"><![CDATA[
-The Mandrakes physical forms shift and shudder like
-shadows smothering the last light of a guttering torch.
-Those rare survivors of their attacks describe the
-Mandrakes blending with the encroaching darkness, or
-even vanishing from sight altogether, confounding the
-increasingly panicked aim of their prey as they flitter
-ever closer.
+Las formas físicas de los Mandrakes se transforman y se estremecen como
+sombras que apagan la última luz de una antorcha moribunda.
+Los pocos supervivientes de sus ataques describen cómo los Mandrakes
+se mimetizan con la oscuridad que se cierne sobre ellos, o
+incluso desaparecen por completo, confundiendo la
+puntería cada vez más desesperada de sus presas mientras revolotean
+más cerca.
 ]]></string>
 
     <string name="umbral_entities_description"><![CDATA[
-Whenever an operative is shooting a friendly **MANDRAKE** operative, ignore the Piercing
-weapon rule. Whenever a friendly **MANDRAKE**
-operative is **WITHIN SHADOW**, improve its Save stat by 1.
+Cuando un Operativo esta disparando a un aliado **MANDRAKE**, ignora la regla Piercing. Cuando un aliado
+**MANDRAKE** esta **WITHIN SHADOW**, mejora su salvacion por 1.
 ]]></string>
 
     <string name="within_shadow_lore"><![CDATA[
-Mandrakes are creatures of shadow, using the darkness
-to conceal their movements and close in upon their unsuspecting prey.
+Los Mandrakes son criaturas de las sombras, que utilizan la oscuridad para ocultar sus movimientos
+y acechar a sus presas desprevenidas.
 ]]></string>
 
     <string name="within_shadow_description"><![CDATA[
-An operative is **WITHIN SHADOW** if any of the following are true:\n
-\n
-• It is within 1\" of Heavy terrain that is not lower than it.\n
-\n
-• Any part of its base is underneath Vantage terrain.\n
-\n
-• A Shadow Portal marker is within its control range (see **SHADEWEAVER**).
+Un Operativo esta **WITHIN SHADOW** si alguna de las siguientes condiciones se cumplen:\n
+\n• Esta a 1\" de terreno pesado que no sea mas bajo que el.\n
+\n• Cualquier parte de su base esta debajo de terreno aventajado.\n
+\n• Un Shadow Portal esta dentro de su rango de control (regla de **SHADEWEAVER**).
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="mandrake_chain_snare_lore"><![CDATA[
-Composed of hooked blades attached to a length of
-chain, this weapon bites into the flesh or armour of the
-wielders target, preventing them from fleeing.
+Compuesta por cuchillas curvas unidas a una cadena, esta arma se clava en la carne o la armadura del
+objetivo, impidiendo que este huya.
 ]]></string>
 
     <string name="mandrake_chain_snare_description"><![CDATA[
-Whenever an enemy operative would perform the **Fall Back** action while within control range
-of a friendly **MANDRAKE** operative, if noother enemy operatives are within that friendly
-operatives control range, you can use this rule. If you do, roll two D6, or one D6 if that enemy
-operative has a higher Wounds stat than that friendly operative. If any result is a 4+, that enemy
-operative cannot perform that action during that activation/counteraction (no AP are spent on it),
-and you cannot use this rule again during this turning point.
+Cuando un enemigo vaya a hacer la accion **Fall Back** mientras este en rango de control de un aliado
+**MANDRAKE**, si no hay otro Operativo enemigo dentro del rango de control de ese aliado, puedes
+usar esta regla. Si lo haces, lanza dos D6, o un D6 si ese enemigo tiene una estadistica de heridas
+mayores que ese Operativo aliado. Si cualquier resultado es 4+, ese enemigo no puede hacer esa accion
+durante esa activacion o Counteract (los AP no se gastan), y no puedes usar esta regla otra vez durante este turno.
 ]]></string>
 
     <string name="shadow_glyph_lore"><![CDATA[
-Etched into the inky skin of the Mandrake, this glyph
-glows when activated, causing the creature to fade
-utterly from sight.
+Grabado en la piel oscura de los Mandrakes, este glifo
+brilla al activarse, haciendo que la criatura se desvanezca
+por completo de la vista.
 ]]></string>
 
     <string name="shadow_glyph_description"><![CDATA[
-Once per turning point, when a friendly **MANDRAKE** operative is activated **WITHIN SHADOW**,
-you can use this rule. If you do, until the start of its next activation, while that operative
-has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking precedence over
-all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+Una vez por turno, cuando un aliado **MANDRAKE** es activado **WITHIN SHADOW**, puedes usar esta regla.
+Si lo haces, hasta el final de su proxima activacion, mientras tenga una orden de **Conceal** y en cobertura,
+no puede ser seleccionado como un objetivo valido, tomando precedencia sobre las otras reglas,
+excepto estar a 2\".
 ]]></string>
 
     <string name="soul_gem_lore"><![CDATA[
-Containing the life force of a tortured victim, this
-shimmering crystal emits an eerie glow and enhances
-the supernatural might of the bearer.
+Este cristal resplandeciente, que contiene la fuerza vital de una víctima torturada, emite un brillo
+inquietante y potencia el poder sobrenatural de quien lo porta.
 ]]></string>
 
     <string name="soul_gem_description"><![CDATA[
-Once per turning point, when a friendly **MANDRAKE** operative is performing the **Shoot**
-action and you select a baleblast, you can use this rule. If you do, until the end of that action,
-that weapon has the Blast 1" weapon rule.
+Una vez por turno, cuando un aliado **MANDRAKE** esta haciendo la accion de **Disparo** y seleccionas
+un Baleblast, puedes usar esta regla. Si lo haces, hasta el final de esa accion, esa arma gana
+la regla Blast 1\".
 ]]></string>
 
     <string name="bone_dart_lore"><![CDATA[
-Delicately carved from the bones of the Mandrakes
-victims, these brittle but sharp projectiles are deadly
-when hurled accurately.
+Tallados delicadamente a partir de los huesos de las víctimas de las mandrágoras, estos proyectiles
+frágiles pero afilados son mortales cuando se lanzan con precisión.
 ]]></string>
 
     <string name="bone_dart_description"><![CDATA[
-Once per turning point, a friendly **MANDRAKE** operative can use the following ranged weapon:
+Una vez por turno, aliados **MANDRAKE** pueden usar la siguiente arma de distancia:
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="creeping_horror_lore"><![CDATA[
-Flitting in and out of the shadows, Mandrakes advance
-with unsettling speed.
+Entrando y saliendo de las sombras, las mandrágoras avanzan con una velocidad inquietante.
 ]]></string>
 
     <string name="creeping_horror_description"><![CDATA[
-After each enemy operatives activation, before
-the next operative is activated, one friendly
-**MANDRAKE** operative that has a **Conceal** order
-can perform a free **Dash** action if it starts and
-ends that action **WITHIN SHADOW**. You cannot
-use this ploy during the first turning point, and
-you cannot select each friendly operative for this
-ploy more than once per turning point.
+Despues de cada activacion de Operativos enemigos, antes de que el proximo Operativo active, un aliado
+**MANDRAKE** que tenga una orden de **Conceal** puede hacer una accion de **Dash** gratis si empieza
+y termina **WITHIN SHADOW**. No puedes usar esta ploy durante el primer turno, y no puedes seleccionar
+cada Operativo aliado mas de una vez por turno.
 ]]></string>
 
     <string name="gloaming_shroud_lore"><![CDATA[
-Cloaked in shadows, a Mandrakes form is indistinct,
-rendering it particularly difficult to strike from range
+Envuelto en sombras, el rostro de un Mandrake es indistinto, lo que dificulta especialmente atacarla a distancia.
 ]]></string>
 
     <string name="gloaming_shroud_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**MANDRAKE** operative that is **WITHIN SHADOW**, you can retain one of your defence dice as a
-normal success without rolling it (in addition to a cover save, if any).
+Cuando un Operativo este disparando a un aliado **MANDRAKE** que este **WITHIN SHADOW**, puedes retener
+uno de tus dados de defensa como un resultado normal sin lanzarlo (en adicion con cualquier dado de cobertura
+que tengas).
 ]]></string>
 
     <string name="blade_in_the_dark_lore"><![CDATA[
-Leaping from shadow to shadow, Mandrakes appear beside unsuspecting foes with blades raised to strike
+Saltando de sombra en sombra, los Mandrakes aparecen junto a enemigos desprevenidos con las espadas
+alzadas para atacar.
 ]]></string>
 
     <string name="blade_in_the_dark_description"><![CDATA[
-Each friendly **MANDRAKE** operative can perform
-the **Charge** action while it has a **Conceal** order if it
-starts or ends that action **WITHIN SHADOW**.
+Cada aliado **MANDRAKE** puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal**
+si empieza y termina esa accion **WITHIN SHADOW**.
 ]]></string>
 
     <string name="inescapable_nightmare_lore"><![CDATA[
-The nightmarish appearance of a Mandrake is matched
-by its terrifying speed and accuracy.
+El aspecto terrorífico de un Mandrake se corresponde con su aterradora velocidad y precisión.
 ]]></string>
 
     <string name="inescapable_nightmare_description"><![CDATA[
-Whenever a friendly **MANDRAKE** operative is shooting, fighting or retaliating, if it is **WITHIN
-SHADOW**, you can re-roll one of your attack dice.
+Cuando un aliado **MANDRAKE** esta disparando, combatiendo o retaleando, si esta **WITHIN
+SHADOW**, puedes re-rollear uno de tus dados de ataque.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="slither_out_of_sight_lore"><![CDATA[
-Beings of umbral malice, Mandrakes may slip
-into shadow to evade the attentions of their confounded foes.
+Seres de malicia sombría, los Mandrakes pueden deslizarse entre las sombras para evadir la
+atención de sus desconcertados enemigos.
 ]]></string>
 
     <string name="slither_out_of_sight_description"><![CDATA[
-Use this firefight ploy at the end of any operatives activation. Select one friendly
-**MANDRAKE** operative that has an **Engage** order and is WITHIN SHADOW. Change that operatives
-order to **Conceal**.
+Usa esta Firefight ploy al final de cualquier activacion de Operativos. Selecciona un aliado **MANDRAKE**
+que tenga una orden de **Engage** y que este **WITHIN SHADOW**. Cambia la orden de ese Operativo a
+**Conceal**.
 ]]></string>
 
     <string name="soul_feast_lore"><![CDATA[
-Mandrakes subsist on the agonies of their victims,
-gaining vigour with each torturous blow inflicted upon
-their prey.
+Los mandrakes subsisten de la agonía de sus víctimas,
+ganando vigor con cada golpe tortuoso que infligen a
+su presa.
 ]]></string>
 
     <string name="soul_feast_description"><![CDATA[
-Use this firefight ploy when a friendly **MANDRAKE** operative is shooting against,
-fighting against or retaliating against an enemy operative within 6\" of it, at the end of the Resolve
-Attack Dice step. That friendly operative regains a number of lost wounds equal to that enemy
-operatives APL stat, multiplied by the number of your attack dice that inflicted damage during
-that sequence. Excess attack dice are ignored (i.e. if the enemy operative is incapacitated
-before remaining attack dice are resolved). You cannot use this ploy if that friendly **MANDRAKE**
-operative is incapacitated.
+Usa esta Firefight ploy cuando un aliado **MANDRAKE** esta disparando, combatiendo o retaleando contra un
+Operativo enemigo a 6\" de el, al final de la fase de resolver dados de ataque. Ese aliado recupera una cantidad
+de heridas igual al valor de APL de ese Operativo enemigo, multiplicado por el numero de dados de ataque
+que hayan infligido daño durante esa secuencia. Daño excedente es ignorado (cuando el Operativo es incapacitado
+y los demas dados son descartados). No puedes usar esta ploy si ese aliado **MANDRAKE** es incapacitado.
 ]]></string>
 
     <string name="nowhere_to_hide_lore"><![CDATA[
-Walls and other obstructions are of no concern to
-Mandrakes, who fade in and out of the physical realm at their own whim.
+Las paredes y otros obstáculos no suponen ningún problema para los Mandrakes, que aparecen y
+desaparecen del plano físico a su antojo.
 ]]></string>
 
     <string name="nowhere_to_hide_description"><![CDATA[
-Use this firefight ploy during a friendly **MANDRAKE** operatives activation, when it
-performs an action in which it moves. Until the end of that activation, that operative can move
-through parts of terrain features as if they were not there, but it cannot move more than its Move
-stat if it is the **Charge** action and must end those moves in a location it can be placed.
+Usa esta Firefight ploy durante la activacion de un aliante **MANDRAKE**, cuando hace una accion
+en la que se mueve. Hasta el final de esa accion, ese Operativo puede mover a traves de piezas de terreno
+como si no estuvieran ahi, pero no puede mover mas de su estadistica de Movimiento si es una accion
+de **Cargar** y debe terminar en un lugar donde pueda ser puesto.
 ]]></string>
 
     <string name="shadow_bite_lore"><![CDATA[
-When suffused with shadow, a Mandrake moves with
-unnatural speed and grace, lashing out preemptively
-with its glimmersteel blade.
+Cuando está envuelta en sombras, un Mandrake se mueve con
+velocidad y gracia antinaturales, atacando preventivamente
+con su hoja de acero brillante.
 ]]></string>
 
     <string name="shadow_bite_description"><![CDATA[
-Use this firefight ploy when an enemy operative performs the **Fight** action during an activation
-in which it performed the **Charge** action, and selects a friendly **MANDRAKE** operative
-**WITHIN SHADOW** to fight against. In the Resolve Attack Dice step of that sequence, you resolve the first
-attack dice (i.e. defender instead of attacker).
+Usa esta Firefight ploy cuando un Operativo enemigo hace la accion de **Combatir** durante una accion
+en la que haya hecho la acicon de **Cargar**, y selecciona un aliado **MANDRAKE** que este **WITHIN SHADOW**
+para combatir. En la fase de resolver dados de ataque durante esa secuencia, puedes resolver el primer
+dado (defensor en lugar de atacante).
 ]]></string>
-
-
 
 </resources>

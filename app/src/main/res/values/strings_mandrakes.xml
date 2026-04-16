@@ -339,7 +339,7 @@ into shadow to evade the attentions of their confounded foes.
 
     <string name="slither_out_of_sight_description"><![CDATA[
 Use this firefight ploy at the end of any operatives activation. Select one friendly
-**MANDRAKE** operative that has an **Engage** order and is WITHIN SHADOW. Change that operatives
+**MANDRAKE** operative that has an **Engage** order and is **WITHIN SHADOW**. Change that operatives
 order to **Conceal**.
 ]]></string>
 
