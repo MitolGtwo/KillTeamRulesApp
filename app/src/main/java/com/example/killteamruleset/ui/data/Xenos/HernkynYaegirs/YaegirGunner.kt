@@ -60,7 +60,7 @@ val YaegirGunner = Operative(
             type = WeaponType.RANGED,
             attacks = 5,
             hit = "4+",
-            damage = "4/5",
+            damage = "2/4",
             keywords = listOf(
                 Blast(3),
                 Heavy("Reposition Only")
