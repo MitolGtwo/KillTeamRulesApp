@@ -5,67 +5,58 @@
     <!--Murderwing-->
 
     <string name="path_to_damnation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_to_damnation_description"><![CDATA[
-This operative starts the battle with 1
-Damnation point. Once per action, you can attempt to use one
-Boon of Damnation when it specifies (see right). If you do, roll
-one D6 and compare the result to the number of Damnation
-points this operative has; if the result is:\n
-\n
-• **Higher:** Resolve the rule, then this operative gains 1 Damnation point.\n
-\n
-• **Equal**: Do not resolve the rule.\n
-\n
-• **Less**: Inflict damage on this operative equal to its number of Damnation points and do not resolve the rule.\n
-\n
-If this operative has 6 Damnation points, resolve the rule without rolling. Note that you cannot
-make an attempt more than once per action, regardless of the D6 result.
+Este Operativo empieza la batalla con 1 punto de Ruina. Una vez por acción, puedes intentar usar un **Boon of Damnation** cuando
+sea especificado. Si lo haces, lanza un D6 y compara el resultado con el número de puntos de Ruina que este Operativo tenga;
+si el resultado es:\n
+\n• **Mayor:** Resuelve la regla, este Operativo gana 1 punto de Ruina.\n
+\n• **Igual:** No resuelvas la regla.\n
+\n• **Menor:** Inflige daño a este Operativo igual al número de puntos de Ruina. Y no resuelvas la regla.\n
+\nSi este Operativo tiene 6 puntos de Ruina, resuelve la regla sin lanzar un dado. Notese que no puedes hacer un intento
+de **Boon of Damnation** más de una vez por acción, sin importar el resultado del D6.
     ]]></string>
 
     <string name="boons_of_damnation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="boons_of_damnation_description"><![CDATA[
-Boons of Damnation are as follows (resolved with a D6 roll, see opposite):\n
-\n
-• When an attack dice inflicts damage of 3 or more on this operative you can ignore an amount of
-damage equal to this operatives Damnation points.\n
-\n
-• When this operative is fighting or retaliating and you strike, you can inflict an amount of
-additional damage equal to this operatives Damnation points.\n
-\n
+Si logras tu tirada de **Boon of Damnation**, puedes hacer lo siguiente por acción:\n
+\n• Cuando un dado de ataque inflija daño de 3 o más a este Operativo, puedes ignorar una cantidad de daño
+equivalente a tus puntos de Ruina.\n
+\n• Cuando este Operativo está combatiendo o retaleando, y golpeas con un éxito, puedes infligir daño adicional
+equivalente a tus puntos de Ruina.
     ]]></string>
 
     <string name="chaos_champion_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="chaos_champion_description"><![CDATA[
-**STRATEGIC GAMBIT**. Remove your Challenge token from the enemy operative that has it (if any), then select
-one enemy operative to gain your Challenge token. Whenever this operative is fighting against or retaliating against an enemy
-operative that has your Challenge token, in the Select Weapons step, you can select one of the following weapon rules for this
-operatives melee weapons to have until the end of the sequence: Balanced, Brutal, Punishing, Severe, Shock.
+**STRATEGIC GAMBIT**. Remueve tu token de Reto de un Operativo enemigo que lo tenga (si hay alguno), y selecciona un
+Operativo enemigo para que gane tu token de Reto. Cuando este Operativo esté combatiendo o reteleando contra un enemigo
+que tenga tu token de Reto, en la fase de seleccionar armas, puedes seleccionar una de las siguientes reglas adicionales
+para las armas de Melee de este Operativo hasta el fin de la secuencia: Balanced, Brutal, Punishing, Severe, Shock.
     ]]></string>
 
     <string name="path_to_glory_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_to_glory_description"><![CDATA[
-Whenever this operative incapacitates an enemy operative that has your Challenge token, you gain 1CP.
+Cuando este Operativo incapacita a un Operativo enemigo que tenga uno de tus tokens de Reto, ganas 1CP.
     ]]></string>
 
     <string name="frenzied_attack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="frenzied_attack_description"><![CDATA[
-If this operative is incapacitated during the **Fight** action, you can strike the enemy operative in that sequence with
-one of your unresolved successes before this operative is removed from the killzone.
+Si este Operativo es incapacitado durante una acción de **Combatir**, puedes golpear al Operativo enemigo en esa secuencia con uno de tus
+exitos sin resolver antes de ser removido del campo.
     ]]></string>
 
     <string name="snatch_usage"><![CDATA[
@@ -91,7 +82,7 @@ action after setting up from a **BOOST.**
     ]]></string>
 
     <string name="murderwing_horrifying_dismemberment_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="murderwing_horrifying_dismemberment_description"><![CDATA[
@@ -116,7 +107,7 @@ the **Slice From Above action** (see faction equipment) or vice versa.
     ]]></string>
 
     <string name="pinned_prey_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="pinned_prey_description"><![CDATA[
@@ -139,7 +130,7 @@ it performs this action during the **Fall Back** or **Reposition** action after 
     ]]></string>
 
     <string name="thrill_of_flight_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="thrill_of_flight_description"><![CDATA[
@@ -152,7 +143,7 @@ injured (including its weapons stats) until the end of the activation.
     ]]></string>
 
     <string name="modified_vox_caster_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="modified_vox_caster_description"><![CDATA[
@@ -182,7 +173,7 @@ during the **Fall Back** or **Reposition** action after setting up from a **BOOS
     ]]></string>
 
     <string name="slice_the_veil_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="slice_the_veil_description"><![CDATA[
