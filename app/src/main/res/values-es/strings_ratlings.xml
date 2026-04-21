@@ -5,135 +5,113 @@
     <!--Ratlings-->
 
     <string name="munitorum_contact_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="munitorum_contact_description"><![CDATA[
-You can select one additional equipment option.
+Puedes seleccionar una opción de equipamiento adicional.
     ]]></string>
 
     <string name="target_designation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="target_designation_description"><![CDATA[
-**STRATEGIC GAMBIT.** Select one enemy operative. Until the
-end of the turning point, whenever a friendly **RATLING** operative is shooting that
-enemy operative with a rifle, that weapon has the Lethal 5+ weapon rule.
+**STRATEGIC GAMBIT.** Selecciona un Operativo enemigo. Hasta el final del turno, cuando un aliado **RATLING** esté disparando 
+a ese Operativo enemigo con un Rifle, esa arma gana la regla Lethal 5+.
     ]]></string>
 
     <string name="early_warning_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="early_warning_description"><![CDATA[
-Once per turning point, after an enemy operative
-performs an action in which it moves or is set up, you can
-interrupt to use this rule. If you do, each friendly **RATLING**
-operative (excluding **OGRYN** and **BULLGRYN**) within 6\"
-of this operative and within 2\" of that enemy operative can
-immediately perform a free **Dash** or **Fall Back** action in an
-order of your choice (choose separately for each), but it cannot
-move more than 3\" during that action. In either case, each one
-cannot end that move within 2\" of an enemy operative unless it is
-not visible to every enemy operative when it ends that move (if
-this is not possible for an operative, it cannot move).
+Una vez por turno, después de que un Operativo enemigo haga una acción en la que se mueva o sea puesto, puedes interrumpirlo para usar esta regla. 
+Si lo haces, cada aliado **RATLING** (excluyendo **OGRYN** y **BULLGRYN**) a 6\" de este Operativo y a 2\" de ese Operativo enemigo puede hacer una accion gratis
+de **Dash** o **Fall Back** en el orden de tu eleccion (escoje por separado para cada uno), pero no puede moverse mas de 3\" durante esa accion. Y en cualquier
+caso, ninguno puede terminar ese movimiento a 2\" de un Operativo enemigo a menos que no sea visible para cada Operativo enemigo cuando termine ese movimiento (si
+esto no es posible para un Operativo, no se puede mover).
     ]]></string>
 
     <string name="ratling_beast_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="ratling_beast_description"><![CDATA[
-This operative cannot perform any actions other than
-**Charge, Dash, Fall Back, Fight** and **Reposition**. It cannot
-use any weapons that are not on its datacard.
+Este Operativo no puede hacer ninguna otra acción que no sea **Cargar, Dash, Fall Back, Combatir** y **Reposición**. No puede
+usar armas que no estén en su tarjeta de personaje.
     ]]></string>
 
     <string name="bullgryn_shield_usage"><![CDATA[
-    Passive
+    Pasiva
     ]]></string>
 
     <string name="bullgryn_shield_description"><![CDATA[
-If this operative has a slabshield, it has a 3+ Save stat; if
-it has a brute shield, whenever it is fighting or retaliating, each of
-your blocks can be allocated to block two unresolved successes
-(instead of one).
+Si este Operativo tiene un Slabshield, tiene una estadística de Salvación de 3+, si tiene un Brute Shield, cuando esté combatiendo o retaleando,
+cada uno de tus bloqueos puede ser usado para bloquear dos resultados sin resolver (en lugar de uno).
     ]]></string>
 
     <string name="brute_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brute_description"><![CDATA[
-Whenever your opponent is selecting a valid target, if
-this operative has a **Conceal** order, it cannot use Light terrain
-for cover. While this can allow this operative to be targeted
-(assuming it is visible), it does not remove its cover save (if any).
+Cuando tu oponente esté seleccionando un objetivo válido, si este Operativo está en **Conceal**, no puede usar terreno ligero para cubrirse. Mientras
+esto permite que sea seleccionado como objetivo válido (asumiendo que sea visible), no remueve salvaciones de cobertura (en caso de que tenga alguna).
     ]]></string>
 
     <string name="slow_witted_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="slow_witted_description"><![CDATA[
-You must spend 1 additional AP for this operative to
-perform the **Pick Up Marker** and mission actions (excluding
-**Operate Hatch**).
+Debes gastar 1 AP adicional para que este Operativo haga una acción de **Pick up Marker** o acciones de misión (excluyendo **Operate Hatch**).
     ]]></string>
 
     <string name="bayonet_charge_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="bayonet_charge_description"><![CDATA[
-Whenever this operative finishes moving during
-the **Charge** action, you can inflict D3+1 damage on one enemy
-operative within its control range.
+Cuando este Operativo termina un movimiento durante la acción de **Cargar**, puedes infligir D3+1 heridas a un enemigo dentro de su rango de control.
     ]]></string>
 
     <string name="tripwire_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tripwire_description"><![CDATA[
-When setting up equipment before the battle, you can set up to two of your Tripwire markers up wholly within your territory
-and more than 2\" from other markers, access points and Accessible terrain. The first time that marker is within an enemy operatives
-control range, remove that marker, subtract 1 from that operatives APL stat until the end of its next activation and end its action (if
-any), even if that actions effects are not fulfilled. If it cannot be placed, move it the minimum amount to do so.
+Cuando pongas tu equipamiento durante la batalla, puedes poner dos de tus marcadores Tripwire completamente dentro de tu territorio y a más de 2\" de
+otros marcadores, puntos de acceso o terreno accesible. La primera vez que este marcador está dentro del rango de control de un Operativo enemigo
+remueve ese marcador, sustrae 1 de la estadística de APL de este Operativo hasta el final de su próxima activación y esa acción termina (aunque no se haya
+completado), si no puede ser puesto en esa ubicación, mueve el Operativo la mínima cantidad posible para que pueda ser puesto en el campo.
     ]]></string>
 
     <string name="ratling_mine_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="ratling_mine_description"><![CDATA[
-Mines you select from universal equipment inflict 2D3+3
-damage instead, and friendly **RATLING** operatives (excluding
-**OGRYN** and **BULLGRYN**) are ignored for your mines effects
-(i.e. they cannot trigger or take damage from them). This takes
-precedence over the normal mines rules.
+Una Mina seleccionada del equipamiento universal inflige 2D3+3 de daño ahora, y aliados **RATLING** (excluyendo **OGRYN** y **BULLGRYN**) son ignorados para los
+efectos de tu mina (no pueden recibir daño de la Mina). Esto toma precedencia sobre las reglas normales de la Mina.
     ]]></string>
 
     <string name="ratling_hunter_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="ratling_hunter_description"><![CDATA[
-This operative can perform the **Charge** action while it
-has a **Conceal** order. If it does so during its activation, until the
-end of that activation, add 1 to the Atk stat of its combat knife
-and that melee weapon has the Brutal weapon rule.
+Este Operativo puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal**. Si lo hace durante su activación, hasta el final de esa activación, añade
+1 a la estadística de Atk de su Combat Knife y esa arma de Melee gana la regla Brutal.
     ]]></string>
 
     <string name="lie_in_wait_usage"><![CDATA[
-           Passive
+           Pasiva
     ]]></string>
 
     <string name="lie_in_wait_description"><![CDATA[
-Whenever this operative is retaliating while Light
-or Heavy terrain is within its control range, you resolve the first
-attack dice (i.e. defender instead of attacker).
+Cuando este Operativo esté retaleando mientras terreno ligero o pesado esté dentro de su rango de control, tú resuelves el primer dado de ataque (defensor en lugar de
+atacante).
     ]]></string>
 
     <string name="slingshot_usage"><![CDATA[
@@ -141,20 +119,15 @@ attack dice (i.e. defender instead of attacker).
     ]]></string>
 
     <string name="slingshot_description"><![CDATA[
-Select a point on a terrain feature; that point must be visible
-to and within 6\" of this operative. Remove this operative from
-the killzone and set it back up wholly within 6\" horizontally of
-that point, not within control range of enemy operatives, and
-with that point visible to it.\n\n
-This action is treated as a **Reposition** action. This
-operative cannot perform this action while within control
-range of an enemy operative, or during an activation in which
-it performed the **Charge, Fall Back** or **Shoot** action (or
-vice versa).
+Selecciona un punto en una pieza de terreno, ese punto debe ser visible y a 6\" de este Operativo. Remueve este Operativo del campo y ponlo completamente a 6\" horizontalmente
+de ese punto, no dentro del rango de control de un Operativo enemigo, y con ese punto seleccionado aún siendo visible para el.\n\n
+
+Esta acción es tratada como una **Reposicion**. Este Operativo no puede hacer esta acción mientras esté dentro del rango de control
+de un Operativo enemigo o durante una activación en la que haya hecho las acciones **Cargar, Fall Back** o **Disparar** (o viceversa).
     ]]></string>
 
     <string name="grappling_hook_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="grappling_hook_description"><![CDATA[
@@ -177,7 +150,7 @@ range of an enemy operative.
     ]]></string>
 
     <string name="evade_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="evade_description"><![CDATA[
@@ -197,7 +170,7 @@ operative within 3\" of this operative is shooting that enemy operative, you can
     ]]></string>
 
     <string name="light_fingered_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="light_fingered_description"><![CDATA[
@@ -207,7 +180,7 @@ mission action for 1 less AP.
     ]]></string>
 
     <string name="well_stocked_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="well_stocked_description"><![CDATA[
