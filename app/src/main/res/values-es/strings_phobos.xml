@@ -7,10 +7,10 @@
 
     <string name="tactical_advantage_description"><![CDATA[
 Puedes hacer cada uno de los siguientes efectos una vez por batalla:\n
-\n• Despues de lanzar dados para decidir iniciativa, si este Operativo esta en el campo, puedes re-rollear tu dado.\n
+\n• Después de lanzar dados para decidir iniciativa, si este Operativo está en el campo, puedes re-rolelar tu dado.\n
 \n• Puedes usar un Firefight ploy por 0CP si este es el Operativo **PHOBOS STRIKE TEAM** especificado
 (incluyendo Command Re-rolls para este Operativo), o la Firefight ploy Patient Ambush por 0CP si este
-Operativo no ha activado (Ready) y no esta dentro del rango de control de Operativos enemigos.
+Operativo no ha activado (Ready) y no está dentro del rango de control de Operativos enemigos.
     ]]></string>
 
     <string name="strategic_oversight_usage"><![CDATA[
@@ -18,7 +18,7 @@ Operativo no ha activado (Ready) y no esta dentro del rango de control de Operat
     ]]></string>
 
     <string name="strategic_oversight_description"><![CDATA[
-En la Ready step de cada Strategy fase, cuando ganes CP, si este Operativo esta en el campo y no
+En la Ready step de cada Strategy fase, cuando ganes CP, si este Operativo está en el campo y no
 dentro de rango de control de Operativos enemigos, puedes usar esta regla. Si lo haces, lanza un D6:
 al 4+, ganas un CP adicional.
     ]]></string>
@@ -28,27 +28,22 @@ al 4+, ganas un CP adicional.
     ]]></string>
 
     <string name="comms_array_description"><![CDATA[
-Once per turning point, during a friendly **PHOBOS STRIKE TEAM** operatives activation or counteraction, before
-or after it performs an action, if this operative is in the killzone, you can change one strategy ploy you have used this turning point (it
-does not cost you any CP to do so).
+Una vez por turno, durante la activación/counteract de un aliado **PHOBOS STRIKE TEAM**, antes o después de hacer una acción, si este Operativo está en el campo, puedes
+cambiar un Strategy ploy que hayas usado este turno (no cuesta CP hacerlo)
     ]]></string>
 
     <string name="phobos_medic_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="phobos_medic_description"><![CDATA[
-The first time during each turning point that another friendly **PHOBOS STRIKE TEAM** operative would be incapacitated
-while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of
-an enemy operative. If you do, that friendly operative is not incapacitated, has D3 wounds remaining and cannot be incapacitated for
-the remainder of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must end that
-move within this operative’s control range. Subtract 1 from this and that operatives APL stats until the end of their next activations
-respectively, and if this rule was used during that friendly operatives activation, that activation ends.\n
-\n
-You cannot use this rule if this
-operative is incapacitated, or if it is a **Shoot** action and this operative would be a primary or secondary target.
+La primera vez durante cada turno en el que otro aliado **PHOBOS STRIKE TEAM** vaya a ser incapacitado mientras es visible y a 3\" de este Operativo,
+puedes usar esta regla, siempre y cuando ni este Operativo ni el Operativo que se esté beneficiando estén dentro del rango de control de un Operativo enemigo.
+Si lo haces, no es incapacitado, tiene D3 heridas restantes y no puede ser incapacitado durante el resto de la acción. Después de esa acción, ese aliado puede
+inmediatamente hacer un **Dash** gratis, pero debe terminar dentro del rango de control de este Operativo. Sustrae 1 a la estadística de APL a este Operativo y al
+Operativo con el que se usó esta regla hasta el final de su próxima activación respectivamente, si esta regla fue usada durante la activación de ese Operativo esa 
+activacion termina.\n
+\nNo puedes utilizar esta regla si este Operativo fue incapacitado, o si es una acción de **Disparo** y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="helix_gauntlet_usage"><![CDATA[
@@ -56,12 +51,10 @@ operative is incapacitated, or if it is a **Shoot** action and this operative wo
     ]]></string>
 
     <string name="helix_gauntlet_description"><![CDATA[
-Select one friendly **PHOBOS STRIKE TEAM** operative
-within this operatives control range to regain up to D3+3 lost
-wounds. It cannot be an operative that the Medic! rule was
-used on during this turning point.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Selecciona un aliado **PHOBOS STRIKE TEAM** dentro del rango de control de este Operativo para que recupere D3+3 heridas perdidas. No puede usarse con un aliado
+que se haya beneficiado de la regla Medic durante este turno.\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>
 
     <string name="plant_explosives_usage"><![CDATA[
@@ -71,48 +64,37 @@ range of an enemy operative.
     ]]></string>
 
     <string name="plant_explosives_description"><![CDATA[
-This operative is carrying your Explosives marker. It can perform the **Pick Up Marker** action on that marker, and
-whenever it performs the Place Marker action on that marker, it can immediately perform a free **Dash** action
+Este Operativo está cargando tu marcador de Explosivos. Puede hacer la acción **Pick up Marker** sobre ese marcador, y siempre que haga
+la acción **Place Marker** con ese marcador, puede inmediatamente hacer un **Dash** gratis.
     ]]></string>
 
     <string name="phobos_detonate_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="phobos_detonate_description"><![CDATA[
-Do not select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain
-is wholly intervening between that operative and that marker. Each of those operatives cannot be in cover or obscured. Roll each
-sequence separately in an order of your choice. This weapon cannot be selected if your Explosives marker is not in the killzone. At the
-end of the action, remove your Explosives marker from the killzone. In a killzone that uses the close quarters rules (e.g. Killzone: Tomb
-World), this weapon has the Lethal 5+ weapon rule.
+No selecciones un objetivo válido. En su lugar, dispara contra cada Operativo a 2\" de tu marcador de Explosivos, a menos que haya terreno
+pesado completamente interviniendo entre ese Operativo y este marcador. Cada uno de esos Operativos no puede estar ni en cobertura ni Obscurecidos. Lanza
+dados por cada uno de ellos en el orden de tu elección. Esta arma no puede ser seleccionada si tu marcador de Explosivos no está en el campo. Al final de
+esa acción, remueve tu marcador de Explosivos del campo. En un campo que use las reglas Close Quarters o espacio cerrado (como Tomb World) esta
+arma gana la regla Lethal 5+.
     ]]></string>
 
     <string name="custom_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="custom_description"><![CDATA[
-At the end of the Select Operatives step, if this
-operative is selected for deployment, select up to two of the
-following weapon rules for this weapon to have for the battle:
-Balanced, Lethal 5+, Piercing Crits 1, Rending, Saturate.
+Al final de la fase de selección de Operativos, si este Operativo fue seleccionado, selecciona hasta 2 de las siguientes
+reglas para esta arma durante el resto de la batalla: Balanced, Lethal 5+, Piercing Crits 1, Rending, Saturate.
     ]]></string>
 
     <string name="voxbreak_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="voxbreak_description"><![CDATA[
-Whenever an enemy operative
-is within 6\" of this operative, your
-opponent cannot re-roll their attack or
-defence dice for that operative.
+Cuando un Operativo enemigo está a 6\" de este Operativo, tu oponente no puede re-rollear dados de ataque o defensa para ese Operativo.
     ]]></string>
 
     <string name="phobos_auspex_scan_usage"><![CDATA[
@@ -120,11 +102,9 @@ defence dice for that operative.
     ]]></string>
 
     <string name="phobos_auspex_scan_description"><![CDATA[
-Until the start of this operatives next activation or until it is incapacitated
-(whichever comes first), whenever a friendly **PHOBOS STRIKE TEAM**
-operative is shooting an enemy operative within 8\" of this operative, that enemy
-operative cannot be obscured; if that friendly operative is an **INCURSOR**, its
-ranged weapons also have the Seek Light weapon rule.
+Hasta el inicio de la próxima activación de este Operativo o hasta que se incapacitado (lo que pase primero), siempre que un aliado **PHOBOS STRIKE TEAM**
+este disparando a un Operativo enemigo a 8\" de este Operativo, ese enemigo no puede estar Obscurecido, y si ese aliado es un **INCURSOR**, sus armas de distancia
+tambien ganan la regla Seek Light.
     ]]></string>
 
     <string name="vanguard_usage"><![CDATA[
@@ -132,9 +112,7 @@ ranged weapons also have the Seek Light weapon rule.
     ]]></string>
 
     <string name="vanguard_description"><![CDATA[
-Once per turning point, one friendly **PHOBOS
-STRIKE TEAM** operative with this rule can perform the **Pick
-Up Marker** or a mission action for 1 less AP.
+Una vez por turno, un aliado **PHOBOS STRIKE TEAM** con esta regla puede hacer la acción **Pick Up Marker** o una acción de misión por 1 AP menos.
     ]]></string>
 
     <string name="track_target_usage"><![CDATA[
@@ -142,44 +120,30 @@ Up Marker** or a mission action for 1 less AP.
     ]]></string>
 
     <string name="track_target_description"><![CDATA[
-This operative can perform the **Guard** action
-during its activation regardless of the killzone (see close quarters
-rules, Kill Team Core Book). It can perform the **Guard** action
-while it has a **Conceal** order, but when you perform the free
-**Shoot** or **Fight** action during the interruption, you must change
-its order to **Engage**.
+Este Operativo puede hacer la acción **Guard** durante su activación sin importar el campo (Vease reglas de campos Close Quarters o espacios cerrados).
+Puede hacer la acción de **Guard** mientras tenga la orden de Conceal, pero para hacer una acción de **Disparo** o **Combate** gratis durante esa interrupción,
+debe cambiar su orden a **Engage**.
     ]]></string>
 
     <string name="haywire_mine_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="haywire_mine_description"><![CDATA[
-This operative is carrying your Haywire Mine
-marker. It can perform the **Pick Up Marker** action on that
-marker, but that marker cannot be placed within an enemy
-operatives control range (if this operative is incapacitated while
-carrying that marker and that marker cannot be placed, it is
-removed with this operative).
+Este Operativo está cargado con tu marcador Haywire Mine. Puede hacer la acción **Pick up Marker** a ese marcador, pero no la puede poner dentro del rango de control
+de un Operativo enemigo (si este Operativo es incapacitado mientras carga ese marcador, ese marcador no puede ser puesto en el campo, es removido con
+este Operativo).
     ]]></string>
 
     <string name="phobos_proximity_mine_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="phobos_proximity_mine_description"><![CDATA[
-The first time your Haywire Mine marker is
-within another operatives control range, remove that marker,
-subtract 1 from that operatives APL stat until the end of
-its next activation, and inflict 2D3+3 damage on it; if it is not
-incapacitated, end its action (if any), even if that actions effects
-are not fulfilled. If it cannot be placed, move it the minimum
-amount to do so. Note that this operative is ignored for these
-effects (i.e. it cannot set it off or take damage from that marker).
+La primera vez que tu marcador Haywire Mine esté dentro del rango de control de otro Operativo, remueve ese marcador, sustrae 1 a la estadística
+de APL de ese Operativo hasta el final de su próxima activación, e inflinge 2D3+3 heridas, si no es incapacitado, termina su acción (si está haciendo alguna),
+incluso si esa acción no se ha completado. Si no puede ser puesto en esa ubicación, muevelo la mínima distancia posible para que pueda mantenerse en el campo.
+Notese que este Operativo es ignorado para este Efecto (no puede recibir daño de su propio marcador ni activar esta regla).
     ]]></string>
 
     <string name="phobos_gravchute_usage"><![CDATA[
@@ -187,8 +151,8 @@ effects (i.e. it cannot set it off or take damage from that marker).
     ]]></string>
 
     <string name="phobos_gravchute_description"><![CDATA[
-Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of
-how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance.
+Cuando este Operativo está escalando, puedes tratar la distancia vertical como si fuera 2\" (sin importar que tanto se mueva verticalmente). Siempre que este
+Operativo este cayendo, ignora la distancia vertical.
     ]]></string>
 
 
@@ -200,19 +164,12 @@ comunicaciones del enemigo.
 ]]></string>
 
     <string name="omni_scrambler_description"><![CDATA[
-**STRATEGIC GAMBIT** if a friendly **INFILTRATOR**
-operative is in the killzone. Select one enemy
-operative visible to a friendly **INFILTRATOR**
-operative, or within 6\" of a friendly **VOXBREAKER**
-operative. In the Firefight phase of this turning
-point, that enemy operative cannot be activated
-or perform actions until one of the following
-is true:\n
-\n
-• Your opponent has activated a number of enemy operatives equal to the number of
-friendly **INFILTRATOR** operatives in the killzone when this **STRATEGIC GAMBIT** was used.\n
-\n
-• It’s the last enemy operative to be activated.
+**STRATEGIC GAMBIT** si un aliado **INFILTRATOR** esta en el Campo. Selecciona un Operativo enemigo visible para ese aliado **INFILTRATOR** o a 6\"
+de un aliado **VOXBREAKER**. en la Firefight fase de este turno, ese enemigo no puede ser activado o hacer acciones hasta que una de las siguientes
+condiciones se cumplan:\n
+\n• Tu oponente ha activado un número de Operativos enemigos equivalentes al número de aliados **INFILTRATOR** en el campo al momento de usar este
+**STRATEGIC GAMBIT**.:\n
+\n• Es el último Operativo en activar.
 ]]></string>
 
     <string name="terror_lore"><![CDATA[
@@ -222,16 +179,10 @@ aterrorizar a sus víctimas.
 ]]></string>
 
     <string name="terror_description"><![CDATA[
-Whenever an enemy operative is within 3\" of
-friendly **REIVER** operatives, your opponent must
-spend 1 additional AP for that enemy operative to
-perform the **Pick Up Marker** and mission actions.\n
-Whenever determining control of a marker,
-treat the total APL stat of enemy operatives
-that contest it as 1 lower if at least one of those
-enemy operatives is within 3\" of friendly **REIVER**
-operatives. Note this is not a change to the APL
-stat, so any changes are cumulative with this.
+Cuando un Operativo enemigo está a 3\" de un aliado **REIVER**, tu oponente debe gastar 1 AP adicional para que un Operativo enemigo haga la acción
+**Pick up Marker** o acciones de misión.\n
+\nAl momento de determinar el control de un marcador, trata el total de APL de Operativos enemigos que lo contesten como si tuvieran 1 menos, si al menos
+uno de esos Operativos está a 3\" de ese aliado **REIVER**. Notese que esto no es un cambio a los APL, cualquier cambio es acumulable con esto.
 ]]></string>
 
     <string name="phobos_astartes_lore"><![CDATA[
@@ -239,16 +190,10 @@ Estos superhumanos modificados genéticamente están hechos con un único propó
 ]]></string>
 
     <string name="phobos_astartes_description"><![CDATA[
-During each friendly **PHOBOS STRIKE TEAM**
-operatives activation, it can perform either two
-**Shoot** actions or two **Fight** actions. If it is two
-**Shoot** actions, a bolt weapon must be selected
-for at least one of them. A bolt weapon is any
-ranged weapon that includes bolt in its name,
-e.g. marksman bolt carbine, special issue bolt
-pistol, etc.\n
-Each friendly **PHOBOS STRIKE TEAM** operative
-can counteract regardless of its order.
+Durante cada activación de aliados **PHOBOS STRIKE TEAM**, pueden hacer o dos acciones de **Disparo** o dos acciones de **Disparo**. Si son dos acciones de
+**Disparo** al menos un arma Bolt debe ser seleccionada para uno de esos disparos. Un arma Bolt es cualquier arma de distancia que tenga la palabra Bolt en
+su nombre.\n
+\nCada aliado **PHOBOS STRIKE TEAM** puede hacer un counteract sin importar su orden.
 ]]></string>
 
     <string name="multispectrum_array_lore"><![CDATA[
@@ -258,8 +203,7 @@ enemigos ocultos.
 ]]></string>
 
     <string name="multispectrum_array_description"><![CDATA[
-Whenever a friendly **INCURSOR** operative is
-shooting, enemy operatives cannot be obscured.
+Cuando un aliado **INCURSOR** está disparando, Operativos enemigos no pueden estar Obscurecidos.
 ]]></string>
 
 
@@ -271,11 +215,8 @@ e inspiran a quien los porta a luchar con mayor vigor.
 ]]></string>
 
     <string name="phobos_purity_seal_description"><![CDATA[
-Once per turning point, when a friendly **PHOBOS
-STRIKE TEAM** operative is shooting, fighting or
-retaliating, if you roll two or more fails, you can
-discard one of them to retain another as a normal
-success instead.
+Una vez por turno, cuando un aliado **PHOBOS STRIKE TEAM** esté disparando, combatiendo o retaleando, si lanzas dos o más fallos, puedes descartar uno y retener
+el otro como un éxito normal en su lugar.
 ]]></string>
 
     <string name="additional_utility_lore"><![CDATA[
@@ -284,10 +225,8 @@ tipos de explosivos portátiles.
 ]]></string>
 
     <string name="additional_utility_description"><![CDATA[
-This equipment allows you to select four utility
-grenades from the utility grenades equipment
-(see universal equipment). You cannot also select
-that equipment as normal (i.e. to give you six).
+Este equipamiento te permite seleccionar cuatro granadas de utilidad (véase equipamiento universal). No puedes también seleccionar ese
+equipamiento normalmente (como si fueras a tener seis granadas de utilidad).
 ]]></string>
 
     <string name="phobos_combat_blades_lore"><![CDATA[
@@ -295,8 +234,7 @@ Estas cuchillas son resistentes, gruesas y poseen un filo de corte extremadament
 ]]></string>
 
     <string name="phobos_combat_blades_description"><![CDATA[
-Friendly **PHOBOS STRIKE TEAM** operatives have
-the following melee weapon:
+Aliados **PHOBOS STRIKE TEAM** tienen la siguiente arma a melee:
 ]]></string>
 
     <string name="phobos_special_issue_ammunition_lore"><![CDATA[
@@ -304,16 +242,9 @@ Las armas bólter de los Marines Espaciales pueden cargarse con una variedad de 
 ]]></string>
 
     <string name="phobos_special_issue_ammunition_description"><![CDATA[
-Once per turning point, when a friendly **PHOBOS
-STRIKE TEAM** operative is performing the
-**Shoot** action and you select a bolt carbine,
-marksman bolt carbine or occulus bolt carbine,
-you can use this rule. If you do, until the end of
-the turning point, that weapon has the Piercing 1
-weapon rule.
+Una vez por turno, cuando un aliado **PHOBOS STRIKE TEAM** esté haciendo la acción de **Disparo**, y seleccionas un Bolt Carbine, Marksman Bolt Carbine o Occulus Bolt
+Carbine, puedes usar esta regla. Si lo haces hasta el final del turno, esa arma gana la regla Piercing 1.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
@@ -323,17 +254,17 @@ atacando cuando menos se lo esperan.
 ]]></string>
 
     <string name="guerrilla_warfare_description"><![CDATA[
-Friendly **PHOBOS STRIKE TEAM** operatives can
-perform the following unique action:
+Aliados **PHOBOS STRIKE TEAM** pueden hacer la siguiente acción única:
 ]]></string>
 
     <string name="guerrilla_warfare_usage"><![CDATA[
-1AP
+        1AP
 ]]></string>
 
     <string name="guerrilla_warfare_description2"><![CDATA[
-Change this operatives order.\n\n
-An operative cannot perform this action while within control range of an enemy operative.
+Cambia la orden de este Operativo.\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
 ]]></string>
 
     <string name="phobos_no_fear_lore"><![CDATA[
@@ -342,9 +273,7 @@ aterradores y probabilidades abrumadoras.
 ]]></string>
 
     <string name="phobos_no_fear_description"><![CDATA[
-You can ignore any changes to the stats of
-friendly **PHOBOS STRIKE TEAM** operatives from
-being injured (including their weapons stats).
+Puedes ignorar cualquier cambio a las estadísticas de Operativos **PHOBOS STRIKE TEAM** por estar **Lesionados** (incluyendo estadísticas en sus armas).
 ]]></string>
 
     <string name="deadly_shots_lore"><![CDATA[
@@ -352,15 +281,9 @@ Los Marines Espaciales pasan incontables horas perfeccionando su puntería.
 ]]></string>
 
     <string name="deadly_shots_description"><![CDATA[
-Whenever a friendly **PHOBOS STRIKE TEAM**
-operative is shooting during an activation in
-which it has not performed the **Charge, Fall Back**
-or **Reposition** action, or against an operative
-that is not in cover and is more than 6\" from it,
-that friendly operatives ranged weapons have
-the Balanced weapon rule. Note that for the first
-requirement, that operative is not restricted from
-performing those actions after shooting.
+Cuando un aliado **PHOBOS STRIKE TEAM** esté disparando durante una activación en la que no haya hecho las acciones **Cargar, Fall Back** o **Reposición**
+ o contra un Operativo que no esté en cobertura y esté a más de 6\" de él, las armas de distancia de ese aliado ganan la regla Balanced. Notese que el primer
+requerimiento no restringe este Operativo de hacer esa acción después de disparar.
 ]]></string>
 
     <string name="lethal_assaults_lore"><![CDATA[
@@ -368,15 +291,9 @@ Los guerreros Marines Espaciales derriban a sus enemigos con una potencia y prec
 ]]></string>
 
     <string name="lethal_assaults_description"><![CDATA[
-Whenever a friendly **PHOBOS STRIKE TEAM**
-operative is fighting, its melee weapons have the
-Balanced weapon rule. If that friendly operative
-is doing so during an activation in which it
-performed the Charge action, its melee weapons
-also have the Lethal 5+ weapon rule.
+Cuando un aliado **PHOBOS STRIKE TEAM** está combatiendo, sus armas de melee ganan la regla Balanced. Si ese aliado lo está haciendo durante
+una activación en la que hizo la acción de **Cargar** sus armas de melee también ganan la regla Lethal 5+.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="patient_ambush_lore"><![CDATA[
@@ -385,9 +302,7 @@ de lanzar un asalto contra un enemigo desprevenido.
 ]]></string>
 
     <string name="patient_ambush_description"><![CDATA[
-Use this firefight ploy when it is your turn to
-activate a friendly operative. You can skip
-that activation.
+Usa esta Firefight ploy cuando sea tu turno de activar a un Operativo aliado. Puedes saltar esa activación.
 ]]></string>
 
     <string name="critical_shot_lore"><![CDATA[
@@ -395,10 +310,8 @@ Un proyectil bien dirigido puede derribar incluso al más resistente de los enem
 ]]></string>
 
     <string name="critical_shot_description"><![CDATA[
-Use this firefight ploy when you resolve a critical
-success for a friendly **PHOBOS STRIKE TEAM**
-operative that is shooting with a bolt weapon.
-Inflict D3 additional damage.
+Usa esta Firefight ploy cuando resuelvas un éxito crítico de un aliado **PHOBOS STRIKE TEAM** que está disparando a un
+Operativo con un arma Bolt. Inflige D3 daño adicional.
 ]]></string>
 
     <string name="phobos_transhuman_lore"><![CDATA[
@@ -407,11 +320,8 @@ a un ser inferior.
 ]]></string>
 
     <string name="phobos_transhuman_description"><![CDATA[
-Use this firefight ploy when an operative is
-shooting a friendly **PHOBOS STRIKE TEAM**
-operative, in the Roll Defence Dice step. You can
-retain one of your normal successes as a critical
-success instead.
+Usa esta Firefight ploy cuando un Operativo esté disparando a un aliado **PHOBOS STRIKE TEAM**, en la fase de lanzar
+dados de defensa. Puedes retener un éxito normal como un éxito crítico en su lugar.
 ]]></string>
 
     <string name="stealth_assault_lore"><![CDATA[
@@ -420,16 +330,10 @@ con rapidez y abrumar a un enemigo desprevenido.
 ]]></string>
 
     <string name="stealth_assault_description"><![CDATA[
-Use this firefight ploy when a friendly **PHOBOS
-STRIKE TEAM** operative that has a **Conceal**
-order is activated, is given an **Engage** order,
-performs the **Charge** and then the **Fight** action,
-and you are resolving your first attack dice
-from this activation. After doing so, you can
-immediately resolve another of your attack dice
-(before your opponent). The operative cannot
-have performed any other actions during this
-activation (but can do so after resolving this ploy).
+Usa esta Firefight ploy cuando un aliado **PHOBOS STRIKE TEAM** que tenga una orden de **Conceal** es activado y es cambiado a **Engage**
+haces la acción de **Cargar** y después la acción de **Combate**, y estás resolviendo el primer dado de esta activación. Después de hacerlo,
+puedes inmediatamente resolver otro de tus dados de ataque (antes que tu oponente). El Operativo no puede haber hecho otra acción durante su activación
+(pero puede hacerla después de resolver esta ploy).
 ]]></string>
 
 </resources>
