@@ -51,7 +51,7 @@ val Bullgryn = Operative(
             type = WeaponType.MELEE,
             attacks = 4,
             hit = "4+",
-            damage = "2/4",
+            damage = "3/4",
             keywords = listOf(
             )
         ),

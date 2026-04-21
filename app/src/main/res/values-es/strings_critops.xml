@@ -16,9 +16,9 @@ Un Operativo no puede hacer esta accion durante el primer turno, o estando en ra
     <string name="crit_op_1_victory"><![CDATA[
 Al final de cada turno despues del primero:\n
 \n 
-* Si un objetivo esta asegurado por tu kill team, ganas 1VP.\n
+• Si un objetivo esta asegurado por tu kill team, ganas 1VP.\n
 \n 
-* Si tienes mas objetivos asegurado que tu oponente, ganas 1VP.
+• Si tienes mas objetivos asegurado que tu oponente, ganas 1VP.
 ]]></string>
 
 
@@ -52,9 +52,9 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     <string name="crit_op_3_victory"><![CDATA[
     Al final de cada turno despues del primero:\n
 
-    *Si controlas un objetivo que este transmitiendo, ganas 1VP.\n
+    • Si controlas un objetivo que este transmitiendo, ganas 1VP.\n
 
-    *Si controlas mas objetivos que esten transmitiendo que el oponente,
+    • Si controlas mas objetivos que esten transmitiendo que el oponente,
     ganas 1VP.
 ]]></string>
 
@@ -69,10 +69,10 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     Si el Operativo activo controla el marcador de objetivo que tenga el **ORBE**, mueve
     ese token de la siguiente forma:\n
     \n
-    *Si el **ORBE** esta en el objetivo del centro, muevelo a cualquier objetivo dentro de las
+    • Si el **ORBE** esta en el objetivo del centro, muevelo a cualquier objetivo dentro de las
     zonas de cualquier jugador (tu escoges).\n
     \n
-   *Si el **ORBE** esta en la zona de cualquier jugador, mueve el **ORBE** hasta el objetivo del centro.\n\n
+   • Si el **ORBE** esta en la zona de cualquier jugador, mueve el **ORBE** hasta el objetivo del centro.\n\n
 
   Un Operativo no puede hacer esta accion durante el primer turno, estando en rango de control de un
   Operativo enemigo, o si no controla un marcador de mision que tenga el **ORBE**.
@@ -94,9 +94,9 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     , cada jugador debe seleccionar un marcador de objetivo y una de las siguientes apuestas para
     este turno:\n
     \n
-    *Operativos aliados van a controlar ese objetivo al final de este turno.\n
+    • Operativos aliados van a controlar ese objetivo al final de este turno.\n
     \n
-    *Operativos enemigos no contestaran ese objetivo al final de este turno.\n
+    • Operativos enemigos no contestaran ese objetivo al final de este turno.\n
     \n
     Cada jugador, no puede seleccionar el mismo objetivo mas de una vez por batalla
     (de esta forma se debe seleccionar cada objetivo durante la batalla).
@@ -105,9 +105,9 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     <string name="crit_op_5_victory"><![CDATA[
     Al final del cada turno despues del primero:\n
     \n
-    *Si Operativos aliados controlan mas de objetivo que el enemigo, ganas 1VP.\n
+    • Si Operativos aliados controlan mas de objetivo que el enemigo, ganas 1VP.\n
     \n
-    *Si cumples tu apuesta seleccionada, ganas 1VP.
+    • Si cumples tu apuesta seleccionada, ganas 1VP.
 ]]></string>
 
 
@@ -115,11 +115,11 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     Los Operativos pueden hacer la accion **Pick Up Marker** en cada objetivo en los
     siguientes turnos:\n
     \n
-        * **Turno 2** Pero debes gastar 2 APL (esta accion no puede ser gratis ni puede reducirse el costo de APL).\n
+        • **Turno 2** Pero debes gastar 2 APL (esta accion no puede ser gratis ni puede reducirse el costo de APL).\n
         \n
-        * **Turno 3** Pero debes gastar 1 APL (esta accion no puede ser gratis ni puede reducirse el costo de APL).\n
+        • **Turno 3** Pero debes gastar 1 APL (esta accion no puede ser gratis ni puede reducirse el costo de APL).\n
         \n
-        * **Turno 4** Como una accion normal.\n
+        • **Turno 4** Como una accion normal.\n
         \n
 
     Cuando un Operativo esta cargado un objetivo, ese Operativo no puede removerse, ponerse otra vez
@@ -215,9 +215,9 @@ Siempre que un Operativo aliado haga la acción **LOOT**, ganas 1VP (hasta un ma
     marcador de objetivo, tomando un numero de dados en su mano equivalente al numero del marcador
     de objetivo, entonces ambos jugadores revelan simultaneamente:\n
     \n
-    *Si ambos jugadores seleccionan el mismo objetivo, ese marcador de objetivo pasa a estar
+    •Si ambos jugadores seleccionan el mismo objetivo, ese marcador de objetivo pasa a estar
     **Apagado** durante este turno.\n
-    *Si cada jugador escoge uno marcador de objetivo distinto, el marcador que ningun jugador
+    \n •Si cada jugador escoge uno marcador de objetivo distinto, el marcador que ningun jugador
     selecciono pasa a estar **Apagado**.
 ]]></string>
 

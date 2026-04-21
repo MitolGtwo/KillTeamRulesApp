@@ -30,7 +30,7 @@ val KrootPistolier = Operative(
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",
-            damage = "3/5",
+            damage = "3/4",
             keywords = listOf(
                 Range(8),
                 Ceaseless,

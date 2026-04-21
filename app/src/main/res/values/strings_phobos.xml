@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Phobos-->
 
     <string name="tactical_advantage_usage"><![CDATA[
@@ -10,8 +8,8 @@
 
     <string name="tactical_advantage_description"><![CDATA[
 You can do each of the following once per battle:\n
-• After rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n
-• You can use a firefight ploy for 0CP if this is the specified **PHOBOS STRIKE TEAM** operative (including Command Re-roll if the
+\n• After rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n
+\n• You can use a firefight ploy for 0CP if this is the specified **PHOBOS STRIKE TEAM** operative (including Command Re-roll if the
 attack or defence dice was rolled for this operative), or the Patient Ambush firefight ploy for 0CP if this operative is ready and not
 within control range of enemy operatives
     ]]></string>

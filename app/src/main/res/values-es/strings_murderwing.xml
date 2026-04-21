@@ -27,7 +27,7 @@ de **Boon of Damnation** más de una vez por acción, sin importar el resultado 
 Si logras tu tirada de **Boon of Damnation**, puedes hacer lo siguiente por acción:\n
 \n• Cuando un dado de ataque inflija daño de 3 o más a este Operativo, puedes ignorar una cantidad de daño
 equivalente a tus puntos de Ruina.\n
-\n• Cuando este Operativo está combatiendo o retaleando, y golpeas con un éxito, puedes infligir daño adicional
+\n• Cuando este Operativo está combatiendo o retaleando, y golpeas con un dado, puedes infligir daño adicional
 equivalente a tus puntos de Ruina.
     ]]></string>
 
@@ -64,21 +64,16 @@ exitos sin resolver antes de ser removido del campo.
     ]]></string>
 
     <string name="snatch_description"><![CDATA[
-**BOOST** action. Select one enemy operative within this
-operatives **BOOST ZONE**. Both players roll one D6 and
-add their respective operatives Wounds stat to their result.
-If your result is higher, remove that enemy operative from the
-killzone and set it back up within this operatives **BOOST
-ZONE** or control range. It must be set up in a location it
-can be placed and cannot be set up further away from this
-operative than where it began. If that enemy operative is set
-up within this operatives control range, the **Fall Back** or
-**Reposition** action ends (allowing this operative to end that
-action within control range of enemy operatives).\n\n
+Action de **BOOST**. Selecciona un Operativo enemigo dentro de la **BOOST ZONE**. Ambos jugadores
+lanzan un D6 y añade la respectiva estadistica de heridas al resultado. Si tu resultado es mayor,
+remueve ese Operativo enemigo del campo y ponlo dentro del rango de control de este Operativo o en la **BOOST
+ZONE**. Debe ser puesto en un lugar donde se pueda mantener y no puede ubicarse más lejos de este
+operativo que donde comenzó. Si ese Operativo es puesto dentro del rango de control de este Operativo,
+la accion de **Fall Back** o **Reposition** termina (permitiendo al Operativo terminar esa accion
+dentro del rango de control de un Operativo enemigo).\n\n
 
-This operative cannot perform this action normally. Instead,
-it performs this action during the **Fall Back** or **Reposition**
-action after setting up from a **BOOST.**
+Este Operativo no puede hacer esta accion normalmente. En su lugar, hace esta accion durante un **Fall Back**
+o **Reposition** despues de haberse movido con un **BOOST.**
     ]]></string>
 
     <string name="murderwing_horrifying_dismemberment_usage"><![CDATA[
@@ -86,9 +81,9 @@ action after setting up from a **BOOST.**
     ]]></string>
 
     <string name="murderwing_horrifying_dismemberment_description"><![CDATA[
-Whenever this operative incapacitates an enemy operative while fighting or retaliating, select one other
-enemy operative visible to and within 3\" of either this operative or the incapacitated enemy operative. Subtract 1 from that enemy
-operatives APL stat until the end of its next activation.
+Cuando este Operativo incapacita un Operativo enemigo mientras este combatiendo o retaleando, selecciona
+otro Operativo enemigo visible y a 3\" de este Operativo o del Operativo enemigo incapacitado.
+Sustrae 1 a la estadistica del operativo enemigo hasta el final de su proxima activacion.
     ]]></string>
 
     <string name="carving_blow_usage"><![CDATA[
@@ -96,14 +91,12 @@ operatives APL stat until the end of its next activation.
     ]]></string>
 
     <string name="carving_blow_description"><![CDATA[
-Inflict 2D3 damage on each other operative visible to and within 2\" of this operative in an order
-of your choice (roll separately for each).\n\n
+Inflige 2D3 heridas a cada otro Operativo visible y a 2\" de este Operativo en el orden que quieras
+(lanza dados por cada uno).\n\n
 
-For the purposes of action restrictions and the Astartes
-faction rule, this action is treated as a **Fight** action. This
-operative cannot perform this action while it has a **Conceal**
-order, or during the same activation in which it performed
-the **Slice From Above action** (see faction equipment) or vice versa.
+Este Operativo no puede hacer esta accion mientras tenga una orden de **Conceal**, o durante una
+activacion en la que uso la accion **Slice from Above** (equipamiento de faccion Bladefins), la
+accion **Clawed Charge** (equipamiento de faccion Clawed Armour) o dos acciones de **Combate** o viceversa.
     ]]></string>
 
     <string name="pinned_prey_usage"><![CDATA[
@@ -111,11 +104,11 @@ the **Slice From Above action** (see faction equipment) or vice versa.
     ]]></string>
 
     <string name="pinned_prey_description"><![CDATA[
-Whenever an enemy operative would perform the **Fall Back** action while within control range of
-this operative, if no other enemy operatives are within this operatives control range, you can use
-this rule. If you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than
-this operative. If any result is a 4+, that enemy operative cannot perform that action during
-that activation/counteraction (no AP are spent on it).
+Cuando un Operativo enemigo vaya a hacer la accion **Fall Back** mientras esta en rango de control de este
+Operativo, si no hay otros Operativos enemigos dentro del Rango de control de este Operativo, puedes
+usar esta regla. Si lo haces, lanza dos D6 o un D6 si ese Operativo tiene una estadistica de heridas
+superior a la de este Operativo. Si cualquier resultado es 4+, ese Operativo no puede hacer esa accion
+durante esa activacion/counteract (no se gasta AP en esa accion).
     ]]></string>
 
     <string name="strike_from_above_usage"><![CDATA[
@@ -123,10 +116,11 @@ that activation/counteraction (no AP are spent on it).
     ]]></string>
 
     <string name="strike_from_above_description"><![CDATA[
-**BOOST** action. Inflict 2D3+1 damage on one enemy operative within this operatives **BOOST ZONE**.\n\n
+Accion de **BOOST**. Inflige 2D3+1 heridas a un Operativo enemigo dentro del **BOOST ZONE** de este
+Operativo.\n\n
 
-This operative cannot perform this action normally. Instead,
-it performs this action during the **Fall Back** or **Reposition** action after setting up from a **BOOST**.
+Este Operativo no puede hacer esta accion normalmente. En su lugar, la hace durante una accion de
+**Fall Back** o **Reposiicon** despues de moverse con un **BOOST**.
     ]]></string>
 
     <string name="thrill_of_flight_usage"><![CDATA[
@@ -134,12 +128,10 @@ it performs this action during the **Fall Back** or **Reposition** action after 
     ]]></string>
 
     <string name="thrill_of_flight_description"><![CDATA[
-Whenever this operative does a **BOOST** during its activation:\n
-\n
-• You can remove any changes to its APL stat.\n
-\n
-• You can ignore any changes to its stats from being
-injured (including its weapons stats) until the end of the activation.
+Cuando este Operativo hace una accion de **BOOST** durante su activacion:\n
+\n• Puedes remover cualquier cambio a su estadistica de APL.\n
+\n• Puedes ignorar cualquier cambio a sus estadisticas al estar **Lesionado** (incluyendo estadisticas
+a sus armas) hasta el final de su activacion.
     ]]></string>
 
     <string name="modified_vox_caster_usage"><![CDATA[
@@ -147,12 +139,11 @@ injured (including its weapons stats) until the end of the activation.
     ]]></string>
 
     <string name="modified_vox_caster_description"><![CDATA[
- Whenever an enemy operative is within 3\" of this operative, your opponent must spend 1 additional AP for that
-enemy operative to perform the **Pick Up Marker** and mission actions.\n
-\n
-Whenever determining control of a marker, treat the total APL stat of enemy operatives that
-contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative.
-Note this is not a change to the APL stat, so any changes are cumulative with this.
+Cuando un Operativo enemigo esta a 3\" de este Operativo, tu oponente debe gastar 1 AP adicional para
+que ese Operativo enemigo haga una accion de mision o un **Pick up Marker**.\n
+\nCuando determines el control de un objetivo, trata la estadistica total de APL de Operativos enemigos
+contesteandolo como si tuvieran 1 menos si al menos uno de esos enemigos esta a 3\" de este Operativo.
+Notese que esto no es un cambio a la estadistica de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="shriek_usage"><![CDATA[
@@ -160,16 +151,16 @@ Note this is not a change to the APL stat, so any changes are cumulative with th
     ]]></string>
 
     <string name="shriek_description"><![CDATA[
-Select one enemy operative that is visible to and within 6\" of this operative. Alternatively, select one enemy operative
-within this operatives **BOOST ZONE** (at which point this becomes a **BOOST** action). If enemy operatives are within
-control range of this operative, you cannot select an enemy operative that is not. Inflict D3 damage on the selected
-operative and subtract 1 from its APL stat until the end of its next activation.\n\n
+Selecciona un Operativo enemigo que sea visible y a 6\" de este Operativo. Alternativamente, selecciona
+un Operativo enemigo que este dentro de la **BOOST ZONE** de este Operativo (en este caso esto se vuelve
+una accion **BOOST**). Si hay Operativos enemigos estan dentro del rango de control de este Operativo,
+no puedes seleccionar a un Operativo enemigo que no lo este. Inflige D3 heridas a ese Operativo enemigo
+en tu rango de control y sustrae 1 a su estadistica de APL hasta el final de su proxima activacion.\n\n
 
-This operative cannot perform this action while it has a
-**Conceal** order. If you are selecting an enemy operative within
-this operatives **BOOST ZONE**, this operative cannot
-perform this action normally. Instead, it performs this action
-during the **Fall Back** or **Reposition** action after setting up from a **BOOST**.
+Este Operativo no puede hacer esta accion mientras tiene una orden de **Conceal**. Si estas seleccionando
+un Operativo enemigo. Si estas seleccionando a un Operativo enemigo dentro de la **BOOST ZONE** de
+este Operativo, este Operativo no puede hacer esta accion normalmente. En su lugar, hazla durante la
+accion de **Fall Back** o **Reposicion** despues de haber hecho un **BOOST**.
     ]]></string>
 
     <string name="slice_the_veil_usage"><![CDATA[
@@ -177,120 +168,92 @@ during the **Fall Back** or **Reposition** action after setting up from a **BOOS
     ]]></string>
 
     <string name="slice_the_veil_description"><![CDATA[
-When setting up this operative before the battle, you can set it up in the warp instead: place it to
-one side instead of in the killzone. In the first Firefight phase, when this operative is activated,
-place one of your Warp markers wholly within your territory, then expend this operative.\n
-\n
-In the second Firefight phase, when this operative is activated, set it up with an order of your
-choice in a location it can be placed either wholly within your drop zone, or wholly within your
-territory contesting your Warp marker. Continue its activation as normal, but during that activation
-it cannot perform more than two actions and cannot use more than 4\" of move distance.
-Until the Ready step of the next Strategy phase, this operative is obscured to operatives more than 3\" from it.\n
-\n
-Whenever this operative is in the warp, it cannot be the ready friendly **MURDERWING** operative for the Malicious Narcissism
-firefight ploy.
+Cuando estes poniendo Operativos en el campo antes de la batalla, puedes poner a este Operativo en la
+disformidad: ponlo a un lado del campo. En el primer turno, cuando este Operativo vaya a ser activado,
+pon tu token de Disformidad completamente dentro de tu territorio, despues este Operativo termina su
+activacion (expended).\n
+\nEn la firefight fase de este turno, cuando este Operativo es activado, ponlo con una orden de tu eleccion
+completamente dentro de su zona de deployment, o completamente dentro de tu territorio contesteando tu
+token de Disformidad. Continua su activacion normalmente, durante esa activacion no puede hacer
+mas de dos acciones y no puede moverse mas de 4\". Hasta la Ready step de la siguiente Strategy fase,
+este Operativo esta Obscurecido para Operativos que esten a mas de 3\" de el.\n
+\nCuando este Operativo este en la Disformidad, no puede ser un Operativo Ready para usar la Firefight
+ploy Malicious Narcissism.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="jump_pack_lore"><![CDATA[
-Armour-mounted propulsion systems enable these
-warriors to traverse the battlefield in bounding, jet-assisted leaps.
+Los sistemas de propulsión montados en el blindaje permiten a estos guerreros recorrer el campo de
+batalla mediante saltos asistidos por propulsión a chorro.
 ]]></string>
 
     <string name="jump_pack_description"><![CDATA[
-Whenever a friendly **MURDERWING** operative is
-performing the **Charge**, **Fall Back** or **Reposition**
-action during its activation, at the start of any
-straight-line increment, as long as no part of its
-base is underneath Vantage terrain, it can do a
-**BOOST** for that increment. If it does, do not move
-it for that increment. Instead, remove it from
-the killzone and set it back up wholly within x\"
-horizontally of its original location. X is a distance
-of your choice (rounded up to the nearest inch,
-as per the **Reposition** action), but it is added to
-the total move distance used for that action (in
-other words, move plus **BOOST** cannot exceed the
-action’s move allowance).\n
-\n
-That operative must be set up in a location it can
-be placed and cannot be set up with any part of
-its base underneath Vantage terrain. In addition,
-unless it is the **Charge** action, it cannot be set up
-within control range of an enemy operative. It can
-continue moving after a **BOOST** if it has any move
-distance remaining and the action allows it.\n
-\n
-In a killzone that uses the close quarters rules,
-e.g. Killzone: Tomb World, the x\" cannot be
-measured over or through Wall terrain, and that
-operative cannot be set up on the other side of an
-access point – in other words, it cannot **BOOST**
-through an open hatchway.
+Cuando un Operativo aliado **MURDERWING** esta haciendo la accion de **Cargar, Fall Back** o **Reposicion**
+durante su activacion, al inicio de cualquier incremento en linea recta, siempre y cuando cualquier parte
+de su base no este debajo de terreno aventajado, puede hacer una accion **BOOST** para ese incremento.
+Si lo hace, no lo muevas para ese incremento. En su lugar, retíralo del campo y colócalo de nuevo
+completamente dentro de x\" horizontalmente de su ubicación original. X es una distancia a tu elección
+(redondeada a la pulgada más cercana, según la acción de**Reposicion**), pero se suma a
+la distancia total de movimiento utilizada para esa acción (en otras palabras, el movimiento más
+**BOOST** no puede exceder el límite de movimiento de la acción).\n
+\nSi se usa un **BOOST** en una accion de **Cargar**, no añadas los 2\" adicionales a su movimiento.\n
+\nEse Operativo debe ser puesto en un lugar donde pueda ser colocado, y no puede ponerse si alguna parte
+de su base esta debajo de terreno aventajado. En adicion, a menos de que sea una accion de **Cargar**,
+no puede ser puesdo dentro del rango de control de un Operativo enemigo. Puede entonces continuar el movimiento
+con su **BOOST** si tiene pulgadas de movimiento restante para hacer esa accion.\n
+\nEn campos que usen las reglas de espacio cerrado como Tomb World, la distancia x\" no puede ser medida
+a traves de paredes, y el Operativo no puede ser puesto al otro lado de una puerta usando un **BOOST**.
 ]]></string>
 
 
     <string name="jump_pack_example_description"><![CDATA[
-In this example, the **MURDERWING** operative
-(A) does a **BOOST** for the second increment of
-movement. It moves as normal during the first
-and third increments, as it cannot **BOOST** from or
-to a location underneath Vantage terrain.
+En este ejemplo, el Operativo **MURDERWING** (A) hace un **BOOST** para el segundo incremento de
+movimiento. Se mueve normalmente durante el primer y tercer incremento, al no poder hacer la accion
+de **BOOST** al estar debajo de terreno aventajado.
 ]]></string>
 
     <string name="boost_actions_lore"><![CDATA[
-Murderwings are experts in aerial combat, lashing out at
-flailing prey as they soar overhead on columns of flame.
+Los Murderwing son expertos en combate aéreo, atacando a sus presas que se debaten mientras
+sobrevuelan sus cabezas en columnas de fuego.
 ]]></string>
 
     <string name="boost_actions_description"><![CDATA[
-Some actions are known as **BOOST** actions. These
-are actions performed during other actions when
-a **BOOST** is used. Each operative cannot perform
-more than one **BOOST** action per activation/ counteraction.\n
-\n
-Most **BOOST** actions affect enemy operatives
-within a friendly **MURDERWING** operatives
-**BOOST ZONE**. This is the horizontal area between
-a friendly **MURDERWING** operatives current
-location and the location from which it used
-**BOOST**. A marker the same size as the operatives
-base can be temporarily placed to help determine
-this. Enemy operatives with any part of their base
-underneath Vantage terrain are not within friendly
-**MURDERWING** operatives **BOOST ZONEs**.
+Algunas acciones son declaradas como acciones **BOOST**. Estas son hechas durante otras acciones
+cuando un **BOOST** es usado. Cada Operativo no puede hacer mas de una accion de **BOOST** por activacion/counteract.\n
+\nLa mayoria de acciones **BOOST** afectan a Operativos enemigos dentro de la **BOOST ZONE** de un Operativo
+aliado **MURDERWING**. Esta zona es la linea horizontal entre el lugar original y el lugar en el que
+se movio un **MURDERWING** con la accion **BOOST**. Un marcador del mismo tamaño puede ser puesto
+temporalmente para determinar esto. Operativos enemigos que tengan cualquier parte de su base debajo
+de terreno aventajado no estan dentro de la **BOOST ZONE**.
 ]]></string>
 
     <string name="boost_action_example_description"><![CDATA[
-In this example, the top operative (C) is within
-the **MURDERWING** operative’s (A) **BOOST ZONE**.
-The bottom operative (B) is not, as its base is underneath Vantage terrain.
+En este ejemplo, el Operativo (C) esta dentro de la **BOOST ZONE** del Operativo **MURDERWING** (A).
+El operativo de abajo (B) no esta dentro, pues su base esta debajo de Terreno aventajado.
 ]]></string>
 
     <string name="murderwing_astartes_lore"><![CDATA[
-These genetically modified superhumans are made for one purpose: war.
+Estos superhumanos modificados genéticamente están hechos con un único propósito: la guerra.
 ]]></string>
 
     <string name="murderwing_astartes_description"><![CDATA[
-During each friendly **MURDERWING** operatives activation, it can perform either two **Shoot**
-actions or two **Fight** actions. If it is two **Shoot**
-actions, a bolt pistol must be selected for at least one of them.\n
-\n
-Each friendly **MURDERWING** operative can counteract regardless of its order.
+Durante cada activacion de aliados **MURDERWING**, puede hacer la accion de **Disparo** dos veces
+o la accion de **Combate** dos veces. Si es una accion de **Disparo**, un Bolt Pistol debe ser
+seleccionado para al menos una de esas acciones.\n
+\nCada aliado **MURDERWING** puede hacer un Counteract sin importar su orden.
 ]]></string>
-
 
     <!--Equipment-->
 
     <string name="bladefins_lore"><![CDATA[
-Corrupted power armour and warp-infused jump packs
-bristle with metallic spikes and scything blades with
-which to rend the flesh of unsuspecting prey.
+Las servoarmaduras corrompidas y los propulsores de salto imbuidos de disformidad
+están repletos de púas metálicas y cuchillas afiladas con las que
+desgarran la carne de presas desprevenidas.
 ]]></string>
 
     <string name="bladefins_description"><![CDATA[
-Friendly **MURDERWING** operatives can perform the following unique action:
+Aliados **MURDERWING** pueden hacer la siguiente accion unica:
 ]]></string>
 
     <string name="bladefins_usage"><![CDATA[
@@ -298,24 +261,20 @@ Friendly **MURDERWING** operatives can perform the following unique action:
     ]]></string>
 
     <string name="bladefins_description2"><![CDATA[
-**BOOST** action. Inflict D3+1 damage on one
-enemy operative within this operatives **BOOST ZONE.**\n\n
+Accion de **BOOST**. Inflige D3+1 heridas a un Operativo enemigo dentro de la **BOOST ZONE** de este
+Operativo.\n\n
 
-An operative cannot perform this action
-normally. Instead it performs this action during the **Fall Back** or **Reposition**
-action after setting up from a **BOOST.** A **DEPREDATOR** operative cannot perform this action during the same activation in which
-it performed the **Carving Blow** action (or vice versa).
-    ]]></string>
-
-
+Un Operativo no puede hacer esta accion normalmente. En su lugar, hazla durante una accion de **Fall Back**
+o **Reposicion** despues de haber movido con un **BOOST**. Un Operativo **DEPREDATOR** no puede hacer
+esta accion si uso la accion **Carving Blow** o vice versa.
+]]></string>
 
     <string name="clawed_armour_lore"><![CDATA[
-Snaring claws and sharpened spurs protrude from the
-grotesque power armour of these predatory warriors.
+Garras afiladas y espuelas puntiagudas sobresalen de la grotesca armadura de estos guerreros depredadores.
 ]]></string>
 
     <string name="clawed_armour_description"><![CDATA[
-Friendly **MURDERWING** operatives can perform the following unique action:
+Aliados **MURDERWING** pueden hacer la siguiente accion unica:
 ]]></string>
 
     <string name="clawed_armour_usage"><![CDATA[
@@ -323,40 +282,33 @@ Friendly **MURDERWING** operatives can perform the following unique action:
     ]]></string>
 
     <string name="clawed_armour_description2"><![CDATA[
-**BOOST** action. Inflict 1 damage on one
-enemy operative within this operatives control range, then the **Charge** action ends.\n\n
-
-An operative cannot perform this action normally. Instead, it performs this action
-during the **Charge** action after setting up from a **BOOST.**
+Accion de **BOOST**. Inflige 1 herida a un Operativo enemigo dentro del rango de control de este
+Operativo, despues la accion de **Cargar** termina.\n\n
+Un Operativo no puede hacer esta accion normalmente. En su lugar, hazla durante una accion de **Cargar**
+despues de haber movido con un **BOOST**
     ]]></string>
 
     <string name="warp_fuel_lore"><![CDATA[
-Immersion within the warp has mutated this warriors body, transforming their blood into high-octane fuel that
-burns through veins and arteries, powering muscles and jet engines alike.
+La inmersión en la disformidad ha mutado el cuerpo de estos guerreros, transformando su sangre en un
+combustible de alto octanaje que arde por venas y arterias, alimentando músculos y motores a reacción por igual.
 ]]></string>
 
     <string name="warp_fuel_description"><![CDATA[
-Once per turning point, when an enemy operative
-ends the **Fall Back** action during its activation, if
-at least one friendly **MURDERWING** operative
-was within its control range at the start of that
-action, you can use this rule. One of those friendly
-operatives can immediately perform a free
-**Reposition** or **Charge** action, but cannot use more
-than 3\" of move distance. Note that if the enemy
-operative does not perform the **Fall Back** action
-during its own activation, this has no effect.
+Una vez por turno, cuando un Operativo enemigo termina la accion de **Fall Back** durante una activacion,
+si al menos un Operativo **MURDERWING** estaba en control al inicio de es accion, puedes usar esta regla.
+Uno de esos aliados Operativos puede inmediatamente hacer una accion de **Reposicion** o **Carga**,
+pero no puede mover mas de 3\". Notese que si ese Operativo enemigo no hace la accion de **Fall Back**
+durante su propia activacion, esto no tiene efecto.
 ]]></string>
 
     <string name="vox_casters_lore"><![CDATA[
-Vox-speakers wrought into the panels of corrupted
-power armour enhance the roar of engines and the
-animal cries of predatory warriors, overwhelming the senses of stunned prey
+Los altavoces Vox integrados en los paneles de la armadura corrompida
+amplifican el rugido de los motores y los gritos animales de los guerreros depredadores, abrumando
+los sentidos de la presa aturdida.
 ]]></string>
 
     <string name="vox_casters_description"><![CDATA[
-Once per turning point, one friendly
-**MURDERWING** operative can perform the following unique action:
+Una vez por turno, un aliados **MURDERWING** pueden hacer la siguiente accion unica:
 ]]></string>
 
     <string name="vox_casters_usage"><![CDATA[
@@ -364,12 +316,10 @@ Once per turning point, one friendly
     ]]></string>
 
     <string name="vox_casters_description2"><![CDATA[
-Each enemy operative within 3\" of this
-operative takes a stun test. For an operative
-to take a stun test, roll one D6: on a 3+,
-subtract 1 from its APL stat until the end of its next activation.\n\n
+Cada Operativo enemigo a 3\" de este Operativo toma un test de Stun. para hacerlo, lanza un D6 para cada
+uno: al 3+, sustrae 1 a su estadistica de APL hasta el fin de su proxima activacion.\n\n
 
-An operative cannot perform this action while it has a **Conceal** order.
+Un Operativo no puede usar esta accion mientras tenga una orden de **Conceal**.
     ]]></string>
 
 
@@ -377,124 +327,101 @@ An operative cannot perform this action while it has a **Conceal** order.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="predators_above_lore"><![CDATA[
-Murderwings excel when striking from above, using
-their mobility and jet-assisted might to massacre their enemies.
+Los Murderwing sobresalen atacando desde arriba, utilizando su movilidad y potencia asistida por
+propulsión a chorro para masacrar a sus enemigos.
 ]]></string>
 
     <string name="predators_above_description"><![CDATA[
-Whenever a friendly **MURDERWING** operative
-is at least 2\" higher than the killzone floor,
-its weapons have the Balanced weapon rule.
-Whenever a friendly **MURDERWING** operative
-does a **BOOST**, its weapons have the Balanced
-weapon rule until the end of that activation.
+Cuando un aliado **MURDERWING** esta al menos 2\" encima del suelo del campo, sus armas ganan
+la regla Balances. Cuando un aliado **MURDERWING** hace una accion **BOOST**, sus armas ganan la
+regla Balanced hasta el final de la activacion.
 ]]></string>
 
     <string name="cull_the_weak_lore"><![CDATA[
-Opportunistic predators all, the warriors of a
-Murderwing seek to single out and pick off the most vulnerable prey.
+Todos ellos depredadores oportunistas, los guerreros Murderwing seleccionan y eliminan
+a la presa más vulnerable.
 ]]></string>
 
     <string name="cull_the_weak_description"><![CDATA[
-Whenever a friendly **MURDERWING** operative
-is shooting or fighting, its weapons have the
-Punishing weapon rule if any of the following are
-true for the operative that friendly operative is
-shooting or fighting against:\n
-\n
-• It is at least 2\" lower than that friendly operative.\n
-\n
-• Its APL stat is less than normal.\n
-\n
-• It was wounded at the start of the activation/counteraction.
+Cuando un aliado **MURDERWING** esta disparando o combatiendo, sus armas tienen la regla Punishing
+si alguna de las siguientes condiciones se cumplen contra Operativos contra los que este combatiendo
+o retaleando:\n
+\n• Si al menos el Operativo enemigo esta 2\" mas abajo de ese Operativo aliado.\n
+\n• La estadistica de APL de ese enemigo es menor de lo normal.\n
+\n• Estaba herido al inicio de esta accion o counteract.
 ]]></string>
 
     <string name="nightmare_on_high_lore"><![CDATA[
-So swift and elusive are the Murderwing, that even the
-most skilled of sharpshooters struggle to hit them as they soar above.
+Los Murderwings son tan rapidos y escurridizos que incluso los tiradores más expertos tienen dificultades
+para alcanzarlos mientras vuelan por encima.
 ]]></string>
 
     <string name="nightmare_on_high_description"><![CDATA[
-Whenever an operative is shooting a friendly **MURDERWING** operative that’s at least 2\"
-higher than the killzone floor, or that did a **BOOST**
-during this turning point, you can re-roll one of your defence dice.
+Cuando un Operativo este disparando a un aliado **MURDERWING** que este al menos 2\" encima del suelo
+del campo, o que haya hecho una accion **BOOST** durante este turno, puedes re-rollear uno de tus
+dados de defensa.
 ]]></string>
 
     <string name="instil_fear_lore"><![CDATA[
-Such is the savagery and horror of the Murderwing, that
-even the boldest of combatants find their hearts gripped by paralysing fear.
+Tal es la brutalidad y el horror del Murderwing que incluso los combatientes más valientes ven sus
+corazones paralizados por un miedo terrible.
 ]]></string>
 
     <string name="instil_fear_description"><![CDATA[
-Whenever a friendly **MURDERWING** operative is
-fighting, Normal Dmg of 3 or more inflicts 1 less damage on it.
+Cuando un aliado **MURDERWING** esta combatiendo, daño normal de 3 o mas hace una herida menos.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="malicious_narcissism_lore"><![CDATA[
-The Murderwing wait until fear is at its zenith before striking.
+Los Murderwing esperan hasta que el miedo alcanza su punto álgido antes de atacar.
 ]]></string>
 
     <string name="malicious_narcissism_description"><![CDATA[
-Use this firefight ploy when it s your turn to activate with a friendly operative, if only one
-friendly **MURDERWING** operative is ready. Until the end of the turning point, whenever any ready
-enemy operatives are in the killzone, you can skip your activations (in other words, you can
-delay that friendly **MURDERWING** operatives
-activation). Note that you cannot counteract
-until that friendly **MURDERWING** operative is expended.
+Usa esta Firefight ploy cuando sea tu turno de activar un Operativo aliado, si solo un Operativo
+aliado **MURDERWING** queda por activar (Ready), hasta el final del turno, mientras tengas menos
+Operativos aliados que puedas activar que tu oponente, puedes saltar tu activacion (en otras palabras,
+puedes saltar tus activaciones hasta que a tu oponente le quede solo un Operativo por activar).
+
 ]]></string>
 
     <string name="murderous_descent_lore"><![CDATA[
-Descending from lofty perches, Murderwings ambush unwary prey.
+Desde lo alto de sus perchas, los Murderwings emboscan a sus presas desprevenidas.
 ]]></string>
 
     <string name="murderous_descent_description"><![CDATA[
-Use this firefight ploy when an enemy operative
-ends the **Charge, Dash, Fall Back** or **Reposition**
-action within 3\" horizontally and more than 2\"
-lower than a friendly **MURDERWING** operative
-(or in close quarters, within 2\" and that enemy
-operative must be in a different room to where
-it started that action). Interrupt that enemy
-operatives activation/counteraction and
-immediately perform a free **Charge** action with
-that friendly operative. It must end that action
-within control range of that enemy operative. If
-this is not possible, the interruption is cancelled
-and this rule has not been used.
+Usa esta Firefight ploy cuando un Operativo enemigo termine la accion de **Cargar, Dash, Fall Back**
+o **Reposicion** a 3\" horizontalmente y a mas de 2\" verticalmente de un aliado **MURDERWING** (
+o en un campo de espacio cerrado como Tomb World, a 2\" y ese Operativo enemigo debe estar en un
+cuarto distinto donde haya empezado esa accion). Interrumpe la accion/counteract de ese Operativo e inmediatamente
+realiza una accion gratis de **Cargar** con ese Operativo aliado. Debe terminar esa accion dentro
+del rango de control de ese Operativo enemigo. Si no es posiblem esa interrupcion es cancelada y esta
+regla no es usada.
 ]]></string>
 
     <string name="long_forgotten_honour_lore"><![CDATA[
-Debased traitors all, Murderwings retain no codes of martial honour.
+Todos ellos son traidores despreciables; los Murderwings no conservan ningún código de honor marcial.
 ]]></string>
 
     <string name="long_forgotten_honour_description"><![CDATA[
-Use this firefight ploy when a friendly
-**MURDERWING** operative is fighting or
-retaliating, when you resolve a critical success.
-Instead of striking or blocking, end that sequence
-(any remaining attack dice are discarded) and
-immediately perform a free **Fall Back** action
-up to 3\" with that operative (then the **Fight**
-action ends). That operative can do so even if
-it is performed an action that prevents it from performing the **Fall Back** action.
+Usa esta Firefight ploy cuando un aliado **MURDERWING** este combatiendo o retaleando, y resuelves
+un exito critico. En lugar de golpear o bloquear, termina esa secuencia (todos los demas dados sin resolver
+son descartados) e inmediatamente haz una accion gratis de **Fall Back** hasta a 3\" de ese Operativo
+(entonces la accion de **Combate** termina). Ese operativo puede hacerlo incluso si ha hecho una accion
+que prevenga poder realizar la accion **Fall Back**.
 ]]></string>
 
     <string name="wings_of_darkness_lore"><![CDATA[
-Warp-corrupted jump packs lend their wearers terrifying speed.
+Los propulsores de salto corrompidos por la disformidad otorgan a sus usuarios una velocidad aterradora.
 ]]></string>
 
     <string name="wings_of_darkness_description"><![CDATA[
-Use this firefight ploy when a friendly **MURDERWING** operative is performing the **Fall
-Back** or **Reposition** action, when it does a **BOOST.**
-That operative can be set up an additional
-3\" away during that **BOOST** (adding this to
-the permitted move distance), but it cannot
-perform the **Shoot, Fight** or **Carving Blow** (see
-**DEPREDATOR** operative) action until the next
-turning point. You cannot use this ploy during the first turning point.
+Usa esta Firefight ploy cuando un aliado **MURDERWING** este haciendo la acicon de **Fall Back** o
+**Reposicion**, cuando haga una accion **BOOST**. Ese Operativo puede ser puesto 3\" adicionales
+durante una accion de **BOOST** (añadiendo esto a su distancia de movimiento permitida), pero no puede
+hacer la accion de **Disparar, Combatir** o **Carving Blow** (vease en **DEPREDATOR**) hasta el siguiente
+turno. No puedes usar esta Ploy durante el primer turno.
 ]]></string>
 
 </resources>

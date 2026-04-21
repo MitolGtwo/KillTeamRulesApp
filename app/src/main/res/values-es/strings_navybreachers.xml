@@ -3,71 +3,65 @@
     <!--Navy Breachers-->
 
     <string name="command_breach_usage"><![CDATA[
-        Free Ploy
+        Pasiva
     ]]></string>
 
     <string name="command_breach_description"><![CDATA[
-Whenever you would use the Attack Order or Defence Order strategy ploy, if this operative is in the killzone, it
-costs you 0CP. Once during each of this operatives activations, before or after it performs an action, if your Attack Order or Defence
-Order marker is in the killzone (see relevant strategy ploy), you can either:\n
-• Remove that marker and place it again.\n
-• Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n
-You cannot do both, and you don’t need to spend any CP to change the ploy
+Cuando vayas a usar la Strategy ploy Attack Order o Defence Order, si este Operativo esta en el campo,
+Cuesta 0 CP. Una vez durante cada activacion de este Operativo, antes o despues de hacer una accion,
+si tu Attack Order o Defence Order estan en el campo, puedes hacer lo siguiente:\n
+\n• Remueve ese marcador y ponlo otra vez.\n
+\n• Cambia el tipo de ploy (Tu orden de ataque se vuelve tu orden de defensa).\n
+\nNo puedes usar ambos efectos, y no tienes que gastar CP para cambiar la ploy.
     ]]></string>
 
     <string name="navy_group_activation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="navy_group_activation_description"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **IMPERIAL NAVY
-BREACHER ** operative (if able) before your
-opponent activates. When that other operative is expended,
-your opponent then activates as normal (in other words, you
-cannot activate more than two operatives in succession with this
-rule). Ignore this rule when you are using the Breach and Clear
-faction rule.
+Cuando este Operativo termine de activar (expended) debes de activar a otro Operativo **IMPERIAL NAVY
+BREACHER** que no haya activado (Ready) si es posible, antes que tu oponente active. Cuando ese
+otro Operativo termine su activacion, tu oponente activa normalmente (no puedes activar mas de dos
+Operativos en sucesion de esta forma). Ignora esta regla si estas usando la regla Breach and Clear.
     ]]></string>
 
     <string name="emboldened_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="emboldened_description"><![CDATA[
-Whenever an attack dice inflicts damage of 3
-or more on this operative during a turning point in which it
-performed the **Charge** action, roll one D6: on a 5+, subtract 1
-from that inflicted damage.
+Cuando un Dado de ataque inflige daño de 3 o mas durante un turno en el cual este Operativo haya
+hecho una accion de **Cargar**, lanza un D6: al 5+, sustrae 1 al daño infligido.
     ]]></string>
 
     <string name="navy_machine_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="navy_machine_description"><![CDATA[
-• This operative cannot be activated or perform actions if its within control range of an enemy operative, or if a friendly **IMPERIAL
-NAVY BREACHER SURVEYOR** operative has been incapacitated. The turning point can end even if this operative is
-still ready.\n
-• This operative cannot perform any actions other than **Charge, Dash, Fall Back, Reposition** and **Spot.**\n
-• It cannot retaliate, assist in a fight, climb or jump.\n
-• Whenever determining control of a marker, treat this operatives APL stat as 1 lower. Note this isnt a change to its APL stat, so any
-changes are cumulative with this.\n
-• Whenever this operative has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking precedence over all other
-rules (e.g. Seek, Vantage terrain) except being within 2\".
-• Whenever determining whats visible to this operative, draw the line from any part of the miniature.
+• Este Operativo no puede ser activado o hacer acciones si esta dentro del rango de control de un
+Operativo enemigo, o si un aliado **IMPERIAL NAVY BREACHER SURVEYOR** ha sido incapacitado. El turno puede
+terminar incluso si este Operativo no ha activado (Ready).\n
+\n• Este Operativo no puede hacer ninguna otra accion que no sea **Cargar, Dash, Fall Back, Reposicion**
+y **Spot**.\n
+\n• No puede retalead, assistir en un combate, escalar o saltar.\n
+\n• Cuando determines el control de un objetivo, trata este Operativo como si su estadistica de APL
+tuviera 1 menos. Notese que esto no es un cambio de estadistica, cualquier cambio es acumulable con esto.\n
+\n• Cuando este Operativo tenga una orden de **Conceal** y esa en cobertura, no puede ser seleccionado
+como un objetivo valido, esto toma precedencia sobre todas las demas reglas, excepto estar a 2\".\n
+\n• Cuando determines que es visible para este Operativo, dibuja la linea desde cualquier parte de
+esta Miniatura.
     ]]></string>
 
     <string name="navy_expendable_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="navy_expendable_description"><![CDATA[
-This operative is ignored for your opponents kill/elimination op (when
-its incapacitated, and when determining your starting number of operatives). It’s
-also ignored for victory conditions and scoring VPs if either require operatives to
-"\escape"\, "\survive"\ or be incapacitated by enemy operatives (if it escapes/survives/
-is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.).
+Este Operativo es ignorado para la Kill op (no cuenta como el numero inicial de Operativos). Tambien
+es ignorado para condiciones de victoria o para puntuar VPs si requiere que este Operativo "\escape"\, "\sobreviva"\
+o sea incapacitado por Operativos enemigos.
     ]]></string>
 
     <string name="navy_spot_usage"><![CDATA[
@@ -75,28 +69,25 @@ is incapacitated, determining how many operatives must escape/survive/be incapac
     ]]></string>
 
     <string name="navy_spot_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the end of the turning
-point, until that enemy operative is no longer visible to this operative or until this
-operative performs this action again (whichever comes first), whenever a friendly
-**IMPERIAL NAVY BREACHER** operative is shooting that enemy operative, you
-can use this effect. If you do:\n
-• That friendly operatives ranged weapons have the Seek Light weapon rule.\n
-• That enemy operative cannot be obscured.\n\n
-This operative cannot perform this action while within control range of an
-enemy operative.
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el final del turno, hasta que ese
+Operativo enemigo no sea visible para este Operativo o hasta que ese Operativo haga esta accion otra
+vez (lo que pase primero), cuando un aliado **IMPERIAL NAVY BREACHER** este disparando a ese Operativo
+enemigo, puedes usar estos efectos:\n
+\n• Las armas de distancia de ese Operativo aliado ganan la regla Seek Light.\n
+\n• Ese Operativo enemigo no puede estas Obscurecido.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="breachwall_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="breachwall_description"><![CDATA[
-Whenever your opponent is selecting a valid
-target, they cannot select another friendly **IMPERIAL NAVY
-BREACHER** operative whose base is touching this operatives
-if this operative has an **Engage** order and is intervening. This rule
-has no effect if more than one other friendly operatives base is
-touching this operatives.
+Cuando tu oponente este seleccionando un objetivo valido, no pueden seleccionar otro **IMPERIAL NAVY
+BREACHER** Operativo cuya base este tocando la de este Operativo si este Operativo tiene una orden
+de **Engage** y esta interviniendo. Esta regla no tiene efecto si mas de un Operativo aliado esta
+tocando la base de este Operativo.
     ]]></string>
 
     <string name="navy_shield_usage"><![CDATA[
@@ -104,17 +95,16 @@ touching this operatives.
     ]]></string>
 
     <string name="navy_shield_description"><![CDATA[
-Whenever this operative is fighting or retaliating with
-this weapon, each of your blocks can be allocated to block two
-unresolved successes (instead of one).
+Cuando este Operativo este combatiendo o retaleando con esta arma, cada uno de tus bloqueos puede
+parar dos exitos sin resolver de tu oponente (en lugar de uno).
     ]]></string>
 
     <string name="disengage_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="disengage_description"><![CDATA[
-This operative can perform the ***Fall Back** action for 1 less AP.
+Este Operativo puede hacer la accion de **Fall Back** por 1 AP menos.
     ]]></string>
 
     <string name="navy_boost_usage"><![CDATA[
@@ -122,19 +112,19 @@ This operative can perform the ***Fall Back** action for 1 less AP.
     ]]></string>
 
     <string name="navy_boost_description"><![CDATA[
-Until the end of the activation, add 6\" to this operatives Move stat.\n\n
-This operative cannot perform this action more than once per battle, and
-cannot perform it during the first turning point.
+Hasta el final de la activacion de este Operativo, añade 6\" a su estadistica de movimiento.\n\n
+
+Este Operativo no puede hacer esta accion mas de una vez por batalla, y no puede hacerla durante
+el primer turno.
     ]]></string>
 
     <string name="navy_grenadier_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="navy_grenadier_description"><![CDATA[
-This operative can use frag, krak and stun grenades (see universal equipment). Doing so doesnt count towards any limited
-uses you have (i.e. if you also select those grenades from equipment for other operatives). Whenever this operative is using a frag or
-krak grenade, improve the Hit stat of that weapon by 1.
+Este Operativo puede usar granadas Frag, Krak y Stun (equipamiento universal). Al hacerlo no cuenta sobre el limite de usos que tengas si seleccionas
+alguno de estos equipamientos. Cuando este Operativo usa una granada Krak o Frag, mejora su Hit a 1.
     ]]></string>
 
     <string name="weld_shut_usage"><![CDATA[
@@ -142,15 +132,13 @@ krak grenade, improve the Hit stat of that weapon by 1.
     ]]></string>
 
     <string name="weld_shut_description"><![CDATA[
-Select a closed hatchway (e.g. Killzone: Tomb World) within
-this operatives control range. 1 additional AP must be spent
-for other operatives to perform the **Operate Hatch** action
-to open that hatchway. This effect ends when that hatchway
-is opened. Note this operative isnt affected by this effect.\n\n
+Selecciona una puerta cerrada (Kill zone Tombworld o ITD) dentro del rango de control de este Operativo.
+Otros Operativos deben gastar 1 AP adicional para hacer la accion **Operate Hatch** para abrir esa
+puerta. Este efecto termina una vez esa puerta sea abierta. Notese que este Operativo no es afectado
+por este efecto.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if it isnt within 1\" of a
-closed hatchway.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo, o si
+este Operativo no esta a 1\" de esa puerta cerrada.
     ]]></string>
 
     <string name="breach_point_usage"><![CDATA[
@@ -158,15 +146,12 @@ closed hatchway.
     ]]></string>
 
     <string name="breach_point_description"><![CDATA[
-Place one of your Breach markers within this operatives
-control range as close as possible to a terrain feature within
-control range of it. Whenever an operative is within 1\" of that
-marker, it treats parts of that terrain feature that are no more
-than 1\" thick as Accessible terrain.\n\n
+Pon uno de tus marcadores Breach dentro del rango de control de este Operativo y lo mas cercano
+posible de esa pieza de terreno. Cuando un Operativo este a 1\" de ese marcador, puede tratar ese
+terreno como terreno accesible de 1\" de ancho.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if a terrain feature isnt
-within its control range.
+Este Operativo no puede realizar esta accion mientras este dentro del rango de control de un
+Operativo enemigo, o si la pieza de terreno no esta en su rango de control.
     ]]></string>
 
     <string name="wayfind_usage"><![CDATA[
@@ -174,14 +159,12 @@ within its control range.
     ]]></string>
 
     <string name="wayfind_description"><![CDATA[
-**SUPPORT.** Select one other friendly **IMPERIAL NAVY BREACHER** operative
-(excluding **C.A.T. UNIT** or **GHEISTSKULL**) visible to and within 6\n" of this
-operative, or visible to and within 6\n" of a friendly **IMPERIAL NAVY BREACHER
-C.A.T. UNIT** operative. Until the end of that operatives next activation, add 1 to its
-APL stat. For the purposes of the Comms Device universal equipment, the operative
-the distance is being determined from must control that marker.\n\n
+**SUPPORT.** Selecciona otro aliado **IMPERIAL NAVY BREACHER** (excluyendo *C.A.T. UNIT** o **GHEISTSKULL**)
+visible y a 6\" de este Operativo, o visible y a 6\" de un aliado **IMPERIAL NAVY BREACHER C.A.T. UNIT**.
+Hasta el final de la proxima activacion de este Operativo, añade 1 a su estadistica de APL. Para determinar
+los efectos de Comms Device, la distancia debe ser determinada desde ese marcador.\n\n
 
-This operative cannot perform thisaction while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="remote_control_usage"><![CDATA[
@@ -189,15 +172,11 @@ This operative cannot perform thisaction while within control range of an enemy 
     ]]></string>
 
     <string name="remote_control_description"><![CDATA[
-Select one friendly **IMPERIAL NAVY BREACHER
-C.A.T. UNIT** operative. That operative can immediately
-perform one free action, but it cannot move more than 3\"
-during that action\n\n
+Selecciona un aliado **IMPERIAL NAVY BREACHER C.A.T. UNIT**. Ese Operativo puede inmediatamenta hacer
+una accion gratis, pero no puede moverse mas de 3\" durante esa activacion.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if a friendly **IMPERIAL
-NAVY BREACHER C.A.T. UNIT** operative isnt in
-the killzone.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo, o si
+ese aliado **IMPERIAL NAVY BREACHER C.A.T. UNIT** no esta en el campo.
     ]]></string>
 
     <string name="navy_detonate_usage"><![CDATA[
@@ -205,8 +184,9 @@ the killzone.
     ]]></string>
 
     <string name="navy_detonate_description"><![CDATA[
-Dont select a valid target. Instead, a friendly **IMPERIAL NAVY BREACHER GHEISTSKULL** operative is always
-the primary target and cannot be in cover or obscured. If that operative isnt in the killzone, you cannot select this weapon.
+No selecciones un Objetivo valido. En su lugar, un Operativo aliado **IMPERIAL NAVY BREACHER GHEISTSKULL**
+siempre es el objetivo primario y no puede estar en cobertura o Obscurecido. Si ese Operativo no esta
+en el campo, no puedes seleccionar esta arma.
     ]]></string>
 
     <string name="interference_pulse_usage"><![CDATA[
@@ -214,115 +194,89 @@ the primary target and cannot be in cover or obscured. If that operative isnt in
     ]]></string>
 
     <string name="interference_pulse_description"><![CDATA[
-Select one enemy operative visible to and within 8\n" of a
-friendly **GHEISTSKULL** operative. Roll one D6, adding
-1 to the result if that enemy operative is a valid target for
-that friendly **GHEISTSKULL** operative: on a 3+, subtract
-1 from that enemy operatives APL stat until the end of its
-next activation.\n\n
+Selecciona un Operativo enemigo visible y a 8\" de un aliado **GHEISTSKULL**. Lanza un D6, añadiendo
+1 al resultado si ese Operativo enemigo es un objetivo valido para ese aliado **GHEISTSKULL**:
+al 3+, sustrae 1 a la estadistica de APL de ese Operativo enemigo hasta el final de su proxima
+activacion.\n\n
 
-This operative cannot perform this action while within
-control range of an enemy operative, or if a friendly
-**GHEISTSKULL** operative isnt in the killzone.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo, o si ese
+aliado **GHEISTSKULL** no esta en el campo.
     ]]></string>
 
     <!--Faction Rules-->
     <string name="void_armour_lore"><![CDATA[
-The armour worn by Imperial Navy Armsmen
-is void-sealed, meaning that they can fight in
-environments devoid of gravity or atmosphere. Such
-armour also serves to protect them from explosive
-blasts and flaming torrents.
+La armadura que usan los soldados de la Armada Imperial
+es hermética, lo que significa que pueden combatir en
+entornos sin gravedad ni atmósfera.
+Dicha armadura también los protege de explosiones
+y torrentes de fuego.
 ]]></string>
 
     <string name="void_armour_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**IMPERIAL NAVY BREACHER** operative, if the
-ranged weapon in that sequence has the Blast
-or Torrent weapon rule (excluding weapons that
-have a sweeping profile), you can re-roll one of
-your defence dice, or up to two of your defence
-dice if that friendly operative is a **GRENADIER**.  \n
-\n
-Friendly **IMPERIAL NAVY BREACHER** operatives
-arent affected by the x" Devastating x weapon
-rule (i.e. Devastating with a distance) unless they
-are the target during that sequence.
+Cuando un Operativo esta disparando a un aliado **IMPERIAL NAVY BREACHER**, si el arma de distancia
+en esa secuencia tiene la regla Blast o Torrent (excluyendo armas con el perfil Sweeping), puedes
+re-rollear uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese aliado es un
+**GRENADIER**.\n
+\nAliados **IMPERIAL NAVY BREACHER** no son afectados por la distancia x\" de la regla Devastating,
+a menos que sean el objetivo principal.
 ]]></string>
 
     <string name="breach_and_clear_lore"><![CDATA[
-Methodical, professional and well-drilled, Imperial
-Navy Breachers work as a unit to breach and clear the
-corridors and chambers of enemy voidcraft, space
-hulks, orbital stations and more
+Metódicos, profesionales y bien entrenados, los asaltantes de la Armada Imperial trabajan en equipo
+para abrir brechas y despejar los pasillos y cámaras de naves enemigas, pecios espaciales, estaciones
+orbitales y más.
 ]]></string>
 
     <string name="breach_and_clear_description"><![CDATA[
-Once per turning point, when a ready friendly
-**IMPERIAL NAVY BREACHER** operative is
-activated, you can use this rule. If you do,
-select one other ready friendly **IMPERIAL NAVY
-BREACHER** operative visible to and within 3\" of
-that operative. When that first friendly operative
-is expended, you can activate that other friendly
-operative before your opponent activates. When
-that other operative is expended, your opponent
-then activates as normal.
+Una vez por turno, cuando un aliado **IMPERIAL NAVY BREACHER** es activadp, puedes usar esta regla.
+Si lo haces, selecciona otro aliado **IMPERIAL NAVY BREACHER** que no haya activado (Ready) visible
+y a 3\" de ese Operativo. Cuando ese primer Operativo termine su activacion, puedes activar ese
+otro Operativo antes de que tu oponente active. Una vez ese segundo Operativo termine su activacion,
+tu oponente activa normalmente.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="rebreathers_lore"><![CDATA[
-These masks recycle a supply of oxygen, allowing the
-bearer to survive for extended periods in poisonous
-atmospheres, underwater or in the vacuum of space.
+Estas máscaras reciclan el suministro de oxígeno, lo que permite a quien las usa sobrevivir durante
+largos periodos en atmósferas tóxicas, bajo el agua o en el vacío del espacio.
 ]]></string>
 
     <string name="rebreathers_description"><![CDATA[
-You can ignore any changes to the APL stat of
-friendly **IMPERIAL NAVY BREACHER** operatives,
-and they arent affected by enemy operatives’
-Shock weapon rule.
+Puedes ignorar cualquier cambio a la estadistica de APL de aliados **IMPERIAL NAVY BREACHER**, no son
+afectador por las regla Shock del enemigo.
 ]]></string>
 
     <string name="slugs_lore"><![CDATA[
-These heavy projectiles can be fired from a shotgun,
-trading close-quarters impact for increased range and
-lethality against a single target.
+Estos proyectiles pesados pueden dispararse con una escopeta, a cambio de un mayor alcance y
+letalidad contra un solo objetivo, lo que reduce el impacto a corta distancia.
 ]]></string>
 
     <string name="slugs_description"><![CDATA[
-Up to three times per turning point, whenever a
-friendly **IMPERIAL NAVY BREACHER** operative
-is performing the **Shoot** action and you select a
-Navis shotgun (long range), you can use this rule.
-If you do, until the end of that action, improve the
-Hit stat of that weapon by 1 and add 1 to both of
-its Dmg stats.
+Hasta tres veces por turno, cuando un aliado **IMPERIAL NAVY BREACHER** haga una accion de **Disparo**
+y selecciones un Navis Shotgun (Long Range), puedes usar esta regla. Si lo haces, hasta el final de esa accion,
+mejora la estadistica de Hit de esa arma a 1, y añade 1 a ambas estadisticas de daño.
 ]]></string>
 
     <string name="combat_stimms_lore"><![CDATA[
-Many Imperial soldiers carry combat stimms designed to
-stave off fatigue, dull pain and enhance concentration.
+Muchos soldados imperiales portan estimulantes de combate diseñados para combatir la fatiga, mitigar
+el dolor y mejorar la concentración.
 ]]></string>
 
     <string name="combat_stimms_description"><![CDATA[
-You can ignore any changes to the Move stat of
-friendly **IMPERIAL NAVY BREACHER** operatives
-from being injured.
+Puedes ignorar cambios a la estadistica de Movimiento de aliados **IMPERIAL NAVY BREACHER** por estar
+**Lesionados**
 ]]></string>
 
     <string name="system_override_device_lore"><![CDATA[
-This device, when attached to cogitator panels, reroutes
-power away from locking mechanisms, allowing
-Breachers to force entry.
+Este dispositivo, al conectarse a los paneles de control, desvía la energía de los mecanismos de
+cierre, lo que permite a los asaltantes forzar la entrada.
 ]]></string>
 
     <string name="system_override_device_description"><![CDATA[
-Once per turning point, one friendly **IMPERIAL
-NAVY BREACHER** operative can perform the
-**Operate Hatch** action for 1 less AP.
+Una vez por turno, un aliado **IMPERIAL NAVY BREACHER** puede hacer la accion **Operate Hatch** por 1
+AP menos.
 ]]></string>
 
 
@@ -332,140 +286,100 @@ NAVY BREACHER** operative can perform the
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="attack_order_lore"><![CDATA[
-When directed to assault a designated position, Imperial
-Navy Breachers achieve their goal through coordination
-and determination.
+Cuando se les ordena asaltar una posición designada, los asaltantes de la Armada Imperial
+logran su objetivo mediante la coordinación y la determinación.
 ]]></string>
 
     <string name="attack_order_description"><![CDATA[
-Place your Attack Order marker in the killzone.
-Whenever a friendly **IMPERIAL NAVY
-BREACHER** operative within 3\" of that marker is
-shooting, fighting or retaliating, its weapons have
-the Ceaseless weapon rule. In the Ready step
-of the next Strategy phase, remove that marker.
-You cannot use this ploy and the Defence Order
-strategy ploy during the same Strategy phase.
+Pon tu orden de Ataque en el campo. Cuando un aliado **IMPERIAL NAVY BREACHER** a 3\" de este marcador
+este disparando, combatiendo o retaleando, sus armas ganan la regla Ceaseless. Al inicio de la proxima
+Strategy fase, remueve ese marcado. No puedes usar esta ploy y la ploy Defence Order durante la misma
+Strategy fase.
 ]]></string>
 
     <string name="defence_order_lore"><![CDATA[
-When called upon to hold a position, Imperial Navy
-Breachers move into tight formation, creating an
-impenetrable wall of shields and guns.
+Cuando se les exige mantener una posición, los Breachers de la Armada Imperial
+se despliegan en formación cerrada, creando un muro impenetrable de escudos y cañones.
 ]]></string>
 
     <string name="defence_order_description"><![CDATA[
-Place your Defence Order marker in the killzone.
-Whenever an operative is shooting a friendly
-**IMPERIAL NAVY BREACHER** operative thats
-within 3\n" of that marker, you can re-roll any
-of your defence dice results of one result (e.g.
-results of 2). In the Ready step of the next
-Strategy phase, remove that marker. You cannot
-use this ploy and the Attack Order strategy ploy
-during the same Strategy phase.
+Pon tu Orden de Defensa en el campo. Cuando un operativo este disparando a un **IMPERIAL NAVY BREACHER**
+que este a 3\" de ese marcador, puedes re-rollear cualquiera de tus dados de defense del mismo
+resultado (ejemplo todos los resultados de 2). Al inicio de la proxima
+Strategy fase, remueve ese marcado. No puedes usar esta ploy y la ploy Attack Order durante la misma
+Strategy fase.
 ]]></string>
 
     <string name="close_assault_lore"><![CDATA[
-Breachers are used to fighting in the close confines of
-a voidships decks and are devastatingly effective when
-engaging foes at close range.
+Los Breachers están acostumbrados a luchar en los espacios reducidos de las cubiertas de las naves
+espaciales y son devastadoramente efectivos al enfrentarse a los enemigos a corta distancia.
 ]]></string>
 
     <string name="close_assault_description"><![CDATA[
-Whenever a friendly **IMPERIAL NAVY BREACHER** operative is fighting or shooting an operative within 3\" of it:\n
-• Add 1 to both Dmg stats of all profiles of its Navis shotguns or Navis heavy shotguns(if any).\n
-
-• If you roll two or more fails, you can discard one of them to retain another as a normal success instead.\n
+Cuando un aliado **IMPERIAL NAVY BREACHER** este combatiendo o disparando a un Operativo a 3\" de el:\n
+\n• Añade 1 a ambas estadisticas de daño de sus perfiles de Navis Shotgun o Navis Heavy Shotguns (si tienen).\n
+\n• Si lanzas dos o mas fallos, puedes descartar uno para retener otro como un exito normal.
 ]]></string>
 
     <string name="brace_for_counteract_lore"><![CDATA[
-Taking up a defensive stance, the Breachers prepare to repel the oncoming enemy.
+Adoptando una postura defensiva, los Breachers se preparan para repeler al enemigo que se aproxima.
 ]]></string>
 
     <string name="brace_for_counteract_description"><![CDATA[
-Whenever an operative is shooting against,
-fighting against or retaliating against a friendly
-**IMPERIAL NAVY BREACHER** operative thats
-within your territory or that hasnt performed
-the Charge, Fall Back or Reposition action
-during this turning point, Normal and Critical
-Dmg of 3 or more inflicts 1 less damage on that
-friendly operative.
+Cuando un Operativo esta disparando, combatiendo o retaleando contra un aliado **IMPERIAL NAVY BREACHER**
+que este en tu territorio o que no haya hecho la accion de **Cargar, Fall Back** o **Reposicion** durante
+este turno, daño normal y critico de 3 o mas hace 1 daño menos a ese Operativo aliado.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="overwhelm_target_lore"><![CDATA[
-As some Breachers lay down pinning fire, others break
-cover in at attempt to outflank the foe.
+Mientras algunos Breachers abren fuego de inmovilización, otros rompen sus coberturas en un intento
+de flanquear al enemigo.
 ]]></string>
 
     <string name="overwhelm_target_description"><![CDATA[
-Use this firefight ploy when you activate either
-friendly **IMPERIAL NAVY BREACHER** operative
-while using the Breach and Clear faction rule.
-Until the end of that operatives activation, add 1
-to its APL stat.
+Usa esta Firefight ploy cuando actives a cualquier aliado **IMPERIAL NAVY BREACHER** usando la regla
+Breach and Clear. Hasta el final de esa activacion, añade 1 a su estadistica de APL.
 ]]></string>
 
     <string name="blitz_lore"><![CDATA[
-The keys to a successful boarding action are speed
-and violence. Breachers advance quickly, maintaining
-a rapid rate of fire and cutting down any who block
-their progress.
+Las claves para un abordaje exitoso son la velocidad y la violencia. Los asaltantes avanzan
+rápidamente, manteniendo una cadencia de fuego intensa y eliminando a cualquiera que obstaculice su avance.
 ]]></string>
 
     <string name="blitz_description"><![CDATA[
-Use this firefight ploy when a friendly **IMPERIAL
-NAVY BREACHER** operative performs the
-**Shoot** or **Fight** action, and you select an enemy
-operative within 6\" of it as a valid target or to
-fight against. If its the first friendly operative
-to perform either of those actions during this
-turning point, its weapons have the Accurate 1
-weapon rule for that action. If its the first friendly
-operative to be activated during this turning
-point, its weapons also have the Severe weapon
-rule for that action.
+Usa esta Firefight ploy cuando un aliado **IMPERIAL NAVY BREACHER** haga una accion de **Combate** o
+**Disparo** y seleccionas a un enemigo a 6\" de el como objetivo valido o para combatir. Si este es
+el primer Operativo aliado en hacer cualquiera de esas acciones durante este turno, sus armas ganan
+la regla Accurate 1 por esa accion. Si es el primer Operativo aliado en activar durante este turno,
+sus armas tambien ganan la regla Severe durante esa accion.
 ]]></string>
 
     <string name="lock_it_down_lore"><![CDATA[
-Heavily armed and armoured, Breachers are adept at
-holding the positions they seize.
+Fuertemente armados y blindados, los Breachers son expertos en mantener las posiciones que toman.
 ]]></string>
 
     <string name="lock_it_down_description"><![CDATA[
-Use this firefight ploy when a friendly **IMPERIAL
-NAVY BREACHER** operative is activated. Select
-one objective marker. Until the end of the battle
-or until you use this ploy again (whichever comes
-first), when determining control of that objective
-marker, treat that friendly operatives APL stat as
-1 higher. Note this isnt a change to the APL stat,
-so any changes are cumulative with this.
+Usa esta Firefight ploy cuando un aliado **IMPERIAL NAVY BREACHER** sea activado. Selecciona un Objetivo.
+Hasta el final de la batalla, o hasta que esta ploy se use otra vez (lo que pase primero), cuando
+determines el control de ese objetivo, trata el APL de ese aliado como si tuvieran 1 mas. Notese
+que esto no es un cambio a las estadisticas de APL, cualquier cambio es acumulable con esto.
 ]]></string>
 
     <string name="deck_hand_lore"><![CDATA[
-Spending the vast majority of their lives aboard
-voidships, Breachers are used to fighting their way
-across decks and through cramped hatchways
-and bulkheads.
+Al pasar la mayor parte de sus vidas a bordo de naves espaciales, los Breachers están acostumbrados a
+abrirse paso luchando a través de cubiertas y por estrechas escotillas y mamparos.
 ]]></string>
 
     <string name="deck_hand_description"><![CDATA[
-Use this firefight ploy during a friendly **IMPERIAL
-NAVY BREACHER** operatives activation, before
-or after it performs an action. That operative
-can move through one Accessible terrain
-feature without it counting as an additional 1\"
-and/or perform a free **Operate Hatch** action
-during its activation, and can do so during the
-**Charge** or **Fall Back** action. You cannot use
-this ploy if the access point has been welded
-shut (see **HATCHCUTTER**) unless its a friendly
-**HATCHCUTTER** operatives activation.
+Usa esta Firefight ploy durante la activacion de un aliado **IMPERIAL NAVY BREACHER**, antes o despues
+de que haga una accion. Ese Operativo puede moverse a traves de terreno accesible sin contar como
+1\" adicional de movimiento, y/o hacer una accion gratis de **Operate Hatch** durante su
+activacion, y puede hacerlo durante una accion de **Cargar** o **Fall Back**. No puedes usar esta ploy
+si el punto de acceso ha sido afectado por la regla Welded Shut (vease **HATCHCUTTER**) a menos que sea
+la activacion de un aliado **HATCHCUTTER**.
 ]]></string>
 
 </resources>

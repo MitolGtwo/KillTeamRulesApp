@@ -1392,7 +1392,7 @@ object FactionRuleRepository {
             FactionRule(
                 id = "boost_action_example",
                 title = "BOOST ACTIONS EXAMPLE",
-                ruleText = R.string.boost_actions_description,
+                ruleText = R.string.boost_action_example_description,
                 imageRes = R.drawable.boost_action
             ),
             FactionRule(

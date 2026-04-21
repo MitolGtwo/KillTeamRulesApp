@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Path-->
-
     <string name="art_of_war_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="art_of_war_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is in the
-killzone. Select one of the following and apply its rules until the
-end of the turning point. You cannot select each option more
-than once per battle:\n
-\n
-• **Mont’ka**: Add 1\" to the Move stat of friendly **PATHFINDER** operatives.
-• **Kauyon**: Friendly **PATHFINDER** operatives can perform a free Markerlight action during their activation if they have
-a **Conceal** order.
+**STRATEGIC GAMBIT.** si este Operativo esta en el campo. Selecciona una de las siguientes reglas para
+que aplique hasta el final del turno. No puedes seleccionar cada opcion mas de una vez por batalla:\n
+\n• **Mont’ka**: Añade 1\" a la estadistica de Movimiento de aliados **PATHFINDER**.\n
+\n• **Kauyon**: Aliados **PATHFINDER** pueden hacer una accion Markerlight gratis durante su activacion
+si tienen una orden de **Conceal**.
     ]]></string>
 
     <string name="markerlight_usage"><![CDATA[
@@ -24,28 +18,25 @@ a **Conceal** order.
     ]]></string>
 
     <string name="markerlight_description"><![CDATA[
-See the Markerlights faction rule.
+Vease las reglas de faccion Markerlight.
     ]]></string>
 
     <string name="grenadier_specialist_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="grenadier_specialist_description"><![CDATA[
-This operative can use frag and krak grenades (see universal equipment). Doing so does not count
-towards any limited uses you have (i.e. if you also select those
-grenades from equipment for other operatives). Whenever it is
-doing so, improve the Hit stat of that weapon by 1.
+Este Operativo puede usar granadas Frag y Krak (equipamiento universal). Al hacerlo no cuenta sobre el limite de usos que tengas si seleccionas
+alguno de estos equipamientos. Cuando este Operativo usa una granada Krak o Frag, mejora su Hit a 1.
     ]]></string>
 
     <string name="path_veteran_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_veteran_description"><![CDATA[
-During a turning point in which you have used a friendly **SHAS\’UI** operatives Art of War
-**STRATEGIC GAMBIT** and you selected Mont\’ka, this operative can use Kauyon instead
-during its activation (and vice versa).
+Durante un turno en el que hayas usado el Art of War de un aliado **SHAS\’UI** y seleccionas Mont\’ka,
+este operativo puede usar Kauyon en su lugar durante su activacion (y vice versa).
     ]]></string>
 
 
@@ -54,21 +45,18 @@ during its activation (and vice versa).
     ]]></string>
 
     <string name="path_signal_description"><![CDATA[
-**SUPPORT**. Select one other friendly **PATHFINDER**
-operative visible to and within 6\" of this operative. Until the
-end of that operative’s next activation, add 1 to its APL stat.
+**SUPPORT**. Selecciona otro aliado **PATHFINDER** visible y a 6\" de este Operativo. Hasta el final
+de su proxima activacion, añade 1 al APL de ese Operativo.
     ]]></string>
 
     <string name="drone_controller_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="drone_controller_description"><![CDATA[
-Whenever this operative is in the killzone:\n
-\n
-• Add 2\" to the Move stat of friendly **PATHFINDER DRONE** operatives.\n
-\n
-• The Saviour Protocols firefight ploy costs you 0CP.
+Cuando este Operativo esta en el campo:\n
+\n• Añade 2\" a la estadistica de Movimiento de aliados **PATHFINDER DRONE**.\n
+\n• La Firefight ploy Saviour Protocols cuesta 0CP.
     ]]></string>
 
 
@@ -77,43 +65,40 @@ Whenever this operative is in the killzone:\n
     ]]></string>
 
     <string name="remote_pilot_description"><![CDATA[
-One friendly **PATHFINDER DRONE** operative can
-immediately perform one free action, but it cannot move
-more than 2\" during that action. That action can be one
-that is normally restricted by its Drone rule (this takes precedence over that rule).\n\n
+Un aliado **PATHFINDER DRONE** puede inmediatamente hacer una accion gratis, pero no puede moverse
+mas de 2\" durante esa accion. Esa accion puede ser una que normalmente sea restringida por la regla
+Drone (esto toma precedencia sobre esa regla).\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative. This operative can perform this
-action more than once during its activation, but if it does,
-the same **DRONE** operative cannot perform the same free
-action more than once per activation
+Este Operativo no puede hacer esta accion mientras este en rango de control de un Operativo enemigo.
+Este Operativo puede hacer esta accion mas de una vez por activacion, pero si lo hace, el mismo **DRONE**
+no puede hacer la misma accion gratis mas de una vez por activacion.
     ]]></string>
 
     <string name="inertial_dampener_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="inertial_dampener_description"><![CDATA[
-You can ignore any changes to the Hit stat of this operatives marksman rail rifle.
+Puedes ignorar cualquier cambio a la estadistica de Hit de el Marksman Rail Rifle de este Operativo.
     ]]></string>
 
 
     <string name="path_medic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_medic_description"><![CDATA[
-The first time during each turning point that another friendly **PATHFINDER** operative (excluding DRONE)
-would be incapacitated while visible to and within 3\" of this operative, you can use this rule,
-providing neither this nor that operative is within control range of an enemy operative. If you do,
-that friendly operative is not incapacitated, has 1 wound remaining and cannot be incapacitated for
-the remainder of the action. After that action, that friendly operative can immediately perform a
-free **Dash** action, but must end that move within this operatives control range. Subtract 1 from
-this and that operatives APL stats until the end of their next activations respectively, and if this
-rule was used during that friendly operatives activation, that activation ends.\n
- \n
-You cannot use this rule if this operative is incapacitated, or if it is a **Shoot** action and this
-operative would be a primary or secondary target.
+La primera vez durante cada turno que otro Operativo **PATHFINDER** (excluyendo **DRONE**) aliado visible y a 3\" vaya a ser
+incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo ni el Operativo con el que
+se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado; tiene 1
+herida restante y no puede ser incapacitado por el resto de esa acción.\n
+Después de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar
+ese movimiento dentro del rango de control de este Operativo. Sustrae 1 APL de este Operativo y el
+Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se
+usa durante la activación de ese otro Operativo aliado, Su activación termina inmediatamente.\n
+\n
+No puedes usar esta regla si el Operativo aliado está siendo disparado con un arma con Blast o Torrent,
+y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="path_medikit_usage"><![CDATA[
@@ -121,34 +106,32 @@ operative would be a primary or secondary target.
     ]]></string>
 
     <string name="path_medikit_description"><![CDATA[
-Select one friendly **PATHFINDER** operative (excluding
-**DRONE**) within this operatives control range to regain up to
-2D3 lost wounds. It cannot be an operative that the Medic!
-rule was used on during this turning point.\n\n
+Selecciona un Operativo **PATHFINDER** (excluyendo **DRONE**) dentro del rango de control de este Operativo
+para que recupere 2D3 heridas perdidas. No puede ser un Operativo que se haya beneficiado de la regla Medic!
+durante este turno.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
     <string name="path_group_activation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_group_activation_description"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **PATHFINDER SHAS\’LA** operative (if able) before your
-opponent activates. When that other operative is expended, your opponent then
-activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).
+Cuando este Operativo termina su activacion (Expended), debes entonces activar otro Operativo **PATHFINDER SHAS\’LA**
+que no haya activado (Ready). Cuando ese otro Operativo haya terminado su activacion, tu oponente entonces
+activa normalmente (en otras palabras, no puedes activar 2 Operativo en sucesion usando esta regla).
     ]]></string>
 
     <string name="fearless_fronliner_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="fearless_fronliner_description"><![CDATA[
-This operative can perform the **Markerlight** action while within control range of an enemy
-operative (this takes precedence over the **Markerlight** actions normal conditions). In addition, this operative can perform the
-**Fall Back** action for 1 less AP.
+Este Operativo puede hacer la accion **Markerlight** mientras esta en rango de control de un Operativo
+enemigo (esto toma precedencia sobre la regla normal de **Markerlight**). En adicion, este Operativo
+puede hacer la accion **Fall Back** por 1 AP menos.
     ]]></string>
 
     <string name="path_systemjam_usage"><![CDATA[
@@ -156,66 +139,61 @@ operative (this takes precedence over the **Markerlight** actions normal conditi
     ]]></string>
 
     <string name="path_systemjam_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the end of that operatives next
-activation, subtract 1 from its APL stat.\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de la siguiente activacion
+de ese Operativo, sustrae 1 a su estadistica de APL.\n\n
 
-This operative cannot perform this action while it has a **Conceal** order, or while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo o mientras
+tenga una orden de **Conceal**.
     ]]></string>
 
     <string name="multi_dimensiona_vision_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="multi_dimensiona_vision_description"><![CDATA[
-Whenever this operative is shooting, enemy operatives cannot be obscured.
+Cuando este Operativo esta disparando, Operativos enemigos no pueden estar Obscurecidos.
     ]]></string>
 
     <string name="drone_analyse_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="drone_analyse_description"><![CDATA[
-Whenever this operative performs the **Markerlight**
-action, each other enemy operative that is both visible to this
-operative and within 3\" of the enemy operative you selected for
-that action also gains one of your **Markerlight** tokens.
+Cuando este Operativo esta haciendo la accion *Markerlight**, cada otro Operativo enemigo que sea visible
+y a 3\" de ese Operativo enemigo que seleccionaste tambien ganan uno de tus **Markerlight** tokens.
     ]]></string>
 
     <string name="path_drone_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_drone_description"><![CDATA[
-• This operative cannot perform any actions other than **Charge, Dash, Fall Back, Fight, Markerlight,
-Reposition** and **Shoot**. It cannot use any weapons that are not on its datacard.\n
-\n
-• Whenever determining control of an objective marker, treat this operatives APL stat as 1 lower. Note this is not a change to
-its APL stat, so any changes are cumulative with this.\n
-\n
-• Whenever determining what is visible to this operative, the round disc at the top of the miniature is its head.
+• Este Operativo no puede hacer ninguna otra accion que no sea **Cargar, Dash, Fall Back, Combatir,
+Markerlight, Reposicion** y **Disparar**. No puede usar ninguna arma que no este en su tarjeta de
+personaje.\n
+\n• Cuando determines el control de un Objetivo, trata el APL de este Operativo como si tuviera 1 menos.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+\n• Cuando determines que es visible para este Operativo, el disco circular al tope de esta miniatura es su cabeza.
     ]]></string>
 
     <string name="path_shieldgenerator_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="path_shieldgenerator_description"><![CDATA[
-• This operative ignores the Piercing weapon rule.\n
-\n
-• Once per turning point, when an attack dice inflicts Normal Dmg on this operative, you can
-ignore that inflicted damage.\n
-\n
-• You can use the Saviour Protocols firefight ploy for 0CP if this is the specified **DRONE** operative.
+• Este Operativo ignora la regla de Piercing.\n
+\n• Una vez por turno, cuando un dado de ataque inflija daño normal a este Operativo, puedes
+ignorar dicho daño.\n
+\n• Puedes usar la Firefight ploy Saviour Protocols por 0CP si este es el **DRONE** seleccionado.
     ]]></string>
 
     <string name="high_markerlight_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="high_markerlight_description"><![CDATA[
-Whenever this operative performs the **Markerlight** action, the selected enemy operative gains
-two of your **Markerlight** tokens (instead of one).
+Cuando este Operativo hace la accion de **Markerlight**, luego selecciona un Operativo enemigo para
+que gane dos de tus **Markerlight** tokens (en lugar de uno).
     ]]></string>
 
     <string name="pulse_accelerator_usage"><![CDATA[
@@ -223,54 +201,42 @@ two of your **Markerlight** tokens (instead of one).
     ]]></string>
 
     <string name="pulse_accelerator_description"><![CDATA[
-Until the start of this operatives next activation or until it is
-incapacitated (whichever comes first), whenever another
-friendly **PATHFINDER** operative is shooting with a pulse
-weapon within 3\" of this operative, that weapon has the Lethal 5+ and Severe weapon rules.
+Hasta el inicio de la proxima activacion de este Operativo, o hasta que sea incapacitado (lo que pase
+primero), cuando otro aliado **PATHFINDER** este disparando a con su Pulse Weapon a 3\" de este Operativo,
+esa arma gana las reglas Severe y Lethal 5+.
     ]]></string>
 
     <string name="grav_inhibitor_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="grav_inhibitor_description"><![CDATA[
-• Whenever an enemy operative performs an action in which it moves (excluding **Dash**), if it
-would move visible to and within 6\" of this operative, treat the distance as an additional 2\"
-and ignore the additional distances from the Obstructing and Accessible terrain rules.\n
-\n
-• Whenever an enemy operative is fighting or retaliating while
-visible to and within 6\" of this operative, worsen the Hit stat of
-that enemy operative’s melee weapons by 1. This is cumulative with being injured.
+• Cuando un Operativo enemigo hace una accion en la que se mueve (excluyendo **Dash**), si se va a
+mover a 6\" y visible de este Operativo, trata esa distancia como si fueran 2\" adicionales e ignora
+ignora la distancia adicional de las reglas de terreno accesible y terreno obstructor (razor wire).\n
+\n• Cuando un Operativo enemigo esta combatiendo o retaleando mientras sea visible y a 6\" de este Operativo,
+empeora la estadistica de Hit del arma melee de ese Operativo enemigo por 1. Esto es acumulable con
+estar herido.
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="markerlights_faction_lore"><![CDATA[
-Markerlights are laser targeting systems that feed
-information to the weapon-mounted scopes and helmet
-targeting systems of nearby T\’au units.
+Los marcadores láser son sistemas de puntería láser que envían información a las miras montadas en
+las armas y a los sistemas de puntería de los cascos de las unidades T\'au cercanas.
 ]]></string>
 
     <string name="markerlights_faction_description"><![CDATA[
-Some **PATHFINDER** operatives (indicated on
-their datacard) can perform the **Markerlight** unique action.\n
-\n
-Once during each of their activations, whenever an enemy operative that has any of your
-**Markerlight** tokens performs the **Dash, Charge,
-Fall Back** or **Reposition** action, remove one of those tokens.\n
-\n
-While only some **PATHFINDER** operatives can
-perform the **Markerlight** action, all **PATHFINDER**
-operatives can benefit from its effects. Whenever
-a friendly **PATHFINDER** operative is shooting
-with a weapon from its datacard (excluding
-**ASSAULT GRENADIERs** fusion grenade), it has
-additional rules determined by the number of
-your **Markerlight** tokens the target has. These are
-cumulative, so if an enemy operative has two of
-your **Markerlight** tokens, the friendly operative
-shooting it has the rules for 1 and 2 tokens during that sequence.
+Algunos Operativos **PATHFINDER** (indicado en su Datacard) pueden hacer la accion unica **Markerlight**.\n
+\nUna vez durante cada activaciom, cuando un Operativo tiene uno de tus **Markerlight** tokens hace la
+accion de **Dash, Cargar, Fall Back** o **Reposicion**, remueve uno de esos tokens.\n
+\nMientras que solo algunos aliados **PATHFINDER** pueden hacer la accion **Markerlight**, todos se
+benefician de sus efectos. Cuando un aliado **PATHFINDER** esta disparando con un arma de su tarjeta
+de personaje (excluyendo **ASSAULT GRENADIER** fusion grenade), tiene reglas adicionales determinadas
+por el numero de tus **Markerlights** en ese objetivo. Estos son acumulables, asi que si un Operativo
+enemigo tiene 2 tokens **Markerlight**, el operativo aliado disparando se benefician de las reglas 1 y 2
+tokens durante esa secuencia.
 ]]></string>
 
     <string name="markerlights_faction_usage"><![CDATA[
@@ -278,52 +244,49 @@ shooting it has the rules for 1 and 2 tokens during that sequence.
 ]]></string>
 
     <string name="markerlights_faction_description2"><![CDATA[
-Select one enemy operative visible to this operative. That enemy operative gains one
-of your Markerlight tokens (to a maximum of four).\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Ese Operativo enemigo gana uno de tus
+**Markerlight** tokens (hasta un maximo de cuatro).\n\n
 
-An operative cannot perform this action while within control range of an enemy
-operative. If an operative (excluding **MB3 RECON**) would perform the **Shoot** action
-(excluding **Guard**) and this action during the same activation, only the target of that
-**Shoot** action can be selected for this action (and vice versa).
+Un Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo enemigo.
+Si un Operativo (ecluyendo **MB3 RECON**) vaya a hacer la accion de **Disparo** (excluyendo **Guard**)
+y esta accion durante la misma activacion, solo puede seleccionar al objetivo que fue seleccionado para
+hacer esta accion (y viceversa).
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="target_optics_lore"><![CDATA[
-Advanced optics enhance the effectiveness of
-markerlights, ensuring the bearers shots find their mark
-with unerring accuracy.
+La óptica avanzada mejora la eficacia de las balizas de señalización, asegurando que los disparos de
+los portadores den en el blanco con una precisión infalible.
 ]]></string>
 
     <string name="target_optics_description"><![CDATA[
-Once per turning point, when a friendly **PATHFINDER** operative (excluding **DRONE**) is
-performing the **Shoot** action and you are selecting a valid target, you can use this rule. If you do,
-until the end of that action, if the target has at least one of your Markerlight tokens, it is treated
-as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary
-target is affected.
+Una vez por turno, cuando un aliado **PATHFINDER** (excluyendo **DRONE**) hace una accion de **Disparo**
+y seleccionas a un objetivo valido, puedes usar esta regla. Si lo haces, hasta el final de esa accion,
+si el objetivo tiene al menos uno de tus **Markerlight** tokens, es tratado como si tuviera uno mas.
+Si el arma a distancia tiene la regla Blast o Torrent, solo el objetivo primario es afectado.
 ]]></string>
 
     <string name="high_intensity_markerlight_lore"><![CDATA[
-This markerlight is exceptionally effective, its beam
-traceable even through obscuring smoke, debris and
-soft cover.
+Esta baliza luminosa es excepcionalmente eficaz; su haz de luz es visible incluso a través del humo,
+los escombros y la vegetación densa.
 ]]></string>
 
     <string name="high_intensity_markerlight_description"><![CDATA[
-Up to twice per turning point, when a friendly **PATHFINDER** operative (excluding **MV7 MARKER DRONE**)
-performs the **Markerlight** action, you can use this rule. If you do, the enemy
-operative you select gains two of your **Markerlight** tokens (instead of one).
+Hasta dos veces por turno, cuando un aliado **PATHFINDER** (excluyendo **MV7 MARKER DRONE**) hace una
+accion **Markerlight**, puedes usas esta regla. Si lo haces, el enemigo seleccionado gana dos de tus
+**Markerlight** tokens (en lugar de uno).
 ]]></string>
 
     <string name="photon_grenade_lore"><![CDATA[
-Upon reaching their destination, photon grenades
-release bright pulses of multispectrum light that blind and shock those caught in the blast.
+Al llegar a su destino, las granadas de fotones liberan brillantes pulsos de luz multiespectral que
+ciegan y electrocutan a quienes se encuentran en la explosión.
 ]]></string>
 
     <string name="photon_grenade_description"><![CDATA[
-Once per turning point, a friendly **PATHFINDER** operative that has the **Markerlight** action on their
-datacard (excluding **DRONE**) can perform the following unique action:
+Una vez por turno, un aliado **PATHFINDER** que tenga la accion **Markerlight** en su tarjeta de
+personaje (excluyendo **DRONE**) puede hacer la accion unica:
 ]]></string>
 
     <string name="photon_grenade_usage"><![CDATA[
@@ -331,23 +294,22 @@ datacard (excluding **DRONE**) can perform the following unique action:
 ]]></string>
 
     <string name="photon_grenade_description2"><![CDATA[
-Select one enemy operative visible to this operative and roll one D6: on a 3+, until
-the end of that operatives next activation, subtract 2\" from its Move stat.\n\n
+Selecciona un Operativo visible para este Operativo y lanza un D6: al 3+, hasta el final de la proxima
+activacion de ese Operativo enemigo, sustrae 2\" a su estadistica de Movimiento.\n\n
 
-An operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
 ]]></string>
 
     <string name="orbital_uplink_lore"><![CDATA[
-So effective are the scanning matrices of T\’au voidships
-that they can detect and illuminate a single infantry
-target, even from orbit.
+Las matrices de escaneo de las naves espaciales T\'au son tan efectivas que pueden detectar e iluminar
+un único objetivo de infantería, incluso desde la órbita.
 ]]></string>
 
     <string name="orbital_uplink_description"><![CDATA[
-Once per turning point, when a friendly **PATHFINDER** operative performs the
-**Markerlight** action, you can use this rule. If you do, you can select one enemy operative in the
-killzone to gain one of your Markerlight tokens instead (it does not need to be visible). This is not
-cumulative with the High-intensity Markerlight or Analyse rules.
+Una vez por turno, cuando un aliado **PATHFINDER** haga la accion **Markerlight**, puedes usar esta
+regla. Si lo haces, puedes seleccionar un Operativo enemigo en el campo para que gane uno de tus
+**Markerlight** tokens (no necesita ser visible). Esto no es acumulable con las reglas High-Intensity Markerlight
+o Analyse.
 ]]></string>
 
 
@@ -355,125 +317,103 @@ cumulative with the High-intensity Markerlight or Analyse rules.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="path_recon_sweep_lore"><![CDATA[
-Pathfinders are tasked with reconnaissance roles
-and are skilled at crossing difficult terrain to outflank
-unsuspecting targets.
+Los exploradores tienen la tarea de realizar funciones de reconocimiento y son expertos en atravesar
+terrenos difíciles para flanquear objetivos desprevenidos.
 ]]></string>
 
     <string name="path_recon_sweep_description"><![CDATA[
-Select one killzone edge (excluding your own).
-Each friendly **PATHFINDER** operative that is
-wholly within 6\" of that edge can immediately
-perform a free **Dash** action in an order of your
-choice, but each that does so must end that move
-wholly within 6\" of a killzone edge (excluding your
-own). You cannot use this ploy during the first turning point.
+Selecciona un borde en el campo (excluyendo el tuyo). Cada aliado **PATHFINDER** que este completamente
+a 6\" de ese borde puede inmediatamente hacer una accion gratis de **Dash** en cualquier orden de tu
+eleccion, pero cada uno debe terminar ese movimiento completamente a 6\" de un borde del campo (excluyendo
+el tuyo). No puedes usar esta ploy durante el primer turno.
 ]]></string>
 
     <string name="suppressing_fire_lore"><![CDATA[
-T\’au Pathfinders lay down a punishing blizzard of fire,
-forcing their enemies to take cover and fire back in
-scattered, desperate bursts.
+Los Exploradores T\'au desatan una devastadora tormenta de fuego,
+obligando a sus enemigos a buscar refugio y a responder con
+ráfagas dispersas y desesperadas.
 ]]></string>
 
     <string name="suppressing_fire_description"><![CDATA[
-Whenever an enemy operative is performing the **Shoot** action, if the target (the primary target
-if the weapon has the Blast or Torrent weapon rules) is not the closest valid target, your opponent
-cannot re-roll their attack dice. Ignore friendly **PATHFINDER** operatives that have a **Conceal**
-order or are obscured when determining this.
+Cuando un Operativo enemigo esta haciendo la accion de **Disparo**, si el objetivo (objetivo primario
+si es un arma con Blast y Torrent) no es el objetivo valido mas cercano, tu oponente no puede re-rollear
+sus dados de ataque. Ignora aliados **PATHFINDER** que tengan una orden de **Conceal** o que esten
+Obscurecidos para determinar esto.
 ]]></string>
 
     <string name="path_bonded_lore"><![CDATA[
-Often trained together from youth and bonded by blood
-ritual, Fire Warrior teams possess an uncanny degree
-of coordination.
+A menudo entrenados juntos desde jóvenes y unidos por rituales de sangre, los equipos de Guerreros
+del Fuego poseen un grado asombroso de coordinación.
 ]]></string>
 
     <string name="path_bonded_description"><![CDATA[
-Whenever a friendly **PATHFINDER** operative (excluding **DRONE**) is shooting or retaliating with
-a ranged weapon (see Point-Blank Fusillade firefight ploy), if it is within 3\" of another friendly
-**PATHFINDER** operative (excluding **DRONE**), that first friendly operatives ranged weapons have the
-Accurate 1 weapon rule.
+Cuando un aliado **PATHFINDER** (excluyendo **DRONE**) este disparando o retaleando con una arma de
+distancia (vease la regla Point-Blank Fusillade Firefight), si esta a 3\" de otro Operativo **PATHFINDER**
+aliado (excluyendo **DRONE**), las armas de distancia de ese primer Operativo aliado gana la regla Accurate 1.
 ]]></string>
 
     <string name="path_take_cover_lore"><![CDATA[
-Pathfinders are lightly armoured and equipped for
-mobility. They must use surrounding terrain to their
-advantage in order to survive.
+Los exploradores llevan armadura ligera y están equipados para la movilidad. Deben aprovechar el
+terreno circundante para sobrevivir.
 ]]></string>
 
     <string name="path_take_cover_description"><![CDATA[
-Whenever an operative is shooting a friendly **PATHFINDER** operative, if you can retain any
-cover saves, improve that friendly operatives Save stat by 1.
+Cuando un Operativo este disparando a un aliado **PATHFINDER**, si puedes retener cualquier salvacion
+por cobertura, mejora la estadistica de Salvacion de ese aliado a 1.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="worhty_cause_lore"><![CDATA[
-Any action that furthers the Greater Good must be
-undertaken swiftly and without question, no matter
-how dangerous.
+Toda acción que promueva el bien común debe emprenderse con rapidez y sin cuestionamientos, por muy
+peligrosa que sea.
 ]]></string>
 
     <string name="worhty_cause_description"><![CDATA[
-Use this firefight ploy at the start of the Firefight
-phase. One friendly **PATHFINDER** operative
-(excluding **DRONE**) can immediately perform a free mission action.
+Usa esta Firefight ploy al inicio de la Firefight fase. Un aliado **PATHFINDER** (excluyendo **DRONE**)
+puede inmediatamente hacer una accion de mision gratis.
 ]]></string>
 
     <string name="suporting_fire_lore"><![CDATA[
-T\’au Pathfinders are expert sharpshooters and can grant
-covering fire even to allies engaged in close combat.
+Los Exploradores T\'au son tiradores expertos y pueden proporcionar fuego de cobertura incluso a los
+aliados que se encuentran en combate cuerpo a cuerpo.
 ]]></string>
 
     <string name="suporting_fire_description"><![CDATA[
-Use this firefight ploy when a friendly
-**PATHFINDER** operative is performing the **Shoot**
-action and you are selecting a valid target within
-6\" of it. Having other friendly **PATHFINDER**
-operatives within an enemy operatives control
-range does not prevent that enemy operative from being selected.
+Usa esta Firefight ploy cuando un aliado **PATHFINDER** esta haciendo la accion de **Disparo** y
+seleccionas a un Objetivo valido a 6\" de el. tener otro aliado **PATHFINDER** dentro del rango
+de control de ese Operativo enemigo no evita que pueda ser seleccionado como objetivo valido.
 ]]></string>
 
     <string name="saviour_protocol_lore"><![CDATA[
-T\’au drones are hard-coded to prioritise the
-safety of their operators, and will automatically
-interpose themselves between a T\’au warrior and an
-incoming attack.
+Los drones T\'au están programados para priorizar la
+seguridad de sus operadores y se interpondrán automáticamente
+entre un guerrero T\'au y un
+ataque entrante.
 ]]></string>
 
     <string name="saviour_protocol_description"><![CDATA[
-Use this firefight ploy when a friendly **PATHFINDER** operative (excluding **DRONE**) is
-selected as the valid target of a **Shoot** action.
-Select one friendly **PATHFINDER DRONE** operative visible to and within 3\" of that first
-friendly operative to become the valid target instead (even if it would not normally be valid for
-this). That friendly **DRONE** operative is only in cover or obscured if the original target was. This
-ploy has no effect if the ranged weapon has the Blast or Torrent weapon rule.
+Usa esta Firefight ploy cuando un aliado **PATHFINDER** (excluyendo **DRONE**) es seleccionado como
+objetivo valido para una accion de disparo. Selecciona un aliado **PATHFINDER DRONE** visible y a 3\"
+de ese primer aliado para que se convierta en un objetivo valido en su lugar (incluso si normalmente
+no podria ser un objetivo valido). Ese aliado **DRONE** solo esta en cobertura y/o Obscurecido si el
+objetivo original lo estaba. Esta ploy no tiene efecto si el arma tiene la regla Blast o Torrent.
 ]]></string>
 
     <string name="point_blank_fusillade_lore"><![CDATA[
-Wielding their ranged weapons with practised skill,
-Pathfinders are capable of utilising them even at
-close quarters.
+Manejando sus armas de largo alcance con destreza, los Exploradores son capaces de utilizarlas incluso en
+distancias cortas.
 ]]></string>
 
     <string name="point_blank_fusillade_description"><![CDATA[
-Use this firefight ploy when a friendly
-**PATHFINDER** operative (excluding **DRONE**) is
-retaliating, if it was not within control range of
-enemy operatives at the start of that activation/
-counteraction. You can use one of its ranged
-weapons as a melee weapon (excluding a weapon
-that has the word \‘grenade\’ in its name) during
-that sequence. If you do, you cannot block during
-that sequence, and the following weapon rules
-have no effect on its weapons until the end of
-that sequence: Devastating, Piercing, Torrent. If
-that friendly operative is ready, has an **Engage**
-order and is retaliating with a pulse weapon, you
-resolve the first attack dice (i.e. defender instead
-of attacker).
+Usa esta Firefight ploy cuando un aliado **PATHFINDER** (excluyendo **DRONE**) este retaleando, si no estaba
+dentro del rango de control de un Operativo enemigo al inicio de esa activacion/counteract. Puedes usar
+una de sus armas de distancia como un arma de melee (excluyendo armas con la palabra GRENADE en su nombre)
+durante esa secuencia. Si lo haces, no puedes bloquear durante esa secuencia, y las siguientes reglas
+no tienen efecto hasta el final de esa secuencia: Devastating, Piercing, Torrent. Si ese aliado no ha
+activado (Ready), tiene una orden de **ENGAGE** y esta retaleando con su Pulse Weapon, tu resuelves
+el primer dado de ataque (defensor en lugar de atacante).
 ]]></string>
 
 </resources>

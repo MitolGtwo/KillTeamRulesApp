@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Phobos-->
-
     <string name="tactical_advantage_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tactical_advantage_description"><![CDATA[
-You can do each of the following once per battle:\n
-• After rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n
-• You can use a firefight ploy for 0CP if this is the specified **PHOBOS STRIKE TEAM** operative (including Command Re-roll if the
-attack or defence dice was rolled for this operative), or the Patient Ambush firefight ploy for 0CP if this operative is ready and not
-within control range of enemy operatives
+Puedes hacer cada uno de los siguientes efectos una vez por batalla:\n
+\n• Despues de lanzar dados para decidir iniciativa, si este Operativo esta en el campo, puedes re-rollear tu dado.\n
+\n• Puedes usar un Firefight ploy por 0CP si este es el Operativo **PHOBOS STRIKE TEAM** especificado
+(incluyendo Command Re-rolls para este Operativo), o la Firefight ploy Patient Ambush por 0CP si este
+Operativo no ha activado (Ready) y no esta dentro del rango de control de Operativos enemigos.
     ]]></string>
 
     <string name="strategic_oversight_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="strategic_oversight_description"><![CDATA[
-In the Ready step of each Strategy phase, when you gain CP, if this operative is in the killzone and is not within
-control range of enemy operatives, you can use this rule. If you do, roll one D6: on a 4+, you gain one additional CP
+En la Ready step de cada Strategy fase, cuando ganes CP, si este Operativo esta en el campo y no
+dentro de rango de control de Operativos enemigos, puedes usar esta regla. Si lo haces, lanza un D6:
+al 4+, ganas un CP adicional.
     ]]></string>
 
     <string name="comms_array_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="comms_array_description"><![CDATA[
@@ -41,7 +35,7 @@ does not cost you any CP to do so).
 
     <string name="phobos_medic_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -72,7 +66,7 @@ range of an enemy operative.
 
     <string name="plant_explosives_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -110,7 +104,7 @@ Balanced, Lethal 5+, Piercing Crits 1, Rending, Saturate.
 
     <string name="voxbreak_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -134,7 +128,7 @@ ranged weapons also have the Seek Light weapon rule.
     ]]></string>
 
     <string name="vanguard_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="vanguard_description"><![CDATA[
@@ -144,7 +138,7 @@ Up Marker** or a mission action for 1 less AP.
     ]]></string>
 
     <string name="track_target_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="track_target_description"><![CDATA[
@@ -158,7 +152,7 @@ its order to **Engage**.
 
     <string name="haywire_mine_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -173,7 +167,7 @@ removed with this operative).
 
     <string name="phobos_proximity_mine_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -189,9 +183,7 @@ effects (i.e. it cannot set it off or take damage from that marker).
     ]]></string>
 
     <string name="phobos_gravchute_usage"><![CDATA[
-
-        Passive
-
+        Pasiva
     ]]></string>
 
     <string name="phobos_gravchute_description"><![CDATA[
@@ -203,8 +195,8 @@ how far the operative actually moves vertically). Whenever this operative is dro
     <!--Faction Rules-->
 
     <string name="omni_scrambler_lore"><![CDATA[
-Backpack-mounted omni-scramblers serve to disrupt
-enemy communications.
+Los inhibidores de señal omnidireccionales montados en mochilas sirven para interrumpir las
+comunicaciones del enemigo.
 ]]></string>
 
     <string name="omni_scrambler_description"><![CDATA[
@@ -224,9 +216,9 @@ friendly **INFILTRATOR** operatives in the killzone when this **STRATEGIC GAMBIT
 ]]></string>
 
     <string name="terror_lore"><![CDATA[
-Dedicated terror troops, Space Marine Reivers utilise
-skull masks, shock grenades and vox-enhanced roars to
-terrify their victims.
+Los Reivers, tropas de terror especializadas, utilizan
+máscaras de calavera, granadas de choque y rugidos amplificados por vox para
+aterrorizar a sus víctimas.
 ]]></string>
 
     <string name="terror_description"><![CDATA[
@@ -243,8 +235,7 @@ stat, so any changes are cumulative with this.
 ]]></string>
 
     <string name="phobos_astartes_lore"><![CDATA[
-These genetically modified superhumans are made for
-one purpose: war.
+Estos superhumanos modificados genéticamente están hechos con un único propósito: la guerra.
 ]]></string>
 
     <string name="phobos_astartes_description"><![CDATA[
@@ -261,9 +252,9 @@ can counteract regardless of its order.
 ]]></string>
 
     <string name="multispectrum_array_lore"><![CDATA[
-Feeding into the auto-senses of the bearers armour, the
-multi-spectrum arrays powerful augurs help to reveal
-hidden foes.
+Al integrarse con los sentidos automáticos de la armadura del portador, los
+poderosos augures de espectro múltiple ayudan a revelar
+enemigos ocultos.
 ]]></string>
 
     <string name="multispectrum_array_description"><![CDATA[
@@ -275,9 +266,8 @@ shooting, enemy operatives cannot be obscured.
     <!--Equipment-->
 
     <string name="phobos_purity_seal_lore"><![CDATA[
-Awarded by the Chapters Chaplains, purity seals are
-inscribed with blessings and inspire the bearer to fight
-with increased vigour.
+Los sellos de pureza, otorgados por los capellanes de los capítulos, están inscritos con bendiciones
+e inspiran a quien los porta a luchar con mayor vigor.
 ]]></string>
 
     <string name="phobos_purity_seal_description"><![CDATA[
@@ -289,9 +279,8 @@ success instead.
 ]]></string>
 
     <string name="additional_utility_lore"><![CDATA[
-Some Space Marines opt to carry additional smoke
-grenades, shock grenades and other forms of
-hand-held explosives.
+Algunos Marines Espaciales optan por llevar granadas de humo adicionales, granadas de choque y otros
+tipos de explosivos portátiles.
 ]]></string>
 
     <string name="additional_utility_description"><![CDATA[
@@ -302,8 +291,7 @@ that equipment as normal (i.e. to give you six).
 ]]></string>
 
     <string name="phobos_combat_blades_lore"><![CDATA[
-These blades are tough, thick and possess a razor-sharp
-cutting edge.
+Estas cuchillas son resistentes, gruesas y poseen un filo de corte extremadamente afilado.
 ]]></string>
 
     <string name="phobos_combat_blades_description"><![CDATA[
@@ -312,8 +300,7 @@ the following melee weapon:
 ]]></string>
 
     <string name="phobos_special_issue_ammunition_lore"><![CDATA[
-Space Marine bolt weapons can be loaded with a variety
-of special ammunition.
+Las armas bólter de los Marines Espaciales pueden cargarse con una variedad de munición especial.
 ]]></string>
 
     <string name="phobos_special_issue_ammunition_description"><![CDATA[
@@ -331,8 +318,8 @@ weapon rule.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="guerrilla_warfare_lore"><![CDATA[
-Phobos Strike Teams utilise stealth and ambush tactics
-to overwhelm their foes, striking when least expected.
+Los equipos de ataque de Phobos utilizan tácticas de sigilo y emboscada para abrumar a sus enemigos,
+atacando cuando menos se lo esperan.
 ]]></string>
 
     <string name="guerrilla_warfare_description"><![CDATA[
@@ -350,9 +337,8 @@ An operative cannot perform this action while within control range of an enemy o
 ]]></string>
 
     <string name="phobos_no_fear_lore"><![CDATA[
-Space Marines possess superhuman courage and are
-utterly unflinching in the face of terrifying horrors and
-overwhelming odds.
+Los Marines Espaciales poseen un valor sobrehumano y son absolutamente imperturbables ante horrores
+aterradores y probabilidades abrumadoras.
 ]]></string>
 
     <string name="phobos_no_fear_description"><![CDATA[
@@ -362,8 +348,7 @@ being injured (including their weapons stats).
 ]]></string>
 
     <string name="deadly_shots_lore"><![CDATA[
-Space Marines spend countless hours perfecting
-their marksmanship.
+Los Marines Espaciales pasan incontables horas perfeccionando su puntería.
 ]]></string>
 
     <string name="deadly_shots_description"><![CDATA[
@@ -379,8 +364,7 @@ performing those actions after shooting.
 ]]></string>
 
     <string name="lethal_assaults_lore"><![CDATA[
-Space Marine warriors strike down their foes with
-incredible power and precision.
+Los guerreros Marines Espaciales derriban a sus enemigos con una potencia y precisión increíbles.
 ]]></string>
 
     <string name="lethal_assaults_description"><![CDATA[
@@ -396,9 +380,8 @@ also have the Lethal 5+ weapon rule.
 
     <!--Firefight ploys-->
     <string name="patient_ambush_lore"><![CDATA[
-A Phobos Strike Team may lay in wait for hours, days
-or even weeks before launching an assault upon an
-unsuspecting enemy.
+Un equipo de ataque de Phobos puede permanecer al acecho durante horas, días o incluso semanas antes
+de lanzar un asalto contra un enemigo desprevenido.
 ]]></string>
 
     <string name="patient_ambush_description"><![CDATA[
@@ -408,8 +391,7 @@ that activation.
 ]]></string>
 
     <string name="critical_shot_lore"><![CDATA[
-A well-placed bolt round can fell even the most resilient
-of foes.
+Un proyectil bien dirigido puede derribar incluso al más resistente de los enemigos.
 ]]></string>
 
     <string name="critical_shot_description"><![CDATA[
@@ -420,9 +402,8 @@ Inflict D3 additional damage.
 ]]></string>
 
     <string name="phobos_transhuman_lore"><![CDATA[
-The genetically modified physiology of a Space
-Marine is capable of resisting wounds that would kill a
-lesser being.
+La fisiología genéticamente modificada de un Marine Espacial es capaz de resistir heridas que matarían
+a un ser inferior.
 ]]></string>
 
     <string name="phobos_transhuman_description"><![CDATA[
@@ -434,9 +415,8 @@ success instead.
 ]]></string>
 
     <string name="stealth_assault_lore"><![CDATA[
-The silenced servos of Phobos-pattern power armour
-allow a Space Marine to strike swiftly and overwhelm a
-surprised foe.
+Los servomotores silenciados de la servoarmadura modelo Phobos permiten a un Marine Espacial atacar
+con rapidez y abrumar a un enemigo desprevenido.
 ]]></string>
 
     <string name="stealth_assault_description"><![CDATA[

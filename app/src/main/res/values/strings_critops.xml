@@ -16,9 +16,9 @@
     <string name="crit_op_1_victory"><![CDATA[
     At the end of each turning point after the first:\n
     \n
-    *If an objective marker is secured by your kill team, you score 1VP.
+    •If an objective marker is secured by your kill team, you score 1VP.
     \n
-    *If more objective markers are secured by your kill team than your opponent, you score 1VP.
+    •If more objective markers are secured by your kill team than your opponent, you score 1VP.
 ]]></string>
 
 
@@ -57,9 +57,9 @@
     <string name="crit_op_3_victory"><![CDATA[
     At the end of each turning point after the first:\n
     \n
-    *If friendly Operatives control any transmitting objective markers, you score 1VP.\n
+    •If friendly Operatives control any transmitting objective markers, you score 1VP.\n
     \n
-    *If friendly Operatives control more transmitting objective markers than enemy Operatives do,
+    •If friendly Operatives control more transmitting objective markers than enemy Operatives do,
     you score 1VP.
 ]]></string>
 
@@ -73,9 +73,9 @@
    If the active Operative controls the objective marker that has the Orb token, move that token
    as follows:\n
    \n
-   *If the center objective has it, move it to either players objective marker(you choice).\n
+   •If the center objective has it, move it to either players objective marker(you choice).\n
    \n
-   *If a players objective marker has it,move it to the center objective marker.\n\n
+   •If a players objective marker has it,move it to the center objective marker.\n\n
 
    An Operative cannot perform this action during the first turning point while within control
    range of an enemy Operative, or if it does not control the objective marker that has the Orb token.
@@ -98,10 +98,10 @@
    starting with the player with initiative, each player must select both one objective marker
    and one of the following claims for that turning point:\n
    \n
-        *Friendly Operatives will control that objective marker at the end of this turning point.\n
+        •Friendly Operatives will control that objective marker at the end of this turning point.\n
         \n
 
-        *Enemy Operatives wont contest that objective marker at the end of this turning point.\n
+        •Enemy Operatives wont contest that objective marker at the end of this turning point.\n
         \n
 
     Each player cannot select each objective marker more than once per battle (so they must
@@ -111,31 +111,31 @@
     <string name="crit_op_5_victory"><![CDATA[
     At the end of each turning point, after the first:\n
 \n
-    *If friendly Operatives control more objective markers than enemy Operatives do, you score 1VP\n
+    •If friendly Operatives control more objective markers than enemy Operatives do, you score 1VP\n
 \n
-    *If your selected claim is true, you score 1VP
+   •If your selected claim is true, you score 1VP
 ]]></string>
 
 
     <string name="crit_op_6_aditional"><![CDATA[
-    Operatives can perform the <b>Pick Up Marker</b> action upon each objective marker in the
+    Operatives can perform the **Pick Up Marker** action upon each objective marker in the
     following turning points:\n
     \n
-        * **Turn 2** But you must spend an <b>additional 2AP</b> (that action cannot be free and its
+        • **Turn 2** But you must spend an **additional 2AP** (that action cannot be free and its
         AP cannot be reduced).\n
-        * **Turn 23**, but you must spend an <b>additional 1AP</b> (that action cannot be free and its
+        • **Turn 23**, but you must spend an **additional 1AP** (that action cannot be free and its
         AP cannot be reduced)\n
-        * **Turn 4**(as normal)
+        • **Turn 4**(as normal)
 
     Whenever an Operative is carrying an objective marker, that operative cannot be removed and
     set up again more than 6\" away.
 ]]></string>
 
     <string name="crit_op_6_victory"><![CDATA[
-    *At the end of each turning point, after the first, if friendly Operatives control more
+    •At the end of each turning point, after the first, if friendly Operatives control more
      objective markers than enemy Operatives do, you score 1VP.\n
 \n
-    *At the end of the battle, for each objective marker friendly Operatives are carrying, you score 1VP.
+    •At the end of the battle, for each objective marker friendly Operatives are carrying, you score 1VP.
 ]]></string>
 
 
@@ -153,16 +153,16 @@
 ]]></string>
 
     <string name="crit_op_7_victory"><![CDATA[
-    *At the end of each turning point after the first, if friendly Operatives control more
+    •At the end of each turning point after the first, if friendly Operatives control more
     objective markers than enemy Operatives do, you score 1VP. Ignore downloaded objective
     markers when determining this.\n
     \n
 
-    *Whenever a friendly Operative performs the <b>Download</b> action during the third turning point,
+    •Whenever a friendly Operative performs the <b>Download</b> action during the third turning point,
     you score 1VP.\n
     \n
 
-    *Whenever a friendly Operative performs the <b>Download</b> action during the fourth turning point,
+    •Whenever a friendly Operative performs the <b>Download</b> action during the fourth turning point,
     you score 2VP.
 ]]></string>
 
@@ -193,11 +193,11 @@
 ]]></string>
 
     <string name="crit_op_8_victory"><![CDATA[
-    *At the end of the second and third turning point, if friendly Operatives have performed
+    •At the end of the second and third turning point, if friendly Operatives have performed
     more **Compile Data** actions during that turning point than enemy Operatives have, you
     score 1VP.\n
 \n
-    *Whenever a friendly operative performs the **Send Data** action, you score a number
+    •Whenever a friendly operative performs the **Send Data** action, you score a number
     of VP equal to the number of Data points removed.
 ]]></string>
 
@@ -223,10 +223,10 @@
     selects one objective marker, by putting a number of dice in their hand that matches that markers
     number, then reveal simultaneously:\n
 \n
-        *If both players selected the same one, objective marker is **inert**> during
+        •If both players selected the same one, objective marker is **inert**> during
          this turning point.\n
 \n
-        *If not, the objective marker that neither player selected is **inert** during
+        •If not, the objective marker that neither player selected is **inert** during
         this turning point.
 ]]></string>
 

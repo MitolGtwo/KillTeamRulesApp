@@ -3,26 +3,27 @@
     <!--Novitiates-->
 
     <string name="inspirational_example_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="inspirational_example_description"><![CDATA[
-Whenever this operative incapacitates an enemy operative, you gain 1 Faith point, or 2 Faith points if that
-enemy operative had a Wounds stat of 12 or more. This rule has no effect when using the Glorious Martyrdom firefight ploy.
+Cuando este Operativo incapacita a un Operativo enemigo, ganas 1 punto de Fe, o 2 puntos de Fe si ese
+Operativo enemigo tenia una estadistica de heridas de 12 o mas. Esta regla no tiene efecto cuando
+se uan la ploy Glorious Martyrdom.
     ]]></string>
 
     <string name="novitiate_null_rod_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="novitiate_null_rod_description"><![CDATA[
-**PSYCHIC** ranged weapons cannot inflict damage on this operative. For the effects of **PSYCHIC** actions, this
-operative cannot be selected and is never treated as being within those actions required distances. Whenever an operative is within
-6\" of this operative:\n
-\n
-• That operative cannot perform **PSYCHIC** actions or use **PSYCHIC** additional rules.\n
-• That operative cannot use **PSYCHIC** ranged weapons.\n
-• **PSYCHIC** melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.
+Armas **PSYCHIC** a distancia no pueded infligir daño a este Operativo. Para efectos de acciones **PSYCHIC**,
+esta Operativo no puede ser seleccionada y nunca es tratada como si estuviera dentro del rango
+requerido para esas acciones. Cuando un Operativo esta a 6\" de este Operativo:\n
+\n• Ese Operativo no puede usar acciones **PSYCHIC** o reglas **PSYCHIC** adicionales.\n
+\n• Ese Operativo no puede usar armas de distancia **PSYCHIC**.\n
+\n• Armas **PSYCHIC** melee no tienen reglas de armas y no pueden tener una estadistica de daño
+superior a 3/4.
     ]]></string>
 
     <string name="stirring_rhetoric_usage"><![CDATA[
@@ -30,10 +31,11 @@ operative cannot be selected and is never treated as being within those actions 
     ]]></string>
 
     <string name="stirring_rhetoric_description"><![CDATA[
-**SUPPORT.** Select one other friendly **NOVITIATE** operative visible to and within 6\" of this operative, or within 6\" of your
-Auto-broadcaster marker. Until the end of that operatives next activation, add 1 to its APL stat (to a maximum of 3 after all APL
-stat changes have been totalled).\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+**SUPPORT.** Selecciona una aliada **NOVITIATE** visible y a 6\" de este Operativo, o a 6\" de uno de
+tus marcadores Auto-broadcaster. Hasta el final de la siguiente activacion de ese Operativo, añade 1
+a su estadisitca de APL (hasta un maximo de 3 despues de haber hecho el calculo).\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="auto_broadcaster_usage"><![CDATA[
@@ -41,12 +43,13 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="auto_broadcaster_description"><![CDATA[
-If your Auto-broadcaster marker is not in the killzone, place it within 8\" horizontally of this
-operative; otherwise, move your Autobroadcaster marker up to 8\" horizontally. If this operative is
-removed from the killzone, remove your Auto-broadcaster marker from the killzone.\n
-Whenever an enemy operative within 3\" of your Auto-broadcaster marker is shooting, fighting or retaliating, your opponent cannot
-re-roll their attack dice.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Si tu marcador Auto-Broadcaster no esta en el campo, ponlo a 8\" horizontalmente de este Operativo,
+de otra forma, muevelo hasta 8\" horizontalmente. Si este Operativo es removido del campo, remueve
+tu marcador Auto-Broadcaster del campo.\n
+\nCuando un enemigo este a 3\" de tu marcador Auto-Broadcaster y esta disparando, combatiendo o
+retaleando, tu oponente no puede re-rollear sus dados de ataque.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="riposte_usage"><![CDATA[
@@ -54,9 +57,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="riposte_description"><![CDATA[
-Whenever you block with a critical success, you can
-also inflict damage equal to the weapons Critical Dmg stat on
-the enemy operative in that sequence.
+Cuando bloqueas con un exito critico a melee, puedes tambien infligir daño igual al valor del
+daño critico de tu arma a ese Operativo enemigo durante esa secuencia.
     ]]></string>
 
     <string name="whip_into_frenzy_usage"><![CDATA[
@@ -64,27 +66,27 @@ the enemy operative in that sequence.
     ]]></string>
 
     <string name="whip_into_frenzy_description"><![CDATA[
-Select one other friendly **NOVITIATE** operative (excluding **SUPERIOR**) visible to and within 3\"
-of this operative that is not currently benefitting from the effects of this action. Until the
-end of that operative’s next activation, add 1\" to its Move stat, it can
-perform two **Fight** actions during its next activation, and one of them can be free.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Selecciona otro Operativo aliado **NOVITIATE** (excluyendo **SUPERIOR**) visible y a 3\" de este Operativo
+que no se este beneficiando actualmente del efecto de esta accion. Hasta el fin de la siguiente activacion
+de ese Operativo, añade 1\" a su estadistica de movimiento, puede hacer dos acciones de **Combate**
+durante su siguiente activacion, y una de ellas puede ser gratis.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="novitiate_medic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="novitiate_medic_description"><![CDATA[
-The first time during each turning point that another friendly **NOVITIATE** operative would be incapacitated while visible
-to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy
-operative. If you do, that friendly operative is not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder
-of the action. After that action, that friendly operative can immediately perform a free **Dash** action, but must end that move within
-this operatives control range. Subtract 1 from this and that operatives APL stats until the end of their next activations respectively,
-and if this rule was used during that friendly operatives activation, that activation ends.\n
+La primera vez durante cada turno que otro Operativo **NOVITIATE** aliado visible y a 3\" vaya a ser incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo
+ni el Operativo con el que se use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado; tiene 1 herida restante y no puede ser incapacitado
+por el resto de esa acción.\n
+Después de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar ese movimiento dentro del rango de control de este Operativo. Sustrae
+1 APL de este Operativo y el Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se usa durante la activación de ese otro Operativo aliado,
+Su activación termina inmediatamente.\n
 \n
- You cannot use this rule if this operative is
-incapacitated, or if it is a **Shoot** action and this operative would be a primary or secondary target.
+No puedes usar esta regla si el Operativo aliado está siendo disparado con un arma con Blast o Torrent, y este Operativo es un objetivo primario o secundario.
     ]]></string>
 
     <string name="chirugeons_tools_usage"><![CDATA[
@@ -92,21 +94,21 @@ incapacitated, or if it is a **Shoot** action and this operative would be a prim
     ]]></string>
 
     <string name="chirugeons_tools_description"><![CDATA[
-Select one friendly **NOVITIATE** operative within this
-operatives control range to regain up to 2D3 lost wounds.
-It cannot be an operative that the Medic! rule was used on
-during this turning point.\n\n
-This operative cannot perform this action while within control range of an enemy operative.
+Seleciona un aliado **KASRKIN** dentro del rango de control de este Operativo, recupera 2D3 heridas
+perdidas. No puede usarse con un Operativo que se haya beneficiado
+de la regla Medic! durante este turno.\n\n
+
+Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="militant_faith_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="militant_faith_description"><![CDATA[
-Whenever this operative is shooting, fighting or retaliating, if you use an **ACT OF FAITH** during that sequence
-and an enemy operative is incapacitated, the Faith points spent on that **ACT OF FAITH** are refunded. If you use the Icon of Faith
-equipment, Faith points are only refunded for one of those **ACTS OF FAITH** (your choice).
+Cuando este Operativo este disparando, combatiendo o retaleando, si usas un **ACTO DE FE** durant esa
+secuencia y ese Operativo enemigo es incapacitado, los puntos de fe usados en ese **ACTO DE FE** son
+reembolsados. Si usas el equipamiento Icon of Faith, solo uno de esos **ACTOS DE FE** es reembolsado (tu eliges).
     ]]></string>
 
     <string name="zealous_rage_usage"><![CDATA[
@@ -114,84 +116,74 @@ equipment, Faith points are only refunded for one of those **ACTS OF FAITH** (yo
     ]]></string>
 
     <string name="zealous_rage_description"><![CDATA[
-Whenever this operative is fighting with this weapon, it has the Ceaseless weapon rule.
+Cuando este Operativo este combatiendo con esta arma, tiene la regla Ceaseless.
     ]]></string>
 
     <string name="absolution_through_destruction_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="absolution_through_destruction_description"><![CDATA[
-Whenever this operative
-performs the **Fight** action, if it is not incapacitated, it can
-immediately perform a free **Fight** action afterwards. This takes
-precedence over action restrictions, and you cannot perform
-more than two **Fight** actions in succession as a result of this
-rule. If this operative is benefitting from the effects of the Whip
-Into Frenzy action (see **EXACTOR**), this applies to each of
-the **Fight** actions from those effects.
+Cuando este Operativo esta haciendo la accion de **Combate**, si no fue incapacitada, puede inmediatamente
+hacer una accion gratis de **Combate** despues. Esto toma precedencia sobre las restricciones de acciones,
+y no puedes hacer mas de dos acciones de **Combate** en sucesion como resultado de esta regla. Si este
+Operativo se esta beneficiando de los efectos de Whip Into Frenzy (vease **EXACTOR**), esto aplica para
+cada una esas acciones de **Combate** de esos efectos.
     ]]></string>
 
     <string name="unflinching_example_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="unflinching_example_description"><![CDATA[
-Whenever this operative incapacitates a
-ready enemy operative within its control range, you gain 1 Faith
-point, or 2 Faith points if that enemy operative had a Wounds stat
-of 12 or more.
+Cuando este Operativo incapacita a un Operativo que no haya activado (Ready) dentro del rango de control
+de este Operativo, ganas 1 punto de Fe, o 2 puntos de Fe si ese Operativo tenia una estadistica de heridas
+de 12 o mas.
     ]]></string>
 
     <string name="glorious_hymmal_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="glorious_hymmal_description"><![CDATA[
-**SUPPORT.** Whenever a friendly
-**NOVITIATE** operative is within 3\" of this operative, that friendly operatives weapons have the Severe weapon rule.
+**SUPPORT.** Cuando una aliada **NOVITIATE** esta a 3\" de este Operativo, las armas de ese aliado
+ganan la regla Severe.
     ]]></string>
 
     <string name="relic_seeker_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="relic_seeker_description"><![CDATA[
-Once during each of this operatives activations,
-it can perform the **Pick Up Marker**, **Place Marker** or a
-mission action for 1 less AP.
+Una vez durante cada activacion de este Operativo, puede hacer una accion **Pick up Marker, Place Marker** o
+una accion de mision por 1 AP menos.
     ]]></string>
 
     <string name="divine_acquisition_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="divine_acquisition_description"><![CDATA[
-Once per turning point, when this operative
-performs a mission action that requires it to control an objective
-or mission marker, you gain a number of Faith points equal to the
-turning point number.
+Una vez por turno, cuando este Operativo hace una accion de mision que requiere controlar ese objetivo
+o marcador de mision, ganas un numero de puntos de Fe iguales al numero del turno.
     ]]></string>
 
     <string name="purge_with_flame_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="purge_with_flame_description"><![CDATA[
-Once per turning point, you can use the
-Inferno firefight ploy for 0CP if this is the specified friendly
-**NOVITIATE** operative.
+Una vez por turno, puedes usar la ploy Inferno Firefight ploy por 0CP si este es el aliado **NOVITIATE**
+especificado.
     ]]></string>
 
     <string name="novitiate_icon_bearer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="novitiate_icon_bearer_description"><![CDATA[
-Whenever determining
-control of a marker, treat this operatives
-APL stat as 1 higher. Note this is not a
-change to its APL stat, so any changes are cumulative with this.
+Cuando determines el control de un marcador, trata la estadistica de APL de este Operativo como si tuviera
+1 mas. Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="raise_icon_usage"><![CDATA[
@@ -199,100 +191,77 @@ change to its APL stat, so any changes are cumulative with this.
     ]]></string>
 
     <string name="raise_icon_description"><![CDATA[
-You gain 1 Faith point. If this operative controls an objective marker, you also gain a
-number of Faith points equal to the turning point number.\n\n
-This operative cannot perform this action more than once per turning point, and
-cannot perform it while within control range of an enemy operative.
+Ganas 1 punto de Fe. Si  este Operativo controla un objetivo, tambien gana un numero de puntos de Fe
+iguales al numero del turno.\n\n
+
+Este Operativo no puede hacer esta accion mas de una vez por turno, y no puede hacerla si esta dentro
+del rango de control de un Operativo enemigo.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="acts_of_faith_lore"><![CDATA[
-Such is the zeal of the Adepta Sororitas that in their
-presence the Emperor’s divine will is made manifest.
+Tal es el celo de las Adepta Sororitas que en su presencia se manifiesta la voluntad divina del Emperador.
 ]]></string>
 
     <string name="acts_of_faith_description"><![CDATA[
-In the Ready step of each Strategy phase, you
-gain a number of Faith points equal to half the
-number of friendly **NOVITIATE** operatives
-that have not been incapacitated (rounding up).
-Whenever a friendly **NOVITIATE** operative is
-shooting, fighting or retaliating, or an operative
-is shooting it, in the Roll Attack Dice (or Roll
-Defence Dice step if an operative is shooting it),
-you can spend your Faith points to use one **ACT
-OF FAITH**. You cannot use more than one **ACT OF
-FAITH** per sequence, and their costs and effects
-are as follows (see other side of card):\n
+En la Ready step de cada Strategy fase, ganas un numero de puntos de Fe equivalentes a la mitad de
+Operativas aliadas **NOVITIATE** que no hayan sido incapacitadas (redondeandolo hacia arriba). Cuando
+una aliada **NOVITIATE** esta disparando, combatiendo, retaleando o un enemigo le esta disparando, en la
+fase de lanzar dados de ataque o defensa, puedes gastar tus puntos de Fe para usar un **ACTO DE FE**.\n
+\nNo puedes usar mas de un **ACTO DE FE** por secuencia, y su costo y efecto es referenciado a continuacion:\n
+\n GUIA // 1 FAITH POINT\n
+Puedes re-rollear uno de tus dados de ataque.\n
 \n
-GUIDANCE // 1 FAITH POINT\n
-You can re-roll one of your dice.\n
+BENDICION // 2 FAITH POINT\n
+Puedes retener uno de tus exitos normales como un exito critico en su lugar.\n
 \n
-BLESSING // 2 FAITH POINT\n
-You can retain one of your normal successes as a critical success instead.\n
-\n
-INTERVENTION // 3 FAITH POINT\n
-You can retain one of your fails as a normal success instead of discarding it.
+INTERVENCION// 3 FAITH POINT\n
+Puedes retener uno de tus fallos como un exito normal en lugar de descartarlo.
 
 ]]></string>
 
     <!--Equipment-->
 
     <string name="icon_of_faith_lore"><![CDATA[
-Holy icons of the Ecclesiarchy hold great significance to
-the Sisters who bear them, reinforcing their faith in the
-heart of battle.
+Los iconos sagrados de la Eclesiarquía tienen gran significado para las Hermanas que los portan,
+reforzando su fe en el fragor de la batalla.
 ]]></string>
 
     <string name="icon_of_faith_description"><![CDATA[
-Once per turning point, you can use up to two
-**ACTS OF FAITH** during a sequence, but each one
-must be different. This takes precedence over the
-normal **ACTS OF FAITH** rules.
+Una vez por turno, puedes usar hasta dos **ACTOS DE FE** durante una secuencia, pero cada una debe
+ser distinta. Esto toma precedencia sobre la regla general de **ACTOS DE FE**.
 ]]></string>
 
     <string name="sanctified_rounds_lore"><![CDATA[
-Anointed with the blood and tears of saints and blessed
-by high-ranking members of the clergy, this ammunition
-is anathema to the unholy.
+Ungida con la sangre y las lágrimas de los santos y bendecida
+por altos miembros del clero, esta munición es anatema para los impíos.
 ]]></string>
 
     <string name="sanctified_rounds_description"><![CDATA[
-Whenever a friendly **NOVITIATE** operative is
-shooting with an autogun, autopistol, relic bolt
-pistol or relic boltgun, if you spend a Faith point,
-that weapon has the Piercing Crits 1 weapon rule
-until the end of that sequence.
+Cuando una aliada **NOVITIATE** esta disparando con su Autogun, Autopistol, Relic Bolt Pistol o Relic
+Boltgun, si gastas puntos de Fe, esa arma gana la regla Piercing Crits 1 hasta el fin de esa secuencia.
 ]]></string>
 
     <string name="auto_chastisers_lore"><![CDATA[
-These instruments of self-flagellation inflict blessed
-agonies upon the bearer, fanning the flames of their
-blazing zeal.
+Estos instrumentos de autoflagelación infligen benditas agonías a quien los porta, avivando las
+llamas de su ardiente celo.
 ]]></string>
 
     <string name="auto_chastisers_description"><![CDATA[
-Once per turning point, when a friendly
-**NOVITIATE** operative is shooting, fighting or
-retaliating, in the Roll Attack Dice step, you can
-inflict 1-3 damage on that friendly operative (but
-not enough to incapacitate it). If you do, you
-can use one **ACT OF FAITH** for free during that
-sequence with a Faith points cost no more than
-the damage you inflicted from this rule.
+Una vez por turno, cuando una aliada **NOVITIATE** este disparando, combatiendo o retaleando, en la
+fase de lanzar dados de ataque, puedes infligirle 1-3 heridas a esa aliada (pero no suficiente para
+incapacitarla). Si lo haces, puedes usar un **ACTO DE FE** gratis durante esa secuencia que no cueste mas
+que el daño que se infligio usando esta regla.
 ]]></string>
 
     <string name="holy_embrocations_lore"><![CDATA[
-Holy oils and salves dull the pain and focus the mind,
-enabling a Novitiate to shrug off wounds that would
-otherwise hobble them.
+Los aceites y ungüentos sagrados adormecen el dolor y concentran la mente, permitiendo que un novicio
+supere heridas que de otro modo lo paralizarían.
 ]]></string>
 
     <string name="holy_embrocations_description"><![CDATA[
-You can ignore any changes to the Move
-stat of friendly NOVITIATE operatives from
-being injured.
+Puedes ignorar cambios a la estadistica de Movimiento de aliadas **NOVITIATE** por estar **Lesionadas**.
 ]]></string>
 
 
@@ -300,142 +269,98 @@ being injured.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="ardent_vengeance_lore"><![CDATA[
-The heretic, the mutant, the alien: the Adepta Sororitas
-purge all with equal fervour.
+El hereje, el mutante, el alienígena: las Adepta Sororitas los purgan a todos con igual fervor.
 ]]></string>
 
     <string name="ardent_vengeance_description"><![CDATA[
-Whenever a friendly **NOVITIATE** operative is
-shooting against, fighting against or retaliating
-against an expended enemy operative, that
-friendly operatives weapons have the Punishing
-weapon rule
+Cuando una aliada **NOVITIATE** esta disparando, combatiento o retaleando contra un Operativo que ya
+haya activado (expended), las armas de esa aliada ganan la regla Punishing.
 ]]></string>
 
     <string name="defenders_of_faith_lore"><![CDATA[
-All who aspire to join the ranks of the Orders Militant
-must endure trials of suffering. Faith lends these
-warriors great resilience.
+Todos aquellos que aspiran a unirse a las filas de las Órdenes Militantes deben soportar duras
+pruebas de sufrimiento. La fe les otorga a estos guerreros una gran fortaleza.
 ]]></string>
 
     <string name="defenders_of_faith_description"><![CDATA[
-Whenever an operative is shooting against,
-fighting against or retaliating against a friendly
-**NOVITIATE** operative that contests an objective
-marker, in the Resolve Attack Dice step of that
-sequence, you can halve the damage inflicted
-(rounding up and to a minimum of 2) on that
-friendly operative from one normal success.
+Cuando un Operativo este disparando, combatiendo o retaleando contra una aliada **NOVITIATE** que este
+contesteando un objetivo, en la fase de resolver dados de ataque durante esa secuencia, puedes
+reducir a la mitad el daño infligido (hasta un minimo de 2) de un exito normal para ese Operativo aliado.
 ]]></string>
 
     <string name="blessed_rejuvenation_lore"><![CDATA[
-A devout Sister Novitiate may draw upon the wellspring
-of her faith to salve mind, body and spirit.
+Una devota novicia puede recurrir a la fuente de su fe para sanar la mente, el cuerpo y el espíritu.
 ]]></string>
 
     <string name="blessed_rejuvenation_description"><![CDATA[
-Whenever you spend Faith points, at the end
-of that action, the friendly operative you spent
-them on can regain up to D3 lost wounds. Note
-this ploy has no effect if that friendly operative
-was incapacitated during that action, or if the
-**ACT OF FAITH** does not cost any Faith points, e.g.
-Auto-chastisers equipment.
+Cuando gastas puntos de FE, al final de esa accion, el aliado que uso los puntos de Fe recupera D3
+heridas perdidas. Notese que esta ploy no tiene efecto si ese Operativo fue incapacitado durante esa
+accion, o si el acto de Fe no costo puntos de Fe (ejemplo Auto-Chastisers).
 ]]></string>
 
     <string name="righteous_advance_lore"><![CDATA[
-Eager to prove themselves worthy, Sisters Novitiate
-hurl themselves into combat with scant regard for their
-own lives.
+Ansiosas por demostrar su valía, las Hermanas del Noviciado se lanzan al combate sin apenas importarles
+sus propias vidas.
 ]]></string>
 
     <string name="righteous_advance_description"><![CDATA[
-Up to one third of the friendly **NOVITIATE**
-operatives in the killzone (rounding down, to a
-minimum of 1) can immediately perform a free
-**Dash** action in an order of your choice, but each
-that does so must end that move closer to its
-closest enemy operative, its closest objective
-marker or your opponents drop zone (you can
-choose separately for each). You cannot use this
-ploy during the first turning point.
+Hasta un tercio de las Operativas aliadas **NOVITIATE** en el campo (redondeando hacia abajo hasta un
+minomo de 1) puede inmediatamente hacer una accion gratis de **Dash** en el orden de tu eleccion, pero
+cada una debe terminar ese movimiento mas cerca del Operativo enemigo mas cercano, objetivo mas cercano,
+o mas cerca de la zona de deployment de tu oponente (puedes escoger estos requisitors por separado para
+cada Operativo). No puedes usar esto durante el primer turno.
 ]]></string>
-
 
 
     <!--Firefight ploys-->
     <string name="glorious_martyrdoom_lore"><![CDATA[
-There is no greater honour than to die in service of the
-Emperor. Such a glorious end provides inspiration to
-those who witness it.
+No hay mayor honor que morir al servicio del Emperador. Un final tan glorioso inspira a quienes lo presencian.
 ]]></string>
 
     <string name="glorious_martyrdoom_description"><![CDATA[
-Use this firefight ploy when a friendly **NOVITIATE**
-operative is incapacitated, before it is removed
-from the killzone. For each enemy operative
-visible to and within 2\" of it, you gain 1 Faith point
-and inflict D3 damage on that enemy operative
-(roll separately for each).
+Usa esta Firefight ploy cuando una aliada **NOVITIATE** sea incapacitada, antes de ser removida del
+campo. Por cada enemigo visible y a 2\" de ella, ganas 1 punto de Fe e infliges D3 heridas a cada uno
+de ellos (lanza dado por separado).
 ]]></string>
 
     <string name="blazing_inferno_lore"><![CDATA[
-The holy flamer is a potent instrument of the Emperors
-divine wrath. Heretic, witch, mutant or alien: none may
-hide from its searing wrath.
+El lanzallamas sagrado es un poderoso instrumento de la ira divina del Emperador. Hereje, bruja,
+mutante o alienígena: nadie puede escapar de su furia abrasadora.
 ]]></string>
 
     <string name="blazing_inferno_description"><![CDATA[
-Use this firefight ploy when a friendly **NOVITIATE**
-operative is shooting with a Ministorum
-flamer and you inflict damage with any critical
-successes. The target gains one of your Blaze
-tokens (if it does not already have one). Whenever
-an operative that has one of your Blaze tokens
-is activated:\n
-\n
-• Inflict D3 damage on it.\n
-• Its controlling player can subtract 1 from
-that operatives APL stat until the end of that
-activation to remove that token. Note that this
-must be done before that operative performs
-any actions during that activation.
+Usa esta Firefight ploy cuando una aliada **NOVITIATE** este disparando con un Ministorum Flamer e infliges
+daño con cualquier exito critico. El objetivo gana uno de tus Blaze tokens (si no tiene uno). Cuando
+un Operativo con uno de tus Blaze Tokens es activado:\n
+\n• Inflige D3 heridas a ese Operativo.\n
+\n• El jugador que lo controle puede sustraer 1 a la estadistica de APL de ese Operativo hasta el final
+de su proxima activacion para remover ese token. Notese que esto debe hacerse antes de hacer cualquier
+accion durante esa activacion.
 ]]></string>
 
     <string name="blinding_aura_lore"><![CDATA[
-Faith defies explanation. The most devout and righteous
-Sisters are said to manifest dazzling halos of light that
-blind the faithless.
+La fe desafía toda explicación. Se dice que las Hermanas más devotas y justas manifiestan deslumbrantes
+halos de luz que ciegan a los incrédulos.
 ]]></string>
 
     <string name="blinding_aura_description"><![CDATA[
-Use this firefight ploy when an enemy operative is
-performing the **Shoot** action and selects a friendly
-**NOVITIATE** operative as the valid target. Until
-the end of that activation/counteraction, while
-that friendly operative is more than 2\" from that
-enemy operative, your opponent cannot select it
-as a valid target. If there are no other valid targets
-that your opponent can select, that action ends
-(it is not cancelled, so that operative has still
-performed it). Note this ploy has no effect if it is
-not the selected operative, e.g. if it’s a secondary
-target from the Blast weapon rule.
+Usa esta Firefight ploy cuando un Operativo enemigo haga una accion de **Disparo** y seleccione a una
+aliada **NOVITIATE** como un objetivo valido. Hasta el final de esa activacion/counteract, mientras ese aliado
+este a mas de 2\" de ese Operativo enemigo, tu oponente no puede seleccionarla como objetivo valiado,
+si no puede seleccionar otro objetivo valido, esa accion termina (no es cancelada, asi que el Operativo
+la hizo). Notese que esta ploy no tiene efecto si el Operativo seleccionado es objetivo secundario por
+efecto de la regla Blast.
 ]]></string>
 
     <string name="guided_by_faith_lore"><![CDATA[
-Whispering a prayer, a Sister Novitiate beseeches the
-God-Emperor to guide her aim that she may swiftly slay
-her foe
+Susurrando una plegaria, una Hermana Novicia suplica al Dios Emperador que guíe su puntería para que
+pueda derrotar rápidamente a su enemigo.
 ]]></string>
 
     <string name="guided_by_faith_description"><![CDATA[
-Use this firefight ploy when a friendly **NOVITIATE**
-operative is performing the **Shoot** action and
-you are selecting a ranged weapon. Until the end
-of that action, whenever that operative is shooting
-an operative within 6\" of it, that weapon has the
-Seek Light weapon rule.
+Usa esta Firefight ploy cuando una aliada **NOVITIATE** este haciendo la accion de **Disparo** y
+estes seleccionando un arma de distancia. Hasta el final de esa accion, cuando esa aliada este disparando un
+Operativo a 6\" de ella, esa arma gana la regla Seek Light.
 ]]></string>
 
 </resources>

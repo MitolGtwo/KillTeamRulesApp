@@ -10,8 +10,8 @@
 Whenever you would use the Attack Order or Defence Order strategy ploy, if this operative is in the killzone, it
 costs you 0CP. Once during each of this operatives activations, before or after it performs an action, if your Attack Order or Defence
 Order marker is in the killzone (see relevant strategy ploy), you can either:\n
-• Remove that marker and place it again.\n
-• Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n
+\n• Remove that marker and place it again.\n
+\n• Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n
 You cannot do both, and you don’t need to spend any CP to change the ploy
     ]]></string>
 
@@ -49,13 +49,13 @@ from that inflicted damage.
 • This operative cannot be activated or perform actions if its within control range of an enemy operative, or if a friendly **IMPERIAL
 NAVY BREACHER SURVEYOR** operative has been incapacitated. The turning point can end even if this operative is
 still ready.\n
-• This operative cannot perform any actions other than **Charge, Dash, Fall Back, Reposition** and **Spot.**\n
-• It cannot retaliate, assist in a fight, climb or jump.\n
-• Whenever determining control of a marker, treat this operatives APL stat as 1 lower. Note this isnt a change to its APL stat, so any
+\n• This operative cannot perform any actions other than **Charge, Dash, Fall Back, Reposition** and **Spot.**\n
+\n• It cannot retaliate, assist in a fight, climb or jump.\n
+\n• Whenever determining control of a marker, treat this operatives APL stat as 1 lower. Note this isnt a change to its APL stat, so any
 changes are cumulative with this.\n
-• Whenever this operative has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking precedence over all other
+\n• Whenever this operative has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking precedence over all other
 rules (e.g. Seek, Vantage terrain) except being within 2\".
-• Whenever determining whats visible to this operative, draw the line from any part of the miniature.
+\n• Whenever determining whats visible to this operative, draw the line from any part of the miniature.
     ]]></string>
 
     <string name="navy_expendable_usage"><![CDATA[
@@ -175,13 +175,13 @@ within its control range.
 
     <string name="wayfind_description"><![CDATA[
 **SUPPORT.** Select one other friendly **IMPERIAL NAVY BREACHER** operative
-(excluding **C.A.T. UNIT** or **GHEISTSKULL**) visible to and within 6\n" of this
-operative, or visible to and within 6\n" of a friendly **IMPERIAL NAVY BREACHER
+(excluding **C.A.T. UNIT** or **GHEISTSKULL**) visible to and within 6\" of this
+operative, or visible to and within 6\" of a friendly **IMPERIAL NAVY BREACHER
 C.A.T. UNIT** operative. Until the end of that operatives next activation, add 1 to its
 APL stat. For the purposes of the Comms Device universal equipment, the operative
 the distance is being determined from must control that marker.\n\n
 
-This operative cannot perform thisaction while within control range of an enemy operative.
+This operative cannot perform this action while within control range of an enemy operative.
     ]]></string>
 
     <string name="remote_control_usage"><![CDATA[
@@ -192,7 +192,7 @@ This operative cannot perform thisaction while within control range of an enemy 
 Select one friendly **IMPERIAL NAVY BREACHER
 C.A.T. UNIT** operative. That operative can immediately
 perform one free action, but it cannot move more than 3\"
-during that action\n\n
+during that action.\n\n
 
 This operative cannot perform this action while within control
 range of an enemy operative, or if a friendly **IMPERIAL
@@ -214,7 +214,7 @@ the primary target and cannot be in cover or obscured. If that operative isnt in
     ]]></string>
 
     <string name="interference_pulse_description"><![CDATA[
-Select one enemy operative visible to and within 8\n" of a
+Select one enemy operative visible to and within 8\" of a
 friendly **GHEISTSKULL** operative. Roll one D6, adding
 1 to the result if that enemy operative is a valid target for
 that friendly **GHEISTSKULL** operative: on a 3+, subtract
@@ -245,7 +245,7 @@ your defence dice, or up to two of your defence
 dice if that friendly operative is a **GRENADIER**.  \n
 \n
 Friendly **IMPERIAL NAVY BREACHER** operatives
-arent affected by the x" Devastating x weapon
+arent affected by the x\" Devastating x weapon
 rule (i.e. Devastating with a distance) unless they
 are the target during that sequence.
 ]]></string>
@@ -358,7 +358,7 @@ impenetrable wall of shields and guns.
 Place your Defence Order marker in the killzone.
 Whenever an operative is shooting a friendly
 **IMPERIAL NAVY BREACHER** operative thats
-within 3\n" of that marker, you can re-roll any
+within 3\" of that marker, you can re-roll any
 of your defence dice results of one result (e.g.
 results of 2). In the Ready step of the next
 Strategy phase, remove that marker. You cannot
@@ -374,9 +374,8 @@ engaging foes at close range.
 
     <string name="close_assault_description"><![CDATA[
 Whenever a friendly **IMPERIAL NAVY BREACHER** operative is fighting or shooting an operative within 3\" of it:\n
-• Add 1 to both Dmg stats of all profiles of its Navis shotguns or Navis heavy shotguns(if any).\n
-
-• If you roll two or more fails, you can discard one of them to retain another as a normal success instead.\n
+\n• Add 1 to both Dmg stats of all profiles of its Navis shotguns or Navis heavy shotguns(if any).\n
+\n• If you roll two or more fails, you can discard one of them to retain another as a normal success instead.
 ]]></string>
 
     <string name="brace_for_counteract_lore"><![CDATA[
