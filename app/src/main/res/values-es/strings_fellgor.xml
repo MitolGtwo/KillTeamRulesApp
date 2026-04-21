@@ -181,7 +181,7 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 
     <string name="mantle_of_darkness_description"><![CDATA[
 **PSYCHIC.** Hasta el inicio de la proxima activacion de este Operativo, o hasta que sea incapacitado
-(lo que pase primero), cuando un aliado FELLGOR RAVAGER** visible y a 3\" de este este Operativo, tiene
+(lo que pase primero), cuando un aliado **FELLGOR RAVAGER** visible y a 3\" de este este Operativo, tiene
 una orden de **Conceal** y esta en cobertura, ese aliado no puede ser seleccionado como un objetivo
 valido, esto toma precedencia sobre todas las otras reglas, excepto estar a 2\".\n\n
 
