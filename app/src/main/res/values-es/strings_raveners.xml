@@ -6,12 +6,12 @@
     ]]></string>
 
     <string name="neuropredatory_crest_description"><![CDATA[
-Cuando determines el control de un objetivo, trata la estadistica todal de APL de operativos enemigos
-que lo contesten como si tuviera 1 menos si al menos uno de esos enemigos esta a 3\" de este Operativo.
+Cuando determines el control de un objetivo, trata la estadística total de APL de operativos enemigos
+que lo contesten como si tuviera 1 menos si al menos uno de esos enemigos está a 3\" de este Operativo.
 Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
-Cuando un enemigo este a 3\" de este Operativo:\n
-\n• Tu oponente debe gastar 1 AP adicional para que un operativo enemigo haga una accion de **Pick up Marker**
-y acciones de mision.\n
+Cuando un enemigo esté a 3\" de este Operativo:\n
+\n• Tu oponente debe gastar 1 AP adicional para que un operativo enemigo haga una acción de **Pick up Marker**
+y acciones de misión.\n
 \n• Tu oponente no puede re-rollear sus dados de ataque o defensa para ese Operativo.
     ]]></string>
 
@@ -20,9 +20,9 @@ y acciones de mision.\n
     ]]></string>
 
     <string name="synaptic_link_description"><![CDATA[
-**STRATEGIC GAMBIT.** Si este Operativo no esta incapacitado. Lanza un D6 y compara el resultado
-el resultado con el numero del turno actual, si el resultado es:\n
-\n• El doble o mayor, ganas 1CP.\n
+**STRATEGIC GAMBIT.** Si este Operativo no está incapacitado. Lanza un D6 y compara el resultado
+el resultado con el número del turno actual, si el resultado es:\n
+\n• El doble o mayor, ganas 1 CP.\n
 \n• Menos, inflige daño a este Operativo equivalente al resultado.\n
 \n• Cualquier otro resultado, no pasa nada.
     ]]></string>
@@ -32,9 +32,9 @@ el resultado con el numero del turno actual, si el resultado es:\n
     ]]></string>
 
     <string name="ravener_poison_description"><![CDATA[
-En la fase de resolver dados de ataque, si infliges daño con cualquier exito critico, el Operativo contra
-el que se este usando esta arma gana uno de tus tokens de Veneno (si no tiene uno). Cuando un Operativo
-que tenga uno de tus tokens de Veneno es activado, infligele D3 heridas.
+En la fase de resolver dados de ataque, si infliges daño con cualquier éxito crítico, el Operativo contra
+el que se esté usando esta arma gana uno de tus tokens de Veneno (si no tiene uno). Cuando un Operativo
+que tenga uno de tus tokens de Veneno es activado, infírgele D3 heridas.
     ]]></string>
 
     <string name="toxic_lunge_usage"><![CDATA[
@@ -42,11 +42,11 @@ que tenga uno de tus tokens de Veneno es activado, infligele D3 heridas.
     ]]></string>
 
     <string name="toxic_lunge_description"><![CDATA[
-Selecciona un Operativo enemigo a 2\" de este Operativo. Alternativamente, si este Operativo esta
-bajo tierra, selecciona un Operativo enemigo encima de tu **TUNEL**. Inflige D3+2 heridas a ese enemigo y
+Selecciona un Operativo enemigo a 2\" de este Operativo. Alternativamente, si este Operativo está
+bajo tierra, selecciona un Operativo enemigo encima de tu **TÚNEL**. Inflige D3+2 heridas a ese enemigo y
 ese enemigo gana uno de tus tokens de Veneno (si no tiene uno).\n
 
-\nEste Operativo puede hacer esta accion mientras esta bajo tierra (esto toma precedencia sobre las
+\nEste Operativo puede hacer esta acción mientras está bajo tierra (esto toma precedencia sobre las
 reglas normales de Burrow).
     ]]></string>
 
@@ -56,14 +56,14 @@ reglas normales de Burrow).
     ]]></string>
 
     <string name="subterrean_ambush_description"><![CDATA[
-Una vez por turno, despues de que un Operativo enemigo haga una accion en la que se mueve mas de 2\"
-y termina a 2\" de tu **TUNEL**, si este Operativo esta bajo tierra y no ha activado (Ready) o no
-ha hecho un Counteract durante el turno, puedes interrumpir la activacion/counteract de ese enemigo para
+Una vez por turno, después de que un Operativo enemigo haga una acción en la que se mueve más de 2\"
+y termina a 2\" de tu **TUNEL**, si este Operativo está bajo tierra y no ha activado (Ready) o no
+ha hecho un Counteract durante el turno, puedes interrumpir la activación/counteract de ese enemigo para
 usar esta regla.\n
-\nSi lo haces, activa o haz un conteract con este Operative (normalmente), pero durante esa activacion/
-counteract debe combatir o disparar contra ese Operativo enemigo, y no puede hacerlo contra ningun
-otro Operativo enemigo hasta que lo haga (si no es posible, la activacion/counteract de este Operativo es
-cancelada y esta regla no es usada). Despues de completar esta activacion/counteract, continua con la activacion
+\nSi lo haces, activa o haz un counteract con este Operative (normalmente), pero durante esa activación/
+counteract debe combatir o disparar contra ese Operativo enemigo, y no puede hacerlo contra ningún
+otro Operativo enemigo hasta que lo haga (si no es posible, la activación/counteract de este Operativo es
+cancelada y esta regla no es usada). Después de completar esta activación/counteract, continúa con la activación
 de ese Operativo enemigo (si es posible).
     ]]></string>
 
@@ -72,8 +72,8 @@ de ese Operativo enemigo (si es posible).
     ]]></string>
 
     <string name="hypersensory_hunter_description"><![CDATA[
-Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal** si hace
-la accion de **Burrow** durante la misma accion/counteract.
+Este Operativo puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal** si hace
+la acción de **Burrow** durante la misma acción/counteract.
     ]]></string>
 
 
@@ -82,9 +82,9 @@ la accion de **Burrow** durante la misma accion/counteract.
     ]]></string>
 
     <string name="dorsal_sac_description"><![CDATA[
-Hasta que este Operativo dispare con su Venom Bolt, hasta que haga esta accion otra vez o hasta que
-haga la accion **Burrow** (lo que pase primero), todos los perfiles de su Venom Bolt tienen la regla
-Lethal 5+, tienen 1 mas a su estadistica de Atk y la regla Range 8\" es removida.
+Hasta que este Operativo dispare con su Venom Bolt, hasta que haga esta acción otra vez o hasta que
+haga la acción **Burrow** (lo que pase primero), todos los perfiles de su Venom Bolt tienen la regla
+Lethal 5+, tienen 1 más a su estadística de Atk y la regla Range 8\" es removida.
     ]]></string>
 
     <string name="instictive_behaviour_usage"><![CDATA[
@@ -92,8 +92,8 @@ Lethal 5+, tienen 1 mas a su estadistica de Atk y la regla Range 8\" es removida
     ]]></string>
 
     <string name="instictive_behaviour_description"><![CDATA[
-Cuando este Operativo este disparando, combatiendo o retaleando contra un enemigo herido, o un
-Operativo que haya hecho la accion de **Fall Back** durante este turno, las armas de melee de este
+Cuando este Operativo esté disparando, combatiendo o retaleando contra un enemigo herido, o un
+Operativo que haya hecho la acción de **Fall Back** durante este turno, las armas de melee de este
 Operativo ganan la regla Lethal 5+.
     ]]></string>
 
@@ -103,7 +103,7 @@ Operativo ganan la regla Lethal 5+.
     ]]></string>
 
     <string name="reinforced_carapace_description"><![CDATA[
-Daño normal y critico de 4 o mas inflige 1 menos a este Operativo.
+Daño normal y crítico de 4 o más inflige 1 menos a este Operativo.
     ]]></string>
 
     <string name="ravener_crush_usage"><![CDATA[
@@ -111,10 +111,10 @@ Daño normal y critico de 4 o mas inflige 1 menos a este Operativo.
     ]]></string>
 
     <string name="ravener_crush_description"><![CDATA[
-Cuando golpeas con uno de tus dados a melee, tu y tu oponente lanzan un dado, añadiendo 1 a tu resultado
-si el Operativo contra el que se esta usando esta arma tiene una estadistica de heridas de 9 o menos.
+Cuando golpeas con uno de tus dados a melee, tú y tu oponente lanzan un dado, añadiendo 1 a tu resultado
+si el Operativo contra el que se está usando esta arma tiene una estadística de heridas de 9 o menos.
 Si ganas, inflige daño adicional a este Operativo equivalente a la diferencia entre los resultados
-de los dados (hasta un maximo de 3 heridas adicionales).
+de los dados (hasta un máximo de 3 heridas adicionales).
     ]]></string>
 
 
@@ -127,25 +127,25 @@ víctimas desprevenidas, y luego desaparecerán de nuevo antes de que su enemigo
 
     <string name="burrow_description"><![CDATA[
 Cuando acomodes tu **RAVENER** kill team, antes de la batalla, tus primeros dos Operativos deben ser
-puestos en el campo normalmente. Despues, cada aliado **RAVENER** puede ser puesto bajo la tierra:
+puestos en el campo normalmente. Después, cada aliado **RAVENER** puede ser puesto bajo la tierra:
 ponlos a un lado en vez de ponerlos en el campo.\n
 \nEn la Firefight fase, aliados **RAVENER** bajo tierra pueden activar y hacer counteracts normalmente.
-Cuando un **RAVENER** esta bajo tierra no puede hacer ninguna otra accion que no sea **Burrow**. Al final
+Cuando un **RAVENER** está bajo tierra, no puede hacer ninguna otra acción que no sea **Burrow**. Al final
 de la batalla, cada aliado **RAVENER** que siga bajo la tierra es incapacitado.\n
-\nAliados **RAVENER** pueden hacer la siguiente accion unica:
+Aliados **RAVENER** pueden hacer la siguiente acción única:
 ]]></string>
     <string name="burrow_usage"><![CDATA[
         1AP
 ]]></string>
 
     <string name="burrow_description2"><![CDATA[
-Si este Operativo esta bajo tierra, ponlo encima de tu **TUNEL** en un lugar en el que pueda ser puesto
-(ya no esta bajo tierra, y puede ponerse dentro del rango de control de un Operativo enemigo).
-Hasta el final de esa activacion/counteract, sustrae 2\" de su estadistica de Movimiento.\n
-\nAlternativamente, en lugar de resolver el efecto de arriba, si este Operativo esta en el campo y encima
-de tu **TUNEL**, remuevelo del campo: ese Operativo esta bajo tierra ahora.\n\n
+Si este Operativo está bajo tierra, ponlo encima de tu **TÚNEL** en un lugar en el que pueda ser puesto
+(ya no está bajo tierra, y puede ponerse dentro del rango de control de un Operativo enemigo).
+Hasta el final de esa activación/counteract, sustrae 2\" de su estadística de Movimiento.
+\nAlternativamente, en lugar de resolver el efecto de arriba, si este Operativo está en el campo y encima
+de tu **TÚNEL**, remuévelo del campo: ese Operativo está bajo tierra ahora.\n\n
 
-Un Operativo no puede hacer esta accion mientras carga un Marcador, o si no esta bajo tierra o sobre
+Un Operativo no puede hacer esta acción mientras carga un Marcador, o si no está bajo tierra o sobre
 tu **TUNEL**.
 ]]></string>
 
@@ -155,19 +155,19 @@ lo que permite a las creaciones de élite de las Mentes Colmena superarlas en ma
 ]]></string>
 
     <string name="tunnel_description"><![CDATA[
-Al final de la fase de acomodar Operativos, pon tu marcador de tunel marcado con el numero \‘0\’ en el suelo
+Al final de la fase de acomodar Operativos, pon tu marcador de túnel marcado con el número \‘0\’ en el suelo
 del campo y completamente dentro de tu zona de deployment tocando uno de tus bordes del mapa. Como
-**STRATEGIC GAMBIT** en cada turno, puedes poner otro marcador de tunel correspondiente al orden numerico,
-en el suelo del campo y a 5\" del anterior tunel. Esto significa que mientras la batalla progresa, puedes
-tener una serie secuencial de tuneles enumerados (0, 1, 2, 3 y 4). Una vez hayas puesto el 5to tunel,
-no pongas mas.\n
-\nTus marcadores de tuneles, y las areas entre ellos crean un **TUNEL** (desde 0 a 1, y 1 a 2 por ejemplo).\n
+**STRATEGIC GAMBIT** en cada turno, puedes poner otro marcador de túnel correspondiente al orden numérico,
+en el suelo del campo y a 5\" del anterior túnel. Esto significa que mientras la batalla progresa, puedes
+tener una serie secuencial de túneles enumerados (0, 1, 2, 3 y 4). Una vez hayas puesto el 5to túnel,
+no pongas más.\n
+\nTus marcadores de túneles y las áreas entre ellos crean un **TÚNEL** (desde 0 a 1 y 1 a 2, por ejemplo).\n
 \nEn campos que usen las reglas Close Quarters o espacios cerrados (como Tomb World), tus **TUNELES**
-pueden medirse a traves de paredes.\n
-\nEn este ejemplo, el Operativo A esta sobre tu **TUNEL** al ser el area entre el marcador 0 y 1.
-el Operativo B tambien esta sobre tu **TUNEL** pues esta tocando uno de tus marcadores de **TUNEL**.
-El Operativo C no esta en tu **TUNEL** pues el marcador 1 y 3 no son secuenciasles, asi que el area
-entre ellos no es parte de tu **TUNEL**.
+pueden medirse a través de paredes.\n
+\nEn este ejemplo, el Operativo A está sobre tu **TÚNEL** al ser el área entre el marcador 0 y 1.
+el Operativo B también está sobre tu **TUNEL** pues está tocando uno de tus marcadores de **TUNEL**.
+El Operativo C no está en tu **TÚNEL** pues el marcador 1 y 3 no son secuenciales, así que el área
+entre ellos no es parte de tu **TÚNEL**.
 ]]></string>
 
     <string name="predatory_insticts_lore"><![CDATA[
@@ -176,7 +176,7 @@ borrones letales de músculos, garras y colmillos.
 ]]></string>
 
     <string name="predatory_insticts_description"><![CDATA[
-Durante cada activacion de aliados **RAVENER**, puede hacer dos acciones de **Combate**.\n
+Durante cada activación de aliados **RAVENER**, puede hacer dos acciones de **Combate**.\n
 \nCada aliado **RAVENER** puede hacer un counteract sin importar su orden. Y cuando lo hace:\n
 \n• Puedes cambiar su orden primero, o cambiar su orden en lugar de hacer una accion (aun se trata
 como si hubiera hecho un counteract este turno).\n
@@ -235,12 +235,9 @@ para destripar a las presas desprevenidas que se hayan acercado demasiado.
 ]]></string>
 
     <string name="death_from_below_description"><![CDATA[
-Whenever a friendly **RAVENER** operative is fighting:\n
-\n
-• If it is performed the **Burrow** action during that activation/counteraction, its melee weapons
-have the Balanced weapon rule.\n
-\n
-• If it is on your **TUNNEL**, its melee weapons have the Ceaseless weapon rule.
+Cuando un aliado **RAVENER** esté combatiendo:\n
+\n• Si ha hecho la acción **Burrow** durante esa activación/counteract, sus armas de melee ganan la regla Balanced.\n
+\n• Si está encima de tu **TUNEL**, sus armas de melee tienen la regla Ceaseless.
 ]]></string>
 
     <string name="whipcord_emergence_lore"><![CDATA[
@@ -251,25 +248,19 @@ los centinelas de élite.
 ]]></string>
 
     <string name="whipcord_emergence_description"><![CDATA[
-Whenever an operative is shooting a friendly **RAVENER** operative:\n
-\n
-• If that friendly operative has performed the **Burrow** action during that turning point, you
-can re-roll one of your defence dice.\n
-\n
-• If that friendly operative is on your **TUNNEL**, you can re-roll any of your defence dice.
+Cuando un Operativo está disparando a un aliado **RAVENER**:\n
+\n• Si ese aliado ha hecho la acción **Burrow** durante este turno, puedes re-rollear uno de tus dados de defensa.\n
+\n• Si ese aliado está encima de tu **TUNEL**, puedes re-rollear todos tus dados de defensa.
 ]]></string>
 
     <string name="writhe_out_sight_lore"><![CDATA[
 Pocos organismos son tan capaces de escabullirse en la oscuridad en un abrir y cerrar de ojos como los
-Raveners. La pregunta es, entonces, ¿adónde fueron..?
+Raveners. La pregunta es, entonces, ¿adónde fueron...?
 ]]></string>
 
     <string name="writhe_out_sight_description"><![CDATA[
-Select one friendly **RAVENER** operative in the
-killzone. That friendly operative can immediately
-perform a free **Burrow** action. If it is within 2\" of
-your **TUNNEL**, it can immediately perform a free
-**Fall Back** or **Reposition** action before it does so.
+Selecciona un aliado **RAVENER** en el campo. Ese aliado puede inmediatamente hacer una acción de **Burrow**. Si está
+a 2\" de tu **TÚNEL**, puede inmediatamente hacer una acción **Fall Back** gratis o **Reposicion** antes de hacerlo.
 ]]></string>
 
     <string name="tunnel_lurkers_lore"><![CDATA[
@@ -278,14 +269,9 @@ sumergidos en medio de terrenos accidentados, hasta el momento en que atacan.
 ]]></string>
 
     <string name="tunnel_lurkers_description"><![CDATA[
-Whenever a friendly **RAVENER** operative is
-on your **TUNNEL** it is in cover, unless it is within
-2\" of the active operative. Treat this as cover
-provided by Light terrain (therefore it is affected
-by rules that prevent this, e.g. Seek Light and Vantage terrain).
+Cuando un aliado **RAVENER** está encima de tu **TUNEL**, está en cobertura, a menos que esté a 2\" del Operativo activo. Tratalo como
+cobertura de terreno ligero (por lo tanto es afectado por reglas como Seek Light).
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="slithering_evasion_lore"><![CDATA[
@@ -294,16 +280,11 @@ contra presas peligrosas.
 ]]></string>
 
     <string name="slithering_evasion_description"><![CDATA[
-Use this firefight ploy during a friendly **RAVENER**
-operatives activation or counteraction, before or
-after it performs an action. During that activation/counteraction, that operative can:\n
-\n
-• Perform the **Fall Back** action for 1 less AP.\n
-\n
-• Perform the **Charge** action while within control
-range of an enemy operative, and can leave
-that operatives control range to do so (but
-then normal requirements for that move apply).
+Usa esta Firefight ploy durante la activación o counteract de aliados **RAVENER**, antes o después de que haga una acción. Durante esa activación/counteract,
+ese operativo puede:\n
+\n• Hacer la acción **Fall Back** por 1 AP menos.\n
+\n• Hacer la acción de **Cargar** mientras está en rango de control de un Operativo enemigo, puede dejar el rango de control de ese
+enemigo (los requerimientos normales de ese movimiento aún aplican).
 ]]></string>
 
     <string name="subterrean_horror_lore"><![CDATA[
@@ -313,12 +294,9 @@ desde un ángulo inesperado.
 ]]></string>
 
     <string name="subterrean_horror_description"><![CDATA[
-Use this firefight ploy when an enemy operative is
-performing the **Fight** action and selects a friendly
-**RAVENER** operative on your **TUNNEL** to fight
-against. In the Resolve Attack Dice step of that
-sequence, you resolve the first attack dice (i.e.
-defender instead of attacker).
+Usa esta Firefight ploy cuando un Operativo enemigo está haciendo una acción de **Combatir** y selecciona un aliado **RAVENER**
+encima de tu **TÚNEL** para combatir en contra. En la fase de resolver dados de ataque en esa secuencia, puedes resolver el primer dado de
+ataque (defensor en lugar de atacante).
 ]]></string>
 
     <string name="burrowing_strike_lore"><![CDATA[
@@ -328,15 +306,10 @@ profundidades de una madriguera xeno.
 ]]></string>
 
     <string name="burrowing_strike_description"><![CDATA[
-Use this firefight ploy when a friendly **RAVENER**
-operative performs the **Burrow** action. Before
-that operative is removed from the killzone,
-or after setting it up on your **TUNNEL**, inflict
-D3+1 damage on each enemy operative within
-its control range (roll separately for each). You
-cannot use this ploy in the Strategy phase, or
-during a **FELLTALON** operatives activation or
-counteraction if it performs the Toxic Lunge action (and vice versa).
+Usa esta Firefight ploy cuando un aliado **RAVENER** hace la acción de **Burrow**. Antes de que sea
+removido del campo, o después de haberlo puesto encima de tu **TUNEL**, inflige D3+1 heridas a cada Operativo enemigo dentro de
+su rango de control (lanza dado por cada uno). No puedes usar esta ploy en la Strategy Phase, o durante la activación/counteract de un
+aliado **FELLTALON** si este ha hecho la acción de Toxic Lunge (y viceversa).
 ]]></string>
 
     <string name="death_frenzy_lore"><![CDATA[
@@ -345,13 +318,9 @@ bioestimulada, incluso cuando sus propios cuerpos fallan.
 ]]></string>
 
     <string name="death_frenzy_description"><![CDATA[
-Use this firefight ploy when a friendly **RAVENER**
-operative is incapacitated. Before that operative
-is removed from the killzone, inflict D3 damage
-on each enemy operative within its control range
-(roll separately for each). If that friendly operative
-is a **VENOMSPITTER** that is currently benefitting
-from the effects of its **Distend Dorsal Sac** action, inflict 2D3 damage instead.
+Usa esta Firefight ploy cuando un aliado **RAVENER** sea incapacitado. Antes de que sea removido del campo, inflige D3 heridas
+a cada Operativo enemigo dentro de su rango de control (lanza dado por cada uno). Si ese aliado es un **VENOMSPITTER** que se esté
+beneficiando de los efectos de **Distend Dorsal Sac**, inflinge 2D3 en su lugar.
 ]]></string>
 
 </resources>
