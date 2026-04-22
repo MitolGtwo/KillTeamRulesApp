@@ -5,7 +5,7 @@
     <!--Sanctifiers-->
 
     <string name="lead_the_procession_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="lead_the_procession_description"><![CDATA[
@@ -20,7 +20,7 @@ until this rule has been resolved.
     ]]></string>
 
     <string name="commanding_declamation_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="commanding_declamation_description"><![CDATA[
@@ -36,7 +36,7 @@ counteraction, that counteraction ends.\n
     ]]></string>
 
     <string name="cherub_usage"><![CDATA[
-    Passive
+    Pasiva
     ]]></string>
 
     <string name="cherub_description"><![CDATA[
@@ -52,7 +52,7 @@ datacard, or perform unique actions other than **Incentivise**
     ]]></string>
 
     <string name="sanctifier_fly_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sanctifier_fly_description"><![CDATA[
@@ -97,7 +97,7 @@ rule (see Killzone: Volkus, Kill Team Core Book).
     ]]></string>
 
     <string name="sanctification_rack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sanctification_rack_description"><![CDATA[
@@ -108,7 +108,7 @@ limit (i.e. if you also select that equipment for other operatives)
     ]]></string>
 
     <string name="sanctifier_blade_stance_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sanctifier_blade_stance_description"><![CDATA[
@@ -131,7 +131,7 @@ range of an enemy operative.
 
     <string name="schola_progenium_disciplinarian_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -144,7 +144,7 @@ ignore any changes to that operatives stats from being injured
 
     <string name="null_skull_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -161,7 +161,7 @@ permitted in this situation.
 
     <string name="merciless_castigation_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -177,7 +177,7 @@ precedence over action restrictions.
 
     <string name="fanatical_retribution_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -205,7 +205,7 @@ from this operative, but this operative is not affected).
 
     <string name="miracle_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -222,7 +222,7 @@ action that prevents it from performing those actions.
 
     <string name="holy_relic_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -233,7 +233,7 @@ benefitting from the **SERMON**.
 
     <string name="spread_the_word_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -245,7 +245,7 @@ the Severe weapon rule.
 
     <string name="defend_the_faith_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -255,7 +255,7 @@ Whenever this operative controls an objective marker, it is benefitting from the
 
     <string name="sanctifier_cult_icon_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -270,7 +270,7 @@ cumulative with this.
 
     <string name="imperial_cult_devotion_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -285,7 +285,7 @@ to do so. It is then removed from the killzone as normal.
 
     <string name="conversion_field_usage"><![CDATA[
 
-        Passive
+        Pasiva
 
     ]]></string>
 
@@ -313,9 +313,9 @@ range of an enemy operative.
     <!--Faction Rules-->
 
     <string name="blaze_lore"><![CDATA[
-Only in holy fire can deviance be absolved. With flamer
-and burning hands the faithful purge the malignant taint
-of heresy.
+Solo en el fuego sagrado puede absolverse la desviación. Con llama
+y manos ardientes, los fieles purgan la maligna mancha
+de la herejía.
 ]]></string>
 
     <string name="blaze_description"><![CDATA[
@@ -334,10 +334,8 @@ controlling player selects one of the following:\n
 ]]></string>
 
     <string name="ministorum_sermon_lore"><![CDATA[
-A mighty orator booms out an impassioned sermon.
-The fire and brimstone words inflame the zeal of their
-followers, enabling them to shrug off wounds and
-remain in the fight.
+Un orador elocuente pronuncia un sermón apasionado.
+Sus palabras apocalípticas encienden el fervor de sus seguidores, permitiéndoles sobreponerse a las heridas y perseverar en la lucha.
 ]]></string>
 
     <string name="ministorum_sermon_description"><![CDATA[
@@ -369,9 +367,9 @@ on it.
 
 
     <string name="sanctification_orbs_lore"><![CDATA[
-These spherical devices contain flammable oils. They
-shatter, ignite and detonate upon impact with their
-target, coating the foe in burning liquid.
+Estos dispositivos esféricos contienen aceites inflamables.
+Se fragmentan, se incendian y detonan al impactar contra su
+objetivo, cubriendo al enemigo con líquido ardiente.
 ]]></string>
 
     <string name="sanctification_orbs_description"><![CDATA[
@@ -409,9 +407,7 @@ enemy operative.
 
 
     <string name="sanctifiers_purity_seals_lore"><![CDATA[
-Affixed to clothing, armour and wargear by way of wax
-seals, these pieces of parchment are inscribed with holy
-prayers and blessings.
+Estos trozos de pergamino, adheridos a la ropa, armaduras y equipo militar mediante sellos de cera, están inscritos con oraciones y bendiciones sagradas.
 ]]></string>
 
     <string name="sanctifiers_purity_seals_description"><![CDATA[
@@ -423,10 +419,10 @@ success instead.
 ]]></string>
 
     <string name="ecclesiarchy_texts_lore"><![CDATA[
-The orators of the Adeptus Ministorum carry with them
-many a fiery prayer and excoriating psalm scribed on
-tattered vellum, designed to inspire their allies and
-diminish the foe.
+Los oradores del Adeptus Ministorum llevan consigo
+muchas oraciones fervientes y salmos mordaces escritos en
+pergamino desgastado, diseñados para inspirar a sus aliados y
+debilitar al enemigo.
 ]]></string>
 
     <string name="ecclesiarchy_texts_description"><![CDATA[
@@ -441,9 +437,9 @@ you cannot use this rule during that turning point
 
 
     <string name="imperial_cult_symbols_lore"><![CDATA[
-Whether carved from stone or wrought in solid gold,
-blessed religious symbols bestow upon their bearers
-both fortune and favour.
+Ya sean tallados en piedra o labrados en oro macizo,
+los símbolos religiosos benditos otorgan a quienes los portan
+tanto fortuna como favor.
 ]]></string>
 
     <string name="imperial_cult_symbols_description"><![CDATA[
@@ -462,9 +458,9 @@ Piercing Crits).
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="sanctifiers_the_emperor_protects_lore"><![CDATA[
-The most dedicated adherents to the Imperial Creed
-believe that the Emperor protects. They hurl themselves
-into battle, confident that their faith will shield them.
+Los más devotos del Credo Imperial
+creen que el Emperador los protege. Se lanzan
+a la batalla, confiados en que su fe los resguardará.
 ]]></string>
 
     <string name="sanctifiers_the_emperor_protects_description"><![CDATA[
@@ -475,8 +471,7 @@ dice results of one result (e.g. results of 2).
 ]]></string>
 
     <string name="fervent_brawl_lore"><![CDATA[
-With the intolerant diatribes of the priesthood ringing in
-their ears, the Sanctifiers fight with a tireless fury.
+Con las diatribas intolerantes del sacerdocio resonando en sus oídos, los Santificadores luchan con una furia incansable.
 ]]></string>
 
     <string name="fervent_brawl_description"><![CDATA[
@@ -486,10 +481,8 @@ retaliating, its melee weapons have the Ceaseless
 weapon rule.
 ]]></string>
 
-    <string name="zealous_persecution_lore"><![CDATA[
-The longer that heresy is allowed to persist, the more
-indelible the mark it leaves. It must be scoured swiftly
-and without mercy.
+    <string name="zealous_persecution_lore"><![CDATA[  
+Cuanto más tiempo se permita que persista la herejía, más indeleble será su huella. Debe ser erradicada con rapidez y sin piedad.
 ]]></string>
 
     <string name="zealous_persecution_description"><![CDATA[
@@ -500,8 +493,7 @@ Lethal 5+ weapon rule.
 ]]></string>
 
     <string name="rally_the_flock_lore"><![CDATA[
-An orators voice booms above the thunderous din of
-combat, drawing the faithful back into formation
+La voz de un orador resuena por encima del estruendo del combate, haciendo que los fieles vuelvan a la formación.
 ]]></string>
 
     <string name="rally_the_flock_description"><![CDATA[
@@ -520,9 +512,7 @@ ploy during the first turning point.
 
     <!--Firefight ploys-->
     <string name="rosarius_lore"><![CDATA[
-A sacred symbol of office, the Rosarius contains a
-powerful conversion field generator capable of turning
-aside incoming blows
+El Rosarius, símbolo sagrado del cargo, contiene un potente generador de campo de conversión capaz de desviar los golpes entrantes.
 ]]></string>
 
     <string name="rosarius_description"><![CDATA[
@@ -532,8 +522,7 @@ operative. Ignore that inflicted damage.
 ]]></string>
 
     <string name="ardent_eradication_lore"><![CDATA[
-For those who stand against the Imperial faith there is
-only one punishment: death.
+Para quienes se oponen a la fe imperial solo hay un castigo: la muerte.
 ]]></string>
 
     <string name="ardent_eradication_description"><![CDATA[
@@ -546,9 +535,7 @@ You can re-roll any of your attack dice.
 ]]></string>
 
     <string name="redeemed_through_fire_lore"><![CDATA[
-There are few more blessed deaths than fiery
-martyrdom. Such a sacrifice stokes smouldering resolve
-in the hearts of fellow Sanctifiers.
+Pocas muertes son más benditas que el martirio en el fuego. Tal sacrificio aviva la determinación latente en los corazones de los santificadores.
 ]]></string>
 
     <string name="redeemed_through_fire_description"><![CDATA[
@@ -561,9 +548,7 @@ Blaze tokens (if it does not already have one).
 ]]></string>
 
     <string name="unwavering_devotion_lore"><![CDATA[
-Low ranking Sanctifiers will gladly hurl themselves into
-the path of bullet or blade if doing so will preserve their
-blessed superiors and ensure victory.
+Los Santificadores de bajo rango se lanzarán gustosamente al camino de las balas o las espadas si al hacerlo preservan a sus superiores bendecidos y aseguran la victoria.
 ]]></string>
 
     <string name="unwavering_devotion_description"><![CDATA[
