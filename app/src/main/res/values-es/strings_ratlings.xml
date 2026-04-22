@@ -131,9 +131,8 @@ de un Operativo enemigo o durante una activación en la que haya hecho las accio
     ]]></string>
 
     <string name="grappling_hook_description"><![CDATA[
-Whenever this operative is climbing up, you
-can treat the vertical distance as 2\" (regardless of how far the
-operative actually moves vertically).
+Cuando este Operativo este escalando, puedes tratar la distancia vertical como si fuera 2\" (sin
+importar cuanto se mueva verticalmente).
     ]]></string>
 
     <string name="ratlings_optics_usage"><![CDATA[
@@ -141,12 +140,11 @@ operative actually moves vertically).
     ]]></string>
 
     <string name="ratlings_optics_description"><![CDATA[
-Until the start of this operatives next activation, whenever
-it is shooting, enemy operatives cannot be obscured and the
-stationary profile of this operatives suppressed sniper rifle
-has the Lethal 5+ weapon rule.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Hasta el inicio de la proxima activacion de este Operativo, cuando este disparando a un Operativo
+enemigo, Operativos enemigos no pueden estar Obscurecidos y el perfil Stationary del Suppressed Sniper
+Rifle de este Operativo gana la regla Lethal 5+.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="evade_usage"><![CDATA[
@@ -154,10 +152,9 @@ range of an enemy operative.
     ]]></string>
 
     <string name="evade_description"><![CDATA[
-Once per turning point, after an enemy operative
-performs an action, you can interrupt and perform a free **Dash**
-action with this operative. Note this operative cannot use the
-Scarper faction rule (it has this rule instead).
+Una vez por turno, despues de que un Operativo enemigo haga una accion, puedes interrumpirlo para
+hacer un **Dash** gratis con este Operativo. Notese que este Operativo no puede usar la regla
+Scarper de este equipo (tiene esta regla en su lugar).
     ]]></string>
 
     <string name="ratlings_spot_usage"><![CDATA[
@@ -165,8 +162,13 @@ Scarper faction rule (it has this rule instead).
     ]]></string>
 
     <string name="ratlings_spot_description"><![CDATA[
-**SUPPORT.** Select one enemy operative visible to this operative. Once during this turning point, when a friendly **RATLING**
-operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:
+**SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno,
+Cuando un aliado **RATLING** a 3\" de este Operativo este disparando a ese Operativo enemigo, puedes
+usar este efecto. Si lo haces:\n
+\n• Las armas a distancia de ese Operativo ganan la regla Seek Light.\n
+\n• Ese Operativo enemigo no puede estar Obscurecido.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="light_fingered_usage"><![CDATA[
@@ -174,9 +176,8 @@ operative within 3\" of this operative is shooting that enemy operative, you can
     ]]></string>
 
     <string name="light_fingered_description"><![CDATA[
-Once during each of this operatives activations,
-it can perform the **Pick Up Marker**, **Place Marker** or a
-mission action for 1 less AP.
+Una vez durante cada activacion de este Operativo, puede hacer un **Pick up Marker, Place Marker** o
+una accion de mision por 1 AP menos.
     ]]></string>
 
     <string name="well_stocked_usage"><![CDATA[
@@ -184,8 +185,7 @@ mission action for 1 less AP.
     ]]></string>
 
     <string name="well_stocked_description"><![CDATA[
-If you select an Ammo Cache from universal
-equipment, you can set up an additional Ammo Cache marker.
+Si seleccionas un Ammo Cache del equipamiento universal, puedes poner un Ammo Cache adicional.
     ]]></string>
 
     <string name="intercept_communications_usage"><![CDATA[
@@ -193,19 +193,19 @@ equipment, you can set up an additional Ammo Cache marker.
     ]]></string>
 
     <string name="intercept_communications_description"><![CDATA[
-**SUPPORT**. Select one other friendly **RATLING**
-operative visible to and within 6\" of this operative. Until the
-end of its next activation, add 1 to that operatives APL stat.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+**SUPPORT**. Selecciona un aliado **RATLING** visible y a 6\" de este Operativo. Hasta el final de su
+proxima activacion, añade 1 a su estadistica de APL.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="scarper_lore"><![CDATA[
-Despite their small stature, Ratlings are fleet of foot,
-using their speed and agility to outpace and evade
-their foes.
+A pesar de su pequeña estatura, los Ratlings son muy ágiles, utilizando su velocidad y agilidad para
+superar y evadir a sus enemigos.
+
+
 ]]></string>
 
     <string name="scarper_description"><![CDATA[
@@ -226,66 +226,49 @@ activation of the turning point.
     <!--Equipment-->
 
     <string name="purloined_rations_lore"><![CDATA[
-Ratlings have a well-earned reputation for greed. No
-field kitchen is safe from their thieving hands. It is not
-uncommon for a Ratling to settle a rumbling belly with
-a link of freshly liberated protein reconstitution prior to
-firing a killing shot.
+Los Ratlings tienen una merecida reputación de glotones. Ninguna cocina de campaña está a salvo de sus
+manos ladronas. No es raro que una Ratling calme su estómago hambriento con un bocado de proteína recién
+liberada antes de disparar a matar.
 ]]></string>
 
     <string name="purloined_rations_description"><![CDATA[
-Once per turning point, when a friendly **RATLING**
-operative is shooting with a rifle and you have rolled
-your attack dice, you can use this rule. If you do,
-improve the Hit stat of its rifle by 1 until the end
-of that sequence.
+Una vez por turno, cuando un aliado **RATLING** esta disparando con un Rifle y hayas lanzado tus
+dados de ataque, puedes usar esta regla. Si lo haces, mejora la estadistica de Hit de su Rifle por 1
+hasta el final de esa secuencia.
 ]]></string>
 
     <string name="lucky_round_lore"><![CDATA[
-Superstitious by nature, many Ratlings hold back a lucky
-round with which to target a large or powerful foe, kill
-an enemy that is wronged them, or make a particularly
-tricky shot.
+Supersticiosos por naturaleza, muchos Ratlings se guardan una bala de la suerte para
+atacar a un enemigo grande o poderoso, matar a un enemigo que les ha hecho daño o realizar un tiro particularmente
+difícil.
 
 ]]></string>
 
     <string name="lucky_round_description"><![CDATA[
-Once per turning point, when a friendly **RATLING**
-operative is shooting with a rifle and you have rolled
-your attack dice, you can use this rule. If you do,
-that weapon has the Severe weapon rule until the
-end of that sequence.
+Una vez por turno, cuando un aliado **RATLING** esta disparando con un Rifle y hayas lanzado tus
+dados de ataque, puedes usar esta regla. Si lo haces, esa arma gana la regla Severe hasta el final de esa secuencia.
 ]]></string>
 
     <string name="stolen_goods_lore"><![CDATA[
-Ratlings are notoriously light-fingered, capable of
-seizing intel and equipment from under the noses of
-their foes.
+No hay bolas para usar este equipamiento.
 ]]></string>
 
     <string name="stolen_goods_description"><![CDATA[
-At the end of the Select Operatives step, roll one
-D3. If the result is:\n
-\n
-• 1, you lose 1CP.\n
-\n
-• 2, you gain 1CP.\n
-\n
-• 3, your opponent loses 1CP.
+Al final de la fase de seleccion de Operativos, lanza un D3. Si el resultado es:\n
+\n• 1, Pierdes 1CP.\n
+\n• 2, Ganas 1CP.\n
+\n• 3, Tu oponente pierde 1CP.
 ]]></string>
 
     <string name="improvised_armour_lore"><![CDATA[
-Such is the size of Ogryns that precious little
-standard-issue armour fits their bulky frames. Most are
-outfitted instead with makeshift plates forged from thick
-armour and tank tracks ripped from destroyed vehicles.
+Los ogryns son tan grandes que muy pocas armaduras estándar se ajustan a sus voluminosos cuerpos.
+La mayoría están equipados con placas improvisadas forjadas con gruesas armaduras y orugas de tanque
+arrancadas de vehículos destruidos.
 ]]></string>
 
     <string name="improvised_armour_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**RATLING BULLGRYN** or friendly **RATLING
-OGRYN** operative, defence dice results of 5+ are
-critical successes.
+Cuando un Operativo esta disparanco a un aliado **RATLING BULLGRYN** o aliado **RATLING OGRYN**,
+dados defensa con resultado de 5+ son exitos criticos.
 ]]></string>
 
 
@@ -293,128 +276,95 @@ critical successes.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="sniper_positions_lore"><![CDATA[
-Ratlings spend hours or even days selecting vantage
-points, ensuring that any position they take affords them
-effective cover and clear sight lines from which to pick
-off the advancing foe.
+Los Ratlings pasan horas o incluso días seleccionando puntos estratégicos, asegurándose de que
+cualquier posición que tomen les proporcione una cobertura efectiva y una visión despejada desde la
+cual abatir al enemigo que avanza.
 ]]></string>
 
     <string name="sniper_positions_description"><![CDATA[
-Whenever a friendly **RATLING** operative is more
-than 6\" from enemy operatives and within 1\" of
-Heavy terrain, the stationary profile of its rifle (if
-any) has the Silent weapon rule.
+Cuando un aliado **RATLING** esta a mas de 6\" de Operativos enemigos y a 1\" de terreno pesado,
+el perfil Stationary de sus rigles tienen la regla Silent.
 ]]></string>
 
     <string name="crack_shots_lore"><![CDATA[
-It is said that a Ratling can put a bullet through an
-opponent’s eye socket from more than a thousand
-yards away.
+Se dice que un Ratling puede atravesar la cuenca del ojo de un oponente con una bala desde más de
+mil yardas de distancia.
 ]]></string>
 
     <string name="crack_shots_description"><![CDATA[
-Whenever a friendly **RATLING** operative is
-shooting an enemy operative more than 6\" from
-it, if that friendly operative has not performed the
-**Charge, Fall Back** or **Reposition** action during
-the activation, or if it is a counteraction, its rifle
-(if any) has the Balanced weapon rule. Note that
-operative is not restricted from performing those
-actions after shooting.
+Cuando un aliado **RATLING** esta disparando a un enemigo a mas de 6\" de el, si ese aliado no ha
+hecho la accion de **Cargar, Fall Back** o **Reposicion** durante su activacion, o si es un counteract,
+su rifle gana la regla Balanced. Notese que ese Operativo no esta restringido de moverse despues de disparar.
 ]]></string>
 
     <string name="shifty_lore"><![CDATA[
-Small of stature and well used to hiding from larger foes,
-Ratlings use terrain and shadow to their advantage.
+De pequeña estatura y acostumbrados a esconderse de enemigos más grandes, los Ratlings aprovechan el
+terreno y las sombras a su favor.
 ]]></string>
 
     <string name="shifty_description"><![CDATA[
-Whenever a friendly **RATLING** operative
-(excluding **OGRYN** or **BULLGRYN**) has a **Conceal**
-order and is in cover, it cannot be selected as
-a valid target, taking precedence over all other
-rules (e.g. Seek, Vantage terrain) except being
-within 2\".
+Cuando un aliado **RATLING** (excluyendo **OGRYN** Y **BULLGRYN**) tiene una orden de **Conceal** y esta
+en cobertura, no puede ser seleccionado como objetivo valido y esto toma precedencia sobre las demas
+reglas, excepto estar a 2\".
 ]]></string>
 
     <string name="frontline_assault_lore"><![CDATA[
-Ogryns are brutish, muscular soldiers who are most
-effective when deployed as close combat troops.
+Los Ogryns son soldados brutales y musculosos que resultan más efectivos cuando se despliegan como
+tropas de combate cuerpo a cuerpo.
 ]]></string>
 
     <string name="frontline_assault_description"><![CDATA[
-Whenever a friendly **RATLING BULLGRYN** or
-friendly **RATLING OGRYN** operative within your
-opponents territory or within 3\" of an objective
-marker is shooting, fighting or retaliating, its
-weapons have the Balanced weapon rule.
+Cuando un aliado **RATLING BULLGRYN** o **RATLING OGRYN** esta dentro del territorio de tu oponente o
+a 3\" de un objetivo, y esta disparando, combatiendo o retaleando, sus armas tienen la regla Balanced.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="survival_insticts_lore"><![CDATA[
-Lacking physical strength and fortitude, Ratlings
-rely upon their reflexes and natural instincts to save
-themselves from harm.
+Al carecer de fuerza física y resistencia, los Ratlings
+dependen de sus reflejos e instintos naturales para salvarse
+del peligro.
 ]]></string>
 
     <string name="survival_insticts_description"><![CDATA[
-Use this firefight ploy when an enemy operative
-is shooting against or fighting against a friendly
-**RATLING** operative (excluding **OGRYN** or
-**BULLGRYN**) and you are allocating a dice to
-block. If it is a normal success, it can block
-one unresolved critical success; if it is a critical
-success, it can block two unresolved successes
-(normal or critical).
+Usa esta Firefight ploy cuando un Operativo enemigo este disparando o combatiendo contra un aliado
+**RATLING** (excluyendo **OGRYN** Y **BULLGRYN**) y estas usando dados para bloquear. Si es un exito
+normal, puede bloquear un exito critico sin resolver, si es un exito critico, puede bloquear dos exitos
+sin resolver (normales o criticos).
 ]]></string>
 
     <string name="sharpshot_lore"><![CDATA[
-Ratlings can pick out enemies in the thick of even the
-most chaotic battles. Many soldiers have been saved
-from certain death by their precise fire.
+Los Ratlings pueden detectar enemigos incluso en medio de las batallas más caóticas. Muchos soldados
+se han salvado de una muerte segura gracias a su fuego preciso.
 ]]></string>
 
     <string name="sharpshot_description"><![CDATA[
-Use this firefight ploy when a friendly **RATLING**
-operative is performing the **Shoot** action with a
-rifle and you are selecting a valid target. Having
-other friendly **RATLING** operatives within an
-enemy operatives control range does not prevent
-that enemy operative from being selected.
+Usa esta Firefight ploy cuando un aliado **RATLING** este haciendo una accion de **Disparo** con un
+rifle y seleccionas un objetivo valido. Tener otro aliado **RATLING** dentro del rango de control
+de ese Operativo enemigo no previene que sea seleccionado como un objetivo valido.
 ]]></string>
 
     <string name="larcenous_lore"><![CDATA[
-Their diminutive size and gift for stealth makes Ratlings
-naturally skilled thieves.
+Su diminuto tamaño y su don para el sigilo hacen de los Ratlings ladrones naturalmente hábiles.
 ]]></string>
 
     <string name="larcenous_description"><![CDATA[
-Use this firefight ploy during a friendly
-**RATLING** operatives activation (excluding
-**OGRYN** or **BULLGRYN**). Until the end of that
-activation, that operative does not have to control
-a marker to perform the **Pick Up Marker** or
-mission actions that usually require this (this
-takes precedence over that actions conditions –
-it only needs to contest the marker), and having
-an enemy operative within its control range
-doesn’t prevent it from doing so.
+Usa esta Firefight ploy  durante la activacion de un aliado **RATLING** (excluyendo **OGRYN** Y **BULLGRYN**).
+Hasta el final de esa activacion, ese Operativo no tiene que controlar un objetivo para hacer un **Pick up
+Marker** o accion de mision (esto toma precedencia sobre las reglas normales, solo necesita contestear
+ese objetivo), y tener un Operativo enemigo dentro de su rango de control no previende que pueda hacerlo.
 ]]></string>
 
     <string name="shoot_and_hide_lore"><![CDATA[
-A sniper is vulnerable once their position has been
-detected, thus Ratling sharpshooters are constantly
-sneaking away
+Un francotirador es vulnerable una vez que su posición ha sido detectada, por lo que los tiradores de
+élite Ratling se encuentran constantemente en constante movimiento, escabulléndose.
 ]]></string>
 
     <string name="shoot_and_hide_description"><![CDATA[
-Use this firefight ploy after a friendly **RATLING**
-operative that has an **Engage** order performs the
-**Shoot** action with a rifle. If it is more than 3\" from
-enemy operatives, or not visible to every enemy
-operative, you can change its order to **Conceal**.
+Usa esta Firefight ploy despues de que un aliado **RATLING** que tenga una orden de **Engage** haga una accion
+de **Disparo** con un Rigle. Si esta a mas de 3\" de Operativos enemigos, o no es visible para cada
+Operativo enemigo, puedes cambiar su orden a **Conceal**.
 ]]></string>
 
 </resources>

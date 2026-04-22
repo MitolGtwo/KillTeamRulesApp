@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Raveners-->
-
     <string name="neuropredatory_crest_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="neuropredatory_crest_description"><![CDATA[
-Whenever determining control of a marker, treat the
-total APL stat of enemy operatives that contest it as 1 lower if at least one of
-those enemy operatives is within 3\" of this operative. Note this is not a change
-to the APL stat, so any changes are cumulative with this. Whenever an enemy
-operative is within 3\" of this operative:\n
-\n
-• Your opponent must spend 1 additional AP for that enemy operative to
-perform the **Pick Up Marker** and mission actions.\n
-\n
-• Your opponent cannot re-roll their attack or defence dice for that operative.
+Cuando determines el control de un objetivo, trata la estadistica todal de APL de operativos enemigos
+que lo contesten como si tuviera 1 menos si al menos uno de esos enemigos esta a 3\" de este Operativo.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+Cuando un enemigo este a 3\" de este Operativo:\n
+\n• Tu oponente debe gastar 1 AP adicional para que un operativo enemigo haga una accion de **Pick up Marker**
+y acciones de mision.\n
+\n• Tu oponente no puede re-rollear sus dados de ataque o defensa para ese Operativo.
     ]]></string>
 
     <string name="synaptic_link_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="synaptic_link_description"><![CDATA[
-**STRATEGIC GAMBIT** if this operative is not incapacitated. Roll one D6 and
-compare the result to the number of the current turning point; if the result is:\n
-\n
-• Twice as high or higher, you gain 1CP.\n
-\n
-• Less, inflict damage on this operative equal to the result.\n
-\n
-• Any other result, nothing happens.
+**STRATEGIC GAMBIT.** Si este Operativo no esta incapacitado. Lanza un D6 y compara el resultado
+el resultado con el numero del turno actual, si el resultado es:\n
+\n• El doble o mayor, ganas 1CP.\n
+\n• Menos, inflige daño a este Operativo equivalente al resultado.\n
+\n• Cualquier otro resultado, no pasa nada.
     ]]></string>
 
     <string name="ravener_poison_usage"><![CDATA[
@@ -41,12 +32,9 @@ compare the result to the number of the current turning point; if the result is:
     ]]></string>
 
     <string name="ravener_poison_description"><![CDATA[
-In the Resolve Attack Dice step, if you
-inflict damage with any critical successes, the
-operative this weapon is being used against gains
-one of your Poison tokens (if it does not already have
-one). Whenever an operative that has one of your
-Poison tokens is activated, inflict D3 damage on it.
+En la fase de resolver dados de ataque, si infliges daño con cualquier exito critico, el Operativo contra
+el que se este usando esta arma gana uno de tus tokens de Veneno (si no tiene uno). Cuando un Operativo
+que tenga uno de tus tokens de Veneno es activado, infligele D3 heridas.
     ]]></string>
 
     <string name="toxic_lunge_usage"><![CDATA[
@@ -54,39 +42,38 @@ Poison tokens is activated, inflict D3 damage on it.
     ]]></string>
 
     <string name="toxic_lunge_description"><![CDATA[
-Select one enemy operative within 2\" of this operative. Alternatively, if this
-operative is underground, select one enemy operative on your **TUNNEL**.
-Inflict D3+2 damage on that enemy operative and it gains one of your
-Poison tokens (if it does not already have one).\n\n
+Selecciona un Operativo enemigo a 2\" de este Operativo. Alternativamente, si este Operativo esta
+bajo tierra, selecciona un Operativo enemigo encima de tu **TUNEL**. Inflige D3+2 heridas a ese enemigo y
+ese enemigo gana uno de tus tokens de Veneno (si no tiene uno).\n
 
-This operative can perform this action while underground (this takes precedence over the normal Burrow rules).
+\nEste Operativo puede hacer esta accion mientras esta bajo tierra (esto toma precedencia sobre las
+reglas normales de Burrow).
     ]]></string>
 
 
     <string name="subterrean_ambush_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="subterrean_ambush_description"><![CDATA[
-Once per turning point, after an enemy operative performs an action in
-which it moves more than 2\" and ends within 2\" of your **TUNNEL**, if this operative is underground
-and is either ready or has not counteracted during this turning point, you can interrupt that enemy
-operatives activation/counteraction to use this rule.\n
-\n
-If you do, activate or counteract with this operative (as appropriate), but during its activation/
-counteraction it must fight against or shoot against that enemy operative, and cannot do so
-against any other enemy operatives until it does (if this is not possible, this operatives activation/
-counteraction is cancelled and this rule has not been used). After completing this operatives
-activation/counteraction, continue that enemy operatives activation/counteraction (if possible).
+Una vez por turno, despues de que un Operativo enemigo haga una accion en la que se mueve mas de 2\"
+y termina a 2\" de tu **TUNEL**, si este Operativo esta bajo tierra y no ha activado (Ready) o no
+ha hecho un Counteract durante el turno, puedes interrumpir la activacion/counteract de ese enemigo para
+usar esta regla.\n
+\nSi lo haces, activa o haz un conteract con este Operative (normalmente), pero durante esa activacion/
+counteract debe combatir o disparar contra ese Operativo enemigo, y no puede hacerlo contra ningun
+otro Operativo enemigo hasta que lo haga (si no es posible, la activacion/counteract de este Operativo es
+cancelada y esta regla no es usada). Despues de completar esta activacion/counteract, continua con la activacion
+de ese Operativo enemigo (si es posible).
     ]]></string>
 
     <string name="hypersensory_hunter_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="hypersensory_hunter_description"><![CDATA[
-This operative can perform the **Charge** action while it has a **Conceal** order if it
-performed the **Burrow** action during the same activation/counteraction.
+Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal** si hace
+la accion de **Burrow** durante la misma accion/counteract.
     ]]></string>
 
 
@@ -95,29 +82,28 @@ performed the **Burrow** action during the same activation/counteraction.
     ]]></string>
 
     <string name="dorsal_sac_description"><![CDATA[
-Until this operative has shot with its venom bolt, until it performs this
-action again or until it performs the **Burrow** action (whichever comes
-first), all profiles of its venom bolt have the Lethal 5+ weapon rule, have 1
-added to their Atk stat and the Range 8\" weapon rule removed.
+Hasta que este Operativo dispare con su Venom Bolt, hasta que haga esta accion otra vez o hasta que
+haga la accion **Burrow** (lo que pase primero), todos los perfiles de su Venom Bolt tienen la regla
+Lethal 5+, tienen 1 mas a su estadistica de Atk y la regla Range 8\" es removida.
     ]]></string>
 
     <string name="instictive_behaviour_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="instictive_behaviour_description"><![CDATA[
-Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy
-operative, or an enemy operative that performed the **Fall Back**
-action during this turning point, this operative’s weapons have the Lethal 5+ weapon rule.
+Cuando este Operativo este disparando, combatiendo o retaleando contra un enemigo herido, o un
+Operativo que haya hecho la accion de **Fall Back** durante este turno, las armas de melee de este
+Operativo ganan la regla Lethal 5+.
     ]]></string>
 
 
     <string name="reinforced_carapace_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="reinforced_carapace_description"><![CDATA[
-Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative.
+Daño normal y critico de 4 o mas inflige 1 menos a este Operativo.
     ]]></string>
 
     <string name="ravener_crush_usage"><![CDATA[
@@ -125,117 +111,82 @@ Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative.
     ]]></string>
 
     <string name="ravener_crush_description"><![CDATA[
-Whenever you strike, you and your opponent roll-off,
-adding 1 to your result if the operative this weapon is being
-used against has a Wounds stat of 9 or less. If you win, inflict
-additional damage on that operative equal to the difference
-between the dice results (to a maximum of 3 additional damage).
+Cuando golpeas con uno de tus dados a melee, tu y tu oponente lanzan un dado, añadiendo 1 a tu resultado
+si el Operativo contra el que se esta usando esta arma tiene una estadistica de heridas de 9 o menos.
+Si ganas, inflige daño adicional a este Operativo equivalente a la diferencia entre los resultados
+de los dados (hasta un maximo de 3 heridas adicionales).
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="burrow_lore"><![CDATA[
-Raveners will emerge from their tunnels to strike at
-unsuspecting victims, then disappear again before their
-foe can properly react.
+Los Raveners saldrán de sus túneles para atacar a
+víctimas desprevenidas, y luego desaparecerán de nuevo antes de que su enemigo pueda reaccionar adecuadamente.
 ]]></string>
 
     <string name="burrow_description"><![CDATA[
-When setting up a **RAVENER** kill team before the
-battle, your first two operatives must be set up as
-normal. Each other friendly **RAVENER** operative
-thereafter can be set up underground: place it to
-one side instead of in the killzone.\n
-\n
-In the Firefight phase, friendly **RAVENER**
-operatives set up underground are activated and
-can counteract as normal. Whenever a friendly
-**RAVENER** operative is underground, it cannot
-perform any actions other than Burrow. At the
-end of the battle, each friendly **RAVENER**
-operative that is underground is incapacitated.\n
-\n
-Friendly **RAVENER** operatives can perform the following unique action:
+Cuando acomodes tu **RAVENER** kill team, antes de la batalla, tus primeros dos Operativos deben ser
+puestos en el campo normalmente. Despues, cada aliado **RAVENER** puede ser puesto bajo la tierra:
+ponlos a un lado en vez de ponerlos en el campo.\n
+\nEn la Firefight fase, aliados **RAVENER** bajo tierra pueden activar y hacer counteracts normalmente.
+Cuando un **RAVENER** esta bajo tierra no puede hacer ninguna otra accion que no sea **Burrow**. Al final
+de la batalla, cada aliado **RAVENER** que siga bajo la tierra es incapacitado.\n
+\nAliados **RAVENER** pueden hacer la siguiente accion unica:
 ]]></string>
     <string name="burrow_usage"><![CDATA[
         1AP
 ]]></string>
 
     <string name="burrow_description2"><![CDATA[
-If this operative is underground, set it up on your **TUNNEL** in a location it can be
-placed (it is no longer underground, and it can be set up within control range of enemy operatives).
-Until the end of the activation/counteraction, subtract 2\" from its Move stat.\n
-\n
--Alternatively, instead of resolving the above effect, if this operative is in the killzone
-and on your **TUNNEL**, remove it from the killzone: it’s now underground.  \n\n
+Si este Operativo esta bajo tierra, ponlo encima de tu **TUNEL** en un lugar en el que pueda ser puesto
+(ya no esta bajo tierra, y puede ponerse dentro del rango de control de un Operativo enemigo).
+Hasta el final de esa activacion/counteract, sustrae 2\" de su estadistica de Movimiento.\n
+\nAlternativamente, en lugar de resolver el efecto de arriba, si este Operativo esta en el campo y encima
+de tu **TUNEL**, remuevelo del campo: ese Operativo esta bajo tierra ahora.\n\n
 
-An operative cannot perform this action
-while carrying a marker, or if it is not either underground or on your **TUNNEL**
+Un Operativo no puede hacer esta accion mientras carga un Marcador, o si no esta bajo tierra o sobre
+tu **TUNEL**.
 ]]></string>
 
     <string name="tunnel_lore"><![CDATA[
-Raveners dig extensive tunnel networks in the ground
-and foundations beneath their preys feet, enabling
-the Hive Minds elite creations to outmanoeuvre and
-ambush their prey.
+Los Raveners excavan extensas redes de túneles en el suelo, y cimientos bajo los pies de sus presas,
+lo que permite a las creaciones de élite de las Mentes Colmena superarlas en maniobras y emboscarlas.
 ]]></string>
 
     <string name="tunnel_description"><![CDATA[
-At the end of the Set Up Operatives step, place
-your Tunnel marker numbered \‘0\’ on the killzone
-floor, wholly within your drop zone and touching
-your killzone edge. As a **STRATEGIC GAMBIT** in
-the first four turning points, you can place your
-next numbered Tunnel marker on the killzone
-floor wholly within 5\" of your preceding Tunnel
-marker. This means that, as the battle progresses,
-you can have a series of sequentially numbered
-Tunnel markers (0, 1, 2, 3 and 4). Once you
-have placed five Tunnel markers, do not place
-any more (i.e. if your battle lasts more than four turning points).\n
-\n
-Your Tunnel markers and the area between your sequentially numbered markers (i.e. between 0
-and 1, 1 and 2, etc.), create your **TUNNEL**.\n
-\n
-In a killzone that uses the close quarters rules
-(e.g. Killzone: Tomb World), your **TUNNEL** and
-the distance between your Tunnel markers can
-be measured through Wall terrain. In a killzone
-that uses the hazardous areas rules (e.g. Killzone:
-Bheta Decima), for the purposes of the Restricted
-Movement rule, parts of a Tunnel marker that
-are touching a hazardous area are treated as a hazardous area.\n
-\n
-In this example, operative A is on your **TUNNEL** as it is on the area between markers 0 and 1.
-Operative B is also on your **TUNNEL** as it is touching one of your Tunnel markers. Operative C
-is not on your **TUNNEL** as markers 1 and 3 are not sequential, so the area between those markers is
-not part of your **TUNNEL**.
+Al final de la fase de acomodar Operativos, pon tu marcador de tunel marcado con el numero \‘0\’ en el suelo
+del campo y completamente dentro de tu zona de deployment tocando uno de tus bordes del mapa. Como
+**STRATEGIC GAMBIT** en cada turno, puedes poner otro marcador de tunel correspondiente al orden numerico,
+en el suelo del campo y a 5\" del anterior tunel. Esto significa que mientras la batalla progresa, puedes
+tener una serie secuencial de tuneles enumerados (0, 1, 2, 3 y 4). Una vez hayas puesto el 5to tunel,
+no pongas mas.\n
+\nTus marcadores de tuneles, y las areas entre ellos crean un **TUNEL** (desde 0 a 1, y 1 a 2 por ejemplo).\n
+\nEn campos que usen las reglas Close Quarters o espacios cerrados (como Tomb World), tus **TUNELES**
+pueden medirse a traves de paredes.\n
+\nEn este ejemplo, el Operativo A esta sobre tu **TUNEL** al ser el area entre el marcador 0 y 1.
+el Operativo B tambien esta sobre tu **TUNEL** pues esta tocando uno de tus marcadores de **TUNEL**.
+El Operativo C no esta en tu **TUNEL** pues el marcador 1 y 3 no son secuenciasles, asi que el area
+entre ellos no es parte de tu **TUNEL**.
 ]]></string>
 
     <string name="predatory_insticts_lore"><![CDATA[
-Seemingly driven by an all-consuming hunger, and with
-hyper-adapted reflexes, Raveners are deadly blurs of
-muscle, talons and fangs.
+Aparentemente impulsados por un hambre voraz y con reflejos hiperadaptados, los Raveners son
+borrones letales de músculos, garras y colmillos.
 ]]></string>
 
     <string name="predatory_insticts_description"><![CDATA[
-During each friendly **RAVENER** operatives activation, it can perform two **Fight** actions.\n
-\n
-Each friendly **RAVENER** operative can counteract regardless of its order. Whenever it does:\n
-\n
-• You can change its order first, or change its order instead of performing an action (for the
-latter, still treat it as having counteracted this turning point).\n
-\n
-• During that counteraction, if it does not
-perform a mission action it can perform a free **Burrow** action.
+Durante cada activacion de aliados **RAVENER**, puede hacer dos acciones de **Combate**.\n
+\nCada aliado **RAVENER** puede hacer un counteract sin importar su orden. Y cuando lo hace:\n
+\n• Puedes cambiar su orden primero, o cambiar su orden en lugar de hacer una accion (aun se trata
+como si hubiera hecho un counteract este turno).\n
+\n• Durante esa Counteract, si no hace una accion de mision puede hacer una accion **Burrow** gratis.
 ]]></string>
-
 
     <!--Equipment-->
 
     <string name="chromatospore_lore"><![CDATA[
-Chameleonic adaptations enable these bioforms to virtually disappear.
+Las adaptaciones camaleónicas permiten que estas bioformas prácticamente desaparezcan.
 ]]></string>
 
     <string name="chromatospore_description"><![CDATA[
@@ -245,7 +196,7 @@ This is not cumulative with improved cover saves from Vantage terrain.
 ]]></string>
 
     <string name="acid_blood_lore"><![CDATA[
-Corrosive viscera and caustic fluids spray from these creatures wounds.
+De las heridas de estas criaturas brotan vísceras corrosivas y fluidos cáusticos.
 ]]></string>
 
     <string name="acid_blood_description"><![CDATA[
@@ -254,9 +205,8 @@ inflicts damage on it, roll one D6: on a 5+, inflict 1 damage on the enemy opera
 ]]></string>
 
     <string name="metamorphic_flesh_lore"><![CDATA[
-Some Raveners are reported to have recovered from
-injuries that should have been fatal, their flesh and
-chitin reknitting in rapid regeneration.
+Se informa que algunos Raveners se han recuperado de heridas que deberían haber sido mortales, y su
+carne y quitina se regeneraron rápidamente.
 ]]></string>
 
     <string name="metamorphic_flesh_description"><![CDATA[
@@ -264,9 +214,8 @@ Whenever a friendly **RAVENER** operative is activated, it regains up to D3 lost
 ]]></string>
 
     <string name="heightened_senses_lore"><![CDATA[
-Even burrowing, Raveners can detect enemy
-pheromones, esoteric energies and the whirr of servos,
-enabling them to land sudden ambushes.
+Incluso excavando, los Raveners pueden detectar feromonas enemigas, energías esotéricas y el zumbido
+de los servomotores, lo que les permite tender emboscadas repentinas.
 ]]></string>
 
     <string name="heightened_senses_description"><![CDATA[
@@ -280,10 +229,9 @@ of your **TUNNEL**, you can re-roll your dice.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="death_from_below_lore"><![CDATA[
-Spurred by an imperative from the Hive Mind, Raveners
-will coordinate lunges from the depths of their tunnel
-network to eviscerate unwary prey that have strayed
-too close.
+Impulsados por un mandato de la Mente Colmena, los Raveners
+coordinarán ataques desde las profundidades de su red de túneles
+para destripar a las presas desprevenidas que se hayan acercado demasiado.
 ]]></string>
 
     <string name="death_from_below_description"><![CDATA[
@@ -296,10 +244,10 @@ have the Balanced weapon rule.\n
 ]]></string>
 
     <string name="whipcord_emergence_lore"><![CDATA[
-Whether lunging from a rubble-strewn entrance to
-their network of tunnels or bursting forth in a shower
-of debris to snatch at prey, Raveners can surprise even
-elite sentinels.
+Ya sea lanzándose desde una entrada llena de escombros a
+su red de túneles o irrumpiendo en una lluvia de escombros
+para atrapar a sus presas, los Raveners pueden sorprender incluso a
+los centinelas de élite.
 ]]></string>
 
     <string name="whipcord_emergence_description"><![CDATA[
@@ -312,9 +260,8 @@ can re-roll one of your defence dice.\n
 ]]></string>
 
     <string name="writhe_out_sight_lore"><![CDATA[
-Few organisms are as capable of slithering away
-into darkness in the blink of an eye as Raveners. The
-question then is, where did they go…?
+Pocos organismos son tan capaces de escabullirse en la oscuridad en un abrir y cerrar de ojos como los
+Raveners. La pregunta es, entonces, ¿adónde fueron..?
 ]]></string>
 
     <string name="writhe_out_sight_description"><![CDATA[
@@ -326,9 +273,8 @@ your **TUNNEL**, it can immediately perform a free
 ]]></string>
 
     <string name="tunnel_lurkers_lore"><![CDATA[
-Raveners are horrifically adept at remaining all but
-invisible, partially submerged amidst broken terrain,
-until the moment they lunge.
+Los Raveners son terriblemente hábiles para permanecer prácticamente invisibles, parcialmente
+sumergidos en medio de terrenos accidentados, hasta el momento en que atacan.
 ]]></string>
 
     <string name="tunnel_lurkers_description"><![CDATA[
@@ -343,9 +289,8 @@ by rules that prevent this, e.g. Seek Light and Vantage terrain).
 
     <!--Firefight ploys-->
     <string name="slithering_evasion_lore"><![CDATA[
-The secretion-slick carapace and unholy speed of a
-Ravener enables them to avoid becoming bogged down
-against dangerous prey.
+El caparazón resbaladizo por la secreción y la velocidad endiablada de un Cuervo les permiten evitar quedar atascados
+contra presas peligrosas.
 ]]></string>
 
     <string name="slithering_evasion_description"><![CDATA[
@@ -362,10 +307,9 @@ then normal requirements for that move apply).
 ]]></string>
 
     <string name="subterrean_horror_lore"><![CDATA[
-Those who think to trap a Ravener by tackling it at
-its brood burrow invite only their own demise, as the
-bioform uses hidden tunnels to encircle its prey before
-striking from an unexpected angle.
+Quienes piensen en atrapar a un Ravener atacándolo en su madriguera de cría solo se arriesgan a su
+propia perdición, ya que esta criatura utiliza túneles ocultos para rodear a su presa antes de atacarla
+desde un ángulo inesperado.
 ]]></string>
 
     <string name="subterrean_horror_description"><![CDATA[
@@ -378,9 +322,9 @@ defender instead of attacker).
 ]]></string>
 
     <string name="burrowing_strike_lore"><![CDATA[
-The last sight for many operatives fighting Raveners is
-a blur of their own uniform as they disappear into the
-depths of a xenos burrow.
+La última imagen que ven muchos agentes que luchan contra los Raveners es
+una mancha borrosa de su propio uniforme mientras desaparecen en las
+profundidades de una madriguera xeno.
 ]]></string>
 
     <string name="burrowing_strike_description"><![CDATA[
@@ -396,9 +340,8 @@ counteraction if it performs the Toxic Lunge action (and vice versa).
 ]]></string>
 
     <string name="death_frenzy_lore"><![CDATA[
-Raveners can be compelled by the Hive Mind to fight in
-a last surge of biostimulated aggression, even as their
-own bodies fail.
+Los Raveners pueden ser obligados por la Mente Colmena a luchar en un último estallido de agresión
+bioestimulada, incluso cuando sus propios cuerpos fallan.
 ]]></string>
 
     <string name="death_frenzy_description"><![CDATA[
