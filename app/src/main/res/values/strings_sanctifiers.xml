@@ -342,13 +342,13 @@ remain in the fight.
 
     <string name="ministorum_sermon_description"><![CDATA[
 **STRATEGIC GAMBIT**. Select one friendly
-**SANCTIFIER** operative. If a friendly **CONFESSOR
+**SANCTIFIER** operative. If a friendly **CONFESSOR**
 operative has not been incapacitated, you must
 select it. Until you use this **STRATEGIC GAMBIT**
 again during the battle, that operative has the
 **ORATOR** keyword. \n
 Whenever a friendly **SANCTIFIER** operative is
-within 3\" of a friendly ORATOR operative (or 6\"
+within 3\" of a friendly **ORATOR** operative (or 6\"
 if the **ORATOR** is a **CONFESSOR**), that friendly
 **SANCTIFIER** operative is benefitting from
 the **SERMON**.\n
@@ -358,7 +358,7 @@ operative (or 6\" if the **ORATOR** is a **CONFESSOR**),
 that friendly **SANCTIFIER** operative is benefitting
 from the **SERMON** until the end of that activation
 (i.e. even if it then moves more than the distance
-requirement from the ORATOR operative).\n
+requirement from the **ORATOR** operative).\n
 Whenever a friendly **SANCTIFIER** operative
 is benefitting from the **SERMON**, Normal and
 Critical Dmg of 4 or more inflicts 1 less damage
