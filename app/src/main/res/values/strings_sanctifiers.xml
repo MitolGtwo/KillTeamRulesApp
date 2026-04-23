@@ -43,11 +43,11 @@ counteraction, that counteraction ends.\n
 • Whenever determining control of an objective marker, treat
 this operatives APL stat as 1 lower. Note this is not a change
 to its APL stat, so any changes are cumulative with this.\n
-• Whenever this operative has a **Conceal** order and is in cover,
+\n• Whenever this operative has a **Conceal** order and is in cover,
 it cannot be selected as a valid target, taking precedence
 over all other rules (e.g. Seek, Vantage terrain) except being
 within 2\".\n
-• This operative cannot use any weapons that are not on its
+\n• This operative cannot use any weapons that are not on its
 datacard, or perform unique actions other than **Incentivise**
     ]]></string>
 

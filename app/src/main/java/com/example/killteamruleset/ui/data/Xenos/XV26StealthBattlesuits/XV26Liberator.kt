@@ -74,7 +74,7 @@ val XV26Liberator = Operative(
             keywords = listOf(
                 Range(6),
                 Devastating(4),
-                Piercing(4)
+                Piercing(2)
             )
         ),
         WeaponProfile(

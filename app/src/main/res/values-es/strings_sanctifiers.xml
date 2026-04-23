@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <!--Sanctifiers-->
 
     <string name="lead_the_procession_usage"><![CDATA[
@@ -9,14 +8,16 @@
     ]]></string>
 
     <string name="lead_the_procession_description"><![CDATA[
-In each turning point after the first, whenever this operative is an **ORATOR** and performs the **Charge**,
-**Fall Back** or **Reposition** action during its activation, you can use this rule before it moves. If you do, determine each other
-friendly **SANCTIFIER** operative that is benefitting from the **SERMON** and is visible to this operative (or vice versa). After this
-operative ends that action, each of those friendly **SANCTIFIER** operatives can immediately perform a free **Charge, Fall Back**
-or **Reposition** action in an order of your choice (choose separately for each), but each cannot move more than 3\" and must end
-that move in a location where they are still benefitting from the **SERMON**. If this operative is incapacitated before this rule is fully
-resolved, e.g. from the **Guard** actions interruption (see close quarters rules, Kill Team Core Book), do not remove it from the killzone
-until this rule has been resolved.
+En cada turno despues del primero, cuando este Operativo es un **ORADOR** y hace la accion de **Cargar,
+Fall Back** o **Reposicion** durante su activacion, puedes usar esta regla antes de que se mueva.
+Si lo haces.\n
+\nDetermina cada otro aliado **SANCTIFIER** que se este beneficiando del **SERMON** y es visible para
+este Operativo (o viceversa). Despues de que este Operativo haga esta accion, cada uno de esos aliados
+**SANCTIFIER** pueden inmediatamente hacer una **Cargar, Fall Back** o **Reposicion** en cualquier orden
+de tu eleccion (escoge por separado para cada uno), pero cada uno no puede mover mas de 3\" y debe ser
+puesto en un lugar en el que se sigan beneficiando del **SERMON**. Si este Operativo es incapacitado
+antes de resolver esta regla por completo (interrupcion de la accion **Guard**), no lo remuevas del campo
+hasta que esta accion sea resuelta.
     ]]></string>
 
     <string name="commanding_declamation_usage"><![CDATA[
@@ -24,15 +25,12 @@ until this rule has been resolved.
     ]]></string>
 
     <string name="commanding_declamation_description"><![CDATA[
-Whenever an enemy operative
-would perform an action during an activation or counteraction
-while visible to and within 6\" of this operative, you can use this
-rule. If you do, roll one D6: if the result is higher than that enemy
-operatives APL stat:\n
-• It cannot perform that action during that activation/
-counteraction (the AP spent on it isn’t refunded). If it is a
-counteraction, that counteraction ends.\n
-• You cannot use this rule again during the battle.
+Cuando un Operativo vaya a hacer una accion durante una activacion o Counteract mientras sea visible
+y este a 6\" de este Operativo, puedes usar esta regla. Si lo haces, lanza un D6: si el resultado es mayor que
+la estadistica de APL de ese Operativo enemigo:\n
+\n• No puede hacer esa accion durante la accion o counteract (el AP gastado no es reembolsado). Si es
+un counteract, ese counteract termina.\n
+\n• No puedes usar esta regla otra vez durante la batalla.
     ]]></string>
 
     <string name="cherub_usage"><![CDATA[
@@ -40,15 +38,13 @@ counteraction, that counteraction ends.\n
     ]]></string>
 
     <string name="cherub_description"><![CDATA[
-• Whenever determining control of an objective marker, treat
-this operatives APL stat as 1 lower. Note this is not a change
-to its APL stat, so any changes are cumulative with this.\n
-• Whenever this operative has a **Conceal** order and is in cover,
-it cannot be selected as a valid target, taking precedence
-over all other rules (e.g. Seek, Vantage terrain) except being
-within 2\".\n
-• This operative cannot use any weapons that are not on its
-datacard, or perform unique actions other than **Incentivise**
+• Cuando determines el control de un objetivo, trata el APL de este Operativo como si fuera 1 menos.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+\n• Cuando este Operativo tiene una orden de **Conceal** y esta
+en cobertura, no puede ser seleccionado como objetivo valido y esto toma precedencia sobre las demas
+reglas, excepto estar a 2\".\n
+\n• Este Operativo no puede usar ningun arma que no este en su tarjeta de personaje, o hacer acciones
+unicas que no sean **Incentivise**.
     ]]></string>
 
     <string name="sanctifier_fly_usage"><![CDATA[
@@ -56,16 +52,14 @@ datacard, or perform unique actions other than **Incentivise**
     ]]></string>
 
     <string name="sanctifier_fly_description"><![CDATA[
-Whenever this operative is performing the **Charge, Fall
-Back** or **Reposition** action, it can **FLY**. If it does, do not move
-it. Instead, remove it from the killzone and set it back up wholly
-within a distance equal to its Move stat horizontally of its original
-location (in a killzone that uses the close quarters rules, e.g.
-Killzone: Tomb World, this distance cannot be measured over or
-through Wall terrain). Note that it gains no additional distance
-when performing the Charge action. It must be set up in a
-location it can be placed, and unless it is the **Charge** action, it
-cannot be set up within control range of an enemy operative.
+Cuando este Operativo hace la accion de **Cargar, Fall Back** o **Reposicion**, puede **Volar**.
+Si lo hace, no lo muevas, en su lugar remuevelo del campo y ponlo otra vez igual a una distancia
+equivalente de su estadistica de Movimiento desde su posicion original horizontalmente (en campos que
+usen las reglas Close Quarters o terreno cerrado como Tomb World, esto no se puede medir a traves de
+paredes).\n
+\nNotese que no gana distancia adicional cuando hace la accion de Cargar. Debe ser puesto en una locacion
+en la que la mini pueda mantenerse, y a menos que sea una accion de **Cargar**, no puede ser puesto
+dentro del rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="incentivise_usage"><![CDATA[
@@ -73,13 +67,11 @@ cannot be set up within control range of an enemy operative.
     ]]></string>
 
     <string name="incentivise_description"><![CDATA[
-**SUPPORT**. Select one other friendly **SANCTIFIER**
-operative (excluding **CONFESSOR, DEATH CULT
-ASSASSIN, MIRACULIST** and **ORATOR**) visible to and
-within 2\" of this operative. Until the end of that operatives
-next activation, add 1 to its APL stat.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+**SUPPORT**. Selecciona otro aliado **SANCTIFIER** (excluyendo **CONFESSOR, DEATH CULT ASSASIN,
+MIRACULIST** y un **ORATOR**) visible y a 2\" de este Operativo. Hasta el final de la proxima activacion
+de ese Operativo, añade 1 a su estadistica de APL.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="twin_torrent_usage"><![CDATA[
@@ -87,13 +79,10 @@ range of an enemy operative.
     ]]></string>
 
     <string name="twin_torrent_description"><![CDATA[
-Select up to two different valid targets that
-are not within control range of friendly operatives. Shoot with
-this weapon against both of them in an order of your choice (roll
-each sequence separately). Torrent 0\" means you cannot select
-secondary targets, but this weapon still has the Torrent weapon
-rule for all other rules purposes, e.g. the Condensed Stronghold
-rule (see Killzone: Volkus, Kill Team Core Book).
+Selecciona hasta dos objetivos diferentes que no esten dentro del rango de control de Operativos enemigos.
+Dispara con esta arma a ambos en cualquier orden de tu eleccion (lanza por cada secuencia por separado).
+Torrent 0\" significa que no puedes seleccionar un objetivo secundario, pero esta arma aun se beneficia
+de la regla Lethal 5+ en terreno condensado (vease terreno en Volkus o todo Tomb World).
     ]]></string>
 
     <string name="sanctification_rack_usage"><![CDATA[
@@ -101,10 +90,9 @@ rule (see Killzone: Volkus, Kill Team Core Book).
     ]]></string>
 
     <string name="sanctification_rack_description"><![CDATA[
-This operative can perform the
-**Sanctification Orb** action (see faction equipment). Doing so
-in this manner does not count towards the once per turning point
-limit (i.e. if you also select that equipment for other operatives)
+Este Operativo puede hacer la accion **Sanctification Orb** (vease faccion de equipamiento). Al hacerlo
+de esta forma no cuenta sobre el limite de un solo uso por activacion (en caso de que hayas seleccionado este equipamiento
+para otros Operativos).
     ]]></string>
 
     <string name="sanctifier_blade_stance_usage"><![CDATA[
@@ -112,67 +100,51 @@ limit (i.e. if you also select that equipment for other operatives)
     ]]></string>
 
     <string name="sanctifier_blade_stance_description"><![CDATA[
-Whenever this operative is fighting or retaliating,
-you can resolve one of your successes before the normal order. If
-you do, that success must be used to block.
+Cuando este Operativo esta combatiendo o retaleando, puede resolver uno de tus exitos antes del orden
+normal. Si lo haces, ese exito debe ser usado para bloquear.
     ]]></string>
 
     <string name="trained_assasin_usage"><![CDATA[
-
         1AP
-
     ]]></string>
 
     <string name="trained_assasin_description"><![CDATA[
-Change this operatives order.\n\n
-This operative cannot perform this action while within control
-range of an enemy operative.
+Cambia la orden de este Operativo.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="schola_progenium_disciplinarian_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="schola_progenium_disciplinarian_description"><![CDATA[
-Whenever a friendly
-**SANCTIFIER** operative is within 6\" of this operative, you can
-ignore any changes to that operatives stats from being injured
-(including its weapons stats).
+Cuando un aliado **SANCTIFIER** esta a 6\" de este Operativo, puedes ignorar cambios a sus estadisticas
+por estar **Lesionados** (incluyendo en sus armas).
     ]]></string>
 
     <string name="null_skull_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="null_skull_description"><![CDATA[
-Whenever an enemy operative is within 4\" of this
-operative, that enemy operatives APL stat cannot be added
-to (remove all positive APL stat changes it has). If an enemy
-operative thats more than 4\" from this operative has a positive
-APL stat change and your opponent spends its final AP to move
-that operative within 4\" of this operative, this can cause your
-opponent to have spent more AP than its APL stat – this is
-permitted in this situation.
+Cuando un Operativo enemigo esta a 4\" de este Operativo, la estadistica de ese enemigo no puede
+ser incrementada (remueve todo cambio positivo que tenia). Si un Operativo enemigo esta a mas de 4\"
+de este Operativo y tiene un cambio positivo en su APL, y usa su ultimo AP para mover este Operativo
+para terminar a 4\" de este Operativo, esto causaria que tu oponente tenga que gastar mas AP, en
+esta situacion esto es permitido.
     ]]></string>
 
     <string name="merciless_castigation_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="merciless_castigation_description"><![CDATA[
-The first time this operative performs the
-**Fight** action during each of its activations, if neither it nor the
-enemy operative in that sequence is incapacitated, this operative
-can immediately perform a free **Fight** action afterwards, but you
-cannot select any other enemy operative to fight against during
-that action (and only if it is still valid to fight against). This takes
-precedence over action restrictions.
+La primera vez que este Operativo hace la accion de **Combate** durante cada una de sus activaciones,
+si ni este Operativo ni el Operativo enemigo en esa secuencia es incapacitado, este Operativo puede
+inmediatamente hacer una accion de **Combate** gratis, pero no puedes seleccionar a ningun otro
+Operativo enemigo (y solo si sigue siendo un objetivo valido). Esto toma precedencia sobre la
+restriccion de accciones.
     ]]></string>
 
     <string name="fanatical_retribution_usage"><![CDATA[
@@ -182,132 +154,97 @@ precedence over action restrictions.
     ]]></string>
 
     <string name="fanatical_retribution_description"><![CDATA[
-If this operative is incapacitated during
-the **Fight** action, you can strike the enemy operative in that
-sequence with one of your unresolved successes before this
-operative is removed from the killzone.
+Si este Operativo es incapacitado durante la accion de **Combate**, puedes golpear al Operativo enemigo
+en esa secuencia con uno de tus exitos sin resolver antes de ser removido del campo.
     ]]></string>
 
     <string name="wreathed_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="wreathed_description"><![CDATA[
-This operative can perform the **Shoot** action with
-this weapon while within control range of an enemy operative.
-Do not select a valid target. Instead, this operative is always the
-primary target, but only shoot against secondary targets and they
-cannot be in cover or obscured (in other words, determine Blast
-from this operative, but this operative is not affected).
+Este Operativo puede hacer la accion de **Disparo** con esta arma mientras este dentro del rango de
+control de un Operativo enemigo. No selecciones un objetivo valido. En su lugar, este Operativo siempre
+es el objetivo primario, pero solo dispara contra objetivos secundarios, los objetivos no pueden
+estar en cobertura ni Obscurecidos (en otras palabras determina Blast desde este Objetivo, pero este
+Objetivo no es afectado).
     ]]></string>
 
     <string name="miracle_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="miracle_description"><![CDATA[
-The first time this operative would be incapacitated
-during the battle, it is not incapacitated, has 1 wound remaining
-and cannot be incapacitated for the remainder of the action.
-All remaining attack dice are discarded (including yours if this
-operative is fighting or retaliating), then this operative can
-immediately perform a free **Dash** or **Fall Back** action (for the
-latter, it cannot move more than 3\"), even if it is performed an
-action that prevents it from performing those actions.
+La primera vez que este Operativo vaya a ser incapacitado durante la batalla, no es incapacitado, tiene
+1 herida restante y no puede ser incapacitado por el resto de la accion. Todos los dados restantes
+son descartados (tuyos y de tu oponente), este Operativo puede inmediatamente hacer una accion **Dash**
+o **Fall Back** gratis pero no puede mover mas de 3\", incluso si ha hecho una accion que prevenga
+que pueda hacer estas acciones.
     ]]></string>
 
     <string name="holy_relic_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="holy_relic_description"><![CDATA[
-If this operative has a holy relic, it is always
-benefitting from the **SERMON**.
+Si este Operativo tiene un Holy Relic, cuenta como si siempre se beneficiara del **SERMON**.
     ]]></string>
 
     <string name="spread_the_word_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="spread_the_word_description"><![CDATA[
-Whenever this operative
-is more than 6\" from other friendly operatives, its weapons have
-the Severe weapon rule.
+Cuando este Operativo esta a mas de 6\" de otros aliados, sus armas tienen la regla Severe.
     ]]></string>
 
     <string name="defend_the_faith_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="defend_the_faith_description"><![CDATA[
-Whenever this operative controls an objective marker, it is benefitting from the **SERMON**.
+Cuando este Operativo controle un objetivo, se esta beneficiando del **SERMON**.
     ]]></string>
 
     <string name="sanctifier_cult_icon_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="sanctifier_cult_icon_description"><![CDATA[
-Whenever determining control of a marker within 4\" of
-this operative, treat the total APL stat of friendly
-**SANCTIFIER** operatives that contest it as 1 higher if at least
-one friendly **SANCTIFIER** operative contests that marker.
-Note this is not a change to the APL stat, so any changes are
-cumulative with this.
+Cuando determines el control de un marcador a 4\" de este Operativo, trata el total de APL de aliados
+**SANCTIFIER** contesteandolo como si tuvieran 1 mas si al menos un aliado **SANCTIFIER** esta contesteando
+ese marcados. Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="imperial_cult_devotion_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="imperial_cult_devotion_description"><![CDATA[
-Once per turning point, when a ready
-friendly **SANCTIFIER** operative is incapacitated while visible
-to and within 6\" of this operative, you can use this rule. If you do,
-before that operative is removed from the killzone, it can perform
-one free action (excluding **Fight**), and you can change its order
-to do so. It is then removed from the killzone as normal.
+Una vez por turno, cuando un aliado **SANCTIFIER** que no haya activado (ready) es incapacitado mientras
+es visible y esta a 6\" de este Operativo, puedes usar esta regla. Si lo haces, antes de que este Operativo
+sea removido del campo, puede hacer una accion gratis (excluynedo **Combatir**), y puedes cambiar su
+orden para hacerlo. Despues es removido del campo normalmente.
     ]]></string>
 
     <string name="conversion_field_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="conversion_field_description"><![CDATA[
-Whenever an operative more than 6\" from
-this operative is shooting a friendly **SANCTIFIER** operative
-within 6\" of this operative, improve that friendly operatives Save
-stat by 1.
+Cuando un Operativo esta a mas de 6\" de este Operativo y dispara a un aliado **SANCTIFIER** que este
+a 6\" de este Operativo, mejora la estadistica de Salvacion de ese aliado por 1.
     ]]></string>
 
     <string name="sanctifier_medikit_usage"><![CDATA[
-
         1AP
-
     ]]></string>
 
     <string name="sanctifier_medikit_description"><![CDATA[
-Select one friendly **SANCTIFIER** operative within this
-operatives control range to regain up to 2D3 lost wounds.\n\n
+Selecciona un aliado **SANCTIFIER** dentro del rango de control de este Operativo para que recupere
+2D3 heridas.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <!--Faction Rules-->

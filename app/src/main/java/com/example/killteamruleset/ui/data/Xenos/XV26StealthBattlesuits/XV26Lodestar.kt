@@ -68,7 +68,7 @@ val XV26Lodestar = Operative(
             keywords = listOf(
                 Range(6),
                 Devastating(4),
-                Piercing(4)
+                Piercing(2)
             )
         ),
         WeaponProfile(
