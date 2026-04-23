@@ -5,7 +5,7 @@
     <!--Tempestus-->
 
     <string name="tempestus_veteran_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tempestus_veteran_description"><![CDATA[
@@ -30,7 +30,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="tempestus_grenadier_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tempestus_grenadier_description"><![CDATA[
@@ -56,7 +56,7 @@ sequence separately).
     ]]></string>
 
     <string name="gunfight_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="gunfight_description"><![CDATA[
@@ -70,7 +70,7 @@ plus one (to a maximum of four).
     ]]></string>
 
     <string name="sniper_vantage_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sniper_vantage_description"><![CDATA[
@@ -81,7 +81,7 @@ Severe weapon rule.
     ]]></string>
 
     <string name="knife_fighter_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="knife_fighter_description"><![CDATA[
@@ -91,7 +91,7 @@ immediately resolve another (before your opponent).
     ]]></string>
 
     <string name="dynamic_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="dynamic_description"><![CDATA[
@@ -104,7 +104,7 @@ of 3\").
     ]]></string>
 
     <string name="tempestus_machine_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="tempestus_machine_description"><![CDATA[
@@ -115,7 +115,7 @@ its datacard.
     ]]></string>
 
     <string name="turret_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="turret_description"><![CDATA[
@@ -124,7 +124,7 @@ its activation.
     ]]></string>
 
     <string name="rapid_insertion_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="rapid_insertion_description"><![CDATA[
@@ -136,7 +136,7 @@ a free **Reposition** action, but must end that move wholly within
     ]]></string>
 
     <string name="swift_landing_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="swift_landing_description"><![CDATA[
