@@ -290,10 +290,8 @@ objetivo, cubriendo al enemigo con líquido ardiente.
 ]]></string>
 
     <string name="sanctification_orbs_description"><![CDATA[
-Once per turning point, one friendly **SANCTIFIER**
-operative (excluding **CHERUB, DEATH CULT
-ASSASSIN** and **MIRACULIST**) can perform the
-following unique action:
+Una vez por turno, un aliado **SANCTIFIER** (excluyendo **CHERUB, DEATH CULT ASSASSIN** y **MIRACULIST**) pueden hacer la
+siguiente acción única:
 ]]></string>
 
     <string name="sanctification_orb_usage"><![CDATA[
@@ -301,25 +299,14 @@ following unique action:
 ]]></string>
 
     <string name="sanctification_orb_description2"><![CDATA[
-Select one enemy operative visible to and
-within 6\" of this operative. That operative
-and each other enemy operative within 1\"
-of it takes a doused test. For an operative to
-take a doused test, roll one D6: on a 3+, it
-gains one of your Doused tokens.\n
-*Whenever a friendly **SANCTIFIER** operative
-is shooting an operative that has one of your
-Doused tokens with a weapon that has the
-Blaze weapon rule, that weapon also has the
-Seek weapon rule.\n
-*After a friendly **SANCTIFIER** operative uses
-a weapon that has the Blaze weapon rule
-against an enemy operative that has one
-of your Doused tokens, remove that token
-(even if the Seek weapon rule was not used).\n\n
-This operative cannot perform this
-action while within control range of an
-enemy operative.
+Selecciona un Operativo enemigo visible y a 6\" de este Operativo. Ese Operativo y todo otro Operativo a 1\" de el
+toman un test inflamable. Para que un Operativo tome un Test inflamable, lanza un D6: al 3+, gana uno de tus tokens Flamables (Doused).\n
+\n• Cuando un aliado **SANCTIFIER** esté disparando a un Operativo que tenga uno de tus tokens Flamables con un arma que tenga la regla
+Blaze, esa arma también tiene la regla Seek.\n
+\n• Después de que un aliado **SANCTIFIER** use un arma con la regla Blaze contra un Operativo que tenga uno de tus tokens Flamables,
+remueve ese token (incluso si la regla Seek no fue usada).\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
 ]]></string>
 
 
@@ -328,11 +315,8 @@ Estos trozos de pergamino, adheridos a la ropa, armaduras y equipo militar media
 ]]></string>
 
     <string name="sanctifiers_purity_seals_description"><![CDATA[
-Once per turning point, when a friendly
-**SANCTIFIER** operative is shooting or fighting,
-if you roll two or more fails, you can discard
-one of them to retain another as a normal
-success instead.
+Una vez por turno, cuando un aliado **SANCTIFIER** esté disparando o combatiendo si lanzas dos o más fallos, puedes descartar uno para retener otro como un éxito
+en su lugar.
 ]]></string>
 
     <string name="ecclesiarchy_texts_lore"><![CDATA[
@@ -343,13 +327,9 @@ debilitar al enemigo.
 ]]></string>
 
     <string name="ecclesiarchy_texts_description"><![CDATA[
-In the Ready step of each Strategy phase, roll
-3D6: if the result is less than the remaining
-wounds of a friendly **ORATOR** operative, you gain
-1CP. Note that this is done before the Gambit
-step, so if there is not a valid **ORATOR** operative,
-you cannot use this rule during that turning point
-(e.g. during the first turning point).
+En la Ready Step de cada Strategy fase, lanza 3D6: si el resultado es menor que la cantidad de heridas restantes de tu **ORADOR**,
+ganas 1 CP. Notese que esto se hace antes de la fase de Gambitos, por lo que si no hay un **ORATOR** válido, no puedes usar esta regla durante
+ese turno (ejemplo durante el primer turno).
 ]]></string>
 
 
@@ -360,14 +340,9 @@ tanto fortuna como favor.
 ]]></string>
 
     <string name="imperial_cult_symbols_description"><![CDATA[
-Once per turning point, when an operative is
-shooting a friendly SANCTIFIER operative that is
-benefitting from the **SERMON**, when you collect
-your defence dice, you can use this rule. If you
-do, change one of the attackers retained critical
-successes to a normal success (any weapon rules
-they have already resolved are not affected, e.g.
-Piercing Crits).
+Una vez por turno, cuando un Operativo esté disparando a un aliado **SANCTIFIER** que se esté beneficiando del **SERMON**, cuando
+tomes tus dados de defensa, puedes usar esta regla. Si lo haces, cambia uno de los éxitos críticos del atacante por un éxito normal
+(cualquier efecto de reglas de armas basado en críticos que ya hayan sido resueltos no es afectado, como Piercing Crits).
 ]]></string>
 
 
