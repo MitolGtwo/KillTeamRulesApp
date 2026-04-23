@@ -8,11 +8,8 @@
     ]]></string>
 
     <string name="tempestus_veteran_description"><![CDATA[
-Once per battle, you can either use a
-firefight ploy for 0CP if this is the specified **TEMPESTUS
-AQUILON** operative, or the Command Re‑roll firefight ploy
-for 0CP if this is the operative the attack or defence dice was
-rolled for.
+Una vez por batalla, puedes usar una Firefight ploy por 0CP si este es el Operativo **TEMPESTUS
+AQUILON** específico, o un Command Re-roll gratis si este es el Operativo atacante o defensor.
     ]]></string>
 
     <string name="aquilon_command_usage"><![CDATA[
@@ -20,12 +17,10 @@ rolled for.
     ]]></string>
 
     <string name="aquilon_command_description"><![CDATA[
-**SUPPORT**. Select one other friendly **TEMPESTUS
-AQUILON** operative (excluding **SERVO‑SENTRY**)
-visible to and within 6\" of this operative. Until the end of that
-operatives next activation, add 1 to its APL stat.\n\n
-
-This operative cannot perform this action while within control range of an enemy operative.
+**SUPPORT**. Selecciona otro aliado **TEMPESTUS AQUILON** (excluyendo **SERVO-SENTRY**) visible y a 6\" de este Operativo. 
+Hasta el final de la siguiente activacion de ese Operativo, añade 1 a su estadistica de APL.\n\n
+        
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
     ]]></string>
 
     <string name="tempestus_grenadier_usage"><![CDATA[
@@ -33,12 +28,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="tempestus_grenadier_description"><![CDATA[
-This operative can use frag, krak, smoke and stun
-grenades (see universal equipment). Doing so does not count
-towards any limited uses you have (i.e. if you also select those
-grenades from equipment for other operatives). Whenever this
-operative is using a frag or krak grenade, improve the Hit stat of
-that weapon by 1.
+Este Operativo puede usar granadas Frag y Krak, Smoke y Stun (ubicadas en el equipamiento universal). Al hacerlo,
+no cuenta sobre el límite de granadas que hayas seleccionado. Cuando uses granadas Krak o Frag, mejora el Hit de esa arma en 1.
     ]]></string>
 
     <string name="tempestus_salvo_usage"><![CDATA[
@@ -46,12 +37,8 @@ that weapon by 1.
     ]]></string>
 
     <string name="tempestus_salvo_description"><![CDATA[
-Select up to two different
-valid targets that are not within control
-range of friendly operatives. **Shoot**
-with this weapon against both of them
-in an order of your choice (roll each
-sequence separately).
+Selecciona hasta dos objetivos distintos válidos que no estén dentro del rango de control de un Operativo aliado.
+Dispara con esta arma a ambos en el orden de tu elección (lanza dados por separado).
     ]]></string>
 
     <string name="gunfight_usage"><![CDATA[
@@ -59,6 +46,8 @@ sequence separately).
     ]]></string>
 
     <string name="gunfight_description"><![CDATA[
+
+        
 Whenever an enemy operative within 8\" of this operative shoots this
 operative, keep track of each attack dice that is discarded as a fail. After the action,
 before incapacitated operatives are removed (including this one, if relevant), this
