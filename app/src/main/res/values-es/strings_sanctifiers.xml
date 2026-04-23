@@ -356,10 +356,8 @@ a la batalla, confiados en que su fe los resguardará.
 ]]></string>
 
     <string name="sanctifiers_the_emperor_protects_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**SANCTIFIER** operative that is benefitting from
-the **SERMON**, you can re-roll any of your defence
-dice results of one result (e.g. results of 2).
+Cuando un Operativo está disparando a un aliado **SANCTIFIER** que se esté beneficiando del **SERMON**, puedes re-rollear cualquier dado de defensa del mismo
+resultado (ejemplo: todos los resultados de 2).
 ]]></string>
 
     <string name="fervent_brawl_lore"><![CDATA[
@@ -367,10 +365,7 @@ Con las diatribas intolerantes del sacerdocio resonando en sus oídos, los Santi
 ]]></string>
 
     <string name="fervent_brawl_description"><![CDATA[
-Whenever a friendly **SANCTIFIER** operative
-that is benefitting from the **SERMON** is fighting or
-retaliating, its melee weapons have the Ceaseless
-weapon rule.
+Cuando un aliado **SANCTIFIER** que se esté beneficiando del **SERMON** esté combatiendo o retaleando, sus armas de melee ganan la regla Ceaseless.
 ]]></string>
 
     <string name="zealous_persecution_lore"><![CDATA[  
@@ -378,10 +373,7 @@ Cuanto más tiempo se permita que persista la herejía, más indeleble será su 
 ]]></string>
 
     <string name="zealous_persecution_description"><![CDATA[
-Whenever a friendly **SANCTIFIER** operative is
-fighting during an activation in which it performed
-the Charge action, its melee weapons have the
-Lethal 5+ weapon rule.
+Cuando un aliado **SANCTIFIER** está combatiendo durante una activación en la que haya hecho la acción de **Cargar**, sus armas ganan la regla Lethal 5+.
 ]]></string>
 
     <string name="rally_the_flock_lore"><![CDATA[
@@ -389,15 +381,9 @@ La voz de un orador resuena por encima del estruendo del combate, haciendo que l
 ]]></string>
 
     <string name="rally_the_flock_description"><![CDATA[
-Each friendly **SANCTIFIER** operative (excluding
-**ORATOR**) that is benefitting from the **SERMON**
-can immediately perform a free **Dash** or **Fall
-Back** action in an order of your choice (choose
-separately for each and, for the latter, it cannot
-move more than 3\"). Each that does so must end
-that move closer and visible to (or vice versa) a
-friendly **ORATOR** operative. You cannot use this
-ploy during the first turning point.
+Cada aliado **SANCTIFIER** (excluyendo al **ORADOR**) que se esté beneficiando del **SERMON** puede inmediatamente hacer una acción de
+**Dash** o **Fall Back** gratis, en el orden de tu elección (selecciona para cada uno y no puede moverse más de 3\"). Cada uno que lo haga
+debe terminar ese movimiento más cerca y visible de un aliado **ORADOR** (o viceversa). No puedes usar esta ploy durante el primer turno.
 ]]></string>
 
 
@@ -408,9 +394,7 @@ El Rosarius, símbolo sagrado del cargo, contiene un potente generador de campo 
 ]]></string>
 
     <string name="rosarius_description"><![CDATA[
-Use this firefight ploy when an attack dice
-inflicts Normal Dmg on a friendly **SANCTIFIER**
-operative. Ignore that inflicted damage.
+Usa esta Firefight ploy cuando un dado de ataque inflija daño normal a un aliado **SANCTIFIER**. Ignora ese daño.
 ]]></string>
 
     <string name="ardent_eradication_lore"><![CDATA[
@@ -418,12 +402,8 @@ Para quienes se oponen a la fe imperial solo hay un castigo: la muerte.
 ]]></string>
 
     <string name="ardent_eradication_description"><![CDATA[
-Use this firefight ploy after rolling your attack
-dice for a friendly **SANCTIFIER** operative, if it is
-shooting against or fighting against an enemy
-operative that is within 3\" of a friendly **ORATOR**
-operative (or 6\" if the **ORATOR** is a **CONFESSOR**).
-You can re-roll any of your attack dice.
+Usa esta Firefight ploy después de lanzar tus dados de ataque para un aliado **SANCTIFIER**, si está disparando o combatiendo contra un enemigo que
+este a 3\" de un aliado **ORATOR** (o a 6\" si ese **ORADOR** es un **CONFESSOR**). Puedes re-rollear cualquiera de tus dados de ataque.
 ]]></string>
 
     <string name="redeemed_through_fire_lore"><![CDATA[
@@ -431,12 +411,8 @@ Pocas muertes son más benditas que el martirio en el fuego. Tal sacrificio aviv
 ]]></string>
 
     <string name="redeemed_through_fire_description"><![CDATA[
-Use this firefight ploy when a friendly
-**SANCTIFIER** operative that has a weapon with
-the Blaze weapon rule is incapacitated, before it is
-removed from the killzone. Each enemy operative
-visible to and within 2\" of it gains one of your
-Blaze tokens (if it does not already have one).
+Usa esta Firefight ploy cuando un aliado **SANCTIFIER** con un arma con la regla Blaze sea incapacitado, antes de removerlo del campo. Cada enemigo
+visible y a 2\" de él gana uno de tus tokens de Blaze (si no tiene uno).
 ]]></string>
 
     <string name="unwavering_devotion_lore"><![CDATA[
@@ -444,25 +420,12 @@ Los Santificadores de bajo rango se lanzarán gustosamente al camino de las bala
 ]]></string>
 
     <string name="unwavering_devotion_description"><![CDATA[
-Use this firefight ploy when a friendly
-**SANCTIFIER ORATOR** or **SANCTIFIER
-MIRACULIST** operative is selected as the valid
-target of a **Shoot** action or to fight against
-during the **Fight** action. Select one other friendly
-**SANCTIFIER** operative (excluding **CONFESSOR,
-MIRACULIST** and **ORATOR**) visible to and within
-3\" of that first friendly operative to become
-the valid target or to be fought against (as
-appropriate) instead (even if it would not normally
-be valid for this). If it is the **Fight** action, treat
-that other operative as being within the fighting
-operatives control range for the duration of
-that action. If it is the **Shoot** action, that other
-operative is only in cover or obscured if the
-original target was.\n
-This ploy has no effect if it is the **Shoot** action
-and the ranged weapon has the Blast or Torrent
-weapon rule.
+Usa esta Firefight ploy cuando un aliado **SANCTIFIER ORATOR** o **SANCTIFIER MIRACULIST** esté siendo seleccionado como un objetivo válido para
+una acción de **Disparo** o acción de **Combate**. Selecciona otro aliado **SANCTIFIER** (excluyendo **CONFESSOR, MIRACULIST** Y **ORATOR**) visible y a 3\"
+de ese primer aliado para que se convierta en el objetivo válido en su lugar (aunque normalmente no hubiera sido un objetivo válido). Si es una acción de
+**Combate** trata ese Operativo como si estuviera dentro del rango de control durante la duración de esa acción. Si es una acción de **Disparo**, ese otro
+Operativo tiene cobertura o Obscurecimiento si el objetivo original lo estaba.\n
+\nEsta ploy no tiene efecto si la acción de **Disparo** usa la regla Blast o Torrent.
 ]]></string>
 
 </resources>
