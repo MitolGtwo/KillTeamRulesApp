@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <!--Tempestus-->
 
     <string name="tempestus_veteran_usage"><![CDATA[
@@ -148,8 +147,8 @@ precedence over the normal distance requirement.
     <!--Faction Rules-->
 
     <string name="drop_insertion_lore"><![CDATA[
-Aquilons are trained since childhood for expertise, with Fornite strategies they drop into the battlefield
-ready to wipe the enemies of the empire.
+Los aquilones son entrenados desde la infancia para ser expertos, con estrategias que despliegan en el campo de batalla, 
+listos para aniquilar a los enemigos del imperio.
 ]]></string>
 
     <string name="drop_insertion_description"><![CDATA[
@@ -205,9 +204,8 @@ turning point.
 ]]></string>
 
     <string name="grav_chute_lore"><![CDATA[
-Grav‑chutes employ gravitic repulsion fields to allow
-their wearers to drop at a swift but measured pace and
-land safely, no matter from what height they fall.
+Los paracaídas gravitatorios emplean campos de repulsión gravitatoria para
+permitir que quienes los usan caigan a un ritmo rápido pero controlado y aterricen de forma segura, sin importar la altura desde la que caigan.
 ]]></string>
 
     <string name="grav_chute_description"><![CDATA[
@@ -220,9 +218,8 @@ operative is dropping, ignore the vertical distance.
     <!--Equipment-->
 
     <string name="tempestus_daggers_lore"><![CDATA[
-Awarded to each warrior of the Militarum Tempestus
-upon their induction to the ranks, these weapons double
-as a symbol of regimental pride.
+Estas armas, otorgadas a cada guerrero del Militarum Tempestus
+al incorporarse a sus filas, también sirven como símbolo del orgullo regimental.
 ]]></string>
 
     <string name="tempestus_daggers_description"><![CDATA[
@@ -232,10 +229,8 @@ melee weapon:
 ]]></string>
 
     <string name="aquilon_combat_stimms_lore"><![CDATA[
-The use of Munitorum‑approved combat stimulants is
-standard practice amongst the Tempestus Aquilons,
-who may have to remain alert and fighting for days at
-a time.
+El uso de estimulantes de combate aprobados por Munitorum es una práctica habitual entre los Tempestus Aquilons, 
+quienes pueden tener que permanecer alerta y luchando durante días seguidos.
 ]]></string>
 
     <string name="aquilon_combat_stimms_description"><![CDATA[
@@ -245,10 +240,10 @@ being injured.
 ]]></string>
 
     <string name="drop_agury_lore"><![CDATA[
-Prior to the commencement of hostilities, this region
-has been subjected to thorough augur scans by orbiting
-warships or hovering servo‑skulls, the resultant
-intelligence inloaded to the Tempestors slate monitron.
+Antes del inicio de las hostilidades, esta región
+ha sido sometida a exhaustivos escaneos de augures por parte de
+naves de guerra en órbita o servo-cráneos flotantes, y la
+inteligencia resultante se carga en el monitor de la tableta de los Tempestors.
 ]]></string>
 
     <string name="drop_agury_description"><![CDATA[
@@ -261,10 +256,8 @@ closer to your opponents drop zone.
 ]]></string>
 
     <string name="remote_overseer_lore"><![CDATA[
-Be it a high‑flying observer aircraft or a specialist team
-of lexmechanicae employing tactical augur banks,
-monitoring officers provide wider strategic insight as the
-firefight rages.
+Ya sea un avión de observación de gran altitud o un equipo especializado de lexmechanicae que emplea bancos 
+de augures tácticos, los oficiales de vigilancia proporcionan una visión estratégica más amplia mientras el combate continúa.
 ]]></string>
 
     <string name="remote_overseer_description"><![CDATA[
@@ -276,8 +269,7 @@ Once per battle, after rolling off to decide initiative, you can re‑roll your 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="sudden_offensive_lore"><![CDATA[
-Tempestus Aquilons are skilled at dropping swiftly into
-combat and catching their enemies unawares.
+Los Tempestus Aquilons son expertos en entrar rápidamente en combate y sorprender a sus enemigos.
 ]]></string>
 
     <string name="sudden_offensive_description"><![CDATA[
@@ -294,8 +286,7 @@ activated will benefit.
 ]]></string>
 
     <string name="maintain_momentum_lore"><![CDATA[
-Once the assault begins, the Aquilons sustain the
-pressure, keeping their enemies reeling and off balance
+Una vez que comienza el asalto, los Aquilons mantienen la presión, dejando a sus enemigos tambaleándose y desequilibrados.
 ]]></string>
 
     <string name="maintain_momentum_description"><![CDATA[
@@ -306,8 +297,7 @@ weapons have the Severe weapon rule.
 ]]></string>
 
     <string name="eye_above_lore"><![CDATA[
-Airborne servo‑skulls and spotter aircraft keep the
-Aquilons appraised of up‑to‑the‑minute tactical data.
+Los servo-cráneos aerotransportados y los aviones de reconocimiento mantienen a los Aquilons informados de los datos tácticos más recientes.
 ]]></string>
 
     <string name="eye_above_description"><![CDATA[
@@ -328,8 +318,7 @@ unresolved successes (instead of one).
 ]]></string>
 
     <string name="drop_secure_lore"><![CDATA[
-Priority tactical objectives must be secured to ensure
-victory is absolute.
+Los objetivos tácticos prioritarios deben ser asegurados para garantizar una victoria absoluta.
 ]]></string>
 
     <string name="drop_secure_description"><![CDATA[
@@ -354,8 +343,7 @@ weapons (to a maximum of 4).
 
     <!--Firefight ploys-->
     <string name="hot_drop_lore"><![CDATA[
-Aquilons are trained to drop into the thick of fighting,
-engaging a surprised enemy as they land.
+Los aquilons están entrenados para lanzarse en picado al fragor de la batalla, atacando a un enemigo desprevenido al aterrizar.
 ]]></string>
 
     <string name="hot_drop_description"><![CDATA[
@@ -369,8 +357,7 @@ re‑roll any of your attack dice.
 ]]></string>
 
     <string name="adjust_coordinates_lore"><![CDATA[
-As the firefight flows and develops, so those Aquilons
-still descending adjust their trajectories in response.
+A medida que el tiroteo se desarrolla, los Aquilons que aún descienden ajustan sus trayectorias en respuesta.
 ]]></string>
 
     <string name="adjust_coordinates_description"><![CDATA[
@@ -384,9 +371,9 @@ turning point.
 ]]></string>
 
     <string name="tempestus_exemplars_lore"><![CDATA[
-The training and conditioning of the Tempestus Aquilons
-allows them to stay focused on their mission, even
-during the most ferocious firefights.
+El entrenamiento y la preparación física de los Tempestus Aquilons
+les permiten mantenerse concentrados en su misión, incluso
+durante los tiroteos más feroces.
 ]]></string>
 
     <string name="tempestus_exemplars_description"><![CDATA[
@@ -400,11 +387,9 @@ Up Marker**, **Place Marker** or a mission action for
 ]]></string>
 
     <string name="progena_lore"><![CDATA[
-As graduates of the Schola Progenium, these warriors
-are not only conditioned to follow their orders with
-unquestioning precision, but are also driven by a zealous
-dedication to the Imperial Cult that helps them to shrug
-off pain and fear.
+Como graduados de la Schola Progenium, estos guerreros no solo están condicionados para seguir 
+sus órdenes con precisión incuestionable, sino que también están impulsados ​​por una ferviente devoción al Culto 
+Imperial que les ayuda a ignorar el dolor y el miedo.
 ]]></string>
 
     <string name="progena_description"><![CDATA[
