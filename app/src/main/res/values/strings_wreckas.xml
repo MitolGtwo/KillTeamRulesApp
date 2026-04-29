@@ -54,7 +54,6 @@
 
 ]]></string>
 
-
     <string name="wrecka_gunner_usage"><![CDATA[
 
         Passive
@@ -232,12 +231,6 @@
 
     <!--/Equipment Wreckas-->
 
-    <string name="wrecka_drillrokkit"><![CDATA[
-
-        DRILL ROKKITS
-
-]]></string>
-
     <string name="wrecka_drillrokkit_lore"><![CDATA[
 
         Mek ingenuity knows few bounds. Drill rokkits are designed to strike a target
@@ -252,13 +245,6 @@
                          **Eavy rokkit launcha**, you can use this rule. If you do, until the end
                          of that action, that weapon loses the Blast weapon rule but has the Piercing 1
                          weapon rule (You cant combine this with the **Kaboom** Firefight ploy).
-
-]]></string>
-
-
-    <string name="wrecka_extra_armour"><![CDATA[
-
-        EXTRA ARMOUR
 
 ]]></string>
 
@@ -278,12 +264,6 @@
 
 ]]></string>
 
-    <string name="wrecka_engine_oil"><![CDATA[
-
-        ENGINE OIL
-
-]]></string>
-
     <string name="wrecka_engine_oil_lore"><![CDATA[
 
         Wrecka Krews are known yo ingest the oils of vehicles they have destroyed.
@@ -299,13 +279,6 @@
                         Operatives from being injured (including its weapons stats).
 
 ]]></string>
-
-    <string name="wrecka_glyphs"><![CDATA[
-
-        GLYPHS
-
-]]></string>
-
     <string name="wrecka_glyphs_lore"><![CDATA[
 
         Back-banners, crude markings and glyph-scrawled armour proudly display the
@@ -324,13 +297,6 @@
 
     /Faction Rules
 
-
-    <string name="wrecka_rampage"><![CDATA[
-
-        WRECKA RAMPAGE
-
-]]></string>
-
     <string name="wrecka_rampage_lore"><![CDATA[
 
         The sound of explosions, thea acrid stench of smoke and screams of battle drive
@@ -342,7 +308,7 @@
 
         Whenever a friendly **WRECKA KREW** Operative is shooting, fighting or
                          retaliating in the Roll Attack Dice step:\n\n•For each attack dice result
-                        of 6 you retain, you gain one Wrecka point.\n•You can spend up to 3 of
+                        of 6 you retain, you gain one Wrecka point.\n•You can spend up to 2 of
                         your Wrecka points (unless it’s a **BOMB SQUIG**). For each point you spend this
                          way, retain one of your fails as a normal success instead of discarding it.\n\n
                         You cannot have more than 6 Wrecka points at once. You can gain and spend
@@ -352,11 +318,6 @@
 
 ]]></string>
 
-    <string name="wrecka_tanked_up"><![CDATA[
-
-        TANKED UP
-
-]]></string>
 
     <string name="wrecka_tanked_up_lore"><![CDATA[
 
@@ -476,12 +437,6 @@
         Use this firefight ploy during a **WRECKA KREW BREAKKA BOY** or **WRECKA
                      KREW BOSS NOB** Operatives activation. During that activation, that Operative
                      can perform two **Fight** actions.
-
-]]></string>
-
-    <string name="wrecka_kaboom"><![CDATA[
-
-        KABOOM!
 
 ]]></string>
 

@@ -99,7 +99,7 @@ gain one additional CP.
     ]]></string>
 
     <string name="xvspectrum_description"><![CDATA[
-**SUPPORT**. Once per turning point, when an enemy operative visible to and within 8\" of this
+**SUPPORT**. Once per turning point, when an enemy operative within 8\" of this
 operative is activated, you can use this rule. If you do, each
 friendly **XV26 STEALTH BATTLESUIT** operative within 3\"
 of this operative can immediately do one of the following:\n
@@ -155,8 +155,18 @@ Note this is not a change to its APL stat, so any changes are cumulative with th
     <string name="photon_g_launcher_description"><![CDATA[
 Select one enemy operative visible to this operative and
 roll one D6: on a 3+, until the end of that operatives next
-activation, subtract 2\" from its Move stat.\n
-\n
+activation, subtract 2\" from its Move stat.\n\n
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="focused_markerlight_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="focused_markerlight_description"><![CDATA[
+Select one enemy operative visible to this operative. Once during this turning point, when a friendly
+**XV26 STEALTH BATTLESUIT** operative is shooting that enemy operative, you can use this effect.
+If you do, improve the Hit stat of that friendly operatives ranged weapons by 1 until the end of that action.\n\n
 This operative cannot perform this action while within control range of an enemy operative.
     ]]></string>
 
@@ -225,11 +235,13 @@ exploit the resultant confusion to devastating effect
 ]]></string>
 
     <string name="counter_network_description"><![CDATA[
-Whenever determining control of a marker, treat the total APL stat of enemy operatives that
-contest it as 1 lower if only one friendly **XV26 STEALTH BATTLESUIT** operative and only two
-enemy operatives contest it. That friendly **XV26 STEALTH BATTLESUIT** operative cannot be a
-**DRONE** operative. Note this is not a change to the
-APL stat, so any changes are cumulative with this.
+**STRATEGIC GAMBIT.** Select one objective marker or
+mission marker. Until the end of the turning point, whenever
+determining control of that marker, treat the total APL stat of
+enemy operatives that contest it as 1 lower if at least one of
+those enemy operatives is within 3\" of friendly **XV26 STEALTH
+BATTLESUIT** operatives. Note this is not a change to the APL
+stat, so any changes are cumulative with this.
 ]]></string>
 
     <string name="advance_sunglasses_lore"><![CDATA[

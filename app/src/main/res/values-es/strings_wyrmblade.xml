@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Wyrmblade-->
-
     <string name="shadow_vector_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="shadow_vector_description"><![CDATA[
-Once per turning point, you can use the Slink Into Darkness or Coiled Serpent firefight ploy for 0CP if the
-specified friendly **WYRMBLADE** operative is a **NEOPHYTE** visible to this operative.
+Una vez por turno, puedes usar la ploy Slink Into Darkness o Coiled Serpent por 0CP su el aliado
+**WYRMBLADE** especifico es un **NEOPHYTE** visible para este Operativo.
     ]]></string>
 
     <string name="wyrm_sense_usage"><![CDATA[
@@ -18,114 +15,102 @@ specified friendly **WYRMBLADE** operative is a **NEOPHYTE** visible to this ope
     ]]></string>
 
     <string name="wyrm_sense_description"><![CDATA[
-Whenever this operative is shooting with this weapon profile, enemy operatives cannot be obscured.
+Cuando este Operativo esta disparando con este perfil, el Operativo enemigo no puede estar
+Obscurecido.
     ]]></string>
 
     <string name="expert_gunslinger_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="expert_gunslinger_description"><![CDATA[
-This operative can perform two **Shoot** actions during its activation.
+Este Operativo puede hacer dos acciones de **Disparo** durante su activacion.
     ]]></string>
 
     <string name="wyrm_inspiration_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_inspiration_description"><![CDATA[
-Whenever a friendly **WYRMBLADE NEOPHYTE** operative visible to and within 3\" of this operative
-is shooting, fighting or retaliating, if this operative has
-incapacitated an enemy operative during this turning point, that
-friendly operatives weapons have the Severe weapon rule.
+Cuando un aliado **WYRMBLADE NEOPHYTE** es visible y esta a 3\" de este Operativo esta disparando,
+combatiendo o retaleando, si este Operativo ha incapacitado a un Operativo enemigo durante este turno,
+las armas de esos aliados ganan la regla Severe.
     ]]></string>
 
-
     <string name="wyrm_swordman_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_swordman_description"><![CDATA[
-This operative can perform two **Fight** actions during its activation. Whenever this operative ends the
-**Fight** action, if it is no longer within control range of enemy
-operatives, it can immediately perform a free **Charge** action
-(even if it is already performed the **Charge** action during that activation),
-but it cannot move more than 3\" during that action. Doing so does not prevent it from performing
-the **Dash** action afterwards during that activation.
+Este Operativo puede hacer dos acciones de **Combate** durante su activacion. Cuando este Operativo
+termina una accion de **Combate**, y no esta en rango de control de un Operativo enemigo, puede inmediatamente
+hacer una accion de **Carga** gratis (incluso si ya hizo una accion de **Carga** durante esa activacion),
+pero no puede moverse mas de 3\" durante esa accion. Hacerlo no previene que pueda hacer una accion de **Dash**
+despues durante esa activacion.
     ]]></string>
 
     <string name="quicksilver_strike_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="quicksilver_strike_description"><![CDATA[
-Once per turning point, after an enemy
-operative performs an action in which it moves or is set up,
-you can interrupt to use this rule. If you do, this operative can
-immediately perform a free **Charge** action (you can change its
-order to do so), but it cannot move more than 3\", and it must end
-that move within control range of that enemy operative. If this
-is not possible, the interruption is cancelled and this rule has not been used.
+Una vez por turno, despues de que un enemigo haya hecho una accion en la que se mueva o es puesto en
+el campo, puedes interrumpirlo para usar esta regla. Si lo haces, este Operativo puede inmediatamente
+hacer una accion de **Cargar** gratis (puedes cambiar su orden para hacerlo), pero no puede mover mas
+de 3\", y debe terminar ese movimiento dentro del rango de control de ese Operativo enemigo. Si esto no
+es posible, esta interrupcion es cancelada y esta regla no es usada.
     ]]></string>
 
-
     <string name="wyrm_bladestance_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_bladestance_description"><![CDATA[
-Whenever this operative is fighting or retaliating,
-you can resolve one of your successes before the normal order. If
-you do, that success must be used to block.
+Cuando este Operativo esta combatiendo o retaleando, puedes resolver uno de tus exitos antes del orden
+normal. Si lo haces, ese exito debe ser usado para bloquear.
     ]]></string>
 
     <string name="wyrm_bipod_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_bipod_description"><![CDATA[
-Whenever this operative is shooting with a weapon from its datacard, if it has not moved during
-the activation, or if it is a counteraction, that weapon has the
-Ceaseless weapon rule; if the weapon already has that weapon
-rule (i.e. from the Cult Ambush faction rule), it has the Relentless
-weapon rule. Note this operative is not restricted from moving after shooting.
+Cuando este Operativo esta disparando con una arma de su tarjeta de personaje, si no se ha movido durante
+la activacion, o si es un counteact, esa arma tiene la regla Ceaseless, si el arma ya tenia esa regla
+(ejemplo por la regla de faccion Cult Ambush), tiene la regla Relentless. Notese que este Operativo
+no esta restringido de moverse despues de disparar.
     ]]></string>
 
-
     <string name="wyrm_iconbearer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_iconbearer_description"><![CDATA[
-Whenever determining control of a marker, treat this operatives APL stat as 1 higher.
-Note this is not a change to its APL stat, so any changes are cumulative with this.
+Cuando determines el control de un marcador, trata el APL de este Operativo como si tuviera 1 mas.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="throw_oppresor_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="throw_oppresor_description"><![CDATA[
-Once per turning point, when a ready friendly **WYRMBLADE NEOPHYTE** operative is incapacitated
-while visible to and within 6\" of this operative, you can use this rule. If you do, before that
-operative is removed from the killzone, it can either perform one free **Shoot** action (you can
-change its order to do so), or you can use the A Plan Generations in the Making
-firefight ploy for 0CP if that incapacitated operative is the specified friendly **WYRMBLADE NEOPHYTE**
-operative. It is then removed from the killzone as normal.
+Una vez por turno, cuando un aliado **WYRMBLADE NEOPHYTE** que no haya activado (Ready) es incapacitado
+mientras es visible y esta a 6\" de este Operativo, puedes usar esta regla. Si lo haces, antes de que
+ese Operativo sea removido del campo, puede hacer una accion de **Disparo** gratis (puedes cambiar su
+orden para hacerlo), o puedes usar la ploy A Plan Generations in the Making por 0CP si ese Operativo
+es el **WYRMBLADE NEOPHYTE** especificado. Despues es removido del campo normalmente.
     ]]></string>
 
-
     <string name="wyrm_group_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wyrm_group_description"><![CDATA[
-Whenever this operative is expended, you
-must then activate one other ready friendly **WYRMBLADE
-WARRIOR** operative (if able) before your opponent activates.
-When that other operative is expended, your opponent then
-activates as normal (in other words, you cannot activate more
-than two operatives in succession with this rule).
+Cuando este Operativo termina su activacion (expended), debes activar otro Operativo **WYRMBLADE
+WARRIOR** que no haya activado (ready) si es posible antes de que tu oponente active. Una vez ese
+otro Operativo termine su activacion (expended), tu oponente activa normalmente (en otras palabras
+no puedes activar mas de dos Operativos en sucesion con esta regla).
     ]]></string>
 
     <string name="wyrm_tv_usage"><![CDATA[
@@ -133,10 +118,10 @@ than two operatives in succession with this rule).
     ]]></string>
 
     <string name="wyrm_tv_description"><![CDATA[
-Until the end of this operatives activation, the stationary profile of its Sanctus sniper rifle
-has the Lethal 5+ weapon rule.\n\n
+Hasta el final de la activacion de este Operativo, el perfil Stationary de su Sanctus Sniper Rifle
+gana la regla Lethal 5+.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="familiar_soul_usage"><![CDATA[
@@ -144,29 +129,24 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="familiar_soul_description"><![CDATA[
-Select one enemy operative visible to this operative. Until
-the end of the battle, or until this action is performed again
-by a friendly operative (whichever comes first), that enemy
-operative gains one of your Soulsight tokens. Whenever this
-operative is shooting an enemy operative that has one of
-your Soulsight tokens, all profiles of this operatives Sanctus
-sniper rifle have the Saturate weapon rule and that enemy
-operative cannot be obscured.\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Hata el final de la batalla, o hasta
+que esta accion sea hecha otra vez por un Operativo aliado (lo que pase primero), ese Operativo enemigo
+gana uno de tus Soulsight token, Cuando este Operativo este disparando a un enemigo que tenga uno de tus
+Soulsight tokens, todos los perfiles de su Sanctus Sniper Rifle tienen la regla Saturate y ese enemigo
+no puede estar Obscurecido.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="creeping_shadow_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="creeping_shadow_description"><![CDATA[
-This operative can perform the **Charge**
-action while it has a **Conceal** order. Whenever this operative
-performs the **Fight** action, it can immediately perform a free
-**Dash** or **Fall Back** action afterwards (for the latter, it cannot
-move more than 3\"), even if it is performed an action that
-prevents it from performing those actions.
+Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal**. Cuando
+este Operativo hacer una accion de **Combate, puede inmediatamente hacer una accion gratis de **Dash**
+o **Fall Back** despues (no puede moverse mas de 3\"), incluso si ha hecho una accion que prevenga poder
+hacer esas acciones.
     ]]></string>
 
     <string name="mesatsu_usage"><![CDATA[
@@ -174,17 +154,14 @@ prevents it from performing those actions.
     ]]></string>
 
     <string name="mesatsu_description"><![CDATA[
-Select one enemy operative this operative is not visible to.
-Perform a free **Charge** action with this operative, but do not
-exceed its Move stat (i.e. do not add 2\"), and it must end that
-move within control range of that enemy operative. Then
-immediately perform a free **Fight** action with this operative
-against that enemy operative. The first time you strike during
-that action, you can immediately resolve another of your
-successes as a strike (before your opponent).\n\n
+Selecciona un Operativo enemigo que no sea visible. Haz una accion de **Carga** gratis con este Operativo,
+pero no excedas su estadistica de Movimiento (no añadas 2\"), y debe terminar dentro del rango
+de control de ese Operativo enemigo seleccionado. Despues haz inmediatamente una accion de **Combate**
+con este Operativo contra ese Operativo. La primera vez que golpes durante esa accion, puedes inmediatamente
+resolver otro de tus exitos (antes que tu oponente).\n\n
 
-This operative cannot perform this action while it has an Engage order, or while within control range of an
-enemy operative.
+Este Operativo no puede hacer esta accion mientras tenga una orden de **Engage**, o mientras este dentro
+del rango de control de un Operativo enemigo.
     ]]></string>
 
     <string name="familiar_melee_usage"><![CDATA[
@@ -192,277 +169,203 @@ enemy operative.
     ]]></string>
 
     <string name="familiar_melee_description"><![CDATA[
-Select one enemy operative visible to this operative. Until
-the end of the battle, or until this action is performed again
-by a friendly operative (whichever comes first), that enemy
-operative gains one of your Soulsight tokens. Whenever this
-operative is fighting or retaliating against an enemy operative
-that has one of your Soulsight tokens, its Sanctus bio-dagger
-has the Brutal and Balanced weapon rules.\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de la batalla, o hasta que esta
+accion sea hecha otra vez por un Operativo aliado (lo que pase primero), ese enemigo gana uno de tus
+Soulsight tokens. Cuando este Operativo ese combatiendo o retaleando contra ese enemigo que tenga
+uno de tus Soulsight tokens, su Santus Bio-dagger gana las reglas Brutal y Balances.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.f
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="familiar_territory_lore"><![CDATA[
-Genestealer Cults infiltrate all stratas of Imperial
-society, accumulating knowledge of transit routes,
-passageways and hidden tunnels by which they may
-outmanoeuvre their foes.
+Los Cultos Genestealer se infiltran en todos los estratos de la sociedad imperial, acumulando conocimiento
+de rutas de tránsito, pasadizos y túneles ocultos mediante los cuales pueden burlar a sus enemigos.
 ]]></string>
 
     <string name="familiar_territory_description"><![CDATA[
-When setting up a **WYRMBLADE** kill team before
-the battle, one third of your kill team can be set
-up in **HIDING**: place them to one side instead of
-in the killzone. **CULT AGENT** operatives cannot be
-set up in **HIDING**\n
-\n
-In the Firefight phase, friendly **WYRMBLADE**
-operatives set up in **HIDING** are activated as
-normal. When you do, you can either expend that
-operative or have it emerge. If it emerges, set it
-up in the killzone in a location it can be placed as
-follows (it is no longer set up in **HIDING**):\n
-\n
-• Wholly within 6\" of your drop zone.\n
-\n
-• More than 6\" from enemy operatives.\n
-\n
-• With an order of your choice.\n
-\n
-The operative is treated as performing the
-**Reposition** action (spend the AP accordingly),
-then continue its activation as normal. If the
-operative is a **WARRIOR**, ignore its Group
-Activation rule. Friendly operatives still in
-**HIDING** at the end of the second turning point
-are incapacitated.
+Cuando coloques tu **WYRMBLADE** kill team antes de la batalla, un tercio de tu Kill Team pueden
+ser puestos **Ocultos**: ponlos a un lado en lugar de ponerlos en el campo. **CULT AGENTS** no pueden
+ser puestos **OCULTOS**\n
+\nEn la firefight fase, aliados **WYRMBLADE** que esten **Ocultos** son activados normalmente. Cuando
+lo hagas, puedes expenderlos o hacer que ese Operativo emerja, ponlo en el campo en un lugar donde
+pueda mantenerse siguiendo las siguientes reglas (dejaria de estar **Oculto**):\n
+\n• Completamente a 6\" de tu zona de deployment.\n
+\n• A mas de 6\" de Operativos enemigos.\n
+\n• Con una orden de tu eleccion\n
+\nEl Operativo es tratado como si hubiera hecho la accion de **Reposicion** (gasta el AP normalmente),
+despues continua su activacion normalmente. Si el Operativo es un **WARRIOR**, ignora su Group Activation.
+Aliados que aun esten **Ocultos** al final del segundo turno son incapacitados.
 ]]></string>
 
     <string name="cult_agent_lore"><![CDATA[
-The Patriarchs chosen agents are seeded throughout
-the Cults forces, providing guidance and motivation to
-the faithful.
+Los agentes elegidos por los Patriarcas están infiltrados en todas las fuerzas del Culto, brindando
+guía y motivación a los fieles.
 ]]></string>
 
     <string name="cult_agent_description"><![CDATA[
-Whenever an operative is shooting a friendly **WYRMBLADE CULT AGENT** operative:\n
-\n
-• Ignore the Piercing and Saturate weapon rules.\n
-\n
-• If you can retain any cover saves, you can retain one additional cover save, or you can
-retain one cover save as a critical success instead. This is not cumulative with improved
-cover saves from Vantage terrain.
+Cuando un Operativo este disparando a un aliado **WYRMBLADE CULT AGENT**:\n
+\n• Ignora las reglas Piercing y Saturate.\n
+\n• Si puedes retener salvaciones por cobertura, puedes retener una salvacion adicional o puedes
+retener una salvacion de cobertura critica en su lugar. Esto no es acumulable con salvaciones de
+cobertura mejoradas por terreno aventajado.
 ]]></string>
 
     <string name="cult_ambush_lore"><![CDATA[
-When the Day of Ascension arrives, the Cult strike as
-one, catching their foes unawares with lethal ambushes
-and surprise assaults.
+Cuando llega el Día de la Ascensión, el Culto ataca al unísono,
+tomando a sus enemigos por sorpresa con emboscadas letales y asaltos inesperados.
 ]]></string>
 
     <string name="cult_ambush_description"><![CDATA[
-Whenever a friendly **WYRMBLADE** operative
-is shooting or fighting during its activation, if its
-order was changed from **Conceal** to **Engage** at
-the start of that activation, or it was not visible to
-enemy operatives at the start of that activation,
-that friendly operatives weapons have the
-Ceaseless weapon rule.
+Cuando un aliado **WYRMBLADE** esta disparando o combatiendo durante su activacion, si su orden fue
+cambiada de **Conceal** a **Engage** al inicio de la activacion, o no era visible para Operativos enemigos
+al inicio de su activacion, las armas de ese Operativo aliado ganan la regla Ceaseless.
 ]]></string>
-
 
     <!--Equipment-->
 
     <string name="blast_charges_lore"><![CDATA[
-Mining equipment becomes deadly weaponry in the
-hands of the Wyrmblade.
+Los equipos mineros se convierten en armas letales en manos de los Wyrmblade.
 ]]></string>
 
     <string name="blast_charges_description"><![CDATA[
-Once per turning point, a friendly **WYRMBLADE NEOPHYTE** operative can use the following
-ranged weapon:
+Una vez por turno, un aliado **WYRMBLADE NEOPHYTE** puede usar la siguiente arma a distancia:
 ]]></string>
 
     <string name="w_cult_knives_lore"><![CDATA[
-The agents of the Cult bear many bladed implements.
-Some mere tools, others ritual in significance, yet all
-equally lethal in their hands.
+Los agentes del Culto portan numerosas armas blancas.
+Algunas son simples herramientas, otras tienen un significado ritual, pero todas
+igualmente letales en sus manos.
 ]]></string>
 
     <string name="w_cult_knives_description"><![CDATA[
-Friendly **WYRMBLADE NEOPHYTE** operatives have the following melee weapon:
+Aliados **WYRMBLADE NEOPHYTE** tienen la siguiente arma de melee:
 ]]></string>
 
     <string name="explosive_traps_lore"><![CDATA[
-Wyrmblade operatives make frequent use of booby traps
-and mines in the execution of their ambushes.
+Los agentes de Wyrmblade utilizan con frecuencia trampas explosivas y minas en la ejecución de sus emboscadas.
 ]]></string>
 
     <string name="explosive_traps_description"><![CDATA[
-This equipment allows you to select two mines (see universal equipment). You cannot also
-select that equipment as normal (i.e. to give you three), and friendly **WYRMBLADE** operatives are
-ignored for your mines effects (i.e. they cannot trigger or take damage from them). This takes
-precedence over the normal mines rules.
+Este equipamiento te permite seleccionad dos minas (vease equipamiento universal). No puedes seleccionar
+al mismo tiempo ese equipamiento normalmente (para tener 3), y aliados **WYRMBLADE** son ignorados
+por los efectos de las minas (no pueden activarlas ni recibir daño de ellas). Esto toma precedencia
+sobre las reglas normales de minas.
 ]]></string>
 
     <string name="w_spotlights_lore"><![CDATA[
-Wyrmblade Neophytes bear mining lumen and
-flashlights, using these devices to sweep the shadows
-and reveal concealed foes.
+Los neófitos de Wyrmblade portan lúmenes mineros y linternas, utilizando estos dispositivos para
+escudriñar las sombras y revelar a los enemigos ocultos.
 ]]></string>
 
     <string name="w_spotlights_description"><![CDATA[
-Whenever a friendly **WYRMBLADE** operative is shooting, the target cannot be obscured
-if it is visible to and within 6\" of a friendly **WYRMBLADE NEOPHYTE** operative that is not
-within control range of enemy operatives.
+Cuando un aliado **WYRMBLADE** este disparando, el objetivo no puede estar Obscurecido si es visible y a
+6\" de un aliddo **WYRMBLADE NEOPHYTE** que no este dentro del rango de control de un Operativo enemigo.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="the_day_lore"><![CDATA[
-When the moment is right, the Cult strikes. Swift and
-brutal ambushes allow for high lethality, even with
-improvised weapons
+Cuando llega el momento oportuno, el Culto ataca.
+Las emboscadas rápidas y brutales permiten una alta letalidad, incluso con
+armas improvisadas
 ]]></string>
 
     <string name="the_day_description"><![CDATA[
-Whenever a friendly **WYRMBLADE** operative is
-activated, if its order is changed from **Conceal** to
-**Engage**, until the end of that activation:\n
-\n
-• Its ranged weapons have the Rending weapon rule.\n
-\n
-• Add 1 to the Atk stat of its melee weapons (to a maximum of 5).
+Cuando un aliado **WYRMBLADE** es activado, si su orden fue cambiada de **Conceal** a **Engage**,
+hasta el final de esa activacion:\n
+\n• Sus armad de distancia ganan la regla Rending.\n
+\n• Añade 1 a la estadistica de Atk de sus armas de melee (hasta un maximo de 5).
 ]]></string>
 
     <string name="w_crossfire_lore"><![CDATA[
-The Cults operatives surround their foes before opening
-fire and catching their targets in a lethal crossfire.
+Los agentes de los Cultos rodean a sus enemigos antes de abrir fuego y atrapar a sus objetivos en un
+fuego cruzado letal.
 ]]></string>
 
     <string name="w_crossfire_description"><![CDATA[
-Whenever a friendly **WYRMBLADE** operative is shooting an operative that another friendly
-**WYRMBLADE** operative has already shot during this turning point, that first friendly
-operatives ranged weapons have the Accurate 1 weapon rule.
+Cuando un aliado **WYRMBLADE** esta disparando a un Operativo que ya ha sido disparado por otro aliado
+**WYRMBLADE** durante este turno, ese primer Operativo gana la regla Accurate 1 en sus armas de distancia.
 ]]></string>
 
     <string name="one_with_shadows_lore"><![CDATA[
-Wyrmblade operatives know the battlefield like the
-backs of their clawed hands, stalking the shadows and
-using terrain to their own advantage.
+Los agentes de Wyrmblade conocen el campo de batalla como la palma de su mano, acechando en las
+sombras y utilizando el terreno a su favor.
 ]]></string>
 
     <string name="one_with_shadows_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**WYRMBLADE** operative that has a **Conceal**
-order, if Light terrain is intervening, that friendly
-operative is obscured (unless the intervening
-Light terrain is within 1\" of either operative).
+Cuando un Operativo esta disparando a un aliado **WYRMBLADE** que tenga una orden de **Conceal**, si
+terreno ligero esta interviniendo, ese Operativo aliado esta obscurecido (a menos que ese terreno
+ligero este a 1\" de cualquiera de esos dos operativos).
 ]]></string>
 
     <string name="divert_and_disappear_lore"><![CDATA[
-The Cults agents direct their zealous underlings
-with great cunning by throwing them into the fray or
-drawing them back, using the resultant chaos to place
-themselves in advantageous positions
+Los agentes de los Cultos dirigen a sus fanáticos subordinados con gran astucia, lanzándolos al
+fragor de la batalla o retirándolos, aprovechando el caos resultante para colocarse en posiciones ventajosas.
 ]]></string>
 
     <string name="divert_and_disappear_description"><![CDATA[
-Up to three friendly **WYRMBLADE** operatives
-can immediately perform a free **Dash** or **Charge**
-action in an order of your choice (choose
-separately for each, and for the latter, it cannot
-move more than 3\"). If a **WYRMBLADE CULT
-AGENT** operative is selected for this ploy, it
-counts as two operatives, and it can perform a
-free **Fall Back** action instead (it cannot move
-more than 3\"); if it does, subtract 1 from its APL
-stat until the end of its next activation.
+Hasta tres aliados **WYRMBLADE** pueden inmediatamente hacer una orden de **Dash** o **Cargar** en cualquier
+orden de tu eleccion (escoge por cada uno, no pueden moverse mas de 3\"). Si un Operativo
+**WYRMBLADE CULT AGENT** es seleccionado para usar esta ploy, cuenta como si se seleccionaran dos
+Operativos, y puede hacer una accion de **Fall Back** gratis en su lugar (no puede moverse mas de 3\):
+si lo hace, sustrae 1 de su estadistica de APL hasta el final de su siguiente activacion.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="slink_darkness_lore"><![CDATA[
-As swiftly as their ambush is launched, Wyrmblade
-operatives fade away once more, scrambling into access
-tunnels and shadowy hiding places in preparation for
-the next wave.
+Tan rápido como se lanza su emboscada, los agentes de Wyrmblade
+desaparecen una vez más, refugiándose en
+túneles de acceso y escondites sombríos en preparación para
+la siguiente oleada.
 ]]></string>
 
     <string name="slink_darkness_description"><![CDATA[
-Use this firefight ploy at the end of a friendly
-**WYRMBLADE** operatives activation. If that
-operative has an **Engage** order, change it to
-**Conceal**. You cannot use this ploy for each
-friendly operative more than once per battle.
+Usa esta Firefight ploy al final de la activacion de un aliado **WYRMBLADE**. Si ese Operativo tiene
+una orden de **Engage**, cambiala a **Conceal**. No puedes usar esta ploy para cada Operativo aliado
+mas de una vez por batalla.
 ]]></string>
 
     <string name="coiled_serpent_lore"><![CDATA[
-When the ambush occurs, it does so with lightning
-speed and precise coordination, obliterating its targets
-in a hail of firepower or slashing blades
+Cuando se produce la emboscada, se lleva a cabo con la velocidad del rayo y una coordinación precisa,
+aniquilando a sus objetivos en una lluvia de fuego o cuchilladas.
 ]]></string>
 
     <string name="coiled_serpent_description"><![CDATA[
-Use this firefight ploy when a friendly
-**WYRMBLADE** operative is shooting or fighting,
-after rolling your attack dice. If that friendly
-operatives order was changed from **Conceal** to
-**Engage** at the start of that activation and this
-is the first time it is performed either the **Shoot**
-or **Fight** action during that activation, you can
-retain one of your normal successes as a critical
-success instead. Note this ploy cannot come into
-effect more than once per activation (you cannot
-use it during both the **Shoot** and **Fight** action in
-the same activation).
+Usa esta Firefight ploy cuando un aliado **WYRMBLADE** este disparando o combatiendo, despues de lanzar
+tus dados de ataque. Si la orden de ese aliado fue cambiada de **Conceal** a **Engage** al inicio de su
+activacion y es la primera vez que hace una accion de **Disparo** o **Combate** durante esa activacion,
+puedes retener uno de tus exitos normal como uno critico en su lugar. Notese que esta ploy no puede
+tener efecto mas de una vez por activacion (no puedes usar esto durante dos acciones de **Disparo**
+o **Combate** durante la misma activacion).
 ]]></string>
 
     <string name="w_loyalty_lore"><![CDATA[
-Neophytes frequently sacrifice themselves for the
-cause, leaping in front of bullets and blades intended for
-the Cults leaders and heroes
+Los neófitos frecuentemente se sacrifican por la causa, interponiéndose entre las balas y las espadas
+destinadas a los líderes y héroes del Culto.
 ]]></string>
 
     <string name="w_loyalty_description"><![CDATA[
-Use this firefight ploy when a friendly
-**WYRMBLADE CULT AGENT** or **WYRMBLADE
-LEADER** operative is selected as the valid target
-of a **Shoot** action or to fight against during
-the **Fight** action. Select one other friendly
-**WYRMBLADE NEOPHYTE** operative (excluding
-**LEADER**) visible to and within 3\" of that first
-friendly operative to become the valid target or to
-be fought against (as appropriate) instead (even
-if it would not normally be valid for this). If it is the
-**Fight** action, treat that other operative as being
-within the fighting operatives control range for
-the duration of that action. If it is the **Shoot** action,
-that other operative is only in cover or obscured if
-the original target was.\n
-\n
-This ploy has no effect if it is the **Shoot** action
-and the ranged weapon has the Blast or Torrent weapon rule.
+Usa esta Firefight ploy Cuando un aliado **WYRMBLADE CULT AGENT** o **WYRMBLADE LEADER** es seleccionado
+como objetivo valido para una accion de **Disparo** o para una accion de **Combate**. Selecciona otro
+aliado **WYRMBLADE NEOPHYTE** (excluyendo **LEADER**) visible y a 3\" de ese primer Operativo
+para que se convierta en un objetivo valido o para que se combata en su lugar (aunque normalmente no
+fuera valido para esto). Si es una accion de **Combate**, trata ese otro Operativo como si estuviera
+dentro del rango de control del enemigo durante esa accion. Si es una accion de **Disparo**, ese
+otro Operativo solo esta en cobertura o Obscurecido si el objetivo original lo estaba.\n
+\nEsta ploy no tiene efecto si la accion de **Disparo** tiene las reglas Blast o Torrent.
 ]]></string>
 
     <string name="a_plan_in_the_making_lore"><![CDATA[
-The Cult will allow no interference in the execution of
-their plan. The Day of Ascension must occur. Even the
-mortally wounded will expend the last of their energy to
-ensure success.
+El Culto no permitirá ninguna interferencia en la ejecución de su plan. El Día de la Ascensión debe
+ocurrir. Incluso los heridos de muerte gastarán sus últimas energías para asegurar el éxito.
 ]]></string>
 
     <string name="a_plan_in_the_making_description"><![CDATA[
-Use this firefight ploy when a friendly **WYRMBLADE NEOPHYTE** operative is
-incapacitated. It can perform a free mission
-action before it is removed from the killzone.
+Usa esta Firefight ploy cuando un aliado **WYRMBLADE NEOPHYTE** es incapacitado. Puede hacer una accion
+de mision gratis antes de ser removido del campo.
 ]]></string>
 
 </resources>

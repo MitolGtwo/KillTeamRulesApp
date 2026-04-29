@@ -97,6 +97,11 @@ val ScoutHeavyGunner = Operative(
     ),
 
     abilities = listOf(
+        Ability(
+            title = "Heavy Weapon Bipod",
+            usage = R.string.heavy_weapon_bipod_usage,
+            description = R.string.heavy_weapon_bipod_description
+        )
     ),
 
 

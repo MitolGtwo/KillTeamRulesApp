@@ -182,39 +182,39 @@ Cada **SANGUAVITAE** especifica cuando puede usarse, debes reducir tu **GORE TAN
 \nNo puedes usar el mismo **SANGUAVITAE** mas de una vez por activacion o Counteract, y no puedes usar mas de
 dos **SANGUAVITAE** por activacion o Counteract. No puedes usar Mania y Fury durante la misma activacion.\n
 \n
-**-Rejuvenate**\n
+**•Rejuvenate**\n
 \n
 **WHEN:** Durante la activacion o Counteract de un **GOREMONGER** aliado, antes o despues de hacer una
 accion.\n
 \n
 **EFFECT:** Ese Operativo recupera D3+1 heridas perdidas.\n
 \n
-**-Mania**\n
+**•Mania**\n
 \n
 **WHEN:** Durante la activacion de un **GOREMONGER** aliado, antes o despues de hacer una accion.\n
 \n
 **EFFECT:** Hasta el inicio de la proxima activacion de ese aliado, añade 1 a su estadistica de APL\n
 \n
-**-Fury**\n
+**•Fury**\n
 \n
 **WHEN:** Durante la activacion de un **GOREMONGER** aliado, antes o despues de hacer una accion.\n
 \n
 **EFFECT:** Ese Operativo puede hacer dos acciones de **Combate**, la segunda es gratis.\n
 \n
-**-Rake**\n
+**•Rake**\n
 \n
 **WHEN:** Cuando un aliado **GOREMONGER** hace la accion **Cargar** durante su activacion.\n
 \n
-**EFFECT:** Cuando un Operativo termina su movimiento durante esa accion, puedes ifligir D3 heridas
+**EFFECT:** Cuando un Operativo termina su movimiento durante esa accion, puedes infligir D3 heridas
 a un enemigo dentro de su rango de control.\n
 \n
-**-Surge**\n
+**•Surge**\n
 \n
 **WHEN:** Cuando un aliado **GOREMONGER** hace la accion **Cargar** o **Reposicion** durante su activacion.\n
 \n
 **EFFECT:** Hasta el final de esa accion, añade 1\" a su estadistica de Move.\n
 \n
-**-Rage**\n
+**•Rage**\n
 \n
 **WHEN:** Cuando un aliado **GOREMONGER** hace la accion de **Combate**.\n
 \n

@@ -108,12 +108,13 @@ No selecciones un objetivo válido, dispara con esta arma a cada Operativo a 2\"
 ]]></string>
 
     <string name="deathkorps_spotter_description"><![CDATA[
-        **SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un Operativo 
-        **DEATHKORPS** aliado a 3\" de este Operativo está disparando a ese Operativo enemigo, puedes usar esta regla. Si lo haces:\n
-        \n- Las armas de distancia de ese Operativo aliado tienen la regla Seek Light.\n
-        \n- Ese Operativo enemigo no puede estar Obscurecido.\n\n
+**SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo.
+Hasta el final del turno, cuando un Operativo  **DEATHKORPS** aliado a 3\" de este Operativo está
+disparando a ese Operativo enemigo, puedes usar esta regla. Si lo haces:\n
+\n• Las armas de distancia de ese Operativo aliado tienen la regla Seek Light.\n
+\n• Ese Operativo enemigo no puede estar Obscurecido.\n\n
 
-        Este Operativo no puede hacer esta acción mientras está en rango de control de un enemigo.
+Este Operativo no puede hacer esta acción mientras está en rango de control de un enemigo.
 ]]></string>
 
 

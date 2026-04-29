@@ -23,7 +23,8 @@ Este Operativo no puede hacer esta acción estando en rango de control de un Ope
     ]]></string>
 
     <string name="veteran_leadership_description"><![CDATA[
-Mientras este Operativo esté en el campo, puedes seleccionar una **SKILL AT ARMS** adicional durante la **STRATEGIC GAMBIT**. No puedes seleccionar la misma dos veces.
+Mientras este Operativo esté en el campo, puedes seleccionar una **SKILL AT ARMS** adicional durante
+la **STRATEGIC GAMBIT**. No puedes seleccionar la misma dos veces.
     ]]></string>
 
     <string name="kasrkin_medic_usage"><![CDATA[

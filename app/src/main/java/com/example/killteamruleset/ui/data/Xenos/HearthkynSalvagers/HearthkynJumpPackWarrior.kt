@@ -29,7 +29,7 @@ val HearthkynJumpPackWarrior = Operative(
     imageRes = R.drawable.salvager_jumpack,
     stats = OperativeStats(
         apl = 2,
-        move = "7\"",
+        move = "8\"",
         save = "3+",
         wounds = 8
     ),

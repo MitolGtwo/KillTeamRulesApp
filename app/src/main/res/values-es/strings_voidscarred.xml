@@ -1,115 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Voidscarred-->
-
     <string name="veteran_rider_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="veteran_rider_description"><![CDATA[
-This operative can perform a 1AP action for
-free during their activation as a result of the Aeldari Raiders rule (instead of the Dash action).
+Este Operativo puede hacer una accion por 1AP gratis durante su activacion como resultado de la regla
+de faccion Aeldari Raiders (en lugar de un Dash).
     ]]></string>
 
     <string name="one_step_ahead_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="one_step_ahead_description"><![CDATA[
-Once per battle, after an enemy operative performs an action, if this operative is
-ready, you can use this rule. If you do, roll one D6: if the result is higher than that enemy operatives
-APL stat, you can interrupt and immediately perform either a free **Shoot** or a free **Fight** action with
-this operative, but you cannot select any other enemy operative as a valid target or to fight against
-during that action (note that secondary targets from the Blast weapon rule can still be targeted). After
-you perform that action, subtract 1 from this operatives APL stat until the end of its next activation.
+Una vez por batalla, despues de que un Operativo enemigo haga una accion, si este Operativo no ha activado
+(Ready), puedes usar esta regla. Si lo haces, lanza un D6: si el resultado es mayor que el APL del enemigo,
+puedes interrumpirlo e inmediatamente hacer una accion gratis de **Dispaor** o una accion gratis de
+**Combate** con este Operativo, pero no puedes seleccionar ningun otro Operativo como objetivo valido o
+pelear contra otro Operativo enemigo durante esa accion (objetivos secundarios por la regla Blast aun
+pueden ser seleccionados). Despues de que hayas hecho esa accion, sustrae 1 a la estadistica de APL de
+este Operativo hasta el final de su proxima activacion.
     ]]></string>
 
     <string name="corsair_blademaster_usage"><![CDATA[
-            Passive
+     Pasiva
     ]]></string>
 
     <string name="corsair_blademaster_description"><![CDATA[
-This operative can perform the **Dash** action
-during an activation in which it performed the **Charge** action,
-but can only use any remaining move distance it had from that **Charge** action (to a maximum of 3\").
+Este Operativo puede hacer la accion de **Dash** durante una activacion en la que haya hecho una accion
+de **Carga**, pero solo puede usar la distancia restante de esa **Carga** (hasta un maximo de 3\").
     ]]></string>
 
     <string name="corsair_blade_stance_usage"><![CDATA[
-            Passive
+            Pasiva
     ]]></string>
 
     <string name="corsair_blade_stance_description"><![CDATA[
-Whenever this operative is fighting or retaliating,
-you can resolve one of your successes before the normal order. If
-you do, that success must be used to block.
+Cuando este Operativo esta combatiendo o retaleando, puedes resolver uno de tus exitos antes del orden
+normal. Si lo haces, ese exito debe ser usado para bloquear.
     ]]></string>
 
-
     <string name="faolchu_bond_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="faolchu_bond_description"><![CDATA[
-The first time during each turning point that this operative is retaliating, if it is ready,
-in the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e. defender instead of attacker).
+La primera vez durante cada turno que este Operativo este retaleando, si no ha activado (ready), en
+la fase de resolver dados de ataque durante esa secuencia, puedes resolver el primer dado (defensor
+en lugar del atacante).
     ]]></string>
 
     <string name="erudite_hunter_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="erudite_hunter_description"><![CDATA[
-**STRATEGIC GAMBIT**. Select one enemy operative within 9\" of this operative. Once during this
-turning point, after that enemy operative performs an action in which it moves, you can interrupt to
-use this rule. If you do, this operative can immediately perform either a free **Reposition**
-action (it cannot end that move further away from that enemy operative), or a free **Charge** action
-(you can change its order to do so, and it must end that move within control range of that enemy operative).
-In a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), ignore Wall terrain when determining further away.
+**STRATEGIC GAMBIT**. Selecciona un Operativo a 9\" de este Operativo. Una vez durante este turno,
+despues de que ese Operativo enemigo haga una accion en la que se haya movido, puedes interrumpir esa
+accion y usar esta regla. Si lo haces, este Operativo puede inmediatamente hacer una **Reposicion**
+gratis (no puede terminar ese movimiento mas lejos de ese Operativo enemigo), o una accion de **Cargar**
+(puedes cambiar su orden para hacerlo, y debe terminar dentro del rango de control de ese Operativo
+enemigo). En un campo que use las regla de espacio cerrado (Tomb World), ignora paredes cuando
+determines estar mas lejos del enemigo.
     ]]></string>
 
-
     <string name="blink_pack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="blink_pack_description"><![CDATA[
-Whenever this operative performs the **Charge, Fall Back** or **Reposition** action, it can warp jump.
-If it does, do not move it. Instead, remove it from the killzone and set it back up wholly within 7\"
-horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone:
-Tomb World, this distance can be measured through Wall terrain). It must be set up in a
-location it can be placed, and unless it is the Charge action, it cannot be set up within control
-range of an enemy operative.
+Cuando este Operativo hace una accion de **Cargar, Fall Back** o **Reposicion**, puede hacer un salto
+del vacio. Si lo hace, no lo muevas. En su lugar, remuevelo del campo y vuelvelo a poner a 7\"
+horizontalmente de su ubicacion original (en campos que usen la regla de espacio cerrado como Tomb World
+puedes medir esto a traves de paredes). Debe ser puesto en un lugar en el que la Miniatura pueda mantenerse,
+y a menos que sea una accion de **Carga**, no puede ser puesto dentro del rango de control de un
+Operativo enemigo.
     ]]></string>
 
     <string name="slicing_attack_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="slicing_attack_description"><![CDATA[
-Whenever this operative performs the **Reposition** action with a warp jump (see other side of card),
-you can use this rule. If you do, after it moves, draw an imaginary
-line 1mm in diameter and up to 7\" long between it and its
-previous location. Note this does not have to be a straight line.
-Inflict D3+2 damage on one enemy operative that line crosses.
-You cannot inflict damage on an enemy operative that was not
-visible to this operative at the start of that action. A 28mm round
-marker can be temporarily placed underneath this operative
-before it moves to help determine this.
+Cuando este Operativo hace una accion de **Reposicion** con su salto del vacio (vease la regla Blink Pack),
+puedes usar esta regla. Si lo haces, despues de moverte, dibuja una linea imaginaria de 1mm de diametro y
+de 7\" de largo entre su locacion antigua y su locacion actual. Notese que esto no tiene que ser una linea
+recta.\n
+\nInflinge D3+2 heridas a un Operativo enemigo que esa linea imaginaria haya atravesado. No puedes infligir
+daño a un Operativo enemigo que no haya sido visible para este Operativo durante el inicio de esa accion.
+Una base de 28mm puede ser usada temporalmente para determinar esto.
     ]]></string>
-
 
     <string name="soul_channel_usage"><![CDATA[
             1AP
     ]]></string>
 
     <string name="soul_channel_description"><![CDATA[
-**PSYCHIC**. Select one other friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
-operative. Until the end of that operatives next activation, add 1 to its APL stat.\n\n
+**PSYCHIC**. Selecciona un aliado **CORSAIR VOIDSCARRED** visible y a 6\" de este Operativo. Hasta
+el final de la siguiente activacion de ese Operativo, añade 1 a su estadistica de APL.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="soul_heal_usage"><![CDATA[
@@ -117,22 +109,21 @@ range of an enemy operative.
     ]]></string>
 
     <string name="soul_heal_description"><![CDATA[
-**PSYCHIC**. Select one friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
-operative. That operative regains up to 2D3 lost wounds.\n\n
+**PSYCHIC**. Selecciona un aliado **CORSAIR VOIDSCARRED** visible y a 6\" de este Operativo. Ese
+Operativo recupera 2D3 heridas perdidas.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
-
     <string name="quick_trigger_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="quick_trigger_description"><![CDATA[
-This operative can perform the **Shoot** action while within control range of an enemy operative. If it
-does, when selecting a valid target, you can only select an enemy operative within this operatives control range, and can
-do so even if other friendly operatives are within that enemy operatives control range.
+Este Operativo puede hacer la accion de **Disparo** mientras este dentro del rango de control de un
+Operativo enemigo. Pero si lo hace, cuando seleccione un objetivo valido, solo puede seleccionar a un
+Operativo enemigo dentro de su rango de control, y puede hacerlo incluso si otro Operativo aliado
+esta dentro del rango de control de ese Operativo enemigo.
     ]]></string>
 
     <string name="corsair_pistol_barrage_usage"><![CDATA[
@@ -140,22 +131,21 @@ do so even if other friendly operatives are within that enemy operatives control
     ]]></string>
 
     <string name="corsair_pistol_barrage_description"><![CDATA[
-Perform two free **Shoot** actions with this operative (this
-takes precedence over action restrictions). You must select
-its fusion pistol for one action and its shuriken pistol for the
-other (in any order).\n\n
+Realiza dos acciones gratis de **Disparo** con este Operativo (esto toma precedencia sobre las restricciones
+de accion). Debes seleccionar su Fusion Pistol para una accion y su Shuriken Pistol para la otra (en
+cualuiqe orden).\n\n
 
-This operative cannot perform this action while it has a
-Conceal order, or during an activation in which it performed the **Shoot** action (or vice versa).
+Este Operativo no puede hacer esta accion mientras tenga una orden de **Conceal**, o durante una
+activacion en la que haya hecho la accion de **Disparo** (o viceversa).
     ]]></string>
 
     <string name="prowling_raiders_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="prowling_raiders_description"><![CDATA[
-You can use the Capricious Flight and Light Fingers firefight ploys for 0CP each if a friendly
-**WARRIOR** operative is the specified **CORSAIR VOIDSCARRED** operative.
+Puedes usar las Firefight ploys Capricious Flight y Light Fingers por 0CP cada una si un aliado
+**WARRIOR** es el **CORSAIR VOIDSCARRED** especificado.
     ]]></string>
 
     <string name="warp_fold_usage"><![CDATA[
@@ -163,15 +153,13 @@ You can use the Capricious Flight and Light Fingers firefight ploys for 0CP each
     ]]></string>
 
     <string name="warp_fold_description"><![CDATA[
-**PSYCHIC.** Select two friendly **CORSAIR VOIDSCARRED** operatives visible to and within 5\" of this
-operative. Remove them both from the killzone and set them
-back up in each others previous locations (in other words,
-swap their positions). If one of them performed the **Charge,
-Fall Back** or **Reposition** action during this turning point
-and the other is ready, the other cannot perform any of those
-actions in its activation during this turning point.\n\n
+**PSYCHIC.** Selecciona dos aliados **CORSAIR VOIDSCARRED** visible y a 5\" de este Operativo. Remueve
+ambos del campo y ponlos en la posicion del otro (en otras palabras invierte sus posiciones). Si uno de ellos
+hace la accion de **Cargar, Fall Back** o **Reposicion** durante este turno y el otro Operativo no ha
+activado (ready), el otro no puede hacer ninguna de esas acciones durante esa activacion durante
+este turno.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="warding_shield_usage"><![CDATA[
@@ -179,224 +167,178 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="warding_shield_description"><![CDATA[
-**PSYCHIC**. Select one friendly **CORSAIR VOIDSCARRED** operative visible to and within 6\" of this
-operative. Until the start of this operatives next activation,
-until it is incapacitated or until it performs this action
-again (whichever comes first), the first time an attack dice
-inflicts Normal Dmg on that friendly operative, ignore that inflicted damage.\n\n
+**PSYCHIC**. Selecciona un aliado **CORSAIR VOIDSCARRED** visible y a 6\" de este Operativo. Hasta el
+inicio de la proxima activacion de este Operativo, hasta que sea incapacitado o hasta que haga esta
+accion otra vez (lo que pase primero), la primera vez que un dado de ataque vaya a infligir daño normal,
+ignora ese daño infligido.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
-
-
-
 
     <!--Faction Rules-->
 
     <string name="rifles_lore"><![CDATA[
-Whilst not all Aeldari outcasts have walked the Path of
-the Warrior, all are skilled in the use of rifles.
+Si bien no todos los marginados Aeldari han recorrido el Camino del Guerrero, todos son hábiles en el
+uso de rifles.
 ]]></string>
 
     <string name="rifles_description"><![CDATA[
-Whenever a friendly **CORSAIR VOIDSCARRED**
-operative is shooting with a shuriken rifle or
-ranger long rifle during an activation in which
-it has not performed the **Charge, Fall Back** or
-**Reposition** action, that weapon has the Accurate
-1 weapon rule. Note that operative is not restricted
-from performing those actions after shooting.
+Cuando un aliado **CORSAIR VOIDSCARRED** esta disparando con su Shuriken Rifle o Ranger Long Rifle
+durante una activacion en la que no haya hecho la accion de **Cargar, Fall Back** o **Reposicion**,
+esa arma gana la regla Accurate 1. Notese que ese Operativo no esta restringido para hacer esos movimientos
+despues de disparar.
 ]]></string>
 
     <string name="aeldari_raiders_lore"><![CDATA[
-Aeldari are lithe, graceful and swift – qualities
-the Corsair Voidscarred utilise to outmanoeuvre
-their enemies.
+Los Aeldari son ágiles, elegantes y veloces; cualidades que los Corsarios Cicatrizados del Vacío
+utilizan para superar en maniobras a sus enemigos.
 ]]></string>
 
     <string name="aeldari_raiders_description"><![CDATA[
-Each friendly **CORSAIR VOIDSCARRED**
-operative can perform a free Dash action during their activation.
+Cada aliado **CORSAIR VOIDSCARRED** puede hacer una accion **Dash** gratis durante sus activaciones.
 ]]></string>
-
-    <!--Equipment-->
-
-    <string name="plunderers_lore"><![CDATA[
-Aeldari Corsairs prioritise profit over glory, moving
-swiftly towards their objective in the hope of seizing
-their prize before the foe can react.
-]]></string>
-
-    <string name="plunderers_description"><![CDATA[
-Up to D3 friendly **CORSAIR VOIDSCARRED**
-operatives can immediately perform a free **Dash**
-action in an order of your choice. This turning
-point, each that does so cannot perform the **Dash**
-action during their activation. You cannot use this
-ploy during the first turning point.
-]]></string>
-
-    <string name="piratical_profiteers_lore"><![CDATA[
-Any foolish enough to attempt to contest a prize claimed
-by the Corsair Voidscarred will soon find themselves
-caught in a blizzard of shuriken fire and sword thrusts.
-]]></string>
-
-    <string name="piratical_profiteers_description"><![CDATA[
-Whenever a friendly **CORSAIR VOIDSCARRED**
-operative is shooting, fighting or retaliating, if it or
-the enemy operative in that sequence contests an
-objective marker or one of your mission markers,
-that friendly operatives weapons have the
-Balanced weapon rule.
-]]></string>
-
-    <string name="mobile_engagement_lore"><![CDATA[
-Aeldari Corsairs rely upon blistering speed to avoid heavy fire.
-]]></string>
-
-    <string name="mobile_engagement_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**CORSAIR VOIDSCARRED** operative that
-performed an action in which it moved during
-this turning point, you can re-roll one of your
-defence dice.
-]]></string>
-
-    <string name="outcasts_lore"><![CDATA[
-Those who walk the Path of the Outcast are no strangers to solitude. Some even fight better alone.
-]]></string>
-
-    <string name="outcasts_description"><![CDATA[
-Whenever a friendly **CORSAIR VOIDSCARRED**
-operative is more than 5\" from other friendly
-operatives, its weapons have the Punishing weapon rule.
-]]></string>
-
 
 
     <!--Ploys-->
     <!--Strategy ploys-->
-    <string name="opportunistic_fighters_lore"><![CDATA[
-Should the foe show weakness, the Corsair Voidscarred
-will redouble their attack, seeking to slaughter the
-enemy before they can regroup.
+    <string name="plunderers_lore"><![CDATA[
+Los corsarios aeldari priorizan el beneficio sobre la gloria, avanzando
+rápidamente hacia su objetivo con la esperanza de apoderarse
+de su botín antes de que el enemigo pueda reaccionar.
 ]]></string>
 
-    <string name="opportunistic_fighters_description"><![CDATA[
-Use this firefight ploy when an enemy operative
-performs the **Fall Back** action. Before it moves,
-inflict 2D3 damage on that operative for each
-friendly **CORSAIR VOIDSCARRED** operative within its control range.
+    <string name="plunderers_description"><![CDATA[
+Hasta D3 aliados **CORSAIR VOIDSCARRED** pueden inmediatamente hacer la accion de **Dash** gratis en la
+orden que quieras. durante este turno, cada uno que lo haga no puede hacer la accion de **Dash** durante
+sus activaciones. No puedes usar esta ploy durante el primer turno.
 ]]></string>
 
-    <string name="light_fingers_lore"><![CDATA[
-The pursuit of riches drives all Corsairs. These lithe
-raiders may pluck a prize from under the nose of a foe
-and disappear before a blow can be landed in return.
+    <string name="piratical_profiteers_lore"><![CDATA[
+Cualquier insensato que intente disputar un premio reclamado
+por el Corsario Cicatrizado del Vacío pronto se verá
+atrapado en una ventisca de fuego de shuriken y estocadas de espada.
 ]]></string>
 
-    <string name="light_fingers_description"><![CDATA[
-Use this firefight ploy during a friendly **CORSAIR VOIDSCARRED** operatives activation. Until the
-end of that activation, having an enemy operative
-within its control range does not prevent that
-friendly operative from performing the **Pick Up Marker** or mission actions.
+    <string name="piratical_profiteers_description"><![CDATA[
+Cuando un aliado **CORSAIR VOIDSCARRED** esta disparando, combatiendo o retaleando, si o el enemigo
+al que esta seleccionando esta contesteando un objetivo o un marcador de mision, las armas de ese
+aliado ganan la regla Balanced.
 ]]></string>
 
-    <string name="capricious_flight_lore"><![CDATA[
-Always outnumbered and often outgunned, the Corsair
-Voidscarred utilise feints and trickery to strike before
-melting away into shadow.
+    <string name="mobile_engagement_lore"><![CDATA[
+Los corsarios Aeldari dependen de una velocidad vertiginosa para evitar el fuego intenso.
 ]]></string>
 
-    <string name="capricious_flight_description"><![CDATA[
-Use this firefight ploy during a friendly **CORSAIR VOIDSCARRED** operatives activation, before or
-after it performs an action. During that activation,
-that operative can perform the **Fall Back** action for 1 less AP.
+    <string name="mobile_engagement_description"><![CDATA[
+Cuando un Operativo esta disparando a un aliado **CORSAIR VOIDSCARRED** que haya hecho una accion en
+la que se haya movido durante este turno, puedes re-rollear uno de tus dados de defensa.
 ]]></string>
 
-    <string name="contemptuous_adventurer_lore"><![CDATA[
-The Corsair Voidscarred possess a fearless arrogance
-that is often justified by their superior skill at arms.
+    <string name="outcasts_lore"><![CDATA[
+Quienes transitan el Sendero del Marginado no son ajenos a la soledad. Algunos incluso luchan mejor solos.
 ]]></string>
 
-    <string name="contemptuous_adventurer_description"><![CDATA[
-Use this firefight ploy when the first friendly
-**CORSAIR VOIDSCARRED** operative is activated
-during the turning point, if it is more than 5\"
-from other friendly operatives. The first time that
-operative performs either the **Shoot** or **Fight**
-action during that activation, its weapons have
-the Relentless weapon rule. Note this ploy cannot
-come into effect more than once per activation
-(you cannot use it during both the **Shoot** and
-**Fight** action in the same activation).
+    <string name="outcasts_description"><![CDATA[
+Cuando un aliado **CORSAIR VOIDSCARRED** esta a mas de 5\" de otro aliado, sus armas ganan la regla
+Punishing.
 ]]></string>
-
 
 
     <!--Firefight ploys-->
+    <string name="opportunistic_fighters_lore"><![CDATA[
+Si el enemigo muestra debilidad, los Corsarios Cicatrizados del Vacío
+redoblarán su ataque, buscando masacrar al
+enemigo antes de que pueda reagruparse.
+]]></string>
+
+    <string name="opportunistic_fighters_description"><![CDATA[
+Usa esta Firefight ploy cuando un Operativo hace una accion de **Fall Back**. Antes de que lo haga,
+inflige 2D3 heridas a ese Operativo por cada aliado **CORSAIR VOIDSCARRED** dentro de su rango de control.
+]]></string>
+
+    <string name="light_fingers_lore"><![CDATA[
+La búsqueda de riquezas impulsa a todos los corsarios. Estos ágiles asaltantes pueden arrebatar un
+botín a un enemigo ante sus narices y desaparecer antes de que este pueda contraatacar.
+]]></string>
+
+    <string name="light_fingers_description"><![CDATA[
+Usa esta Firefight ploy durante la activacion de un aliado **CORSAIR VOIDSCARRED**. Hasta el final
+de esa activacion, tener un Operativo enemigo dentro de su rango de control no previene que ese
+aliado pueda hacer la accion de **Pick up Marker** o accion de mision.
+]]></string>
+
+    <string name="capricious_flight_lore"><![CDATA[
+Siempre en inferioridad numérica y a menudo de armamento, los Corsarios
+Cicatrizados por el Vacío utilizan fintas y engaños para atacar antes de
+desvanecerse en las sombras.
+]]></string>
+
+    <string name="capricious_flight_description"><![CDATA[
+Usa esta Firefight ploy durante una activacion de un aliado **CORSAIR VOIDSCARRED**, antes o despues
+de que haga una accion. Durante esa activacion, ese Operativo puede hacer la accion de **Fall Back**
+por 1 AP menos.
+]]></string>
+
+    <string name="contemptuous_adventurer_lore"><![CDATA[
+Los Corsarios Cicatrizados del Vacío poseen una arrogancia intrépida que a menudo se justifica por
+su superior destreza con las armas.
+]]></string>
+
+    <string name="contemptuous_adventurer_description"><![CDATA[
+Usa esta Firefight ploy cuando el primer aliado **CORSAIR VOIDSCARRED** active durante el turno,
+si esta a mas de 5\" de otros aliados. La primera vez que ese Operativo haga la accion de **Disparo**
+o **Combate** durante esa activacion, sus armas ganan la regla Relentless. Notese que esta ploy no
+puede tener efecto mas de una vez por activacion (no puedes usarla durante dos acciones de **Disparo**
+o dos acciones de **Combate** durante la misma activacion).
+]]></string>
+
+
+    <!--Equipment-->
     <string name="diuturnal_mantles_lore"><![CDATA[
-The cloaks worn by Corsair Voidscarred operatives
-are woven from psychoactive material that hardens in
-response to explosions and fluctuations in temperature.
+Las capas que visten los agentes Corsair Voidscarred
+están tejidas con un material psicoactivo que se endurece en respuesta a
+explosiones y fluctuaciones de temperatura.
 ]]></string>
 
     <string name="diuturnal_mantles_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**CORSAIR VOIDSCARRED** operative, if the
-ranged weapon in that sequence has the Blast
-or Torrent weapon rule, you can re-roll one of
-your defence dice. In addition, friendly **CORSAIR VOIDSCARRED** operatives are not affected by the
-x" Devastating x weapon rule (i.e. Devastating
-with a distance) unless they are the target during
-that sequence.
+Cuando un Operativo esta disparando a un aliado **CORSAIR VOIDSCARRED**, si el arma a distancia en esa
+secuencia tiene la regla Blast o Torrent, puedes re-rollear uno de tus dados de defensa. En adicion,
+aliados **CORSAIR VOIDSCARRED** no son afectados por la distancia x\" de la regla Devastating x, a menos
+que sean el objetivo principal durante esa secuencia.
 ]]></string>
 
     <string name="mistfield_lore"><![CDATA[
-A mistfield projects a field of thick moisture around the
-bearer that not only obscures their form, but also slows
-bullets, reducing their lethality.
+Un campo de niebla proyecta una densa capa de humedad alrededor del portador que no solo oculta su
+forma, sino que también ralentiza las balas, reduciendo su letalidad.
 ]]></string>
 
     <string name="mistfield_description"><![CDATA[
-Once per turning point, when an operative is
-shooting a friendly **CORSAIR VOIDSCARRED**
-operative more than 3\" from it, at the start of the
-Roll Defence Dice step, you can use this rule. If
-you do, worsen the x of the Piercing weapon rule
-by 1 (if any) until the end of that sequence. Note
-that Piercing 1 would therefore be ignored.
+Una vez por turno, cuando un Operativo esta disparando a un aliado **CORSAIR VOIDSCARRED** a mas de
+3\" de el, al inicio de la fase de lanzar dados de defensa, puedes usar esta regla para reducir el
+valor de Piercing del arma enemiga por 1 durante esta secuencia. Notese que esto haria que Piercing 1
+no tenga efecto.
 ]]></string>
 
     <string name="runes_of_guidance_lore"><![CDATA[
-Corsair psykers wield warp powers with consummate
-precision, lending their foresight to distant allies.
+Los psíquicos corsarios manejan los poderes de la disformidad con una precisión consumada,
+prestando su clarividencia a aliados lejanos.
 ]]></string>
 
     <string name="runes_of_guidance_description"><![CDATA[
-Once per turning point, when a friendly **CORSAIR
-VOIDSCARRED WAY SEEKER** or **CORSAIR
-VOIDSCARRED SOUL WEAVER** operative is
-performing a **PSYCHIC** unique action (excluding
-**Warp Fold**), you can use this rule. If you do,
-until the end of that action, add 3\" to its
-distance requirement. Note this has no effect on
-**PSYCHIC** weapons (e.g. the Devastating distance
-requirement of lightning strike).
+Una vez por turno, cuando un aliado **CORSAIR VOIDSCARRED WAY SEEKER** o **CORSAIR VOIDSCARRED SOUL WEAVER**
+este haciendo una accion **PSYCHIC** unica (excluyendo **WARP FOLD**), puedes usar esta regla para
+añadir 3\" a su requerimiento de distancia. Notese que esto no tiene efecto sobre armas **PSYCHIC**
+(la distancia de la regla Devastating del Lighting Strike).
 ]]></string>
 
     <string name="star_charts_lore"><![CDATA[
-The Corsair Voidscarred utilise their peerless knowledge
-of the void to outmanoeuvre their foes
+Los Corsarios Cicatrizados del Vacío utilizan su conocimiento incomparable del vacío para superar a
+sus enemigos.
 ]]></string>
 
     <string name="star_charts_description"><![CDATA[
-**STRATEGIC GAMBIT**. Roll one D3: if the result
-is higher than the number of the current
-turning point, you gain 1CP and cannot use this
-**STRATEGIC GAMBIT** for the rest of the battle.
+**STRATEGIC GAMBIT**. Lanza un D3: si el resultado es mayor que el turno actual, ganas 1CP y no puedes
+usar esta regla durante el resto de la batalla.
 ]]></string>
 
 </resources>

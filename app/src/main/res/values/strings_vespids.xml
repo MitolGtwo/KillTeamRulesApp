@@ -29,7 +29,7 @@ enemy operatives, that ploy costs you 0CP.
 
     <string name="evasive_drone_description"><![CDATA[
 • This operative cannot perform any actions other than **Aerial Guidance, Charge, Dash, Fall Back, Fight**
-and Reposition**.\n
+and **Reposition**.\n
 \n
 • Whenever determining control of an objective marker, treat
 this operatives APL stat as 1 lower. Note this is not a change to

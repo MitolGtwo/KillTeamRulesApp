@@ -320,7 +320,7 @@ Al derrotar al enemigo más fuerte y hábil, los Blooded pueden ofrecer una ofre
 ]]></string>
 
     <string name="glory_kill_description"><![CDATA[
-Selecciona un Operativo enemigo visible por un aliado **BLOODED**. Hasta el final del turno, cuando un aliado **BLOODED** dispare, combata, o retalee contra ese
+Selecciona un Operativo enemigo. Hasta el final del turno, cuando un aliado **BLOODED** dispare, combata, o retalee contra ese
 enemigo, el arma usada gana la regla Ceaseless, o Relentless si ese Operativo tiene uno de tus Blooded tokens.
 ]]></string>
 

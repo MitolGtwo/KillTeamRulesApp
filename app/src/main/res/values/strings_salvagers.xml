@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <!--Salvages-->
 
     <string name="eye_of_the_ancestors_usage"><![CDATA[
@@ -235,7 +234,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="salvagers_well_supplied_description"><![CDATA[
-You can select one additional equipment option.
+You can select one additional equipment option,and in the Ready step of the first Strategy phase, you gain 1
+additional CP.
     ]]></string>
 
     <string name="got_it_usage"><![CDATA[
@@ -383,7 +383,8 @@ The Kin revere their Ancestors and are guided by the lessons of their forebears.
 
     <string name="the_ancestors_are_watching_description"><![CDATA[
 Use this firefight ploy during a friendly **HEARTHKYN SALVAGER** operatives activation.
-Until the end of that activation, that operative can perform either a free **Shoot** or a free **Fight** action.
+Until the end of that activation, that operative can perform either a free **Shoot** or a free **Fight** action
+and you can ignore any changes to that operatives weapon stats from being injured.
 ]]></string>
 
     <string name="worth_it_lore"><![CDATA[

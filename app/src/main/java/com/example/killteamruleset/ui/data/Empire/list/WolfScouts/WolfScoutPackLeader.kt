@@ -12,7 +12,7 @@ val WolfScoutPackLeader = Operative(
         apl = 3,
         move = "7\"",
         save = "3+",
-        wounds = 14
+        wounds = 13
     ),
     weapons = listOf(
         WeaponProfile(

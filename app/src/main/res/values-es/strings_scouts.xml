@@ -7,7 +7,7 @@
 
     <string name="guidance_and_experience_description"><![CDATA[
 Una vez durante cada una de las activaciones de este Operativo, puedes seleccionar a otro aliado
-**SCOUT SQUAD** visible a para este Operativo. Hasta el final de la proxima activacion de ese Operativo,
+**SCOUT SQUAD** en el campo. Hasta el final de la proxima activacion de ese Operativo,
 añade 1 a su estadistica de APL.
     ]]></string>
 
@@ -75,6 +75,18 @@ Puedes hacer cada una de estas acciones una vez por turno:\n
 \nLas reglas de estas acciones pueden ser encontradas en el equipamiento universal. Hacer estas
 acciones no cuenta sobre el limite de granadas seleccionadas.
     ]]></string>
+
+<string name="heavy_weapon_bipod_usage"><![CDATA[
+    Pasiva
+]]></string>
+
+<string name="heavy_weapon_bipod_description"><![CDATA[
+Cuando este Operativo este disparando con un Heavy Bolter o Missile Launcher,
+si no se ha movido durante su activacion, o si es un Counteract, esa arma gana la regla Ceaseless, si
+esa arma ya tiene esa regla, gana la regla Relentless en su lugar. Notese que este Operativo no esta
+restringido de moverse despues de disparar.
+]]></string>
+
 
     <!--Faction Rules-->
 
@@ -164,16 +176,14 @@ Aliados **SCOUT SQUAD** tienen la siguiente arma de melee. Notese que algunos Op
 esta arma pero con mejores estadisticas, en ese caso, usa la mejor version.
 ]]></string>
 
-    <string name="heavy_weapon_bipod_lore"><![CDATA[
-Desplegando los bipodes de las armas pesadas permiten al portador controlar el retroceso y hacer llover
-fuego al enemigo.
+    <string name="tactical_vox_link_lore"><![CDATA[
+El Sargento mantiene una constante conexion con los aspirantes a traves del vox, dirigiendo sus
+ataques con mortal presicion.
 ]]></string>
 
-    <string name="heavy_weapon_bipod_description"><![CDATA[
-Cuando un aliado **SCOUT SQUAD HEAVY GUNNER** este disparando con un Heavy Bolter o Missile Launcher,
-si no se ha movido durante su activacion, o si es un Counteract, esa arma gana la regla Ceaseless, si
-esa arma ya tiene esa regla, gana la regla Relentless en su lugar. Notese que este Operativo no esta
-restringido de moverse despues de disparar.
+    <string name="tactical_vox_link_description"><![CDATA[
+Una vez por turno, puedes usar la ploy Astartes Training o Emboldened Aspirant por 0CP si un aliado
+**SERGEANT** esta en el campo.
 ]]></string>
     <!--Ploys-->
     <!--Strategy ploys-->

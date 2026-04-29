@@ -301,14 +301,11 @@ operatives (if you cannot do so, treat the roll as 1-2 instead).\n
 \n
 • Remove that Reanimation marker.\n
 \n
-For the purposes of the kill op, your opponent
-treats your starting number of **HIEROTEK CIRCLE** operatives as 5 (in other words,
-their kill grade goes up whenever a friendly
-**HIEROTEK CIRCLE** operative is incapacitated,
-to a maximum kill grade of 5, and goes down
-whenever a friendly **HIEROTEK CIRCLE** operative
-is **REANIMATED**). **REANIMATED** operatives don’t retroactively change any other VPs your opponent
-has scored, e.g. from tac ops.
+As **REANIMATED** operatives are no longer incapacitated,
+for the purposes of the kill op, this means your opponents
+kill grade can go down during the battle (they lose VP
+accordingly). However, it would not retroactively change any other
+VPs your opponent has scored, e.g. from tac ops.
 
 
 ]]></string>

@@ -162,7 +162,7 @@ Scarper de este equipo (tiene esta regla en su lugar).
     ]]></string>
 
     <string name="ratlings_spot_description"><![CDATA[
-**SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno,
+**SUPPORT.** Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de este turno,
 Cuando un aliado **RATLING** a 3\" de este Operativo este disparando a ese Operativo enemigo, puedes
 usar este efecto. Si lo haces:\n
 \n• Las armas a distancia de ese Operativo ganan la regla Seek Light.\n

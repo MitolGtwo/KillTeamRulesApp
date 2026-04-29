@@ -165,18 +165,23 @@ within control range of an enemy Operative.
 ]]>
     </string>
     <string name="seek_and_destroy_01_additional">
-        <![CDATA[When an enemy Operative that contests an objective marker is incapacitated,
-                     that objective marker gains one of your Swept tokens(if it doesnt have one already)
-                     until the Ready step of the next Strategy phase.]]>
-    </string>
-    <string name="seek_and_destroy_01_victory">
-        <![CDATA[At the end of each turning point after the first, if friendly operatives
-                     control any objective markers that have one of your Swept tokens, you score 1VP.\n
+        <![CDATA[
+When an enemy Operative that contests an objective marker is incapacitated,
+that objective marker gains one of your Swept tokens(if it doesnt have one already)
+until the Ready step of the next Strategy phase.
 
-                     \nIf this is true and any of those objective markers are also cleared, you score
-                     2VP instead.\n
-                     \nYou cannot score more than 2VP from this TacOp per turning point.]]>
-    </string>
+]]></string>
+    <string name="seek_and_destroy_01_victory">
+        <![CDATA[
+At the end of each turning point after the first, if at least one
+objective marker (excluding your objective marker) is cleared
+and enemy operatives do not contest that marker, you score
+1VP. If that marker also has one of your Swept tokens, you
+score 2VP instead.
+
+If friendly operatives control an objective marker that has one
+of your Swept tokens, you score 1 VP.’
+]]></string>
 
 
     <string name="seek_and_destroy_02_reveal">
@@ -200,10 +205,12 @@ you score 2 VP instead.\n
         The first time an enemy Operative is incapacitated by a friendly Operative.
     </string>
     <string name="seek_and_destroy_03_additional">
-        <![CDATA[Each time a friendly Operative incapacitates an enemy Operative, that
-                     friendly Operative gains one of your Dominate tokens.]]>
+        <![CDATA[
+Each time a friendly Operative incapacitates an enemy Operative, that
+friendly Operative gains one of your Dominate tokens, or two of your Dominate tokens if that enemy operative had a
+Wounds stat of 12 or more.
 
-    </string>
+]]></string>
     <string name="seek_and_destroy_03_victory">
         <![CDATA[At the end of the third and fourth turning point, you can remove Dominate
                      tokens from friendly Operatives that arent incapacitated. For each you remove,
@@ -254,15 +261,10 @@ Operatives are carrying, you score 1VP.
 ]]>
     </string>
 
-    <string name="infiltration_03_title">
-        PLANT DEVICES
-    </string>
     <string name="infiltration_03_reveal">
         The first time a friendly Operative performs the Plant Device action.
     </string>
-    <string name="infiltration_03_atitle">
-        PLANT DEVICE
-    </string>
+
     <string name="infiltration_03_usage">
         1 APL / Firefight Phase
     </string>

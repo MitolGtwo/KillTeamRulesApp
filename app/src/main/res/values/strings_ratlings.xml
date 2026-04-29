@@ -192,7 +192,7 @@ Scarper faction rule (it has this rule instead).
     ]]></string>
 
     <string name="ratlings_spot_description"><![CDATA[
-**SUPPORT.** Select one enemy operative visible to this operative. Once during this turning point, when a friendly **RATLING**
+**SUPPORT.** Select one enemy operative visible to this operative. Until the end of this turning point, when a friendly **RATLING**
 operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n
 \n• The Operatives distance weapons have the Seek Light rule.\n
 \n• That enemy Operative cannot be Obscured.\n\n

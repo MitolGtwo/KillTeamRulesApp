@@ -55,19 +55,12 @@ fun AppNavigation(navController: NavHostController) {
         navController = navController,
         startDestination = "main"
     ) {
-
-        // ─────────────────────────────
-        // 🏠 MAIN SHELL (BOTTOM BAR + DRAWER)
-        // ─────────────────────────────
         composable(route = "main") {
             MainScreen(navController = navController) {
                 MainDashboard(navController)
             }
         }
 
-        // ─────────────────────────────
-        // 📚 RESOURCES FLOW
-        // ─────────────────────────────
         composable(route = "maps_critops") {
             MapsCritOpsScreen(
                 onMapsClick = { navController.navigate("maps") },
@@ -88,9 +81,9 @@ fun AppNavigation(navController: NavHostController) {
             )
         }
 
-        // ─────────────────────────────
+
         // 🧬 ALLIANCES & TEAMS
-        // ─────────────────────────────
+
         composable("alliances/{isPlayer}") { backStack ->
 
             val isPlayer = backStack.arguments

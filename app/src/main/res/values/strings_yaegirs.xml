@@ -50,7 +50,7 @@ operative is removed from the killzone.
     ]]></string>
 
     <string name="wroughtlock_revolvers_description"><![CDATA[
-**STRATEGIC GAMBIT**. Thisoperative can immediately perform a free Shoot action (you can
+**STRATEGIC GAMBIT**. This operative can immediately perform a free **Shoot** action (you can
 change its order to **Engage** to do so)
     ]]></string>
 
@@ -171,7 +171,7 @@ In the Ready step of each Strategy phase after the first, you gain Resourceful p
 by the number of friendly **HERNKYN YAEGIR** operatives in the killzone that are not within control
 range of enemy operatives. At the end of each turning point, discard your Resourceful points.\n
 \n
-You can spend 1 of your Resourceful points during each activation of each friendly HERNKYN**
+You can spend 1 of your Resourceful points during each activation of each friendly **HERNKYN
 YAEGIR** operative to do one of the following:\n
 \n
 • Before or after it performs an action, if it is not within control range of enemy operatives,
@@ -227,7 +227,7 @@ phosphor, detonating on impact and emitting a cloud of lethal burning shards.
     <string name="firestorm_bolt_shells_description"><![CDATA[
 Once per turning point, when a friendly **HERNKYN YAEGIR** operative is performing the **Shoot** action
 and you select a bolt shotgun (short range), you can use this rule. If you do, until the end of that
-action, that weapon has the Blast 1" weapon rule.
+action, that weapon has the Blast 1\" weapon rule.
 ]]></string>
 
     <string name="kv_ceramide_undersuit_lore"><![CDATA[
@@ -267,7 +267,7 @@ operatives base targeting lines are drawn from).
 ]]></string>
 
     <string name="yaegir_masterbladework_lore"><![CDATA[
-aegirs are extensively trained in the use of plasma
+Yaegirs are extensively trained in the use of plasma
 knives and other close combat weapons, wielding them
 with ruthless precision
 ]]></string>

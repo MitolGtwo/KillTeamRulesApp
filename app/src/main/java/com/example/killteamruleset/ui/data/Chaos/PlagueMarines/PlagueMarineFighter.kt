@@ -8,6 +8,7 @@ import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
 
@@ -22,6 +23,16 @@ val PlagueMarineFighter = Operative(
         wounds = 14
     ),
     weapons = listOf(
+        WeaponProfile(
+            name = "Bolt Pistol",
+            type = WeaponType.RANGED,
+            attacks = 4,
+            hit = "3+",
+            damage = "3/4",
+            keywords = listOf(
+                Range(8)
+            )
+        ),
         WeaponProfile(
             name = "Flail of corruption",
             type = WeaponType.MELEE,

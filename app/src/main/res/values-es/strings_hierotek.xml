@@ -83,7 +83,7 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     <string name="nightmare_shroud_description"><![CDATA[
 Hasta el inicio de la proxima activacion de este Operativo, hasta que este 
 Operativo sea incapacitado o hasta que esta accion sea hecha otra vez por un aliado (lo que pase primero),
-cuando un Operativo enemigo a 4\" este combatiendo, retaleando o disparando, tu oponente no puede rerollear 
+cuando un Operativo enemigo a 4\" de este Operativo este combatiendo, retaleando o disparando, tu oponente no puede rerollear
 dados y no puede retener criticos con resultados menos a 6 (como Rending, Punishing o Lethal).\n\n
 
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
@@ -251,9 +251,10 @@ trata el lanzamiento de dado como si fuera un 1-2).\n
 \n• Tiene 1 herida restante.\n
 \n• Tiene una orden de tu eleccion y esta Ready (es activable).\n
 \n• Remueve ese Reanimation token.\n
-\nPara el proposito de esta Kill Op, tu oponente trata el numero inicial del **HIEROTEK CIRCLE** como si fuera 
-un equipo de 5 Operativos (Gana VP por kill op cuando es incapacitado, y los pierde cuando el Operativo es **REANIMATED**).
-**REANIMATED** no cambian retroactivamente cualquier otro VP que tu oponente haya ganado, como por Tac Ops.
+\n
+Como un Operativo **REANIMATED** ya no esta incapacitado, significa que la kill op de tu oponente puede
+disminuirse durante la batalla. Sin embargo, no cambian retroactivamente cualquier otro VP que tu
+oponente haya ganado, como por Tac Ops.
 
 
 ]]></string>

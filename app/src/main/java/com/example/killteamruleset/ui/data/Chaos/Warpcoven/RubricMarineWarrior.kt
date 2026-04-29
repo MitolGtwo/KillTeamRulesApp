@@ -19,7 +19,7 @@ val RubricMarineWarrior = Operative(
     stats = OperativeStats(
         apl = 3,
         move = "5\"",
-        save = "3+",
+        save = "2+",
         wounds = 14
     ),
     weapons = listOf(

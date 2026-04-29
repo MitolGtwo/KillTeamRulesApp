@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <!--Wolf-->
 
     <string name="lupine_guile_usage"><![CDATA[
@@ -37,10 +36,7 @@ the Savage Fighters strategy ploy at the end of that action.
 You can ignore any changes to the stats of
 friendly **WOLF SCOUT** operatives (excluding **FENRISIAN
 WOLF**) from being injured (including their weapons stats).
-Friendly **WOLF SCOUT** operatives (excluding **FENRISIAN
-WOLF**) are not affected by enemy operatives Shock and Stun
-weapon rules and you can ignore any changes to their APL stat.
-Note that friendly operatives have these rules if you select this
+Note that friendly operatives have this rule if you select this
 operative for the battle (even if it is incapacitated later).
     ]]></string>
 
@@ -75,7 +71,7 @@ rest of the turning point (i.e. it cannot Shoot both during the interruption and
     ]]></string>
 
     <string name="hunter_sense_description"><![CDATA[
-Select one of the following rules for all profiles of this
+Select one of the following rules this
 operatives instigator bolt carbine to have until the start of its
 next activation:\n
 \n• Severe.\n
@@ -225,8 +221,7 @@ your **STORM**.\n
 \n
 Each friendly **WOLF SCOUT** operative can
 perform the **Charge** action while it has a Conceal
-order if it starts and/or ends that action within
-your **STORM**.
+order if it ends that action within your **STORM**.
 ]]></string>
 
     <string name="hunting_astartes_lore"><![CDATA[
@@ -266,11 +261,8 @@ diamond, appearing as if forged from purest ice.
 ]]></string>
 
     <string name="frost_weapons_description"><![CDATA[
-Friendly **WOLF SCOUT** operatives combat
-blades have the Lethal 5+ weapon rule, and one
-friendly **WOLF SCOUT PACK LEADER** operatives
-power weapon has the Lethal 4+ weapon rule
-(if any).
+Whenever a Friendly **WOLF SCOUT** operatives is wholly within your **STORM**, its combat
+blades (if any) has the Lethal 5+ weapon rule.
 ]]></string>
 
     <string name="runic_charms_lore"><![CDATA[
@@ -283,7 +275,8 @@ the Space Wolves believe can ward their very souls.
     <string name="runic_charms_description"><![CDATA[
 Once per turning point, when an operative is
 shooting a friendly **WOLF SCOUT** operative
-(excluding **FENRISIAN WOLF**), at the start of the
+(excluding **FENRISIAN WOLF**) that is wholly within
+your **STORM**, at the start of the
 Roll Defence Dice step, you can use this rule. If
 you do, worsen the x of the Piercing weapon rule
 by 1 (if any) until the end of that sequence. Note
@@ -316,10 +309,10 @@ tokens of luck and protection against malign attacks.
 
     <string name="talismanic_trophies_description"><![CDATA[
 Whenever a friendly **WOLF SCOUT** operative
-(excluding **FENRISIAN WOLF**) is fighting or
+(excluding **FENRISIAN WOLF**) that is wholly within your **STORM** is fighting or
 retaliating, in the Resolve Attack Dice step, you
 can subtract 1 from the damage inflicted on it
-from one success.
+from one normal success.
 ]]></string>
 
 

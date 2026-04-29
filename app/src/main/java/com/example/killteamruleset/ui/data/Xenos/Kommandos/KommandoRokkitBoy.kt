@@ -45,7 +45,7 @@ val KommandoRokkitBoy = Operative(
             )
         ),
         WeaponProfile(
-            name = "Rokkit Launcha (aimed)",
+            name = "Rokkit Launcha",
             type = WeaponType.RANGED,
             attacks = 6,
             hit = "4+",

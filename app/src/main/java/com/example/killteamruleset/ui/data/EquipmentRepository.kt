@@ -536,10 +536,10 @@ object EquipmentRepository {
             ),
 
             Equipment(
-                id = "heavy_weapon_bipod",
-                name = "HEAVY WEAPON BIPOD",
-                lore =R.string.heavy_weapon_bipod_lore,
-                description = R.string.heavy_weapon_bipod_description
+                id = "tactical_vox_link",
+                name = "TACTICAL VOX LINK",
+                lore =R.string.tactical_vox_link_lore,
+                description = R.string.tactical_vox_link_description
             )
         ),
 

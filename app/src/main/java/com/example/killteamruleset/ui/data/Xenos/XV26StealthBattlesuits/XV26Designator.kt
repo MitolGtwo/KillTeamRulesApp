@@ -98,6 +98,11 @@ val XV26Designator = Operative(
             title = "Markerlight",
             usage = R.string.xv26_markerlight_usage,
             description = R.string.xv26_markerlight_description
+        ),
+        Ability(
+            title = "Focused Markerlight",
+            usage = R.string.focused_markerlight_usage,
+            description = R.string.focused_markerlight_description
         )
     ),
 

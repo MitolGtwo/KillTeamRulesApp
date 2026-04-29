@@ -28,7 +28,8 @@ range of an enemy operative.
     <string name="veteran_leadership_description"><![CDATA[
 Whenever this operative is in the killzone
 and you use the **SKILL AT ARMS STRATEGIC GAMBIT**,
-you can select one additional **SKILL AT ARMS**.
+you can select one additional **SKILL AT ARMS** but they
+cannot be the same.
     ]]></string>
 
     <string name="kasrkin_medic_usage"><![CDATA[

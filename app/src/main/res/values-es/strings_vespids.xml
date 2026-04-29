@@ -1,48 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Vespid-->
-
     <string name="communion_helm_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="communion_helm_description"><![CDATA[
-Once during each of this operatives activations, you can spend 1 Communion point for free.
+Una vez durante cada activacion de este Operativo, puedes gastar 1 punto de Comunion gratis.
     ]]></string>
 
     <string name="vespid_commune_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="vespid_commune_description"><![CDATA[
-When selecting your operatives for the battle, also
-select one **VESPID STINGWING** strategy ploy. Whenever
-this operative is in the killzone and is not within control range of
-enemy operatives, that ploy costs you 0CP.
+Cuando selecciones tus Operativos para la batalla, tambien escoge una Strategy ploy **VESPID STINGWING**.
+Mientras este Operativo este en el campo y no dentro del rango de control de un Operaitvo enemigo,
+esa ploy cuesta 0CP.
     ]]></string>
 
     <string name="evasive_drone_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="evasive_drone_description"><![CDATA[
-• This operative cannot perform any actions other than **Aerial Guidance, Charge, Dash, Fall Back, Fight**
-and Reposition**.\n
-\n
-• Whenever determining control of an objective marker, treat
-this operatives APL stat as 1 lower. Note this is not a change to
-its APL stat, so any changes are cumulative with this.\n
-\n
-• Whenever determining what is visible to this operative, the
-round disc at the top of the miniature is its head.\n
-\n
-• Whenever this operative has a **Conceal** order and is in cover, it
-cannot be selected as a valid target, taking precedence over all
-other rules (e.g. Seek, Vantage terrain) except being within 2\".\n
-\n
-• Whenever an operative is shooting this operative, ignore the Piercing weapon rule.
+• Este Operativo no puede hacer ninguna accion otra que **Aerial Guidance, Cargar, Dash, Fall Back,
+Combatir** y **Reposicion**.\n
+\n• Cuando determines el control de un objetivo, trata el APL de este Operativo como si tuviera 1 menos.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+\n• Cuando determines que es visible para este Operativo, el disco redondo del tope de la miniatura es
+su cabeza.\n
+\n• Cuando este Operativo tenga una orden de **Conceal** y este en cobertura no puede ser seleccionado
+como objetivo valido, esto toma precedencia sobre todas las demas reglas, excepto estar a 2\"\n
+\n• Cuando un Operativo este disparando a este Operativo, ignora la regla Piercing.
     ]]></string>
 
     <string name="aerial_guidance_usage"><![CDATA[
@@ -50,53 +40,43 @@ other rules (e.g. Seek, Vantage terrain) except being within 2\".\n
     ]]></string>
 
     <string name="aerial_guidance_description"><![CDATA[
-**SUPPORT**. Until the start of this operatives next
-activation, whenever another friendly **VESPID
-STINGWING** operative within 6\" of this operative is
-shooting an enemy operative visible to this operative, that
-friendly operatives ranged weapons have the Lethal 5+ and
-Saturate weapon rules. This has no effect while this operative
-is within control range of an enemy operative.\n\n
+**SUPPORT**. Hasta el inicio de la proxima activacion de este Operativo, cuando otro aliado **VESPID
+STINGWING** a 6\" de este Operativo esta disparando a un Operativo enemigo visible para este Operativo,
+las armas de distancia de ese aliado ganan la regla Lethal 5+ y Saturate. Esto no tiene efecto si
+este Operativo esta dentro del rango de control de Operativos enemigos.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
-
 
     <string name="neutron_fragment_usage"><![CDATA[
         Special Weapon Rule
     ]]></string>
 
     <string name="neutron_fragment_description"><![CDATA[
-If the target of this weapon is not incapacitated but you resolve any attack dice, the target gains
-one of your Neutron Fragment tokens. Whenever an operative
-that has one of your Neutron Fragment tokens is activated, inflict
-D3 damage on it for each Neutron Fragment token it has (roll
-separately for each).
+Si el objetivo contra el que se usa esta arma no es incapacitado pero resolviste cualquier dado
+de ataque, el objetivo gana uno de tus Fragmentos de Neutrones (token). Cuando un Operativo con uno
+de tus Fragmentos de Neutrones es activado, inflige D3 heridas por cada Fragmento que tenga (lanza por
+separado).
     ]]></string>
 
     <string name="ghost_rig_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="ghost_rig_description"><![CDATA[
-While this operative has a **Conceal** order, your
-opponent cannot select it as a valid target unless it is within 6\" of
-the operative trying to target it. Note that this rule has no effect
-if this operative is not selected as the valid target, e.g. if it is a
-secondary target from the Blast weapon rule.
+Mientras este Operativo tenga una orden de **Conceal**, tu oponente no puede seleccionarlo como un
+objetivo valido a menos de que este a 6\" de el Operativo que esta intentando seleccionar. Notsese
+que esta regla no tiene efecto si este Operativo es un objetivo secundario (Blast por ejemplo).
     ]]></string>
 
-
     <string name="camouflaged_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="camouflaged_description"><![CDATA[
-Whenever an operative is shooting this operative,
-ignore the Piercing weapon rule and all cover saves are retained
-as critical successes. This rule has no effect if this operative is not
-selected as the valid target, e.g. if it’s a secondary target from
-the Blast weapon rule.
+Cuando un Operativo esta disparando a este Operativo, ignora la regla Piercing y todas las salvaciones
+de cobertura son retenidas como salvaciones criticas. Esta regla no tiene efecto si este Operativo
+no es el objetivo seleccionado (objetivo secundario por Blast por ejemplo).
     ]]></string>
 
     <string name="neutron_bombardment_usage"><![CDATA[
@@ -104,19 +84,17 @@ the Blast weapon rule.
     ]]></string>
 
     <string name="neutron_bombardment_description"><![CDATA[
-Place one of your Neutron Fallout markers within the primary targets control range.
+Pon uno de tus tokens de Area Radioactiva dentro del rango de control del objetivo primario.
     ]]></string>
 
 
     <string name="neutron_fallout_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="neutron_fallout_description"><![CDATA[
-Once during each enemy operatives activation,
-as soon as it is within 2\" of one of your Neutron Fallout
-markers, inflict D3 damage on that operative (multiple markers
-are not cumulative).
+Una vez durante cada activacion enemiga, tan pronto como esten a 2\" de uno de tus tokens de Area
+Radioactiva, infligele D3 heridas a ese Operativo (multiples marcadores no son acumulables).
     ]]></string>
 
     <string name="skytorch_usage"><![CDATA[
@@ -124,192 +102,136 @@ are not cumulative).
     ]]></string>
 
     <string name="skytorch_description"><![CDATA[
-An operative can only use this weapon during the **Skytorch Assault** action (see
-other side of card). If it does, do not select a valid target. Instead, shoot against each operative
-within its torch zone (excluding operatives wholly underneath Vantage terrain); they are not in
-cover or obscured. Roll each sequence separately in order of furthest operative to closest. The
-torch zone is the horizontal area between the operatives current and previous location. A 28mm
-round Skytorch marker can be temporarily placed underneath this operative before it moves to
-help determine this.\n
- \n
-Torrent 0" means you cannot select secondary targets outside of its torch
-zone, but this weapon still has the Torrent weapon rule for all other rules purposes, e.g. the
-Condensed Stronghold rule (see Killzone: Volkus, Kill Team Core Book).
+Un Operativo solo puede usar esta arma durante el **Skytorch Assault**. Si lo hace, no selecciones un
+objetivo valido. En su lugar, dispara contra cada Operativo dentro de su zona de llamarada (excluyendo
+Operativos completamente debajo de terreno aventajado), esos Operativos no tendrian Cobertura ni estarian
+Obscurecidos. Lanza cada secuencia de disparo por separado, desde el Objetivo mas alejado hasta el objetivo
+mas cercano. La zona de LLamarada es la area Horizontal creada entre la ubicacion previa y actual de
+este Operativo. Una base de 28mm puede ser puesta temporalmente para determinar esto antes de mover
+el Operativo para determinar esto mas facilmente.\n
+\nTorrent 0\" significa que no puede seleccionar objetivos secundarios, pero en espacios condensados
+se considera como si tuviera la regla Lethal 5+.
     ]]></string>
-
 
     <string name="skytorch_assault_usage"><![CDATA[
         2AP
     ]]></string>
 
     <string name="skytorch_assault_description"><![CDATA[
-Perform a free **Reposition** action with this operative.
-During that action, it must **FLY** and can move an additional
-2\". Then perform a free **Shoot** action. You can only select a
-flamer (skytorch) for that **Shoot** action.\n\n
+Has una accion gratis de **Reposicion** con este Operativo, debe **Volar** y puede mover 2\" adicionales.
+Luego has una accion de **Disparo**. Solo puedes seleccionar tu Flamer (Skytorch) para hacer esa
+accion de disparo.\n\n
 
-This operative cannot perform this action while it has a Conceal order, or while within control range of an
+Este Operativo no puede hacer esta accion mientras tenga una orden de **Conceal** o mientras este
+dentro del rango de control de un Operativo enemigo.
 enemy operative.
     ]]></string>
 
     <string name="warrior_instincts_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="warrior_instincts_description"><![CDATA[
-Whenever this operative is shooting, if you do not spend Communion points during that sequence, its
-neutron blaster has the Accurate 1 weapon rule until the end of that sequence.
+Cuando este Operativo este disparando, si no gastas un punto de comunion durante esa secuencia, su
+Neutron Blaster gana la regla Accurate 1 hasta el fin de esa secuencia.
     ]]></string>
-
 
     <!--Faction Rules-->
 
     <string name="vespid_communion_lore"><![CDATA[
-Other species struggle to understand and interact with
-Vespids. The T\’au have managed to establish strong
-links through various technological aids, most notably
-their communion helms. The Vespids have accepted
-these aids as beneficial, but the true extent of their
-impact is unknown.
+Otras especies tienen dificultades para comprender e interactuar con los véspidos. Los T\'au han
+logrado establecer fuertes vínculos mediante diversas ayudas tecnológicas, sobre todo sus cascos de
+comunión. Los Vespids han aceptado estas ayudas como beneficiosas, pero se desconoce el verdadero
+alcance de su impacto.
 ]]></string>
 
     <string name="vespid_communion_description"><![CDATA[
-Communion points are used to maintain the
-tactical focus of friendly **VESPID STINGWING**
-operatives. In the Ready step of each Strategy
-phase, you gain D3 Communion points, plus 1 if
-a friendly **OVERSIGHT DRONE** operative is in the
-killzone. Communion points are used as follows
-(**OVERSIGHT DRONE** operatives are not affected by
-the following):\n
-\n
-1. Whenever a friendly **VESPID STINGWING**
-operative is performing the **Shoot** action, it
-can only target the closest enemy operative
-within 8\" of it (excluding enemy operatives
-within control range of other friendly **VESPID
-STINGWING** operatives) unless you spend 1 of
-your Communion points. For weapons with the
-Blast and Torrent weapon rules, only the first
-target must be selected in this way.\n
-\n
-2. Whenever a friendly **VESPID STINGWING**
-operative performs the **Charge** action, it must
-end the action within control range of the
-closest enemy operative it can unless you
-spend 1 of your Communion points.\n
-\n
-3. Whenever you would perform the **Pick
-Up Marker** or a mission action (excluding
-**Operate Hatch**) with a friendly **VESPID
-STINGWING** operative, you must also spend 1
-of your Communion points to do so.\n
-\n
-4. Whenever a friendly **VESPID STINGWING**
-operative is shooting, you can spend 1 (and
-only 1) of your Communion points to re‑roll one
-of your attack dice.
+Los puntos de comunion son usados para mantener el enfoque de aliados **VESPID STINGWING**. Al inicio
+de cada turno, ganas un D3 puntos de Comunion +1 si tu aliado **OVERSIGHT DRONE** esta en el campo.
+Los puntos de Comunion son usados de la siguiente forma (tu **OVERSIGHT DRONE** no es afectado para lo
+siguiente):\n
+\n1. Cuando un aliado **VESPID STINGWING** hace la accion de **Disparo**, solo puede seleccionnar el
+Operativo enemigo mas cercano y a 8\" de el (excluyendo Operativos enemigos que esten dentro del rango
+de control de aliados **VESPID STINGWING**) a menos de que gastes 1 punto de Comunion. Las armas con Blast
+y Torrent solo tienen que gastarlo para el objetivo Primario.\n
+\n2. Cuando un aliado **VESPID STINGWING** hace la accion de **Cargar**, debe terminar esa accion dentro
+del rango de control del Operativo enemigo mas cercano a menos de que gastes 1 punto de Comunion.\n
+\n3. Cuando vayas a hacer la accion de **Pick up Marker** o acciones de mision (excluyendo **Operate Hatch**)
+con un aliado **VESPID STINGWING*, tambien debes gastar 1 punto de Comunion.\n
+\n4. Cuando un aliado **VESPID STINGWING** este disparando, puedes gastar 1 punto de Comunion (y solo 1)
+para re-rollear uno de tus dados de ataque.
 ]]></string>
 
     <string name="neutron_charge_lore"><![CDATA[
-Neutron weapons are powered by radioactive crystals
-from the Vespids home world. The harmonic thrumming
-of Vespids wings resonates within the crystals to
-charge them. When unleashed, even heavy combat
-armour can barely protect against this atom‑stripping
-energy charge.
+Las armas de neutrones se alimentan de cristales radiactivos
+provenientes del planeta natal de los Vespids. El zumbido armónico
+de las alas de los Vespids resuena dentro de los cristales para
+cargarlos. Una vez desatadas, incluso las armaduras de combate más pesadas
+apenas pueden proteger contra esta carga de energía capaz de arrebatar átomos.
 ]]></string>
 
     <string name="neutron_charge_description"><![CDATA[
-Neutron weapons are any weapons that have the
-word \‘neutron\’ in their name, e.g. neutron blaster,
-neutron grenade launcher, etc. Whenever a
-friendly **VESPID STINGWING** operative moves or
-uses **FLY**, its neutron weapons have the Piercing
-1 weapon rule until the end of the turning point.
+Armas de Neutrones son aquellas armas que tienen la palabra \‘neutron\’ en su nombre, como Neutron Blaster,
+Neutron Grenade etc. Cuando un aliado **VESPID STINGWING** se mueva o use **Volar**, sus armas de Neutrones
+ganan la regla Piercing 1 hasta el fin del turno.
 ]]></string>
 
     <string name="vespid_fly_lore"><![CDATA[
-The thrumming wings of the Vespids bear them aloft
-with speed and remarkable agility.
+Las alas vibrantes de los Vespids los elevan con velocidad y notable agilidad.
 ]]></string>
 
     <string name="vespid_fly_description"><![CDATA[
-Whenever a friendly **VESPID STINGWING**
-operative performs an action in which it moves, it
-can **FLY**. If it does, do not move it. Instead, remove
-it from the killzone and set it back up wholly
-within a distance equal to its Move stat (or 3\" if
-it was a **Dash**) horizontally of its original location
-(in a killzone that uses the close quarters rules,
-e.g. Killzone: Tomb World, this distance cannot
-be measured over or through Wall terrain, and
-that operative cannot be set up on the other side
-of an access point – in other words it cannot **FLY**
-through an open hatchway). Note that it gains
-no additional distance when performing the
-**Charge** action. It must be set up in a location it
-can be placed, and unless it is the **Charge** action,
-it cannot be set up within control range of an
-enemy operative.
+Cuando un aliado **VESPID STINGWING** vaya a hacer una accion en la que se mueva, puede **Volar**.
+Si lo hace, no lo muevas normalmente. Remuevelo del campo y vuelvelo a poner a una distancia de su
+ubicacion original equivalente a la estadistica de Movimiento (o a 3\" si es un **Dash**) horizontalmente.
+(en zonas con reglas de espacios cerrados como Tomb World esto no se puede medir a traves de paredes y no puede
+volar a traves de un punto de acceso o puerta). Notese que no gana distancia adicional al hacer una
+**Carga**. Debe ser puesto en una zona en la que pueda mantenerse, y a menos que sea una accion de
+**Cargar** no puede quedar dentro del rango de un Operativo enemigo.
 ]]></string>
 
 
     <!--Equipment-->
 
     <string name="neurostimulant_lore"><![CDATA[
-Dispensed from ampoules within the Vespids armour,
-this chemical cocktail is intended to aid the clarity
-of communion and ensure discipline is maintained
-during battle.
+Este cóctel químico, dispensado desde ampollas dentro de la armadura de los Vespids, tiene como
+objetivo facilitar la claridad de la comunión y asegurar que se mantenga la disciplina durante la batalla.
 ]]></string>
 
     <string name="neurostimulant_description"><![CDATA[
-In the Ready step of each Strategy phase, when
-determining how many Communion points to
-gain, you can roll two D3 and select one D3 to use.
+Al inicio de cada turno, cuando determines cuantos puntos de Comunion ganas, lanza dos D3 y selecciona
+uno de ellos.
 ]]></string>
 
     <string name="convergence_stimulant_lore"><![CDATA[
-This substance, dispensed only in extreme cases and
-at the Shas\’uis discretion, suppresses the instinctual
-responses of the Vespids to aid in mission focus under
-extreme stress.
+Esta sustancia, dispensada únicamente en casos extremos y a discreción de los Shas\'ui, suprime las
+respuestas instintivas de los Vespids para ayudarlos a concentrarse en la misión bajo situaciones de
+estrés extremo.
 ]]></string>
 
     <string name="convergence_stimulant_description"><![CDATA[
-Once per turning point, a friendly **VESPID
-STINGWING** operative can perform the **Pick Up
-Marker** or a mission action without you spending
-a Communion point.
+Una vez por turno, un aliado **VESPID STINGWING** puede hacer la accion **Pick up Marker** o una
+accion de mision sin gastar un punto de Comunion.
 ]]></string>
 
     <string name="accelerant_stimulant_lore"><![CDATA[
-Though it bears long‑term risks of injury or dangerous
-fatigue, this stimulant sharpens the Vespids reactions
-and lends them haste in the heat of battle.
+Aunque conlleva riesgos a largo plazo de lesiones o fatiga peligrosa, este estimulante agudiza las
+reacciones de los Vespids y les proporciona rapidez en el fragor de la batalla.
 ]]></string>
 
     <string name="accelerant_stimulant_description"><![CDATA[
-Whenever a friendly **VESPID STINGWING**
-operative (excluding **OVERSIGHT DRONE**)
-performs the **Charge** or **Dash** action, it can move
-an additional 1\". If it uses **FLY** for this action, you
-can set it back up 1\" further away.
+Cuando un aliado **VESPID STINGWING** (excluyendo **OVERSIGHT DRONE**) hace una accion de **Cargar**
+o **Dash**, puede moverse 1\" adicional. Si **Vuela** para esta accion, puedes ponerlo 1\" mas lejos.
 ]]></string>
 
     <string name="aggression_stimulant_lore"><![CDATA[
-Should their Vespids look in danger of being overrun,
-a Shas\’ui may risk triggering the release of this
-highly‑addictive mixture of combat stimulants and
-aggression amplifiers.
+Si los Vespids parecen estar en peligro de ser invadidos, un Shas\'ui puede arriesgarse a desencadenar
+la liberación de esta mezcla altamente adictiva de estimulantes de combate y amplificadores de agresión.
 ]]></string>
 
     <string name="aggression_stimulant_description"><![CDATA[
-Whenever a friendly **VESPID STINGWING**
-operative (excluding **OVERSIGHT DRONE**) is
-fighting, its melee weapons have the Ceaseless
-weapon rule.
+Cuando un aliado **VESPID STINGWING** (excluyendo **OVERSIGHT DRONE**) esta combatiendo, sus armas a
+melee ganan la regla Ceaseless.
 ]]></string>
 
 
@@ -317,124 +239,97 @@ weapon rule.
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="hardened_exoskeleton_lore"><![CDATA[
-Natural exoskeletal chitin armours the Vespids, giving
-them an insectile resilience against all but the most
-grievous blows.
+La quitina natural del exoesqueleto protege a los Vespids, otorgándoles una resistencia propia de
+los insectos frente a casi todos los golpes, excepto los más severos.
 ]]></string>
 
     <string name="hardened_exoskeleton_description"><![CDATA[
-Whenever a friendly **VESPID STINGWING**
-operative (excluding **OVERSIGHT DRONE**) is
-fighting or retaliating, Normal Dmg of 4 or more inflicts 1 less damage on it.
+Cuando un aliado **VESPID STINGWING** (excluyendo **OVERSIGHT DRONE**) esta combatiendo o retaleando,
+daño normal de 4 o mas inflige 1 daño menos.
 ]]></string>
 
     <string name="aerial_agility_lore"><![CDATA[
-Vespids jink and weave through the air, following
-unpredictable flight paths that confound foes who have
-not had time to line up clean shots.
+Los Vespids zigzaguean y maniobran en el aire, siguiendo trayectorias de vuelo impredecibles que
+desconciertan a los enemigos que no han tenido tiempo de apuntar con precisión.
 ]]></string>
 
     <string name="aerial_agility_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**VESPID STINGWING** operative while
-counteracting, or during an activation in which
-that shooting operative moved or was set up,
-roll one D6 whenever an attack dice would
-inflict Normal Dmg: on a 5+, ignore that inflicted
-damage. You cannot ignore more than one attack
-dice per **Shoot** action sequence this way.
+Cuando un Operativo esta disparando a un aliado **VESPID STINGWING** mientras esta haciendo un counteract,
+o en una activacion en la que el Operativo que esta disparando se haya movido o haya sido puesto en
+el campo, lanza un D6 siempre que un dado inflija daño normal: al 5+, ignora ese daño infligido. No
+puedes ignorar mas de un dado de ataque en una secuencia de **Disparo** esta forma.
 ]]></string>
 
     <string name="airbone_predators_lore"><![CDATA[
-Hard‑wired instincts see the Vespids pounce upon
-their victims from on high, striking with lethal
-predatory intent.
+Los instintos innatos hacen que los véspidos se abalancen sobre sus víctimas desde lo alto, atacando
+con letal intención depredadora.
 ]]></string>
 
     <string name="airbone_predators_description"><![CDATA[
-Whenever a friendly **VESPID STINGWING**
-operative moves or uses **FLY** during its activation,
-its weapons have the Balanced weapon rule until
-the end of that activation.
+Cuando un aliado **VESPID STINGWING** se mueve o **Vuela** durante su activacion, sus armas tienen la
+regla Balances hasta el fin de esa activacion.
 ]]></string>
 
     <string name="sting_lore"><![CDATA[
-The bayonet‑like stingers that jut from the Vespids
-abdomens can be employed as weapons, their vicious
-barbs piercing plate armour and driving deep into their
-victims bodies.
+Los aguijones con forma de bayoneta que sobresalen del abdomen de los Vespids pueden usarse como
+armas; sus afiladas púas perforan la armadura de placas y se clavan profundamente en el cuerpo de sus víctimas.
 ]]></string>
 
     <string name="sting_description"><![CDATA[
-Improve the Hit stat of friendly **VESPID STINGWING** operatives claws by 1, and
-those weapons have the Lethal 5+ and Shock weapon rules.
+Mejora la estadistica de Hit **VESPID STINGWING** Claws por 1, y esas armas ganan la regla Lethal 5+
+y Shock.
 ]]></string>
 
 
 
     <!--Firefight ploys-->
     <string name="ocelli_lore"><![CDATA[
-The multispectral eyesight and esoteric sensory acuity
-of the Vespids are equal to any scanning technologies.
-As they sweep over the battlefield, they easily pick out
-even the most well‑concealed enemies
+La visión multiespectral y la agudeza sensorial esotérica
+de los Véspids igualan a cualquier tecnología de escaneo.
+Mientras sobrevuelan el campo de batalla, detectan fácilmente
+incluso a los enemigos mejor camuflados.
 ]]></string>
 
     <string name="ocelli_description"><![CDATA[
-Use this firefight ploy when a friendly **VESPID
-STINGWING** operative performs the **Shoot**
-action during an activation in which it is used
-**FLY**. Until the end of that action, it gains all
-benefits from the first and second main features
-of Vantage terrain. When determining the height
-difference between operatives for Vantage
-terrain rules, treat that friendly operative as
-being 3\" higher than it currently is (but not when
-determining the distance for Communion).
+Usa esta Firefight ploy cuando un aliado **VESPID STINGWING** hace una accion de **Disparo** en una
+activacion en la que haya **VOLADO**. Hasta el fin de esa accion, gana todos los beneficios de la
+primera y segunda regla de terreno aventajado. Cuando determines la diferencia de altura por terreno
+aventajado, trata ese Operativo aliado como si estuviera 3\" mas alto de lo que esta (pero no para
+determina la distancia para usar puntos de Comunion).
 ]]></string>
 
     <string name="darting_flight_lore"><![CDATA[
-Vespids are capable of tremendous airborne speed,
-allowing them to rapidly reposition during a firefight.
+Los Vespids son capaces de alcanzar una tremenda velocidad en el aire, lo que les permite reposicionarse
+rápidamente durante un combate.
 ]]></string>
 
     <string name="darting_flight_description"><![CDATA[
-Use this firefight ploy when a friendly **VESPID
-STINGWING** operative performs the **Reposition**
-action. Until the end of that action, it can move
-an additional D3\", or be set up an additional
-D3\" away if it uses **FLY**. In either case, it cannot
-perform **Shoot** or **Fight** actions for the rest of the
-turning point.
+Usa esta Firefight ploy cuando un aliado **VESPID STINGWING** haga la accion de **Reposicion**. Hasta
+el final de esa accion, puede moverse D3\", adicional, o puede ser puesto D3\" mas lejos si **Vuela**.
+En cualquier caso, no puede hacer las acciones de **Disparar** o **Combatir** durante el resto del
+turno.
 ]]></string>
 
     <string name="neutron_overload_lore"><![CDATA[
-Augmented in some ineffable fashion by the rapid
-wing beats of the Vespids, their neutron weaponry can
-unleash horrific point‑blank energy blasts.
+Potenciadas de alguna manera inefable por el rápido batir de alas de los Véspids, sus armas de
+neutrones pueden desatar horribles explosiones de energía a quemarropa.
 ]]></string>
 
     <string name="neutron_overload_description"><![CDATA[
-Use this firefight ploy when you resolve a critical
-success for a friendly **VESPID STINGWING**
-operative that is shooting with a neutron weapon
-during an activation in which it is moved or used
-**FLY**. If the target is within 4\" of it, inflict D3
-additional damage.
+Usa esta Firefight ploy cuando resuelvas un exito critico para un aliado **VESPID STINGWING** que
+ese disparando con su arma de Neutrones durante una activacion en la que se haya movido, o haya **VOLADO**.
+Si el objetivo esta a 4\" de el, inflige D3 daño extra.
 ]]></string>
 
     <string name="vicious_venom_lore"><![CDATA[
-Many Strains of Vespid produce various neurotoxins
-and inflammatory agents from their abdominal stingers,
-which can reduce victims to convulsing wrecks or
-anaphylactically bloat their flesh to bursting point.
+Muchas cepas de véspidos producen diversas neurotoxinas y agentes inflamatorios a través de sus
+aguijones abdominales, que pueden provocar que las víctimas sufran convulsiones o que, por una reacción
+anafiláctica, su carne se hinche hasta reventar.
 ]]></string>
 
     <string name="vicious_venom_description"><![CDATA[
-Use this firefight ploy when a friendly **VESPID
-STINGWING** operative (excluding **OVERSIGHT
-DRONE**) is fighting and you strike with a critical
-success. Inflict D3 additional damage.
+Usa esta Firefight ploy cuando un aliado **VESPID STINGWING** (excluyendo **OVERSIGHT DRONE**) esta
+combatiendo y golpeas con un exito critico. Inflige D3 heridas adicionales.
 ]]></string>
 
 </resources>

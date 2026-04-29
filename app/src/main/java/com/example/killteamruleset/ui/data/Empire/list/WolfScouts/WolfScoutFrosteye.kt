@@ -17,19 +17,7 @@ val WolfScoutFrostEye = Operative(
     ),
     weapons = listOf(
         WeaponProfile(
-            name = "Instigator Bolt Carbine (heavy)",
-            type = WeaponType.RANGED,
-            attacks = 4,
-            hit = "2+",
-            damage = "3/4",
-            keywords = listOf(
-                Heavy("Dash Only"),
-                Piercing_Crits(1),
-                Silent
-            )
-        ),
-        WeaponProfile(
-            name = "Instigator Bolt Carbine (mobile)",
+            name = "Instigator Bolt Carbine",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "3+",

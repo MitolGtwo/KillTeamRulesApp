@@ -4,9 +4,7 @@
     <!--Wreckas-->
 
     <string name="wrecka_demolisha_recklesstemperament_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="wrecka_demolisha_recklesstemperament_description"><![CDATA[
@@ -31,9 +29,7 @@
     ]]></string>
 
     <string name="wrecka_fighter_usage"><![CDATA[
-
         1 AP
-
     ]]></string>
 
     <string name="wrecka_fighter_description"><![CDATA[
@@ -49,9 +45,7 @@
     ]]></string>
 
     <string name="wrecka_gunner_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="wrecka_gunner_description"><![CDATA[
@@ -60,11 +54,8 @@
         un objetivo valido, puedes incluir a cualquier objetivo secundario de esta forma (Ej de Blast).
     ]]></string>
 
-
     <string name="wrecka_krusha_armoured_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="wrecka_krusha_armoured_description"><![CDATA[
@@ -72,11 +63,8 @@
         no puede retener exitos criticos con resultados menores a 6 (Ej Lethal, Severe, Rending).
     ]]></string>
 
-
     <string name="wrecka_krusha_smash_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="wrecka_krusha_smash_description"><![CDATA[
@@ -87,11 +75,8 @@
         es posible, no podras moverlo).
     ]]></string>
 
-
     <string name="wrecka_rokkiteer_shock_usage"><![CDATA[
-
         Passive
-
     ]]></string>
 
     <string name="wrecka_rokkiteer_shock_description"><![CDATA[
@@ -102,11 +87,8 @@
         (En resumen, el area de efecto de tu pulsa es mas pequeña cada turno).
     ]]></string>
 
-
     <string name="wrecka_pulsa_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="wrecka_pulsa_description"><![CDATA[
@@ -120,11 +102,8 @@
         este ataque (lanza el dado por cada Operativo).
     ]]></string>
 
-
     <string name="wreckaboss_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="wreckaboss_description"><![CDATA[
@@ -132,11 +111,8 @@
         , ganas 1 punto Wrecka.
     ]]></string>
 
-
     <string name="wrecka_salvo_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="wrecka_salvo_description"><![CDATA[
@@ -145,11 +121,8 @@
         a los objetivos secundarios. Cada objetivo solo puede ser disparado una sola vez por esta accion.
     ]]></string>
 
-
     <string name="squig_explosive_usage"><![CDATA[
-
         Special Weapon Rule
-
     ]]></string>
 
     <string name="squig_explosive_description"><![CDATA[
@@ -158,24 +131,18 @@
         es el objetivo primario, no puede ser Obsucure ni tener cobertura.
     ]]></string>
 
-
     <string name="squig_stoopid_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="squig_stoopid_description"><![CDATA[
         En la fase Firefight, siempre que determines la orden de este Operativo, no puede estar en Conceal.
-        Este Operativo no puede hacer ninguna otra accion que no sea  **CARGAR**, **DASH**, **COMBATIR**,
-        **REPOSITION** o **DISPARO**. No puede hacer ninguna accion que no este en su datacard.
+        Este Operativo no puede hacer ninguna otra accion que no sea  **Cargar**, **Dash**, **Combatir**,
+        **Reposicion** o **Disparo**. No puede hacer ninguna accion que no este en su tarjeta de personaje.
     ]]></string>
 
-
     <string name="squig_expendable_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="squig_expendable_description"><![CDATA[
@@ -184,15 +151,11 @@
         Operativo \"escape\" o \"sobreviva\" or sea incapacitado por Operativos enemigos.
     ]]></string>
 
-
     <string name="squig_boom_usage"><![CDATA[
-
         Pasiva
-
     ]]></string>
 
     <string name="squig_boom_description"><![CDATA[
-
         Si este Operativo es incapacitado durante la batalla, si no ha usado sus explosive,
         lanza un D6 o dos D6 si deseas. Si el resultado de cualquiera es 4+,
         este Operativo puede realizar una accion de **Disparo** con su explosive antes de ser
@@ -201,12 +164,6 @@
     ]]></string>
 
     <!--/Equipment Wreckas-->
-
-    <string name="wrecka_drillrokkit"><![CDATA[
-
-        CUETES PENETRANTES
-
-    ]]></string>
 
     <string name="wrecka_drillrokkit_lore"><![CDATA[
         El ingenio de un MekBoy conoce pocos limites, los Cuetes penetrantes estan diseñados
@@ -220,24 +177,14 @@
         con la Firefight ploy **Kaboom**).
     ]]></string>
 
-
-
-
     <string name="wrecka_extra_armour_lore"><![CDATA[
         Los trozos de metal que cubren a un Orko pueden parecer debiles, pero no son menos
         efectivos que una armadura normal.
     ]]></string>
 
     <string name="wrecka_extra_armour_description"><![CDATA[
-        Reduce el movimiento de Opertativos **WRECKA KREW** aliados por 1\", y mejora su Save Stat por 1.
-        esto excluye Operativos **BOMB SQUIG**.
-        Esto no es acumulable con Barricada portatil.
-    ]]></string>
-
-    <string name="wrecka_engine_oil"><![CDATA[
-
-        ACEITE DE MOTOR
-
+Reduce el movimiento de Opertativos **WRECKA KREW** aliados por 1\", y mejora su estadistica de
+salvacion por 1. esto excluye Operativos **BOMB SQUIG**. Esto no es acumulable con Barricada portatil.
     ]]></string>
 
     <string name="wrecka_engine_oil_lore"><![CDATA[
@@ -251,12 +198,6 @@
         ignorar cualquier cambio a sus estadisticas por estar **Lesionado**.
     ]]></string>
 
-    <string name="wrecka_glyphs"><![CDATA[
-
-        ESTANDARTE
-
-    ]]></string>
-
     <string name="wrecka_glyphs_lore"><![CDATA[
         Un estandarte lleno de simbologia simple y grotesca demuestran orgullosamente el metodo
         favorito de destruccion de los Wrecka Krew.
@@ -266,15 +207,6 @@
         Cuando este equipamiento es seleccionado, tambien selecciona una ploy entre **Waaagh!** o
         **Destruccion**. La primera vez que uses esa ploy durante la batalla, cuesta 0CP; siempre
         que la uses despues, cuesta 0CP si tienes puntos Wrecka.
-    ]]></string>
-
-    /Faction Rules
-
-
-    <string name="wrecka_rampage"><![CDATA[
-
-        DESMADRE WRECKA
-
     ]]></string>
 
     <string name="wrecka_rampage_lore"><![CDATA[
@@ -287,14 +219,12 @@
         En la fase de lanzar dados de ataque:
         \n\nPor cada resultado de 6, ganas un punto Wrecka(no resultado critico, resultado de 6).
         \n
-        En cada fase de lanzar dados de ataque, puedes gastar hasta 3 puntos Wrecka para cambiar
+        En cada fase de lanzar dados de ataque, puedes gastar hasta 2 puntos Wrecka para cambiar
         dados fallidos por exitos normales (no se puede usar con **BOMB SQUIG**), puedes ganar puntos
         Wrecka y gastarlos inmediatamente.\n
         Puedes tener un total de 6 puntos Wreckas, si empiezas un disparo o combate con 6 Puntos Wreckas
         no podras ganar mas, en ese caso solo podras gastarlos.
     ]]></string>
-
-
 
     <string name="wrecka_tanked_up_lore"><![CDATA[
         Wrecka Krews son animados por la emocion de la batalla, brindandoles impetu para
@@ -303,14 +233,13 @@
 
     <string name="wrecka_tanked_up_description"><![CDATA[
         La primera vez que un Operativo **WRECKA KREW** (excluyendo **BOMB SGUIG**) con una orden
-        de Engage realiza una accion de **Carga**, **Disparar** o **Combatir** (excluyendo **Guard**)
+        de **Engage** realiza una accion de **Carga**, **Disparar** o **Combatir** (excluyendo **Guard**)
         durante cada activacion o counteract, añade 1 a la estadistica APL de ese operativo hasta el
         inicio de su proxima activacion.
     ]]></string>
 
     /Ploys
     /Strategic Ploy
-
 
     <string name="wrecka_waaagh_lore"><![CDATA[
         Cuando la matanza de los Wrecka Krew alcanza su climax, su ira los consume por completo,
@@ -320,7 +249,6 @@
     <string name="wrecka_waaagh_description"><![CDATA[
         Aliados **WRECKA KREW** tienen Balanced en sus armas de melee.
     ]]></string>
-
 
     <string name="wrecka_tuff_gitz_lore"><![CDATA[
         Wrecka Krews no tienen tiempo para preocuparse por sus heridas, ellos tomarian gustosamente
@@ -341,7 +269,6 @@
         Las armas de distancia de Operativos **WRECKA KREW** ganan la regla Saturate.
     ]]></string>
 
-
     <string name="wrecka_amped_up_lore"><![CDATA[
         Orks prosperan en el caos y en la cacofonia de la batalla, mientras mas grandes sean las
         explosiones y destruccion alrededor de ellos, mas adrenalina tendran, capaz de soportar
@@ -355,21 +282,19 @@
 
     /Firefight Ploy
 
-
-
     <string name="wrecka_demolition_job_lore"><![CDATA[
         Cuando un objetivo se muestre, los Wrecka Krew liberalan su proeza destructiva combinada
         sobre el desgraciado, destruyendo cualquier cosa en la cercanias.
     ]]></string>
 
     <string name="wrecka_demolition_job_description"><![CDATA[
-        Usa esta Firefight ploy despues de que un aliado **WRECKA KREW** realize una accion de
-        **Disparo** o **Combate**; antes de incapacitar al objetivo. pon uno de tus marcadores de
-        demolicion dentro de la zona de control de ese Operativo, (Si usan Blast, selecciona el objetivo
-        primario).
-        \nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, combatiendo
-        o retaleando contra un enemigo a 3\" de tu marcador de Demolicion, puedes gastar 1 punto Wrecka gratis
-        (aunque no tengas ninguno). al inicio de la proxima fase Estrategica, retira tu marcador.
+Usa esta Firefight ploy despues de que un aliado **WRECKA KREW** realize una accion de
+**Disparo** o **Combate**; antes de incapacitar al objetivo. pon uno de tus marcadores de
+demolicion dentro de la zona de control de ese Operativo, (Si usan Blast, selecciona el objetivo
+primario).
+\nSiempre que un aliado **WRECKA KREW** (exluyendo **BOMB SQUIG**) este disparando, combatiendo
+o retaleando contra un enemigo a 3\" de tu marcador de Demolicion, puedes gastar 1 punto Wrecka gratis
+(aunque no tengas ninguno). al inicio de la proxima fase Estrategica, retira tu marcador.
     ]]></string>
 
     <string name="wrecka_proppa_scrap_lore"><![CDATA[
@@ -377,15 +302,9 @@
     ]]></string>
 
     <string name="wrecka_proppa_scrap_description"><![CDATA[
-        Usa esta Firefight ploy durante la activacion de un **WRECKA KREW BREAKKA BOY** o
-        **WRECKA KREW BOSS NOB**. Durante esa activacion, ese Operativo puede hacer 2 acciones
-        de **Combate**.
-    ]]></string>
-
-    <string name="wrecka_kaboom"><![CDATA[
-
-        KABOOM!
-
+Usa esta Firefight ploy durante la activacion de un **WRECKA KREW BREAKKA BOY** o
+**WRECKA KREW BOSS NOB**. Durante esa activacion, ese Operativo puede hacer 2 acciones
+de **Combate**.
     ]]></string>
 
     <string name="wrecka_kaboom_lore"><![CDATA[
@@ -400,7 +319,6 @@
         Cuetes Penetrantes, nota que Severe no es un 6 natural, por lo que no genera puntos Wreckas.
     ]]></string>
 
-
     <string name="wrecka_jas_lore"><![CDATA[
         La ploy favorita de mains Orks, Orks tienen la abilidad para ignorar heridas fatales que
         incapacitarian la mayoria de criaturas.
@@ -410,7 +328,5 @@
         Usa esta Firefight ploy, cuando un dado de ataque inflige daño normal a un aliado **WRECKA KREW**
         (excluyendo **BOMB SQUIG**). Ignora ese daño.
     ]]></string>
-
-
 
 </resources>

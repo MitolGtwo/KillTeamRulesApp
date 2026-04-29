@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Warpcoven-->
-
     <string name="protected_by_fate_usage"><![CDATA[
         1AP
     ]]></string>
 
     <string name="protected_by_fate_description"><![CDATA[
-**PSYCHIC**. Select one friendly **WARPCOVEN** operative
-visible to this operative. Until the start of this operatives
-next activation, until it is incapacitated or until this action is
-performed again by a friendly operative (whichever comes
-first), whenever an operative is shooting that selected
-operative, you can re-roll any of your defence dice.\n\n
+**PSYCHIC**.Selecciona un aliado **WARPCOVEN** visible para este Operativo. Hasta el inicio de la proxima
+activacion de este Operativo, hasta que sea incapacitado o hasta que esta accion sea hecha otra vez
+por un Operativo aliado (lo que pase primero), cuando un Operativo esta disparando a ese Operativo que
+seleccionaste, puede re-rollear cualquier dado de ataque.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="ravage_destiny_usage"><![CDATA[
@@ -24,18 +19,14 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="ravage_destiny_description"><![CDATA[
-**PSYCHIC**. Select one enemy operative visible to and
-within 9\" of this operative. Until the start of this operatives
-next activation, until it is incapacitated or until this action is
-performed again by a friendly operative (whichever comes
-first), whenever that enemy operative is shooting, fighting
-or retaliating, your opponent must re-roll their attack dice
-results of 6, and whenever determining control of a marker,
-treat that enemy operatives APL stat as 1 lower. Note this
-is not a change to its APL stat, so any changes are cumulative
-with this.\n\n
+**PSYCHIC**. Selecciona un Operativo enemigo visible y a 9\" de este Operativo. Hasta el inicio de la proxima
+activacion de este Operativo, hasta que sea incapacitado o hasta que esta accion sea hecha otra vez
+por un Operativo aliado (lo que pase primero), cuando ese Operativo enemigo este disparando, combatiendo
+o retaleando, tu oponente debe re-rollear sus dados de ataque resultados de 6, y cuando determine el
+control de un marcador, trata ese enemigo como si tuviera un APL menos.Notese que esto no es un
+cambio de APL, cualquier cambio es acumulable con esto.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="reconstitution_ritual_usage"><![CDATA[
@@ -43,13 +34,11 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="reconstitution_ritual_description"><![CDATA[
-**PSYCHIC**. Select one friendly **WARPCOVEN** operative
-visible to and within 6\" of this operative. That operative
-regains up to 2D3 lost wounds.\n\n
+**PSYCHIC**. Selecciona un aliado **WARPCOVEN** visible y a 6\" de este Operativo. Ese Operativo
+recupera 2D3 heridas perdidas.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if a friendly operative has
-already performed this action during this turning point.
+Este Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo
+enemigo, o si un Operativo aliado ya ha hecho esta accion durante este turno.
     ]]></string>
 
     <string name="temporal_flux_usage"><![CDATA[
@@ -57,22 +46,18 @@ already performed this action during this turning point.
     ]]></string>
 
     <string name="temporal_flux_description"><![CDATA[
-**PSYCHIC**. Select one friendly **WARPCOVEN** operative
-visible to and within 6\" of this operative and place your
-Temporal Flux marker within that operative’s control range.\n
-\n
--At the end of that operatives next activation, if it has not been
-incapacitated and is still wholly within 6\" of your Temporal
-Flux marker, remove that operative from the killzone and set
-it back up in a location it can be placed; when it is set back
-up, it must have your Temporal Flux marker within its control
-range (or as close as possible). Then remove your Temporal
-Flux marker from the killzone. If that operative is not wholly
-within 6\" of your Temporal Flux marker (including if it is
-incapacitated), remove that marker from the killzone.\n\n
+**PSYCHIC**. Selecciona un aliado **WARPCOVEN** visible y a 6\" de este Operativo y pon tu Temporal
+Flux token dentro del rango de control de ese Operativo.\n
+\n• Al final de la activacion de ese Operativo, si no ha sido incapacitado y aun esta completamente a
+6\" de tu Temporal Flux token, remueve ese Operativo del campo y vuelvelo a poner en una locacion en
+la que pueda mantenerse.\n
+\nCuando vuelva a ser puesto en el campo debe tener tu Temporal Flux marker dentro de su rango de
+control (o tan cerca como sea posible). Entonces remueve tu Temporal Flux Marker del campo. Si ese Operativo
+no esta completamente a 6\" de tus Temporal Flux Marker (incluyendo si es incapacitado), remueve
+ese token del campo.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative, or if your Temporal Flux marker is currently in the killzone.
+Este Operativo no puede hacer esta accion si esta dentrol del rango de control de un Operativo enemigo,
+o si tu Temporal Flux Marker esta actualmente en el campo.
     ]]></string>
 
     <string name="mindburn_usage"><![CDATA[
@@ -80,14 +65,11 @@ range of an enemy operative, or if your Temporal Flux marker is currently in the
     ]]></string>
 
     <string name="mindburn_description"><![CDATA[
-In the Resolve Attack Dice step, if you inflict damage
-with any critical successes, the operative this weapon is being
-used against gains one of your Mindburn tokens (if it does not
-already have one) until the end of its next activation, until it is
-incapacitated or until a friendly operative uses this weapon again
-(whichever comes first). Whenever an operative has one of your
-Mindburn tokens, worsen the Hit stat of its weapons by 1 (this
-is not cumulative with being injured).
+En la fase de resolver dados de ataque, si infliges daño con algun exito critico, el Operativo con el
+que se esta usando esta arma gana uno de tus Mindburn tokens (si no tiene uno) hasta el final de su
+proxima activacion, hasta que sea incapacitado o hasta que un Operativo aliado use esta arma otra vez
+(lo que pase primero). Cuando un Operativo tiene uno de tus Mindburn tokens, empeora el Hit de sus armas
+por 1 (esto no es acumulable al estar **Lesionado**).
     ]]></string>
 
     <string name="alight_usage"><![CDATA[
@@ -95,60 +77,52 @@ is not cumulative with being injured).
     ]]></string>
 
     <string name="alight_description"><![CDATA[
-**PSYCHIC**. Select one enemy operative visible to this
-operative. Until the start of this operatives next activation,
-until it is incapacitated or until this action is performed
-again by a friendly operative (whichever comes first), that
-enemy operative gains one of your Alight tokens (if it does not
-already have one). Whenever a friendly **WARPCOVEN**
-operative is shooting against, fighting against or retaliating
-against an enemy operative that has one of your Alight
-tokens, that friendly operatives weapons have the Ceaseless weapon rule.\n\n
+**PSYCHIC**. Selecciona un Operativo enemigo visible para este Operativo. Hasta el inicio de la proxima
+activacion de este Operativo, hasta que sea incapacitado o hasta que esta accion sea hecha otra vez
+por un Operativo aliado (lo que pase primero), ese enemigo gana uno de tus Alight tokens (si no tiene
+uno). Cuando un aliado **WARPCOVEN** esta disparando, combatiendo o retaleando contra ese Operativo
+enemigo que tenga uno de tus Alight tokens, las armas de ese aliado ganan la regla Ceaseless.\n\n
 
-This operative cannot perform this action while within control
-range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="sorcerous_automata_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="sorcerous_automata_description"><![CDATA[
-Whenever this operative is activated, subtract 1 from its APL stat until the end of that activation,
-unless a friendly **WARPCOVEN SORCERER** operative is within 9\" of it.
+Cuando este Operativo es activado, sustrae 1 de su estadistica de APL hasta el final de esa activacion,
+a menos que un aliado **WARPCOVEN SORCERER** este a 9\" de el.
     ]]></string>
 
     <string name="warpcoven_icon_bearer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="warpcoven_icon_bearer_description"><![CDATA[
-Whenever determining control of a marker, treat
-this operative’s APL stat as 1 higher. Note this is not a change to
-its APL stat, so any changes are cumulative with this.
+Cuando determines el control de un marcador, trata el APL de este Operativo como si tuviera 1 mas.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
     ]]></string>
 
     <string name="slow_and_purposeful_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="slow_and_purposeful_description"><![CDATA[
-Whenever this operative is shooting, if it
-has not performed the **Charge** or **Reposition** action during the
-activation, or if it is a counteraction, its ranged weapons have the
-Ceaseless weapon rule. Note this operative is not restricted from
-performing these actions after shooting.
+Cuando este Operativo este disparando, si no ha hecho las acciones de **Cargar** o **Reposicion**
+durante su activacion, o si es un counteract, sus armas de distancia ganan la regla Ceaseless.
+Notese que el Operativo no esta restringido de hacer esas acciones despues de disparar.
     ]]></string>
 
     <string name="savage_brutality_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="savage_brutality_description"><![CDATA[
-The first time this operative performs the **Fight** action during each of its activations,
-if it is not incapacitated, it can immediately perform a free **Fight** action
-afterwards (you do not have to select the same enemy operative
-to fight against). This takes precedence over action restrictions.
+La primera vez que este hace la accion de **Combate** durante cada una de sus activaciones, si no
+es incapacitado, puede inmediatamente hacer una accion de **Combatir** gratis despues (no tienes
+que seleccionar el mismo Operativo enemigo para combatir en contra). Esto toma precedencia sobre
+las restricciones de acciones.
     ]]></string>
 
     <string name="brayhorn_usage"><![CDATA[
@@ -156,30 +130,28 @@ to fight against). This takes precedence over action restrictions.
     ]]></string>
 
     <string name="brayhorn_description"><![CDATA[
-Until the Ready step of the next Strategy phase, add
-1\" to the Move stat of friendly **WARPCOVEN TZAANGOR** operatives.\n\n
+Hasta el inicio del proximo turno, añade 1\" a la estadistica de Movimiento de aliados **WARPCOVEN TZAANGOR**\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="herd_banner_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="herd_banner_description"><![CDATA[
-Whenever an attack dice inflicts Normal Dmg of 3
-or more on a friendly **WARPCOVEN TZAANGOR** operative
-that is visible to and within 3\" of this operative, subtract 1 from that inflicted damage.
+Cuando un dado de ataque inflige daño normal de 3 o mas a un aliado **WARPCOVEN TZAANGOR** que sea
+visible y a 3\" de este Operativo, sustrae 1 a ese daño infligido.
     ]]></string>
 
     <string name="relic_hunters_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="relic_hunters_description"><![CDATA[
-Once per battle, one friendly **WARPCOVEN TZAANGOR WARRIOR** can perform the **Pick Up Marker**,
-**Place Marker** or a mission action for 1 less AP if that friendly
-operative is within your opponents territory.
+Una vez por batalla, un aliado **WARPCOVEN TZAANGOR WARRIOR** puede hacer la accion **Pick up Marker**,
+**Place Marker** o una accion de mision por 1 AP menos si ese aliado esta dentro del territorio de tu
+oponente.
     ]]></string>
 
     <string name="warpcoven_shield_usage"><![CDATA[
@@ -187,325 +159,270 @@ operative is within your opponents territory.
     ]]></string>
 
     <string name="warpcoven_shield_description"><![CDATA[
-This operative has a 4+ Save stat, and whenever it is
-fighting or retaliating with this weapon, each of your blocks can
-be allocated to block two unresolved successes (instead of one).
+Este Operativo tiene una estadistica de Salvacion de 4+, y cuando este combatiendo o retaleando con
+esta arma, cada uno de tus bloqueos puede ser usado para bloquear dos exitos sin resolver (en lugar de uno).
     ]]></string>
-
 
     <!--Faction Rules-->
 
     <string name="boons_of_tzeentch_lore"><![CDATA[
-Warpcoven Sorcerers are dedicated followers of Tzeentch,
-and have earned many great boons from their patron
-deity, from beneficial mutations to diabolical knowledge.
+Los hechiceros del Aquelarre Disforme son fieles seguidores de Tzeentch,
+y han obtenido muchos beneficios de su deidad patrona,
+desde mutaciones beneficiosas hasta conocimiento diabólico.
 ]]></string>
 
     <string name="boons_of_tzeentch_description"><![CDATA[
-Whenever you select a **SORCERER** operative for
-the battle, you must select a **BOON OF TZEENTCH**
-(below) for it to have for the battle. You cannot
-select each **BOON OF TZEENTCH** more than once
-per battle.
+Cuando selecciones un Operativo **SORCERER** para la batalla, tambien debes seleccionar un **BOON OF TZEENTCH**
+para que tenga durante la batalla. No puedes seleccionar cada **BOON OF TZEENTCH** mas de una vez
+por batalla.
 ]]></string>
 
     <string name="incorporeal_sight_lore"><![CDATA[
-The empyric energies given off by living creatures can be
-sensed by the Sorcerers of the Thousand Sons.
+Las energías empíricas que emanan de los seres vivos pueden ser percibidas por los Hechiceros de los Mil Hijos.
 ]]></string>
 
     <string name="incorporeal_sight_description"><![CDATA[
-This operatives ranged weapons have the
-Saturate weapon rule. Whenever this operative is
-shooting, enemy operatives cannot be obscured.
+Las armas de distancia de este Operativo ganan la regla Saturate. Cuando este Operativo este disparando,
+los Operativos enemigos no pueden estar Obscurecidos.
 ]]></string>
 
     <string name="time_walk_lore"><![CDATA[
-There are few greater boons than mastery over time itself.
+Pocas cosas son más beneficiosas que dominar el tiempo mismo.
 ]]></string>
 
     <string name="time_walk_description"><![CDATA[
-Add 1" to this operative’s Move stat.
+Añade 1\" a la estadistica de Movimiento de este Operativo.
 ]]></string>
 
     <string name="warp_echoes_lore"><![CDATA[
-An ability to predict the future allows for stronger responses to enemy movement.
+La capacidad de predecir el futuro permite dar respuestas más contundentes a los movimientos del enemigo.
 ]]></string>
 
     <string name="warp_echoes_description"><![CDATA[
-Once per battle, when you counteract with this operative, you can change its order, and it
-can perform an additional 1AP action for free
-during that counteraction, but both actions must be different.
+Una vez por batalla, cuando estes haciendo un counteract con este Operativo, puedes cambiar su orden,
+y puede hacer una accion adicional por 1AP gratis durante ese counteract, pero ambas acciones deben
+ser distintas.
 ]]></string>
 
     <string name="warp_swell_lore"><![CDATA[
-An influx of warp power grants impetus to melee strikes.
+Una afluencia de energía disforme otorga impulso a los ataques cuerpo a cuerpo.
 ]]></string>
 
     <string name="warp_swell_description"><![CDATA[
-Add 1 to the Normal Dmg stat of this operatives melee weapons.
+Añade 1 al daño normal de las armas de melee de este Operativo.
 ]]></string>
 
     <string name="mutant_appendage_lore"><![CDATA[
-Horrific though they may appear, additional limbs are useful indeed.
+Aunque puedan parecer horribles, las extremidades adicionales son realmente útiles.
 ]]></string>
 
     <string name="mutant_appendage_description"><![CDATA[
-Having an enemy operative within this operatives
-control range does not prevent it from performing
-the **Pick Up Marker** or mission actions. Once per
-activation, this operative can perform the **Pick
-Up Marker**, **Place Marker** or a mission action for 1 less AP.
+Tener un Operativo enemigo dentro del rango de control de este Operativo no previene que pueda hacer
+las acciones de **Pick up Marker** o acciones de mision. Una vez por activacion, este Operativo puede
+hacer las acciones **Pick up Marker, Place Marker** o acciones de mision por 1 AP menos.
 ]]></string>
 
     <string name="immaterial_flight_lore"><![CDATA[
-The power of flight renders the recipient highly elusive.
+La capacidad de volar hace que el receptor sea sumamente difícil de alcanzar.
 ]]></string>
 
     <string name="immaterial_flight_description"><![CDATA[
-Once per turning point, when this operative is
-performing the **Charge** or **Reposition** action
-during its activation, it can **FLY**. If it does, do not
-move it. Instead, remove it from the killzone and
-set it back up wholly within a distance equal to
-its Move stat horizontally of its original location.
-In a killzone that uses the close quarters rules
-(e.g. Killzone: Tomb World), this distance cannot
-be measured over or through Wall terrain, and
-that operative cannot be set up on the other side
-of an access point (in other words, it cannot **FLY**
-through an open hatchway). Note that it gains
-no additional distance when performing the
-**Charge** action. It must be set up in a location it
-can be placed, and unless it is the **Charge** action,
-it cannot be set up within control range of an enemy operative.
+Una vez por turno, cuando este Operativo este haciendo las acciones de **Cargar** o ** Reposicion**
+durante su activacion, puede **Volar**. Al hacerlo no lo muevas, en su lugar remuevelo del campo y pongo
+otra vez a una distancia equivalente a su estadistica de Movimiento horizontalmente desde su posicion
+original. En campos con la regla de espacio cerrado (Tomb World), esta distancia no puede ser medida
+a traves de paredes, y ese Operativo no puede ser puesto al otro lado de un punto de acceso (en otras
+palabras no puede **Volar** a traves de una puerta abierta). Notese que no gana distancia adicional al
+hacer una accion de **Carga**. debe ser puesto en una ubicacion donde se pueda mantener, y a menos
+de que sea una accion de **Cargar**, no puede ser puesto dentro del rango de control de un Operativo
+enemigo.
 ]]></string>
 
     <string name="twist_of_fate_lore"><![CDATA[
-What greater boon than the ability to bend fate to ones own will.
+¿Qué mayor beneficio que la capacidad de doblegar el destino a la propia voluntad?
 ]]></string>
 
     <string name="twist_of_fate_description"><![CDATA[
-This operatives **PSYCHIC** ranged weapons have the Piercing Crits 1 weapon rule.
+Las armas de distancia **PSYCHIC** de este Operativo ganan la regla Piercing Crits 1.
 ]]></string>
 
     <string name="astral_bombardment_lore"><![CDATA[
-he truly blessed drink deeply of the Warps entropic power, wielding its destructive energies with abandon.
+Él verdaderamente bendijo beber profundamente del poder entrópico de la Disformidad, manejando sus
+energías destructivas sin reparo alguno.
 ]]></string>
 
     <string name="astral_bombardment_description"><![CDATA[
-Select one of this operatives **PSYCHIC** ranged weapons. That weapon has the Devastating 1
-weapon rule. If you select a doombolt, it has
-the 2" Devastating 2 weapon rule instead of
-Devastating 2. If you select firestorm or mindburn
-(**SORCERER OF WARPFIRE**), whenever that
-operative performs the **Shoot** action, select the
-Seek Light or Devastating 1 weapon rule for that
-weapon to have until the end of the action (it
-cannot have both).
+Selecciona una de las armas de distancia **PSYCHIC** de este Operativo. Esa arma tiene la regla
+Devastating 1, Si seleccionas un Doombolt, tiene la regla 2\" Devastating 2 en vez de Devastating 2.
+Si seleccionas un Firestorm o Mindburn (**SORCERER OF WARPFIRE**), cuando ese Operativo hace la accion
+de **Disparo**, selecciona la regla Seek Light o Devastating 1 para esa arma hasta el final de la accion
+(no puede tener ambas).
 ]]></string>
 
     <string name="master_immaterium_lore"><![CDATA[
-The gift of forbidden arcane knowledge grants the recipient terrible psychic power.
+El don del conocimiento arcano prohibido otorga al receptor un terrible poder psíquico.
 ]]></string>
 
     <string name="master_immaterium_description"><![CDATA[
-Add 3\" to the distance requirements of this
-operatives **PSYCHIC** actions that have a distance requirement. Note that for the **SORCERER OF TEMPYRIONs**
-Temporal Flux action, this boon
-only affects the distance in the first effect of that rule.
+Añade 3\" a la distancia requerida para las acciones **PSYCHIC** de este Operativo. Notese que para
+la accion Temporal Flux de un **SORCERER OF TEMPYRION**, este beneficion solo afecta la distancia
+del primer efecto de esa regla.
 ]]></string>
 
     <string name="warpcoven_astartes_lore"><![CDATA[
-These genetically modified superhumans are made for one purpose: war.
+Estos superhumanos modificados genéticamente están hechos con un único propósito: la guerra.
 ]]></string>
 
     <string name="warpcoven_astartes_description"><![CDATA[
-During each friendly **WARPCOVEN HERETIC ASTARTES** operatives activation, it can perform
-either two **Shoot** actions or two **Fight** actions. If
-it is two **Shoot** actions and a soulreaper cannon or
-a warpflamer is selected for both, 1 additional AP
-must be spent for the second action. You cannot
-select the same **PSYCHIC** ranged weapon more than once per activation.\n
-\n
-Each friendly **WARPCOVEN HERETIC ASTARTES** operative can counteract regardless of its order.
+Durante cada activacion de aliados **WARPCOVEN HERETIC ASTARTES**, pueden hacer dos acciones de
+**Disparo** o dos acciones de **Combate**. Si son dos acciones de **Disparo** y un Soulreaper Cannon o
+un Warpflamer es seleccionado para ambos disparos, 1 AP adicional debe gastarse para el segundo
+disparo. No puedes seleccionar la misma arma de distancia **PSYCHIC** mas de una vez por activacion.\n
+\nCada aliado **WARPCOVEN HERETIC ASTARTES** puede hacer counteracts sin importar sus ordenes.
 ]]></string>
 
     <!--Equipment-->
 
     <string name="ensorcelled_rounds_lore"><![CDATA[
-The placing of hexes and casting of dark magicks
-enhance the lethality of autopistol and bolt rounds.
+La colocación de maleficios y el lanzamiento de magia oscura aumentan la letalidad de las balas de
+pistola automática y de perno.
 ]]></string>
 
     <string name="ensorcelled_rounds_description"><![CDATA[
-Friendly **WARPCOVEN** operatives inferno boltguns, inferno bolt pistols and autopistols have
-the Devastating 1 weapon rule.
+los Inferno Boltguns, Inferno Bolt Pistols y Autopistols de aliados **WARPCOVEN** tienen la regla
+Devastating 1.
 ]]></string>
 
     <string name="daemonmaw_weapons_lore"><![CDATA[
-The weapons of the Rubricae have been warped by
-millennia spent immersed in the immaterium. Daemonic
-maws erupt around gun muzzles, their razor beaks
-serving as effective melee weapons.
+Las armas de los Rubricae han sido deformadas por
+milenios inmersos en el inmaterium.
+Fauces demoníacas brotan alrededor de las bocas de las armas, y sus afilados picos
+sirven como eficaces armas cuerpo a cuerpo.
 ]]></string>
 
     <string name="daemonmaw_weapons_description"><![CDATA[
-Add 1 to the Atk stat of friendly **WARPCOVEN RUBRIC MARINE** operatives melee weapons.
-Whenever a friendly **WARPCOVEN RUBRIC MARINE** operative is retaliating, its melee
-weapons have the Accurate 1 weapon rule.
+Añade 1 a la estadistica de Atk de armas de melee de aliados **WARPCOVEN RUBRIC MARINE**.
+Cuando un aliado **WARPCOVEN RUBRIC MARINE* esta retaleando, sus armas a melee tienen la regla Accurate
+1.
 ]]></string>
 
     <string name="arcane_robes_lore"><![CDATA[
-Powerful defensive wards in the Sorcerers cloaks allow
-them to deflect attacks, absorbing the force of the most powerful strikes.
+Los poderosos encantamientos defensivos de las capas de los hechiceros les permiten
+desviar ataques, absorbiendo la fuerza de los golpes más poderosos.
 ]]></string>
 
     <string name="arcane_robes_description"><![CDATA[
-Once per turning point, whenever an attack
-dice would inflict Critical Dmg on a friendly **WARPCOVEN SORCERER** operative, you can use
-this rule. If you do, that attack dice inflicts Normal Dmg instead.
+Una vez por turno, cuando un dado de ataque vaya a infligir daño critico a un aliado **WARPCOVEN SORCERER*,
+puedes usar esta regla para que ese dado haga daño normal en su lugar.
 ]]></string>
 
     <string name="sorcerous_scrolls_lore"><![CDATA[
-Rare and dangerous scrolls from the vaults of Prospero
-allow the Sorcerers to beseech Tzeentch for even greater power.
+Pergaminos raros y peligrosos procedentes de las bóvedas de Próspero permiten a los hechiceros implorar
+a Tzeentch un poder aún mayor.
 ]]></string>
 
     <string name="sorcerous_scrolls_description"><![CDATA[
-Once per battle, when a friendly **WARPCOVEN SORCERER** operative is activated or counteracts,
-you can select a different **BOON OF TZEENTCH** for
-it to have until the end of the battle (it loses any it
-previously had). It cannot be the same **BOON OF TZEENTCH** any other friendly operative has. Note
-that if you use this rule when a friendly operative
-counteracts and you select Echoes from the
-Warp, it can be used immediately to change the
-operatives order and perform a free action during
-that counteraction.
+Una vez por batalla, cuando un aliado **WARPCOVEN SORCERER** es activado o hace un counteract,
+puedes seleccionar un **BOON OF TZEENTCH** distinto durante el resto de la batalla (pierde el que haya
+tenido antes). No puede ser el mismo **BOON OF TZEENTCH** que otro aliado tenga. Notese que si usas
+esta regla cuando un aliado hace un Counteract y selecionas Echoes From the Warp, puede ser usado inmediatamente
+para cambiar la orden y hacer la accion extra gratis durante ese Counteract.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="aetherial_warding_lore"><![CDATA[
-The Sorcerers of the Thousand Sons ward their
-warriors with spells, shielding them with a barrier of empyric force.
+Los hechiceros de los Mil Hijos protegen a sus guerreros con hechizos, resguardándolos con una
+barrera de fuerza empírica.
 ]]></string>
 
     <string name="aetherial_warding_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**WARPCOVEN** operative, weapons with the Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead.
+Cuando un Operativo esta disparando a un aliado **WARPCOVEN**, armas con el perfil Piercin 1 tienen
+la regla Piercing Crits 1 en su lugar.
 ]]></string>
 
     <string name="fate_weapon_lore"><![CDATA[
-By manipulating the skeins of fate, a Sorcerer may stay
-the blade of a foe, or ensure their own warriors land a
-killing strike.
+Manipulando los hilos del destino, un hechicero puede detener
+la espada de un enemigo o asegurarse de que sus propios guerreros asesten un
+golpe mortal.
 ]]></string>
 
     <string name="fate_weapon_description"><![CDATA[
-Roll two D6 and reserve them (put them to one
-side). In the Firefight phase of this turning point,
-whenever an operative is shooting, fighting
-or retaliating, after you or your opponent roll
-their attack dice, but before re-rolls, you can
-use one of your reserved dice to replace one of
-the D6 rolled for that sequence (yours or your
-opponents); that replacement dice cannot be
-re-rolled or retained as a success if it is not, and
-is discarded at the end of that sequence. Then,
-if the combined result of both reserved dice was
-less than 9, discard the other dice. You cannot
-use more than one reserved dice per sequence.
-Discard any remaining reserved dice at the end of
-the turning point.
+Lanza dos D6 y reservalos (ponlos a un lado). en la Firefight fase de este turno, cuando un operativo
+este disparando, combatiento o retaleando, despues de que tu o tu oponente lancen sus dados de ataque, pero
+antes de hacer re-rolls, puedes usar uno de tus dados de reserva para reemplazar uno de los D6 lanzados
+para esa secuencia (los tuyos y los de tu oponente), ese dado reemplazado no puede ser re-rolleado
+o retenido como un exito si no lo fue, y es descartado al final de esa secuencia. Despues, si el resultado
+combinado de ambos dados en reserva es menos de 9, descarta el otro dado. No puedes usar mas de un
+dado en reserva por secuencia. Y descarta cualquier dado aun en reserva al final de turno.
 ]]></string>
 
     <string name="brotherhood_sorcerers_lore"><![CDATA[
-By forming covens bound by blood and magick, the
-Sorcerers of the Thousand Sons greatly increase the
-potency of their psychic powers.
+Al formar aquelarres unidos por lazos de sangre y magia, los Hechiceros de los Mil Hijos aumentan
+enormemente la potencia de sus poderes psíquicos.
 ]]></string>
 
     <string name="brotherhood_sorcerers_description"><![CDATA[
-Friendly **WARPCOVEN SORCERER** operatives **PSYCHIC** weapons have the Balanced weapon
-rule, or Ceaseless instead if another friendly **WARPCOVEN SORCERER** operative is within 9\" of that operative.
+Las armas **PSYCHIC** de aliados **WARPCOVEN SORCERER** ganan la regla Balanced, o Ceaseless si
+otro aliado **WARPCOVEN SORCERER** esta a 9\" de ese Operativo.
 ]]></string>
 
     <string name="savage_herd_lore"><![CDATA[
-Though bestial of form, the Tzaangor possess great
-cunning to match their savagery, particularly when
-fighting in the presence of a powerful Sorcerer.
+Aunque de aspecto bestial, los Tzaangor poseen una gran astucia que iguala su salvajismo, especialmente
+cuando luchan en presencia de un poderoso hechicero.
 ]]></string>
 
     <string name="savage_herd_description"><![CDATA[
-Friendly **WARPCOVEN TZAANGOR** operatives
-melee weapons have the Accurate 1 weapon rule.
-Whenever a friendly **WARPCOVEN TZAANGOR**
-operative is assisted by a friendly **WARPCOVEN**
-operative, or is fighting while visible to and within
-6\" of a friendly **WARPCOVEN SORCERER**
-operative, that friendly **WARPCOVEN TZAANGOR** operatives melee weapons also have
-the Severe weapon rule.
+Las armas de melee de aliados **WARPCOVEN TZAANGOR** ganan la regla Accurate 1. Cuando un aliado
+**WARPCOVEN TZAANGOR** esta asistiendo a un aliado **WARPCOVEN**, o esta combatiendo mientras sea
+visible y a 6\" de un aliado **WARPCOVEN SORCERER**, ese aliado **WARPCOVEN TZAANGOR** tambien tiene
+la regla Severe en sus armas de melee.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="all_is_dust_lore"><![CDATA[
-No longer warriors of flesh and blood, the Rubricae are
-possessed of an unnatural resilience.
+Ya no son guerreros de carne y hueso, los Rubricae poseen una resistencia antinatural.
 ]]></string>
 
     <string name="all_is_dust_description"><![CDATA[
-Use this firefight ploy when an attack dice inflicts
-Normal Dmg on a friendly **WARPCOVEN RUBRIC MARINE** operative. That attack dice inflicts 1 damage instead.
+Usa esta Firefight ploy cuando un dado de ataque vaya a infligir daño normal a un aliado **WARPCOVEN RUBRIC MARINE**.
+ese dado inflige 1 herida en su lugar.
 ]]></string>
 
     <string name="capricious_plan_lore"><![CDATA[
-Sorcerers dart from skirmish to firefight in the
-furtherance of their unknowable schemes, their
-goals and ambitions indecipherable to even the most insightful of foes.
+Los hechiceros se mueven con agilidad de escaramuza en escaramuza en el transcurso de sus
+planes inescrutables, cuyas
+metas y ambiciones resultan indescifrables incluso para los enemigos más perspicaces.
 ]]></string>
 
     <string name="capricious_plan_description"><![CDATA[
-Use this firefight ploy at the end of a friendly
-**WARPCOVEN SORCERER** operatives activation.
-That friendly operative can immediately perform
-a free **Dash** action (even if it is performed an
-action that prevents it from performing the **Dash**
-action), or you can change its order instead.
+Usa esta Firefight ploy al final de la activacion de un aliado **WARPCOVEN RUBRIC MARINE**. Ese
+aliado puede hacer inmediatamente una accion gratis de **Dash** (incluso si hizo una accion que prevenga
+que pueda hacer una accion de **Dash**), o puedes cambiar su orden en su lugar.
 ]]></string>
 
     <string name="psychic_cabal_lore"><![CDATA[
-Pooling their power, a coven of Sorcerers may share
-their learnings, rendering their psychic powers even more deadly.
+Al aunar sus poderes, un aquelarre de hechiceros puede compartir sus conocimientos, haciendo que sus
+poderes psíquicos sean aún más letales.
 ]]></string>
 
     <string name="psychic_cabal_description"><![CDATA[
-Use this firefight ploy when a friendly
-**WARPCOVEN SORCERER** operative is activated.
-Select one other friendly **WARPCOVEN SORCERER** operative visible to and within 9\"
-of that operative, then select one of that other
-friendly operatives **PSYCHIC** unique actions or
-**PSYCHIC** ranged weapons for that first friendly
-operative to have until the end of its activation.
-You cannot select a **PSYCHIC** ranged weapon that
-has been used by that other friendly operative
-during this turning point, and that other friendly
-operative cannot use the selected weapon during this turning point.
+Usa esta Firefight ploy cuando un aliado **WARPCOVEN SORCERER** es activado. Selecciona otro aliado
+**WARPCOVEN SORCERER** visible y a 9\"de ese Operativo, entonces selecciona una accion unica **PSYCHIC** o
+un arma a distancia **PSYCHIC** de ese aliado seleccionado. El primer aliado puede usarlas hasta el final
+de su activacion. No puedes seleccionar un arma **PSYCHIC** que ya haya sido usada por ese otro Operativo
+aliado durante este turno, y ese otro aliado no puede usar el arma seleccionada durante este turno.
 ]]></string>
 
     <string name="mutant_herd_lore"><![CDATA[
-Tzaangor herds share an instinctive understanding,
-coordinating their attacks with eerie precision.
+Las manadas de Tzaangor comparten un entendimiento instintivo, coordinando sus ataques con una
+precisión escalofriante.
 ]]></string>
 
     <string name="mutant_herd_description"><![CDATA[
-Use this firefight ploy when a friendly **WARPCOVEN TZAANGOR** operative is activated.
-Select one other ready friendly **WARPCOVEN TZAANGOR** operative visible to and within 2\" of
-it to activate at the same time. Complete their activations action by action in any order.
+Usa esta Firefight ploy cuando un aliado **WARPCOVEN TZAANGOR** es activado. Selecciona otro aliado
+**WARPCOVEN TZAANGOR** que no haya activado (ready) visible y a 2\" de este Operativo para que active
+al mismo tiempo. Completa sus activacionses accion por accion en cualquier orden.
 ]]></string>
 
 </resources>

@@ -17,9 +17,9 @@ val CanoptekTombCrawler = Operative(
     imageRes = R.drawable.canoptek_crawler,
     stats = OperativeStats(
         apl = 2,
-        move = "7\"",
-        save = "4+",
-        wounds = 7
+        move = "5\"",
+        save = "3+",
+        wounds = 18
     ),
     weapons = listOf(
         WeaponProfile(

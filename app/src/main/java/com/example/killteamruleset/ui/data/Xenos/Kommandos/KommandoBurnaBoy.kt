@@ -11,6 +11,7 @@ import com.example.killteamruleset.ui.model.OperativeStats
 import com.example.killteamruleset.ui.model.Piercing
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Saturate
+import com.example.killteamruleset.ui.model.Seek
 import com.example.killteamruleset.ui.model.Seek_light
 import com.example.killteamruleset.ui.model.Severe
 import com.example.killteamruleset.ui.model.Shock
@@ -42,7 +43,7 @@ val KommandoBurnaBoy = Operative(
             )
         ),
         WeaponProfile(
-            name = "Burna (standard)",
+            name = "Burna (deluge)",
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "2+",
@@ -50,8 +51,8 @@ val KommandoBurnaBoy = Operative(
             keywords = listOf(
                 Range(4),
                 Saturate,
-                Seek_light,
-                Torrent(2)
+                Seek,
+                Torrent(0)
             )
         ),
         WeaponProfile(

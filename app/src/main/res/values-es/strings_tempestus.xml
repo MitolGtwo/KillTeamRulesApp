@@ -46,15 +46,12 @@ Dispara con esta arma a ambos en el orden de tu elección (lanza dados por separ
     ]]></string>
 
     <string name="gunfight_description"><![CDATA[
-
-        
-Whenever an enemy operative within 8\" of this operative shoots this
-operative, keep track of each attack dice that is discarded as a fail. After the action,
-before incapacitated operatives are removed (including this one, if relevant), this
-operative can perform a free *Shoot* action (you can change its order to **Engage** to do
-so), but it can only target that enemy operative with its hot‑shot laspistols (focused),
-and you only roll a number of attack dice equal to the opponents discarded attack dice
-plus one (to a maximum of four).
+Cuando un Operativo a 8\" de este Operativo dispara a este Operativo, manten una cuenta de cada dado
+que sea descartado como un fallo. Despues de la accion, antes de que Operativos incapacitados sean
+removidos (incluyendo este), este Operativos puede hacer una accion de **Disparo** (puedes cambiar su
+orden a **Engage** para hacerlo), pero solo puede disparar a ese Operativo enemigo con su Hot-Shot Laspistol
+(Focused), y solo puedes lanzar una cantidad de dados equivalentes a la cantidad de dados que haya
+descartado mas uno (hasta maximo de cuatro).
     ]]></string>
 
     <string name="sniper_vantage_usage"><![CDATA[
@@ -62,10 +59,9 @@ plus one (to a maximum of four).
     ]]></string>
 
     <string name="sniper_vantage_description"><![CDATA[
-Whenever this operative is on Vantage terrain
-and is shooting an operative that has an Engage order and is at
-least 2\" lower than it, all profiles of its hot‑shot long‑las have the
-Severe weapon rule.
+Cuando este Operativo esta sobre terreno aventajado y dispara a un Operativo con una orden de **Engage**
+y que este al menos 2\" por debajo de este Operativo, todos los perfiles de su Hot-Shot Long-las ganan
+la regla Severe.
     ]]></string>
 
     <string name="knife_fighter_usage"><![CDATA[
@@ -73,9 +69,8 @@ Severe weapon rule.
     ]]></string>
 
     <string name="knife_fighter_description"><![CDATA[
-Whenever this operative is fighting, after
-resolving your first attack dice during that sequence, you can
-immediately resolve another (before your opponent).
+Cuando este Operativo combate, despues de resolver tu primer dado de ataque durante esa secuencia,
+puedes inmediatamente resolver otro (antes que tu oponente).
     ]]></string>
 
     <string name="dynamic_usage"><![CDATA[
@@ -83,12 +78,9 @@ immediately resolve another (before your opponent).
     ]]></string>
 
     <string name="dynamic_description"><![CDATA[
-Whenever this operative performs the **Shoot** or
-**Fight** action, it can immediately perform a free **Dash** action
-afterwards. It can do so even if it is performed the **Charge**
-action during this activation, but can only use any remaining
-move distance it had from that **Charge** action (to a maximum
-of 3\").
+Cuando este Operativo hace la accion de **Disparo** o **Combate**, puede inmediatamente hacer una accion
+**Dash** gratis despues. Puede hacerlo incluso si ha hecho la accion de **Cargar** durante esa activacion,
+pero solo puede usar la distancia restante que haya tenido de esa **Carga** (Hasta un maximo de 3\").
     ]]></string>
 
     <string name="tempestus_machine_usage"><![CDATA[
@@ -96,10 +88,8 @@ of 3\").
     ]]></string>
 
     <string name="tempestus_machine_description"><![CDATA[
-This operative cannot perform any actions other
-than **Dash, Fall Back, Reposition** and **Shoot**. It cannot
-retaliate, assist in a fight or use any weapons that are not on
-its datacard.
+Este Operativo no puede hacer ninguna accion que no sea **Dash, Fall Back, Reposicion** y **Disparo**.
+No puede retalear ni asistir en un combate, o usar armas que no esten en su tarjeta de personaje.
     ]]></string>
 
     <string name="turret_usage"><![CDATA[
@@ -107,8 +97,7 @@ its datacard.
     ]]></string>
 
     <string name="turret_description"><![CDATA[
-This operative can perform two **Shoot** actions during
-its activation.
+Este Operativo puede hacer dos acciones de **Disparo** durante su activacion.
     ]]></string>
 
     <string name="rapid_insertion_usage"><![CDATA[
@@ -116,11 +105,9 @@ its activation.
     ]]></string>
 
     <string name="rapid_insertion_description"><![CDATA[
-**STRATEGIC GAMBIT** in the first turning
-point. Each friendly **TEMPESTUS AQUILON TROOPER**
-operative wholly within your drop zone can immediately perform
-a free **Reposition** action, but must end that move wholly within
-3\" of your drop zone
+**STRATEGIC GAMBIT** del primer turno. Cada aliado **TEMPESTUS AQUILON TROOPER** completamente dentro
+de tu zona de deployment puede inmediatamente hacer una **Reposicion** gratis, pero debe terminar completamente
+a 3\" de tu zona de deployment.
     ]]></string>
 
     <string name="swift_landing_usage"><![CDATA[
@@ -128,9 +115,8 @@ a free **Reposition** action, but must end that move wholly within
     ]]></string>
 
     <string name="swift_landing_description"><![CDATA[
-When this operative lands, you can set it up
-within 4\" horizontally of one of your Drop markers, taking
-precedence over the normal distance requirement.
+Cuando este Operativo aterrize, puede ponerse a 4\" horizontalmente de tu Drop Marker, esto toma
+precedencia sobre la distancia normal.
     ]]></string>
 
     <!--Faction Rules-->
@@ -141,55 +127,26 @@ listos para aniquilar a los enemigos del imperio.
 ]]></string>
 
     <string name="drop_insertion_description"><![CDATA[
-When setting up a **TEMPESTUS AQUILON** kill
-team before the battle, the first third of your
-kill team must be set up as normal. Each third
-thereafter can be set up above: place them to
-one side instead of in the killzone. For each third
-that is set up above, you must set up the whole
-third in this way (not some of them), then place
-one of your Drop markers wholly within your
-drop zone.\n
-\n
-As a **STRATEGIC GAMBIT** in the first and second
-turning point, you can move your Drop markers
-up to 4\" horizontally. In a killzone that uses the
-close quarters rules (e.g. Killzone: Tomb World),
-this can be measured and moved through
-Wall terrain.\n
-\n
-In the Firefight phase, friendly **TEMPESTUS
-AQUILON** operatives set up above are activated
-as normal. When you do, you can either expend
-or land that operative. If it lands, set it up in the
-killzone in a location it can be placed as follows
-(it is no longer set up above):\n
-\n
-• Within 3\" horizontally of one of your Drop markers, or wholly within your drop zone.\n
-• Not within control range of enemy operatives
-(unless you’re setting up a PRECURSOR operative, which can be set up within control
-range of an enemy operative).\n
-• With no part of its base underneath Vantage terrain.\n
-• With an order of your choice.\n
-\n
-The operative is treated as performing the
-**Reposition** action (spend the AP accordingly),
-then continue its activation as normal. It is
-obscured until the end of the next activation
-or the end of the turning point (whichever
-comes first).\n
-\n
-Less than half of your operatives can be set up
-above by the end of the first turning point. In
-other words, by the end of the first turning point,
-more than half of your operatives must have been
-set up in the killzone during the battle.\n
-\n
-When readying your operatives during the second
-and third turning points, remove one of your
-Drop markers. This means operatives still set up
-above are incapacitated at the end of the second
-turning point.
+Cuando acomodes a tus **TEMPESTUS AQUILON** antes de la batalla, el primer tercio de tu kill team debe ser
+puesto normalmente. Cada tercio siguiente puede ser puesto en el aire: ponlos a un lado del campo.
+Por cada tercio que sea puesto en el aire, debes poner el tercio completo (no solo uno de ellos), despues
+pon uno de tus Drop Markers completamente dentro de tu zona de deployment.\n
+\nComo **STRATEGIC GAMBIT** en el primer y segundo turno, puedes mover tu Drop Marker 4\" horizontalmente.
+En un campo que use las reglas de terreno cerrado (Tomb World), esto puede ser medido a traves de paredes.\n
+\nEn la Firefight fase, aliados **TEMPESTUS AQUILON** puestos en el aire pueden activar normalmente.
+Cuando lo hagan, puede o expenderse o aterrizar. Si aterriza, ponlo en el campo en un lugar donde pueda
+mantenerse siguiendo estas reglas (ya no estaria en el aire):\n
+\n• A 3\" horizontalmente de uno de tus Drop Markers, o completamente dentro de tu zona de deployment.\n
+\n• No dentro de control de un Operativo enemigo (a menos de que sea un precursor).\n
+\n• Sin ninguna parte de su base por debajo de terreno aventajado.\n
+\n• Con una orden de tu eleccion.\n
+\nEl Operativo es tratado como si hubiera hecho la accion de **Reposicion** (gasta el AP adecuadamente),
+despues continua con su activacion normalmente. Esta Obscurecido hata el final de la proxima activacion
+o hasta el final del turno (lo que pase primero).\n
+\Menos de la mitad de tus Operativos pueden seguir en el aire al final de tu primer turno. En otras
+palabras, al final del primer turno, mas de la mitad de tus Operativos deben estar en el campo durante la batalla.\n
+\nCuando tus Operativos esten listos para activar (ready) durante el segundo y tercer turno, remueve uno de tus
+Drop Markers. Esto signidica que Operativos aun en el aire al final del segundo turno son incapacitados.
 ]]></string>
 
     <string name="grav_chute_lore"><![CDATA[
@@ -198,11 +155,8 @@ permitir que quienes los usan caigan a un ritmo rápido pero controlado y aterri
 ]]></string>
 
     <string name="grav_chute_description"><![CDATA[
-Whenever a friendly **TEMPESTUS AQUILON**
-operative is dropping, ignore the vertical distance.
+Cuando un aliado **TEMPESTUS AQUILON** esta cayendo, ignora la distancai vertical.
 ]]></string>
-
-
 
     <!--Equipment-->
 
@@ -212,9 +166,7 @@ al incorporarse a sus filas, también sirven como símbolo del orgullo regimenta
 ]]></string>
 
     <string name="tempestus_daggers_description"><![CDATA[
-Friendly **TEMPESTUS AQUILON **operatives
-(excluding **SERVO‑SENTRY**) have the following
-melee weapon:
+Aliados **TEMPESTUS AQUILON** (excluyendo **SERVO-SENTRY**) ganan la siguiente arma de melee.
 ]]></string>
 
     <string name="aquilon_combat_stimms_lore"><![CDATA[
@@ -223,9 +175,8 @@ quienes pueden tener que permanecer alerta y luchando durante días seguidos.
 ]]></string>
 
     <string name="aquilon_combat_stimms_description"><![CDATA[
-You can ignore any changes to the Move stat of
-friendly **TEMPESTUS AQUILON** operatives from
-being injured.
+Puedes ignorar cualquier cambio a las estadistica de Movimiento de aliados **TEMPESTUS AQUILON** por
+estar **Lesionados**.
 ]]></string>
 
     <string name="drop_agury_lore"><![CDATA[
@@ -236,12 +187,9 @@ inteligencia resultante se carga en el monitor de la tableta de los Tempestors.
 ]]></string>
 
     <string name="drop_agury_description"><![CDATA[
-Once per battle, when a friendly **TEMPESTUS
-AQUILON** operative that is set up above is
-activated, before expending or landing that
-operative, you can move one of your Drop
-markers again. However, it cannot be moved
-closer to your opponents drop zone.
+Una vez por batalla, cuando un aliado **TEMPESTUS AQUILON** que esta en el aire es activado, antes de
+terminar su activacion o de aterrizar, puedes mover uno de tus Drop Marker otra vez. Sin embargo, no
+puede moverse mas cerca de la zona de deployment de tu enemigo.
 ]]></string>
 
     <string name="remote_overseer_lore"><![CDATA[
@@ -250,10 +198,8 @@ de augures tácticos, los oficiales de vigilancia proporcionan una visión estra
 ]]></string>
 
     <string name="remote_overseer_description"><![CDATA[
-Once per battle, after rolling off to decide initiative, you can re‑roll your dice.
+Una vez por batalla, despues de lanzar tus dado de iniciativa, puedes re-rollear tu dado de defensa.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
@@ -262,16 +208,10 @@ Los Tempestus Aquilons son expertos en entrar rápidamente en combate y sorprend
 ]]></string>
 
     <string name="sudden_offensive_description"><![CDATA[
-Count the number of friendly **TEMPESTUS
-AQUILON** operatives that are not incapacitated,
-then halve the result (rounding up) to give
-you x. Until the end of their activation, friendly
-**TEMPESTUS AQUILON** operatives weapons
-have the Balanced weapon rule if they are the
-first friendly operatives activated this turning
-point equal to x. For example, if you have five
-operatives, the first three friendly operatives
-activated will benefit.
+Cuenta el numero de aliados **TEMPESTUS AQUILON** que no esten incapacitados, entonces reduce la cantidad
+a la mitad (redondeando hacia arriba) para darte un valor x. Hasta el final de su activacion, aliados
+**TEMPESTUS AQUILON** tienen la regla Balanced en sus armas si son de los primeros Operativos en activar
+equivalentes a X. Por ejemplo si tienes 5 Operativos, los primeros 3 en activar tendran Balanced.
 ]]></string>
 
     <string name="maintain_momentum_lore"><![CDATA[
@@ -279,10 +219,8 @@ Una vez que comienza el asalto, los Aquilons mantienen la presión, dejando a su
 ]]></string>
 
     <string name="maintain_momentum_description"><![CDATA[
-Whenever a friendly **TEMPESTUS AQUILON**
-operative is shooting against or fighting against a
-ready enemy operative, that friendly operatives
-weapons have the Severe weapon rule.
+Cuando un aliado **TEMPESTUS AQUILON** este disparando o combatiendo contra un Operativo enemigo que
+no haya activado (ready), las armas de ese aliado ganan la regla Severe.
 ]]></string>
 
     <string name="eye_above_lore"><![CDATA[
@@ -290,20 +228,13 @@ Los servo-cráneos aerotransportados y los aviones de reconocimiento mantienen a
 ]]></string>
 
     <string name="eye_above_description"><![CDATA[
-Select one enemy operative. That operative and
-each other enemy operative within 3\" of it gains
-one of your Detected tokens until the end of the
-turning point. Whenever an enemy operative that
-has one of your Detected tokens:\n
-\n
-• Is shooting a friendly **TEMPESTUS
-**AQUILON operative, you can re‑roll one of
-your defence dice.\n
-\n
-• Is fighting or retaliating against a friendly
-**TEMPESTUS AQUILON** operative, one of
-your blocks can be allocated to block two
-unresolved successes (instead of one).
+Selecciona un Operativo enemigo. Ese Operativo enemigo y cada otro enemigo a 3\" de el ganan uno de
+tus Detected Tokens hasta el final del turno. Cuando un Operativo enemigo con uno de tus
+Detected Tokens:\n
+\n• Esta disparando a un aliado **TEMPESTUS AQUILON**, puedes re-rollear uno de tus dados de
+defensa.\n
+\n• Esta combatiendo o retaleando contra un aliado **TEMPESTUS AQUILON**, uno de tus bloqueos puede
+ser usado para bloquear dos resultados sin resolver (en lugar de uno).
 ]]></string>
 
     <string name="drop_secure_lore"><![CDATA[
@@ -311,21 +242,12 @@ Los objetivos tácticos prioritarios deben ser asegurados para garantizar una vi
 ]]></string>
 
     <string name="drop_secure_description"><![CDATA[
-Select one marker.\n
-\n
-• Until the Ready step of the next Strategy
-phase, when determining control of that
-marker, treat the total APL stat of friendly
-**TEMPESTUS AQUILON** operatives that
-contest it as 1 higher if at least one friendly
-**TEMPESTUS AQUILON** operative contests
-that marker. Note this is not a change to the APL
-stat, so any changes are cumulative with this.\n
-\n
-• Whenever a friendly **TEMPESTUS
-AQUILON** operative is within 3\" of that
-marker, add 1 to the Atk stat of its melee
-weapons (to a maximum of 4).
+Selecciona un objetivo.\n
+\n• Hasta la Ready Step del siguiente Strategy Phase, cuando determines el control de ese objetivo,
+trata el total de APL de aliados **TEMPESTUS AQUILON** que esten contesteando ese objetivo como si
+tuviera 1 mas. Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+\n• Cuando un aliado **TEMPESTUS AQUILON** esta a 3\" de ese objetivo, añade 1 a su estadistica de
+Atk de sus armas a melee (hasta un maximo de 4).
 ]]></string>
 
 
@@ -336,13 +258,10 @@ Los aquilons están entrenados para lanzarse en picado al fragor de la batalla, 
 ]]></string>
 
     <string name="hot_drop_description"><![CDATA[
-Use this firefight ploy after rolling your attack dice
-for a friendly **TEMPESTUS AQUILON** operative
-that is wholly within your opponents territory, or
-either landed or dropped from Vantage terrain at
-least 2\" higher than the killzone floor during this
-activation. If the target is within 6\" of it, you can
-re‑roll any of your attack dice.
+Usa esta Firefight ploy despues de lanzar tus dados de ataque para aliados **TEMPESTUS AQUILON**
+que esten completamente dentro del terreno de tu oponente, que hayan aterrizado o que hayan caido de
+terreno aventajado de al menos 2\" de altura durante su activacion. Si el objetivo esta a 6\" de el,
+puedes re-rollear cualquier dado de ataque.
 ]]></string>
 
     <string name="adjust_coordinates_lore"><![CDATA[
@@ -350,13 +269,9 @@ A medida que el tiroteo se desarrolla, los Aquilons que aún descienden ajustan 
 ]]></string>
 
     <string name="adjust_coordinates_description"><![CDATA[
-Use this firefight ploy when a friendly
-**TEMPESTUS AQUILON** operative lands. You
-can set it up within 5\" horizontally of one of
-your Drop markers, taking precedence over the
-normal distance requirement. It cannot perform
-the **Dash, Shoot** or **Fight** actions during this
-turning point.
+Usa esta Firefight ploy cuando un aliado **TEMPESTUS AQUILON** aterriza. Puedes ponerlo a 5\" horizontal
+de uno de tus Drop Markers, esto toma precedencia sobre el requerimiento normal de distancia. Pero no
+puede hacer las acciones **Dash, Shoot** o **Combate** durante este turno.
 ]]></string>
 
     <string name="tempestus_exemplars_lore"><![CDATA[
@@ -366,27 +281,21 @@ durante los tiroteos más feroces.
 ]]></string>
 
     <string name="tempestus_exemplars_description"><![CDATA[
-Use this firefight ploy during a friendly
-**TEMPESTUS AQUILON** operatives activation
-(excluding **SERVO‑SENTRY** and any operative
-that has an APL stat higher than 2). During that
-activation, that operative can perform the **Pick
-Up Marker**, **Place Marker** or a mission action for
-1 less AP.
+Usa esta Firefight ploy durante la activacion de un aliado **TEMPESTUS AQUILON** (excluyendo **SERVO-SENTRY**
+y cualquier Operativo con una estadistica de APL mayor que 2). Durante esa activacion, ese Operativo
+puede hacer la accion **Pick up Marker, Place Marker** o accion de mision por 1 AP menos.
 ]]></string>
 
     <string name="progena_lore"><![CDATA[
 Como graduados de la Schola Progenium, estos guerreros no solo están condicionados para seguir 
-sus órdenes con precisión incuestionable, sino que también están impulsados ​​por una ferviente devoción al Culto 
+sus órdenes con precisión incuestionable, sino que también están impulsados por una ferviente devoción al Culto
 Imperial que les ayuda a ignorar el dolor y el miedo.
 ]]></string>
 
     <string name="progena_description"><![CDATA[
-Use this firefight ploy when a friendly
-**TEMPESTUS AQUILON** operative (excluding
-**SERVO‑SENTRY**) is activated. It regains up to 2D3
-lost wounds, and during that activation you can
-ignore any changes to its APL stat.
+Usa esta Firefight ploy cuando un aliado **TEMPESTUS AQUILON** (excluyendo **SERVO-SENTRY**) es activado.
+Recupera 2D3 heridas perdidas, y durante esa activacion puedes ignorar cualquier cambio a su
+estadistica de APL.
 ]]></string>
 
 </resources>

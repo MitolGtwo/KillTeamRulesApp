@@ -9,8 +9,8 @@
     ]]></string>
 
     <string name="guidance_and_experience_description"><![CDATA[
- Once during each of this operatives activations, you can select one other friendly **SCOUT SQUAD**
-operative visible to it. Until the end of that operatives next activation, add 1 to its APL stat.
+Once during each of this operatives activations, you can select one other friendly **SCOUT SQUAD**
+in the killzone. Until the end of that operatives next activation, add 1 to its APL stat.
     ]]></string>
 
     <string name="scout_astartes_usage"><![CDATA[
@@ -89,6 +89,17 @@ You can do each of the following once per turning point:\n
 • One friendly **SCOUT SQUAD WARRIOR** operative can perform the Stun Grenade action.\n
 The rules for these actions are found in universal equipment. Performing these actions using this
 rule does not count towards their action limits (i.e. if you also select those grenades from equipment).
+    ]]></string>
+
+<string name="heavy_weapon_bipod_usage"><![CDATA[
+    Passive
+]]></string>
+
+<string name="heavy_weapon_bipod_description"><![CDATA[
+Whenever this operative is shooting with a weapon from its datacard, if it hasnt moved during the
+activation, or if it is a counteraction, that weapon has the Ceaseless weapon rule; if the weapon
+already has that weapon rule (i.e. from the Ambush strategy ploy), it has the Relentless weapon rule
+instead. Note that this operative is not restricted from moving after shooting.
     ]]></string>
 
     <!--Faction Rules-->
@@ -218,20 +229,17 @@ with better stats; in that instance, use the
 better version.
 ]]></string>
 
-    <string name="heavy_weapon_bipod_lore"><![CDATA[
-Deploying a heavy weapon bipod allows the bearer to lay
-down a hail of suppressing fire.
+    <string name="tactical_vox_link_lore"><![CDATA[
+The Scout Sergeant maintains a constant vox-link with
+the aspirants in his charge, directing their aggression
+with deadly precision
 ]]></string>
 
-    <string name="heavy_weapon_bipod_description"><![CDATA[
-Whenever a friendly **SCOUT SQUAD HEAVY
-GUNNER** operative is shooting with a heavy bolter
-or missile launcher, if it has not moved during
-the activation, or if it is a counteraction, that
-weapon has the Ceaseless weapon rule; if the
-weapon already has that weapon rule, it has the
-Relentless weapon rule. Note that operative is not
-restricted from moving after shooting.
+    <string name="tactical_vox_link_description"><![CDATA[
+Once per turning point, you can use the Astartes
+Training or Emboldened Aspirant firefight ploy
+for 0CP if a friendly **SERGEANT** operative is in
+the killzone
 ]]></string>
 
 

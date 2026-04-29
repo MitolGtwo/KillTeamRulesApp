@@ -39,7 +39,7 @@ This operative cannot perform this action while within control range of an enemy
 
     <string name="terrochem_description"><![CDATA[
 In the Resolve Attack Dice step, if you inflict
-damage with any critical successes, the operative this weapon
+damage with any critical successes (including as a result of the Devastating weapon rule) , the operative this weapon
 is being used against gains one of your Terrorchem tokens (if it
 does not already have one).
     ]]></string>
@@ -175,8 +175,8 @@ operative is obscured if both of the following are true:\n
 \n
 • It is more than 8\" from enemy operatives it is visible to.\n
 \n
-• It has Heavy terrain within its control range, or any part of its base is underneath
-Vantage terrain.
+• It is within 1\" of Heavy terrain that is not lower than it, or any
+part of its base is underneath Vantage terrain.
 ]]></string>
 
     <!--Equipment-->
@@ -282,12 +282,10 @@ prey, hunting down the craven with unerring precision
 ]]></string>
 
     <string name="preysight_description"><![CDATA[
-Whenever you are selecting a valid target for a
-friendly **NEMESIS CLAW** operative, enemy
-operatives within 6\" of it cannot use Light terrain
-for cover. While this can allow such operatives to
-be targeted (assuming they are visible), it does not
-remove their cover save (if any).
+Whenever a friendly **NEMESIS CLAW** operative performs the
+**Shoot** action, you can use this rule. If you do, until the end of
+that action, that friendly operative’s ranged weapons have the
+Range 6” and Seek Light weapon rules
 ]]></string>
 
     <string name="return_to_darkness_lore"><![CDATA[

@@ -1,327 +1,294 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Yaegirs-->
-
     <string name="veteran_adventurer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="veteran_adventurer_description"><![CDATA[
-In the Ready step of each Strategy phase after the first, if this operative is in the killzone and
-is not within control range of enemy operatives, you gain 1 Resourceful point.
+En la Ready Step de cada Strategy Phase despues del primero, si este Opertivo esta en el campo y no
+dentro del rango de control de Operativos enemigos, ganar 1 punto de Recursividad.
     ]]></string>
 
     <string name="outright_conviction_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="outright_conviction_description"><![CDATA[
-The first time this operative would be
-incapacitated during the battle, it is not incapacitated, has 1
-wound remaining and cannot be incapacitated for the remainder
-of the action. All remaining attack dice are discarded (including
-yours if this operative is fighting or retaliating).
+La primera vez que este Operativo vaya a ser incapacitado durante la batalla, no es incapacitado,
+tiene 1 herida restante y no puede ser incapacitado durante el resto de la accion. Todos los dados
+son descartados (tuyos y de tu oponente).
     ]]></string>
 
     <string name="yaegir_stalker_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="yaegir_stalker_description"><![CDATA[
-This operative can perform the **Charge** action while it has a Conceal order.
+Este Operativo puede hacer la accion de **Cargar** mientras tenga una orden de **Conceal**.
     ]]></string>
 
     <string name="irrepressible_hardiness_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="irrepressible_hardiness_description"><![CDATA[
-If this operative is incapacitated during
-the **Fight** action, you can strike the enemy operative in that
-sequence with one of your unresolved successes before this
-operative is removed from the killzone.
+Este Operativo es incapacitado durante una accion de **Combate**, puedes golpear al Operativo enemigo
+durante esa secuencia con uno de tus exitos in resolver antes de ser removido del campo.
     ]]></string>
 
-
     <string name="wroughtlock_revolvers_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="wroughtlock_revolvers_description"><![CDATA[
-**STRATEGIC GAMBIT**. Thisoperative can immediately perform a free Shoot action (you can
-change its order to **Engage** to do so)
+**STRATEGIC GAMBIT**. Este Operativo puede hacer inmediatamente una accion gratis de **Disparo**
+(puedes cambiar su orden a **Engage** para hacerlo).
     ]]></string>
 
     <string name="brazen_killer_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="brazen_killer_description"><![CDATA[
-Whenever this operative incapacitates an enemy
-operative with its wroughtlock revolvers, roll one D6 separately
-for each other enemy operative visible to and within 2\" of that
-enemy operative: if the result is higher than that other enemy
-operatives APL stat, subtract 1 from its APL stat until the end of its next activation.
+Cuando este Operativo incapacita a un Operativo enemigo con sus Wroughlock Revolvers, lanza un D6
+por separado para cada Operativo enemigo visible y a 2\" de ese Operativo enemigo: si el resultado es
+mayor que la estadistica de APL de ese otro Operativo enemigo, reduce su estadistica de APL por 1
+hasta el final de su proxima activacion.
     ]]></string>
-
 
     <string name="yaegirs_bipod_usage"><![CDATA[
         Special Weapon Rule
     ]]></string>
 
     <string name="yaegirs_bipod_description"><![CDATA[
-Whenever this operative is shooting with this weapon, if
-it has not moved during the activation, or if it is a counteraction,
-this weapon has the Ceaseless weapon rule. Note this operative
-is not restricted from moving after shooting.
+Cuando este Operativo esta disparando con esta arma, si no se ha movido durante la activacion, o si es
+un counteract, esta arma tiene la regla Ceaseless. Notese que este Operativo no esta restringido
+de moverse despues de disparar.
     ]]></string>
 
     <string name="yaegirs_minefield_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="yaegirs_minefield_description"><![CDATA[
-You have five Minefield markers for the battle. On the reverse side, three of them are HY-Pex mines
-(see below) and two are blank. Set up all your Minefield markers as if they were one item of equipment.
-Each must be set up reverse-side down (their specifics are not revealed), more than 2\" from other markers,
-access points and Accessible terrain, and more than 6\" from your opponents drop zone and your other
-Minefield markers. Whenever this operative is readied, if it’s not within control range of enemy operatives, you can
-reset one of your flipped Minefield markers that is within its control range (flip the marker back over again).
+Tienes 5 tokens de minas durante la batalla. Al reverso de dichos tokens, tres son minas HY-Pex (vease
+abajo) y dos estan vacias. Pon tus tokens de minas como si fueran un equipamiento. Cada una debe ponerse
+boca abajo (no se revela cual es cual), a mas de 2\" de otros marcadores, puntos de acceso y terreno
+accesible. y a mas de 6\" de la zona de deployment de tu oponente y de otro token de mina. Cuando este
+Operativo vuelva a ser activable (Readied), si no esta dentro del rango de control de un Operativo
+enemigo, puedes resetear uno de tus tokens de mina que este dentro de su rango de control (vuelvelo
+a poner boca abajo).
     ]]></string>
 
-
     <string name="hypex_mines_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="hypex_mines_description"><![CDATA[
-Whenever one of your reverse-side down Minefield markers is both within an enemy operatives control
-range and not within a friendly **HERNKYN YAEGIR** operatives control range, flip the marker over.
-If it is a blank, theres no effect. If it is a HY-Pex mine, inflict 3 damage on that enemy operative
-and roll one D6: if the result is less than that enemy operatives Save stat, inflict additional
-damage on it equal to the dice result; regardless of the result, if it is not incapacitated,
-end its action (if any), even if that actions effects are not fulfilled.
-If it cannot be placed, move it the minimum amount to do so. Regardless, that marker is not removed.
+Cuando uno de tus tokens de mina boca abajo esta dentro del rango de control de un Operativo enemigo y
+no dentro del rango de control de un aliado **HERNKYN YAEGIR**, voltea ese token. Si esta en blanco no pasa
+nada. Si es un HY-Pex, inflige 3 heridas a ese Operativo enemigo y lanza un D6, si ese resultado es menor
+que la estadistica de Salvacion de ese Operativo enemigo, inflige daño adicional equivalente al resultado
+del dado, sin importar el resultado del dado, si no es incapacitado, termina su accion, incluso si no
+la ha activado. Si no puede poner su peana ahi, muevelo la cantidad minima para hacerlo. De cualquier
+forma, ese token no es removido.
     ]]></string>
 
     <string name="yaegirs_cloak_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="yaegirs_cloak_description"><![CDATA[
-Whenever an operative is shooting this operative:\n
-\n
-• Ignore the Saturate weapon rule.\n
-\n
-• If you can retain any cover saves, you can retain one additional cover save, or you
-can retain one cover save as a critical success instead. This is not cumulative with
-improved cover saves from Vantage terrain.
+Cuadno un Operativo esta disparando a este Operativo:\n
+\n• Ignora la regla Saturate.\n
+\n• Si retienes cualquier salvacion por cobertura, puedes retener un dado adicional o puedes
+retener un dado de cobertura como una salvacion critica en su lugar. Esto no es acumulable con
+salvacion de cobertura mejorada por terreno aventajado.
     ]]></string>
 
-
     <string name="yaegir_pan_spectral_visor_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="yaegir_pan_spectral_visor_description"><![CDATA[
-Whenever this operative is shooting an operative within 6\" of it:\n
-\n
-• This operatives weapons have the Seek Light weapon rule.\n
-\n
-• That operative cannot be obscured.
+Cuando este Operativo esta disparando a un Operativo a 6\" de el:\n
+\n• Las armas de este Operativo ganan la regla Seek Light.\n
+\n• Ese Operativo no puede estar Obscurecido.
     ]]></string>
 
     <string name="yaegir_tracker_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="yaegir_tracker_description"><![CDATA[
-Whenever this operative is shooting against or fighting
-against an expended operative within 6\" of it, this operatives
-weapons have the Punishing weapon rule.
+Cuando este Operativo esta disparando o combatiendo contra un Operativo que haya activado (expended)
+a 6\", las armas de este Operativo ganan la regla Punishing.
     ]]></string>
 
     <string name="intrepid_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="intrepid_description"><![CDATA[
-Whenever you spend a Resourceful point for this operative, the following take precedence:\n
-\n
-• If you add 1 to its APL stat, it lasts until the start of its next activation instead.\n
-\n
-• If it regains lost wounds, it regains up to 4 instead.
+Cuando gastar puntos de Recursividad para este Operativo, las siguientes reglas toman precedencia:\n
+\n• Si añades 1 APL, esto dura hasta el inicio de la proxima activacio de este Operativo.\n
+\n• Si recuperas heridas perdidas, recupera 4.
     ]]></string>
-
 
     <!--Faction Rules-->
 
     <string name="resourceful_lore"><![CDATA[
-Hernkyn Yaegirs are self-sufficiency specialists. They are
-also skilled warriors who, usually unsupported, embark
-upon missions equipped for countless contingencies.
-This allows them to adapt to hazardous environments
-and enemy actions with decisive speed.
+Los Hernkyn Yaegirs son especialistas en autosuficiencia.
+También son hábiles guerreros que, por lo general sin apoyo, se embarcan
+en misiones equipados para innumerables contingencias.
+Esto les permite adaptarse a entornos peligrosos
+y a las acciones enemigas con una rapidez decisiva.
 ]]></string>
 
     <string name="resourceful_description"><![CDATA[
-In the Ready step of each Strategy phase after the first, you gain Resourceful points determined
-by the number of friendly **HERNKYN YAEGIR** operatives in the killzone that are not within control
-range of enemy operatives. At the end of each turning point, discard your Resourceful points.\n
-\n
-You can spend 1 of your Resourceful points during each activation of each friendly HERNKYN**
-YAEGIR** operative to do one of the following:\n
-\n
-• Before or after it performs an action, if it is not within control range of enemy operatives,
-you can use this rule. If you do, add 1 to that friendly operatives APL stat until the end of
-its activation.\n
-\n
-• When it is activated, if it is not within control range of enemy operatives, it regains up to
-D3+1 lost wounds.
+En la Ready step de cada Strategy fase despues del primero, ganas puntos de recursividad determinados
+por el numero de aliados **HERNKYN YAEGIR** en el campo que no esten dentro del rango de control de
+Opertivos enemigos. Al final de cada turno, descarta tus puntos de Recursividad.\n
+\nPuedes gastar 1 de tus puntos de Recursividad durante cada activacion de cada aliado **HERNKYN YAEGIR**
+para que haga una de las siguientes opciones:\n
+\n• Antes o despues de hacer una accion, si no esta dentro del rango de control de un Operativo enemigo,
+puedes usar esta regla para añadir 1 a su estadistica de APL hasta el final de su activacion.\n
+\n• Cuando sea activado, si no esta dentro del rango de control de un Operativo enemigo, recupera
+hasta D3+1 heridas perdidas.\n
+\nGanas 2 puntos si hay 5 o mas Operativos en el campo cumpliendo esta regla.\n
+\nGanas 1 si hay menos de 5 Operativos en el campo cumpliendo esta regla.
+
+
 ]]></string>
 
     <string name="dauntless_explorers_lore"><![CDATA[
-The first of their kindred to set foot on new worlds,
-Yaegirs are frequently deployed for extended periods
-and are experts in swiftly evaluating and exploiting their
-area of operations.
+Los Yaegirs, los primeros de su especie en pisar nuevos mundos,
+son desplegados con frecuencia durante largos periodos
+y son expertos en evaluar y explotar rápidamente su
+área de operaciones.
 ]]></string>
 
     <string name="dauntless_explorers_description"><![CDATA[
-**STRATEGIC GAMBIT** in the first turning point. Each friendly **HERNKYN YAEGIR** operative
-wholly within your drop zone can immediately perform a free **Reposition** action. Each that does
-so must end that move wholly within 4\" of your drop zone.
+**STRATEGIC GAMBIT.** Durante el primer turno. Cada aliado **HERNKYN YAEGIR** completamente dentro de
+tu zona de deployment puede inmediatamente hacer una accion de **Reposicion**. Cada uno debe
+terminar completamente a 4\" de tu zona de deployment.
 ]]></string>
     <!--Equipment-->
 
     <string name="yaegirs_plasma_knives_lore"><![CDATA[
-The superheated edge of a plasma knife can slice
-through several inches of solid metal. Armour and bone
-are no match for such a cutting edge.
+El filo sobrecalentado de un cuchillo de plasma puede cortar
+varios centímetros de metal sólido. La armadura y el hueso
+no son rival para semejante filo.
 ]]></string>
 
     <string name="yaegirs_plasma_knives_description"><![CDATA[
-Friendly **HERNKYN YAEGIR** operatives have the following melee weapon. Note that some
-operatives already have this weapon but with better stats; in that instance, use the better
-version, and that weapon has the Balanced weapon rule for the battle.
+Aliados **HERNKYN YAEGIR** tienen la siguiente arma de melee. Notese que algunos Operativos ya tienen
+esta arma pero con mejores estadisticas, en ese caso, usa la version con mejores estadisticas, y esa
+arma tiene la regla Balanced durante la batalla.
 ]]></string>
 
     <string name="yaegirs_bolt_shells_lore"><![CDATA[
-Fitted with fin stabilisers, these specially crafted bolt
-shells are designed to enhance accuracy and lethality at extreme range.
+Equipados con estabilizadores de aletas, estos proyectiles de fabricación especial están diseñados
+para mejorar la precisión y la letalidad a distancias extremas.
 ]]></string>
 
     <string name="yaegirs_bolt_shells_description"><![CDATA[
-Up to twice per turning point, whenever a friendly **HERNKYN YAEGIR** operative is performing the
-**Shoot** action and you select a bolt shotgun (long range), you can use this rule. If you do, until the
-end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.
+Hasta dos veces por turno, cuando un aliado **HERNKYN YAEGIR** esta haciendo la accion de **Disparo**
+y seleccionas un Bolt Shotgun (long range), puedes usar esta regla. Si lo haces, hasta el final de
+esa accion, mejora su estadistica de Hit por 1 y añade 1 a ambas estadisticas de daño..
 ]]></string>
 
     <string name="firestorm_bolt_shells_lore"><![CDATA[
-These bolt rounds are packed with shrapnel and
-phosphor, detonating on impact and emitting a cloud of lethal burning shards.
+Estos proyectiles de perno están cargados de metralla y fósforo, detonan al impactar y emiten una
+nube de fragmentos incandescentes letales.
 ]]></string>
 
     <string name="firestorm_bolt_shells_description"><![CDATA[
-Once per turning point, when a friendly **HERNKYN YAEGIR** operative is performing the **Shoot** action
-and you select a bolt shotgun (short range), you can use this rule. If you do, until the end of that
-action, that weapon has the Blast 1" weapon rule.
+Una vez por turno, cuando un aliado **HERNKYN YAEGIR** este haciendo una accion de **Disparo**
+y selecciones un Bolt Shotgun (short range), puedes usar esta regla. Si lo ahces, hasta el final
+de esa accion, esa arma tiene la regla Blast 1\".
 ]]></string>
 
     <string name="kv_ceramide_undersuit_lore"><![CDATA[
-Hernkyn Yaegirs ordinarily wear only light armour. These
-thin but resilient semi-ceramic undersuits provide the
-wearer with an additional layer of protection.
+Los Hernkyn Yaegirs normalmente solo usan armadura ligera. Estos
+trajes interiores semicerámicos, delgados pero resistentes, proporcionan al usuario una
+capa adicional de protección.
 ]]></string>
 
     <string name="kv_ceramide_undersuit_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**HERNKYN YAEGIR** operative, if the ranged
-weapon in that sequence has the Blast or Torrent
-weapon rule, you can re-roll one of your defence
-dice. In addition, friendly **HERNKYN YAEGIR**
-operatives are not affected by the x\" Devastating
-x weapon rule (i.e. Devastating with a distance)
-unless they are the target during that sequence.
+Cuando un Operativo esta disparando a un aliado **HERNKYN YAEGIR**, si el arma de distancia usada
+tiene la regla Blast o Torrent, puedes re-rollear uno de tus dados de defensa. En adicion a esto,
+aliados **HERNKYN YAEGIR** no son afectados por la distancia de la regla x\" Devastating x a menos
+que sea el objetivo primario de esa secuencia.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="hidden_engagement_lore"><![CDATA[
-Being experienced survivalists, Hernkyn Yaegirs are
-skilled hunters, well used to stalking and engaging their prey from the shadows.
+Los Hernkyn Yaegirs, expertos en supervivencia, son cazadores hábiles, acostumbrados a acechar y
+atacar a sus presas desde las sombras.
 ]]></string>
 
     <string name="hidden_engagement_description"><![CDATA[
-Whenever a friendly **HERNKYN YAEGIR**
-operative is shooting, if it is in cover from the
-targets perspective, that friendly operatives
-weapons have the Balanced weapon rule. Note
-that your opponent still determines the targeting
-lines for this (i.e. they decide which point of their
-operatives base targeting lines are drawn from).
+Cuando un aliado **HERNKYN YAEGIR** esta disparando, si esta en cobertura desde la perspectiva del
+objetivo, las armas de ese aliado ganan la regla Balanced. Notese que tu oponente aun determina la
+linea de vision para hacer esto (decide desde que borde de la peana se decide esto).
 ]]></string>
 
     <string name="yaegir_masterbladework_lore"><![CDATA[
-aegirs are extensively trained in the use of plasma
-knives and other close combat weapons, wielding them
-with ruthless precision
+Los Yaegirs reciben un entrenamiento exhaustivo en el uso de cuchillos de plasma y otras armas de
+combate cuerpo a cuerpo, que manejan con una precisión implacable.
 ]]></string>
 
     <string name="yaegir_masterbladework_description"><![CDATA[
-Whenever a friendly **HERNKYN YAEGIR**
-operative is fighting, or has a **Conceal** order and
-is retaliating, add 1 to the Atk stat of its melee
-weapons (to a maximum of 4) and they have the
-Balanced weapon rule; if the weapon already has
-that weapon rule, it has the Ceaseless weapon
-rule instead of Balanced.
+Cuando un aliado **HERNKYN YAEGIR** esta combatiendo, o tiene una orden de **Conceal** y esta retaleando,
+añade 1 a la estadistica de Atk de su arma de melee (hasta un maximo de 4) y tienen la regla Balanced,
+si ya tenia esa regla, tiene la regla Ceaseless en su lugar.
 ]]></string>
 
     <string name="tough_survivalists_lore"><![CDATA[
-A lifetime of frontier exploration coupled with their
-kind s natural fortitude renders Hernkyn Yaegirs highly resistant to injury.
+Una vida entera de exploración de la frontera, sumada a la fortaleza natural de su especie, hace que
+los Hernkyn Yaegirs sean muy resistentes a las lesiones.
 ]]></string>
 
     <string name="tough_survivalists_description"><![CDATA[
-The first time an attack dice inflicts damage
-on each friendly **HERNKYN YAEGIR** operative during the turning point in the Resolve Attack
-Dice step, you can halve that inflicted damage (rounding up, to a minimum of 2).
+La primera vez que un dado inflige daño a cada Operativo **HERNKYN YAEGIR** durante el turno en la
+fase de resolver dados de ataque, puede reducir ese daño infligido por la mitad (redondeando hacia arriba
+, hasta un minimo de  2).
 ]]></string>
 
     <string name="yaegir_in_position_lore"><![CDATA[
-Hernkyn Yaegirs stalk their enemies with great patience,
-using the surrounding terrain to conceal themselves from prying eyes.
+Los Hernkyn Yaegirs acechan a sus enemigos con gran paciencia, utilizando el terreno circundante para
+ocultarse de las miradas indiscretas.
 ]]></string>
 
     <string name="yaegir_in_position_description"><![CDATA[
-Whenever a friendly **HERNKYN YAEGIR** operative has a **Conceal** order and is in cover, it cannot be selected as a valid target, taking
-precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".
+Cuando un aliado **HERNKYN YAEGIR** con una orden de **Conceal** y en cobertura, no puede ser seleccionado
+como un objetivo valido y esto toma precedencia sobre las demas reglas, excepto estar a 2\".
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="yaegir_sturdy_lore"><![CDATA[
-Stocky and stalwart, Hernkyn Yaegirs grit their teeth and shrug off wounds that would fell other species.
+Robustos y resistentes, los Hernkyn Yaegirs aprietan los dientes y se encogen de hombros ante heridas
+que derribarían a otras especies.
 ]]></string>
 
     <string name="yaegir_sturdy_description"><![CDATA[
+Usa esta Firefight ploy
+
 Use this firefight ploy when an operative is shooting a friendly **HERNKYN YAEGIR** operative,
 when you collect your defence dice. Change the attackers retained critical successes to normal
 successes (any weapon rules they have already resolved are not affected, e.g. Piercing Crits).
 ]]></string>
 
     <string name="bonds_that_bind_lore"><![CDATA[
-Squads of Hernkyn Yaegirs are exceptionally close-knit
-and operate with instinctive coordination.
+Los escuadrones de Hernkyn Yaegirs son excepcionalmente unidos y operan con una coordinación instintiva.
 ]]></string>
 
     <string name="bonds_that_bind_description"><![CDATA[
+Usa esta Firefight ploy
+
 Use this firefight ploy when a friendly **HERNKYN YAEGIR** operative is activated. Select one other
 ready friendly **HERNKYN YAEGIR** operative visible to and within 3\" of that operative. When
 that first friendly operative is expended, you can
@@ -333,42 +300,35 @@ its Wroughtlock Negotiation **STRATEGIC GAMBIT** has been used this turning poin
 ]]></string>
 
     <string name="no_kin_behind_lore"><![CDATA[
-All Kin desire to return to their Hold’s Ancestor Core
-upon their death. Hernkyn will fight tooth and nail to
-ensure that none of their fallen are left behind.
+Todos los Kin desean regresar al Núcleo Ancestral de su Fortaleza
+tras su muerte. Hernkyn luchará con uñas y dientes para
+asegurarse de que ninguno de sus caídos quede atrás.
 ]]></string>
 
     <string name="no_kin_behind_description"><![CDATA[
-Use this firefight ploy when a friendly **HERNKYN YAEGIR** operative is incapacitated. Before that
-operative is removed from the killzone, remove your Fallen Kin marker from the killzone (if any),
-then place it within that operatives control range.
-That operative is then removed from the killzone as normal.\n
-\n
-Whenever a friendly **HERNKYN YAEGIR**
-operative within 3\" of your Fallen Kin marker
-is shooting, fighting or retaliating, in the Roll
-Attack Dice step, you can retain one of your fails
-as a normal success instead of discarding it, or
-retain one of your normal successes as a critical success instead.
+Usa esta Firefight ploy cuando un aliado **HERNKYN YAEGIR** es incapacitado. Antes de removerlo del campo
+, remueve tu marcador de Hermano Caido del campo (ssi hay alguno), luego ponlo dentro del rango de control
+de ese Operativo. Ese Operativo es removido del campo normalmente despues de eso.\n
+\nCuando un aliado **HERNKYN YAEGIR** esta a 3\" de tu marcador de Hermano Caido, en la fase de lanzar
+dados de ataque, puedes retener uno de tus fallos como un exito normal en vez de descartarlo, o
+retener uno de tus exitos normales como un exito critico en su lugar.
 ]]></string>
 
     <string name="stalwart_defence_lore"><![CDATA[
-The Kin are steadfast and determined in defence. They
-maintain accurate and punishing fire even as their enemies close in.
+Los Kin son firmes y decididos en la defensa. Mantienen un fuego preciso y devastador incluso cuando
+sus enemigos se acercan.
 ]]></string>
 
     <string name="stalwart_defence_description"><![CDATA[
-Use this firefight ploy when an enemy operative ends the **Charge** action within control range of
-a friendly **HERNKYN YAEGIR** operative. Select one other friendly **HERNKYN YAEGIR** operative
-visible to and within 6\" of that friendly operative, but that is not itself within control range of enemy
-operatives. The selected operative can perform a free **Shoot** action. During that action:\n
-\n
-• It can target that enemy operative even though it is within control range of a friendly operative.\n
-\n
-• You cannot select any other enemy operative as a valid target.\n
-\n
-• You cannot select a frag or krak grenade, or a weapon with the Blast or x\" Devastating
-x weapon rule (i.e. Devastating with a distance)
+Usa esta Firefight ploy cuando un Operativo enemigo termine la accion de **Cargar** dentro del rango
+de control de un aliado **HERNKYN YAEGIR**. Selecciona otro aliado **HERNKYN YAEGIR** visible y a
+6\" de ese aliado, pero que no este dentro del rango de control de un Operativo enemigo.
+el Operativo seleccionado puede hacer un accion de **Disparo**. Durante esa accion:\n
+\n• Puede seleccionar al Operativo enemigo incluso aunque este dentro del rango de control de un
+Operativo aliado.\n
+\n• No puedes seleccionar ningun otro Operativo enemigo como objetivo valido.\n
+\n• No puedes seleccionar una granada Frag o Krak, o granadas con las reglas Blast o con x\" Devastating
+x.
 ]]></string>
 
 </resources>

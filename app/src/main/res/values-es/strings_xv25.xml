@@ -3,395 +3,346 @@
     <!--xv25-->
 
     <string name="xv26_drone_controller_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="xv26_drone_controller_description"><![CDATA[
-**STRATEGIC GAMBIT** whenever this operative is in the killzone. Select one friendly **XV26 STEALTH
-BATTLESUIT DRONE** operative in the killzone. Until the end of that operatives next activation,
-ignore the first two bullet points of its Drone rule (this takes precedence over that rule).
+**STRATEGIC GAMBIT.** Cuando este Operativo esta en el campo. Selecciona un aliado **XV26 STEALTH
+BATTLESUIT DRONE** en el campo. Hasta el final de la asiguiente activacion de ese Operativo, ignora
+las dos primeras reglas limitantes de la regla Drone (esto toma precedencia sobre esa regla).
     ]]></string>
 
     <string name="xv_greater_good_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="xv_greater_good_description"><![CDATA[
-Whenever determining the value of Accurate X for the Kauyon faction rule, if this operative is in
-the killzone, add 1 to the result if 2 or more friendly **XV26
-STEALTH BATTLESUIT** operatives (excluding **DRONE**) are
-incapacitated (to a maximum of Accurate 3). Note that you must
-have a minimum of Accurate 1 to use this rule.
+Cuando determines el valor de Accurate X de la regla Kauyon, si este Operativo esta en el campo,
+añade 1 al resultado si 2 o mas aliados **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**) son
+incapacitados (hasta un maximo de Accurate 3). Notese que debes tener un minimo de Accurate 1 para
+usar esta regla.
     ]]></string>
 
     <string name="xv26_markerlight_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="xv26_markerlight_description"><![CDATA[
-Whenever an enemy operative is a valid target for this operative, or is visible to this operative
-and within 2\" of your Ambush marker (see Prepare Ambush strategy ploy), it is marked. Whenever a
-friendly **XV26 STEALTH BATTLESUIT** operative is shooting an operative that is marked, that friendly
-operatives ranged weapons have the Severe weapon rule. Note that an operative
-can be a valid target for this operative even if this operative is not the active operative.
+Cuando un Operativo enemigo es un objetivo valido para este Operativo, o es visible para
+este Operativo y a 2\" de un Ambush Marker (vease strategy ploy), esta marcado. Cuando un
+aliado **XV26 STEALTH BATTLESUIT** esta disparando a un Operativo que esta marcado, las armas de
+distancia de ese aliado ganan la regle Severe. Notese que un Operativo puede ser un Operativo valido
+para este Operativo incluso si este Operativo no es el Operativo activo.
     ]]></string>
 
     <string name="covert_protocols_xv_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="covert_protocols_xv_description"><![CDATA[
-This operative can counteract regardless of its order, but if it has a **Conceal** order during that
-counteraction, it cannot perform any actions other than **Pick Up Marker**, **Place Marker** or mission actions.
+Este Operativo puede hacer un Counteract sin importar su orden, pero si tiene una orden de **Conceal**
+durante esa counteract, no puede hacer ninguna otra accion que no sea **Pick up Marker, Place Marker**
+o acciones de mision.
     ]]></string>
 
-
     <string name="grenadier_xv_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="grenadier_xv_description"><![CDATA[
-This operative can use frag, krak, smoke and stun grenades (see universal equipment). Doing so
-does not count towards any limited uses you have (i.e. if you also select those grenades from
-equipment for other operatives). Whenever this operative is using a frag or krak grenade, improve the
-Hit stat of that weapon by 1.
+Este Operativo puede usar granadas Frag, Krak, Stun y Smoke (equipamiento universal). Al hacerlo no cuenta sobre el limite de usos que tengas si seleccionas
+alguno de estos equipamientos. Cuando este Operativo usa una granada Krak o Frag, mejora su Hit a 1.
     ]]></string>
 
     <string name="electro_launcher_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="electro_launcher_description"><![CDATA[
-Once per turning point, when an enemy operative is performing the **Shoot** action and your opponent
-selects a valid target (excluding **DRONE**), you can use this
-rule, providing this operative is not within control range of enemy
-operatives. If you do, until the end of that action, whenever
-an enemy operative is shooting a friendly **XV26 STEALTH BATTLESUIT** operative that is both
-visible to and within 3\" of this operative and more than 2\" from that enemy operative:\n
-\n
-• Ignore the Piercing weapon rule.\n
-\n
-• That friendly operative is obscured.
+Una vez por turno, cuando un Operativo enemigo esta haciendo la accion de **Disparo** y tu oponente selecciona
+un Operativo valido (excluyendo **DRONE**), puedes usar esta regla, siempre que este Operativo no
+este dentro del rango de control de un Operativo enemigo. Si lo haces, hasta el final de esa accion,
+cuando un Operativo enemigo le dispare a un aliado **XV26 STEALTH BATTLESUIT** que sea visible y este
+a 3\" de este Operativo, y a 2\" de ese Operativo enemigo:\n
+\n• Ignora la regla Piercing.\n
+\n• Ese aliado esta Obscurecido.
     ]]></string>
 
+    <string name="focused_markerlight_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="focused_markerlight_description"><![CDATA[
+Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un
+aliado **XV26 STEALTH BATTLESUIT** este disparando a ese enemigo, puedes usar este efecto para mejorar
+la estadistica de Hit de las armas de distancia de ese Operativo por 1 hasta el fin de esa
+accion.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
+    ]]></string>
 
     <string name="homing_beacon_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="homing_beacon_description"><![CDATA[
-This operative is carrying your Homing Beacon
-marker. Operatives (excluding **DRONE**) can perform the **Pick
-Up Marker** action on that marker. The first time an enemy
-operative performs the **Pick Up Marker** action on your
-Homing Beacon marker, discard that marker (remove it from the battle).\n
-\n
-In the Ready step of each Strategy phase, when you gain CP,
-if your Homing Beacon marker is in the killzone, roll one D6 if
-it is more than 6" from your drop zone; roll two D6 instead if
-it is within your opponents territory; roll three D6 instead if it is
-within 6\" of your opponents drop zone. If any result is a 4+, you
-gain one additional CP.
+Este Operativo esta cargando tu Homing Beacon token. Operativos (excluyendo **DRONE**) pueden hacer
+la accion de **Pick up Marker** sobre ese token. La primera vez que un enemigo haga la accion de
+**Pick up Marker** en ese Homing Beacon token, remueve ese token del campo (es removido de la batalla).\n
+\nEn la Ready step de cada Strategy fase, cuando ganes CP, si tu Homing Beacon token esta en el campo,
+lanza un D6 si esta a mas de 6\" de tu zona de deployment, lanza dos D6 si esta dentro del territorio
+de tu oponente, lanza tres D6 si esta a 6\" de la zona de deployment de tu oponente. Si cualquier
+resultado de 4+, ganas un CP adicional.
     ]]></string>
 
     <string name="xvspectrum_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="xvspectrum_description"><![CDATA[
-**SUPPORT**. Once per turning point, when an enemy operative visible to and within 8\" of this
-operative is activated, you can use this rule. If you do, each
-friendly **XV26 STEALTH BATTLESUIT** operative within 3\"
-of this operative can immediately do one of the following:\n
-\n
-• Perform a free **Dash** action (in an order of your choice).\n
-\n
-• Change its order.\n
-\n
-Each friendly operative that performs the **Dash** action cannot
-end that move within 3\" of an enemy operative. Note that a
-Comms Device from universal equipment only affects the second
-distance of this rule.
+**SUPPORT**. Una vez por turno, cuando un Operativo enemigo a 8\" de este Operativo es activado.
+Puedes usar esta regla para que cada aliado **XV26 STEALTH BATTLESUIT** que este a 3\" de este
+Operativo pueda hacer una de las siguientes:\n
+\n• Haz una accion de **Dash** gratis (en cualquier orden de tu eleccion).\n
+\n• Cambia su orden.\n
+\nCada aliado puede hacer la accion de **Dash** y no puede moverse a 3\" de un Operativo enemigo.
+Notese que el equipamiento Comms Device universal solo afecta la segunda distancia de esta regla.
     ]]></string>
-
 
     <string name="xv_jam_usage"><![CDATA[
         1/2AP
     ]]></string>
 
     <string name="xv_jam_description"><![CDATA[
-Select one enemy operative visible to this operative. Until the
-end of that operatives next activation, subtract 1 from its
-APL stat. Whenever this operative has a **Conceal** order, you
-must spend 1 additional AP to perform this action.\n\n
+Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de la proxima activacion
+de ese Operativo, sustrae 1 a su estadistica de APL. Cuando este Operativo tiene una orden de **Conceal**,
+debes gastar 1AP adicional para hacer esta accion.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <string name="xvdrone_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="xvdrone_description"><![CDATA[
-• This operative cannot perform any actions other than **Charge, Dash, Fall Back, Fight, Photon Grenade
-Launcher, Reposition** and **Shoot**.\n
-\n
-• Whenever determining control of an objective marker, treat this operatives APL stat as 1 lower.
-Note this is not a change to its APL stat, so any changes are cumulative with this.\n
-\n
-• This operative cannot use any weapons that are not on its datacard.\n
-\n
-• Whenever determining what is visible to this operative, the round disc at the top of the miniature is its head.\n
-\n
-• This operative is ignored for your opponents kill/elimination op
-(when it is incapacitated, and when determining your starting number of operatives).
+• Este Operativo no puede hacer ninguna accion que no sea **Cargar, Dash, Fall Back, Combatir, Photon
+Grenade Launcher, Reposicion** y **Disparo**.\n
+\n• Cuando determines el control de un objetivo, trata el APL de este Operativo como si tuviera 1 menos.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.\n
+\n• Este Operativo no puede usar armas que no esten en su tarjeta de personaje.\n
+\n• Cuando determines que es visible para este Operativo, el disco circular al tope de esta miniatura
+es su cabeza.\n
+\n• Este Operativo es ignorado para la Kill/Eliminatio Op de tu oponente (cuando es incapacitado y cuando determines
+el numero inicial de tus Operativos).
     ]]></string>
-
 
     <string name="photon_g_launcher_usage"><![CDATA[
         1AP
     ]]></string>
 
     <string name="photon_g_launcher_description"><![CDATA[
-Select one enemy operative visible to this operative and
-roll one D6: on a 3+, until the end of that operatives next
-activation, subtract 2\" from its Move stat.\n
-\n
-This operative cannot perform this action while within control range of an enemy operative.
+Selecciona un Operativo enemigo visible para este Operativo y lanza un D6: al 3+, hasta el final de la
+proxima activacion de ese Operativo enemigo, sustrae 2\" de su estadistica de Movimiento.\n\n
+
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
 
     <!--Faction Rules-->
 
     <string name="kauyonxv_lore"><![CDATA[
-Of all the principal martial philosophies revered by
-the Fire caste, Kauyon is the oldest, and is greatly
-favoured by kill teams of XV26 Stealth Battlesuits.
-Roughly translated as the patient hunter, Kauyons
-tenets emphasise luring the enemy into overreaching
-before striking at them with coordinated fury. Shasvres
-who are expert in this strategy employ multiple mobile
-assets, layers of contingencies and delaying tactics
-to draw foes into ambushes or corral them into preprepared fire boxes.
+De todas las principales filosofías marciales veneradas por la casta del Fuego, Kauyon es la más
+antigua y goza de gran popularidad entre los equipos de asalto de los trajes de combate sigilosos XV26.
+Traducido aproximadamente como «el cazador paciente», los principios de Kauyon enfatizan atraer al
+enemigo para que cometa errores antes de atacarlo con furia coordinada. Los Shasvres, expertos en
+esta estrategia, emplean múltiples recursos móviles, diversas estrategias de contingencia y tácticas
+dilatorias para atraer a los enemigos a emboscadas o acorralarlos en zonas de fuego preparadas.
 ]]></string>
 
     <string name="kauyonxv_description"><![CDATA[
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative is shooting an enemy
-operative, its ranged weapons have the Accurate
-X weapon rule. X is determined by that enemy operatives location.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** esta disparando a un enemigo, sus armas de distancia
+tienen la regla Accurate X. Donde X es determinado por la ubicacion de ese Operativo enemigo.\n
+\nAccurate 1 : El enemigo esta a 3\" de tu territorio.\n
+Accurate 2 : El enemigo esta en tu terrirotiro.\n
+Accurate 3 : El enemigo esta a 3\" de tu zona de deployment.
 ]]></string>
 
     <string name="stealth_suits_lore"><![CDATA[
-Integral stealth field generators are built into each
-veterans XV26 battlesuit and the specialised drones
-that accompany them. The camouflaging fields
-they project mask a teams operatives, allowing
-them to move through hazardous territory while
-evading detection.
+Cada traje de combate XV26 de los veteranos y los drones especializados que los acompañan incorporan
+generadores de campo de sigilo integrados. Los campos de camuflaje que proyectan ocultan a los operativos
+del equipo, permitiéndoles moverse por territorio peligroso sin ser detectados.
 ]]></string>
 
     <string name="stealth_suits_description"><![CDATA[
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative has a **Conceal** order,
-it cannot be visible to enemy operatives more
-than 3\" from it (this takes precedence over all other rules).\n
-\n
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative has a **Conceal** order, it
-can perform the **Fall Back** action for 1 less AP.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** tiene una orden de **Conceal**,
+no puede ser visible para Operativos enemigos a mas de 3\" (esto toma precedencia sobre las demas
+reglas).\n
+\nCuando un aliado **XV26 STEALTH BATTLESUIT** tiene una orden de **Conceal**, puede hacer la accion
+**Fall Back** por 1 AP menos.
 ]]></string>
-
 
     <!--Equipment-->
 
     <string name="xv26_multi_lore"><![CDATA[
-These support systems rapidly generate targeting
-solutions, enabling warriors to engage multiple targets
-with their rapid-firing burst cannons.
+Estos sistemas de apoyo generan rápidamente
+soluciones de puntería, lo que permite a los guerreros atacar múltiples objetivos
+con sus cañones de ráfaga de disparo rápido.
 ]]></string>
 
     <string name="xv26_multi_description"><![CDATA[
-Once per turning point, when a friendly **XV26 STEALTH BATTLESUIT** operative is performing
-the **Shoot** action and you select a burst cannon
-(sweeping), you can use this rule. If you do,
-until the end of that action, that weapon has the
-Torrent 2\" weapon rule.
+Una vez por turno, un aliado **XV26 STEALTH BATTLESUIT** haciendo la accion de **Disparo** y seleccionas
+un Burst Cannon (Sweeping), puedes usar esta regla. Si lo haces, hasta el final de esa accion, esa
+arma tiene la regla Torrent 2\".
 ]]></string>
 
     <string name="counter_network_lore"><![CDATA[
-Closely packed enemies can be thrown into disarray
-with a burst of multiwave infrasound from these devices.
-With the foes senses and communications equipment
-disrupted, even outnumbered battlesuit pilots can
-exploit the resultant confusion to devastating effect
+Los enemigos agrupados pueden ser desorganizados
+con una ráfaga de infrasonido multionda de estos dispositivos.
+Con los sentidos y el equipo de comunicaciones del enemigo
+interrumpidos, incluso los pilotos de trajes de combate en inferioridad numérica pueden
+aprovechar la confusión resultante con efectos devastadores.
 ]]></string>
 
     <string name="counter_network_description"><![CDATA[
-Whenever determining control of a marker, treat the total APL stat of enemy operatives that
-contest it as 1 lower if only one friendly **XV26 STEALTH BATTLESUIT** operative and only two
-enemy operatives contest it. That friendly **XV26 STEALTH BATTLESUIT** operative cannot be a
-**DRONE** operative. Note this is not a change to the
-APL stat, so any changes are cumulative with this.
+**STRATEGIC GAMBIT.** Selecciona un objetivo o marcador. Hasta el final del turno, cuando determines
+el control de ese objetivo o marcador, trata el total de APL de enemigos contesteandolo como si tuvieran
+1 menos si al menos uno de esos enemigos esta a 3\" de un aliado **XV26 STEALTH BATTLESUIT**.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
+
 ]]></string>
 
     <string name="advance_sunglasses_lore"><![CDATA[
-Battlesuit and drone bodies augmented with these
-advanced optical systems are granted incredible target
-identification clarity, even if confronted by the most
-unnatural and blinding of conditions.
+Los trajes de combate y los drones equipados con estos avanzados sistemas ópticos ofrecen una increíble
+claridad en la identificación de objetivos, incluso en las condiciones más adversas y deslumbrantes.
 ]]></string>
 
     <string name="advance_sunglasses_description"><![CDATA[
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative is shooting an operative
-that is obscured, you do not have to discard one
-success as a result of that rule. All other effects of obscured apply as normal.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** esta disparando a un Operativo que este Obscurecido, no
+tienes que descartar uno de tus exitos como resultado de esta regla. Las demas reglas de Obscurecido
+aplican normalmente.
 ]]></string>
 
     <string name="hardwire_target_lore"><![CDATA[
-These target-acquisition systems prioritise the
-parameters of enemy threats and provide their user with
-automatic locks. They may be embedded into neural
-interfaces or implanted into pilots bodies.
+Estos sistemas de adquisición de objetivos priorizan los parámetros de las amenazas enemigas y
+proporcionan al usuario un bloqueo automático. Pueden estar integrados en interfaces neuronales o
+implantados en el cuerpo de los pilotos.
 ]]></string>
 
     <string name="hardwire_target_description"><![CDATA[
-Whenever you would counteract, you can do so with one friendly **XV26 STEALTH
-BATTLESUIT** operative that has a **Conceal** order and is more than 3\" from enemy operatives, but
-before it counteracts, you must change its order
-to **Engage** and it cannot perform any actions
-other than **Shoot** during that counteraction.
+Cuando vayas a hacer un Counteract, puedes hacerlo con un aliado **XV26 STEALTH BATTLESUIT** que tenga
+una orden de **Conceal** y este a mas de 3\" de Operativos enemigos, pero antes de que haga un
+counteract, debes cambiar su orden a **Engage** y no puede hacer ninguna otra accion que no sea
+**Disparo**.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="patient_hunters_lore"><![CDATA[
-By allowing the enemy to recklessly show their hand or
-exhaust themselves, the wise can exploit the foolhardy
-aggression of the foe.
+Al permitir que el enemigo muestre sus cartas imprudentemente o se agote, los sabios pueden aprovechar
+la temeraria agresión del adversario.
 ]]></string>
 
     <string name="patient_hunters_description"><![CDATA[
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative is shooting against or
-fighting against an expended enemy operative,
-that friendly operatives weapons have the
-Balanced weapon rule and its ranged weapons
-have the Saturate weapon rule.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** este disparando o combatiendo contra un Operativo que
+ya haya activado (expended), las armas de ese aliado ganan la regla Balanced y sus armas a distancia
+ganan la regla Saturate.
 ]]></string>
 
     <string name="xv_bonds_lore"><![CDATA[
-Stealth battlesuit pilots can draw strength and resolve from comrades.
+Los pilotos de trajes de combate furtivos pueden obtener fuerza y determinación de sus compañeros.
 ]]></string>
 
     <string name="xv_bonds_description"><![CDATA[
-Whenever a friendly **XV26 STEALTH BATTLESUIT** operative is activated (excluding
-**DRONE**), if it is visible to and within 6\" of another
-friendly **XV26 STEALTH BATTLESUIT** operative
-(excluding **DRONE**), you can ignore any changes
-to that first friendly operatives APL stat and
-select one of the following:\n
-\n
-• Ignore any changes to that first friendly
-operatives Move stat from being injured until the end of that activation.\n
-\n
-• Ignore any changes to the Hit stat of that first friendly operatives weapons from being injured
-until the end of that activation.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** es activado (excluyendo **DRONE**), si es visible y a 6\"
+de otro aliado **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**), puedes ignorar cualquier cambio
+a la estadistica de APL de ese primer Operativo aliado y selecciona una de las siguientes:\n
+\n• Ignora cualquier cambio a la estadistica de movimiento de ese primer aliado por estar **Lesionado**
+hasta el fin de esa activacion.\n
+\n• Ignora cualquier cambio a la estadistica de Hit de ese primer aliado por estar **Lesionado** hasta el fin de esa
+activacion.
 ]]></string>
 
     <string name="prepare_ambush_lore"><![CDATA[
-The Tau precalculate firing solutions and establish kill
-field parameters, awaiting their unknowing opponents to enter perfect strike range.
+Los Tau precalculan las soluciones de disparo y establecen los parámetros del campo de ataque,
+esperando a que sus desprevenidos oponentes entren en el rango de ataque perfecto.
 ]]></string>
 
     <string name="prepare_ambush_description"><![CDATA[
-Place one of your Ambush markers wholly within your territory and more than 2\" from enemy
-operatives. Whenever a friendly **XV26 STEALTH BATTLESUIT** operative is shooting an enemy
-operative that is within 2\" of that marker, you can use this rule. If you do, that friendly operatives
-ranged weapons have the Seek weapon rule until the end of the action. Remove that Ambush
-marker at the end of that action or in the Ready
-step of the next turning point (whichever comes first).
+Pon uno de tus Ambush tokens completamente dentro de tu territorio y a mas de 2\" de Operativo enemigos.
+Cuando un aliado **XV26 STEALTH BATTLESUIT** esta disparando a un enemigo que este a 2\" de ese token,
+puedes usar esta regla para que esos Operativos aliados tengan la regla Seek en sus armas de distancia
+hasta el final de esa accion. Remueve tu Ambush token al final de esa accion o al inicio del siguiente
+turno (lo que pase primero).
 ]]></string>
 
     <string name="hololive_lore"><![CDATA[
-Temporary bursts of experimental image-projection
-technology can throw off advanced targeters and even
-the aim of experienced snipers.
+Las ráfagas temporales de tecnología experimental de proyección de imágenes
+pueden despistar a los sistemas de puntería avanzados e incluso
+a la puntería de francotiradores experimentados.
 ]]></string>
 
     <string name="hololive_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**XV26 STEALTH BATTLESUIT** operative more
-than 6\" from it, in the Roll Attack Dice step, the
-attacker must discard one of their unresolved
-normal successes (or one of their critical
-successes if there are none). This is not cumulative with being obscured.
+Cuando un Operativo este disparando a un aliado **XV26 STEALTH BATTLESUIT** a mas de 6\" de el, en la
+fase de lanzar dados de ataque, el atacante debe descartar uno de sus exitos normales sin resolver (
+o uno de sus exitos criticos si no hay exitos normales). Esto no es acumulable al estar Obscurecidos.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="vectored_retro_lore"><![CDATA[
-XV26 battlesuit pilots are expert at firing unconventional
-bursts from their multidirectional thrusters to rapidly
-disengage from aggressive enemies, leaving their foe
-vulnerable to the rest of the team.
+Los pilotos de los trajes de combate XV26 son expertos en disparar ráfagas no convencionales con
+sus propulsores multidireccionales para desengancharse rápidamente de los enemigos agresivos,
+dejando a su adversario vulnerable ante el resto del equipo.
 ]]></string>
 
     <string name="vectored_retro_description"><![CDATA[
-Use this firefight ploy when an enemy operative ends the **Charge** action within control range
-of a friendly **XV26 STEALTH BATTLESUIT** operative (excluding **DRONE**). Interrupt that
-action to use this rule. If you do, that friendly operative can immediately perform a free **Fall
-Back** action, but it cannot move more than 3\" during that action. Then, that enemy operative
-can immediately perform a free **Reposition** action using any remaining move distance it had from
-that first **Charge** action, and can do so even if it is performed an action that prevents it from
-performing the **Reposition** action.
+Usa esta Firefight ploy cuando un Operativo enemigo termina una accion de **Cargar** dentro del
+rango de control de un aliado **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**). Interrumpe esa accion
+para usar esa regla. Si lo haces, ese aliado puede inmediatamente hacer una accion **Fall Back**
+gratis, pero no puede moverse mas de 3\" durante esa accion. Despues, ese Operativo enemigo puede
+inmediatamente hacer una accion de **Reposicion** gratis usando la distancia restante de su primera
+**Carga**, y puede hacerlo incluso si ha hecho una accion que prevenga que pueda hacer una accion de
+**Reposicion**.
 ]]></string>
 
     <string name="ghostshroud_lore"><![CDATA[
-Readily rerouting power from their weapons to their
-stealth fields, these operatives appear to vanish after sowing sudden death.
+Estos agentes, que redirigen rápidamente la energía de sus armas a sus campos de sigilo, parecen
+desvanecerse tras sembrar la muerte súbita.
 ]]></string>
 
     <string name="ghostshroud_description"><![CDATA[
-Use this firefight ploy at the end of a friendly
-**XV26 STEALTH BATTLESUIT** operative’s
-activation. If that operative has an Engage order,
-change it to **Conceal**. You cannot use this ploy for
-each friendly operative more than once per battle.
+Usa esta Firefight ploy al final de la activacion de un aliado **XV26 STEALTH BATTLESUIT**. Si ese
+Operativo tiene una orden de **Engage**, cambia su orden a **Conceal**. No puedes usar esta ploy para
+cada Operativo aliado mas de una vez por batalla.
 ]]></string>
 
     <string name="engage_jet_lore"><![CDATA[
-The potent jet packs built into each XV26 battlesuit
-provide exceptional mobility, allowing their veteran
-pilots to secure advantageous positions
+Los potentes propulsores integrados en cada traje de combate XV26
+proporcionan una movilidad excepcional, lo que permite a sus pilotos veteranos
+asegurar posiciones ventajosas.
 ]]></string>
 
     <string name="engage_jet_description"><![CDATA[
-Use this firefight ploy when a friendly **XV26 STEALTH BATTLESUIT** operative (excluding
-**DRONE**) is activated or counteracts. Until the end
-of that activation/counteraction, you can ignore
-the vertical distance they move during one climb and one drop.
+Usa esta Firefight ploy cuando un aliado **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**) es activado
+o hace un counteract. Hasta el final de esa activacion o counteract, puedes ignorar la distancia vertical
+durante una escalada y una caida.
 ]]></string>
 
     <string name="xv_saviour_lore"><![CDATA[
-The drones of this kill team are hard-coded to prioritise
-the safety of their comrades, even at the cost of their
-own existence.
+Los drones de este equipo de asalto están programados para priorizar
+la seguridad de sus compañeros, incluso a costa de su
+propia existencia.
 ]]></string>
 
     <string name="xv_saviour_description"><![CDATA[
-Use this firefight ploy when a friendly **XV26
-STEALTH BATTLESUIT** operative (excluding
-**DRONE**) is selected as the valid target of a
-**Shoot** action. Select one friendly **XV26 STEALTH
-BATTLESUIT DRONE** operative visible to
-and within 3\" of that first friendly operative
-to become the valid target instead (even if it
-would not normally be valid for this). That friendly
-**DRONE** operative is only in cover or obscured if
-the original target was.\n
-\n
-This ploy has no effect if the ranged weapon has the Blast or Torrent
-weapon rule.
+Usa esta Firefight ploy Cuando un aliado **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**) es seleccionado
+como objetivo valido para una accion de **Disparo** o para una accion de **Combate**. Selecciona
+un aliado **XV26 STEALTH BATTLESUIT** visible y a 3\" de ese primer Operativo
+para que se convierta en un objetivo valido o para que se combata en su lugar (aunque normalmente no
+fuera valido para esto). Si es una accion de **Combate**, trata ese otro Operativo como si estuviera
+dentro del rango de control del enemigo durante esa accion. Si es una accion de **Disparo**, ese
+Operativo **DRONE** solo esta en cobertura o Obscurecido si el objetivo original lo estaba.\n
+\nEsta ploy no tiene efecto si la accion de **Disparo** tiene las reglas Blast o Torrent.
 ]]></string>
 
 </resources>

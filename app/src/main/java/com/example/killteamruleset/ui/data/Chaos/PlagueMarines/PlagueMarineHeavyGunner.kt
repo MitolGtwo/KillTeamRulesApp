@@ -25,6 +25,16 @@ val PlagueMarineHeavyGunner = Operative(
     ),
     weapons = listOf(
         WeaponProfile(
+            name = "Bolt Pistol",
+            type = WeaponType.RANGED,
+            attacks = 4,
+            hit = "3+",
+            damage = "3/4",
+            keywords = listOf(
+                Range(8)
+            )
+        ),
+        WeaponProfile(
             name = "Plague Spewer",
             type = WeaponType.RANGED,
             attacks = 5,

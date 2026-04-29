@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-
     <!--Void Dancer-->
-
     <string name="lead_performance_usage"><![CDATA[
-            Passive
+            Pasiva
     ]]></string>
 
     <string name="lead_performance_description"><![CDATA[
-        Once per battle **STRATEGIC GAMBIT**. If this operative is in the killzone, change the
-**ALLEGORY** you selected for your kill team. Note that the
-**ACCOLADE** rule friendly operatives have will also change.
+Una vez por batalla **STRATEGIC GAMBIT**. Si este Operativo esta en el campo, cambia la **ALLEGORY**
+seleccionada para tu Kill Team. Notese que esto tambien cambia la regla **ACCOLADE** que Operativos
+aliados tengan.
     ]]></string>
 
     <string name="luck_laugh_god_usage"><![CDATA[
-        Passive
+        Pasiva
     ]]></string>
 
     <string name="luck_laugh_god_description"><![CDATA[
-Once per turning point, you can use this rule. If you do, you can use a firefight ploy for 0CP if this is
-the specified **VOID-DANCER TROUPE** operative (including Command Re-roll if the attack or defence dice was rolled for this
-operative). You cannot select the same firefight ploy for this rule more than once per battle.
+Una vez por turno, puedes usar esta regla. Si lo haces, puedes usar un Firefight Ploy por 0CP si
+este es el especificado **VOID-DANCER TROUPE** (incluyendo Command Re-roll si el ataque o la defensa
+fue lanzado para este Oeprativo). No puedes seleccionar la misma Firefight ploy con esta regla mas
+de una vez por batalla.
     ]]></string>
 
     <string name="humbling_cruelty_usage"><![CDATA[
@@ -29,11 +27,11 @@ operative). You cannot select the same firefight ploy for this rule more than on
     ]]></string>
 
     <string name="humbling_cruelty_description"><![CDATA[
-If the target of this weapon is not incapacitated but any of your attack dice inflict damage,
-the target gains one of your Humbling Cruelty tokens (if it does not already have one).
-Whenever an enemy operative has one of your Humbling Cruelty tokens, subtract 2\" from its Move stat
-and worsen the Hit stat of its weapons by 1. This is not cumulative with being injured. At the end of that
-enemy operatives next activation, remove its Humbling Cruelty token.
+Si el objetivo de esta arma no fue incapacitado pero cualquiera de tus dados de ataque infligen daño,
+ese objetivo gana uno de tus Humbling Cruelty tokens (si no tiene uno). Cuando un Operativo enemigo
+tiene uno de tus Humbling Cruelty tokens, sustrae 2\" de su estadistica de Movimiento y empeora la
+estadistica de Hit de sus armas por 1. Esto no es acumulable al estar **Lesionado**. Al final de la
+siguiente activacion de ese Operativo enemigo, remueve es Humbling Cruelty token.
     ]]></string>
 
     <string name="mirror_minds_usage"><![CDATA[
@@ -41,253 +39,213 @@ enemy operatives next activation, remove its Humbling Cruelty token.
     ]]></string>
 
     <string name="mirror_minds_description"><![CDATA[
-**PSYCHIC**. Select one enemy operative that is a valid target
-for and within 8\" of this operative. Both players roll five D6.
-Pair your dice with your opponents dice based on matching
-results. For each matching pair, inflict D3 damage on that
-enemy operative (to a maximum of 8). For example, if you
-rolled 6, 5, 5, 2, 1 and your opponent rolled 6, 5, 4, 3, 1,
-you would inflict 3D3 damage on that enemy operative.\n\n
+**PSYCHIC**. Selecciona un Operativo enemigo que sea un objetivo valiado o a 8\" de este Operativo.
+Ambos jugadores lanzan 5 D6. Empareja tus dados con los de tu oponente basado en los resultados que
+sean iguales. Por cada exito igual, inflige D3 heridas a ese Operativo enemigo (hasta un maximo de 8).
+Por ejemplo si lanzas 6, 5, 5, 2, 1, y tu oponente 6, 5, 4, 3, 1, el Operativo enemigo recive 3D3 heridas.\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
-
 
     <string name="fog_dreams_usage"><![CDATA[
         1AP
     ]]></string>
 
     <string name="fog_dreams_description"><![CDATA[
-**PSYCHIC**. Select one ready enemy operative visible to this
-operative and roll one D6. Until the end of the turning point,
-that enemy operative cannot be activated or perform actions
-until it is the last enemy operative to be activated, or until
-your opponent has activated a number of enemy operatives
-after this action equal to the result of the D6 (whichever
-comes first).\n\n
+**PSYCHIC**. Selecciona un Operativo enemigo visible para este Operativo y lanza un D6. Hasta el final
+del turno, ese Operativo enemigo no puede ser activado o hacer acciones hasta que el ultimo enemigo Operativo
+haya activado o hasta que tu oponente haya activado un numero de Operativos enemigos equivalentes
+al resultado del D6 (lo que pase primero).\n\n
 
-This operative cannot perform this action while within control range of an enemy operative.
+Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
 
     <!--Faction Rules-->
 
     <string name="saedath_lore"><![CDATA[
-Void-dancer Troupes put on a performance as they attack
-from the Webway. A single player begins in the pivotal
-role, then the rest of the troupe progressively join in.
+Las compañías de danza del vacío realizan una representación mientras atacan
+desde la Telaraña. Un solo jugador comienza en el papel principal,
+y luego el resto de la compañía se une progresivamente.
 ]]></string>
 
     <string name="saedath_description"><![CDATA[
-As a **STRATEGIC GAMBIT** in the first turning point,
-you must select an **ALLEGORY** (Epic or Melodrama
-below) for your kill team for the battle, and one
-friendly **VOID-DANCER TROUPE** operative to
-have the **PIVOTAL ROLE** for the battle. Whenever a
-friendly operative has the **PIVOTAL ROLE**, it has the
-**ACCOLADE** rule of your **ALLEGORY** for the battle.\n
+Como un **STRATEGIC GAMBIT** en el primer turno, debes seleccionar una **ALLEGORY** (Epica o Melodramatica)
+para tu kill team durante la batalla, y un aliado **VOID-DANCER TROUPE** para que tenga el **PIVOTAL ROLE**
+durante la batalla. Cuando un aliado tiene el **PIVOTAL ROLE**, tiene la regla **ACCOLADE** de tu
+**ALLEGORY** durante la batalla.\n
+\nComo **STRATEGIC GAMBIT** en cada turno siguiente, puedes seleccionar un aliado **VOID-DANCER TROUPE**
+para que gane la regla **ACCOLADE** de tu **ALLEGORY** durante la batalla.\n
+\nUna vez por turno, cuando un aliado tiene el **PIVOTAL ROLE** completa la obra de tu **ALLEGORY**,
+puedes seleccionar otro aliado **VOID-DANCER TROUPE** para que gane la regla **ACCOLADE** de tu
+**ALLEGORY** durante la batalla.\n
+\n•**EPIC**\n
+**Performance**: El Operativo incapacita un enemigo mientras combate.\n
 \n
-As a **STRATEGIC GAMBIT** in each subsequent
-turning point, you can select one friendly
-**VOID-DANCER TROUPE** operative to gain the
-**ACCOLADE** rule of your **ALLEGORY** for the battle..\n
+**Accolade**: Cuando este Operativo esta combatiendo, sus armas de melee ganan la regla Balanced.\n
+\n•**MELODRAMA**\n
+**Performance**: El Operativo incapacita un enemigo durante una accion de Disparo.\n
 \n
-Once per turning point, when a friendly operative
-that has the **PIVOTAL ROLE** completes the
-performance of your **ALLEGORY**, you can select
-one friendly **VOID-DANCER TROUPE** operative
-to gain the **ACCOLADE** rule of your **ALLEGORY** for the battle.\n
-\n
-**EPIC**\n
-**Performance**: The operative incapacitates an enemy operative while fighting.\n
-\n
-**Accolade**: Whenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n
-\n
-**MELODRAMA**\n
-**Performance**:The operative incapacitates an enemy operative while shooting.\n
-\n
-**Accolade**: The operatives ranged weapons have the Balanced weapon rule.
+**Accolade**: Las armas de distancia de ese Operativo ganan la regla Balanced.
 ]]></string>
 
     <string name="harlequin_panoply_lore"><![CDATA[
-The tools of the Harlequins trade afford them additional
-mobility and make them highly difficult to target,
-enabling them to dodge away from piercing shots of
-plasma and melta fire.
+Las herramientas del oficio de los Arlequines les proporcionan mayor
+movilidad y los hacen muy difíciles de alcanzar,
+lo que les permite esquivar los disparos penetrantes de
+plasma y fuego melta.
 ]]></string>
 
     <string name="harlequin_panoply_description"><![CDATA[
-Whenever an operative is shooting a friendly
-**VOID-DANCER TROUPE** operative, and no attack
-dice are retained as critical successes, worsen
-the x of the Piercing weapon rule by 1 (if any).
-Note that Piercing 1 would therefore be ignored.\n
-\n
-Whenever a friendly **VOID-DANCER TROUPE** operative is climbing up, you can treat
-the vertical distance as 2\" (regardless of how far the operative actually moves vertically).\n
-\n
-Friendly **VOID-DANCER TROUPE** operatives can
-move within control range of enemy operatives
-(they must still start and end the move following all requirements for that move).
+Cuando un Operativo esta disparando a un aliado **VOID-DANCER TROUPE** , y ningun dado de ataque
+es retenido como un exito critico, empeora el valor de la regla Piercing por 1 (si tiene alguna).
+Notese que Piercing 1 seria ignorado de esta forma.\n
+\nCuando un aliado **VOID-DANCER TROUPE** esta escalando, puedes tratar esa distancia vertical como
+si fuera 2\" sin importar cuando se mueva verticalmente.\n
+\nAliados **VOID-DANCER TROUPE** pueden moverse dentro del rango de control de Operativos enemigos(
+aun deben empezar y terminar ese movimiento cumpliendo todos los requerimientos).
 ]]></string>
 
     <!--Equipment-->
 
     <string name="dancer_talisman_lore"><![CDATA[
-Charged with psychic power, this item provides fleeting
-insight to the bearer, enabling them to strike their opponents with unerring accuracy.
+Cargado de poder psíquico, este objeto proporciona a su portador una visión fugaz, permitiéndole
+atacar a sus oponentes con precisión infalible.
 ]]></string>
 
     <string name="dancer_talisman_description"><![CDATA[
-Once per turning point, when a friendly **VOID-DANCER TROUPE** operative is shooting,
-fighting or retaliating, if you roll two or more fails,
-you can discard one of them to retain another as a normal success instead.
+Una vez por turno, cuando un aliado **VOID-DANCER TROUPE** esta disparando, combatiendo o retaleando,
+si lanzas dos o mas fallos, puedes descartar uno para retener uno como un exito normal en su lugar.
 ]]></string>
 
     <string name="shrieker_rounds_lore"><![CDATA[
-Coated with virulent genetic toxins, these rounds cause
-the flesh of the target to twist, distort and rupture to
-devastating effect.
+Recubiertas de virulentas toxinas genéticas, estas balas provocan que la carne del objetivo se retuerza,
+se deforme y se rompa, con un efecto devastador.
 ]]></string>
 
     <string name="shrieker_rounds_description"><![CDATA[
-Once per turning point, when a friendly **VOID-DANCER TROUPE** operative is performing
-the **Shoot** action and you select a shuriken pistol or shrieker cannon (focused), you can use this
-rule. If you do, until the end of that action, that
-weapon has the Devastating 1 weapon rule.
+Una vez por turno, cuando un aliado **VOID-DANCER TROUPE** esta haciendo la accion de **Disparo** y
+seleccionas una Shuriken Pistol o Shrieker Cannon (focused), puedes usar esta regla, si lo haces.
+Hasta el final de esa accion, esa arma tiene la regla Devastating 1.
 ]]></string>
 
     <string name="death_mask_lore"><![CDATA[
-On occasion, a Harlequin must perish in order to fulfil
-their role in the saedath. Such dedication emboldens
-those in their troupe that survive.
+En ocasiones, un Arlequín debe perecer para cumplir
+su papel en el saedath. Tal dedicación fortalece
+aquellos miembros de su compañía que sobreviven.
 ]]></string>
 
     <string name="death_mask_description"><![CDATA[
-Keep a Tragedy tally. Whenever a friendly **VOID-DANCER TROUPE** operative that has an
-**ACCOLADE** rule is incapacitated, add 1 to your
-Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.
+Lleva un registro de Tragedias. Cuando un aliado **VOID-DANCER TROUPE** que tenga un **ACCOLADE** es
+incapacitado, añade 1 a su registro de Tragedias. Cuando llegues a 3, ganas 1CP y paras ese registro.
 ]]></string>
 
     <string name="under_mask_lore"><![CDATA[
-This item allows Harlequins to change roles during the
-saedath. Should one who holds a pivotal role be slain,
-another will swiftly take their place.
+Este objeto permite a los Arlequines cambiar de rol durante la
+Saedath. Si uno que desempeña un papel clave muere,
+otro ocupará rápidamente su lugar.
 ]]></string>
 
     <string name="under_mask_description"><![CDATA[
-Once per battle, when you activate a friendly **VOID-DANCER TROUPE** operative, if the friendly
-operative that has the **PIVOTAL ROLE** has been
-incapacitated, you can use this rule. If you do,
-that activated operative has the **PIVOTAL ROLE** for the battle.
+Una vez por batalla, cuando activas un aliado **ACCOLADE** , si el aliado que tiene el **PIVOTAL ROLE**
+ha sido incapacitado, puedes usar esta regla. Si lo haces, ese Operativo activo gana el **PIVOTAL ROLE**
+durante la batalla.
 ]]></string>
-
-
 
     <!--Ploys-->
     <!--Strategy ploys-->
     <string name="darting_salvo_lore"><![CDATA[
-Advancing in a dazzling blurr of vibrant colour,
-Harlequins fire on the move, leaping away before their
-opponents can return fire.
+Avanzando en un deslumbrante torbellino de colores vibrantes, los Arlequines disparan en movimiento,
+saltando hacia atrás antes de que sus oponentes puedan devolver el fuego.
 ]]></string>
 
     <string name="darting_salvo_description"><![CDATA[
-Whenever a friendly **VOID-DANCER TROUPE**
-operative performs the **Reposition** action during
-its activation, it can perform the **Shoot** action
-during that action (it must do so in a location it
-can be placed, and any remaining move distance
-it had from that **Reposition** action can be used
-after it does so).
+Cuando un aliado **ACCOLADE** hace la accion de **Reposicion** durante su activacion, puede hacer la
+accion de **Disparo** durante esa accion (debe hacerlo en un lugar donde la miniatura pueda mantenerse,
+y cualquier distancia restante de su Reposicion puede ser usada despues).
 ]]></string>
 
     <string name="rising_crescendo_lore"><![CDATA[
-With each darting advance and lethal flourish, the
-tempo of the troupes performance increases, building
-towards a violent crescendo.
+Con cada avance veloz y cada movimiento letal, el ritmo de la actuación de la compañía aumenta, construyendo
+un violento clímax.
 ]]></string>
 
     <string name="rising_crescendo_description"><![CDATA[
-Friendly **VOID-DANCER TROUPE** operatives can perform the **Dash** action during the
-same activation in which they performed the **Charge** action, but not vice versa (i.e. not **Dash**
-then **Charge**).
+Aliados **ACCOLADE** pueden hacer la accion de **Dash** durante la misma activacion en la que haya
+haya hecho una accion de **Carga** pero no al reves (no puede hacer un **Dash** y luego **Carga**).
 ]]></string>
 
     <string name="prismatic_blur_lore"><![CDATA[
-So swift and dazzling are the Harlequins that even
-veteran marksmen struggle to draw a bead upon their lithe forms.
+Los Arlequines son tan rápidos y deslumbrantes que incluso los tiradores más experimentados tienen
+dificultades para acertarles en sus ágiles figuras.
 ]]></string>
 
     <string name="prismatic_blur_description"><![CDATA[
-Whenever an operative is shooting a friendly **VOID-DANCER TROUPE** operative that
-performed an action in which it moved during this turning point, you can re-roll one of your
-defence dice.
+Cuando un Operativo esta disparando a un aliado **VOID-DANCER TROUPE**  que haya hecho una accion en la que se haya
+movido durante este turno, puede re-rollear uno de tus dados de defensa.
 ]]></string>
 
     <string name="cego_jest_lore"><![CDATA[
-Attempts to engage the troupe in melee combat meet
-with little success. Luckless assailants find their wellaimed strikes meeting only thin air
+Los intentos de entablar combate cuerpo a cuerpo con la compañía resultan infructuosos.
+Los desafortunados atacantes ven cómo sus golpes, bien dirigidos, solo encuentran el aire.
 ]]></string>
 
     <string name="cego_jest_description"><![CDATA[
-Whenever a friendly **VOID-DANCER TROUPE** operative is fighting or retaliating and
-your opponent strikes with a normal success, you can roll one D6: if the result is less than the
-Hit stat of your opponents selected weapon, that strike is allocated to block one of your
-dice instead (ignore the Brutal weapon rule, if relevant) and you cannot use this rule for the rest
-of the sequence.
+Cuando un aliado **VOID-DANCER TROUPE** esta combatiendo o retaleando y tu oponente golpea con un exito
+normal, puedes lanzar un D6: si el resultado es menor que la estadistica de Hit del arma que haya
+seleccionado tu oponente para atacar, ese dado es forzado a usarse para bloquear uno de tus dados
+de ataque en lugar de atacar (ignora la regla Brutal si es relevante) y no puedes usar esta regla durante
+el resto de la secuencia.
 ]]></string>
-
-
 
     <!--Firefight ploys-->
     <string name="m_entrance_lore"><![CDATA[
-The Harlequin assault materialises with terrifying speed,
-a flurry of deadly blows landing before the foe can raise a blade in response.
+El ataque de los Arlequines se materializa con una velocidad aterradora, una ráfaga de golpes mortales
+que impactan antes de que el enemigo pueda siquiera alzar una espada en respuesta.
 ]]></string>
 
     <string name="m_entrance_description"><![CDATA[
-Use this firefight ploy when a friendly **VOID-DANCER TROUPE** operative is fighting
-during an activation in which it performed the **Charge** action, after you strike. You can
-immediately resolve another of your normal successes as a strike (before your opponent),
-or one of your critical successes if there are none.
+Usa esta Firefight ploy cuando un aliado **VOID-DANCER TROUPE**  este combatiendo durante una activacion
+en la que haya hecho la accion de **Cargar**, despues de que golpes. Puedes inmediatamente resolver otro
+de tus exitos normales para golpear (antes que tu oponente), o un resultado critico si no hay resultados
+normales.
 ]]></string>
 
     <string name="curtain_falls_lore"><![CDATA[
-Upon landing a devastating blow, the Harlequin
-disengages, leaving their wounded opponent flailing
-desperately in response.
+Tras asestar un golpe devastador, el Arlequín
+se retira, dejando a su oponente herido agitando los brazos
+desesperadamente en respuesta.
 ]]></string>
 
     <string name="curtain_falls_description"><![CDATA[
-Use this firefight ploy when a friendly **VOID-DANCER TROUPE** operative is fighting,
-after you strike with a critical success, if the enemy operative is not incapacitated. End
-that sequence (any remaining attack dice are discarded) and immediately perform a free **Fall
-Back** action up to 3\" with that operative (then the **Fight** action ends). That operative can do so even
-if it is performed an action that prevents it from performing the **Fall Back** action.
+Usa esta Firefight ploy cuando un aliado **VOID-DANCER TROUPE**  esta combatiendo, despues de que golpes
+con un exito critico, si el enemigo no fue incapacitado. Termina esa secuencia (todos los dados restantes
+son descartados) e inmediatamente realiza una accion de **Fall Back** gratis hasta 3\" de ese Operativo
+(luego la accion de **Combate** termina). Ese Operativo puede hacerlo incluso si ha hecho una accion
+que prevenga que pueda hacer una accion de **Fall Back**.
 ]]></string>
 
     <string name="elusive_t_lore"><![CDATA[
-Swift, agile and graceful, Harlequins dart from cover to cover, evading their opponents with contemptuous ease.
+Rápidos, ágiles y elegantes, los Arlequines se mueven de un escondite a otro, eludiendo a sus oponentes
+con una facilidad desdeñosa.
 ]]></string>
 
     <string name="elusive_t_description"><![CDATA[
-Use this firefight ploy during a friendly **VOID-DANCER TROUPE** operatives activation.
-Until the start of its next activation, while that operative has a **Conceal** order and is in cover,
-it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek,
-Vantage terrain) except being within 2\".
+Usa este Firefight ploy durante la activacion de un aliado **VOID-DANCER TROUPE**. Hasta el inicio de su
+proxima activacion, mientras tenga una orden de **Conceal** y este en cobertura, no puede ser seleccionado
+como un objetivo valido, esto toma precedencia sobre todas las reglas, excepto estar a 2\".
 ]]></string>
 
     <string name="domino_field_lore"><![CDATA[
-Harlequins bear a variety of esoteric equipment,
-including the ubiquitous Domino Field, which breaks up
-their outline and renders them difficult to target.
+Los arlequines portan una variedad de equipo esotérico,
+incluido el omnipresente Campo Dominó, que disuelve
+su silueta y los hace difíciles de alcanzar.
 ]]></string>
 
     <string name="domino_field_description"><![CDATA[
-Use this firefight ploy when an operative is shooting a friendly **VOID-DANCER TROUPE**
-operative, during the Resolve Defence Dice step. You can allocate one of your rolled successful
-dice to block all of your opponents attack dice with matching results (e.g. one of your successful
-defence dice results of 5 can be used to block all successful attack dice results of 5).
+Usa esta Firefight ploy cuando un Operativo este disparando a un aliado **VOID-DANCER TROUPE**, durante
+la fase de resolver dados de defensa. Puedes usar uno de tus exitos para bloquear todos los exitos
+de tu oponente del mismo resultado (tu dado exitoso de 5 puede ser usado para bloquear todos
+los dados de ataque de 5).
 ]]></string>
 
 </resources>
