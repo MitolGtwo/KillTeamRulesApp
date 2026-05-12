@@ -35,7 +35,7 @@ enemigo, o mas de una vez por turno.
 
     <string name="terrochem_description"><![CDATA[
 En la fase de resolver dados de ataque, si infliges daño con cualquier exito critico
-(incluyendo como resultado de la regla Devasting), el Operativo
+[[blue]](incluyendo como resultado de la regla Devasting)[[/blue]], el Operativo
 contra el que se esta usando esta arma gana uno de tus Terrochem tokens (si no tiene uno).
     ]]></string>
 
@@ -154,8 +154,8 @@ Los Night Lords son uno con la oscuridad, a la que emplean como aliada y como ar
 Cuando un Operativo enemigo esta disparando a un aliado **NEMESIS CLAW**, ese aliado esta Obscurecido si
 ambos requisitos se cumplen:\n
 \n• Esta a mas de 8\" del Operativo enemigo al que es visible.\n
-\n• Esta a 1\" de terreno pesado que no sea mas bajo que el Operativo, o cualquier parte de su base
-esta debajo de terreno aventajado.
+\n• [[red]]Esta a 1\" de terreno pesado que no sea mas bajo que el Operativo, o cualquier parte de su base
+esta debajo de terreno aventajado.[[/red]]
 ]]></string>
 
     <!--Equipment-->
@@ -236,9 +236,9 @@ con precisión infalible.
 ]]></string>
 
     <string name="preysight_description"><![CDATA[
-Cuando un aliado **NEMESIS CLAW** este haciendo la accion de **Disparo**, puedes usar esta regla para
+[[red]]Cuando un aliado **NEMESIS CLAW** este haciendo la accion de **Disparo**, puedes usar esta regla para
 que hasta al final de esa accion, las armas de distancia de esos aliados tengan las reglas Range 6\"
-y Seek Light.
+y Seek Light.[[/red]]
 ]]></string>
 
     <string name="return_to_darkness_lore"><![CDATA[

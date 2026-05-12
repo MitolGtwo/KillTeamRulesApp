@@ -171,7 +171,7 @@ los elementos mismos.
 **STRATEGIC GAMBIT**. Remueve tu marcador de **Tormenta** del campo (si hay alguno), luego ponlo
 en el campo. Cuando un Operativo está a 6\" horizontalmente de tu Tormenta, está dentro de tu **Tormenta**   .\n
 \nCada aliado **WOLF SCOUT** puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal**
-si termina esa accion dentro de tu **Tormenta**.
+[[red]]si termina esa accion[[/red]] dentro de tu **Tormenta**.
 ]]></string>
 
     <string name="hunting_astartes_lore"><![CDATA[
@@ -199,7 +199,7 @@ mientras que otras son fragmentos de diamante energizado, que parecen forjados c
 ]]></string>
 
     <string name="frost_weapons_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** esta completamente dentro de tu **Tormenta**, sus
+[[red]]Cuando un aliado **WOLF SCOUT** esta completamente dentro de tu **Tormenta**[[/red]], sus
 Combat Blades dganan la regla Lethal 5+ (si tienen).
 ]]></string>
 
@@ -211,7 +211,7 @@ secretos del grabado de estos amuletos más poderosos, que los Lobos Espaciales 
 
     <string name="runic_charms_description"><![CDATA[
 Una vez por turno, cuando un Operativo esté disparando a un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**)
-que este completamente dentro de tu **Tormenta**,
+[[red]]que este completamente dentro de tu **Tormenta**[[/red]],
 al inicio de la fase de tirar dados de defensa, puedes usar esta regla. Si lo haces, empeora el valor
 de la regla Piercing a 1 hasta el final de esa secuencia. Notese que Piercing 1 por lo tanto sería ignorado.
 ]]></string>
@@ -236,9 +236,9 @@ amuletos de buena suerte y protección contra ataques malignos.
 ]]></string>
 
     <string name="talismanic_trophies_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) que este completamente dentro de tu
-**Tormenta** está combatiendo o retaleando,
-en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un éxito normal.
+Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) [[red]]que este completamente dentro de tu
+**Tormenta**[[/red]] está combatiendo o retaleando,
+en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un éxito [[red]]normal[[/red]].
 ]]></string>
 
 

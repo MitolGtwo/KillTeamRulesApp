@@ -26,6 +26,7 @@ import com.example.killteamruleset.ui.data.Empire.list.PhobosStrikeTeam.PhobosOp
 import com.example.killteamruleset.ui.data.Empire.list.Ratlings.RatlingsOperatives
 import com.example.killteamruleset.ui.data.Empire.list.Sanctifiers.SanctifiersOperatives
 import com.example.killteamruleset.ui.data.Empire.list.ScoutSquad.ScoutOperatives
+import com.example.killteamruleset.ui.data.Empire.list.SpectreSquad.SpectreOperatives
 import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.AquilonOperatives
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.Wolfperatives
 import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperatives
@@ -89,6 +90,7 @@ object OperativeRepository {
             "raveners" -> RavenersOperatives
             "sanctifiers" -> SanctifiersOperatives
             "scout_squat" -> ScoutOperatives
+            "spectre-squad" -> SpectreOperatives
             "tempestus_aquilon" -> AquilonOperatives
             "wolf_scout" -> Wolfperatives
             "plague_marines" -> PlagueMarinesOperatives

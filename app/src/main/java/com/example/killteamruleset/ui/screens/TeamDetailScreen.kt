@@ -1,6 +1,7 @@
 package com.example.killteamruleset.ui.screens
 
 
+import android.R.attr.onClick
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -41,6 +42,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun TeamDetailScreen(
     team: Team,
+    onArchetypeClick: (Archetypes) -> Unit,
     onOperativesClick: () -> Unit,
     onOperativeSelectionClick: () -> Unit,
     onFactionRulesClick: () -> Unit,
@@ -90,9 +92,15 @@ fun TeamDetailScreen(
             // 🔙 BACK
             TextButton(
                 onClick = onBack,
-                modifier = Modifier.padding(16.dp)
+                modifier = Modifier
+                    .padding(12.dp)
+                    .height(80.dp)
+                    .width(100.dp)
             ) {
-                Text("← Back", color = Color.White)
+                Text("← Back",
+                    color = Color.White,
+                    fontSize = 20.sp)
+
             }
 
 // ─────────────────────────
@@ -137,25 +145,6 @@ fun TeamDetailScreen(
                 )
             }
 
-
-
-            // 🏷 TEAM NAME
-            /*Text(
-                text = team.name.uppercase(),
-                fontSize = 32.sp,
-                fontWeight = FontWeight.ExtraBold,
-                letterSpacing = 1.5.sp,
-                color = Color.White,
-                modifier = Modifier
-                    .padding(start = 16.dp)
-            )
-            Box(
-                modifier = Modifier
-                    .padding(start = 16.dp, top = 6.dp)
-                    .height(3.dp)
-                    .width(80.dp)
-                    .background(Color(0xFFFF6A00))
-            )*/
             Text(
                 text = "“${team.quote}”",
                 fontSize = 15.sp,
@@ -176,8 +165,9 @@ fun TeamDetailScreen(
             Spacer(Modifier.height(250.dp)) // 👈 lets background breathe
 
             // ─────────────────────────
-            // ⬇️ ACTION AREA
+            // ACTION AREA
             // ─────────────────────────
+
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
@@ -204,16 +194,14 @@ fun TeamDetailScreen(
                                 modifier = Modifier
                                     .size(60.dp)
                                     .alpha(0.95f)
+                                    .clickable {
+                                        onArchetypeClick(archetype)
+                                    }
 
                             )
                         }
                     }
 
-                    // FIRST BUTTON
-                    TeamActionButton(
-                        text = "View Operatives",
-                        onClick = onOperativesClick
-                    )
 
                     // 🎯 DIFFICULTY BADGE
 
@@ -237,7 +225,26 @@ fun TeamDetailScreen(
                             style = MaterialTheme.typography.labelSmall
                         )
                     }
+                    // FIRST BUTTON
+                    TeamActionButton(
+                        text = "View Operatives",
+                        onClick = onOperativesClick
+                    )
+                    Column(
+                        modifier = Modifier
+                            .align(Alignment.TopEnd)
+                            .offset(y = (-60).dp),
+                        horizontalAlignment = Alignment.End
+                    ) {
+                        Text(
+                            text = "Kill Team Rotation: ${team.ktstatus}",
+                            color = Color.White,
+                            style = MaterialTheme.typography.labelSmall
+                        )
+                    }
                 }
+
+
 
                 TeamActionButton(
                     text = "Operatives Selection",

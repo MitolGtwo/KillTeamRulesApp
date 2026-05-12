@@ -66,12 +66,6 @@
 ]]></string>
 
 
-    <string name="battleclade_omniscanner"><![CDATA[
-
-        Omniscanner
-
-]]></string>
-
     <string name="battleclade_omniscanner_usage"><![CDATA[
 
         1AP
@@ -88,12 +82,6 @@
 
 ]]></string>
 
-
-    <string name="battleclade_datacoronal"><![CDATA[
-
-        Datacoronal Accumulator
-
-]]></string>
 
     <string name="battleclade_datacoronal_usage"><![CDATA[
 
@@ -123,10 +111,11 @@ for this rule.\n\n
     <string name="battleclade_network_description"><![CDATA[
 **SUPPORT**. Select one friendly **BATTLECLADE SERVITOR** operative within 6\" of either this operative or a friendly
 **BATTLECLADE AUTO-PROXY** operative to immediately **NETWORK COUNTERACT** (you dont have to **TRANSFER
-POWER** to do so) or perform a free **Dash** action. Continue this operatives activation after doing so. For the purposes of the Comms Device universal
+POWER** to do so)[[blue]] or perform a free **Dash** action[[/blue]]. Continue this operatives activation after doing so. For the purposes of the Comms Device universal
 equipment, the operative the distance is being determined from must control that marker.\n\n
 
-This operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative.
+[[blue]]This operative can perform this action twice during its activation, but cannot perform this
+action while within control range of an enemy operative.[[/blue]]
     ]]></string>
 
 
@@ -240,9 +229,9 @@ turning point.
 ]]></string>
 
     <string name="concealed_apparatus_description"><![CDATA[
-Once per battle, one **COMBAT SERVITOR** or **GUN SERVITOR**
+[[blue]]Once per battle, one **COMBAT SERVITOR** or **GUN SERVITOR**
 operative can use another weapon option on its datacard it
-did not select for the battle.
+did not select for the battle.[[/blue]]
 ]]></string>
 
     <string name="neurocylic_reserve_cells_lore"><![CDATA[
@@ -250,7 +239,7 @@ did not select for the battle.
 ]]></string>
 
     <string name="neurocylic_reserve_cells_description"><![CDATA[
-Once per turning point, whenever you **TRANSFER POWER**, you can use this rule. If you do, you can
+[[blue]]Once per turning point[[/blue]], whenever you **TRANSFER POWER**, you can use this rule. If you do, you can
 **TRANSFER POWER** for 0AP (this takes precedence over the normal Noospheric Network Rules).
 ]]></string>
 
@@ -297,7 +286,7 @@ is evident to all.
     <string name="incantation_of_the_iron_soul_description"><![CDATA[
     Whenever an attack dice inflicts damage of 3 or
 more on a friendly **BATTLECLADE** operative,
-roll one D6: on a 4+, subtract 1 from that
+roll one D6: on a [[blue]]4+[[/blue]], subtract 1 from that
 inflicted damage.
 ]]></string>
 

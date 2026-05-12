@@ -15,7 +15,7 @@ val SanctifiersOperativeSelection: List<OperativeSelectionRule> = listOf(
 
 
     OperativeSelectionRule(
-        text = "9 RATLING Operatives selected from the following list:",
+        text = "9 SANCTIFIER Operatives selected from the following list:",
     ),
     OperativeSelectionRule(
         text = "CONFLAGRATOR",

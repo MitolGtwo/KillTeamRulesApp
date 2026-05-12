@@ -211,7 +211,7 @@ Este Operativo no puede hacer esta accion si esta en rango de control de un enem
     ]]></string>
 
     <string name="salvagers_well_supplied_description"><![CDATA[
-Puedes seleccionar un equipo adicional, y durante la Ready step del primer turno, ganas 1 CP adicional.
+Puedes seleccionar un equipo adicional, [[blue]]y durante la Ready step del primer turno, ganas 1 CP adicional.[[/blue]]
     ]]></string>
 
     <string name="got_it_usage"><![CDATA[
@@ -350,7 +350,7 @@ La hermandad venera a sus ancestros y son guias de lecciones de sus antepasados.
     <string name="the_ancestors_are_watching_description"><![CDATA[
 Usa esta Firefight ploy durante la activacion de un aliado **HEARTHKYN SALVAGER**.
 Hasta el final de la activacion, ese Operativo puede hacer ya sea una accion gratis de **Disparo**
-o una accion gratis de **Combate** y puede ignorar cambios a sus estadisticas por estar **Lesionado**.
+o una accion gratis de **Combate** [[blue]]y puede ignorar cambios a sus estadisticas por estar **Lesionado**.[[/blue]]
 ]]></string>
 
     <string name="worth_it_lore"><![CDATA[

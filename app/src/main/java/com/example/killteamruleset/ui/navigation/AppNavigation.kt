@@ -131,6 +131,10 @@ fun AppNavigation(navController: NavHostController) {
 
             TeamDetailScreen(
                 team = team,
+                onArchetypeClick = { archetype ->
+                    navController.navigate("tacops/${archetype.name}")
+                },
+
                 onOperativesClick = {
                     navController.navigate("operatives/${team.id}")
                 },

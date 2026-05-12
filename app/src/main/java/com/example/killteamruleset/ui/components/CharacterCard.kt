@@ -1,9 +1,7 @@
 package com.example.killteamruleset.ui.components
 
+import android.R.attr.textColor
 import androidx.compose.foundation.layout.FlowRow
-import androidx.compose.animation.AnimatedVisibility
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.slideInVertically
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -15,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.White
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -118,10 +117,10 @@ fun CharacterHeader(
             modifier = Modifier
                 .align(Alignment.BottomEnd)
                 .fillMaxHeight()
-                .offset(x = 20.dp) // 👈 move character to the right
+                .offset(x = 20.dp)
         )
 
-        // 🏷 NAME (foreground layer)
+        // 🏷 NAME
         Text(
             text = name,
             style = MaterialTheme.typography.titleLarge.copy(
@@ -135,8 +134,8 @@ fun CharacterHeader(
             color = Color.White,
             modifier = Modifier
                 .align(Alignment.CenterStart)
-                .zIndex(1f) // 👈 ensure it renders on top
-                .padding(end = 120.dp) // 👈 breathing room from image
+                .zIndex(1f)
+                .padding(end = 120.dp)
         )
     }
 }
@@ -153,6 +152,27 @@ fun StatsRow(stats: OperativeStats) {
         StatItem("MOVE", stats.move)
         StatItem("SAVE", stats.save)
         StatItem("WOUNDS", stats.wounds.toString())
+    }
+}
+
+@Composable
+fun StatItem(
+    label: String,
+    value: String
+) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelSmall
+        )
+        RichText(
+            text = value,
+            color = Color(0xFFFFFFFF),
+            fontWeight = FontWeight.Bold,
+        )
+
     }
 }
 

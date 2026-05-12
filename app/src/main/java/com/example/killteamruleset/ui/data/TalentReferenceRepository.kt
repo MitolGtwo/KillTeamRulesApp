@@ -49,6 +49,17 @@ object TalentReferenceRepository {
                 )
             )
 
+            "nemesis_claw"  -> listOf(
+                TalentReference(
+                    id = "nemesis_miguel2",
+                    imageRes = R.drawable.nemesis_miguel1
+                ),
+                TalentReference(
+                    id = "nemesis_miguel2",
+                    imageRes = R.drawable.nemesis_miguel2
+                )
+            )
+
             "canoptek_circle" -> listOf(
                 TalentReference(
                     id = "canoptek_talent_andres1",

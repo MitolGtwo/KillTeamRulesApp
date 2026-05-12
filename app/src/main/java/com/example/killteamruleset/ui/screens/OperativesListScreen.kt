@@ -23,6 +23,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
+import androidx.compose.ui.unit.sp
 import com.example.killteamruleset.state.OperativesUIState
 
 import kotlinx.coroutines.launch
@@ -69,6 +70,8 @@ fun OperativesListScreen(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
 
+
+
                 // 🔹 HEADER
                 item {
                     Row(
@@ -79,8 +82,17 @@ fun OperativesListScreen(
                         verticalAlignment = Alignment.CenterVertically
                     ) {
 
-                        TextButton(onClick = onBack) {
-                            Text("← Back")
+                        TextButton(
+                            onClick = onBack,
+                            modifier = Modifier
+                                .padding(12.dp)
+                                .height(80.dp)
+                                .width(100.dp)
+                        ) {
+                            Text("← Back",
+                                color = Color.White,
+                                fontSize = 20.sp)
+
                         }
 
                         IconButton(

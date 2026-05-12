@@ -3,7 +3,7 @@ package com.example.killteamruleset.ui.data
 import com.example.killteamruleset.ui.model.ColorScheme
 import com.example.killteamruleset.R
 
-object ColorSchemeRepository {
+object zzColorSchemeRepository {
 
     private val schemesByTeam = mapOf(
         "wrecka_krew" to listOf(

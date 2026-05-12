@@ -174,8 +174,8 @@ pon tu token de Disformidad completamente dentro de tu territorio, despues este 
 activacion (expended).\n
 \nEn la firefight fase de este turno, cuando este Operativo es activado, ponlo con una orden de tu eleccion
 completamente dentro de su zona de deployment, o completamente dentro de tu territorio contesteando tu
-token de Disformidad. Continua su activacion normalmente, durante esa activacion no puede gastar mas de
- 2AP y no puede moverse mas de 4\".\n
+token de Disformidad. Continua su activacion normalmente, [[red]]durante esa activacion no puede gastar mas de
+ 2AP [[/red]] y no puede moverse mas de 4\".\n
 \nCuando este Operativo este en la Disformidad, no puede ser un Operativo Ready para usar la Firefight
 ploy Malicious Narcissism.
     ]]></string>
@@ -315,7 +315,7 @@ Una vez por turno, un aliados **MURDERWING** pueden hacer la siguiente accion un
     ]]></string>
 
     <string name="vox_casters_description2"><![CDATA[
-Cada Operativo enemigo a 2\" de este Operativo toma un test de Stun. para hacerlo, lanza un D6 para cada
+Cada Operativo enemigo a [[red]]2\"[[/red]] de este Operativo toma un test de Stun. para hacerlo, lanza un D6 para cada
 uno: al 3+, sustrae 1 a su estadistica de APL hasta el fin de su proxima activacion.\n\n
 
 Un Operativo no puede usar esta accion mientras tenga una orden de **Conceal**.

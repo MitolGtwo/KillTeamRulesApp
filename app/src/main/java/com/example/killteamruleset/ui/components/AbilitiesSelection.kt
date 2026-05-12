@@ -18,7 +18,6 @@ fun AbilitiesSection(
     onKeywordClick: (KeywordInfo) -> Unit
 ) {
     Column {
-
         Text(
             text = "Abilities",
             style = MaterialTheme.typography.titleMedium,
@@ -42,8 +41,10 @@ fun AbilitiesSection(
 
                 abilities.forEachIndexed { index, ability ->
 
-                    AbilityCard(ability = ability,
-                        onKeywordClick = onKeywordClick)
+                    AbilityCard(
+                        ability = ability,
+                        onKeywordClick = onKeywordClick
+                    )
 
                     if (index < abilities.lastIndex) {
                         Divider(
@@ -53,8 +54,7 @@ fun AbilitiesSection(
                         )
                     }
                 }
+            }
         }
     }
-        }
-
-        }
+}

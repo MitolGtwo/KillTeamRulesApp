@@ -2,16 +2,14 @@ package com.example.killteamruleset.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -20,12 +18,11 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-
+import androidx.compose.ui.unit.sp
 import com.example.killteamruleset.ui.components.EquipmentSection
 import com.example.killteamruleset.ui.components.KeywordPopup
 import com.example.killteamruleset.ui.components.KillTeamBackground
@@ -35,16 +32,6 @@ import com.example.killteamruleset.ui.data.TeamRepository
 import com.example.killteamruleset.ui.data.UniversalEquipmentRepository
 import com.example.killteamruleset.ui.model.KeywordInfo
 import com.example.killteamruleset.ui.model.TeamScreen
-
-import androidx.compose.material3.NavigationBarItem
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.*
-import androidx.compose.animation.animateColorAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.foundation.layout.RowScope
-import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.material3.Icon
-
 
 @Composable
 fun EquipmentScreen(
@@ -79,8 +66,17 @@ fun EquipmentScreen(
             verticalArrangement = Arrangement.spacedBy(20.dp)
         ) {
 
-            TextButton(onClick = onBack) {
-                Text("← Back")
+            TextButton(
+                onClick = onBack,
+                modifier = Modifier
+                    .padding(12.dp)
+                    .height(80.dp)
+                    .width(100.dp)
+            ) {
+                Text("← Back",
+                    color = Color.White,
+                    fontSize = 20.sp)
+
             }
 
             Text(

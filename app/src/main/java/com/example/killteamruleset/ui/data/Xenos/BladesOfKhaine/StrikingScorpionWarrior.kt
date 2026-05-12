@@ -21,7 +21,7 @@ val StrikingScorpionWarrior = Operative(
     stats = OperativeStats(
         apl = 3,
         move = "7\"",
-        save = "3+",
+        save = "[[blue]]3+[[/blue]]",
         wounds = 8
     ),
     weapons = listOf(

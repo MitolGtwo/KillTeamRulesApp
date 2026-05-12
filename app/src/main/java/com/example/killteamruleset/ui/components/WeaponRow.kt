@@ -13,13 +13,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.KeywordInfo
 import com.example.killteamruleset.ui.model.WeaponProfile
 import com.example.killteamruleset.ui.model.WeaponType
-
 
 @Composable
 fun WeaponRow(
@@ -60,7 +58,10 @@ fun WeaponRow(
                     fontWeight = FontWeight.Bold,
                     color = textColor
                 )
-                Text(weapon.hit, color = textColor)
+                RichText(
+                    text = weapon.hit,
+                    color = Color.White
+                )
                 Text(weapon.damage, color = textColor)
             }
         }
@@ -100,7 +101,6 @@ fun WeaponRow(
             color = MaterialTheme.colorScheme.primary.copy(alpha = 0.4f)
         )
     }
-
 }
 @Composable
 private fun weaponIconRes(type: WeaponType): Int {

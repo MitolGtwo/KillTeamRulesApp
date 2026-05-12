@@ -66,6 +66,8 @@ fun AllianceHeader(
                 contentDescription = null,
                 tint = Color(0xFFFF6A00)
             )
+
+
         }
     }
 }

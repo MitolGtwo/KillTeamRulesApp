@@ -34,7 +34,7 @@ val RatlingBomber = Operative(
             name = "Sniper Rifle (mobile)",
             type = WeaponType.RANGED,
             attacks = 4,
-            hit = "3+",
+            hit = "[[blue]]3+[[/blue]]",
             damage = "3/4",
             keywords = listOf(
             )

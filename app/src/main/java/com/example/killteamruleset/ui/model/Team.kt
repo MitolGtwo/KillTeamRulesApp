@@ -12,6 +12,7 @@ data class Team(
     val id: String,
     val name: String,
     val alliance: Alliance,
+    val ktstatus: String,
     val type: TeamType,
     val difficulty: String,
     val archetypes: List<Archetypes>,

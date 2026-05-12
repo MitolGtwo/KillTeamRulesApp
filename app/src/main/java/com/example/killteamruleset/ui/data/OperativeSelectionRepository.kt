@@ -26,6 +26,7 @@ import com.example.killteamruleset.ui.data.Empire.list.PhobosStrikeTeam.PhobosOp
 import com.example.killteamruleset.ui.data.Empire.list.Ratlings.RatlingsOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.Sanctifiers.SanctifiersOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.ScoutSquad.ScoutOperativeSelection
+import com.example.killteamruleset.ui.data.Empire.list.SpectreSquad.SpectreSquadOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.TempestusAquilons.AquilonOperativeSelection
 import com.example.killteamruleset.ui.data.Empire.list.WolfScouts.WolfOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperativeSelection
@@ -90,6 +91,7 @@ object OperativeSelectionRepository {
         "raveners" to RavenersOperativeSelection,
         "sanctifiers" to SanctifiersOperativeSelection,
         "scout_squat" to ScoutOperativeSelection,
+        "spectre_squad" to SpectreSquadOperativeSelection,
         "tempestus_aquilon" to AquilonOperativeSelection,
         "vespids" to VespidsOperativeSelection,
         "void_dancer" to VoidDancersOperativeSelection,

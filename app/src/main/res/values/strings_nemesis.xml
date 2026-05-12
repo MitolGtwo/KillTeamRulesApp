@@ -39,7 +39,7 @@ This operative cannot perform this action while within control range of an enemy
 
     <string name="terrochem_description"><![CDATA[
 In the Resolve Attack Dice step, if you inflict
-damage with any critical successes (including as a result of the Devastating weapon rule) , the operative this weapon
+damage with any critical successes [[blue]](including as a result of the Devastating weapon rule)[[/blue]] , the operative this weapon
 is being used against gains one of your Terrorchem tokens (if it
 does not already have one).
     ]]></string>
@@ -175,8 +175,8 @@ operative is obscured if both of the following are true:\n
 \n
 • It is more than 8\" from enemy operatives it is visible to.\n
 \n
-• It is within 1\" of Heavy terrain that is not lower than it, or any
-part of its base is underneath Vantage terrain.
+• [[red]]It is within 1\" of Heavy terrain that is not lower than it, or any
+part of its base is underneath Vantage terrain.[[/red]]
 ]]></string>
 
     <!--Equipment-->
@@ -282,10 +282,10 @@ prey, hunting down the craven with unerring precision
 ]]></string>
 
     <string name="preysight_description"><![CDATA[
-Whenever a friendly **NEMESIS CLAW** operative performs the
+[[red]]Whenever a friendly **NEMESIS CLAW** operative performs the
 **Shoot** action, you can use this rule. If you do, until the end of
 that action, that friendly operative’s ranged weapons have the
-Range 6” and Seek Light weapon rules
+Range 6” and Seek Light weapon rules[[/red]]
 ]]></string>
 
     <string name="return_to_darkness_lore"><![CDATA[

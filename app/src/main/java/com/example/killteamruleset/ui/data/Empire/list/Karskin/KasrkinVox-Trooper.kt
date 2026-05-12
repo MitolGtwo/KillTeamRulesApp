@@ -28,7 +28,7 @@ val KasrkinVoxTrooper = Operative(
             name = "Gun Butt",
             type = WeaponType.MELEE,
             attacks = 3,
-            hit = "3+",
+            hit = "4+",
             damage = "2/3",
             keywords = listOf(
             )

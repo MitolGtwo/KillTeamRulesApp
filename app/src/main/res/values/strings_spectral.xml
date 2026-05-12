@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Kasrkin-->
+
+    <string name="issue_mission_usage"><![CDATA[
+        0AP
+    ]]></string>
+
+    <string name="issue_mission_description"><![CDATA[
+Select one expended friendly **SPECTRE SQUAD** operative (excluding **VOX-RELAY BEACON**) visible to
+this operative that has not interrupted an enemy operatives activation with the Elite Fieldcraft faction
+rule this turning  point. Until the end of the turning point, that friendly operative can do so even
+though it is expended  (taking precedence over the normal rules). However, if it does, it cannot counteract
+during the turning  point, or perform the **Reposition** action if it is already done so this turning point.\n\n
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="coolheaded_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="coolheaded_description"><![CDATA[
+Once per turning point, one friendly **SPECTRE
+SQUAD** operative with this rule can interrupt an enemy
+operatives activation with the Elite Fieldcraft faction rule for 0
+Fieldcraft points (taking precedence over the normal rules).
+    ]]></string>
+
+    <string name="spectre_signal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="spectre_signal_description"><![CDATA[
+**SUPPORT**. Select one other friendly **SPECTRE SQUAD** operative (excluding **VOX-RELAY BEACON**)
+visible to this operative. Until the end of that operatives next activation, add 1 to its APL stat.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+    <string name="predeploy_usage"><![CDATA[
+    Passive
+    ]]></string>
+
+    <string name="predeploy_description"><![CDATA[
+In the Set Up Operatives step, this operative can be set up outside of your drop zone. It must be set up
+in a location it can be placed, wholly within your territory and more than 2\" from markers and equipment terrain features.
+    ]]></string>
+
+    <string name="spectre_expendable_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="spectre_expendable_description"><![CDATA[
+This operative cannot perform any actions other than **Signal**. It cannot counteract, retaliate or assist in a fight.\n
+\n
+This operative cannot contest markers or areas of the killzone, and is ignored for your opponents
+kill/elimination op (when it is incapacitated, and when determining your starting number of operatives).
+It is also ignored for victory conditions and scoring VPs if either require operatives to \‘escape\’,
+\‘survive\’ or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated,
+determining how many operatives must escape/survive/be incapacitated, etc.).\n
+\n
+Operatives can move through this operative. Your opponent can ignore this operatives control range at any time. Whenever a friendly
+**SPECTRE SQUAD** operative is performing the **Shoot** action and you are selecting a valid target, you can ignore this operatives
+control range. Note that control range would not be mutual when ignored.
+    ]]></string>
+
+    <string name="spectre_vox_signal_usage"><![CDATA[
+    1AP
+    ]]></string>
+
+    <string name="spectre_vox_signal_description"><![CDATA[
+Select one other friendly **SPECTRE SQUAD** operative within 6\" of this operative. Until the end of that operatives next
+activation, add 1 to its APL stat.\n\n
+This operative cannot perform this action while within control range of an enemy operative
+    ]]></string>
+
+    <string name="suppresive_fire_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="suppresive_fire_description"><![CDATA[
+Whenever an enemy operative is visible to and
+within 3\" of this operative, if this operative has an **Engage** order
+and is not within control range of any other enemy operatives,
+subtract 1 from the Atk stat of that enemy operatives weapons
+(to a minimum of 1). \n\n
+This rule has no effect if this operative performed the **Charge** action during this turning point.
+    ]]></string>
+
+    <string name="weapon_assist_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="weapon_assist_description"><![CDATA[
+Whenever another friendly **SPECTRE SQUAD** operative within control range of this operative is shooting,
+you can re-roll one of your attack dice.
+    ]]></string>
+
+    <string name="load_weapon_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="load_weapon_description"><![CDATA[
+Select one friendly **SPECTRE SQUAD** operative within this operatives control range and not within 3\"
+of enemy operatives. That friendly operative can immediately perform a free **Shoot** action
+(excluding **Guard**), and you can change its order to do so.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative, while counteracting, or during an
+activation in which it performed the **Charge, Dash** or **Shoot** action (or vice versa).
+    ]]></string>
+
+    <string name="weapon_team_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="weapon_team_description"><![CDATA[
+Whenever this operative is activated, if a friendly
+**LOADER** operative is within its control range, all profiles of
+its missile launcher have the Heavy (**Dash** only) weapon rule
+instead of the Heavy weapon rule until the end of that activation.
+    ]]></string>
+
+    <string name="prepared_killzone_usage"><![CDATA[
+    Passive
+    ]]></string>
+
+    <string name="prepared_killzone_description"><![CDATA[
+You can select one additional equipment option, but it must be an Ammo Cache or an equipment terrain feature
+(see universal equipment).
+    ]]></string>
+
+    <string name="scout_terrain_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="scout_terrain_description"><![CDATA[
+Terrain features within your territory or within 3\" of this operative are scouted for friendly **SPECTRE SQUAD**
+operatives. Once in each of their activations, friendly **SPECTRE SQUAD** operatives can do one of the following:\n
+\n
+• Ignore the first vertical distance of 2\" it moves during one climb up if the terrain feature is scouted
+for friendly **SPECTRE SQUAD** operatives.\n
+\n
+• Perform the **Operate Hatch** action for 1 less AP if the access point is scouted for friendly **SPECTRE SQUAD** operatives
+    ]]></string>
+
+    <string name="spectre_grenadier_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="spectre_grenadier_description"><![CDATA[
+This operative can use frag, krak, and smoke
+grenades (see universal equipment). Doing so does not count
+towards any limited uses you have (i.e. if you also select those
+grenades from equipment for other operatives). Whenever this
+operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1.
+    ]]></string>
+
+    <string name="spectre_medic_usage"><![CDATA[
+    Passive
+    ]]></string>
+
+    <string name="spectre_medic_description"><![CDATA[
+The first time during each turning point that another friendly **SPECTRE SQUAD** operative (excluding **VOX-RELAY
+BEACON**) would be incapacitated while visible to and within 3\" of this operative, you can use this rule,
+providing neither this nor that operative is within control range of an enemy operative. If you do, that
+friendly operative isn’t incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder
+of the action. After that action, that friendly operative can immediately perform a free **Dash**
+action, but must end that move within this operative’s control range. Subtract 1 from this and that
+operatives APL stats until the end of their next activations respectively, and if this rule was used
+during that friendly operatives activation, that activation ends. You cannot use this rule if this
+operative is incapacitated, or if it is a **Shoot** action and this operative would be a primary or secondary target.
+    ]]></string>
+
+    <string name="spectre_medikit_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="spectre_medikit_description"><![CDATA[
+Select one friendly **SPECTRE SQUAD** operative (excluding **VOX-RELAY BEACON**) within this operatives control range to
+regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this
+turning point.\n\n
+This operative cannot perform this action while within control range of an enemy operative.
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="elite_fieldcraft_lore"><![CDATA[
+Veteran combatants and expert scouts, Spectre Squad
+operatives are highly skilled in reactive warfare, reading
+their enemies movements and using the terrain to
+outmanoeuvre and ambush them.
+]]></string>
+
+    <string name="elite_fieldcraft_description"><![CDATA[
+In the Ready step of each Strategy phase, you
+gain 1 Fieldcraft point, or 2 if a friendly **SPECTRE SQUAD VOX-OPERATOR** operative is in the
+killzone and is not within control range of enemy
+operatives. At the end of each turning point, discard your Fieldcraft points.\n
+\n
+After an enemy operative that has an **Engage** order performs an action during its activation, you
+can spend 1 of your Fieldcraft points to interrupt that activation. If you do, a ready friendly
+**SPECTRE SQUAD** operative that is not within control range of any other enemy operatives can
+perform a free **Shoot** (excluding **Guard**), **Dash** or **Reposition** action.\n
+\n
+You cannot interrupt each enemy operatives activation more than once per activation
+(including **Guard**), and each friendly operative cannot perform more than one free action per
+turning point as a result of this rule.\n
+\n
+If it is the **Shoot** action, you can change that friendly operatives order to perform this action.
+You cannot select any other enemy operative as a valid target during that action. Being within that
+enemy operatives control range (but no others) does not prevent that friendly operative from
+performing that action, in which case follow the rules for a point-blank shot from the **Guard** action
+(see Kill Team Core Book).\n
+\n
+If it is the **Reposition** action, that friendly operative cannot perform that action again during
+the turning point. If it is the **Dash** or **Reposition** action, that friendly operative cannot end this
+move closer to that enemy operative or your opponents drop zone (unless it ends that move
+wholly within your drop zone). In a killzone that uses the close quarters rules (e.g. Killzone: Tomb
+World), ignore Wall terrain when determining closer and you cannot teleport.
+
+]]></string>
+
+    <string name="spectral_camo_cloaks_lore"><![CDATA[
+Though not as advanced as camelioline, the camouflage
+cloaks issued to Spectre Squads help to conceal them
+in dense terrain, especially when coupled with the
+operatives veteran skills in evading detection.
+]]></string>
+
+    <string name="spectral_camo_cloaks_description"><![CDATA[
+Whenever an operative is shooting a friendly **SPECTRE SQUAD** operative (excluding **VOX-RELAY BEACON**),
+if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover
+save as a critical success instead. This is not cumulative with improved cover saves from Vantage terrain.
+]]></string>
+
+
+
+    <!--Equipment-->
+
+    <string name="sniper_overwatch_lore"><![CDATA[
+The Spectres coordinate with snipers that have moved
+up to encircle the battlefield, calling in and spotting
+shots from flanking positions.
+]]></string>
+
+    <string name="sniper_overwatch_description"><![CDATA[
+Once per turning point, a friendly **SPECTRE SQUAD** operative can use the following
+ranged weapon:
+]]></string>
+
+    <string name="triangulation_lore"><![CDATA[
+By sharing the vid-feed data from their helm cameras,
+the Spectres are able to triangulate optimal firing
+solutions on their foes.
+]]></string>
+
+    <string name="triangulation_description"><![CDATA[
+Once per turning point, when a friendly **SPECTRE SQUAD** operative is performing the Shoot action
+and you are selecting a valid target, you can use this rule. If you do, that target cannot be obscured
+if either of the following are true:\n
+\n
+• It is also a valid target for another friendly **SPECTRE SQUAD** operative.\n
+\n
+• It is within 6\" of a friendly **VOX-RELAY BEACON** operative.
+]]></string>
+
+    <string name="starshell_flare_lore"><![CDATA[
+While starshells are commonly used by the Imperial
+Guard for battlefield illumination, these wily veterans
+employ them to stun and distract.
+]]></string>
+
+    <string name="starshell_flare_description"><![CDATA[
+**STRATEGIC GAMBIT**. One friendly **SPECTRE SQUAD** operative can immediately perform
+a free Stun Grenade action (see universal
+equipment). Performing this action using this rule
+does not count towards its action limits (i.e. if you
+also select that grenade from equipment). When
+an enemy operatives APL stat is changed as a
+result of this **STRATEGIC GAMBIT**, you cannot use
+it for the rest of the battle.
+]]></string>
+
+    <string name="advanced_camouflage_lore"><![CDATA[
+These Spectres employ cunning means of concealing themselves.
+]]></string>
+
+    <string name="advanced_camouflage_description"><![CDATA[
+Friendly **SPECTRE SQUAD** operatives (excluding **VOX-RELAY BEACON**) can perform the following
+unique action:
+]]></string>
+
+    <string name="advanced_camouflage_usage"><![CDATA[
+    1AP
+]]></string>
+
+    <string name="advanced_camouflage_description2"><![CDATA[
+Until the start of this operatives next activation, while it has a **Conceal** order and
+is in cover, it cannot be selected as a valid target, taking precedence over all other
+rules (e.g. Seek, Vantage terrain) except being within 2\".\n\n
+
+This operative cannot perform this action while visible to and within 3\" of an enemy operative.
+]]></string>
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="disapear_lore"><![CDATA[
+Spectres know many ways to fade out of sight and rapidly reposition.
+]]></string>
+
+    <string name="disapear_description"><![CDATA[
+One friendly **SPECTRE SQUAD** operative can
+immediately perform a free **Reposition** action. It
+cannot end that move closer to enemy operatives
+or your opponents drop zone (unless it ends that
+move wholly within your drop zone) and it cannot
+perform that action again during the turning
+point. In a killzone that uses the close quarters
+rules (e.g. Killzone: Tomb World), ignore Wall
+terrain when determining closer.
+]]></string>
+
+    <string name="spectral_hidden_engagement_lore"><![CDATA[
+Long experience and intensive training aid
+these operatives in picking off their targets from
+concealed positions.
+]]></string>
+
+    <string name="spectral_hidden_engagement_description"><![CDATA[
+Whenever a friendly **SPECTRE SQUAD** operative
+is shooting, if it is in cover from the targets
+perspective, that friendly operatives weapons
+have the Balanced weapon rule. Note that your
+opponent still determines the targeting lines
+for this (i.e. they decide which point of their
+operatives base targeting lines are drawn from).
+]]></string>
+
+    <string name="ambushing_volley_lore"><![CDATA[
+Having identified their targets weak points, Spectres
+burst from ambush with their guns blazing to finish off the foe.
+]]></string>
+
+    <string name="ambushing_volley_description"><![CDATA[
+Whenever a friendly **SPECTRE SQUAD** operative is activated, if it is more than 3\" from enemy
+operatives and is not a valid target for enemy operatives before determining its order, its
+ranged weapons (excluding the suppressive profile of an autostubber) have the Devastating 1
+weapon rule until the end of that activation.
+]]></string>
+
+    <string name="patience_lore"><![CDATA[
+Bloody experience has taught these operatives the merits of patience.
+]]></string>
+
+    <string name="patience_description"><![CDATA[
+In the Firefight phase of this turning point, you can do one of the following:\n
+\n
+• When it is your turn to activate a friendly operative, you can skip that activation. You
+cannot do this until after your opponents first activation.\n
+\n
+• When a friendly **SPECTRE SQUAD** operative performs the **Shoot** or **Fight** action during its
+activation, if it is the last friendly operative to be activated during this turning point, its weapons
+have the Relentless weapon rule for that action.
+]]></string>
+
+
+    <!--Firefight ploys-->
+    <string name="dodge_lore"><![CDATA[
+No soldier lives to become a Spectre without supreme survival instincts.
+]]></string>
+
+    <string name="dodge_description"><![CDATA[
+Use this firefight ploy during a friendly **SPECTRE SQUAD** operatives activation, before or after it
+performs an action. During that activation, that operative can perform the **Fall Back** action for 1
+less AP.
+]]></string>
+
+    <string name="silent_killer_lore"><![CDATA[
+These operatives can quietly eliminate foes without raising the alarm.
+]]></string>
+
+    <string name="silent_killer_description"><![CDATA[
+Use this firefight ploy during a friendly **SPECTRE SQUAD** operatives activation before or after it
+performs an action, if it has a **Conceal** order and is not a valid target for enemy operatives. Until the
+end of that activation, it can perform the **Charge** action while it has a **Conceal** order, and the first
+time it strikes you can inflict 3 additional damage, but cannot resolve any other successes during
+that sequence.
+]]></string>
+
+    <string name="sharp_assault_lore"><![CDATA[
+These veteran operatives fight in a swift and responsive fashion.
+]]></string>
+
+    <string name="sharp_assault_description"><![CDATA[
+Use this firefight ploy after an enemy operative that has a **Conceal** order performs an action
+during its activation, if it is within 8\" of a friendly **SPECTRE SQUAD** operative. You can use the
+Elite Fieldcraft faction rule to interrupt that
+activation with that friendly **SPECTRE SQUAD**
+operative regardless of that enemy operatives
+order (taking precedence over the normal rules)
+]]></string>
+
+    <string name="prepared_defence_lore"><![CDATA[
+Spectres always have an escape route and defensive measures in place.
+]]></string>
+
+    <string name="prepared_defence_description"><![CDATA[
+Use this firefight ploy when a friendly **SPECTRE SQUAD** operative that has a **Conceal** order
+or is ready is retaliating. You can do one of the following:\n
+\n
+• At the start of the Resolve Attack Dice step, you can resolve one of your successes before
+the normal order. If you do, that success must be used to block.\n
+\n
+• When you block, that block can be allocated to block two unresolved successes (instead of one).\n
+\n
+You cannot use this ploy during an activation in which you’ve interrupted with the Elite Fieldcraft
+faction rule.
+]]></string>
+
+</resources>

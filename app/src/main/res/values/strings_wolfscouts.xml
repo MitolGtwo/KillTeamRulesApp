@@ -221,7 +221,7 @@ your **STORM**.\n
 \n
 Each friendly **WOLF SCOUT** operative can
 perform the **Charge** action while it has a Conceal
-order if it ends that action within your **STORM**.
+order [[red]]if it ends that action[[/red]] within your **STORM**.
 ]]></string>
 
     <string name="hunting_astartes_lore"><![CDATA[
@@ -261,7 +261,7 @@ diamond, appearing as if forged from purest ice.
 ]]></string>
 
     <string name="frost_weapons_description"><![CDATA[
-Whenever a Friendly **WOLF SCOUT** operatives is wholly within your **STORM**, its combat
+[[red]]Whenever a Friendly **WOLF SCOUT** operatives is wholly within your **STORM**[[/red]], its combat
 blades (if any) has the Lethal 5+ weapon rule.
 ]]></string>
 
@@ -275,8 +275,8 @@ the Space Wolves believe can ward their very souls.
     <string name="runic_charms_description"><![CDATA[
 Once per turning point, when an operative is
 shooting a friendly **WOLF SCOUT** operative
-(excluding **FENRISIAN WOLF**) that is wholly within
-your **STORM**, at the start of the
+(excluding **FENRISIAN WOLF**) [[red]]that is wholly within
+your **STORM**[[/red]], at the start of the
 Roll Defence Dice step, you can use this rule. If
 you do, worsen the x of the Piercing weapon rule
 by 1 (if any) until the end of that sequence. Note
@@ -309,10 +309,10 @@ tokens of luck and protection against malign attacks.
 
     <string name="talismanic_trophies_description"><![CDATA[
 Whenever a friendly **WOLF SCOUT** operative
-(excluding **FENRISIAN WOLF**) that is wholly within your **STORM** is fighting or
+(excluding **FENRISIAN WOLF**) [[red]]that is wholly within your **STORM**[[/red]] is fighting or
 retaliating, in the Resolve Attack Dice step, you
 can subtract 1 from the damage inflicted on it
-from one normal success.
+from one [[red]]normal[[/red]] success.
 ]]></string>
 
 

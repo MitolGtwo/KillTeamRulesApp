@@ -44,11 +44,6 @@ fun HobbyHelperScreen(
             Divider()
 
             GrimdarkActionButton(
-                text = "Color Schemes",
-                onClick = onColorSchemesClick
-            )
-
-            GrimdarkActionButton(
                 text = "Assembly Guide",
                 onClick = onAssemblyGuideClick
             )

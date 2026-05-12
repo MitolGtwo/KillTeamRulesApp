@@ -3,6 +3,7 @@ package com.example.killteamruleset.ui.data
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
+import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Equipment
 import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Lethal
@@ -543,9 +544,58 @@ object EquipmentRepository {
             )
         ),
 
+        "spectre-squad" to listOf(
+
+            Equipment(
+                id = "sniper_overwatch",
+                name = "SNIPER OVERWATCH",
+                lore =R.string.sniper_overwatch_lore,
+                description = R.string.sniper_overwatch_description,
+                weapons = listOf(
+                    WeaponProfile(
+                        name = "Sniper overwatch",
+                        type = WeaponType.RANGED,
+                        attacks = 4,
+                        hit = "3+",
+                        damage = "3/3",
+                        keywords = listOf(
+                            Devastating(1),
+                            Heavy("Dash Only"),
+                            Saturate,
+                            Silent
+                        )
+                    )
+                )
+            ),
+            Equipment(
+                id = "triangulation",
+                name = "TVID-FEED TRIANGULATION",
+                lore =R.string.triangulation_lore,
+                description = R.string.triangulation_description
+            ),
+            Equipment(
+                id = "starshell_flare",
+                name = "STARSHELL FLARE",
+                lore =R.string.starshell_flare_lore,
+                description = R.string.starshell_flare_description
+            ),
+            Equipment(
+                id = "advanced camouflage",
+                name = "ADVANCED CAMOUFLAGE",
+                lore =R.string.advanced_camouflage_lore,
+                description = R.string.advanced_camouflage_description,
+                abilities = listOf(
+                    Ability(
+                        title = "ADVANCED CAMOUFLAGE",
+                        usage = R.string.advanced_camouflage_usage,
+                        description = R.string.advanced_camouflage_description2
+                    )
+                )
+            )
+        ),
+
 
         "tempestus_aquilon" to listOf(
-
 
             Equipment(
                 id = "tempestus_daggers",

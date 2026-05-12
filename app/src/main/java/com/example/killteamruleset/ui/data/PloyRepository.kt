@@ -1029,6 +1029,69 @@ object PloyRepository {
         ),
 
 
+        "spectre-squad" to listOf(
+            // ── Spectral Squad STRATEGY ──
+            Ploy(
+                id = "disapear",
+                name ="DISAPPEAR",
+                type = PloyType.STRATEGY,
+                lore = R.string.disapear_lore,
+                description = R.string.disapear_description
+            ),
+            Ploy(
+                id = "spectral_hidden_engagement",
+                name = "HIDDEN ENGAGEMENT",
+                type = PloyType.STRATEGY,
+                lore = R.string.spectral_hidden_engagement_lore,
+                description = R.string.spectral_hidden_engagement_description
+            ),
+            Ploy(
+                id = "ambushing_volley",
+                name = "AMBUSHING VOLLEY",
+                type = PloyType.STRATEGY,
+                lore = R.string.ambushing_volley_lore,
+                description = R.string.ambushing_volley_description
+            ),
+            Ploy(
+                id = "patience",
+                name = "PATIENCE",
+                type = PloyType.STRATEGY,
+                lore = R.string.patience_lore,
+                description = R.string.patience_description
+            ),
+
+
+            // ── Spectral Squad FIREFIGHT ──
+            Ploy(
+                id = "dodge",
+                name = "DODGE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.dodge_lore,
+                description = R.string.dodge_description
+            ),
+            Ploy(
+                id = "silent_killer",
+                name = "SILENT KILLERS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.silent_killer_lore,
+                description = R.string.silent_killer_description
+            ),
+            Ploy(
+                id = "sharp_assault",
+                name = "SHARP REACTIONS",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.sharp_assault_lore,
+                description = R.string.sharp_assault_description
+            ),
+            Ploy(
+                id = "prepared_defence",
+                name = "PREPARED DEFENCE",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.prepared_defence_lore,
+                description = R.string.prepared_defence_description
+            )
+        ),
+
 
         "tempestus_aquilon" to listOf(
             // ── Tempestus STRATEGY ──

@@ -513,6 +513,24 @@ object FactionRuleRepository {
             ),
         ),
 
+        "spectre-squad" to listOf(
+            FactionRule(
+                id = "elite_fieldcraft",
+                title = "ELITE FIELDCRAFT",
+                lore = R.string.elite_fieldcraft_lore,
+                ruleText = R.string.elite_fieldcraft_description,
+
+                ),
+            FactionRule(
+                id = "spectral_camo_cloaks",
+                title = "CAMO CLOAKS",
+                lore = R.string.spectral_camo_cloaks_lore,
+                ruleText = R.string.spectral_camo_cloaks_description,
+
+                )
+
+        ),
+
 
         "tempestus_aquilon" to listOf(
                 FactionRule(

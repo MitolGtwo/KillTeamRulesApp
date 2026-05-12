@@ -7,23 +7,23 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.killteamruleset.ui.components.BulletItem
 import com.example.killteamruleset.ui.components.KillTeamBackground
 import com.example.killteamruleset.ui.components.OperativeSelectionHeader
 import com.example.killteamruleset.ui.components.TeamBottomBar
@@ -55,14 +55,28 @@ fun OperativeSelectionScreen(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(padding) // ✅ THIS IS THE FIX
+                .padding(padding)
                 .statusBarsPadding()
                 .verticalScroll(rememberScrollState())
                 .padding(16.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
+            TextButton(
+                onClick = onBack,
+                modifier = Modifier
+                    .padding(12.dp)
+                    .height(80.dp)
+                    .width(100.dp)
+            ) {
+                Text("← Back",
+                    color = Color.White,
+                    fontSize = 20.sp)
+
+            }
 
             OperativeSelectionHeader(
+
+
                 teamName = team.name.uppercase(),
                 archetypesText = team.archetypes.joinToString(" / ") {
                     it.displayName.uppercase()
@@ -73,6 +87,7 @@ fun OperativeSelectionScreen(
                     )
                 }
             )
+
 
             Spacer(Modifier.height(8.dp))
 

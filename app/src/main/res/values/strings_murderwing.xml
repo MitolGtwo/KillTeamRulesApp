@@ -192,8 +192,8 @@ place one of your Warp markers wholly within your territory, then expend this op
 \n
 In the second Firefight phase, when this operative is activated, set it up with an order of your
 choice in a location it can be placed either wholly within your drop zone, or wholly within your
-territory contesting your Warp marker. Continue its activation as normal, but during that activation
-you cannot spend more than 2AP for it and it cannot use more than 4\" of move distance.\n
+territory contesting your Warp marker. Continue its activation as normal, [[red]]but during that activation
+you cannot spend more than 2AP for it[[/red]] and it cannot use more than 4\" of move distance.\n
 \n
 Whenever this operative is in the warp, it cannot be the ready friendly **MURDERWING** operative for the Malicious Narcissism
 firefight ploy.
@@ -374,7 +374,7 @@ Once per turning point, one friendly
     ]]></string>
 
     <string name="vox_casters_description2"><![CDATA[
-Each enemy operative within 2\" of this
+Each enemy operative within [[red]]2\"[[/red]] of this
 operative takes a stun test. For an operative
 to take a stun test, roll one D6: on a 3+,
 subtract 1 from its APL stat until the end of its next activation.\n\n

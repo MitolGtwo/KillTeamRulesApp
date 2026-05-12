@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Spectral squad-->
+
+    <string name="issue_mission_usage"><![CDATA[
+        0AP
+    ]]></string>
+
+    <string name="issue_mission_description"><![CDATA[
+Selecciona un aliado **SPECTRE SQUAD** que ya haya activado (expended y excluyendo **VOX-RELAY BEACON**)
+visible para este Operativo, y que no haya interrumpido a un Operativo enemigo usando la regla
+Elite Fieldcraft durante este turno. Hasta el final de este turno, ese aliado puede usar esa regla
+aunque ya haya activado (esto toma precedencia sobre la regla normal). Sin embargo, si lo hace,
+no puede hacer un Counteract durante este turno, o hacer una accion de **Reposicion** si ya la hizo
+durante este turno.\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="coolheaded_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="coolheaded_description"><![CDATA[
+Una vez por turno, un aliado **SPECTRE SQUAD** con esta regla puede interrumpir a un Operativo enemigo
+usando la regla Elite Fieldcraft por 0 puntos Fieldcraft (esto toma precedencia sobre las reglas normales).
+    ]]></string>
+
+    <string name="spectre_signal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="spectre_signal_description"><![CDATA[
+**SUPPORT**. Selecciona otro aliado **SPECTRE SQUAD** (excluyendo **VOX-RELAY BEACON**) visible para
+este Operativo. Hasta el final de la siguiente activacion de ese Operativo, añade 1 a su estadistica
+de APL.\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="predeploy_usage"><![CDATA[
+    Pasiva
+    ]]></string>
+
+    <string name="predeploy_description"><![CDATA[
+En la fase de poner Operativos en la mesa, este Operativo puede ser puesto fuera de tu zona de deployment.
+Debe ser puesto en un lugar donde se pueda mantener, completamente dentro de tu territorio y a mas
+de 2\" de marcadores y equipamientos.
+    ]]></string>
+
+    <string name="spectre_expendable_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="spectre_expendable_description"><![CDATA[
+Este Operativo no puede hacer ninguna otra accion unica que no sea **Signal**. No puede hacer un
+Counteract, retalear o asistir en un combate.\n
+\n
+Este Operativo no puede contestear un marcador, o zonas del campo, es ignorado para las misiones
+de tu oponente (kill op y tacops). Es tambien ignorado para ganar puntos de victoria con condiciones
+que requieran que este Operativo sobreviva, escape o sea incapacitado por Operativos enemigos.\n
+\n
+Los Operativos pueden moverse a traves de este Operativo. Tu oponente puede ignorar el rango
+de control de este Operativo en cualquier momento, cuando un aliado **SPECTRE SQUAD** esta haciendo
+una accion de **Disparo**, al momento de seleccionar un objetivo valido, puedes ignorar este Operativo
+estando dentro del rango de control de un enemigo para hacer el disparo. Notese que el rango de control
+seria mutuamente ignorado.
+    ]]></string>
+
+    <string name="spectre_vox_signal_usage"><![CDATA[
+    1AP
+    ]]></string>
+
+    <string name="spectre_vox_signal_description"><![CDATA[
+Selecciona otro aliado **SPECTRE SQUAD** a 6\" de este Operativo. Hasta el final de la siguiente
+activacion de ese aliado, añade 1 a su estadistica de APL.\n\n
+
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
+    ]]></string>
+
+    <string name="suppresive_fire_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="suppresive_fire_description"><![CDATA[
+Cuando un Operativo enemigo es visible y a 3\" de este Operativo, si este Operativo tiene una orden de
+**Engage** y no esta dentro del rango de control de otro Operativo enemigo, sustrae 1 a la estadistica
+de ATK de ese Operativo enemigo (hasta un minimo de 1).\n\n
+
+Esta regla no tiene efecto si este Operativo hizo la accion de **Cargar** durante este turno.
+    ]]></string>
+
+    <string name="weapon_assist_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="weapon_assist_description"><![CDATA[
+Cuando otro aliado **SPECTRE SQUAD** esta dentro del rango de control de este Operativo y esta disparando,
+puedes re-rollear uno de tus dados de ataque.
+    ]]></string>
+
+    <string name="load_weapon_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="load_weapon_description"><![CDATA[
+Selecciona un aliado **SPECTRE SQUAD** dentro del rango de control de este Operativo y que no este
+a 3\" de Operativos enemigos. Ese aliado puede inmediatamente hacer una accion de **Disparo** gratis
+(excluyendo **Guard**), y puedes cambiar su orden para hacerlo.\n\n
+
+Este Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo
+enemigo, mientras este haciendo un Counteract, en una activacion en la que haya hecho una accion de
+**Cargar, Dash** o accion de **Disparo** (o viceversa).
+    ]]></string>
+
+    <string name="weapon_team_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="weapon_team_description"><![CDATA[
+Cuando este Operativo sea activado, si un aliado **LOADER** esta dentro de su rango de control, todos
+los perfiles de su Missile Launcher tienen la regla Heavy (**Dash** only) hasta el final de esa activacion.
+    ]]></string>
+
+    <string name="prepared_killzone_usage"><![CDATA[
+    Pasiva
+    ]]></string>
+
+    <string name="prepared_killzone_description"><![CDATA[
+Puedes seleccionar un equipamiento adicional, pero debe ser un Ammo Cache o un equipamiento de terreno
+universal.
+    ]]></string>
+
+    <string name="scout_terrain_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="scout_terrain_description"><![CDATA[
+Las piezas de terreno dentro de tu territorio o a 3\" de este Operativo estan siendo escaneadas para
+aliados **SPECTRE SQUAD**. Una vez durante cada una de sus activaciones, aliados **SPECTRE SQUAD** pueden
+tener uno de los siguientes efectos:\n
+\n
+• Ignora las primeras 2\" de movimiento vertical mientras este escalando si la pieza de terreno esta
+siendo escanada para aliados **SPECTRE SQUAD**.\n
+\n
+• Hacer la accion **Operate Hatch** por 1 AP menos si ese punto de acceso esta siendo escaneado
+para aliados **SPECTRE SQUAD**.
+    ]]></string>
+
+    <string name="spectre_grenadier_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="spectre_grenadier_description"><![CDATA[
+Este Operativo puede usar granadas Frag y Krak y Smoke (ubicadas en el equipamiento universal). Al hacerlo,
+no cuenta sobre el límite de granadas que hayas seleccionado. Cuando uses granadas Krak o Frag, mejora el Hit de esa arma en 1.
+    ]]></string>
+
+    <string name="spectre_medic_usage"><![CDATA[
+    Pasiva
+    ]]></string>
+
+    <string name="spectre_medic_description"><![CDATA[
+La primera vez durante cada turno que otro Operativo **SPECTRE SQUAD** (excluyendo **VOX-RELAY BEACON**) aliado visible y a 3\" vaya a ser
+incapacitado, puedes usar esta regla, siempre y cuando ni este Operativo ni el Operativo con el que se
+use esta regla estén en rango de control de un enemigo. Ese Operativo no es incapacitado; tiene 1
+herida restante y no puede ser incapacitado por el resto de esa acción.\n
+
+Después de esa acción, ese Operativo aliado puede hacer una acción **Dash** gratis, pero debe terminar
+ese movimiento dentro del rango de control de este Operativo. Sustrae 1 APL de este Operativo y el
+Operativo con el que se usó esta regla hasta el final de sus próximas activaciones, si esta regla se
+usa durante la activación de ese otro Operativo aliado, Su activación termina inmediatamente.\n
+\n
+No puedes usar esta regla si el Operativo aliado está siendo disparado con un arma con Blast o Torrent,
+y este Operativo es un objetivo primario o secundario.
+    ]]></string>
+
+    <string name="spectre_medikit_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="spectre_medikit_description"><![CDATA[
+Seleciona un aliado **SPECTRE SQUAD** (excluyendo **VOX-RELAY BEACON**) dentro del rango de control
+de este Operativo, recupera 2D3 heridas perdidas. No puede usarse con un Operativo que se haya beneficiado
+de la regla Medic! durante este turno.\n\n
+
+Este Operativo no puede hacer esta acción estando en rango de control de un Operativo enemigo.
+    ]]></string>
+
+
+    <!--Faction Rules-->
+
+    <string name="elite_fieldcraft_lore"><![CDATA[
+Veteranos combatientes y exploradores expertos, los agentes del Escuadrón Espectro
+son altamente hábiles en la guerra reactiva, leyendo
+los movimientos de sus enemigos y utilizando el terreno para
+superarlos y emboscarlos.
+]]></string>
+
+    <string name="elite_fieldcraft_description"><![CDATA[
+En la Ready Step de cada fase Strategy, ganas 1 punto Fieldcraft, o 2 si un aliado  **SPECTRE SQUAD VOX-OPERATOR**
+esta en el campo y no esta dentro del rango de control de Operativos enemigos. Al final de cada turno,
+descarta tus puntos Fieldcraft.\n
+\n
+Despues de que un Operativo enemigo con una orden de **Engage** haga una accion durante su activacion,
+puedes gastar 1 de tus puntos Fieldcraft para interrumpir esa activacion. Si lo haces, un Operativo
+**SPECTRE SQUAD** aliado que no haya activado (Ready) que no este dentro del rango de control de
+Operativos enemigos puede hacer una accion de **Disparo** (excluyendo **Guardia**), **Dash** o **Reposicion**\n
+\n
+No puedes interrumpir cada Operativo enemigo mas de una vez por activacion (incluyendo **Guard**), y
+cada aliado no puede hacer mas de una accion gratis por turno como resultado de esta regla.\n
+\n
+Si es una accion de **Disparo**, puedes cambiar la orden de ese aliado para hacer esta accion. No
+puedes seleccionar a ningun otro Operativo enemigo como objetivo valido durante esa accion. Estar dentro
+del rango de control de ese Operativo enemigo (pero no de otros) no previene que ese aliado pueda
+hacer esta accion, en ese caso se siguen las reglas de Point-Blank de una accion de **Guard** (en resumen,
+empeora tu estadistica de Hit de ese disparo por 1, y no puedes retalear si el Operativo enemigo combate contra
+este Operativo)\n
+\n
+Si es una **Reposicion** ese aliado no puede volver a hacer esa accion otra vez durante el turno. Si
+es una accion de **Dash** o **Reposicion**, ese aliado no puede terminar ese movimiento mas cerca
+de ese Operativo enemigo o mas cerca de la zona de deployment de tu oponente (a menos que termines ese
+movimiento dentro de tu zona de deployment). En campos que usen reglas Close Quarters como Tomb World,
+ignora las paredes para determinar esto, y no puedes usar el Teleport.
+]]></string>
+
+    <string name="spectral_camo_cloaks_lore"><![CDATA[
+Aunque no tan avanzadas como la cameliolina, las capas de camuflaje que se entregan a los Escuadrones
+Espectro ayudan a ocultarlos en terrenos densos, especialmente cuando se combinan con la experiencia de
+los agentes para evadir la detección.
+]]></string>
+
+    <string name="spectral_camo_cloaks_description"><![CDATA[
+Cuando un Operativo este disparando a un aliado **SPECTRE SQUAD** (excluyendo **VOX-RELAY BEACON**),
+si puedes retener cualquier dado por salvacion, puedes retener otro, o puedes retener un exito critico
+en su lugar. Esto no es acumulable con defensas mejoradas por terreno aventajado.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="sniper_overwatch_lore"><![CDATA[
+Los Espectros se coordinan con los francotiradores que se han desplazado para rodear el campo de
+batalla, solicitando información y localizando los disparos desde posiciones de flanqueo.
+]]></string>
+
+    <string name="sniper_overwatch_description"><![CDATA[
+Una vez por turno, un aliado **SPECTRE SQUAD** puede usar la siguiente arma de distancia.
+]]></string>
+
+    <string name="triangulation_lore"><![CDATA[
+Al compartir los datos de vídeo de las cámaras de sus cascos, los Espectros pueden triangular las
+soluciones de disparo óptimas contra sus enemigos.
+]]></string>
+
+    <string name="triangulation_description"><![CDATA[
+Una vez durante cada turno, cuando un aliado *SPECTRE SQUAD** este haciendo una accion de **Disparo**
+y estes seleccioando un objetivo valido, puedes usar esta regla. Si lo haces, ese objetivo no puede
+estar obscurecidos si cualquiera de estas reglas se cumple:\n
+\n
+• Tambien es un objetivo valido para otro aliado **SPECTRE SQUAD**.\n
+\n
+• Esta a 6\" de un aliado **VOX-RELAY BEACON**.
+]]></string>
+
+    <string name="starshell_flare_lore"><![CDATA[
+Si bien la Guardia Imperial suele usar proyectiles estelares para iluminar el campo de batalla, estos
+astutos veteranos los emplean para aturdir y distraer.
+]]></string>
+
+    <string name="starshell_flare_description"><![CDATA[
+**STRATEGIC GAMBIT**. Un aliado **SPECTRE SQUAD** puede inmediatamente hacer una accion gratis de
+Stun Grenade (vease equipamiento universal). Hacer esta accion no cuenta sobre tu limite de usos
+de granadas de Stun. Cuando el APL de Operativos enemigos es afectado como resultado de esta regla,
+no puedes usar esta regla por el resto de la batalla.
+]]></string>
+
+    <string name="advanced_camouflage_lore"><![CDATA[
+Estos espectros emplean astutos métodos para ocultarse.
+]]></string>
+
+    <string name="advanced_camouflage_description"><![CDATA[
+Aliados **SPECTRE SQUAD** (excluyendo **VOX-RELAY BEACON**) pueden hacer la siguiente accion unica.
+]]></string>
+
+    <string name="advanced_camouflage_usage"><![CDATA[
+    1AP
+]]></string>
+
+    <string name="advanced_camouflage_description2"><![CDATA[
+Hasta el inicio de la siguiente activacion de este Operativo, mientras tenga una orden de **Conceal**
+y este en cobertura, no puede ser seleccionado como objetivo valido, esto toma precedencia sobre
+las demas reglas, excepto estar a 2\".\n\n
+
+Este Operativo no puede utilizar esta regla mientras sea visible y a 3\" de Operativos enemigos.
+]]></string>
+
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="disapear_lore"><![CDATA[
+Los espectros conocen muchas maneras de desaparecer de la vista y reposicionarse rápidamente.
+]]></string>
+
+    <string name="disapear_description"><![CDATA[
+Un aliado **SPECTRE SQUAD** puede hacer inmediatamente una accion de **Reposicion** gratis.
+no puede terminar ese movimiento mas cerca
+de ese Operativo enemigo o mas cerca de la zona de deployment de tu oponente (a menos que termines ese
+movimiento dentro de tu zona de deployment) ni hacer esa accion otra vez durante este turno. En campos que usen reglas Close Quarters como Tomb World,
+ignora las paredes para determinar esto.
+]]></string>
+
+    <string name="spectral_hidden_engagement_lore"><![CDATA[
+La dilatada experiencia y el entrenamiento intensivo ayudan a estos agentes a eliminar a sus objetivos desde posiciones ocultas.
+]]></string>
+
+    <string name="spectral_hidden_engagement_description"><![CDATA[
+Cuando un aliado **SPECTRE SQUAD** esta disparando, si esta en cobertura desde la pespectiva del
+objetivo, las armas de ese aliado ganan la regla Balanced. Tu oponente determina esa linea de disparo.
+]]></string>
+
+    <string name="ambushing_volley_lore"><![CDATA[
+Tras identificar los puntos débiles de sus objetivos, los Espectros irrumpen desde la emboscada
+disparando sin cesar para acabar con el enemigo.
+]]></string>
+
+    <string name="ambushing_volley_description"><![CDATA[
+Cuando un aliado **SPECTRE SQUAD** es activado, si esta a mas de 3\" de Operativos enemigos y no es
+un objetivo valido para Operativos enemigos antes de determinar su orden, sus armas de distancia (excepto
+el perfil Suppressive de un Autostubber) ganan la regla Devastating 2 hasta el final de esa activacion.
+]]></string>
+
+    <string name="patience_lore"><![CDATA[
+La experiencia sangrienta les ha enseñado a estos agentes las virtudes de la paciencia.
+]]></string>
+
+    <string name="patience_description"><![CDATA[
+En la Firefight fase de este turno, puedes usar uno de los siguientes efectos:\n
+\n
+• Cuando sea tu turno para activar un Operativo aliado, puedes saltar esa activacion. No puedes hacerlo
+hasta que tu Oponente haya hecho su primera activacion.\n
+\n
+• Cuando un aliado **SPECTRE SQUAD** esta haciendo la accion de **Disparo** o **Combate** durante su
+activacion, si es el ultimo Operativo aliado en activar durante este turno, sus armas ganan la regla
+Relentless durante esa accion.
+]]></string>
+
+
+    <!--Firefight ploys-->
+    <string name="dodge_lore"><![CDATA[
+Ningún soldado llega a convertirse en un Espectro sin un instinto de supervivencia supremo.
+]]></string>
+
+    <string name="dodge_description"><![CDATA[
+Usa esta firefight ploy durante la activacion de un aliado **SPECTRE SQUAD**, antes o despues de
+hacer una accion. Durante esa activacion, ese Operativo puede hacer una accion de **Fall Back** por 1
+AP menos.
+]]></string>
+
+    <string name="silent_killer_lore"><![CDATA[
+Estos agentes pueden eliminar a los enemigos discretamente sin levantar sospechas.
+]]></string>
+
+    <string name="silent_killer_description"><![CDATA[
+Usa esta firefight ploy durante la activacion de un aliado **SPECTRE SQUAD** antes o despues de hacer
+una accion, si tiene una orden de **Conceal** y no es un objetivo valido para Operativos enemigos.
+Hasta el final de esa activacion, puede hacer una accion de **Cargar** mientras tenga una orden de
+**Conceal**, y el primer dado de ataque que resuelva, inflige 3 daños adicionales, pero no puede
+resolver ningun otro exito durante esa secuencia.
+]]></string>
+
+    <string name="sharp_assault_lore"><![CDATA[
+Estos agentes veteranos combaten con rapidez y eficacia.
+]]></string>
+
+    <string name="sharp_assault_description"><![CDATA[
+Usa esta firefight ploy despues de que un Operativo enemigo con una orden de **Conceal** haga una accion
+durante su activacion, si esta a 8\" de un aliado **SPECTRE SQUAD**. Puedes usar la regla Elite Fieldcraft
+para interrumpir esa activacion con ese aliado **SPECTRE SQUAD** sin importar la orden del Operativo
+enemigo (esto toma precedencia sobre las reglas normales).
+]]></string>
+
+    <string name="prepared_defence_lore"><![CDATA[
+Los espectros siempre tienen una ruta de escape y medidas defensivas preparadas.
+]]></string>
+
+    <string name="prepared_defence_description"><![CDATA[
+Usa esta firefight ploy cuando un aliado **SPECTRE SQUAD** con una orden de **Conceal** o que no
+haya activado (Ready) esta retaleando. Puedes usar uno de los siguientes efectos:\n
+\n
+• Al inicio de la fase de resolver dados de ataque, puedes resolver uno de tus exitos antes del orden normal,
+ese exito debe ser usado para bloquear.\n
+\n
+• Cuando bloquees, ese bloqueo puede ser usado para detener dos exitos sin resolver (en lugar de uno).\n
+\n
+No puedes usar esta Ploy durante una activacion en la que hayas interrumpido con la regla Elite Fieldcraft.
+]]></string>
+
+</resources>

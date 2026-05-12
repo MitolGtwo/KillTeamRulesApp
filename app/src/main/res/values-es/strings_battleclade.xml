@@ -100,11 +100,12 @@
     <string name="battleclade_network_description"><![CDATA[
 **SUPPORT.** Escoge un Operativo **BATTLECLADE** aliado a 6\" de este Operativo y/o de un Operativo **BATTLECLADE AUTO-PROXY** aliado, para
 inmediatamente realizar un **NETWORK COUNTERACT** (No tienes que hacer **TRANSFER POWER** para hacer esta acción)
-o hacer una accion de **Dash** gratis. Continua con la activacion de este Operativo
+[[blue]]o hacer una accion de **Dash** gratis.[[/blue]] Continua con la activacion de este Operativo
 despues de hacerlo.\n
 Para el propósito del equipamiento Comms Device, la distancia se determina desde el marcador del equipamiento Comms Device para añadir 3\" a la distancia de esta habilidad.
 \n\n
-Este Operativo puede realizar esta accion dos veces durante su activacion, pero no puede realizar esta acción mientras esté dentro del rango de control de un Operativo enemigo.
+[[blue]]Este Operativo puede realizar esta accion dos veces durante su activacion, pero no puede realizar
+esta acción mientras esté dentro del rango de control de un Operativo enemigo.[[/blue]]
     ]]></string>
 
     <string name="battleclade_mechanosuture_array_usage"><![CDATA[
@@ -187,8 +188,8 @@ pero el Operativo no tiene que estar Expended con una orden de **Engage** para h
 ]]></string>
 
     <string name="concealed_apparatus_description"><![CDATA[
-Una vez por batalla, un **COMBAT SERVITOR** o **GUN SERVITOR** puede usar otra opcion de arma de su datacard
-que no haya seleccionado durante la batalla.
+[[blue]]Una vez por batalla, un **COMBAT SERVITOR** o **GUN SERVITOR** puede usar otra opcion de arma de su datacard
+que no haya seleccionado durante la batalla.[[/blue]]
 ]]></string>
 
     <string name="neurocylic_reserve_cells_lore"><![CDATA[
@@ -196,7 +197,7 @@ que no haya seleccionado durante la batalla.
 ]]></string>
 
     <string name="neurocylic_reserve_cells_description"><![CDATA[
-Una vez por turno. puedes hacer **TRANSFER POWER** por 0AP (esto toma precedencia sobre la regla normal de Noospheric Network)
+[[blue]]Una vez por turno[[/blue]]. puedes hacer **TRANSFER POWER** por 0AP (esto toma precedencia sobre la regla normal de Noospheric Network)
 ]]></string>
 
 
@@ -237,7 +238,7 @@ del dios Maquina es evidente para todos.
 
     <string name="incantation_of_the_iron_soul_description"><![CDATA[
 Siempre que un ataque inflinja daño de 3 o mas a un aliado **BATTLECLADE**, lanza un D6:
-al 4+, substrae 1 de ese daño inflingido.
+al [[blue]]4+[[/blue]], substrae 1 de ese daño inflingido.
 ]]></string>
 
     <string name="prioritised_acquisition_lore"><![CDATA[

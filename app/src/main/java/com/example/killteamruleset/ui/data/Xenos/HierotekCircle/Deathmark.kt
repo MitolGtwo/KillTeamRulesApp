@@ -50,8 +50,8 @@ val Deathmark = Operative(
     abilities = listOf(
         Ability(
             title = "Deathmarked",
-            usage = R.string.apprentek_assistance_usage,
-            description = R.string.apprentek_assistance_description
+            usage = R.string.deathmarked_usage,
+            description = R.string.deathmarked_description
         ),
         Ability(
             title = "Multi-Dimensional Vision",

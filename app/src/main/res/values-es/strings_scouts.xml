@@ -7,7 +7,7 @@
 
     <string name="guidance_and_experience_description"><![CDATA[
 Una vez durante cada una de las activaciones de este Operativo, puedes seleccionar a otro aliado
-**SCOUT SQUAD** en el campo. Hasta el final de la proxima activacion de ese Operativo,
+**SCOUT SQUAD** [[blue]]en el campo[[/blue]]. Hasta el final de la proxima activacion de ese Operativo,
 añade 1 a su estadistica de APL.
     ]]></string>
 
@@ -81,10 +81,10 @@ acciones no cuenta sobre el limite de granadas seleccionadas.
 ]]></string>
 
 <string name="heavy_weapon_bipod_description"><![CDATA[
-Cuando este Operativo este disparando con un Heavy Bolter o Missile Launcher,
+[[blue]]Cuando este Operativo este disparando con un Heavy Bolter o Missile Launcher,
 si no se ha movido durante su activacion, o si es un Counteract, esa arma gana la regla Ceaseless, si
 esa arma ya tiene esa regla, gana la regla Relentless en su lugar. Notese que este Operativo no esta
-restringido de moverse despues de disparar.
+restringido de moverse despues de disparar.[[/blue]]
 ]]></string>
 
 
@@ -182,8 +182,8 @@ ataques con mortal presicion.
 ]]></string>
 
     <string name="tactical_vox_link_description"><![CDATA[
-Una vez por turno, puedes usar la ploy Astartes Training o Emboldened Aspirant por 0CP si un aliado
-**SERGEANT** esta en el campo.
+[[blue]]Una vez por turno, puedes usar la ploy Astartes Training o Emboldened Aspirant por 0CP si un aliado
+**SERGEANT** esta en el campo.[[/blue]]
 ]]></string>
     <!--Ploys-->
     <!--Strategy ploys-->

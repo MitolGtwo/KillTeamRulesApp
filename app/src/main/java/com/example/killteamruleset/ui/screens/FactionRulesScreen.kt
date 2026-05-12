@@ -15,6 +15,7 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.killteamruleset.ui.components.FactionRuleCard
 import com.example.killteamruleset.ui.components.TeamBottomBar
 import com.example.killteamruleset.ui.data.FactionRuleRepository
@@ -75,8 +76,17 @@ fun FactionRulesScreen(
                 verticalArrangement = Arrangement.spacedBy(12.dp)
             ) {
 
-                TextButton(onClick = onBack) {
-                    Text("← Back", color = Color.Black)
+                TextButton(
+                    onClick = onBack,
+                    modifier = Modifier
+                        .padding(12.dp)
+                        .height(80.dp)
+                        .width(100.dp)
+                ) {
+                    Text("← Back",
+                        color = Color.White,
+                        fontSize = 20.sp)
+
                 }
 
                 Text(

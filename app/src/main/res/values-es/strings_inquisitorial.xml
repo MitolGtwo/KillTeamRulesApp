@@ -16,7 +16,7 @@ si este Operativo está en el campo, ganas 1CP (hasta un máximo de 2CP por turn
     ]]></string>
 
     <string name="irrefutable_report_description"><![CDATA[
-Cuando este Operativo esté contestando un objetivo, siempre lo controla. Esto toma precedencia sobre
+Cuando este Operativo esté contestando un objetivo o un marcador (TacOp), siempre lo controla. Esto toma precedencia sobre
 todas las demás reglas.
     ]]></string>
 

@@ -73,10 +73,10 @@ a 3\" de este Operativo, y a 2\" de ese Operativo enemigo:\n
     ]]></string>
 
     <string name="focused_markerlight_description"><![CDATA[
-Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un
+[[blue]]Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un
 aliado **XV26 STEALTH BATTLESUIT** este disparando a ese enemigo, puedes usar este efecto para mejorar
 la estadistica de Hit de las armas de distancia de ese Operativo por 1 hasta el fin de esa
-accion.\n\n
+accion[[/blue]].\n\n
 
 Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>
@@ -100,7 +100,7 @@ resultado de 4+, ganas un CP adicional.
     ]]></string>
 
     <string name="xvspectrum_description"><![CDATA[
-**SUPPORT**. Una vez por turno, cuando un Operativo enemigo a 8\" de este Operativo es activado.
+**SUPPORT**. Una vez por turno, cuando un Operativo enemigo [[blue]]a 8\"[[/blue]] de este Operativo es activado.
 Puedes usar esta regla para que cada aliado **XV26 STEALTH BATTLESUIT** que este a 3\" de este
 Operativo pueda hacer una de las siguientes:\n
 \n• Haz una accion de **Dash** gratis (en cualquier orden de tu eleccion).\n
@@ -205,10 +205,10 @@ aprovechar la confusión resultante con efectos devastadores.
 ]]></string>
 
     <string name="counter_network_description"><![CDATA[
-**STRATEGIC GAMBIT.** Selecciona un objetivo o marcador. Hasta el final del turno, cuando determines
+[[blue]]**STRATEGIC GAMBIT.** Selecciona un objetivo o marcador. Hasta el final del turno, cuando determines
 el control de ese objetivo o marcador, trata el total de APL de enemigos contesteandolo como si tuvieran
 1 menos si al menos uno de esos enemigos esta a 3\" de un aliado **XV26 STEALTH BATTLESUIT**.
-Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.
+Notese que esto no es un cambio de APL, cualquier cambio es acumulable con esto.[[/blue]]
 
 ]]></string>
 
