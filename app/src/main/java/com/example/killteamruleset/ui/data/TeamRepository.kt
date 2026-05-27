@@ -168,7 +168,7 @@ object TeamRepository {
             id = "novitiates",
             name = "Novitiates",
             alliance = Alliance.IMPERIUM,
-            ktstatus = "Classified",
+            ktstatus = "Un-Classified",
             type = TeamType.HORDE,
             difficulty = "Medium",
             archetypes = listOf(Archetypes.SECURITY,Archetypes.RECON),
@@ -656,7 +656,7 @@ object TeamRepository {
             archetypes = listOf(Archetypes.INFILTRATION,Archetypes.RECON),
             factionRulesBackgroundRes = R.drawable.xv26_faction_bg,
             backgroundRes = R.drawable.xv26_bg,
-            assemblyPdfAsset = "pdfs/wyrmblade_assembly.pdf",
+            assemblyPdfAsset = "pdfs/xv26_assembly.pdf",
             iconRes = R.drawable.xv26_logo,
             quote = "We uphold the greater good"
         ),

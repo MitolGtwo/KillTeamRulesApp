@@ -6,7 +6,7 @@ import com.example.killteamruleset.ui.model.*
 
 val SpectreStubGunner = Operative(
     name = "Spectre Stub-Gunner",
-    imageRes = R.drawable.karskin_recon,
+    imageRes = R.drawable.spectral_stub,
     stats = OperativeStats(
         apl = 2,
         move = "6\"",
