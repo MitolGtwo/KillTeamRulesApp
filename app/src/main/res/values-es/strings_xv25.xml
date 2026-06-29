@@ -75,7 +75,7 @@ a 3\" de este Operativo, y a 2\" de ese Operativo enemigo:\n
     <string name="focused_markerlight_description"><![CDATA[
 [[blue]]Selecciona un Operativo enemigo visible para este Operativo. Una vez durante este turno, cuando un
 aliado **XV26 STEALTH BATTLESUIT** este disparando a ese enemigo, puedes usar este efecto para mejorar
-la estadistica de Hit de las armas de distancia de ese Operativo por 1 hasta el fin de esa
+la estadistica de Hit de las armas de distancia en la datacard de ese Operativo por 1 hasta el fin de esa
 accion[[/blue]].\n\n
 
 Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.

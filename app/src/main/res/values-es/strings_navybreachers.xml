@@ -21,7 +21,7 @@ si tu Attack Order o Defence Order estan en el campo, puedes hacer lo siguiente:
 
     <string name="navy_group_activation_description"><![CDATA[
 Cuando este Operativo termine de activar (expended) debes de activar a otro Operativo **IMPERIAL NAVY
-BREACHER** que no haya activado (Ready) si es posible, antes que tu oponente active. Cuando ese
+BREACHER ARMSMAN** que no haya activado (Ready) si es posible, antes que tu oponente active. Cuando ese
 otro Operativo termine su activacion, tu oponente activa normalmente (no puedes activar mas de dos
 Operativos en sucesion de esta forma). Ignora esta regla si estas usando la regla Breach and Clear.
     ]]></string>

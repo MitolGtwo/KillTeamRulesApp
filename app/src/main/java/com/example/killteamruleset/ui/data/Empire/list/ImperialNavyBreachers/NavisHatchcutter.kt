@@ -43,7 +43,7 @@ val NavisHatchcutter = Operative(
             description = R.string.weld_shut_description
         ),
         Ability(
-            title = "Group Activation",
+            title = "Breach Point",
             usage = R.string.breach_point_usage,
             description = R.string.breach_point_description
         )

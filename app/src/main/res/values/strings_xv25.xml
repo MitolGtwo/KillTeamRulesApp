@@ -166,7 +166,8 @@ This operative cannot perform this action while within control range of an enemy
     <string name="focused_markerlight_description"><![CDATA[
 [[blue]]Select one enemy operative visible to this operative. Once during this turning point, when a friendly
 **XV26 STEALTH BATTLESUIT** operative is shooting that enemy operative, you can use this effect.
-If you do, improve the Hit stat of that friendly operatives ranged weapons by 1 until the end of that action.[[/blue]]\n\n
+If you do, improve the Hit stat of ranged weapons on that
+friendly operatives datacard 1 until the end of that action.[[/blue]]\n\n
 This operative cannot perform this action while within control range of an enemy operative.
     ]]></string>
 

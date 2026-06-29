@@ -194,7 +194,7 @@ Blast and Torrent weapon rules, only the first
 target must be selected in this way.\n
 \n
 2. Whenever a friendly **VESPID STINGWING**
-operative performs the **Charge** action, it must
+operative performs the **Charge** action (excluding **Drone**), it must
 end the action within control range of the
 closest enemy operative it can unless you
 spend 1 of your Communion points.\n

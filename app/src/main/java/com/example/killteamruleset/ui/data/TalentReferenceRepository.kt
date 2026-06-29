@@ -51,12 +51,23 @@ object TalentReferenceRepository {
 
             "nemesis_claw"  -> listOf(
                 TalentReference(
-                    id = "nemesis_miguel2",
+                    id = "nemesis_miguel1",
                     imageRes = R.drawable.nemesis_miguel1
                 ),
                 TalentReference(
                     id = "nemesis_miguel2",
                     imageRes = R.drawable.nemesis_miguel2
+                )
+            )
+
+            "imperial_navy_breachers"  -> listOf(
+                TalentReference(
+                    id = "imperial_navymiguel1",
+                    imageRes = R.drawable.imperial_navymiguel1
+                ),
+                TalentReference(
+                    id = "imperial_navymiguel2",
+                    imageRes = R.drawable.imperial_navymiguel2
                 )
             )
 

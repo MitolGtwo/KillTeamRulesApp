@@ -280,7 +280,7 @@ does not count towards its action limits (i.e. if you
 also select that grenade from equipment). When
 an enemy operatives APL stat is changed as a
 result of this **STRATEGIC GAMBIT**, you cannot use
-it for the rest of the battle.
+this equipment for the rest of the battle.
 ]]></string>
 
     <string name="advanced_camouflage_lore"><![CDATA[
@@ -348,7 +348,10 @@ burst from ambush with their guns blazing to finish off the foe.
 Whenever a friendly **SPECTRE SQUAD** operative is activated, if it is more than 3\" from enemy
 operatives and is not a valid target for enemy operatives before determining its order, its
 ranged weapons (excluding the suppressive profile of an autostubber) have the Devastating 1
-weapon rule until the end of that activation.
+weapon rule until the end of that activation.\n
+\n
+[[blue]]If that weapon already had the Devastating x weapon rule,
+add 1 to the x of its Devastating x weapon rule instead.[[/blue]]
 ]]></string>
 
     <string name="patience_lore"><![CDATA[

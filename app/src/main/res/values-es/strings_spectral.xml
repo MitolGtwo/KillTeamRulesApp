@@ -272,7 +272,7 @@ astutos veteranos los emplean para aturdir y distraer.
 **STRATEGIC GAMBIT**. Un aliado **SPECTRE SQUAD** puede inmediatamente hacer una accion gratis de
 Stun Grenade (vease equipamiento universal). Hacer esta accion no cuenta sobre tu limite de usos
 de granadas de Stun. Cuando el APL de Operativos enemigos es afectado como resultado de esta regla,
-no puedes usar esta regla por el resto de la batalla.
+no puedes usar este equipamiento por el resto de la batalla.
 ]]></string>
 
     <string name="advanced_camouflage_lore"><![CDATA[
@@ -327,7 +327,9 @@ disparando sin cesar para acabar con el enemigo.
     <string name="ambushing_volley_description"><![CDATA[
 Cuando un aliado **SPECTRE SQUAD** es activado, si esta a mas de 3\" de Operativos enemigos y no es
 un objetivo valido para Operativos enemigos antes de determinar su orden, sus armas de distancia (excepto
-el perfil Suppressive de un Autostubber) ganan la regla Devastating 2 hasta el final de esa activacion.
+el perfil Suppressive de un Autostubber) ganan la regla Devastating 1 hasta el final de esa activacion.\n
+\n
+[[blue]]Si esa arma ya tenia la regla Devastating x, añade 1 a valor x de Devastating en su lugar.[[/blue]]
 ]]></string>
 
     <string name="patience_lore"><![CDATA[

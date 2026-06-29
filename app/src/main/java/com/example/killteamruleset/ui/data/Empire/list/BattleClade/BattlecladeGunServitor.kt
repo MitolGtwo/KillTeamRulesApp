@@ -85,6 +85,6 @@ val BattlecladeGunServitor = Operative(
         "ADEPTUS MECHANICUS",
         "GUN",
         "SERVITOR",
-        "25MM"
+        "32MM"
     )
 )

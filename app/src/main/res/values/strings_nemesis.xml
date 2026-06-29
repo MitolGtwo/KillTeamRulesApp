@@ -60,10 +60,9 @@ Whenever an operative that has one of your Terrorchem tokens is activated, infli
 Select one objective marker this operative controls to gain
 one of your Terrorchem tokens. It cannot be an objective
 marker within control range of an enemy operative, or one
-that already has one of your Terrorchem tokens. The first
-time that objective marker is within control range of an
-enemy operative that does not have one of your Terrorchem
-tokens, that operative gains that Terrorchem token, then
+that already has one of your Terrorchem tokens. The first time an enemy operative that doesn’t have one of
+your Terrorchem tokens contests that objective marker, that
+operative gains that Terrorchem token, then
 inflict 2D3 damage on it (if it is during an action, at the end
 of that action).\n\n
 

@@ -51,7 +51,7 @@ val NavisEndurant = Operative(
         Ability(
             title = "Breachwall",
             usage = R.string.breachwall_usage,
-            description = R.string.emboldened_description
+            description = R.string.breachwall_description
         ),
         Ability(
             title = "Shield",

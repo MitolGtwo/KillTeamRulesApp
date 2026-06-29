@@ -54,7 +54,7 @@ fun AbilityCard(
                 )
             }
 
-            // 🖼 OPTIONAL IMAGE (THIS WAS MISSING)
+            // OPTIONAL IMAGE
             ability.imageRes?.let { resId ->
                 Spacer(Modifier.height(12.dp))
                 Image(

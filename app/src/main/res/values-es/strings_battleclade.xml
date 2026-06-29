@@ -25,7 +25,7 @@
         Selecciona un Operativo enemigo visible para este Operativo. Hasta el final del turno, siempre que un aliado **BATTLECLADE** le dispare a ese Operativo
         enemigo, puedes usar esta regla. Si lo haces:\n
         \n
-        -Ese Operativo no puede estar Obscure.\n
+        -Ese Operativo no puede estar Obscurecido.\n
         -El Operativo aliado tiene la regla Seek Light.\n\n
         Este Operativo no puede realizar esta acción mientras esté en rango de control de un Operativo enemigo.
 ]]></string>

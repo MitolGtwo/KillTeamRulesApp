@@ -9,7 +9,6 @@ data class Ability(
     @StringRes val usage: Int? = null,
     @StringRes val description: Int? = null,
     @DrawableRes val imageRes: Int? = null,
-    val icons: List<Int> = emptyList()
 )
 
 /* This is used for Abilities for Operatives and Specific TacOp Actions */

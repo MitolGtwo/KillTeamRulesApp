@@ -10,13 +10,11 @@ import androidx.compose.foundation.text.ClickableText
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -38,7 +36,7 @@ fun AbilityDescriptionText(
     textColor: Color = MaterialTheme.colorScheme.onSurfaceVariant,
     onKeywordClick: (KeywordInfo) -> Unit = {}
 ) {
-    // ✅ text is ALREADY resolved
+
     val paragraphs = text.split("\n\n")
 
     val content: @Composable () -> Unit = {

@@ -277,7 +277,7 @@ beneficiando del **SERMON**.\n
 \nCuando un aliado **SANCTIFIER** es activado a 3\" de un aliado **ORATOR** (o a 6\" si ese **ORADOR** es un **CONFESSOR**), ese aliado 
 **SANCTIFIER** se estará beneficiando del **SERMON** hasta el final de esa activación (incluso aunque haya salido del rango del efecto de **ORADOR**
 durante esa activacion).\n
-\nCuando un aliado **SANCTIFIER** se esté beneficiando del **SERMON**, daño normal y crítico infligen 1 herida menos a esos Operativos aliados.
+\nCuando un aliado **SANCTIFIER** se esté beneficiando del **SERMON**, daño normal y crítico de 4 o mas infligen 1 herida menos a esos Operativos aliados.
 ]]></string>
 
     <!--Equipment-->
