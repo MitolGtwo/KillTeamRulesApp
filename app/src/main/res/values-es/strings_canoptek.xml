@@ -9,7 +9,7 @@
     ]]></string>
 
     <string name="obelisk_node_control_description"><![CDATA[
-Cuando este Operativo vaya a realizar una acción de misión (excluyendo **Retrieve**, Tacop 2025), si requiere que el Operativo controle ese Objetivo, puedes determinar el control
+Cuando este Operativo vaya a realizar una acción de misión (excluyendo **Retrieve o Pick Up Marker**, Tacop 2025), si requiere que el Operativo controle ese Objetivo, puedes determinar el control
 usando uno de tus **OBELISK NODE** (vease más en las reglas de facción). Cuando este Operativo vaya a realizar la acción **Operate Hatch**, puedes abrir o cerrar esa puerta
 si está a 1\" de tu **OBELISK NODE** en su lugar.\n
 \nNotese que aun tiene cumplir las condiciones de la accion de **Operate Hatch**
@@ -141,7 +141,9 @@ de Conceal completamente dentro de tu zona de deployment (puedes seleccionar su 
     <string name="dimensional_banishment_description"><![CDATA[
 Después de que este Operativo use esta arma, si lograste infligir daño o retuviste un éxito crítico, si el objetivo no fue incapacitado, lanza 2D6:\n
 \nSi el resultado es mayor a la cantidad restante de heridas del objetivo, el objetivo es incapacitado (tomando precedencia sobre reglas que previenen esto como
-Medic!, Frenzy de **FELLGOR RAVAGER**,etc) y tu oponente no puede poner un token de reanimación en caso de ser posible (**HIEROTEK CIRCLE**).
+Medic!, Frenzy de **FELLGOR RAVAGER**,etc) y tu oponente no puede poner un token de reanimación en caso de ser posible (**HIEROTEK CIRCLE**).\n
+\n
+Esta regla no tiene efecto sobre operativos NEMESIS o el Red Terror NPO.
     ]]></string>
 
     <string name="weapon_sentinel_usage"><![CDATA[

@@ -196,7 +196,8 @@ para mejorar la precisión y la letalidad a distancias extremas.
     <string name="yaegirs_bolt_shells_description"><![CDATA[
 Hasta dos veces por turno, cuando un aliado **HERNKYN YAEGIR** esta haciendo la accion de **Disparo**
 y seleccionas un Bolt Shotgun (long range), puedes usar esta regla. Si lo haces, hasta el final de
-esa accion, mejora su estadistica de Hit por 1 y añade 1 a ambas estadisticas de daño..
+esa accion, mejora su estadistica de Hit por 1 y añade 1 a ambas estadisticas de daño, [[blue]]y esa
+arma tiene la regla Accurate 1[[blue]].
 ]]></string>
 
     <string name="firestorm_bolt_shells_lore"><![CDATA[

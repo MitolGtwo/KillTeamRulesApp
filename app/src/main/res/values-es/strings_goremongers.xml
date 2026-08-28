@@ -25,7 +25,7 @@ Una vez por batalla, cuando un dado de ataque inflija daño normal a este Operat
     ]]></string>
 
     <string name="obsessive_bloodlust_description"><![CDATA[
-Una vez durante cada activación de este Operativo, cuando este Operativo termina una acción de **Combate**, si deja de estar en rango de control de un Operativo enemigo,
+Una vez[[red]] por turno, cuando un Operativo con esta regla[[/red]], cuando este Operativo termina una acción de **Combate**, si deja de estar en rango de control de un Operativo enemigo,
 puedes usar esta regla. Si lo haces, puedes inmediatamente hacer una acción de **Cargar** gratis (aunque ya haya hecho una durante esta activación), pero no puede mover mas 
 de 2\" durante esa accion.\n
 Hacerlo no previene que el Operativo haga la acción de **Carga, Dash** o **Reposición** después durante esa activación.
@@ -63,18 +63,23 @@ Cuando este Operativo este disparando con esta arma, al inicio de la fase para r
 por 2. El objetivo debe ser movido a una posicion donde pueda ser puesto tan cerca como sea posible de este
 Operativo, determinado por el x\" que tu escojas usar. El movimiento debe ser hecho en una o mas incrementos
 en linea recta, los incrementos son siempre redondeados a la pulgada mas cercana. Cuando un objetivo
-este cayendo durante el movimiento, ignora la distancia vertical.
+este cayendo durante el movimiento, ignora la distancia vertical.\n
+\n
+Despues puedes descartar cualquier cantidad de dados exitosos sin bloquear (en otras palabras, puedes
+escoger si hacer daño con cualquier daño).
     ]]></string>
 
 
-    <string name="prey_usage"><![CDATA[
-        Special Weapon Rule
+    <string name="Gorefuel_usage"><![CDATA[
+        1AP
     ]]></string>
 
-    <string name="prey_description"><![CDATA[
-Cuando un Operativo este disparando con esta arma, en la face de resolver dados de ataque, despues de
-resolver la regla **Drag** (si decides hacerlo), puedes descartar cualquiera de tus dados sin bloquear.
-En otras palabras, puedes escoger no hacer daño con cualquier cantidad de dados.
+    <string name="Gorefuel_description"><![CDATA[
+Reduce el **GORE TANK** de este Operativo. Hasta que este Operativo use cualquier perfil de su Fleshskewer,
+todos los perfiles tienen la regla Severe.\n\n
+
+Este Operativo no puede hacer esta accion si esta dentro del rango de control de un Operativo enemigo
+o si su **GORE TANK** esta vacio.
     ]]></string>
 
     <string name="dash_and_spray_usage"><![CDATA[
@@ -262,10 +267,13 @@ chain, enabling them to be hurled towards an opponent.
 ]]></string>
 
     <string name="wrist_chains_description"><![CDATA[
-Once per turning point, when a friendly **GOREMONGER** operative performs the **Shoot**
-action and you are selecting a ranged weapon, you can use this rule. If you do, until the end of that
-action, the following melee weapons are treated as ranged weapons with the Range 2\" weapon
-rule: chainblade, chainglaive, great chainaxe (ignore its Brutal weapon rule), pickrippers.
+Una vez por turno, cuando un aliado **GOREMONGER** hace una accion de **Disparo** y estas seleccionando un
+arma de distancia, puedes usar esta regla. Si lo haces, hasta el final de esa accion, las siguientes armas
+de melee son tratadas como armas de distancia con el rango 2\": chainblade, chainglaive, great chainaxe
+(ignorando la regla Brutal), pickrippers.\n
+\n
+[[blue]]Si esas armas de melee tenian la regla Balanced o Relentless como resultado de la ploy Enhanced Violence,
+tiene esas reglas durante el disparo.[[/blue]]
 ]]></string>
 
 

@@ -102,13 +102,12 @@ enemy operative.
 
     <string name="inquisitorial_tomes_description"><![CDATA[
 **STRATEGIC GAMBIT** if this operative is in the
-killzone and/or when this operative is
-activated. Select one of the following
+killzone. Select one of the following
 **INQUISITORIAL TOME** rules for
 this operative to have, and one for a
 friendly **INQUISITORIAL AGENT
 TOME-SKULL** operative to have (they
-can be the same, and ignore the rule you
+[[red]]cannot[[/red]] be the same, and ignore the rule you
 didnt select for each operative):\n
 \n
 • **Denunciation:** Whenever a friendly

@@ -42,7 +42,10 @@ que tenga uno de tus tokens de Veneno es activado, infírgele D3 heridas.
     ]]></string>
 
     <string name="toxic_lunge_description"><![CDATA[
-Selecciona un Operativo enemigo a 2\" de este Operativo. Alternativamente, si este Operativo está
+Selecciona un Operativo enemigo [[red]]que sea visible y que este a[[/red]] 2\" de este Operativo.
+[[red]]Si Operativos enemigos estan dentro del rango de control de este Operativo, no puedes seleccionar
+un Operativo enemigo que no este dentro del rango de control.[[/red]]
+Alternativamente, si este Operativo está
 bajo tierra, selecciona un Operativo enemigo encima de tu **TÚNEL**. Inflige D3+2 heridas a ese enemigo y
 ese enemigo gana uno de tus tokens de Veneno (si no tiene uno).\n
 
@@ -250,7 +253,8 @@ los centinelas de élite.
     <string name="whipcord_emergence_description"><![CDATA[
 Cuando un Operativo está disparando a un aliado **RAVENER**:\n
 \n• Si ese aliado ha hecho la acción **Burrow** durante este turno, puedes re-rollear uno de tus dados de defensa.\n
-\n• Si ese aliado está encima de tu **TUNEL**, puedes re-rollear todos tus dados de defensa.
+\n• Si ese aliado está encima de tu **TUNEL**, puedes re-rollear todos tus dados de defensa[[red]] de un
+mismo resultado[[/red]].
 ]]></string>
 
     <string name="writhe_out_sight_lore"><![CDATA[

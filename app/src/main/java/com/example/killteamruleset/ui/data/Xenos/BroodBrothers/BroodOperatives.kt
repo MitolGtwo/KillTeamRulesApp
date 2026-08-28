@@ -11,6 +11,7 @@ val BroodOperatives = listOf(
     BroodBrotherMedic,
     BroodBrotherSapper,
     BroodBrotherSniper,
+    BroodBrotherTrooper,
     BroodBrotherVeteran,
     BroodBrotherVoxOperator,
     Magus,

@@ -6,7 +6,8 @@
      ]]></string>
 
     <string name="plaguemarine_toxic_description"><![CDATA[
-        Whenever this Operative is using this weapon against an enemy Operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon.
+        Whenever this Operative is using this weapon against an enemy Operative that had one of your Poison tokens
+        at the start of that action, add 1 to both Dmg stats of this weapon.
      ]]></string>
 
 

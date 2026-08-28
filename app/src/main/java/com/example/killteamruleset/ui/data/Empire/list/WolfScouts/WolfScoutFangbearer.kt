@@ -22,7 +22,7 @@ val WolfScoutFangbearer = Operative(
             hit = "3+",
             damage = "4/5",
             keywords = listOf(
-                Range(9),
+                Range(8),
                 Piercing_Crits(1)
             )
         ),

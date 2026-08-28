@@ -221,8 +221,8 @@ as per the **Reposition** action), but it is added to
 the total move distance used for that action (in
 other words, move plus **BOOST** cannot exceed the
 action’s move allowance). If it would **BOOST**
-during the **Charge** action, dont add the additional
-2\" to its move allowance.\n
+during the Charge action, its move allowance
+cannot be higher than 6".\n
 \n
 That operative must be set up in a location it can
 be placed and cannot be set up with any part of

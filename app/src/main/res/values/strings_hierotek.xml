@@ -24,7 +24,7 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="timesplinter_description"><![CDATA[
-**SUPPORT**. Select one other expended friendly **HIEROTEK CIRCLE** operative visible to and within 5\"
+Select one other expended friendly **HIEROTEK CIRCLE** operative visible to and within 5\"
 of this operative. Remove it from the killzone and set it back up visible to and within 5\"
 horizontally of this operative, in a location it can be placed. Note that a Comms Device
 from universal equipment only affects the first distance of this rule.\n\n
@@ -40,8 +40,8 @@ during this turning point.
     ]]></string>
 
     <string name="countertemporal_nanomine_description"><![CDATA[
-Place your Countertemporal Nanomine marker visible to this
-operative, or on Vantage terrain of a terrain feature that is
+Place your Countertemporal Nanomine marker visible to [[red]]and within 8\" of this
+operative[[/red]], or [[red]]within 8\" of this Operative[[/red]] and on Vantage terrain of a terrain feature that is
 visible to this operative. Whenever an enemy operative
 is within 4\" of your Countertemporal Nanomine marker,
 subtract 2\" from its Move stat. When this operative is next
@@ -342,8 +342,8 @@ heal devastating damage in the midst of battle.
 
     <string name="living_metal_description"><![CDATA[
 In the Ready step of each Strategy phase,
-after resolving all other rules in this step (e.g.
-Reanimation Protocols faction rule), each friendly
+[[red]]before[[/red]] resolving all other faction rules in this step (e.g.
+Reanimation Protocols), each friendly
 **HIEROTEK CIRCLE** operative regains up to D3+1
 lost wounds (roll separately for each).
 ]]></string>
@@ -362,7 +362,7 @@ body of their dominated underling.
 Once per turning point, when a friendly **HIEROTEK CIRCLE APPRENTEK** or **HIEROTEK
 CIRCLE CRYPTEK** operative is performing the **Shoot** action, you can use this rule. If you do,
 select one other friendly **HIEROTEK CIRCLE** operative (excluding **PLASMACYTE**) that has
-an **Engage** order and is visible to that friendly operative. Until the end of that action, that other
+an **Engage** order, [[red]]not within control range of enemy operatives[[/red]] and is visible to that friendly operative. Until the end of that action, that other
 friendly operative can be treated as the active operative for the Magnify weapon rule.
 ]]></string>
 

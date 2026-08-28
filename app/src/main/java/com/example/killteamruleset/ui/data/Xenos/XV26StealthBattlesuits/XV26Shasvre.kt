@@ -96,7 +96,7 @@ val XV26Shasvre = Operative(
             name = "Pulse Pistol (point-blank)",
             type = WeaponType.MELEE,
             attacks = 3,
-            hit = "3+",
+            hit = "4+",
             damage = "4/5",
             keywords = listOf(
                 Accurate(1)

@@ -100,12 +100,13 @@
     <string name="battleclade_network_description"><![CDATA[
 **SUPPORT.** Escoge un Operativo **BATTLECLADE** aliado a 6\" de este Operativo y/o de un Operativo **BATTLECLADE AUTO-PROXY** aliado, para
 inmediatamente realizar un **NETWORK COUNTERACT** (No tienes que hacer **TRANSFER POWER** para hacer esta acción)
-[[blue]]o hacer una accion de **Dash** gratis.[[/blue]] Continua con la activacion de este Operativo
+o hacer una accion de **Dash** gratis. Continua con la activacion de este Operativo
 despues de hacerlo.\n
 Para el propósito del equipamiento Comms Device, la distancia se determina desde el marcador del equipamiento Comms Device para añadir 3\" a la distancia de esta habilidad.
 \n\n
-[[blue]]Este Operativo puede realizar esta accion dos veces durante su activacion, pero no puede realizar
-esta acción mientras esté dentro del rango de control de un Operativo enemigo.[[/blue]]
+Este Operativo puede realizar esta accion dos veces durante su activacion, pero no puede realizar
+esta acción mientras esté dentro del rango de control de un Operativo enemigo, [[red]]y debe seleccionar
+un operativo distinto cada vez por turno[[/red]].
     ]]></string>
 
     <string name="battleclade_mechanosuture_array_usage"><![CDATA[

@@ -29,7 +29,7 @@ val RavenerWrecker = Operative(
         apl = 3,
         move = "7\"",
         save = "4+",
-        wounds = 20
+        wounds = 18
     ),
     weapons = listOf(
         WeaponProfile(

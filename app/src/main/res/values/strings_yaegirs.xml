@@ -216,7 +216,8 @@ shells are designed to enhance accuracy and lethality at extreme range.
     <string name="yaegirs_bolt_shells_description"><![CDATA[
 Up to twice per turning point, whenever a friendly **HERNKYN YAEGIR** operative is performing the
 **Shoot** action and you select a bolt shotgun (long range), you can use this rule. If you do, until the
-end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.
+end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats,[[blue]]
+and that weapon has the Accurate 1 rule[[/blue]].
 ]]></string>
 
     <string name="firestorm_bolt_shells_lore"><![CDATA[

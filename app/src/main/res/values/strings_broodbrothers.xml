@@ -220,8 +220,8 @@ This operative cannot perform this action while within control range of an enemy
     ]]></string>
 
     <string name="telepathic_overload_description"><![CDATA[
-**PSYCHIC.** Select one enemy operative visible to this
-operative. Until the end of that operatives next activation, subtract 1 from its APL stat.\n\n
+**PSYCHIC.** Select one enemy operative [[red]]that is a valid target
+for[[/red]] this operative. Until the end of that operatives next activation, subtract 1 from its APL stat.\n\n
 This operative cannot perform this action while within control range of an enemy operative.
     ]]></string>
 

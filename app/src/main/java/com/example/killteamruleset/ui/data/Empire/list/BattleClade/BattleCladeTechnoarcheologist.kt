@@ -40,7 +40,7 @@ val BattleCladeTechnoarcheologist: Operative
                 name = "Servo-arc Claw",
                 type = WeaponType.MELEE,
                 attacks = 4,
-                hit = "4+",
+                hit = "[[blue]]3+[[/blue]]",
                 damage = "3/4",
                 keywords = listOf(
                     Severe,

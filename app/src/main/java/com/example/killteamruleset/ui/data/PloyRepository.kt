@@ -1745,6 +1745,69 @@ object PloyRepository {
             )
         ),
 
+        "exodites" to listOf(
+            // ── Exodites STRATEGY ──
+            Ploy(
+                id = "wind_precision",
+                name ="WIND-SWIFT PRECISION",
+                type = PloyType.STRATEGY,
+                lore = R.string.wind_precision_lore,
+                description = R.string.wind_precision_description
+            ),
+            Ploy(
+                id = "draconic_fury",
+                name = "DRACONIC FURY",
+                type = PloyType.STRATEGY,
+                lore = R.string.draconic_fury_lore,
+                description = R.string.draconic_fury_description
+            ),
+            Ploy(
+                id = "sinuous_flux",
+                name = "SINUOUS FLUX",
+                type = PloyType.STRATEGY,
+                lore = R.string.sinuous_flux_lore,
+                description = R.string.sinuous_flux_description
+            ),
+            Ploy(
+                id = "ride_them_down",
+                name = "RIDE THEM DOWN",
+                type = PloyType.STRATEGY,
+                lore = R.string.ride_them_down_lore,
+                description = R.string.ride_them_down_description
+            ),
+
+
+            // ── Exodites FIREFIGHT ──
+            Ploy(
+                id = "survivalist_spirit",
+                name = "SURVIVALIST SPIRIT",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.survivalist_spirit_lore,
+                description = R.string.survivalist_spirit_description
+            ),
+            Ploy(
+                id = "leap",
+                name = "LEAP",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.exodite_leap_lore,
+                description = R.string.exodite_leap_description
+            ),
+            Ploy(
+                id = "feral_hunger",
+                name = "FERAL HUNGER",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.feral_hunger_lore,
+                description = R.string.feral_hunger_description
+            ),
+            Ploy(
+                id = "riding_mastery",
+                name = "RIDING MASTERY",
+                type = PloyType.FIREFIGHT,
+                lore = R.string.riding_mastery_lore,
+                description = R.string.riding_mastery_description
+            )
+        ),
+
 
         "hierotek_circle" to listOf(
             // ── Hierotek  STRATEGY ──

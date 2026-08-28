@@ -89,10 +89,10 @@ Este Operativo no puede realizar esta accion mientras este en rango de control d
 Este Operativo esta cargando tu Homing Beacon token. Operativos (excluyendo **DRONE**) pueden hacer
 la accion de **Pick up Marker** sobre ese token. La primera vez que un enemigo haga la accion de
 **Pick up Marker** en ese Homing Beacon token, remueve ese token del campo (es removido de la batalla).\n
-\nEn la Ready step de cada Strategy fase, cuando ganes CP, si tu Homing Beacon token esta en el campo,
-lanza un D6 si esta a mas de 6\" de tu zona de deployment, lanza dos D6 si esta dentro del territorio
-de tu oponente, lanza tres D6 si esta a 6\" de la zona de deployment de tu oponente. Si cualquier
-resultado de 4+, ganas un CP adicional.
+\n
+En la Ready step de cada Strategy fase, cuando ganes CP, si tu Homing Beacon token esta en el campo,
+lanza un [[blue]]lanza un D6, añade 1 a la tirada por cada marcador de objetivo que este a 6\" de tu
+Beacon. Si el resultado es 5+, ganas 1CP.[[/blue]]
     ]]></string>
 
     <string name="xvspectrum_usage"><![CDATA[
@@ -192,8 +192,15 @@ con sus cañones de ráfaga de disparo rápido.
 
     <string name="xv26_multi_description"><![CDATA[
 Una vez por turno, un aliado **XV26 STEALTH BATTLESUIT** haciendo la accion de **Disparo** y seleccionas
-un Burst Cannon (Sweeping), puedes usar esta regla. Si lo haces, hasta el final de esa accion, esa
-arma tiene la regla Torrent 2\".
+un Burst Cannon (Sweeping), puedes usar esta regla. Si lo haces, [[blue]]selecciona una de las siguientes
+reglas:[[/blue]]\n
+\n
+•Hasta el final de esa accion, esa arma tiene la regla Torrent 2\".\n
+•[blue]] Hasta el final de esa accion, esa arma tiene la regla Torrent 3\", pero no puedes seleccionar
+mas de un objetivo secundario[[/blue]]
+
+
+
 ]]></string>
 
     <string name="counter_network_lore"><![CDATA[
@@ -299,7 +306,8 @@ dejando a su adversario vulnerable ante el resto del equipo.
 Usa esta Firefight ploy cuando un Operativo enemigo termina una accion de **Cargar** dentro del
 rango de control de un aliado **XV26 STEALTH BATTLESUIT** (excluyendo **DRONE**). Interrumpe esa accion
 para usar esa regla. Si lo haces, ese aliado puede inmediatamente hacer una accion **Fall Back**
-gratis, pero no puede moverse mas de 3\" durante esa accion. Despues, ese Operativo enemigo puede
+gratis, pero no puede moverse mas de 3\" durante esa accion. [[blue]]Esta accion no puede ser prevenida
+ por reglas de tu oponente (toma precedencia sobre esas reglas)[[/blue]]. Despues, ese Operativo enemigo puede
 inmediatamente hacer una accion de **Reposicion** gratis usando la distancia restante de su primera
 **Carga**, y puede hacerlo incluso si ha hecho una accion que prevenga que pueda hacer una accion de
 **Reposicion**.

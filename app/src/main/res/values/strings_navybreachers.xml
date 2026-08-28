@@ -122,9 +122,9 @@ This operative can perform the ***Fall Back** action for 1 less AP.
     ]]></string>
 
     <string name="navy_boost_description"><![CDATA[
-Until the end of the activation, add 6\" to this operatives Move stat.\n\n
-This operative cannot perform this action more than once per battle, and
-cannot perform it during the first turning point.
+[[red]]The next time this operative performs a **Charge** action during
+this activation, add 4" to the distance it can move (instead
+of 2").[[/red]]
     ]]></string>
 
     <string name="navy_grenadier_usage"><![CDATA[
@@ -299,7 +299,7 @@ is performing the **Shoot** action and you select a
 Navis shotgun (long range), you can use this rule.
 If you do, until the end of that action, improve the
 Hit stat of that weapon by 1 and add 1 to both of
-its Dmg stats.
+its Dmg stats, [[blue]] and that weapon has the Accurate 1 weapon rule[[/blue]].
 ]]></string>
 
     <string name="combat_stimms_lore"><![CDATA[

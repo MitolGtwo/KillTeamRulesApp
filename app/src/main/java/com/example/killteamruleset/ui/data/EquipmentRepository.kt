@@ -802,7 +802,33 @@ object EquipmentRepository {
             )
         ),
 
+        "exodites" to listOf(
 
+            Equipment(
+                id = "dragonscale",
+                name = "DRAGONSCALE MESH",
+                lore =R.string.dragonscale_lore,
+                description = R.string.dragonscale_description
+            ),
+            Equipment(
+                id = "exodite_seals",
+                name = "CLAN TALISMANS",
+                lore =R.string.exodite_seals_lore,
+                description = R.string.exodite_seals_description
+            ),
+            Equipment(
+                id = "crystal_matrices",
+                name = "LILEATHAN CRYSTAL MATRICES",
+                lore =R.string.crystal_matrices_lore,
+                description = R.string.crystal_matrices_description
+            ),
+            Equipment(
+                id = "exodites_stones",
+                name = "SPIRIT STONES",
+                lore =R.string.exodites_stones_lore,
+                description = R.string.exodites_stones_description
+            )
+        ),
 
         "farstalker_kinband" to listOf(
 

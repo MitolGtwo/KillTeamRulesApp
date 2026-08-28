@@ -33,6 +33,7 @@ import com.example.killteamruleset.ui.data.Xenos.BladesOfKhaine.BladesOperativeS
 import com.example.killteamruleset.ui.data.Xenos.BroodBrothers.BroodOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.CanoptekCircle.CanoptekOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.CorsairVoidscarred.VoidscarredOperativeSelection
+import com.example.killteamruleset.ui.data.Xenos.Exodites.ExoditesOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.FarstalkerKinband.FarstalkerOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.HandOfTheArchon.HandOperativeSelection
 import com.example.killteamruleset.ui.data.Xenos.HearthkynSalvagers.SalvagersOperativeSelection
@@ -64,6 +65,7 @@ object OperativeSelectionRepository {
         "corsair_voidscarred" to VoidscarredOperativeSelection,
         "death_Korps" to DeathKorpsOperativeSelection,
         "deathwatch" to DeathWatchOperativeSelection,
+        "exodites" to ExoditesOperativeSelection,
         "farstalker_kinband" to FarstalkerOperativeSelection,
         "fellgor_ravagers" to FellgorOperativeSelection,
         "gellepox_infected" to GellerpoxOperativeSelection,
@@ -71,7 +73,7 @@ object OperativeSelectionRepository {
         "elucidian_star" to ElucidianOperativeSelection,
         "exaction_squad" to ExactionOperativeSelection,
         "hand_ofthe_archon" to HandOperativeSelection,
-         "hunter_clade" to HunterCladeOperativeSelection,
+        "hunter_clade" to HunterCladeOperativeSelection,
         "hearthkyn_salvager" to SalvagersOperativeSelection,
         "hernkyn_yaegirs" to YaegirsOperativeSelection,
         "hierotek_circle" to HierotekOperativeSelection,

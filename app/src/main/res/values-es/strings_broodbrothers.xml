@@ -187,7 +187,7 @@ o hasta que este Operativo sea incapacitado (lo que ocurra primero):\n
     ]]></string>
 
     <string name="telepathic_overload_description"><![CDATA[
-**PSYCHIC.** Selecciona un Operativo enemigo visible para este Operativo. Hasta el final de la siguiente activación de ese Operativo, sustrae 1 a su estadística de
+**PSYCHIC.** Selecciona un Operativo enemigo [[red]]que sea un objetivo valido[[/red]] para este Operativo. Hasta el final de la siguiente activación de ese Operativo, sustrae 1 a su estadística de
 APL.\n\n
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo. 
     ]]></string>

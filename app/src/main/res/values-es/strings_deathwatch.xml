@@ -226,7 +226,8 @@ A través de información estratégica ganada con esfuerzo, la Deathwatch posee 
 ]]></string>
 
     <string name="mission_tactics_description"><![CDATA[
-Selecciona una orden de Conceal o Engage. Cuando un aliado **DEATHWATCH** está disparando o combatiendo contra enemigos que tengan esa orden, las armas de
+Selecciona una orden de Conceal o Engage. Cuando un aliado **DEATHWATCH** está disparando,combatiendo
+o [[blue]]retaleando [[/blue]]contra enemigos que tengan esa orden, las armas de
 ese aliado ganan la regla Balanced.
 ]]></string>
 
@@ -264,7 +265,8 @@ Toda herramienta en su arsenal, cualquier pizca de conocimiento, es afilada con 
 ]]></string>
 
     <string name="suffer_not_the_alien_description"><![CDATA[
-Usa esta Firefight ploy después de lanzar tus dados de ataque para un aliado **DEATHWATCH**, si está disparando o combatiendo contra un Operativo que no tenga
+Usa esta Firefight ploy después de lanzar tus dados de ataque para un aliado **DEATHWATCH**, si está
+disparando,combatiendo [[blue]]o retaleando [[/blue]]contra un Operativo que no tenga
 la Keyword **CHAOS** o **IMPERIUM**. Puedes re-rollear cualquiera de tus dados de ataque.
 ]]></string>
 

@@ -478,6 +478,20 @@ object TeamRepository {
             quote = "The starts belonged to my ancestros. thus they belong to me"
         ),
         Team(
+            id = "exodites",
+            name = "Exodites DragonMasters",
+            alliance = Alliance.XENOS,
+            ktstatus = "Classified",
+            type = TeamType.ELITE,
+            difficulty = "Hard",
+            archetypes = listOf(Archetypes.RECON, Archetypes.SEEK_AND_DESTROY),
+            factionRulesBackgroundRes = R.drawable.exodites_faction_bg,
+            backgroundRes = R.drawable.exodites_bg,
+            assemblyPdfAsset = "pdfs/wrecka_assembly.pdf",
+            iconRes = R.drawable.exodites_logo,
+            quote = "What are all those rules man? "
+        ),
+        Team(
             id = "farstalker_kinband",
             name = "Farstalker Kinband",
             alliance = Alliance.XENOS,

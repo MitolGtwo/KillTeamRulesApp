@@ -54,7 +54,9 @@ Poison tokens is activated, inflict D3 damage on it.
     ]]></string>
 
     <string name="toxic_lunge_description"><![CDATA[
-Select one enemy operative within 2\" of this operative. Alternatively, if this
+Select one enemy operative [[red]]visible and [[/red]]within 2\" of this operative.[[red]] If enemy Operatives
+are within control range of this Operative, you cannot select any other enemy that is not.[[/red]]
+Alternatively, if this
 operative is underground, select one enemy operative on your **TUNNEL**.
 Inflict D3+2 damage on that enemy operative and it gains one of your
 Poison tokens (if it does not already have one).\n\n
@@ -308,7 +310,8 @@ Whenever an operative is shooting a friendly **RAVENER** operative:\n
 • If that friendly operative has performed the **Burrow** action during that turning point, you
 can re-roll one of your defence dice.\n
 \n
-• If that friendly operative is on your **TUNNEL**, you can re-roll any of your defence dice.
+• If that friendly operative is on your **TUNNEL**, you can re-roll any of your defence dice [[red]]results of one
+result[[/red]].
 ]]></string>
 
     <string name="writhe_out_sight_lore"><![CDATA[

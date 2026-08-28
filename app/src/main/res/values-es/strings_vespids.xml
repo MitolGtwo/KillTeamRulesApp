@@ -6,7 +6,15 @@
     ]]></string>
 
     <string name="communion_helm_description"><![CDATA[
-Una vez durante cada activacion de este Operativo, puedes gastar 1 punto de Comunion gratis.
+Una vez durante cada activacion de este Operativo, puedes escoger uno de los siguientes efectos para
+resolver:
+\n
+• Gastar un 1 punto de Comunion gratis.\n
+\n
+• Gasta 1 punto de Comunion y selecciona otro aliado **VESPID
+STINGWING** a 3\" de este Operativo. Ese otro aliado puede inmediatamente hacer una accion de mision
+gratis por 1AP (aun debes gastar 1 punto de Comunion para hacerlo, y esto no puede ser ignorado por el
+equipamiento Convergence Stimulant).
     ]]></string>
 
     <string name="vespid_commune_usage"><![CDATA[
@@ -254,8 +262,8 @@ desconciertan a los enemigos que no han tenido tiempo de apuntar con precisión.
 ]]></string>
 
     <string name="aerial_agility_description"><![CDATA[
-Cuando un Operativo esta disparando a un aliado **VESPID STINGWING** mientras esta haciendo un counteract,
-o en una activacion en la que el Operativo que esta disparando se haya movido o haya sido puesto en
+Cuando un Operativo esta disparando a un aliado **VESPID STINGWING** mientras esta haciendo un counteract
+o esta interrumpiendo, o en una activacion en la que el Operativo que esta disparando se haya movido o haya sido puesto en
 el campo, lanza un D6 siempre que un dado inflija daño normal: al 5+, ignora ese daño infligido. No
 puedes ignorar mas de un dado de ataque en una secuencia de **Disparo** esta forma.
 ]]></string>

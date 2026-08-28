@@ -131,8 +131,8 @@
             *Este Operativo puede realizar la acción **Charge** estando en rango de control de Operativos enemigos, y puede dejar el rango de control de ese Operativo para
             hacer esto, pero aún debe terminar en rango de control de un Operativo enemigo.\n
                         ---**6.HARDY**\n
-            Cuando un Operativo esté disparando a este Operativo, los resultados en dados de defensa de 5+ son resultados críticos. Cuando este operativo esta retaleando,
-            el primer dado que inflinja daño normal de 3 o más a este Operativo durante esa secuencia, ese dado hace 1 menos de daño.\n
+            [[red]]Cuando un Operativo este disparando a este Operativo, resultados de 5+ cuentan como
+            resultados de salvaciones criticas.[[/red]]\n
                         ---**7.SHARPSHOOTER**\n
             Cuando ese Operativo esté disparando durante una activación en la que no se ha realizado acciones de **Charge, Fall Back** o **Reposition**, el arma bolt
             tiene las reglas Accurate 1 y Severe\n.

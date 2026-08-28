@@ -4,6 +4,7 @@ package com.example.killteamruleset.ui.data
 import com.example.killteamruleset.R
 import com.example.killteamruleset.ui.model.Ability
 import com.example.killteamruleset.ui.model.Blast
+import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.FactionRule
 import com.example.killteamruleset.ui.model.Heavy
 import com.example.killteamruleset.ui.model.Lethal
@@ -789,6 +790,205 @@ object FactionRuleRepository {
                 imageRes = R.drawable.corsair_tokens
             ),
         ),
+
+            //exodites
+            "exodites" to listOf(
+                FactionRule(
+                    id = "drakesteed_agility",
+                    title = "DRAKESTEED AGILITY",
+                    lore = R.string.drakesteed_agility_lore,
+                    ruleText = R.string.drakesteed_agility_description,
+                    ability = Ability(
+                        title = "SPRINT",
+                        usage = R.string.SPRINT_usage,
+                        description = R.string.SPRINT_description2
+                    ),
+                ),
+                FactionRule(
+                    id = "turn",
+                    title = "TURN",
+                    ability = Ability(
+                        title = "TURN",
+                        usage = R.string.turn_usage,
+                        description = R.string.turn_description2
+                    )
+                ),
+
+
+                FactionRule(
+                    id = "dragon_tactics",
+                    title = "DRACONIC CAVALRY TACTICS",
+                    lore = R.string.dragon_tactics_lore,
+                    ruleText = R.string.dragon_tactics_description,
+                ),
+
+                FactionRule(
+                    id = "mercurial_speed",
+                    title = "MERCURIAL SPEED",
+                    lore = R.string.mercurial_speed_lore,
+                    ruleText = R.string.mercurial_speed_description,
+                ),
+
+
+                FactionRule(
+                    id = "moonsong_cull",
+                    title = "MOONSONG CULL",
+                    lore = R.string.moonsong_cull_lore,
+                    ruleText = R.string.moonsong_cull_description,
+                ),
+
+
+                FactionRule(
+                    id = "SPECTRAL_NIMBUS",
+                    title = "SPECTRAL NIMBUS",
+                    lore = R.string.SPECTRAL_NIMBUS_lore,
+                    ruleText = R.string.SPECTRAL_NIMBUS_description,
+                ),
+
+
+                FactionRule(
+                    id = "FOCUSED_REFLECTION",
+                    title = "FOCUSED REFLECTION",
+                    lore = R.string.FOCUSED_REFLECTION_lore,
+                    ruleText = R.string.FOCUSED_REFLECTION_description,
+                ),
+
+                FactionRule(
+                    id = "SPEARTIP",
+                    title = "SPEARTIP OF THE CLAN",
+                    lore = R.string.SPEARTIP_lore,
+                    ruleText = R.string.SPEARTIP_description,
+                ),
+
+                FactionRule(
+                    id = "BLADED_STANCE",
+                    title = "BLADED STANCE",
+                    lore = R.string.BLADED_STANCE_lore,
+                    ruleText = R.string.BLADED_STANCE_description,
+                ),
+
+
+                FactionRule(
+                    id = "NOMAD_EXECUTIONER",
+                    title = "NOMAD EXECUTIONER",
+                    lore = R.string.NOMAD_EXECUTIONER_lore,
+                    ruleText = R.string.NOMAD_EXECUTIONER_description,
+                ),
+
+
+                FactionRule(
+                    id = "ELUSIVE_PHANTASM",
+                    title = "ELUSIVE PHANTASM",
+                    lore = R.string.ELUSIVE_PHANTASM_lore,
+                    ruleText = R.string.ELUSIVE_PHANTASM_description,
+                ),
+
+
+                FactionRule(
+                    id = "FATED_SHOT",
+                    title = "FATED SHOT",
+                    lore = R.string.FATED_SHOT_lore,
+                    ruleText = R.string.FATED_SHOT_description,
+                ),
+                FactionRule(
+                    id = "NEXUS_SENTINEL",
+                    title = "NEXUS SENTINEL",
+                    lore = R.string.NEXUS_SENTINEL_lore,
+                    ruleText = R.string.NEXUS_SENTINEL_description,
+                ),
+
+                FactionRule(
+                    id = "GLOAMING_MANTLE",
+                    title = "GLOAMING MANTLE",
+                    lore = R.string.GLOAMING_MANTLE_lore,
+                    ruleText = R.string.GLOAMING_MANTLE_description,
+                ),
+
+
+                FactionRule(
+                    id = "WAILS_WORLD",
+                    title = "WAILS OF THE WORLD",
+                    lore = R.string.WAILS_WORLD_lore,
+                    ability = Ability(
+                        title = "WAILS OF THE WORLD",
+                        usage = R.string.WAILS_WORLD_usage,
+                        description = R.string.WAILS_WORLD_description2
+                    ),
+                ),
+
+
+                FactionRule(
+                    id = "CLEANSING_MOON",
+                    title = "CLEANSING OF THE PALE MOON",
+                    lore = R.string.CLEANSING_MOON_lore,
+                    ability = Ability(
+                        title = "CLEANSING OF THE PALE MOON",
+                        usage = R.string.CLEANSING_MOON_usage,
+                        description = R.string.CLEANSING_MOON_description2
+                    ),
+                ),
+
+
+                FactionRule(
+                    id = "SOW_SEEDS",
+                    title = "SOW THE SEEDS",
+                    lore = R.string.SOW_SEEDS_lore,
+                    ruleText = R.string.SOW_SEEDS_description,
+                ),
+
+                FactionRule(
+                    id = "WINDS_GRACE",
+                    title = "WIND’S GRACE",
+                    lore = R.string.WINDS_GRACE_lore,
+                    ability = Ability(
+                        title = "WIND’S GRACE",
+                        usage = R.string.WINDS_GRACE_usage,
+                        description = R.string.WINDS_GRACE_description2
+                    ),
+                ),
+
+
+                FactionRule(
+                    id = "EARTHEN_WRATH",
+                    title = "EARTHEN WRATH",
+                    lore = R.string.EARTHEN_WRATH_lore,
+                    ruleText = R.string.EARTHEN_WRATH_description,
+                    weapons = listOf(
+                        WeaponProfile(
+                            name = "EARTHEN WRATH",
+                            type = WeaponType.RANGED,
+                            attacks = 4,
+                            hit = "3+",
+                            damage = "4/3",
+                            keywords = listOf(
+                                Devastating(2),
+                                Saturate,
+                            ),
+                            extraRules = listOf("*Earthen Wrath")
+                        )
+                    ),
+                    ability = Ability(
+                    title = "Earthen Wrath",
+                    usage = R.string.EARTHEN_WRATH_usage,
+                    description = R.string.EARTHEN_WRATH_description2
+            ),
+        ),
+
+                FactionRule(
+                    id = "exodites_tokens",
+                    title =null,
+                    lore = null,
+                    ruleText = null,
+                    imageRes = R.drawable.exodites_tokens
+                ),
+                FactionRule(
+                    id = "exodites_tokens2",
+                    title =null,
+                    lore = null,
+                    ruleText = null,
+                    imageRes = R.drawable.exodites_tokens2
+                ),
+                ),
 
 
         "farstalker_kinband" to listOf(

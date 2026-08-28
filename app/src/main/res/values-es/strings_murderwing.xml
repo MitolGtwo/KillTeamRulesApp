@@ -196,7 +196,7 @@ completamente dentro de x\" horizontalmente de su ubicación original. X es una 
 (redondeada a la pulgada más cercana, según la acción de**Reposicion**), pero se suma a
 la distancia total de movimiento utilizada para esa acción (en otras palabras, el movimiento más
 **BOOST** no puede exceder el límite de movimiento de la acción).\n
-\nSi se usa un **BOOST** en una accion de **Cargar**, no añadas los 2\" adicionales a su movimiento.\n
+\nSi se usa un **BOOST** en una accion de **Cargar**, no puede moverse mas de 6\".\n
 \nEse Operativo debe ser puesto en un lugar donde pueda ser colocado, y no puede ponerse si alguna parte
 de su base esta debajo de terreno aventajado. En adicion, a menos de que sea una accion de **Cargar**,
 no puede ser puesdo dentro del rango de control de un Operativo enemigo. Puede entonces continuar el movimiento

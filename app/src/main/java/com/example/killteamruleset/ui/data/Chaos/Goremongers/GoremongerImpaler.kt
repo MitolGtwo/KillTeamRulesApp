@@ -7,6 +7,7 @@ import com.example.killteamruleset.ui.model.Devastating
 import com.example.killteamruleset.ui.model.Lethal
 import com.example.killteamruleset.ui.model.Operative
 import com.example.killteamruleset.ui.model.OperativeStats
+import com.example.killteamruleset.ui.model.Piercing_Crits
 import com.example.killteamruleset.ui.model.Range
 import com.example.killteamruleset.ui.model.Rending
 import com.example.killteamruleset.ui.model.Saturate
@@ -47,11 +48,11 @@ val GoremongerImpaler : Operative
                 damage = "4/5",
                 keywords = listOf(
                     Range(8),
-                    Stun
+                    Stun,
+                    Piercing_Crits(1)
                 ),
                 extraRules = listOf(
-                    "*Drag",
-                    "*Prey")
+                    "*Drag")
             ),
             WeaponProfile(
                 name = "Fleshskewer (stab)",
@@ -71,9 +72,9 @@ val GoremongerImpaler : Operative
                 description = R.string.drag_description
             ),
             Ability(
-                title = "Prey",
-                usage = R.string.prey_usage,
-                description = R.string.prey_description
+                title = "Gore-fuel",
+                usage = R.string.Gorefuel_usage,
+                description = R.string.Gorefuel_description
             ),
         ),
 

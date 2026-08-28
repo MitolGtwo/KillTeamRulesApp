@@ -50,7 +50,7 @@ val YaegirTheyn = Operative(
             type = WeaponType.RANGED,
             attacks = 4,
             hit = "5+",
-            damage = "2/2",
+            damage = "2/[[blue]]3[[/blue]]",
             keywords = listOf(
             )
         ),

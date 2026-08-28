@@ -29,7 +29,7 @@ val RavenerFelltalon = Operative(
         apl = 3,
         move = "7\"",
         save = "5+",
-        wounds = 20
+        wounds = 18
     ),
     weapons = listOf(
         WeaponProfile(

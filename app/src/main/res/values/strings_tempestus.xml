@@ -63,7 +63,7 @@ sequence separately).
 Whenever an enemy operative within 8\" of this operative shoots this
 operative, keep track of each attack dice that is discarded as a fail. After the action,
 before incapacitated operatives are removed (including this one, if relevant), this
-operative can perform a free *Shoot* action (you can change its order to **Engage** to do
+operative can perform a free **Shoot** action (you can change its order to **Engage** to do
 so), but it can only target that enemy operative with its hot‑shot laspistols (focused),
 and you only roll a number of attack dice equal to the opponents discarded attack dice
 plus one (to a maximum of four).
@@ -98,9 +98,7 @@ immediately resolve another (before your opponent).
 Whenever this operative performs the **Shoot** or
 **Fight** action, it can immediately perform a free **Dash** action
 afterwards. It can do so even if it is performed the **Charge**
-action during this activation, but can only use any remaining
-move distance it had from that **Charge** action (to a maximum
-of 3\").
+action during this activation.
     ]]></string>
 
     <string name="tempestus_machine_usage"><![CDATA[

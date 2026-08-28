@@ -342,8 +342,8 @@ las armas de asaltantes cercanos.
 ]]></string>
 
     <string name="rust_emanations_description"><![CDATA[
-Cuando un aliado **GELLERPOX INFECTED NIGHTMARE HULK** esta combatiendo, tu oponente no puede retener
-resultado de 3 como exitos.
+Cuando un aliado **GELLERPOX INFECTED** (excepto si es un **MUTOID VERMIN**) esta combatiendo
+[[blue]] o retaleando[[/blue]], tu oponente no puede retener resultado de 3 como exitos.
 ]]></string>
 
 

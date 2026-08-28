@@ -43,8 +43,7 @@ you can choose for that attack dice to inflict Normal Dmg instead.
 Until the start of this operatives next activation or until
 this operative is incapacitated (whichever comes first),
 whenever an operative is shooting this operative, improve
-this operatives Save stat by 1 and ignore the Piercing
-weapon rule.
+this operatives Save stat by 1.
     ]]></string>
 
     <string name="blade_whirl_usage"><![CDATA[
@@ -129,7 +128,7 @@ within control range of any other enemy operatives:\n
     ]]></string>
 
     <string name="incite_fury_description"><![CDATA[
-**SUPPORT.** Select one other friendly **FELLGOR RAVAGER** operative (excluding **SHAMAN** or
+Select one other friendly **FELLGOR RAVAGER** operative (excluding **SHAMAN** or
 **IRONHORN**) visible to and within 3\" of this operative. Until the end of that operatives next
 activation, add 1 to its APL stat. \n\n
 
@@ -299,6 +298,8 @@ it for a second time with a normal success. Note this can be strikes from two di
 **Fight** actions.\n
 \n
 • An enemy operative is shooting it and Critical Dmg is inflicted on it.\n
+\n
+• [[red]]An enemy operative is shooting it and Normal Dmg from two or more attack dice is inflicted on it[[/red]]\n
 \n
 • The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n
 \n

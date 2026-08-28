@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Exodites-->
+
+    <string name="scaleshield_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="scaleshield_description"><![CDATA[
+Whenever an operative is shooting this operative,
+and no attack dice are retained as critical successes, worsen the
+x of the Piercing weapon rule by 1 (if any). Note that Piercing 1
+would therefore be ignored.
+    ]]></string>
+
+    <string name="clanblade_upgrades_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="clanblade_upgrades_description"><![CDATA[
+When this operative is selected for the
+battle, select up to two different Clanblade Upgrade rules (see
+Faction Rules) to be added to its datacard for the battle.
+    ]]></string>
+
+    <string name="aimed_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="aimed_description"><![CDATA[
+This operative cannot use this weapon during an
+activation in which it moved more than 3\", and it cannot move
+more than 3\" during an activation in which it used this weapon.
+This weapon rule has no effect on preventing the Guard action.
+    ]]></string>
+
+    <string name="implacabledark_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="implacabledark_description"><![CDATA[
+You can ignore any changes to this
+operative’s drakesteed fangs & talons weapons Hit stat from
+being injured.
+    ]]></string>
+
+    <string name="leystalker_upgrades_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="leystalker_upgrades_description"><![CDATA[
+When this operative is selected for the battle, select up to two different Leystalker Upgrade rules (see
+Faction Rules) to be added to its datacard for the battle.
+    ]]></string>
+
+    <string name="songofrenewal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="songofrenewal_description"><![CDATA[
+**PSYCHIC.** Select one friendly **EXODITE DRAGON MASTER** operative visible to this operative. That
+operative regains up to 2D3 lost wounds.\n
+\n
+**PSYCHIC.** Alternatively, each friendly **EXODITE DRAGON MASTER** operative can regain up to D3 lost wounds.\n\n
+
+This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point.
+    ]]></string>
+
+
+    <string name="stonesinger_upgrades_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="stonesinger_upgrades_description"><![CDATA[
+When this operative is selected for the battle, select up to two different Stonesinger Upgrade rules (see
+Faction Rules) to be added to its datacard for the battle.
+    ]]></string>
+
+    <string name="prenaturalevasion_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="prenaturalevasion_description"><![CDATA[
+Whenever this operative performs the
+**Charge, Fall Back** or **Reposition** action, if it ends that
+action more than 2\" from its previous location, it has **SPEED
+4+**; if it ends more than 5\" from its previous location, it has
+**SPEED 7+** instead. Whenever this operative ends its activation,
+if it didnt gain **SPEED 4+** or **SPEED 7+** during that activation,
+it has **SPEED 3-**. Note that its the distance from the previous
+location, not the distance moved (in other words it cannot just
+circle back to its previous location and gain high **SPEED**).
+    ]]></string>
+
+
+    <string name="exoditesbeast_usage"><![CDATA[
+        Passive
+    ]]></string>
+
+    <string name="exoditesbeast_description"><![CDATA[
+This operative cannot perform any actions other
+than **Charge, Dash, Fall Back, Fight, Guard, Pick
+Up Marker, Place Marker, Reposition** and **mission
+actions**. This operative cannot perform the **Pick Up Marker,
+Place Marker** or **mission actions** unless there is a friendly
+**LEYSTALKER** operative that is not incapacitated. It cannot use
+any weapons that are not on its datacard.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="drakesteed_agility_lore"><![CDATA[
+Dragon Masters guide their drakesteeds in rushing
+charges or banking turns to home in on their prey.
+]]></string>
+
+    <string name="drakesteed_agility_description"><![CDATA[
+**EXODITE DRAGON MASTER MOUNTED**
+operatives cannot perform the **Charge, Dash,
+Fall Back** or **Reposition** actions; instead they can
+perform the **Sprint** and **Turn** unique actions.
+]]></string>
+
+    <string name="SPRINT_usage"><![CDATA[
+0AP
+]]></string>
+
+    <string name="SPRINT_description2"><![CDATA[
+Move the active operative to a location it can
+be placed. This must be directly forwards
+or backwards in one or more straight-line
+increments, and increments are always
+rounded up to the nearest inch. It cannot move
+more than 9\" forwards or 3\" backwards per
+activation, and it cannot move more than 12\"
+per turning point.\n
+\n
+Before or after one of the increments, you
+can pivot the active operative up to 45\°. This
+does not use any of its movement allowance,
+and it can then continue its movement with
+any remaining move distance.\n
+\n
+The active operative cannot climb or finish
+the move on Vantage terrain higher than 2\"
+from the killzone floor. It can move through
+operatives and it treats terrain parts less than
+2\" tall as Accessible terrain. Whenever it
+moves through an equipment terrain feature,
+remove that terrain feature from the battle.\n\n
+
+An operative cannot perform this action
+while counteracting. For the purposes of your
+opponents rules, mission rules and killzone
+rules, this action is treated as the **Reposition**
+action, or the **Charge** action if the active
+operative ends the action within control range
+of an enemy operative.
+]]></string>
+
+
+    <string name="turn_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="turn_description2"><![CDATA[
+Pivot the active operative up to 45\°. This
+does not use any of its movement allowance.\n\n
+
+An operative cannot perform this action
+while counteracting. For the purposes of your
+opponents rules, mission rules and killzone
+rules, this action is treated as the **Dash** action,
+or the **Charge** action if the active operative
+ends the action within control range of an
+enemy operative.
+]]></string>
+
+
+    <string name="dragon_tactics_lore"><![CDATA[
+Dragon Master triads send forth their Drakolithes to
+flush out the prey before surging from ambush. The
+riders drakesteeds possess acute hunting instincts,
+while from their elevated positions the Exodites can
+strike down prey who seek to stay out of reach
+]]></string>
+
+    <string name="dragon_tactics_description"><![CDATA[
+When setting up an **EXODITE DRAGON
+MASTER** kill team before the battle, the
+first third of your kill team must be friendly
+**DRAKOLITHE** operatives set up as normal. Each
+friendly **EXODITE DRAGON MASTER MOUNTED**
+operative thereafter must be set up in reserve:
+place it to one side instead of in the killzone.\n
+
+In the first Firefight phase, each friendly **EXODITE
+DRAGON MASTER MOUNTED** operative set
+up in reserve is activated as normal. When it is,
+set it up in a location it can be placed on the
+killzone floor with its base touching your killzone
+edge (it is no longer in reserve). The operative
+is treated as performing the **Turn** action (spend
+the AP accordingly), then continue its activation
+as normal.\n
+
+Each friendly **EXODITE DRAGON MASTER
+MOUNTED** operative is activated twice per turning
+point (it is only expended after the second
+activation). You cannot spend more than 3AP for
+it per activation, or more than its APL stat per
+turning point.\n
+
+Each friendly **EXODITE DRAGON MASTER
+MOUNTED** operative cannot be in cover from or
+obscured by Light terrain, terrain parts less than
+2\" tall or terrain that is not wholly intervening.
+Whenever a friendly **EXODITE DRAGON MASTER
+MOUNTED** operative would perform the **Fight**
+action, the distance requirements of its control
+range can be changed to 1\" horizontally and 4\"
+vertically until the end of that action.
+]]></string>
+
+    <string name="mercurial_speed_lore"><![CDATA[
+Controlled breeding and harsh environments have
+granted drakesteeds powerful muscles. At their masters
+command, they can switch from poised stillness to
+breakneck lunges too fast for the eye to follow.
+]]></string>
+
+    <string name="mercurial_speed_description"><![CDATA[
+Each friendly **EXODITE DRAGON MASTER**
+operative has a **SPEED** that has three levels:
+**SPEED 3-**, **SPEED 4+** and **SPEED 7+**. An operative
+can only have one **SPEED** level at a time, and it
+starts the battle with **SPEED 3-**.\n
+
+An **EXODITE DRAGON MASTER MOUNTED**
+operative has **SPEED 3-** if either of the following
+are true:\n
+\n
+• It ends the **Sprint** action and it either moved backwards or less than 4\" forwards.\n
+\n
+• It ends its activation without performing the **Sprint** action.\n
+\n
+An **EXODITE DRAGON MASTER MOUNTED**
+operative has **SPEED 4+** if it ends the **Sprint**
+action and moved 4\" or more during that action,
+or **SPEED 7+** instead if it moved 7\n" or more during
+that action.\n
+\n
+Whenever an operative is shooting a friendly
+**EXODITE DRAGON MASTER** operative, if that
+friendly operative has **SPEED 4+**, you can retain
+one of your defence dice as a normal success
+without rolling it; if it has **SPEED 7+**, you can
+retain one as a critical success instead.\n
+\n
+**EXODITE DRAGON MASTER DRAKOLITHE**
+operatives **SPEED** changes as described on their datacard.
+]]></string>
+
+    <string name="moonsong_cull_lore"><![CDATA[
+The mythic weapons after which moonblades are named
+were said to sing louder with every soul thread they
+severed. Some Clanblades emulate this haunting dirge,
+surging from prey to prey with the screams and arterial
+sprays of their foes ever in their wake.
+]]></string>
+
+    <string name="moonsong_cull_description"><![CDATA[
+Once during each of this operatives activations,
+after its performed the **Sprint** action forwards
+and incapacitated an enemy operative during
+the **Fight** action, if it is no longer within control
+range of enemy operatives, you can use this
+rule. If you do, it can immediately perform a
+free **Sprint** action forwards using any remaining
+move distance it had from that first **Sprint** action,
+but it cannot pivot during that free action. That
+operative can perform two **Sprint** actions during
+its activation to do so, and its **SPEED** is measured
+by the distance moved during both **Sprint** actions
+combined. The operative cannot have performed
+any other actions between those actions.
+]]></string>
+
+    <string name="SPECTRAL_NIMBUS_lore"><![CDATA[
+Those Clanblades fated to endure the deadliest trials
+master their control of the scaleshields energies.
+They become skilled in imbuing their own psychic gifts
+through its haptic controls, projecting a warding nimbus
+of empyric energy that can cast aside what should be
+the most grievous of wounds.
+]]></string>
+
+    <string name="SPECTRAL_NIMBUS_description"><![CDATA[
+Once per turning point, when this operative is
+**fighting** or **retaliating**, after your opponent rolls
+their attack dice, but before re-rolls, you can
+use this rule. If you do, your opponent cannot
+retain attack dice results of less than 6 as critical
+successes during that sequence (e.g. as a result
+of the Lethal, Rending or Severe weapon rules).
+]]></string>
+
+    <string name="FOCUSED_REFLECTION_lore"><![CDATA[
+With preternatural reactions and expert tilts of their
+scaleshield, the Clanblade is capable of angling the
+refracted energy of an honourless foes shots right back
+at them.
+]]></string>
+
+    <string name="FOCUSED_REFLECTION_description"><![CDATA[
+Whenever an enemy operative is shooting this
+operative while within 6\" of it, if you allocate
+one or more critical successes to block your
+opponents attack dice, you can use this rule.
+If you do, after the action, before incapacitated
+operatives are removed (including this one,
+if relevant), inflict 1 damage on that enemy
+operative for each critical success allocated
+this way.
+]]></string>
+
+    <string name="SPEARTIP_lore"><![CDATA[
+It is the Clanblades ritual role amongst their triad
+to lead the charge into their prey. The most storied
+exemplars hit their targets like a celestial lance, speed
+itself honed as much as any weapon in their arsenal.
+]]></string>
+
+    <string name="SPEARTIP_description"><![CDATA[
+Whenever this operative is fighting:\n
+\n
+• If it has **SPEED 4+**, the first time you strike with
+a normal success during that sequence, inflict 1 additional damage.\n
+\n
+• If it has **SPEED 7+**, add 1 to the Normal Dmg stat of melee weapons on its datacard.
+]]></string>
+
+    <string name="BLADED_STANCE_lore"><![CDATA[
+Clanblades sharpen their martial skills by hunting some
+of the most dangerous dragons. These are creatures of
+such speed and strength that only those with reactions
+swift enough to blunt and deflect their first strike ever
+survive the encounter.
+]]></string>
+
+    <string name="BLADED_STANCE_description"><![CDATA[
+Whenever this operative is fighting or retaliating
+with its moonblades, you can resolve one of your
+successes before the normal order. If you do, that
+success must be used to block.
+]]></string>
+
+    <string name="NOMAD_EXECUTIONER_lore"><![CDATA[
+Those who think to outmanoeuvre hunting groups
+of Dragon Masters are rapidly tracked down by the
+triads exceptionally dexterous marksmen. Leystalkers
+unlimber, load, aim and fire their long rifles in single,
+graceful movements on the move, already seeking out
+their next target before the first victim falls.
+]]></string>
+
+    <string name="NOMAD_EXECUTIONER_description"><![CDATA[
+Whenever this operative is performing the **Sprint**
+action, it can perform the **Shoot** action during
+that action (it must do so in a location it can be
+placed, and any remaining move distance it had
+from that **Sprint** action can be used after it does
+so). Note that as the **Shoot** action occurs before
+the **Sprint** action ends, for that **Shoot** action,
+this operatives **SPEED** is whatever it had before
+beginning the **Sprint** action.
+]]></string>
+
+    <string name="ELUSIVE_PHANTASM_lore"><![CDATA[
+Leystalkers are constantly on the move. They scout the
+triads hunting ground, seek the foes position and test
+their strengths, all while slipping through the enemys
+clutches again and again. Their skills have led a number
+of the Exodites foes to believe them some kind of
+insubstantial spirit. While the enemys paranoia grows,
+a Leystalker is already drawing a bead on them from yet
+another unexpected angle.
+]]></string>
+
+    <string name="ELUSIVE_PHANTASM_description"><![CDATA[
+At the end of each Firefight phase, if this
+operative is not within control range of enemy
+operatives, it can perform a free **Sprint** or
+**Turn** action, but it cannot move more than 3\"
+during that action and its **SPEED** remains the
+same. Note that it must still have the necessary
+amount of movement allowance remaining this
+turning point.
+]]></string>
+
+    <string name="FATED_SHOT_lore"><![CDATA[
+Some Leystalkers read hidden paths in a worlds ley
+lines for more than themselves. They trace the route of
+a precision shot so that it lances through gusting fumes
+and lashing vegetation, whispering safely past allies and
+into the most vulnerable spot of a foes defences.
+]]></string>
+
+    <string name="FATED_SHOT_description"><![CDATA[
+Once per turning point, when this operative
+performs the **Shoot** action and you select a profile
+of its long rifle, you can use this rule. If you do,
+select one of the following rules for it to have until
+the end of that sequence:\n
+\n
+• Enemy operatives cannot be obscured.\n
+\n
+• Having other friendly **EXODITE DRAGON
+MASTER** operatives within an enemy
+operatives control range does not prevent that
+enemy operative from being selected as a valid target.
+
+]]></string>
+
+    <string name="NEXUS_SENTINEL_lore"><![CDATA[
+Where lines of power converge – whether the vivid
+leys of an Exodite world or the muted energies of
+natural flows – Leystalkers can access sensory
+perceptions of incredible breadth and acuity. Few
+enemies can approach such a site held by a Leystalker
+without detection.
+]]></string>
+
+    <string name="NEXUS_SENTINEL_description"><![CDATA[
+Once per turning point, this operative can
+perform the **Guard** action during its activation
+regardless of the killzone if it has **SPEED 3-** (see
+close quarters rules, Kill Team Core Book).
+Whenever this operative performs a pointblank shot as a result of the **Guard** action, do not
+worsen the Hit stat of its weapons as a result of performing a point-blank shot.
+]]></string>
+
+    <string name="GLOAMING_MANTLE_lore"><![CDATA[
+Masters of merging with their environment and
+invoking the cloaking energies of hidden ley lines,
+Leystalkers can fade from the scrutiny of those
+attempting to hunt them as if mantling themselves in a
+supernatural gloaming.
+]]></string>
+
+    <string name="GLOAMING_MANTLE_description"><![CDATA[
+Whenever an operative is shooting this operative
+from more than 8\" away, if you cannot retain any
+cover saves, you can retain one of your defence
+dice as a normal success without rolling it; if you
+can retain any cover saves, you can retain one
+cover save as a critical success instead.
+]]></string>
+
+    <string name="WAILS_WORLD_lore"><![CDATA[
+A keening lament emitted by a Stonesinger signals their
+abhorrence of the foe. It rises in a reverberating wail
+until the air around the enemy and the ground beneath
+them shudder. Those without the agility to retain their
+footing risk being claimed by sudden crevasses, struck
+by tumbling rocks or mired in viscous flows of formerly
+solid matter.
+]]></string>
+
+    <string name="WAILS_WORLD_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="WAILS_WORLD_description2"><![CDATA[
+**PSYCHIC**. Select one enemy operative visible
+to this operative. Subtract 2\" from the Move
+stat of that operative and each other enemy
+operative within 2\" of it until the end of
+their next activations respectively (this is not
+cumulative with being injured). **MOUNTED**
+operatives are unaffected.\n
+\n
+Roll 2D3 separately for each of those
+operatives: inflict damage on that operative
+equal to the difference between the result and
+their new Move stat (this takes precedence
+over stats not changing during an action).
+**MOUNTED** operatives are unaffected.\n\n
+
+This operative cannot perform this action while
+within control range of an enemy operative, or
+more than once per turning point.
+]]></string>
+
+
+
+    <string name="CLEANSING_MOON_lore"><![CDATA[
+The Stonesinger weaves a psychic skirl of purification.
+Toxins are purged and anguish is soothed as the longlost Maiden Moon is invoked.
+]]></string>
+
+    <string name="CLEANSING_MOON_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="CLEANSING_MOON_description2"><![CDATA[
+**PSYCHIC**. Select one friendly **EXODITE
+DRAGON MASTER** operative visible to this
+operative. Remove one rules effect or stat
+change your opponent has applied to it (e.g.
+Poison token, -1APL, cannot be activated or
+perform actions, etc.) This cannot allow it to
+regain lost wounds, remove mission pack rules
+or ignore the effects of being injured.\n\n
+
+This operative cannot perform this action while
+within control range of an enemy operative.
+Note that unlike this operatives other unique
+action upgrades, it can perform this action
+more than once per turning point.
+]]></string>
+
+    <string name="SOW_SEEDS_lore"><![CDATA[
+Quickening the slow rhythms of plant life, unnaturally
+motile vines and roots burst forth, marking sites as
+under the Stonesingers dominance.
+]]></string>
+
+    <string name="SOW_SEEDS_description"><![CDATA[
+Once per turning point, during this operatives
+activation, before or after it performs an action,
+you can use this rule. If you do, select one
+objective marker it controls. Until this operative
+is incapacitated, until you use this rule again or
+until an enemy operative controls that marker
+(whichever comes first), this operative is treated
+as contesting that marker with an APL of 1 and
+controlling it for the purposes of mission actions
+and victory conditions (even if it is not within this
+operatives control range). Note that this could
+allow this operative to perform a mission action
+that would require it to control that marker.
+]]></string>
+
+    <string name="WINDS_GRACE_lore"><![CDATA[
+With swirling zephyrs, the psyker blurs their allies forms
+to shield them.
+]]></string>
+
+    <string name="WINDS_GRACE_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="WINDS_GRACE_description2"><![CDATA[
+**PSYCHIC**. Select one friendly **EXODITE
+DRAGON MASTER** operative visible to this
+operative. Until the start of this operatives first
+activation in the next turning point, until it is
+incapacitated or until it performs this action
+again (whichever comes first), that selected
+operatives **SPEED** is one higher (i.e. if it would
+have **SPEED 3-**, it has **SPEED 4+**; if it would
+have **SPEED 4+**, it has **SPEED 7+**).\n\n
+
+This operative cannot perform this action while
+within control range of an enemy operative, or
+more than once per turning point.
+]]></string>
+
+    <string name="EARTHEN_WRATH_lore"><![CDATA[
+A Stonesingers eldritch gesture can command
+eruptions of rocky shards or liquefy once solid ground to
+engulf the foe.
+]]></string>
+
+    <string name="EARTHEN_WRATH_description"><![CDATA[
+This operative has the following ranged weapon:
+]]></string>
+
+    <string name="EARTHEN_WRATH_usage"><![CDATA[
+Special Weapon Rule
+]]></string>
+
+    <string name="EARTHEN_WRATH_description2"><![CDATA[
+If the target is in cover, this weapon has the Lethal 5+ weapon rule.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="dragonscale_lore"><![CDATA[
+These unique suits of mesh armour incorporate the
+glittering, crystalline scales of elder dragons and can
+withstand even esoteric assaults.
+]]></string>
+
+    <string name="dragonscale_description"><![CDATA[
+Once per turning point, when an operative
+is shooting a friendly **EXODITE DRAGON
+MASTER MOUNTED** operative, in the Roll
+Defence Dice step, you can retain one of your
+normal successes as a critical success instead.
+]]></string>
+
+    <string name="exodite_seals_lore"><![CDATA[
+Potent talismans may invoke celestial myths, bear the
+blessings of clan lords, or carry arcane technology and
+psychic sigils. Such tokens instil a resolve to fight for the
+clan with exquisite grace and finesse.
+]]></string>
+
+    <string name="exodite_seals_description"><![CDATA[
+Once per turning point, when a friendly **EXODITE
+DRAGON MASTER MOUNTED** operative is
+shooting, fighting or retaliating, if you roll two or
+more fails, you can discard one of them to retain
+another as a normal success instead.
+]]></string>
+
+    <string name="crystal_matrices_lore"><![CDATA[
+Exceptionally rare crystals from the hardest to reach
+maiden worlds focus the shots of the Exodites laser
+weaponry into searing beams.
+]]></string>
+
+    <string name="crystal_matrices_description"><![CDATA[
+Once per turning point, when a friendly **EXODITE
+DRAGON MASTER** operative is performing the
+**Shoot** action and you select a solar carbine or a
+profile of its long rifle, you can use this rule. If you
+do, until the end of that activation, that weapon
+has the Piercing 1 weapon rule.
+]]></string>
+
+    <string name="exodites_stones_lore"><![CDATA[
+Spirit stones carrying the souls of a former triad are
+priceless artefacts whose occupants provide wisdom to
+their living peers. Should the bearer of such treasures
+fall in battle, their comrades fight all the harder to
+recover their stone and those of the long departed. Such
+a collection of the clans most powerful souls cannot be
+allowed to slip into the enemy profane clutches.
+]]></string>
+
+    <string name="exodites_stones_description"><![CDATA[
+Whenever a friendly **EXODITE DRAGON
+MASTER MOUNTED** operative is incapacitated,you gain 1CP.
+]]></string>
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="wind_precision_lore"><![CDATA[
+Dragon Masters are superior mounted marksmen. At
+high speed, they intuitively exploit slivers of calm amidst
+their drakesteeds gait to deliver pinpoint shots into
+stunned foes.
+]]></string>
+
+    <string name="wind_precision_description"><![CDATA[
+Whenever a friendly **EXODITE DRAGON MASTER**
+operative is shooting, if it has **SPEED 4+**, its
+ranged weapons have the Balanced weapon rule.
+]]></string>
+
+    <string name="draconic_fury_lore"><![CDATA[
+In rapid hit-and-run lunges or daring thrusts through
+enemy lines, the poise and balance of Exodites and their
+dragons at speed are legendary.
+]]></string>
+
+    <string name="draconic_fury_description"><![CDATA[
+Whenever a friendly **EXODITE DRAGON MASTER**
+operative is fighting:\n
+\n
+• If it has **SPEED 4+**, its melee weapons have the Balanced weapon rule.\n
+\n
+• If it has **SPEED 7+**, its melee weapons have the Ceaseless weapon rule.
+]]></string>
+
+    <string name="sinuous_flux_lore"><![CDATA[
+Dragon Masters on the hunt are frighteningly evasive
+predators. The expert riders, as well as their reptilian
+mounts and hunting beasts, weave and coil to elude the
+foes attacks.
+]]></string>
+
+    <string name="sinuous_flux_description"><![CDATA[
+Whenever an enemy operative is shooting a
+friendly **EXODITE DRAGON MASTER** operative
+more than 6\" from it, if that friendly operative has
+**SPEED 4+** or **SPEED 7+**, your opponent cannot
+re-roll their attack dice.
+]]></string>
+
+    <string name="ride_them_down_lore"><![CDATA[
+Drakesteeds are large and ferocious beasts, utterly
+deadly when their slashing talons and rending fangs are
+magnified by crushing impact.
+]]></string>
+
+    <string name="ride_them_down_description"><![CDATA[
+Once during each friendly **EXODITE DRAGON
+MASTER MOUNTED** operatives activation,
+whenever it ends its move during the
+**Sprint** action:\n
+\n
+• If it moved 4\" or more during that action, you
+can inflict 1 damage on one enemy operative
+within its control range.\n
+\n
+• If it moved 7\" or more during that action, or
+it is a **CLANBLADE** operative, you can inflict
+D3 damage on one enemy operative within its
+control range instead.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="survivalist_spirit_lore"><![CDATA[
+Dragon Masters have endured long lives of gruelling
+trials. Their deep reserves of spiritual resilience harden
+them against many hurts.
+]]></string>
+
+    <string name="survivalist_spirit_description"><![CDATA[
+Use this firefight ploy during a friendly **EXODITE
+DRAGON MASTER MOUNTED** operatives
+activation or counteraction, before or after it
+performs an action. Until the start of its next
+activation, you can ignore any changes to that
+operatives weapon stats from being injured.
+]]></string>
+
+    <string name="exodite_leap_lore"><![CDATA[
+The preternatural agility and corded muscles of
+drakesteeds enable them to rapidly reposition in a
+single, nimble motion.
+]]></string>
+
+    <string name="exodite_leap_description"><![CDATA[
+Use this firefight ploy when a friendly **EXODITE
+DRAGON MASTER MOUNTED** operative
+performs the **Sprint** action. Instead of moving that
+operative, remove it from the killzone and set it
+back up in a location it can be placed within 1\"
+horizontally of its original location. This distance
+cannot be measured through terrain features
+more than 2\" tall, and that operative cannot be
+set up on Vantage terrain higher than 2\" from the
+killzone floor. That operative is treated as having
+moved 3\" for the purposes of its movement
+allowance and has **SPEED 3-**
+]]></string>
+
+    <string name="feral_hunger_lore"><![CDATA[
+With the scent of blood and fear in the air, the Exodites
+will willingly unleash their carnivorous dragons most
+vicious and feral instincts
+]]></string>
+
+    <string name="feral_hunger_description"><![CDATA[
+Use this firefight ploy after rolling your
+attack dice for a friendly **EXODITE DRAGON
+MASTER** operative, if it is fighting against a
+wounded enemy operative with its Drakesteed
+fangs & talons or fangs & talons. You can re-roll
+any of your attack dice.
+]]></string>
+
+    <string name="riding_mastery_lore"><![CDATA[
+Dragon Masters command of their drakesteeds is
+paired with the exceptional dexterity and athleticism
+of their own species. In defence of their clans future,
+Dragon Masters can perform incredible feats of
+manoeuvre while surging through hostile territory.
+]]></string>
+
+    <string name="riding_mastery_description"><![CDATA[
+Use this firefight ploy when a friendly **EXODITE
+DRAGON MASTER MOUNTED** operative
+performs the **Sprint** action during its activation.
+During that action, that operative can perform the
+**Pick Up Marker, Place Marker** or a **mission action**
+(you can determine control during that action
+to do so), and any remaining move distance it
+had from that Sprint action can be used after it
+does so.
+]]></string>
+
+</resources>

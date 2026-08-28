@@ -79,8 +79,7 @@ puedes inmediatamente resolver otro (antes que tu oponente).
 
     <string name="dynamic_description"><![CDATA[
 Cuando este Operativo hace la accion de **Disparo** o **Combate**, puede inmediatamente hacer una accion
-**Dash** gratis despues. Puede hacerlo incluso si ha hecho la accion de **Cargar** durante esa activacion,
-pero solo puede usar la distancia restante que haya tenido de esa **Carga** (Hasta un maximo de 3\").
+**Dash** gratis despues. Puede hacerlo incluso si ha hecho la accion de **Cargar** durante esa activacion.
     ]]></string>
 
     <string name="tempestus_machine_usage"><![CDATA[

@@ -182,16 +182,15 @@ de control de un Operativo enemigo, o si ya esta cargando un token.
     enemigo.
 ]]></string>
     <string name="seek_and_destroy_01_additional"><![CDATA[
-    Cuando un Operativo enemigo esta disputando un objetivo es incapacitado, ese objetivo
- gana uno de tus marcadores de **SWEPT** (si no tiene uno) hasta la Ready step del proximo
-    turno.
+    Cuando un Operativo enemigo esta disputando un objetivo este esta SWEPT hata el inicio del proximo turno.
 ]]></string>
     <string name="seek_and_destroy_01_victory"><![CDATA[
-Al final de cada turno despues del primero, si al menos un objetivo (excluyendo el objetivo en tu territorio)
-es **CLEAR** (accion de tacop) y no hay enemigos contesteandolo, ganas 1VP. Si ese marcador tambien
-tiene uno de tus Swepts tokens, ganas 2VP en su lugar.
-
-Si aliados controlan un objetivo que tenga uno de tus Swept tokens, ganas 1VP.
+Al final de cada turno despues del primero, si el objetivo central es CLEARED y Operativos enemigos no lo
+contestean, ganas 1VP. Si ese marcador tambien esta SWEPT, ganas 2 VP en su lugar.\n
+\n
+Si Operativos aliados controlan objetivos que esten SWEPT, ganas 1VP.\n
+\n
+No puedes ganar mas de 2VP por esta TacOp por turno.
 ]]></string>
 
     <string name="seek_and_destroy_02_reveal"><![CDATA[
@@ -219,8 +218,8 @@ Si aliados controlan un objetivo que tenga uno de tus Swept tokens, ganas 1VP.
 
 ]]></string>
     <string name="seek_and_destroy_03_victory"><![CDATA[
-    Al final del 3er y 4to turno, puedes remover tokens de Dominacion de Operativos aliados que
-    no esten incapacitados. Por cada uno que remuevas, ganas 1VP.
+    Al final del 3er y 4to turno, puedes remover tokens de Dominacion de Operativos aliados que esten
+    en el campo y que no esten incapacitados. Por cada uno que remuevas, ganas 1VP.
     \n
     \nNo puedes ganar mas de 3VP por esta TacOp por turno.
 ]]></string>

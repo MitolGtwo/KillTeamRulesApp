@@ -11,7 +11,8 @@
      ]]></string>
 
     <string name="plaguemarine_toxic_description"><![CDATA[
-        Cuando usas esta arma contra un Operativo que tiene uno de tus tokens de Veneno, incrementa el daño normal y critico de esta arma +1
+        Cuando usas esta arma contra un Operativo que tenga uno de tus tokens de Veneno desde el inicio
+        de esa accion, incrementa el daño normal y critico de esta arma +1
      ]]></string>
 
 

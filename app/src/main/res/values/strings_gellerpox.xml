@@ -393,7 +393,8 @@ corrupts the weaponry of nearby assailants.
 ]]></string>
 
     <string name="rust_emanations_description"><![CDATA[
-Whenever a friendly **GELLERPOX INFECTED NIGHTMARE HULK** operative is fighting, your
+Whenever a friendly **GELLERPOX INFECTED** operative (excluding **MUTOID VERMIN**) is fighting [[blue]]
+or retaliating[[/blue]], your
 opponent cannot retain results of 3 as successes.
 ]]></string>
 

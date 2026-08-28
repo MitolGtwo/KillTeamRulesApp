@@ -35,7 +35,7 @@ val FellgorMangler : Operative
                 name = "Vicious Claws",
                 type = WeaponType.MELEE,
                 attacks = 4,
-                hit = "3+",
+                hit = "4+",
                 damage = "4/6",
                 keywords = listOf(
                     Ceaseless

@@ -31,7 +31,9 @@ Whenever this operative is fighting or retaliating:\n
 • Enemy operatives cannot assist.\n
 \n
 • If it is incapacitated, you can strike the enemy operative in that sequence
-with one of your unresolved successes before it is removed from the killzone.
+with one of your unresolved successes before it is removed from the killzone.\n
+\n
+• Normal Dmg of 4 or more inflicts 1 less damage on it.
     ]]></string>
 
     <string name="knux_smash_usage"><![CDATA[

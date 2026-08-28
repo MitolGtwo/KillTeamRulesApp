@@ -31,7 +31,10 @@ Cuando este Operativo combata o retalee:\n
 \n
 • Operativos enemigos no pueden asistir.\n
 \n
-• Si es incapacitado, puedes golpear al enemigo en esa secuencia con uno de tus dados sin resolver, antes de ser removido del campo.
+• Si es incapacitado, puedes golpear al enemigo en esa secuencia con uno de tus dados sin resolver,
+antes de ser removido del campo.\n
+\n
+• Daño normal de 4 o mas inflinge 1 herida menos a este Operativo.
     ]]></string>
 
     <string name="knux_smash_usage"><![CDATA[

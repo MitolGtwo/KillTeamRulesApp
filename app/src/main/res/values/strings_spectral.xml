@@ -173,7 +173,7 @@ operative is incapacitated, or if it is a **Shoot** action and this operative wo
     ]]></string>
 
     <string name="spectre_medikit_usage"><![CDATA[
-        1AP
+        0AP
     ]]></string>
 
     <string name="spectre_medikit_description"><![CDATA[

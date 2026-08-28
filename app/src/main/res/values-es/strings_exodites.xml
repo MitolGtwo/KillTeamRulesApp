@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Exodites-->
+
+    <string name="scaleshield_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="scaleshield_description"><![CDATA[
+Cuando un Operativo este disparando a este operativo, y ningun ataque critico es retenido, empeora
+el valor x de piercing a 1. Notese que Piercing 1 por lo tanto seria ignorado.
+    ]]></string>
+
+    <string name="clanblade_upgrades_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="clanblade_upgrades_description"><![CDATA[
+Cuando este Operativo es seleccionado para la batalla, selecciona hasta 2 mejoras Clanblade durante
+la batalla.
+    ]]></string>
+
+    <string name="aimed_usage"><![CDATA[
+        Special Weapon Rule
+    ]]></string>
+
+    <string name="aimed_description"><![CDATA[
+Este Operativo no puede usar esta arma durante una activacion en la que se haya movido mas de 3\", y
+no puede moverse mas de 3\" durante una activacion en la que haya utilizado esta arma. Esta regla no tiene
+efecto previniendo la accion Guard.
+    ]]></string>
+
+    <string name="implacabledark_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="implacabledark_description"><![CDATA[
+Puedes ignorar cualquier cambio al drakesteed fangs & talons estadistica de Hit al estar lesionado.
+    ]]></string>
+
+    <string name="leystalker_upgrades_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="leystalker_upgrades_description"><![CDATA[
+Cuando este Operativo es seleccionado para la batalla, selecciona hasta 2 mejoras Leystalker para que sean
+añadidas a este Operativo durante la batalla.
+    ]]></string>
+
+    <string name="songofrenewal_usage"><![CDATA[
+        1AP
+    ]]></string>
+
+    <string name="songofrenewal_description"><![CDATA[
+**PSYCHIC.** Selecciona un Operativo aliado **EXODITE DRAGON MASTER** visible para este Operativo.
+Ese Operativo gana 2D3 heridas perdidas.\n
+\n
+**PSYCHIC.** Alternativamente, cada aliado **EXODITE DRAGON MASTER** puede recuperar D3 heridas perdidas.\n\n
+Este Operativo no puede hacer esta accion mas de una vez por turno, o si esta dentro del rango de control
+de un Operativo enemigo.
+    ]]></string>
+
+
+    <string name="stonesinger_upgrades_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="stonesinger_upgrades_description"><![CDATA[
+Cuando este Operativo es seleccionado para la batalla, selecciona hasta 2 mejoras Stonesinger para que sean
+añadidas a este Operativo durante la batalla.
+    ]]></string>
+
+    <string name="prenaturalevasion_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="prenaturalevasion_description"><![CDATA[
+Cuando este Operativo hace las acciones **Cargar, Fall Back** o **Reposicion**, si termina esa
+accion mas de 2\" de su locacion, tiene **SPEED 4+**; si termina mas de 5\" de su locacion, tiene
+**SPEED 7+** en su lugar. Cuando este Operativo termina su acTIVACION, si no obtuvo **SPEED 4+** o **SPEED 7**
+durante esa activacion, tiene **SPEED 3-**. Notese que esta distancia se mide desde su locacion original,
+no la distancia movida.
+    ]]></string>
+
+
+    <string name="exoditesbeast_usage"><![CDATA[
+        Pasiva
+    ]]></string>
+
+    <string name="exoditesbeast_description"><![CDATA[
+Este Operativo no puede hacer ninguna otra accion que no sea **Cargar, Dash, Fall Back, Combatir, Guardia,
+Pick up Marker, Place Marker, Reposicion** y **Acciones de Mision**. Este Operativo no puede hacer
+**Pick up Marker, Place Marker** o **Acciones de Mision** a menos de que haya un aliado **LEYSTALKER**
+que no sea incapacitado. No puede usar armas que no esten en su tarjeta de personaje.
+    ]]></string>
+
+    <!--Faction Rules-->
+
+    <string name="drakesteed_agility_lore"><![CDATA[
+Los Maestros de Dragones guían a sus dragones de monta en cargas impetuosas o giros cerrados para
+dirigirse directamente hacia su presa.
+]]></string>
+
+    <string name="drakesteed_agility_description"><![CDATA[
+Los Operativos **EXODITE DRAGON MASTER MOUNTED** no pueden hacer las acciones de **Cargar, Dash,
+Fall Back** o **Reposicion**; En su lugar, pueden hacer las acciones unicas **SPRINT** y **TURN**
+]]></string>
+
+    <string name="SPRINT_usage"><![CDATA[
+0AP
+]]></string>
+
+    <string name="SPRINT_description2"><![CDATA[
+Mueve el Operativo activo a una locacion en la que pueda ser puesta. Esto debe ser un movimiento recto hacia
+adelante o hacia atras en uno o mas incrementos rectos, los incrementos son siempre redondeados hasta
+la pulgada mas cercana. No puede moverse mas de 9\" hacia adelante o 3\" hacia atras por activacion,
+y no puede moverse mas de 12\" por turno.\n
+\n
+Antes o despues de un incremento, puedes pivotear el Operativo activo hasta 45\°. Esto no usa la cantidad
+de movimiento permitido, y puede continuar su movimiento con cualquier cantidad de movimiento restante.\n
+\n
+El Operativo activo no puede escalar o finalizar ese movimiento en terreno aventajado de a mas de 2\"
+del piso del campo. Puede moverse a traves de partes de terreno menores de 2\" de altura como terreno
+accesible. Cuando se mueve a traves de terreno de equipamiento, ese terreno es removido del campo.\n\n
+
+Un Operativo no puede hacer esta accion en un Counteract. Para el proposito de las reglas de tu oponente,
+misiones y reglas del campo, esta accion es tratada como una accion de **Reposicion** o **Carga** si termina
+dentro del rango de control de un Operativo.
+]]></string>
+
+
+    <string name="turn_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="turn_description2"><![CDATA[
+Pivota al Operativo activo hasta 45\°. Esto no usa la cantidad de movimiento permitido.\n\n
+
+Un Operativo no puede hacer esta accion en un Counteract. Para el proposito de las reglas de tu oponente,
+reglas fe mision o reglas del campo, esta accion es tratada como una accion de **Dash** o **Carga** si
+termina dentro del rango de control de un Operativo enemigo.
+]]></string>
+
+
+    <string name="dragon_tactics_lore"><![CDATA[
+Las tríadas de Maestros de Dragones envían a sus Drakolitos para acosar a la presa antes de lanzarse
+al ataque desde su emboscada. Las monturas dracónicas de los jinetes poseen un agudo instinto cazador,
+mientras que, desde sus posiciones elevadas, los Exoditas pueden abatir a las presas que intentan
+mantenerse fuera de su alcance.
+]]></string>
+
+    <string name="dragon_tactics_description"><![CDATA[
+Al momento de poner tu **EXODITE DRAGON MASTER** kill team antes de la batalla, el primer tercio
+de tu kill team deben ser Operativos **DRAKOLITHE** aliados y deben ser puestos normalmente. Cada aliado
+**EXODITE DRAGON MASTER MOUNTED** despues debe ser puesto en reserva: ponlo a un lado del campo en su
+lugar.\n
+\n
+En el primer turno, cada aliado **EXODITE DRAGON MASTER MOUNTED** puesto en reservas es activado normalmente.
+cuando es activado, ponlo en una locacion en la que pueda ser puesto en el piso del campo con su base
+tocando tu borde del campo (deja de estar en reserva). El Operativo es tratado como si hubiera hecho
+la accion de **Turn** (gasta el AP normalmente), despues continua su activacion normalmente.\n
+\n
+Cada aliado **EXODITE DRAGON MASTER MOUNTED** es activado dos veces por turno (solo cuenta como Expended
+despues de la segunda activacion). No puedes gastar mas de 3AP por activacion, o mas de su estadistica
+de APL por turno.\n
+\n
+Cada aliado **EXODITE DRAGON MASTER MOUNTED** no puede estar en cobertura o estar obscurecido por terreno
+ligero, por partes de terreno no mas altas que 2\" o si el terreno es esta completamente interviniendo.
+Cuando un aliado **EXODITE DRAGON MASTER MOUNTED** vaya a hacer la accion de **Combate**, la distancia
+requerida de su rango de control puede ser cambiada a 1\" horizontal y 4\" vertical hasta el final de esa
+accion.
+]]></string>
+
+    <string name="mercurial_speed_lore"><![CDATA[
+La cría controlada y los entornos hostiles han dotado a los dracocinceles de una musculatura poderosa.
+A la orden de sus jinetes, pueden pasar de una quietud serena a acometidas vertiginosas, demasiado
+rápidas para ser seguidas por la vista.
+]]></string>
+
+    <string name="mercurial_speed_description"><![CDATA[
+Cada aliado **EXODITE DRAGON MASTER** tiene 3 niveles de **SPEED**:
+**SPEED 3-**, **SPEED 4+** and **SPEED 7+**. Un Operativo solo puede tener un nivel de **SPEED**
+a la vez, y empieza la batalla con **SPEED -3**.\n
+\n
+Un Operativo **EXODITE DRAGON MASTER MOUNTED** tiene **SPEED 3-** si cualquiera de las siguientes
+condiciones se cumplen:\n
+\n
+• Si termina su accion **Sprint** y se ha movido hacia atras o menos de 4\" hacia adelante.\n
+\n
+• Si termina su activacion sin hacer la accion de **Sprint**.\n
+\n
+Un Operativo **EXODITE DRAGON MASTER MOUNTED** tiene **SPEED 4+** si termina su accion **Sprint** y se
+ha movido 4\" o mas hacia adelante durante esa accion.\n
+\n
+Un Operativo **EXODITE DRAGON MASTER MOUNTED** tiene **SPEED 7+** si termina su accion **Sprint** y se
+ha movido 7\" o mas hacia adelante durante esa accion.\n
+\n
+Cuando un Operativo esta disparando a un aliado **EXODITE DRAGON MASTER**, si ese aliado tiene **SPEED 4+**,
+puedes retener uno de tus dados de defensa como un exito normal sin lanzarlo, si tiene **SPEED 7+**, puedes
+retener un exito critico en su lugar.n
+\n
+La **SPEED** de Operativos **EXODITE DRAGON MASTER DRAKOLITHE** es descrita en su datacard.
+]]></string>
+
+    <string name="moonsong_cull_lore"><![CDATA[
+Se decía que las armas míticas que dieron nombre a las moonblades cantaban con mayor intensidad
+por cada hilo vital que cercenaban. Algunas Clanblades emulan este lamento inquietante, desplazándose
+de una presa a otra mientras dejan tras de sí los gritos y los chorros de sangre arterial de sus enemigos.
+
+]]></string>
+
+    <string name="moonsong_cull_description"><![CDATA[
+Una vez durante cada activacion de este Operativo, despues de que haya hecho la accion de **Sprint**
+hacia adelante e incapacite a un Operativo enemigo durante una accion de **Combatir**, si deja de estar
+dentro del rango de control de un Operativo enemigo, puedes usar esta regla. Si lo haces, puede inmediatamente
+hacer una accion de **Sprint** gratis usando cualquier cantidad restante de movimiento de esa primera
+accion de **Sprint**, pero no puede pivotear durante esa accion gratid. Ese Operativo puede hacer
+dos acciones de **Sprint** durante su activacion para hacerlo, y su **SPEED** es medida usando la distancia
+movida durante ambas acciones de **Sprint** combinadas. El Operativo no puede hacer ninguna otra accion
+durante esas acciones.
+]]></string>
+
+    <string name="SPECTRAL_NIMBUS_lore"><![CDATA[
+Aquellos Hojas del Clan destinados a superar las pruebas más letales
+dominan el control de las energías de los escudos de escamas.
+Aprenden a canalizar sus propios dones psíquicos
+a través de los controles hápticos, proyectando un halo protector
+de energía empírica capaz de desviar lo que, de otro modo,
+sería la más grave de las heridas.
+]]></string>
+
+    <string name="SPECTRAL_NIMBUS_description"><![CDATA[
+Una vez por turno, cuando este Operativo este **Combatiendo** o **Retaleando**, despues de que tu oponente
+lance sus dados de ataque, pero antes de hacer Re-rolls, puedes usar esta regla. Si lo haces, tu oponente no
+puede retener resultados de dados menores a 6 como resultados criticos durante esa secuencia (e.g. Lethal,
+Rending o Severe).
+]]></string>
+
+    <string name="FOCUSED_REFLECTION_lore"><![CDATA[
+Gracias a unos reflejos sobrenaturales y a una inclinación experta de su escudo de escamas, el Clanblade es
+capaz de desviar la energía refractada de los disparos de un enemigo sin honor, devolviéndosela directamente.
+]]></string>
+
+    <string name="FOCUSED_REFLECTION_description"><![CDATA[
+Cuando un Operativo enemigo este disparando a este Operativo a 6\" de el, si usas uno o mas exitos
+criticos para bloquear los ataques de tu oponente, puedes usar esta regla. Si lo haces, despues de esa
+accion, antes de que Operativos incapacitados sean removidos (incluyendo este), inflige 1 herida a ese
+Operativo enemigo por cada resultado critico usado de esta forma.
+]]></string>
+
+    <string name="SPEARTIP_lore"><![CDATA[
+Dentro de su tríada, el papel ritual de los Clanblades consiste en encabezar la carga contra la presa.
+Los ejemplares más célebres golpean a sus objetivos como una lanza
+celestial; su velocidad es, en sí misma, un arma tan afilada como cualquiera de las que componen su arsenal.
+]]></string>
+
+    <string name="SPEARTIP_description"><![CDATA[
+Cuando este Operativo este combatiendo:\n
+\n
+• Si tiene **SPEED 4+**, la primera vez que ataques con un exito normal durante esa secuencia, inflige
+1 herida adicional.\n
+\n
+• Si tiene **SPEED 7+**, añade 1 a la estadistica de daño normal de armas de melee en la datacard de este
+Operativo.
+]]></string>
+
+    <string name="BLADED_STANCE_lore"><![CDATA[
+Los Clanblades perfeccionan sus habilidades marciales cazando a algunos de los dragones más peligrosos.
+Son criaturas de tal velocidad y fuerza que solo aquellos con reflejos lo suficientemente rápidos para
+frenar y desviar su primer ataque logran sobrevivir al encuentro.
+]]></string>
+
+    <string name="BLADED_STANCE_description"><![CDATA[
+Cuando este Operativo este **combatiendo** o **retaleando** con sus Moonblades, puedes resolver uno de tus
+exitos antes del orden normal. Si lo haces, ese exito debe ser usado para bloquear.
+]]></string>
+
+    <string name="NOMAD_EXECUTIONER_lore"><![CDATA[
+Aquellos que pretenden burlar a los grupos de caza de los Maestros Dragón son rápidamente localizados
+por los tiradores excepcionalmente diestros de las tríadas. Los Leystalkers preparan, cargan,
+apuntan y disparan sus largos rifles mediante movimientos fluidos y elegantes mientras se desplazan,
+buscando ya a su siguiente objetivo antes incluso de que caiga la primera víctima.
+]]></string>
+
+    <string name="NOMAD_EXECUTIONER_description"><![CDATA[
+Cuando este Operativo esta haciendo la accion de **Sprint**, puede hacer la accion de **Disparo** durante
+esa accion (debe hacerlo en un lugar donde la miniatura pueda ser puesta, cualquier cantidad restante de su
+**Sprint** puede ser usada despues). Notese que la accion de **Disparo** ocurre antes de que la accion de
+**Sprint** termine, por lo que esa accion de **Disparo**, la **SPEED** de este Operativo es la que sea
+que haya tenido antes del inicio de la accion de **Sprint**.
+]]></string>
+
+    <string name="ELUSIVE_PHANTASM_lore"><![CDATA[
+Los Acechadores Leystalkers están en constante movimiento. Exploran los territorios de caza, localizan
+a los enemigos y ponen a prueba su fuerza, todo ello mientras escapan una y otra vez de las garras del
+adversario. Sus habilidades han llevado a muchos de sus enemigos a creer que se trata de algún tipo de
+espíritu incorpóreo. Y mientras la paranoia del enemigo aumenta, el Acechador ya los tiene en el punto
+de mira desde un ángulo totalmente inesperado.
+]]></string>
+
+    <string name="ELUSIVE_PHANTASM_description"><![CDATA[
+Al final de cada fase de activaciones (firefight phase), si este Operativo no esta dentro del rango de
+control de un Operativo enemigo, puede hacer una accion de **Sprint** o **Turn** gratis, no puede moverse
+mas de 3\" durante esa accion y su **SPEED** permanece igual. Notese que aun debe tener la cantidad de
+movimiento restante necesaria durante el turno para hacer esta accion.
+]]></string>
+
+    <string name="FATED_SHOT_lore"><![CDATA[
+Algunos Acechadores Leystalkers descifran senderos ocultos en las líneas de energía de un mundo con
+propósitos que trascienden el interés propio. Trazan la trayectoria de un disparo de precisión para
+que este atraviese vapores turbulentos y vegetación que azota el aire, deslizándose sin peligro junto
+a los aliados hasta impactar en el punto más vulnerable de las defensas enemigas.
+
+]]></string>
+
+    <string name="FATED_SHOT_description"><![CDATA[
+Una vez por turno, cuando este Operativo haga la accion de **Disparo** y seleccionas un perfil de su
+Long Rifle, puedes usar esta regla. Si lo haces, selecciona una de las siguientes reglas para que tenga
+hasta el final de esa secuencia:\n
+\n
+• Operativos enemigos no pueden estar Obscurecidos.\n
+\n
+• Tener otros aliados **EXODITE DRAGON MASTER** dentro del rango de control de enemigos no previene
+que ese enemigo pueda ser seleccionado como un objetivo valido.
+]]></string>
+
+    <string name="NEXUS_SENTINEL_lore"><![CDATA[
+Allí donde convergen las líneas de poder ya sean las vívidas corrientes de un mundo Exodita o las
+energías tenues de los flujos naturales, los Acechadores de Líneas pueden acceder a percepciones
+sensoriales de una amplitud y agudeza increíbles. Pocos enemigos pueden acercarse sin ser detectados
+a un lugar controlado por un Acechador de Líneas.
+]]></string>
+
+    <string name="NEXUS_SENTINEL_description"><![CDATA[
+Una vez por turno, este Operativo puede hacer la accion de **Guard** durante su activacion si importar
+el campo, tiene **SPEED 3-**. Cuando este Operativo hace un disparo Point-Blank como resultado de la accion
+de **Guard**, no empeora la estadistica de sus armas.
+]]></string>
+
+    <string name="GLOAMING_MANTLE_lore"><![CDATA[
+Maestros en fundirse con el entorno y
+en invocar las energías de ocultación de las líneas telúricas,
+los Acechadores de Líneas pueden desvanecerse ante la mirada de quienes
+intentan darles caza, como si se envolvieran en un
+crepúsculo sobrenatural.
+]]></string>
+
+    <string name="GLOAMING_MANTLE_description"><![CDATA[
+Cuando un Operativo esta disparando a este Operativo a mas de 8\", si no puedes retener dados
+por cobertura, puedes retener un dado de defensa como un resultado normal sin lanzarlo, si puedes
+retener cualquier cantidad de dados por cobertura, puedes retener uno como salvacion critica en su lugar.
+]]></string>
+
+    <string name="WAILS_WORLD_lore"><![CDATA[
+Un lamento agudo y desgarrador emitido por un Cantor de Piedra revela su aborrecimiento hacia el enemigo.
+El sonido se eleva en un gemido reverberante hasta hacer que el aire que rodea al adversario y el
+suelo bajo sus pies se estremezcan. Quienes carecen de la agilidad necesaria para mantenerse en pie
+corren el riesgo de ser devorados por grietas repentinas,
+golpeados por rocas que se desploman o atrapados en flujos viscosos de materia que antes era sólida.
+]]></string>
+
+    <string name="WAILS_WORLD_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="WAILS_WORLD_description2"><![CDATA[
+**PSYCHIC**. Selecciona un Operativo visible para este Operativo. Sustrae 2\" de su estadistica de movimiento
+y a cada Operativo enemigo a 2\" de el hasta el final de su siguiente activacion (esto no se acumula al
+esta lesionado). Operativos **MOUNTED** no son afectados.\n
+\n
+Lanza 2D3 por separado para cada uno de esos Operativos: inflige daño a esos Operativos equivalente a la diferencia
+entre el resultado y su nueva estadistica de movimiento (esto toma precedencia si las estadisticas no cambian
+durante la accion). Operativos **MOUNTED** no son afectados.\n\n
+Este Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo enemigo.
+O mas de una vez por turno.
+]]></string>
+
+
+
+    <string name="CLEANSING_MOON_lore"><![CDATA[
+El Cantor de Piedra teje un clamor psíquico de purificación.
+Las toxinas son expulsadas y la angustia se calma al invocar a la Doncella de la Luna, perdida hace
+mucho tiempo.
+]]></string>
+
+    <string name="CLEANSING_MOON_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="CLEANSING_MOON_description2"><![CDATA[
+**PSYCHIC**. Selecciona un aliado **EXODITE DRAGON MASTER** visible para este Operativo. Remueve una regla
+o cambio a la estadisticas que tu oponente haya aplicado (e.g. venenos, -1AP, evitar que pueda ser activado,
+etc) Esto no permite que recupere heridas o remover tokens por misiones o ignorar efectos al estar lesionado.\n\n
+
+Este Operativo no puede hacer esta accion mientras este dentro del rango de control de un Operativo enemigo.
+Notese que a diferencia de otras mejoras de este Operativo, este Operativo puede hacer esta accion mas
+de una vez por batalla.
+]]></string>
+
+    <string name="SOW_SEEDS_lore"><![CDATA[
+Acelerando los lentos ritmos de la vida vegetal, brotan zarcillos y raíces dotados de un
+movimiento antinatural, señalando los lugares como territorios bajo el dominio de los Cantores de Piedra.
+]]></string>
+
+    <string name="SOW_SEEDS_description"><![CDATA[
+Una vez por turno, durante la activacion de este Operativo, antes o despues de que haga una accion,
+puedes usar esta regla. Si lo haces, selecciona un marcador de objetivo que este controlando. Hasta que
+este Operativo sea incapacitado, hasta que uses esta regla otra vez o hasta que un Operativo controle ese
+marcador (lo que pase primero), este Operativo es tratado como contesteando ese marcador con 1 APL y
+controla ese marcador para el proposito de misiones (incluso si no esta dentro del rango de control).
+Notese que eso permite al Operativo realizar acciones de mision que requieran controlar el objetivo.
+]]></string>
+
+    <string name="WINDS_GRACE_lore"><![CDATA[
+Con ráfagas arremolinadas, el psíquico difumina las siluetas de sus aliados para protegerlos.
+]]></string>
+
+    <string name="WINDS_GRACE_usage"><![CDATA[
+1AP
+]]></string>
+
+    <string name="WINDS_GRACE_description2"><![CDATA[
+**PSYCHIC**. Selecciona un aliado **EXODITE DRAGON MASTER** visible para este Operativo. Hasta el inicio
+de la primera activacion de este Operativo durante el siguiente turno, hasta que sea incapacitado o
+use esta regla otra vez (lo que pase primero), ese Operativo seleccionado tiene un **SPEED** superior a uno
+(si tiene **SPEED 3-**, tiene **SPEED 4+**; si tiene **SPEED 4+**, tiene **SPEED 7+**).\n\n
+
+Este Operativo no puede hacer esta accion si esta dentro del rango de control de un Operativo, o mas
+de una vez por turno.
+]]></string>
+
+    <string name="EARTHEN_WRATH_lore"><![CDATA[
+El gesto arcano de un Cantor de Piedra puede provocar erupciones de esquirlas rocosas o licuar el suelo
+antes sólido para engullir al enemigo
+]]></string>
+
+    <string name="EARTHEN_WRATH_description"><![CDATA[
+Este Operativo tiene la siguiente arma:
+]]></string>
+
+    <string name="EARTHEN_WRATH_usage"><![CDATA[
+Special Weapon Rule
+]]></string>
+
+    <string name="EARTHEN_WRATH_description2"><![CDATA[
+Si el objetivo esta en cobertura, esta arma gana la regla Lethal 5+.
+]]></string>
+
+    <!--Equipment-->
+
+    <string name="dragonscale_lore"><![CDATA[
+Estas singulares armaduras de malla incorporan las escamas cristalinas y resplandecientes de
+dragones ancestrales, y son capaces de resistir incluso ataques de naturaleza esotérica.
+]]></string>
+
+    <string name="dragonscale_description"><![CDATA[
+Una vez por turno, cuando un Operativo este disparando a un aliado **EXODITE DRAGON
+MASTER MOUNTED**, en la fase de lanzar dados de defensa, puedes retener uno de tus exitos normales
+como un exito critico en su lugar.
+]]></string>
+
+    <string name="exodite_seals_lore"><![CDATA[
+Los talismanes poderosos pueden invocar mitos celestiales, portar las bendiciones de los señores del
+clan o contener tecnología arcana y sellos psíquicos. Tales objetos infunden la determinación de
+luchar por el clan con exquisita gracia y finura.
+]]></string>
+
+    <string name="exodite_seals_description"><![CDATA[
+Una vez por turno, cuando un aliado **EXODITE
+DRAGON MASTER MOUNTED** este disparando, combatiendo o retaleando, si lanzas 2 o mas fallos, puedes
+descartar uno de ellos para retener otro como un exito normal en su lugar.
+]]></string>
+
+    <string name="crystal_matrices_lore"><![CDATA[
+Cristales excepcionalmente raros, provenientes de los mundos vírgenes más inaccesibles, concentran
+los disparos del armamento láser de los Exoditas en haces abrasadores.
+]]></string>
+
+    <string name="crystal_matrices_description"><![CDATA[
+Una vez por turno, cuando un aliado **EXODITE DRAGON MASTER** esta haciendo la accion de **Disparo**
+y estas seleccionando tu Solar Carbine o un perfil de su Long Rifle, puedes usar esta regla. Si lo haces,
+hasta el final de esa activacion, esa arma tiene la regla Piercing 1.
+]]></string>
+
+    <string name="exodites_stones_lore"><![CDATA[
+Las piedras espirituales que albergan las almas de una antigua tríada son artefactos de valor
+incalculable, cuyos ocupantes transmiten sabiduría a sus compañeros vivos. Si el portador de tales
+tesoros cae en combate, sus camaradas luchan con mayor ahínco para recuperar su piedra y las de
+aquellos que partieron hace mucho tiempo; no se puede permitir que semejante colección de las almas
+más poderosas del clan caiga en las garras profanas del enemigo.
+]]></string>
+
+    <string name="exodites_stones_description"><![CDATA[
+Cuando un aliado **EXODITE DRAGON
+MASTER MOUNTED** es incapacitado, ganas 1CP.
+]]></string>
+
+    <!--Ploys-->
+    <!--Strategy ploys-->
+    <string name="wind_precision_lore"><![CDATA[
+Los Maestros Dragón son tiradores montados excepcionales. A gran velocidad, aprovechan
+intuitivamente los breves instantes de calma en el andar de sus dracos de monta para acertar
+disparos de precisión contra enemigos aturdidos.
+]]></string>
+
+    <string name="wind_precision_description"><![CDATA[
+Cuando un aliado **EXODITE DRAGON MASTER** esta disparando, si tiene **SPEED 4+**, sus armas de rango tienen
+la regla Balanced.
+]]></string>
+
+    <string name="draconic_fury_lore"><![CDATA[
+Ya sea en veloces acometidas de golpe y fuga o en audaces embestidas a través de las líneas enemigas,
+la compostura y el equilibrio de los Exoditas y sus dragones a gran velocidad son legendarios.
+]]></string>
+
+    <string name="draconic_fury_description"><![CDATA[
+Cuando un aliado **EXODITE DRAGON MASTER** esta combatiendo:\n
+\n
+• Si tiene **SPEED 4+**, sus armas de melee tienen la regla Balanced.\n
+\n
+• Si tienen **SPEED 7+**, sus armas de melee tienen la regla Ceaseless.
+]]></string>
+
+    <string name="sinuous_flux_lore"><![CDATA[
+Los Maestros Dragón que salen de caza son depredadores aterradoramente esquivos.
+Tanto los jinetes expertos como sus monturas reptilianas y
+bestias de caza se desplazan serpenteando y enroscándose para eludir los ataques de sus enemigos.
+]]></string>
+
+    <string name="sinuous_flux_description"><![CDATA[
+Cuando un Operativo enemigo este disparando a un aliado **EXODITE DRAGON MASTER** a mas de 6\" de el,
+si ese aliado tiene **SPEED 4+** o **SPEED 7+**, tu oponente no puede re-rollear sus dados.
+]]></string>
+
+    <string name="ride_them_down_lore"><![CDATA[
+Los corceles dracónicos son bestias grandes y feroces, absolutamente letales cuando sus garras
+cortantes y sus colmillos desgarradores se ven potenciados por un impacto demoledor.
+]]></string>
+
+    <string name="ride_them_down_description"><![CDATA[
+Una vez durante cada activacion de aliados **EXODITE DRAGON MASTER MOUNTED**, cuando este Operativo
+termina su movimiento durante una accion de **Sprint**:\n
+\n
+• Si se ha movido 4\" o mas durante esa accion, puedes infligir 1 herida a un Operativo enemigo dentro
+de su rango de control.\n
+\n
+• Si ha movido 7\" o mas durante esa accion, o si es un aliado **CLANBLADE**, puedes infligir D3 heridas
+a un Operativo enemigo dentro de su rango de control.
+]]></string>
+
+
+
+    <!--Firefight ploys-->
+    <string name="survivalist_spirit_lore"><![CDATA[
+Los Maestros Dragón han soportado largas vidas de pruebas extenuantes. Sus profundas reservas de
+resiliencia espiritual los fortalecen frente a muchas heridas.
+]]></string>
+
+    <string name="survivalist_spirit_description"><![CDATA[
+Usa esta Firefight ploy durante la activacion o counteract de un aliado **EXODITE DRAGON MASTER MOUNTED**
+antes o despues de hacer una accion. Hasta el inicio de su siguiente activacion, puedes ignorar cualquier cambio
+al sus estadisticas por estar lesionado.
+]]></string>
+
+    <string name="exodite_leap_lore"><![CDATA[
+La agilidad sobrenatural y la musculatura fibrosa de los corceles dracónicos les permiten reposicionarse
+rápidamente mediante un movimiento único y ágil.
+]]></string>
+
+    <string name="exodite_leap_description"><![CDATA[
+Usa esta Firefight ploy cuando un aliado **EXODITE DRAGON MASTER MOUNTED** haga la accion de **Sprint**.
+En vez de mover ese Operativo, remuevelo del campo y vuelvelo a poner en una locacion en la que pueda
+ser puesto a 1\" horizontalmente de su locacion original. Esta distancia no puede ser medida a traves
+de piezas de terreno mas altas que 2\" del piso del campo, y ese Operativo no puede ser puesto en
+terreno aventajado de mas de 2\" de altura del campo. Este Operativo es tratado como si se hubiera movido
+3\" para el proposito de este movimiento y tiene **SPEED 3-**.
+]]></string>
+
+    <string name="feral_hunger_lore"><![CDATA[
+Con el olor a sangre y miedo en el aire, los Exoditas desatarán voluntariamente los instintos más
+feroces y salvajes de sus dragones carnívoros.
+]]></string>
+
+    <string name="feral_hunger_description"><![CDATA[
+Usa esta Firefight ploy despues de lanzar tus dados de ataque para un aliado **EXODITE DRAGON MASTER**,
+si esta combatiendo contra un Operativo herido con sus Drakesteed Fangs & Talons, puedes re-rollear
+cualquiera de tus dados de ataque.
+]]></string>
+
+    <string name="riding_mastery_lore"><![CDATA[
+El dominio que los Maestros Dragón ejercen sobre sus monturas dracónicas se suma a la destreza y el
+atletismo excepcionales de su propia especie. Para defender el futuro de sus clanes, los Maestros
+Dragón son capaces de realizar maniobras asombrosas mientras avanzan a toda velocidad por territorio hostil.
+]]></string>
+
+    <string name="riding_mastery_description"><![CDATA[
+Usa esta Firefight ploy cuando un aliado **EXODITE DRAGON MASTER MOUNTED** haga una accion de **Sprint**
+durante su activacion. Durante esa accion, ese Operativo puede hacer la accion **Pick Up Marker, Place Marker**
+o una **Accion de Mision** (puedes determinar el control durante esa accion), y cualquier cantidad restante
+que tenga de esa accion de **Sprint** puede ser usada despues de hacerlo.
+]]></string>
+
+</resources>

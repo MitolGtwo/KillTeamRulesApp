@@ -320,8 +320,8 @@ combat almost any foe
 
     <string name="mission_tactics_description"><![CDATA[
 Select Conceal or Engage. Whenever a friendly
-**DEATHWATCH** operative is shooting against or
-fighting against an enemy operative that has that
+**DEATHWATCH** operative is shooting against,
+fighting against or [[blue]]retaliating[[/blue]] an enemy operative that has that
 order, that friendly operative’s weapons have the
 Balanced weapon rule.
 ]]></string>
@@ -377,7 +377,7 @@ hatred of the alien.
     <string name="suffer_not_the_alien_description"><![CDATA[
 Use this firefight ploy after rolling your attack dice
 for a friendly **DEATHWATCH** operative, if its
-shooting against or fighting against an operative
+shooting against, fighting against [[blue]]or retaliating[[/blue]] an operative
 that doesnt have the CHAOS or IMPERIUM
 keyword. You can re-roll any of your attack dice.
 ]]></string>

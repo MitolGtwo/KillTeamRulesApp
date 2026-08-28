@@ -42,7 +42,7 @@ normal en su lugar.
     <string name="gong_knell_description"><![CDATA[
 Hasta el inicio de la proxima activacion de este Operativo, o hasta que este Operativo sea incapacitado
 (lo que pase lo primero), cuando un Operativo este disparando a este Operativo, mejora su estadistica
-de Salvacion por 1 e ignora la regla Piercing.
+de Salvacion por 1.
     ]]></string>
 
     <string name="blade_whirl_usage"><![CDATA[
@@ -125,7 +125,7 @@ dentro del rango de control de cualquier otro Operativo enemigo:\n
     ]]></string>
 
     <string name="incite_fury_description"><![CDATA[
-**SUPPORT.** Selecciona un aliado **FELLGOR RAVAGER** (excluyendo **SHAMAN** o **IRONHORN**) visible
+Selecciona un aliado **FELLGOR RAVAGER** (excluyendo **SHAMAN** o **IRONHORN**) visible
 y a 3\" de este Operativo. Hasta el final de la proxima activacion de ese Operativo, añade 1 a su
 estadistica de APL.\n\n
 
@@ -262,6 +262,7 @@ alguna de las siguientes reglas se cumplen:\n
 \n• Un Operativo enemigo esta combatiendo o retaleando, y tu oponente golpea por segunda vez
 con un exito normal. Notese que pueden ser golpes de dos acciones de **Combate** distintas.\n
 \n• Un Operativo enemigo esta disparando e inflige daño critico.\n
+\n• [[red]]Un Operativo enemigo esta disparandole y daño normal de dos o mas ataques es infligido.[[/red]]\n
 \n• La batalla termina (resuelve esto antes de cualquier condicion de victoria al final de la batalla)\n
 \n
 \nTu Oponente trata a esos Operativos **FELLGOR RAVAGER** como si estuvieran incapacitados (en vez de una

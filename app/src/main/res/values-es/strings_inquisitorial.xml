@@ -92,9 +92,9 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     ]]></string>
 
     <string name="inquisitorial_tomes_description"><![CDATA[
-**STRATEGIC GAMBIT** si este Operativo está en el campo y/o cuando este Operativo sea activado. Selecciona
+**STRATEGIC GAMBIT** si este Operativo está en el campo. Selecciona
 uno de los siguientes **TOMOS INQUISIDORES** para este Operativo, y otro para un aliado **INQUISITORIAL AGENT
-TOME-SKULL** (pueden ser el mismo, ignora la regla que no seleccionaste para cada Operativo):\n
+TOME-SKULL** ([[red]]No [[/red]]pueden ser el mismo, ignora la regla que no seleccionaste para cada Operativo):\n
 \n• **Denuncia**: Cuando un aliado **INQUISITORIAL AGENT** esté disparando, combatiendo o retaleando
 contra un Operativo enemigo a 2\" de un aliado con esta regla, añade 1 a la estadística de Atk del
 arma de ese operativo aliado.\n

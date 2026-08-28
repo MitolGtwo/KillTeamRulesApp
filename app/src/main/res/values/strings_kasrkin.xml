@@ -51,7 +51,7 @@ incapacitated, or if its a **Shoot** action and this operative would be a primar
     ]]></string>
 
     <string name="kasrkin_medikit_usage"><![CDATA[
-        1AP
+        0AP
     ]]></string>
 
     <string name="kasrkin_medikit_description"><![CDATA[

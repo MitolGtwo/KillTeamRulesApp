@@ -1,0 +1,82 @@
+package com.example.killteamruleset.ui.components.components
+
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.example.killteamruleset.ui.model.Ability
+import com.example.killteamruleset.ui.model.KeywordInfo
+
+@Composable
+fun AbilityCard(
+    ability: Ability,
+    onKeywordClick: (KeywordInfo) -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(8.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
+    ) {
+        Column(modifier = Modifier.padding(12.dp)) {
+
+            ability.title?.let {
+                Text(
+                    text = it,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            Spacer(Modifier.height(4.dp))
+
+            ability.usage?.let {
+                Text(
+                    text = stringResource(it),
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.primary,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            // OPTIONAL IMAGE
+            ability.imageRes?.let { resId ->
+                Spacer(Modifier.height(12.dp))
+                Image(
+                    painter = painterResource(resId),
+                    contentDescription = null,
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .heightIn(min = 160.dp)
+                        .clip(RoundedCornerShape(8.dp))
+                )
+            }
+
+            Spacer(Modifier.height(8.dp))
+
+            ability.description?.let {
+                AbilityDescriptionText(
+                    text = stringResource(it),
+                    onKeywordClick = onKeywordClick
+                )
+            }
+        }
+    }
+}

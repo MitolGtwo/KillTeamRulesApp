@@ -111,11 +111,12 @@ for this rule.\n\n
     <string name="battleclade_network_description"><![CDATA[
 **SUPPORT**. Select one friendly **BATTLECLADE SERVITOR** operative within 6\" of either this operative or a friendly
 **BATTLECLADE AUTO-PROXY** operative to immediately **NETWORK COUNTERACT** (you dont have to **TRANSFER
-POWER** to do so)[[blue]] or perform a free **Dash** action[[/blue]]. Continue this operatives activation after doing so. For the purposes of the Comms Device universal
+POWER** to do so) or perform a free **Dash** action. Continue this operatives activation after doing so. For the purposes of the Comms Device universal
 equipment, the operative the distance is being determined from must control that marker.\n\n
 
-[[blue]]This operative can perform this action twice during its activation, but cannot perform this
-action while within control range of an enemy operative.[[/blue]]
+This operative can perform this action twice during its activation, but cannot perform this
+action while within control range of an enemy operative [[red]]and it must select a different Operative
+each time[[/red]].
     ]]></string>
 
 

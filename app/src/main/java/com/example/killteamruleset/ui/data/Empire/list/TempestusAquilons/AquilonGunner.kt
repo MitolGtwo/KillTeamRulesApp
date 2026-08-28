@@ -62,16 +62,7 @@ val AquilonGunner = Operative(
     ),
 
     abilities = listOf(
-        Ability(
-            title = "Salvo",
-            usage = R.string.tempestus_salvo_usage,
-            description = R.string.tempestus_salvo_description
-        ),
-        Ability(
-            title = "Gunfight",
-            usage = R.string.gunfight_usage,
-            description = R.string.gunfight_description
-        ),
+
     ),
 
 

@@ -29,7 +29,7 @@ val RavenerPrime = Operative(
         apl = 3,
         move = "7\"",
         save = "5+",
-        wounds = 21
+        wounds = 19
     ),
     weapons = listOf(
         WeaponProfile(

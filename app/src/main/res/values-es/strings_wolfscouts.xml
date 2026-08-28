@@ -40,7 +40,8 @@ inicio de la batalla (incluso aunque sea incapacitado).
 Selecciona un aliado **WOLF SCOUT** dentro del rango de control de este Operativo para que recupere
 D3+3 heridas perdidas.\n\n
 
-Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
+Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo, [[red]]o
+mas de una vez por turno[[/red]].
     ]]></string>
 
     <string name="storm_eilede_execution_usage"><![CDATA[
@@ -48,7 +49,7 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     ]]></string>
 
     <string name="storm_eilede_execution_description"><![CDATA[
-Cuando este Operativo está dentro de tu **Tormenta**:\n
+Cuando este Operativo está [[red]]completamente [[/red]]dentro de tu **Tormenta**:\n
 \n• Puede hacer la acción **Guard** sin importar la killzone\n
 \n• Puede hacer la acción de **Guard** mientras tiene una orden de **Conceal**, pero si lo hace, no
 puede hacer más de una acción de **Disparo** durante el resto del turno (no puede disparar ambas veces,
@@ -73,7 +74,7 @@ Este Operativo no puede realizar esta acción mientras esté en rango de control
     ]]></string>
 
     <string name="tempest_fury_description"><![CDATA[
-Cuando este Operativo está dentro de tu **Tormenta**:\n
+Cuando este Operativo está [[red]]completamente [[/red]]dentro de tu **Tormenta**:\n
 \n• Todos los perfiles de su Plasma Gun ganan la regla Punishing.\n
 \n• Su Plasma Gun (Supercharge) no tiene la regla Hot.
     ]]></string>
@@ -83,7 +84,7 @@ Cuando este Operativo está dentro de tu **Tormenta**:\n
     ]]></string>
 
     <string name="fierce_temperament_description"><![CDATA[
-Cuando este Operativo esté dentro de tu **Tormenta**, sus armas ganan la regla Severe.
+Cuando este Operativo esté [[red]]completamente [[/red]]dentro de tu **Tormenta**, sus armas ganan la regla Severe.
     ]]></string>
 
     <string name="cast_the_runes_usage"><![CDATA[
@@ -93,7 +94,7 @@ Cuando este Operativo esté dentro de tu **Tormenta**, sus armas ganan la regla 
     <string name="cast_the_runes_description"><![CDATA[
 Despues de seleccionar este Operativo, antes de la batalla, lanza tres D6 y ponlos a un lado. Por
 cada resultado de 1-4, puedes usar un Command Re-roll gratis durante el turno equivalente al resultado
-del dado. Por cada dado resultado de 5-6, ganas 1CP. Por ejemplo, si lanzas 2, 2 y 5, ganas 1CP y durante
+del dado. [[red]]si uno o mas resultados son 5-6, ganas 1CP[[/red]]. Por ejemplo, si lanzas 2, 2 y 5, ganas 1CP y durante
 el segundo turno tienes dos Command Re-rolls gratis.
     ]]></string>
 
@@ -105,7 +106,7 @@ el segundo turno tienes dos Command Re-rolls gratis.
 **PSYCHIC**. Remueve tu marcador de Tormenta del campo y ponlo en el campo.\n
 \n**PSYCHIC**. Alternativamente, en vez de resolver el efecto de arriba, selecciona un aliado **WOLF SCOUT**.
 Hasta el inicio de la próxima activación de este Operativo, hasta que sea incapacitado o hasta que haga
-esta acción otra vez (lo que pase primero), siempre que ese Operativo esté dentro de tu **Tormenta** y
+esta acción otra vez (lo que pase primero), siempre que ese Operativo esté [[red]]completamente [[/red]] dentro de tu **Tormenta** y
 a más de 3\" del Operativo activo, está Obscurecido.\n\n
 
 Este Operativo no puede realizar esta acción mientras esté en rango de control de un enemigo.
@@ -169,9 +170,9 @@ los elementos mismos.
 
     <string name="elemental_storm_description"><![CDATA[
 **STRATEGIC GAMBIT**. Remueve tu marcador de **Tormenta** del campo (si hay alguno), luego ponlo
-en el campo. Cuando un Operativo está a 6\" horizontalmente de tu Tormenta, está dentro de tu **Tormenta**   .\n
+en el campo. Cuando un Operativo está [[red]]completamente[[/red]] a 6\" horizontalmente de tu Tormenta, está dentro de tu **Tormenta**   .\n
 \nCada aliado **WOLF SCOUT** puede hacer la acción de **Cargar** mientras tenga una orden de **Conceal**
-[[red]]si termina esa accion[[/red]] dentro de tu **Tormenta**.
+si termina esa accion dentro de tu **Tormenta**.
 ]]></string>
 
     <string name="hunting_astartes_lore"><![CDATA[
@@ -199,7 +200,7 @@ mientras que otras son fragmentos de diamante energizado, que parecen forjados c
 ]]></string>
 
     <string name="frost_weapons_description"><![CDATA[
-[[red]]Cuando un aliado **WOLF SCOUT** esta completamente dentro de tu **Tormenta**[[/red]], sus
+Cuando un aliado **WOLF SCOUT** esta completamente dentro de tu **Tormenta**, sus
 Combat Blades dganan la regla Lethal 5+ (si tienen).
 ]]></string>
 
@@ -211,7 +212,7 @@ secretos del grabado de estos amuletos más poderosos, que los Lobos Espaciales 
 
     <string name="runic_charms_description"><![CDATA[
 Una vez por turno, cuando un Operativo esté disparando a un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**)
-[[red]]que este completamente dentro de tu **Tormenta**[[/red]],
+que este completamente dentro de tu **Tormenta**,
 al inicio de la fase de tirar dados de defensa, puedes usar esta regla. Si lo haces, empeora el valor
 de la regla Piercing a 1 hasta el final de esa secuencia. Notese que Piercing 1 por lo tanto sería ignorado.
 ]]></string>
@@ -236,9 +237,9 @@ amuletos de buena suerte y protección contra ataques malignos.
 ]]></string>
 
     <string name="talismanic_trophies_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) [[red]]que este completamente dentro de tu
-**Tormenta**[[/red]] está combatiendo o retaleando,
-en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un éxito [[red]]normal[[/red]].
+Cuando un aliado **WOLF SCOUT** (excluyendo **FENRISIAN WOLF**) que este completamente dentro de tu
+**Tormenta** está combatiendo o retaleando,
+en la fase de resolver dados de ataque, puedes sustraer 1 al daño infligido de un éxito normal.
 ]]></string>
 
 
@@ -283,7 +284,8 @@ para debilitar a su presa.
 ]]></string>
 
     <string name="savage_fighters_description"><![CDATA[
-Cuando un aliado **WOLF SCOUT** termina de retalear, si no fue incapacitado, puedes infligir D3+1 heridas
+Cuando un aliado **WOLF SCOUT** termina de retalear, si no fue incapacitado[[red]]y sigue dentro del rango
+de control del Operativo enemigo en esa secuencia[[/red]], puedes infligir D3+1 heridas
 a un Operativo enemigo en esa secuencia.
 ]]></string>
 

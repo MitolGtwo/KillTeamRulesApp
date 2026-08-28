@@ -68,8 +68,8 @@ daño critico de tu arma a ese Operativo enemigo durante esa secuencia.
     <string name="whip_into_frenzy_description"><![CDATA[
 Selecciona otro Operativo aliado **NOVITIATE** (excluyendo **SUPERIOR**) visible y a 3\" de este Operativo
 que no se este beneficiando actualmente del efecto de esta accion. Hasta el fin de la siguiente activacion
-de ese Operativo, añade 1\" a su estadistica de movimiento, puede hacer dos acciones de **Combate**
-durante su siguiente activacion, y una de ellas puede ser gratis.\n\n
+de ese Operativo, [[blue]]añade 1 a su estadistica de APLs[[/blue]] y añade 1\" a su estadistica de movimiento, puede hacer dos acciones de **Combate**
+durante su siguiente activacion.\n\n
 
 Este Operativo no puede realizar esta accion mientras este en rango de control de un enemigo.
     ]]></string>

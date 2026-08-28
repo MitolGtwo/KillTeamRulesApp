@@ -21,7 +21,7 @@ un Counteract.
     ]]></string>
 
     <string name="timesplinter_description"><![CDATA[
-**SUPPORT**. Selecciona otro aliado **HIEROTEK CIRCLE** que ya haya activado (expended) visible y
+Selecciona otro aliado **HIEROTEK CIRCLE** que ya haya activado (expended) visible y
 a 5\" de este Operativo. Remuevelo del campo y vuelvelo a poner a 5\" horizontalmente de este
 Operativo, en un lugar donde pueda ser puesto. Notese que el equipamiento Comms Device solo
 afecta la primera distancia de esta regla.\n\n
@@ -35,7 +35,8 @@ durante el primer turno, o si un Operativo aliado ya ha realizado esta accion du
     ]]></string>
 
     <string name="countertemporal_nanomine_description"><![CDATA[
-Pon tu marcador Countertemporal Nanomine visible para este Operativo, o en terreno aventajado que sea
+Pon tu marcador Countertemporal Nanomine visible para este Operativo [[red]]y completamente a 8\"[[/red]], o en
+terreno aventajado [[red]]y completamente a 8\"[[/red]] que sea
 visible para este Operativo. Cuando un Operativo enemigo esta a 4\" de tu Countertemporal Nanomine,
 sustrae 2\" a su estadistica de Movimiento. Cuando este Operativo sea el siguiente en activar, sea
 incapacitado o esta accion sea hecha otra vez por un Operativo aliado (lo que pase primero),
@@ -280,7 +281,7 @@ La piel metálica semi-consciente de los Necrones les permite curar daños devas
 ]]></string>
 
     <string name="living_metal_description"><![CDATA[
-En la Ready step de cada Strategy Phase, despues de resolver todas las reglas (Reanimation Protocols), cada aliado
+En la Ready step de cada Strategy Phase, [[red]]antes[[/red]] de resolver todas las reglas de faccion (Reanimation Protocols), cada aliado
 **HIEROTEK CIRCLE** recupera D3+1 heridas perdidas (lanza dado por cada uno).
 ]]></string>
 
@@ -298,7 +299,8 @@ cuerpo de su subordinado dominado.
 Una vez por turno, cuando un aliado **HIEROTEK CIRCLE APPRENTEK** o **HIEROTEK
 CIRCLE CRYPTEK** este haciendo una accion de **Disparo**, puedes usar esta regla. Si lo haces,
 selecciona otro aliado **HIEROTEK CIRCLE** (excluyendo **PLASMACYTE**) que tenga una orden de
-**Engage** y sea visible para ese Operativo aliado. Hasta el final de esa accion, ese otro aliado
+**Engage** y sea visible para ese Operativo aliado [[red]]y que no este dentro del rango de control de un Operativo
+enemigo[[/red]]. Hasta el final de esa accion, ese otro aliado
 puede ser usado como el Operativo activado para usar la regla Magnify.
 ]]></string>
 

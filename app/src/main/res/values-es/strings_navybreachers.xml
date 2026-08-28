@@ -112,10 +112,8 @@ Este Operativo puede hacer la accion de **Fall Back** por 1 AP menos.
     ]]></string>
 
     <string name="navy_boost_description"><![CDATA[
-Hasta el final de la activacion de este Operativo, añade 6\" a su estadistica de movimiento.\n\n
-
-Este Operativo no puede hacer esta accion mas de una vez por batalla, y no puede hacerla durante
-el primer turno.
+[[red]]La proxima vez que este Operativo haga la accion de **Cargar** durante esta activacion, añade 4\"
+a la distancia que puede moverse (en lugar de 2\").[[/red]]
     ]]></string>
 
     <string name="navy_grenadier_usage"><![CDATA[
@@ -256,7 +254,8 @@ letalidad contra un solo objetivo, lo que reduce el impacto a corta distancia.
     <string name="slugs_description"><![CDATA[
 Hasta tres veces por turno, cuando un aliado **IMPERIAL NAVY BREACHER** haga una accion de **Disparo**
 y selecciones un Navis Shotgun (Long Range), puedes usar esta regla. Si lo haces, hasta el final de esa accion,
-mejora la estadistica de Hit de esa arma a 1, y añade 1 a ambas estadisticas de daño.
+mejora la estadistica de Hit de esa arma a 1, y añade 1 a ambas estadisticas de daño,[[blue]] y esa
+arma tiene la regla Accurate 1[[/blue]].
 ]]></string>
 
     <string name="combat_stimms_lore"><![CDATA[

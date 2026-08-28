@@ -28,7 +28,7 @@ val WolfScoutRunePriestSkjald= Operative(
         WeaponProfile(
             name = "Jaws of the World Wolf",
             type = WeaponType.RANGED,
-            attacks = 5,
+            attacks = 4,
             hit = "3+",
             damage = "3/5",
             keywords = listOf(
